@@ -3,7 +3,7 @@
     "bankId": "chem-250",
     "version": 1,
     "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
-    "generatedAt": "2026-09-25T11:12:53.069Z",
+    "generatedAt": "2026-09-25T11:16:48.971Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -22,8 +22,8 @@
       "pending": 196,
       "pendingImage": 0,
       "contested": 4,
-      "translated": 100,
-      "glossaryTerms": 257
+      "translated": 200,
+      "glossaryTerms": 535
     },
     "disclaimer": "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。"
   },
@@ -6781,7 +6781,7 @@
       "type": "single",
       "stem": "Which of the following has eight valence electrons?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个具有8个价电子？",
       "options": [
         {
           "key": "A",
@@ -6804,8 +6804,23 @@
           "text": "all of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ti⁴⁺",
+        "B": "Kr",
+        "C": "Cl⁻",
+        "D": "Na⁺",
+        "E": "以上都是"
+      },
+      "glossary": [
+        {
+          "term": "valence electrons",
+          "meaning": "价电子"
+        },
+        {
+          "term": "noble gas",
+          "meaning": "稀有气体"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -6831,7 +6846,7 @@
       "type": "single",
       "stem": "Which of the following does not have eight valence electrons?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个不具有8个价电子？",
       "options": [
         {
           "key": "A",
@@ -6854,8 +6869,19 @@
           "text": "All of the above have eight valence electrons."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ca⁺",
+        "B": "Rb⁺",
+        "C": "Xe",
+        "D": "Br⁻",
+        "E": "以上都有8个价电子"
+      },
+      "glossary": [
+        {
+          "term": "valence electrons",
+          "meaning": "价电子"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -6881,7 +6907,7 @@
       "type": "single",
       "stem": "Lattice energy is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "晶格能是 ________。",
       "options": [
         {
           "key": "A",
@@ -6904,8 +6930,31 @@
           "text": "the sum of electron affinities of the components in an ionic solid"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "把1 mol 离子固体转化为气态组成离子所需的能量",
+        "B": "气态离子结合成1 mol 离子固体时放出的能量",
+        "C": "由组成元素的标准态生成1 mol 离子化合物所需的能量",
+        "D": "离子固体中各组分电离能之和",
+        "E": "离子固体中各组分电子亲和能之和"
+      },
+      "glossary": [
+        {
+          "term": "lattice energy",
+          "meaning": "晶格能"
+        },
+        {
+          "term": "constituent ions",
+          "meaning": "组成离子"
+        },
+        {
+          "term": "gas phase",
+          "meaning": "气相"
+        },
+        {
+          "term": "standard states",
+          "meaning": "标准态"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -6931,7 +6980,7 @@
       "type": "single",
       "stem": "In ionic bond formation, the lattice energy of ions ________ as the magnitude of the ion charges _______ and the radii ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在离子键形成中，随着离子电荷量 ________、半径 ________，离子的晶格能 ________。",
       "options": [
         {
           "key": "A",
@@ -6954,8 +7003,27 @@
           "text": "increases, decrease, decrease"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "增大，减小，增大",
+        "B": "增大，增大，增大",
+        "C": "减小，增大，增大",
+        "D": "增大，增大，减小",
+        "E": "增大，减小，减小"
+      },
+      "glossary": [
+        {
+          "term": "ionic bond",
+          "meaning": "离子键"
+        },
+        {
+          "term": "magnitude",
+          "meaning": "大小、量值"
+        },
+        {
+          "term": "radii",
+          "meaning": "半径（复数）"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -6981,7 +7049,7 @@
       "type": "single",
       "stem": "The ability of an atom in a molecule to attract electrons is best quantified by the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "分子中原子吸引电子的能力最好用 ________ 来量化。",
       "options": [
         {
           "key": "A",
@@ -7004,8 +7072,35 @@
           "text": "first ionization potential"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "顺磁性",
+        "B": "抗磁性",
+        "C": "电负性",
+        "D": "电子荷质比",
+        "E": "第一电离势"
+      },
+      "glossary": [
+        {
+          "term": "attract",
+          "meaning": "吸引"
+        },
+        {
+          "term": "quantified",
+          "meaning": "量化"
+        },
+        {
+          "term": "electronegativity",
+          "meaning": "电负性"
+        },
+        {
+          "term": "paramagnetism",
+          "meaning": "顺磁性"
+        },
+        {
+          "term": "diamagnetism",
+          "meaning": "抗磁性"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -7031,7 +7126,7 @@
       "type": "single",
       "stem": "In the nitrite ion (NO2), ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在亚硝酸根离子（NO₂⁻）中，________。",
       "options": [
         {
           "key": "A",
@@ -7054,8 +7149,27 @@
           "text": "there are 20 valence electrons"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "两个键都是单键",
+        "B": "两个键都是双键",
+        "C": "一个键是双键、另一个是单键",
+        "D": "两个键相同",
+        "E": "有20个价电子"
+      },
+      "glossary": [
+        {
+          "term": "nitrite ion",
+          "meaning": "亚硝酸根离子（NO₂⁻）"
+        },
+        {
+          "term": "bond",
+          "meaning": "键"
+        },
+        {
+          "term": "valence electrons",
+          "meaning": "价电子"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -7081,7 +7195,7 @@
       "type": "single",
       "stem": "The oxidation number of iron in Fe2O3 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Fe2O3 中铁的氧化数是 ________。",
       "options": [
         {
           "key": "A",
@@ -7104,8 +7218,23 @@
           "text": "-3"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "−2",
+        "B": "+1",
+        "C": "+3",
+        "D": "+2",
+        "E": "−3"
+      },
+      "glossary": [
+        {
+          "term": "oxidation number",
+          "meaning": "氧化数（化合价）"
+        },
+        {
+          "term": "iron",
+          "meaning": "铁"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -7131,7 +7260,7 @@
       "type": "single",
       "stem": "The Lewis structure of the CO32- ion is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CO₃²⁻ 离子的 Lewis 结构是 ________。",
       "options": [
         {
           "key": "A",
@@ -7164,8 +7293,23 @@
           "imageUrl": "images/chapter1b/img005.jpeg"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "图 A",
+        "B": "图 B",
+        "C": "图 C",
+        "D": "图 D",
+        "E": "图 E"
+      },
+      "glossary": [
+        {
+          "term": "Lewis structure",
+          "meaning": "Lewis 结构（电子式）"
+        },
+        {
+          "term": "carbonate ion",
+          "meaning": "碳酸根离子（CO₃²⁻）"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7191,7 +7335,7 @@
       "type": "single",
       "stem": "Bond enthalpy is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "键焓 ________。",
       "options": [
         {
           "key": "A",
@@ -7214,8 +7358,23 @@
           "text": "unpredictable"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "总是正值",
+        "B": "总是负值",
+        "C": "有时正有时负",
+        "D": "总为零",
+        "E": "无法预测"
+      },
+      "glossary": [
+        {
+          "term": "bond enthalpy",
+          "meaning": "键焓"
+        },
+        {
+          "term": "unpredictable",
+          "meaning": "无法预测的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7241,7 +7400,7 @@
       "type": "single",
       "stem": "Of the bonds C-C, C=C, and C≡C, the C-C bond is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在 C–C、C=C、C≡C 三种键中，C–C 键 ________。",
       "options": [
         {
           "key": "A",
@@ -7264,8 +7423,31 @@
           "text": "intermediate in both strength and length"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "最强/最短",
+        "B": "最强/最长",
+        "C": "最弱/最长",
+        "D": "最弱/最短",
+        "E": "强度与长度都居中"
+      },
+      "glossary": [
+        {
+          "term": "single bond",
+          "meaning": "单键"
+        },
+        {
+          "term": "double bond",
+          "meaning": "双键"
+        },
+        {
+          "term": "triple bond",
+          "meaning": "三键"
+        },
+        {
+          "term": "bond length",
+          "meaning": "键长"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -7291,7 +7473,7 @@
       "type": "single",
       "stem": "As the number of covalent bonds between two atoms increases, the distance between the atoms ________ and the strength of the bond between them ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "随着两原子间共价键数目增加，原子间距离 ________，键的强度 ________。",
       "options": [
         {
           "key": "A",
@@ -7314,8 +7496,27 @@
           "text": "is unpredictable"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "增大，增大",
+        "B": "减小，减小",
+        "C": "增大，减小",
+        "D": "减小，增大",
+        "E": "无法预测"
+      },
+      "glossary": [
+        {
+          "term": "covalent bond",
+          "meaning": "共价键"
+        },
+        {
+          "term": "distance",
+          "meaning": "距离"
+        },
+        {
+          "term": "strength",
+          "meaning": "强度"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -7341,7 +7542,7 @@
       "type": "single",
       "stem": "Based on the octet rule, magnesium most likely forms a ________ ion.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据八隅体规则，镁最可能形成 ________ 离子。",
       "options": [
         {
           "key": "A",
@@ -7364,8 +7565,19 @@
           "text": "Mg-"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Mg²⁺",
+        "B": "Mg²⁻",
+        "C": "Mg⁶⁻",
+        "D": "Mg⁶⁺",
+        "E": "Mg⁻"
+      },
+      "glossary": [
+        {
+          "term": "octet rule",
+          "meaning": "八隅体规则"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7391,7 +7603,7 @@
       "type": "single",
       "stem": "Based on the octet rule, aluminum most likely forms an ________ ion.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据八隅体规则，铝最可能形成 ________ 离子。",
       "options": [
         {
           "key": "A",
@@ -7414,8 +7626,19 @@
           "text": "Al-"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Al³⁺",
+        "B": "Al⁴⁺",
+        "C": "Al⁴⁻",
+        "D": "Al⁺",
+        "E": "Al⁻"
+      },
+      "glossary": [
+        {
+          "term": "octet rule",
+          "meaning": "八隅体规则"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7441,7 +7664,7 @@
       "type": "single",
       "stem": "For a given arrangement of ions, the lattice energy increases as ionic radius ________ and as ionic charge ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "对给定的离子排列，离子半径 ________、离子电荷 ________ 时晶格能增大。",
       "options": [
         {
           "key": "A",
@@ -7464,8 +7687,27 @@
           "text": "This cannot be predicted."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "减小，增大",
+        "B": "增大，减小",
+        "C": "增大，增大",
+        "D": "减小，减小",
+        "E": "无法预测"
+      },
+      "glossary": [
+        {
+          "term": "lattice energy",
+          "meaning": "晶格能"
+        },
+        {
+          "term": "ionic radius",
+          "meaning": "离子半径"
+        },
+        {
+          "term": "ionic charge",
+          "meaning": "离子电荷"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7491,7 +7733,7 @@
       "type": "single",
       "stem": "Elements from opposite sides of the periodic table tend to form ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表两侧的元素倾向于形成 ________。",
       "options": [
         {
           "key": "A",
@@ -7514,8 +7756,27 @@
           "text": "covalent compounds that are gaseous at room temperature"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "共价化合物",
+        "B": "离子化合物",
+        "C": "室温下为气态的化合物",
+        "D": "同核双原子化合物",
+        "E": "室温下为气态的共价化合物"
+      },
+      "glossary": [
+        {
+          "term": "opposite sides",
+          "meaning": "（周期表）两侧"
+        },
+        {
+          "term": "ionic compound",
+          "meaning": "离子化合物"
+        },
+        {
+          "term": "homonuclear diatomic",
+          "meaning": "同核双原子"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -7541,7 +7802,7 @@
       "type": "single",
       "stem": "A ________ covalent bond between the same two atoms is the longest.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "同样两个原子之间，________ 共价键最长。",
       "options": [
         {
           "key": "A",
@@ -7564,8 +7825,19 @@
           "text": "They are all the same length."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "单",
+        "B": "双",
+        "C": "三",
+        "D": "强",
+        "E": "它们长度都相同"
+      },
+      "glossary": [
+        {
+          "term": "covalent bond",
+          "meaning": "共价键"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7591,7 +7863,7 @@
       "type": "single",
       "stem": "A double bond consists of ________ pairs of electrons shared between two atoms.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "双键由两个原子间共用的 ________ 对电子构成。",
       "options": [
         {
           "key": "A",
@@ -7614,8 +7886,23 @@
           "text": "6"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "6"
+      },
+      "glossary": [
+        {
+          "term": "double bond",
+          "meaning": "双键"
+        },
+        {
+          "term": "shared",
+          "meaning": "共用的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -7641,7 +7928,7 @@
       "type": "single",
       "stem": "What is the maximum number of double bonds that a hydrogen atom can form?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "一个氢原子最多能形成多少个双键？",
       "options": [
         {
           "key": "A",
@@ -7664,8 +7951,23 @@
           "text": "4"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "glossary": [
+        {
+          "term": "maximum",
+          "meaning": "最大（值）"
+        },
+        {
+          "term": "double bond",
+          "meaning": "双键"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7691,7 +7993,7 @@
       "type": "single",
       "stem": "Electronegativity ________ from left to right within a period and ________ from top to bottom within a group.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "电负性在周期内从左到右 ________，在族内从上到下 ________。",
       "options": [
         {
           "key": "A",
@@ -7714,8 +8016,27 @@
           "text": "increases, stays the same"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "减小，增大",
+        "B": "增大，增大",
+        "C": "增大，减小",
+        "D": "不变，增大",
+        "E": "增大，不变"
+      },
+      "glossary": [
+        {
+          "term": "electronegativity",
+          "meaning": "电负性"
+        },
+        {
+          "term": "within a period",
+          "meaning": "在周期内"
+        },
+        {
+          "term": "within a group",
+          "meaning": "在族内"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -7743,7 +8064,7 @@
       "stemImages": [
         "images/chapter1b/img006.jpeg"
       ],
-      "stemZh": "",
+      "stemZh": "下图中碳的形式电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -7766,8 +8087,23 @@
           "text": "-1"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "+1",
+        "C": "+2",
+        "D": "+3",
+        "E": "−1"
+      },
+      "glossary": [
+        {
+          "term": "formal charge",
+          "meaning": "形式电荷"
+        },
+        {
+          "term": "molecule",
+          "meaning": "分子"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -7793,7 +8129,7 @@
       "type": "single",
       "stem": "There are ________ unpaired electrons in the Lewis symbol for an oxygen atom.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氧原子的 Lewis 符号中有 ________ 个未成对电子。",
       "options": [
         {
           "key": "A",
@@ -7816,8 +8152,23 @@
           "text": "3"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "E": "3"
+      },
+      "glossary": [
+        {
+          "term": "unpaired electrons",
+          "meaning": "未成对电子"
+        },
+        {
+          "term": "Lewis symbol",
+          "meaning": "Lewis 符号"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -7843,7 +8194,7 @@
       "type": "single",
       "stem": "The oxide of which of the following metals should have the greatest lattice energy?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种金属的氧化物晶格能最大？",
       "options": [
         {
           "key": "A",
@@ -7866,8 +8217,27 @@
           "text": "barium"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "钙",
+        "B": "锶",
+        "C": "镁",
+        "D": "铍",
+        "E": "钡"
+      },
+      "glossary": [
+        {
+          "term": "oxide",
+          "meaning": "氧化物"
+        },
+        {
+          "term": "lattice energy",
+          "meaning": "晶格能"
+        },
+        {
+          "term": "beryllium",
+          "meaning": "铍"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -7893,7 +8263,7 @@
       "type": "single",
       "stem": "How many single covalent bonds must a chlorine atom form to have a complete octet in its valence shell?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氯原子必须形成多少个单共价键才能使其价层达到完整八隅体？",
       "options": [
         {
           "key": "A",
@@ -7916,8 +8286,27 @@
           "text": "4"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "glossary": [
+        {
+          "term": "single covalent bond",
+          "meaning": "单共价键"
+        },
+        {
+          "term": "complete octet",
+          "meaning": "完整八隅体"
+        },
+        {
+          "term": "valence shell",
+          "meaning": "价层"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -7943,7 +8332,7 @@
       "type": "single",
       "stem": "Of the atoms below, ________ is the most electronegative.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列原子中，________ 的电负性最大。",
       "options": [
         {
           "key": "A",
@@ -7966,8 +8355,19 @@
           "text": "Be"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ba",
+        "B": "Sr",
+        "C": "Ca",
+        "D": "Mg",
+        "E": "Be"
+      },
+      "glossary": [
+        {
+          "term": "electronegative",
+          "meaning": "电负性大的"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -7993,7 +8393,7 @@
       "type": "single",
       "stem": "The oxidation number of phosphorus in PF5 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "PF5 中磷的氧化数是 ________。",
       "options": [
         {
           "key": "A",
@@ -8016,8 +8416,23 @@
           "text": "0"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "+5",
+        "B": "+3",
+        "C": "+1",
+        "D": "−5",
+        "E": "0"
+      },
+      "glossary": [
+        {
+          "term": "oxidation number",
+          "meaning": "氧化数"
+        },
+        {
+          "term": "phosphorus",
+          "meaning": "磷"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8043,7 +8458,7 @@
       "type": "single",
       "stem": "The basis of the VSEPR model of molecular bonding is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "分子成键的 VSEPR 模型的基础是 ________。",
       "options": [
         {
           "key": "A",
@@ -8066,8 +8481,35 @@
           "text": "hybrid orbitals will form as necessary to, as closely as possible, achieve spherical symmetry"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "原子上的电子密度区域会自行组织以最大化 s 成分",
+        "B": "原子价层的电子密度区域会排列以最大化轨道重叠",
+        "C": "成键原子的原子轨道必须重叠才能成键",
+        "D": "原子价层中的电子域会排列以最小化排斥",
+        "E": "会按需形成杂化轨道以尽可能接近球形对称"
+      },
+      "glossary": [
+        {
+          "term": "VSEPR",
+          "meaning": "价层电子对互斥（模型）"
+        },
+        {
+          "term": "electron density",
+          "meaning": "电子密度"
+        },
+        {
+          "term": "valence shell",
+          "meaning": "价层"
+        },
+        {
+          "term": "repulsions",
+          "meaning": "排斥（作用）"
+        },
+        {
+          "term": "overlap",
+          "meaning": "重叠"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -8093,7 +8535,7 @@
       "type": "single",
       "stem": "An electron domain consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "一个电子域由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
       "options": [
         {
           "key": "A",
@@ -8116,8 +8558,27 @@
           "text": "b and c"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "仅 a",
+        "B": "仅 b",
+        "C": "仅 c",
+        "D": "a、b 和 c",
+        "E": "b 和 c"
+      },
+      "glossary": [
+        {
+          "term": "electron domain",
+          "meaning": "电子域（电子对区域）"
+        },
+        {
+          "term": "nonbonding pair",
+          "meaning": "孤对电子"
+        },
+        {
+          "term": "multiple bond",
+          "meaning": "多重键"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -8143,7 +8604,7 @@
       "type": "single",
       "stem": "The molecular geometry consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "分子几何由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
       "options": [
         {
           "key": "A",
@@ -8166,8 +8627,23 @@
           "text": "b and c"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "仅 a",
+        "B": "仅 b",
+        "C": "仅 c",
+        "D": "a、b 和 c",
+        "E": "b 和 c"
+      },
+      "glossary": [
+        {
+          "term": "molecular geometry",
+          "meaning": "分子几何（形状）"
+        },
+        {
+          "term": "nonbonding pair",
+          "meaning": "孤对电子"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -8193,7 +8669,7 @@
       "type": "single",
       "stem": "A molecule has the formula AB3 and the central atom is in a different plane from the surrounding three atoms. Its molecular shape is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某分子式为 AB3，其中心原子与周围三个原子不在同一平面。它的分子形状是 ________。",
       "options": [
         {
           "key": "A",
@@ -8216,8 +8692,27 @@
           "text": "bent"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "四面体形",
+        "B": "三角锥形",
+        "C": "直线形",
+        "D": "T 形",
+        "E": "弯曲形"
+      },
+      "glossary": [
+        {
+          "term": "central atom",
+          "meaning": "中心原子"
+        },
+        {
+          "term": "molecular shape",
+          "meaning": "分子形状"
+        },
+        {
+          "term": "trigonal pyramidal",
+          "meaning": "三角锥形"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -8243,7 +8738,7 @@
       "type": "single",
       "stem": "The molecular geometry of the PF3 molecule is ________, and this molecule is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "PF3 分子的分子几何是 ________，该分子是 ________。",
       "options": [
         {
           "key": "A",
@@ -8266,8 +8761,27 @@
           "text": "tetrahedral, unipolar"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "平面三角形，极性",
+        "B": "平面三角形，非极性",
+        "C": "三角锥形，极性",
+        "D": "三角锥形，非极性",
+        "E": "四面体形，单极性"
+      },
+      "glossary": [
+        {
+          "term": "molecular geometry",
+          "meaning": "分子几何"
+        },
+        {
+          "term": "polar",
+          "meaning": "极性的"
+        },
+        {
+          "term": "nonpolar",
+          "meaning": "非极性的"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -8293,7 +8807,7 @@
       "type": "single",
       "stem": "For molecules with only one central atom, how many lone pairs on the central atom guarantees molecular polarity?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "对于只有一个中心原子的分子，中心原子上有几对孤对电子就保证分子有极性？",
       "options": [
         {
           "key": "A",
@@ -8316,8 +8830,23 @@
           "text": "1 or 3"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "1 或 2",
+        "D": "3",
+        "E": "1 或 3"
+      },
+      "glossary": [
+        {
+          "term": "lone pair",
+          "meaning": "孤对电子"
+        },
+        {
+          "term": "polarity",
+          "meaning": "极性"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8343,7 +8872,7 @@
       "type": "single",
       "stem": "The sp2 atomic hybrid orbital set accommodates ________ electron domains.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "sp² 杂化轨道组容纳 ________ 个电子域。",
       "options": [
         {
           "key": "A",
@@ -8366,8 +8895,23 @@
           "text": "6"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "glossary": [
+        {
+          "term": "sp2 hybrid orbital",
+          "meaning": "sp² 杂化轨道"
+        },
+        {
+          "term": "accommodate",
+          "meaning": "容纳"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -8393,7 +8937,7 @@
       "type": "single",
       "stem": "The hybridization scheme for BeF2 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "BeF2 的杂化方式是 ________。",
       "options": [
         {
           "key": "A",
@@ -8416,8 +8960,19 @@
           "text": "sp3d2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "sp",
+        "B": "sp²",
+        "C": "sp³",
+        "D": "sp³d",
+        "E": "sp³d²"
+      },
+      "glossary": [
+        {
+          "term": "hybridization",
+          "meaning": "杂化"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8443,7 +8998,7 @@
       "type": "single",
       "stem": "When four atomic orbitals are mixed to form hybrid orbitals, how many hybrid orbitals are formed?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "当四个原子轨道混合形成杂化轨道时，会形成多少个杂化轨道？",
       "options": [
         {
           "key": "A",
@@ -8466,8 +9021,23 @@
           "text": "five"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "一个",
+        "B": "六个",
+        "C": "三个",
+        "D": "四个",
+        "E": "五个"
+      },
+      "glossary": [
+        {
+          "term": "atomic orbitals",
+          "meaning": "原子轨道"
+        },
+        {
+          "term": "hybrid orbitals",
+          "meaning": "杂化轨道"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -8493,7 +9063,7 @@
       "type": "single",
       "stem": "Valence bond theory does not address the issue of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "价键理论不涉及 ________ 的问题。",
       "options": [
         {
           "key": "A",
@@ -8516,8 +9086,23 @@
           "text": "multiple bonds"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "分子的激发态",
+        "B": "分子形状",
+        "C": "共价成键",
+        "D": "杂化",
+        "E": "多重键"
+      },
+      "glossary": [
+        {
+          "term": "valence bond theory",
+          "meaning": "价键理论"
+        },
+        {
+          "term": "excited states",
+          "meaning": "激发态"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8543,7 +9128,7 @@
       "type": "single",
       "stem": "A typical double bond ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "典型的双键 ________。",
       "options": [
         {
           "key": "A",
@@ -8566,8 +9151,27 @@
           "text": "All of the above answers are correct."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "比单键更强更短",
+        "B": "由1个 σ 键和1个 π 键组成",
+        "C": "使分子具有刚性",
+        "D": "由两对共用电子组成",
+        "E": "以上都正确"
+      },
+      "glossary": [
+        {
+          "term": "sigma bond",
+          "meaning": "σ 键"
+        },
+        {
+          "term": "pi bond",
+          "meaning": "π 键"
+        },
+        {
+          "term": "rigidity",
+          "meaning": "刚性"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -8593,7 +9197,7 @@
       "type": "single",
       "stem": "Electrons in ________ bonds remain localized between two atoms. Electrons in ________ bonds can become delocalized between more than two atoms.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 键中的电子定域在两个原子之间；________ 键中的电子可离域到两个以上原子之间。",
       "options": [
         {
           "key": "A",
@@ -8616,8 +9220,31 @@
           "text": "ionic, sigma"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "π，σ",
+        "B": "σ，π",
+        "C": "π，π",
+        "D": "σ，σ",
+        "E": "离子，σ"
+      },
+      "glossary": [
+        {
+          "term": "localized",
+          "meaning": "定域的"
+        },
+        {
+          "term": "delocalized",
+          "meaning": "离域的"
+        },
+        {
+          "term": "sigma",
+          "meaning": "σ（西格玛）"
+        },
+        {
+          "term": "pi",
+          "meaning": "π（派）"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -8643,7 +9270,7 @@
       "type": "single",
       "stem": "The bond order of any molecule containing equal numbers of bonding and antibonding electrons is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "任何成键电子数与反键电子数相等的分子，其键级是 ________。",
       "options": [
         {
           "key": "A",
@@ -8666,8 +9293,27 @@
           "text": "1/2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "1/2"
+      },
+      "glossary": [
+        {
+          "term": "bond order",
+          "meaning": "键级"
+        },
+        {
+          "term": "bonding electrons",
+          "meaning": "成键电子"
+        },
+        {
+          "term": "antibonding electrons",
+          "meaning": "反键电子"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8693,7 +9339,7 @@
       "type": "single",
       "stem": "In comparing the same two atoms bonded together, the ________ the bond order, the ________ the bond length, and the ________ the bond energy.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "比较同样的两个原子成键时，键级越 ________，键长越 ________，键能越 ________。",
       "options": [
         {
           "key": "A",
@@ -8716,8 +9362,27 @@
           "text": "smaller, greater, greater"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "大，短，大",
+        "B": "大，大，大",
+        "C": "大，长，大",
+        "D": "小，长，小",
+        "E": "小，大，大"
+      },
+      "glossary": [
+        {
+          "term": "bond order",
+          "meaning": "键级"
+        },
+        {
+          "term": "bond length",
+          "meaning": "键长"
+        },
+        {
+          "term": "bond energy",
+          "meaning": "键能"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8743,7 +9408,7 @@
       "type": "single",
       "stem": "Based on molecular orbital theory, there is/are ________ unpaired electron(s) in the OF+ ion.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据分子轨道理论，OF⁺ 离子中有 ________ 个未成对电子。",
       "options": [
         {
           "key": "A",
@@ -8766,8 +9431,23 @@
           "text": "1/2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "0",
+        "B": "3",
+        "C": "1",
+        "D": "2",
+        "E": "1/2"
+      },
+      "glossary": [
+        {
+          "term": "molecular orbital theory",
+          "meaning": "分子轨道理论"
+        },
+        {
+          "term": "unpaired electrons",
+          "meaning": "未成对电子"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -8793,7 +9473,7 @@
       "type": "single",
       "stem": "For a molecule with the formula AB2, the molecular shape is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "对于分子式为 AB2 的分子，其分子形状是 ________。",
       "options": [
         {
           "key": "A",
@@ -8816,8 +9496,27 @@
           "text": "trigonal planar"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "直线形或弯曲形",
+        "B": "直线形或平面三角形",
+        "C": "直线形或 T 形",
+        "D": "T 形",
+        "E": "平面三角形"
+      },
+      "glossary": [
+        {
+          "term": "molecular shape",
+          "meaning": "分子形状"
+        },
+        {
+          "term": "linear",
+          "meaning": "直线形"
+        },
+        {
+          "term": "bent",
+          "meaning": "弯曲形"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -8843,7 +9542,7 @@
       "type": "single",
       "stem": "The molecular geometry of the CHCl3 molecule is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CHCl3 分子的分子几何是 ________。",
       "options": [
         {
           "key": "A",
@@ -8866,8 +9565,23 @@
           "text": "T-shaped"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "弯曲形",
+        "B": "平面三角形",
+        "C": "三角锥形",
+        "D": "四面体形",
+        "E": "T 形"
+      },
+      "glossary": [
+        {
+          "term": "molecular geometry",
+          "meaning": "分子几何"
+        },
+        {
+          "term": "tetrahedral",
+          "meaning": "四面体形"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -8893,7 +9607,7 @@
       "type": "single",
       "stem": "The O-S-O bond angle in SO2 is slightly less than ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "SO2 中 O–S–O 键角略小于 ________。",
       "options": [
         {
           "key": "A",
@@ -8916,8 +9630,19 @@
           "text": "60°"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "90°",
+        "B": "109.5°",
+        "C": "120°",
+        "D": "180°",
+        "E": "60°"
+      },
+      "glossary": [
+        {
+          "term": "bond angle",
+          "meaning": "键角"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -8943,7 +9668,7 @@
       "type": "single",
       "stem": "The hybridization of orbitals on the central atom in a molecule is sp. The electron-domain geometry around this central atom is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某分子中心原子轨道的杂化方式为 sp。该中心原子周围的电子域几何是 ________。",
       "options": [
         {
           "key": "A",
@@ -8966,8 +9691,31 @@
           "text": "tetrahedral"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "八面体",
+        "B": "直线形",
+        "C": "平面三角形",
+        "D": "三角双锥",
+        "E": "四面体"
+      },
+      "glossary": [
+        {
+          "term": "hybridization",
+          "meaning": "杂化"
+        },
+        {
+          "term": "electron-domain geometry",
+          "meaning": "电子域几何"
+        },
+        {
+          "term": "octahedral",
+          "meaning": "八面体"
+        },
+        {
+          "term": "trigonal bipyramidal",
+          "meaning": "三角双锥"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -8993,7 +9741,7 @@
       "type": "single",
       "stem": "ClF3 has \"T-shaped\" geometry. There is/are ________ non-bonding domain(s) in this molecule.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "ClF3 具有“T 形”几何。该分子中有 ________ 个非成键电子域。",
       "options": [
         {
           "key": "A",
@@ -9016,8 +9764,23 @@
           "text": "0"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1",
+        "E": "0"
+      },
+      "glossary": [
+        {
+          "term": "non-bonding domain",
+          "meaning": "非成键电子域"
+        },
+        {
+          "term": "T-shaped",
+          "meaning": "T 形"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -9043,7 +9806,7 @@
       "type": "single",
       "stem": "The H-C-H bond angle in the CH4 ion is approximately ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CH4 中 H–C–H 键角约为 ________。",
       "options": [
         {
           "key": "A",
@@ -9066,8 +9829,19 @@
           "text": "90°"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "180°",
+        "B": "120°",
+        "C": "109.5°",
+        "D": "60°",
+        "E": "90°"
+      },
+      "glossary": [
+        {
+          "term": "bond angle",
+          "meaning": "键角"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -9093,7 +9867,7 @@
       "type": "single",
       "stem": "The central atom in the ICl4- ion has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "ICl4⁻ 离子的中心原子在价层中有 ________ 对非键电子、________ 对成键电子。",
       "options": [
         {
           "key": "A",
@@ -9116,8 +9890,27 @@
           "text": "6, 0"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "4, 2",
+        "B": "0, 4",
+        "C": "2, 4",
+        "D": "2, 2",
+        "E": "6, 0"
+      },
+      "glossary": [
+        {
+          "term": "nonbonded electron pair",
+          "meaning": "非键电子对（孤对）"
+        },
+        {
+          "term": "bonded electron pair",
+          "meaning": "成键电子对"
+        },
+        {
+          "term": "valence shell",
+          "meaning": "价层"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -9143,7 +9936,7 @@
       "type": "single",
       "stem": "The central atom in the O3 molecule has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "O3 分子的中心原子在价层中有 ________ 对非键电子、________ 对成键电子。",
       "options": [
         {
           "key": "A",
@@ -9166,8 +9959,23 @@
           "text": "3, 2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "6, 2",
+        "B": "1, 3",
+        "C": "2, 2",
+        "D": "3, 1",
+        "E": "3, 2"
+      },
+      "glossary": [
+        {
+          "term": "nonbonded electron pair",
+          "meaning": "非键电子对（孤对）"
+        },
+        {
+          "term": "valence shell",
+          "meaning": "价层"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -9193,7 +10001,7 @@
       "type": "single",
       "stem": "According to VSEPR theory, if there are three electron domains in the valence shell of an atom, they will be arranged in a(n) ________ geometry.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据 VSEPR 理论，若原子价层有3个电子域，它们将排成 ________ 几何。",
       "options": [
         {
           "key": "A",
@@ -9216,8 +10024,23 @@
           "text": "bent"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "四面体",
+        "B": "八面体",
+        "C": "直线形",
+        "D": "平面正方形",
+        "E": "弯曲形"
+      },
+      "glossary": [
+        {
+          "term": "VSEPR theory",
+          "meaning": "VSEPR（价层电子对互斥）理论"
+        },
+        {
+          "term": "electron domain",
+          "meaning": "电子域"
+        }
+      ],
       "answer": [],
       "explanation": "3个电子域的电子域几何应为“平面三角形（trigonal planar）”，但选项未列出该答案，题目选项可能有误，暂挂争议。",
       "candidateAnswer": [],
@@ -9239,7 +10062,7 @@
       "type": "single",
       "stem": "Using the VSEPR model, the electron-domain geometry of the central atom in XeF4 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "用 VSEPR 模型，XeF4 中心原子的电子域几何是 ________。",
       "options": [
         {
           "key": "A",
@@ -9262,8 +10085,23 @@
           "text": "octahedral"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "直线形",
+        "B": "平面三角形",
+        "C": "四面体",
+        "D": "三角双锥",
+        "E": "八面体"
+      },
+      "glossary": [
+        {
+          "term": "VSEPR model",
+          "meaning": "VSEPR 模型"
+        },
+        {
+          "term": "electron-domain geometry",
+          "meaning": "电子域几何"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9289,7 +10127,7 @@
       "type": "single",
       "stem": "Crystalline solids ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "晶体固体 ________。",
       "options": [
         {
           "key": "A",
@@ -9312,8 +10150,27 @@
           "text": "exist only at very low temperatures"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "其粒子随机排列",
+        "B": "具有高度有序的结构",
+        "C": "通常非常软",
+        "D": "只存在于高温",
+        "E": "只存在于极低温"
+      },
+      "glossary": [
+        {
+          "term": "crystalline solids",
+          "meaning": "晶体固体"
+        },
+        {
+          "term": "particles",
+          "meaning": "粒子"
+        },
+        {
+          "term": "ordered structures",
+          "meaning": "有序结构"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -9339,7 +10196,7 @@
       "type": "single",
       "stem": "In liquids, the attractive intermolecular forces are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在液体中，分子间吸引力 ________。",
       "options": [
         {
           "key": "A",
@@ -9362,8 +10219,27 @@
           "text": "strong enough to hold molecules relatively close together but not strong enough to keep molecules from moving past each other"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "与分子动能相比非常弱",
+        "B": "强到足以使分子相对靠近",
+        "C": "强到足以使分子只能在固定晶格点附近振动",
+        "D": "弱到不足以阻止分子互相滑过",
+        "E": "强到足以使分子相对靠近，但弱到不足以阻止分子互相滑过"
+      },
+      "glossary": [
+        {
+          "term": "intermolecular forces",
+          "meaning": "分子间力"
+        },
+        {
+          "term": "kinetic energy",
+          "meaning": "动能"
+        },
+        {
+          "term": "lattice points",
+          "meaning": "晶格点"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9389,7 +10265,7 @@
       "type": "single",
       "stem": "A gas is ________ and assumes ________ of its container, whereas a liquid is ________ and assumes ________ of its container.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "气体 ________，并呈现容器的 ________；而液体 ________，并呈现容器的 ________。",
       "options": [
         {
           "key": "A",
@@ -9412,8 +10288,27 @@
           "text": "condensed, the shape, compressible, the volume and shape"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "可压缩，体积和形状；不可压缩，所在一部分的形状",
+        "B": "可压缩，形状；不可压缩，体积和形状",
+        "C": "可压缩，体积和形状；可压缩，体积",
+        "D": "凝聚，体积和形状；凝聚，体积和形状",
+        "E": "凝聚，形状；可压缩，体积和形状"
+      },
+      "glossary": [
+        {
+          "term": "compressible",
+          "meaning": "可压缩的"
+        },
+        {
+          "term": "assume",
+          "meaning": "呈现、呈（形状）"
+        },
+        {
+          "term": "condensed",
+          "meaning": "凝聚的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -9439,7 +10334,7 @@
       "type": "single",
       "stem": "Which statement is true about liquids but not true about solids?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "关于液体成立、而关于固体不成立的说法是哪个？",
       "options": [
         {
           "key": "A",
@@ -9462,8 +10357,23 @@
           "text": "They flow and are not compressible."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "它们流动且高度有序",
+        "B": "它们高度有序且不可压缩",
+        "C": "它们流动且可压缩",
+        "D": "它们呈现容器的体积和形状",
+        "E": "它们流动且不可压缩"
+      },
+      "glossary": [
+        {
+          "term": "flow",
+          "meaning": "流动"
+        },
+        {
+          "term": "compressible",
+          "meaning": "可压缩的"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9489,7 +10399,7 @@
       "type": "single",
       "stem": "The ease with which the charge distribution in a molecule can be distorted by an external electrical field is called the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "分子中电荷分布被外电场扭曲的难易程度称为 ________。",
       "options": [
         {
           "key": "A",
@@ -9512,8 +10422,35 @@
           "text": "viscosity"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "电负性",
+        "B": "氢键",
+        "C": "极化率",
+        "D": "挥发性",
+        "E": "黏度"
+      },
+      "glossary": [
+        {
+          "term": "charge distribution",
+          "meaning": "电荷分布"
+        },
+        {
+          "term": "distorted",
+          "meaning": "被扭曲的"
+        },
+        {
+          "term": "polarizability",
+          "meaning": "极化率"
+        },
+        {
+          "term": "volatility",
+          "meaning": "挥发性"
+        },
+        {
+          "term": "viscosity",
+          "meaning": "黏度"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -9539,7 +10476,7 @@
       "type": "single",
       "stem": "Hydrogen bonding is a special case of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氢键是 ________ 的一种特殊情形。",
       "options": [
         {
           "key": "A",
@@ -9562,8 +10499,31 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "伦敦色散力",
+        "B": "离子–偶极吸引",
+        "C": "偶极–偶极吸引",
+        "D": "离子–离子作用",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "hydrogen bonding",
+          "meaning": "氢键"
+        },
+        {
+          "term": "London dispersion forces",
+          "meaning": "伦敦色散力"
+        },
+        {
+          "term": "dipole-dipole",
+          "meaning": "偶极–偶极"
+        },
+        {
+          "term": "ion-dipole",
+          "meaning": "离子–偶极"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -9589,7 +10549,7 @@
       "type": "single",
       "stem": "What intermolecular force is responsible for the fact that ice is less dense than liquid water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "冰的密度小于液态水，是哪种分子间力造成的？",
       "options": [
         {
           "key": "A",
@@ -9612,8 +10572,27 @@
           "text": "ionic bonding"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "伦敦色散力",
+        "B": "偶极–偶极力",
+        "C": "离子–偶极力",
+        "D": "氢键",
+        "E": "离子键"
+      },
+      "glossary": [
+        {
+          "term": "intermolecular force",
+          "meaning": "分子间力"
+        },
+        {
+          "term": "less dense",
+          "meaning": "密度更小"
+        },
+        {
+          "term": "hydrogen bonding",
+          "meaning": "氢键"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -9639,7 +10618,7 @@
       "type": "single",
       "stem": "Which statements about viscosity are true? (i)<w:t>Viscosity increases as temperature decreases. (ii)<w:t>Viscosity increases as molecular weight increases. (iii)<w:t>Viscosity increases as intermolecular forces increase.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "关于黏度哪些说法正确？(i) 温度降低，黏度增大；(ii) 分子量增大，黏度增大；(iii) 分子间力增大，黏度增大。",
       "options": [
         {
           "key": "A",
@@ -9662,8 +10641,27 @@
           "text": "all"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "仅 (i)",
+        "B": "(ii) 和 (iii)",
+        "C": "(i) 和 (iii)",
+        "D": "都不对",
+        "E": "全部"
+      },
+      "glossary": [
+        {
+          "term": "viscosity",
+          "meaning": "黏度"
+        },
+        {
+          "term": "molecular weight",
+          "meaning": "分子量"
+        },
+        {
+          "term": "intermolecular forces",
+          "meaning": "分子间力"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9689,7 +10687,7 @@
       "type": "single",
       "stem": "Viscosity is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "黏度是 ________。",
       "options": [
         {
           "key": "A",
@@ -9712,8 +10710,27 @@
           "text": "unaffected by temperature"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "由分子间吸引在液面形成的“表层”",
+        "B": "流动的阻力",
+        "C": "与密度相同",
+        "D": "与摩尔质量成反比",
+        "E": "不受温度影响"
+      },
+      "glossary": [
+        {
+          "term": "viscosity",
+          "meaning": "黏度"
+        },
+        {
+          "term": "resistance to flow",
+          "meaning": "流动阻力"
+        },
+        {
+          "term": "inversely proportional",
+          "meaning": "成反比的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -9739,7 +10756,7 @@
       "type": "single",
       "stem": "Large intermolecular forces in a substance are manifested by ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "物质中较大的分子间力表现为 ________。",
       "options": [
         {
           "key": "A",
@@ -9762,8 +10779,31 @@
           "text": "all of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "低蒸气压",
+        "B": "高沸点",
+        "C": "高熔化热和汽化热",
+        "D": "高临界温度和压力",
+        "E": "以上都是"
+      },
+      "glossary": [
+        {
+          "term": "manifested",
+          "meaning": "表现为"
+        },
+        {
+          "term": "vapor pressure",
+          "meaning": "蒸气压"
+        },
+        {
+          "term": "heats of fusion and vaporization",
+          "meaning": "熔化热和汽化热"
+        },
+        {
+          "term": "critical temperature",
+          "meaning": "临界温度"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9789,7 +10829,7 @@
       "type": "single",
       "stem": "Of the following, ________ is an exothermic process.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，________ 是放热过程。",
       "options": [
         {
           "key": "A",
@@ -9812,8 +10852,31 @@
           "text": "All of the above are exothermic."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "熔化",
+        "B": "升华",
+        "C": "凝固",
+        "D": "沸腾",
+        "E": "以上都是放热"
+      },
+      "glossary": [
+        {
+          "term": "exothermic",
+          "meaning": "放热的"
+        },
+        {
+          "term": "melting",
+          "meaning": "熔化"
+        },
+        {
+          "term": "subliming",
+          "meaning": "升华"
+        },
+        {
+          "term": "freezing",
+          "meaning": "凝固"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -9839,7 +10902,7 @@
       "type": "single",
       "stem": "A volatile liquid is one that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "易挥发液体是 ________ 的液体。",
       "options": [
         {
           "key": "A",
@@ -9862,8 +10925,27 @@
           "text": "readily evaporates"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "高度易燃",
+        "B": "黏度很高",
+        "C": "氢键很强",
+        "D": "内聚力很强",
+        "E": "容易蒸发"
+      },
+      "glossary": [
+        {
+          "term": "volatile",
+          "meaning": "易挥发的"
+        },
+        {
+          "term": "flammable",
+          "meaning": "易燃的"
+        },
+        {
+          "term": "evaporates",
+          "meaning": "蒸发"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9889,7 +10971,7 @@
       "type": "single",
       "stem": "In general, the vapor pressure of a substance increases as ________ increases.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "一般来说，物质的蒸气压随 ________ 增大而增大。",
       "options": [
         {
           "key": "A",
@@ -9912,8 +10994,23 @@
           "text": "temperature"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "表面张力",
+        "B": "分子量",
+        "C": "氢键",
+        "D": "黏度",
+        "E": "温度"
+      },
+      "glossary": [
+        {
+          "term": "vapor pressure",
+          "meaning": "蒸气压"
+        },
+        {
+          "term": "surface tension",
+          "meaning": "表面张力"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -9939,7 +11036,7 @@
       "type": "single",
       "stem": "Volatility and vapor pressure are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "挥发性与蒸气压 ________。",
       "options": [
         {
           "key": "A",
@@ -9962,8 +11059,27 @@
           "text": "both independent of temperature"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "互为反比",
+        "B": "互成正比",
+        "C": "无关",
+        "D": "是同一回事",
+        "E": "都与温度无关"
+      },
+      "glossary": [
+        {
+          "term": "volatility",
+          "meaning": "挥发性"
+        },
+        {
+          "term": "vapor pressure",
+          "meaning": "蒸气压"
+        },
+        {
+          "term": "proportional",
+          "meaning": "成比例的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -9989,7 +11105,7 @@
       "type": "single",
       "stem": "Which one of the following should have the lowest boiling point?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个沸点最低？",
       "options": [
         {
           "key": "A",
@@ -10012,8 +11128,19 @@
           "text": "Cl2S"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "CH4",
+        "B": "PCl3",
+        "C": "C2H5COOH",
+        "D": "LiCl",
+        "E": "Cl2S"
+      },
+      "glossary": [
+        {
+          "term": "boiling point",
+          "meaning": "沸点"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10039,7 +11166,7 @@
       "type": "single",
       "stem": "Of the following substances, ________ has the highest boiling point.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列物质中，________ 的沸点最高。",
       "options": [
         {
           "key": "A",
@@ -10062,8 +11189,19 @@
           "text": "BF3"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "H2O",
+        "B": "SiH4",
+        "C": "Ar",
+        "D": "Cl2",
+        "E": "BF3"
+      },
+      "glossary": [
+        {
+          "term": "boiling point",
+          "meaning": "沸点"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10089,7 +11227,7 @@
       "type": "single",
       "stem": "What is the predominant intermolecular force in HCN?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "HCN 中最主要的分子间力是什么？",
       "options": [
         {
           "key": "A",
@@ -10112,8 +11250,23 @@
           "text": "London dispersion forces"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "偶极–偶极吸引",
+        "B": "离子–偶极吸引",
+        "C": "离子键",
+        "D": "氢键",
+        "E": "伦敦色散力"
+      },
+      "glossary": [
+        {
+          "term": "predominant",
+          "meaning": "主要的"
+        },
+        {
+          "term": "intermolecular force",
+          "meaning": "分子间力"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10139,7 +11292,7 @@
       "type": "single",
       "stem": "Ethanol melts at -114 °C and boils at 78 °C at a constant pressure of 1 atm. What state of matter must a sample of ethanol be in at 0 °C and 1 atm?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "乙醇在1 atm 下熔点 −114 °C、沸点 78 °C。0 °C、1 atm 时乙醇样品必须处于什么状态？",
       "options": [
         {
           "key": "A",
@@ -10162,8 +11315,31 @@
           "text": "liquid and gas in equilibrium"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "液态",
+        "B": "气态",
+        "C": "固态",
+        "D": "固液平衡",
+        "E": "液气平衡"
+      },
+      "glossary": [
+        {
+          "term": "melts",
+          "meaning": "熔化"
+        },
+        {
+          "term": "boils",
+          "meaning": "沸腾"
+        },
+        {
+          "term": "state of matter",
+          "meaning": "物态"
+        },
+        {
+          "term": "equilibrium",
+          "meaning": "平衡"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10189,7 +11365,7 @@
       "type": "single",
       "stem": "Of the following, ________ is the least volatile.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，________ 最难挥发。",
       "options": [
         {
           "key": "A",
@@ -10212,8 +11388,23 @@
           "text": "CH4"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "CI4",
+        "B": "CF4",
+        "C": "CBr4",
+        "D": "CCl4",
+        "E": "CH4"
+      },
+      "glossary": [
+        {
+          "term": "volatile",
+          "meaning": "易挥发的"
+        },
+        {
+          "term": "least",
+          "meaning": "最不"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10239,7 +11430,7 @@
       "type": "single",
       "stem": "A solid has a very high melting point, great hardness, and poor electrical conduction. This is a(n) ________ solid.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某固体熔点很高、硬度很大、导电性差。这是一种 ________ 固体。",
       "options": [
         {
           "key": "A",
@@ -10262,8 +11453,31 @@
           "text": "metallic and covalent network"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "离子",
+        "B": "分子",
+        "C": "金属",
+        "D": "共价网络",
+        "E": "金属与共价网络"
+      },
+      "glossary": [
+        {
+          "term": "melting point",
+          "meaning": "熔点"
+        },
+        {
+          "term": "hardness",
+          "meaning": "硬度"
+        },
+        {
+          "term": "electrical conduction",
+          "meaning": "导电"
+        },
+        {
+          "term": "covalent network",
+          "meaning": "共价网络（原子晶体）"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -10289,7 +11503,7 @@
       "type": "single",
       "stem": "Which of the following is not a type of solid?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个不是固体的类型？",
       "options": [
         {
           "key": "A",
@@ -10312,8 +11526,23 @@
           "text": "covalent network"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "离子",
+        "B": "分子",
+        "C": "超临界",
+        "D": "金属",
+        "E": "共价网络"
+      },
+      "glossary": [
+        {
+          "term": "solid",
+          "meaning": "固体"
+        },
+        {
+          "term": "supercritical",
+          "meaning": "超临界的"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -10339,7 +11568,7 @@
       "type": "single",
       "stem": "Crystalline solids differ from amorphous solids in that crystalline solids have ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "晶体固体与非晶体固体的区别在于，晶体固体具有 ________。",
       "options": [
         {
           "key": "A",
@@ -10362,8 +11591,27 @@
           "text": "no orderly structure"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "明显的分子间吸引力",
+        "B": "原子、分子或离子的长程重复图案",
+        "C": "彼此靠近的原子、分子或离子",
+        "D": "大得多的原子、分子或离子",
+        "E": "无有序结构"
+      },
+      "glossary": [
+        {
+          "term": "crystalline",
+          "meaning": "晶体的"
+        },
+        {
+          "term": "amorphous",
+          "meaning": "非晶的"
+        },
+        {
+          "term": "long-range repeating pattern",
+          "meaning": "长程重复图案"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -10389,7 +11637,7 @@
       "type": "single",
       "stem": "The unit cell with all sides the same length and all angles equal to 90° that has lattice points only at the corners is called ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "所有边长相等、所有角等于90°、且只在顶角有格点的晶胞称为 ________。",
       "options": [
         {
           "key": "A",
@@ -10412,8 +11660,27 @@
           "text": "spherical cubic"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "单斜",
+        "B": "体心立方",
+        "C": "简单立方",
+        "D": "面心立方",
+        "E": "球状立方"
+      },
+      "glossary": [
+        {
+          "term": "unit cell",
+          "meaning": "晶胞"
+        },
+        {
+          "term": "lattice points",
+          "meaning": "格点"
+        },
+        {
+          "term": "primitive cubic",
+          "meaning": "简单立方"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -10439,7 +11706,7 @@
       "type": "single",
       "stem": "What fraction of the volume of each corner atom is actually within the volume of a face-centered cubic unit cell?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "面心立方晶胞中，每个顶角原子实际有多少比例的体积位于晶胞内？",
       "options": [
         {
           "key": "A",
@@ -10462,8 +11729,27 @@
           "text": "1/16"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "1/8",
+        "E": "1/16"
+      },
+      "glossary": [
+        {
+          "term": "fraction",
+          "meaning": "分数、比例"
+        },
+        {
+          "term": "corner atom",
+          "meaning": "顶角原子"
+        },
+        {
+          "term": "face-centered cubic",
+          "meaning": "面心立方"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -10489,7 +11775,7 @@
       "type": "single",
       "stem": "What portion of the volume of each atom or ion on the face of a unit cell is actually within the unit cell?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "晶胞面上每个原子或离子实际有多少比例位于晶胞内？",
       "options": [
         {
           "key": "A",
@@ -10512,8 +11798,27 @@
           "text": "none of it"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "3/4",
+        "D": "全部",
+        "E": "没有"
+      },
+      "glossary": [
+        {
+          "term": "portion",
+          "meaning": "比例、部分"
+        },
+        {
+          "term": "face",
+          "meaning": "面"
+        },
+        {
+          "term": "unit cell",
+          "meaning": "晶胞"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10539,7 +11844,7 @@
       "type": "single",
       "stem": "An alloy is a",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "合金是 ________。",
       "options": [
         {
           "key": "A",
@@ -10562,8 +11867,27 @@
           "text": "mineral containing two or more metals."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "两种金属的非均相混合物",
+        "B": "纯金属",
+        "C": "由两种或以上元素组成的金属材料",
+        "D": "具有某些金属性质的非金属",
+        "E": "含有两种或以上金属的矿物"
+      },
+      "glossary": [
+        {
+          "term": "alloy",
+          "meaning": "合金"
+        },
+        {
+          "term": "pure metal",
+          "meaning": "纯金属"
+        },
+        {
+          "term": "metallic material",
+          "meaning": "金属材料"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -10589,7 +11913,7 @@
       "type": "single",
       "stem": "Which one of the following is a property of most metals?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪项是大多数金属的性质？",
       "options": [
         {
           "key": "A",
@@ -10612,8 +11936,31 @@
           "text": "acidic oxides"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "低熔点",
+        "B": "脆性",
+        "C": "高电负性",
+        "D": "导热性",
+        "E": "酸性氧化物"
+      },
+      "glossary": [
+        {
+          "term": "property",
+          "meaning": "性质"
+        },
+        {
+          "term": "brittleness",
+          "meaning": "脆性"
+        },
+        {
+          "term": "thermal conductivity",
+          "meaning": "导热性"
+        },
+        {
+          "term": "acidic oxides",
+          "meaning": "酸性氧化物"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -10639,7 +11986,7 @@
       "type": "single",
       "stem": "Which statement about steel is false?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "关于钢，哪个说法是错误的？",
       "options": [
         {
           "key": "A",
@@ -10662,8 +12009,31 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "它是聚合物。",
+        "B": "它是铁的一种合金。",
+        "C": "它可以含不同百分比的碳。",
+        "D": "可以制成防锈的。",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "steel",
+          "meaning": "钢"
+        },
+        {
+          "term": "polymer",
+          "meaning": "聚合物"
+        },
+        {
+          "term": "alloy",
+          "meaning": "合金"
+        },
+        {
+          "term": "resist rust",
+          "meaning": "防锈"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -10689,7 +12059,7 @@
       "type": "single",
       "stem": "What is the typical effect of the addition of an interstitial element on the properties of a metal?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "加入间隙元素对金属性质的典型影响是什么？",
       "options": [
         {
           "key": "A",
@@ -10712,8 +12082,31 @@
           "text": "increased surface luster"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "可锻性和抗腐蚀性提高",
+        "B": "硬度和强度提高、延展性下降",
+        "C": "熔点下降、延展性提高",
+        "D": "导电性下降、脆性提高",
+        "E": "表面光泽增强"
+      },
+      "glossary": [
+        {
+          "term": "interstitial element",
+          "meaning": "间隙元素"
+        },
+        {
+          "term": "malleability",
+          "meaning": "可锻性"
+        },
+        {
+          "term": "corrosion resistance",
+          "meaning": "抗腐蚀性"
+        },
+        {
+          "term": "ductility",
+          "meaning": "延展性"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -10739,7 +12132,7 @@
       "type": "single",
       "stem": "Alloys generally differ from compounds in that",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "合金通常不同于化合物，因为 ________。",
       "options": [
         {
           "key": "A",
@@ -10762,8 +12155,31 @@
           "text": "the former never contain a transition element."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "前者总含一些碳",
+        "B": "前者总含一些铁",
+        "C": "前者总是半导体",
+        "D": "前者组成元素的原子比不固定、可在很大范围内变化",
+        "E": "前者从不含过渡元素"
+      },
+      "glossary": [
+        {
+          "term": "alloys",
+          "meaning": "合金"
+        },
+        {
+          "term": "compounds",
+          "meaning": "化合物"
+        },
+        {
+          "term": "atomic ratios",
+          "meaning": "原子比"
+        },
+        {
+          "term": "constituent elements",
+          "meaning": "组成元素"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -10789,7 +12205,7 @@
       "type": "single",
       "stem": "Metallic solids do not exhibit ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "金属固体不表现出 ________。",
       "options": [
         {
           "key": "A",
@@ -10812,8 +12228,23 @@
           "text": "variable melting point"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "优良导热性",
+        "B": "优良导电性",
+        "C": "可变的硬度",
+        "D": "极端脆性",
+        "E": "可变的熔点"
+      },
+      "glossary": [
+        {
+          "term": "metallic solids",
+          "meaning": "金属固体"
+        },
+        {
+          "term": "brittleness",
+          "meaning": "脆性"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -10839,7 +12270,7 @@
       "type": "single",
       "stem": "Which of the following is not a natural polymer?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个不是天然聚合物？",
       "options": [
         {
           "key": "A",
@@ -10862,8 +12293,35 @@
           "text": "nylon"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "蚕丝",
+        "B": "淀粉",
+        "C": "蛋白质",
+        "D": "纤维素",
+        "E": "尼龙"
+      },
+      "glossary": [
+        {
+          "term": "natural polymer",
+          "meaning": "天然聚合物"
+        },
+        {
+          "term": "silk",
+          "meaning": "蚕丝"
+        },
+        {
+          "term": "starch",
+          "meaning": "淀粉"
+        },
+        {
+          "term": "cellulose",
+          "meaning": "纤维素"
+        },
+        {
+          "term": "nylon",
+          "meaning": "尼龙"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -10889,7 +12347,7 @@
       "type": "single",
       "stem": "As a polymer becomes more crystalline, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "随着聚合物结晶度提高，________。",
       "options": [
         {
           "key": "A",
@@ -10912,8 +12370,27 @@
           "text": "None of the above is correct."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "其熔点下降",
+        "B": "其密度下降",
+        "C": "其刚度下降",
+        "D": "其屈服应力下降",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "crystalline",
+          "meaning": "结晶的"
+        },
+        {
+          "term": "stiffness",
+          "meaning": "刚度"
+        },
+        {
+          "term": "yield stress",
+          "meaning": "屈服应力"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -10939,7 +12416,7 @@
       "type": "single",
       "stem": "________ solids consist of atoms or molecules held together by dipole-dipole forces, London dispersion forces, and/or hydrogen bonds.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 固体由靠偶极–偶极力、伦敦色散力和/或氢键结合的原子或分子组成。",
       "options": [
         {
           "key": "A",
@@ -10962,8 +12439,31 @@
           "text": "Metallic and covalent-network"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "离子",
+        "B": "分子",
+        "C": "金属",
+        "D": "共价网络",
+        "E": "金属与共价网络"
+      },
+      "glossary": [
+        {
+          "term": "molecular solids",
+          "meaning": "分子固体"
+        },
+        {
+          "term": "dipole-dipole forces",
+          "meaning": "偶极–偶极力"
+        },
+        {
+          "term": "London dispersion forces",
+          "meaning": "伦敦色散力"
+        },
+        {
+          "term": "hydrogen bonds",
+          "meaning": "氢键"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -10989,7 +12489,7 @@
       "type": "single",
       "stem": "Blue LEDs are usually made of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "蓝色 LED 通常由 ________ 制成。",
       "options": [
         {
           "key": "A",
@@ -11012,8 +12512,19 @@
           "text": "GaN"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "GaAs",
+        "B": "GaP",
+        "C": "GaO",
+        "D": "GaS",
+        "E": "GaN"
+      },
+      "glossary": [
+        {
+          "term": "LED",
+          "meaning": "发光二极管"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -11039,7 +12550,7 @@
       "type": "single",
       "stem": "CsCl crystallizes in a unit cell that contains a Cs+ ion at the center of a cube and a Cl- ion at each corner. The unit cell of CsCl is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CsCl 的晶胞中，Cs⁺ 位于立方体中心、每个顶角有一个 Cl⁻。CsCl 的晶胞是 ________。",
       "options": [
         {
           "key": "A",
@@ -11062,8 +12573,27 @@
           "text": "primitive cubic"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "密堆积",
+        "B": "体心立方",
+        "C": "面心立方",
+        "D": "非晶",
+        "E": "简单立方"
+      },
+      "glossary": [
+        {
+          "term": "unit cell",
+          "meaning": "晶胞"
+        },
+        {
+          "term": "body-centered cubic",
+          "meaning": "体心立方"
+        },
+        {
+          "term": "close packed",
+          "meaning": "密堆积"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -11089,7 +12619,7 @@
       "type": "single",
       "stem": "The ________ lattice is one of the five two-dimensional lattices in which the lattice vectors a and b are equal and the γ angle between them is 90°.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 晶格是五种二维晶格之一，其中晶格矢量 a 与 b 相等，两者夹角 γ 为 90°。",
       "options": [
         {
           "key": "A",
@@ -11112,8 +12642,27 @@
           "text": "oblique"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "正方",
+        "B": "矩形",
+        "C": "六方",
+        "D": "菱形",
+        "E": "斜方"
+      },
+      "glossary": [
+        {
+          "term": "lattice",
+          "meaning": "晶格"
+        },
+        {
+          "term": "lattice vectors",
+          "meaning": "晶格矢量"
+        },
+        {
+          "term": "two-dimensional",
+          "meaning": "二维的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11139,7 +12688,7 @@
       "type": "single",
       "stem": "The ________ lattice is one of the seven primitive three-dimensional lattices in which the relationship between the lattice vectors a, b, and c can be written as: a ≠ b ≠ c",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 晶格是七种三维简单晶格之一，其晶格矢量满足 a ≠ b ≠ c。",
       "options": [
         {
           "key": "A",
@@ -11162,8 +12711,31 @@
           "text": "cubic"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "单斜",
+        "B": "六方",
+        "C": "菱面体",
+        "D": "四方",
+        "E": "立方"
+      },
+      "glossary": [
+        {
+          "term": "primitive",
+          "meaning": "简单的"
+        },
+        {
+          "term": "lattice vectors",
+          "meaning": "晶格矢量"
+        },
+        {
+          "term": "monoclinic",
+          "meaning": "单斜"
+        },
+        {
+          "term": "rhombohedral",
+          "meaning": "菱面体"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11189,7 +12761,7 @@
       "type": "single",
       "stem": "Which of the following is not an alloy?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个不是合金？",
       "options": [
         {
           "key": "A",
@@ -11212,8 +12784,35 @@
           "text": "bronze"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "单质金",
+        "B": "标准银（斯特林银）",
+        "C": "18K 金",
+        "D": "牙科汞合金",
+        "E": "青铜"
+      },
+      "glossary": [
+        {
+          "term": "alloy",
+          "meaning": "合金"
+        },
+        {
+          "term": "sterling silver",
+          "meaning": "斯特林银（标准银）"
+        },
+        {
+          "term": "karat",
+          "meaning": "开（金纯度单位）"
+        },
+        {
+          "term": "amalgam",
+          "meaning": "汞合金"
+        },
+        {
+          "term": "bronze",
+          "meaning": "青铜"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11239,7 +12838,7 @@
       "type": "single",
       "stem": "Of the following, only ________ is not a polymer.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，只有 ________ 不是聚合物。",
       "options": [
         {
           "key": "A",
@@ -11262,8 +12861,27 @@
           "text": "protein"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "牙科汞合金",
+        "B": "纤维素",
+        "C": "特氟龙",
+        "D": "塑料",
+        "E": "蛋白质"
+      },
+      "glossary": [
+        {
+          "term": "polymer",
+          "meaning": "聚合物"
+        },
+        {
+          "term": "cellulose",
+          "meaning": "纤维素"
+        },
+        {
+          "term": "Teflon",
+          "meaning": "特氟龙（聚四氟乙烯）"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11289,7 +12907,7 @@
       "type": "single",
       "stem": "The correct abbreviation for the polymer low-density polyethylene is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "聚合物“低密度聚乙烯”的正确缩写是 ________。",
       "options": [
         {
           "key": "A",
@@ -11312,8 +12930,23 @@
           "text": "HDPE"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "LDPE",
+        "B": "PP",
+        "C": "P",
+        "D": "PETE",
+        "E": "HDPE"
+      },
+      "glossary": [
+        {
+          "term": "abbreviation",
+          "meaning": "缩写"
+        },
+        {
+          "term": "low-density polyethylene",
+          "meaning": "低密度聚乙烯"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11339,7 +12972,7 @@
       "type": "single",
       "stem": "Which element is typically not added to steel to modify its properties?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "通常不加入钢中来改性的元素是哪个？",
       "options": [
         {
           "key": "A",
@@ -11362,8 +12995,31 @@
           "text": "nickel"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "碳",
+        "B": "钒",
+        "C": "铬",
+        "D": "氮",
+        "E": "镍"
+      },
+      "glossary": [
+        {
+          "term": "modify",
+          "meaning": "改变、改性"
+        },
+        {
+          "term": "vanadium",
+          "meaning": "钒"
+        },
+        {
+          "term": "chromium",
+          "meaning": "铬"
+        },
+        {
+          "term": "nickel",
+          "meaning": "镍"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -11389,7 +13045,7 @@
       "type": "single",
       "stem": "Which property of metals cannot be explained with the electron-sea model?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "金属的哪种性质无法用电子海模型解释？",
       "options": [
         {
           "key": "A",
@@ -11412,8 +13068,27 @@
           "text": "trends in melting points"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "光泽",
+        "B": "高导热性",
+        "C": "高导电性",
+        "D": "可锻性和延展性",
+        "E": "熔点的变化趋势"
+      },
+      "glossary": [
+        {
+          "term": "electron-sea model",
+          "meaning": "电子海模型"
+        },
+        {
+          "term": "shine",
+          "meaning": "光泽"
+        },
+        {
+          "term": "trends",
+          "meaning": "趋势"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -11439,7 +13114,7 @@
       "type": "single",
       "stem": "NaCl crystallizes in a face-centered cubic cell. What is the total number of ions (Na+ ions and Cl- ions) that lie within a unit cell of NaCl?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "NaCl 结晶为面心立方晶胞。NaCl 晶胞内共有多少个离子（Na⁺ 与 Cl⁻ 之和）？",
       "options": [
         {
           "key": "A",
@@ -11462,8 +13137,23 @@
           "text": "5"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "6",
+        "E": "5"
+      },
+      "glossary": [
+        {
+          "term": "face-centered cubic",
+          "meaning": "面心立方"
+        },
+        {
+          "term": "unit cell",
+          "meaning": "晶胞"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -11489,7 +13179,7 @@
       "type": "single",
       "stem": "An ionic solid, NaCl (s), dissolves in water because of the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "离子固体 NaCl(s) 能溶于水，是因为 ________。",
       "options": [
         {
           "key": "A",
@@ -11512,8 +13202,31 @@
           "text": "relatively low melting point"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "因 Na⁺、Cl⁻ 电荷小而使晶格能相对较低",
+        "B": "它形成的简单面心立方晶胞类型",
+        "C": "晶胞中离子的1:1 比",
+        "D": "相反电荷离子间强的库仑作用",
+        "E": "相对较低的熔点"
+      },
+      "glossary": [
+        {
+          "term": "dissolves",
+          "meaning": "溶解"
+        },
+        {
+          "term": "lattice energy",
+          "meaning": "晶格能"
+        },
+        {
+          "term": "coulombic interactions",
+          "meaning": "库仑作用"
+        },
+        {
+          "term": "oppositely charged",
+          "meaning": "带相反电荷的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -11539,7 +13252,7 @@
       "type": "single",
       "stem": "CsCl crystallizes in a unit cell that contains the Cs+ ion at the center of a cube that has a Cl- at each corner. Each unit cell contains ________ Cs+ ion(s) and ________ Cl- ion(s), respectively.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CsCl 的晶胞中 Cs⁺ 位于立方体中心、每个顶角有 Cl⁻。每个晶胞分别含有 ________ 个 Cs⁺ 和 ________ 个 Cl⁻。",
       "options": [
         {
           "key": "A",
@@ -11562,8 +13275,23 @@
           "text": "2 and 4"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1 和 8",
+        "B": "2 和 1",
+        "C": "1 和 1",
+        "D": "2 和 2",
+        "E": "2 和 4"
+      },
+      "glossary": [
+        {
+          "term": "unit cell",
+          "meaning": "晶胞"
+        },
+        {
+          "term": "respectively",
+          "meaning": "分别地"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -11589,7 +13317,7 @@
       "type": "single",
       "stem": "Inorganic compounds that are semiconductors have an average of ________ valence electrons.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "作为半导体的无机化合物平均有 ________ 个价电子。",
       "options": [
         {
           "key": "A",
@@ -11612,8 +13340,27 @@
           "text": "5"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "glossary": [
+        {
+          "term": "inorganic compounds",
+          "meaning": "无机化合物"
+        },
+        {
+          "term": "semiconductors",
+          "meaning": "半导体"
+        },
+        {
+          "term": "valence electrons",
+          "meaning": "价电子"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -11639,7 +13386,7 @@
       "type": "single",
       "stem": "An elastomer will fail to regain its original dimensions following a distortion beyond its ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "弹性体在形变超过其 ________ 后，将无法恢复原有尺寸。",
       "options": [
         {
           "key": "A",
@@ -11662,8 +13409,31 @@
           "text": "elastic limit"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "玻璃化转变",
+        "B": "相界",
+        "C": "伦敦力",
+        "D": "结晶度",
+        "E": "弹性极限"
+      },
+      "glossary": [
+        {
+          "term": "elastomer",
+          "meaning": "弹性体"
+        },
+        {
+          "term": "regain",
+          "meaning": "恢复"
+        },
+        {
+          "term": "distortion",
+          "meaning": "形变"
+        },
+        {
+          "term": "elastic limit",
+          "meaning": "弹性极限"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -11689,7 +13459,7 @@
       "type": "single",
       "stem": "The formation of a condensation polymer generally involves ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "缩聚物的形成通常涉及 ________。",
       "options": [
         {
           "key": "A",
@@ -11712,8 +13482,31 @@
           "text": "the formation of significant crosslinking"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "加入增塑剂",
+        "B": "将硫与加聚物混合",
+        "C": "消去一个小分子",
+        "D": "增塑剂的汽化",
+        "E": "形成大量交联"
+      },
+      "glossary": [
+        {
+          "term": "condensation polymer",
+          "meaning": "缩聚物"
+        },
+        {
+          "term": "plasticizer",
+          "meaning": "增塑剂"
+        },
+        {
+          "term": "elimination",
+          "meaning": "消去"
+        },
+        {
+          "term": "crosslinking",
+          "meaning": "交联"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -11739,7 +13532,7 @@
       "type": "single",
       "stem": "The properties of graphene include ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "石墨烯的性质包括 ________。",
       "options": [
         {
           "key": "A",
@@ -11762,8 +13555,27 @@
           "text": "A, B and C"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "高强度",
+        "B": "低导热性",
+        "C": "零能隙",
+        "D": "A 和 C",
+        "E": "A、B 和 C"
+      },
+      "glossary": [
+        {
+          "term": "graphene",
+          "meaning": "石墨烯"
+        },
+        {
+          "term": "thermal conductivity",
+          "meaning": "导热性"
+        },
+        {
+          "term": "energy gap",
+          "meaning": "能隙"
+        }
+      ],
       "answer": [
         "D"
       ],

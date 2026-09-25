@@ -1,0 +1,217 @@
+{
+  "label": "chapter1b",
+  "part": 1,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "1": {
+      "stemZh": "下列哪个具有8个价电子？",
+      "optionsZh": { "A": "Ti⁴⁺", "B": "Kr", "C": "Cl⁻", "D": "Na⁺", "E": "以上都是" },
+      "glossary": [
+        { "term": "valence electrons", "meaning": "价电子" },
+        { "term": "noble gas", "meaning": "稀有气体" }
+      ]
+    },
+    "2": {
+      "stemZh": "下列哪个不具有8个价电子？",
+      "optionsZh": { "A": "Ca⁺", "B": "Rb⁺", "C": "Xe", "D": "Br⁻", "E": "以上都有8个价电子" },
+      "glossary": [
+        { "term": "valence electrons", "meaning": "价电子" }
+      ]
+    },
+    "3": {
+      "stemZh": "晶格能是 ________。",
+      "optionsZh": { "A": "把1 mol 离子固体转化为气态组成离子所需的能量", "B": "气态离子结合成1 mol 离子固体时放出的能量", "C": "由组成元素的标准态生成1 mol 离子化合物所需的能量", "D": "离子固体中各组分电离能之和", "E": "离子固体中各组分电子亲和能之和" },
+      "glossary": [
+        { "term": "lattice energy", "meaning": "晶格能" },
+        { "term": "constituent ions", "meaning": "组成离子" },
+        { "term": "gas phase", "meaning": "气相" },
+        { "term": "standard states", "meaning": "标准态" }
+      ]
+    },
+    "4": {
+      "stemZh": "在离子键形成中，随着离子电荷量 ________、半径 ________，离子的晶格能 ________。",
+      "optionsZh": { "A": "增大，减小，增大", "B": "增大，增大，增大", "C": "减小，增大，增大", "D": "增大，增大，减小", "E": "增大，减小，减小" },
+      "glossary": [
+        { "term": "ionic bond", "meaning": "离子键" },
+        { "term": "magnitude", "meaning": "大小、量值" },
+        { "term": "radii", "meaning": "半径（复数）" }
+      ]
+    },
+    "5": {
+      "stemZh": "分子中原子吸引电子的能力最好用 ________ 来量化。",
+      "optionsZh": { "A": "顺磁性", "B": "抗磁性", "C": "电负性", "D": "电子荷质比", "E": "第一电离势" },
+      "glossary": [
+        { "term": "attract", "meaning": "吸引" },
+        { "term": "quantified", "meaning": "量化" },
+        { "term": "electronegativity", "meaning": "电负性" },
+        { "term": "paramagnetism", "meaning": "顺磁性" },
+        { "term": "diamagnetism", "meaning": "抗磁性" }
+      ]
+    },
+    "6": {
+      "stemZh": "在亚硝酸根离子（NO₂⁻）中，________。",
+      "optionsZh": { "A": "两个键都是单键", "B": "两个键都是双键", "C": "一个键是双键、另一个是单键", "D": "两个键相同", "E": "有20个价电子" },
+      "glossary": [
+        { "term": "nitrite ion", "meaning": "亚硝酸根离子（NO₂⁻）" },
+        { "term": "bond", "meaning": "键" },
+        { "term": "valence electrons", "meaning": "价电子" }
+      ]
+    },
+    "7": {
+      "stemZh": "Fe2O3 中铁的氧化数是 ________。",
+      "optionsZh": { "A": "−2", "B": "+1", "C": "+3", "D": "+2", "E": "−3" },
+      "glossary": [
+        { "term": "oxidation number", "meaning": "氧化数（化合价）" },
+        { "term": "iron", "meaning": "铁" }
+      ]
+    },
+    "8": {
+      "stemZh": "CO₃²⁻ 离子的 Lewis 结构是 ________。",
+      "optionsZh": { "A": "图 A", "B": "图 B", "C": "图 C", "D": "图 D", "E": "图 E" },
+      "glossary": [
+        { "term": "Lewis structure", "meaning": "Lewis 结构（电子式）" },
+        { "term": "carbonate ion", "meaning": "碳酸根离子（CO₃²⁻）" }
+      ]
+    },
+    "9": {
+      "stemZh": "键焓 ________。",
+      "optionsZh": { "A": "总是正值", "B": "总是负值", "C": "有时正有时负", "D": "总为零", "E": "无法预测" },
+      "glossary": [
+        { "term": "bond enthalpy", "meaning": "键焓" },
+        { "term": "unpredictable", "meaning": "无法预测的" }
+      ]
+    },
+    "10": {
+      "stemZh": "在 C–C、C=C、C≡C 三种键中，C–C 键 ________。",
+      "optionsZh": { "A": "最强/最短", "B": "最强/最长", "C": "最弱/最长", "D": "最弱/最短", "E": "强度与长度都居中" },
+      "glossary": [
+        { "term": "single bond", "meaning": "单键" },
+        { "term": "double bond", "meaning": "双键" },
+        { "term": "triple bond", "meaning": "三键" },
+        { "term": "bond length", "meaning": "键长" }
+      ]
+    },
+    "11": {
+      "stemZh": "随着两原子间共价键数目增加，原子间距离 ________，键的强度 ________。",
+      "optionsZh": { "A": "增大，增大", "B": "减小，减小", "C": "增大，减小", "D": "减小，增大", "E": "无法预测" },
+      "glossary": [
+        { "term": "covalent bond", "meaning": "共价键" },
+        { "term": "distance", "meaning": "距离" },
+        { "term": "strength", "meaning": "强度" }
+      ]
+    },
+    "12": {
+      "stemZh": "根据八隅体规则，镁最可能形成 ________ 离子。",
+      "optionsZh": { "A": "Mg²⁺", "B": "Mg²⁻", "C": "Mg⁶⁻", "D": "Mg⁶⁺", "E": "Mg⁻" },
+      "glossary": [
+        { "term": "octet rule", "meaning": "八隅体规则" }
+      ]
+    },
+    "13": {
+      "stemZh": "根据八隅体规则，铝最可能形成 ________ 离子。",
+      "optionsZh": { "A": "Al³⁺", "B": "Al⁴⁺", "C": "Al⁴⁻", "D": "Al⁺", "E": "Al⁻" },
+      "glossary": [
+        { "term": "octet rule", "meaning": "八隅体规则" }
+      ]
+    },
+    "14": {
+      "stemZh": "对给定的离子排列，离子半径 ________、离子电荷 ________ 时晶格能增大。",
+      "optionsZh": { "A": "减小，增大", "B": "增大，减小", "C": "增大，增大", "D": "减小，减小", "E": "无法预测" },
+      "glossary": [
+        { "term": "lattice energy", "meaning": "晶格能" },
+        { "term": "ionic radius", "meaning": "离子半径" },
+        { "term": "ionic charge", "meaning": "离子电荷" }
+      ]
+    },
+    "15": {
+      "stemZh": "周期表两侧的元素倾向于形成 ________。",
+      "optionsZh": { "A": "共价化合物", "B": "离子化合物", "C": "室温下为气态的化合物", "D": "同核双原子化合物", "E": "室温下为气态的共价化合物" },
+      "glossary": [
+        { "term": "opposite sides", "meaning": "（周期表）两侧" },
+        { "term": "ionic compound", "meaning": "离子化合物" },
+        { "term": "homonuclear diatomic", "meaning": "同核双原子" }
+      ]
+    },
+    "16": {
+      "stemZh": "同样两个原子之间，________ 共价键最长。",
+      "optionsZh": { "A": "单", "B": "双", "C": "三", "D": "强", "E": "它们长度都相同" },
+      "glossary": [
+        { "term": "covalent bond", "meaning": "共价键" }
+      ]
+    },
+    "17": {
+      "stemZh": "双键由两个原子间共用的 ________ 对电子构成。",
+      "optionsZh": { "A": "1", "B": "2", "C": "3", "D": "4", "E": "6" },
+      "glossary": [
+        { "term": "double bond", "meaning": "双键" },
+        { "term": "shared", "meaning": "共用的" }
+      ]
+    },
+    "18": {
+      "stemZh": "一个氢原子最多能形成多少个双键？",
+      "optionsZh": { "A": "0", "B": "1", "C": "2", "D": "3", "E": "4" },
+      "glossary": [
+        { "term": "maximum", "meaning": "最大（值）" },
+        { "term": "double bond", "meaning": "双键" }
+      ]
+    },
+    "19": {
+      "stemZh": "电负性在周期内从左到右 ________，在族内从上到下 ________。",
+      "optionsZh": { "A": "减小，增大", "B": "增大，增大", "C": "增大，减小", "D": "不变，增大", "E": "增大，不变" },
+      "glossary": [
+        { "term": "electronegativity", "meaning": "电负性" },
+        { "term": "within a period", "meaning": "在周期内" },
+        { "term": "within a group", "meaning": "在族内" }
+      ]
+    },
+    "20": {
+      "stemZh": "下图中碳的形式电荷是 ________。",
+      "optionsZh": { "A": "0", "B": "+1", "C": "+2", "D": "+3", "E": "−1" },
+      "glossary": [
+        { "term": "formal charge", "meaning": "形式电荷" },
+        { "term": "molecule", "meaning": "分子" }
+      ]
+    },
+    "21": {
+      "stemZh": "氧原子的 Lewis 符号中有 ________ 个未成对电子。",
+      "optionsZh": { "A": "0", "B": "1", "C": "2", "D": "4", "E": "3" },
+      "glossary": [
+        { "term": "unpaired electrons", "meaning": "未成对电子" },
+        { "term": "Lewis symbol", "meaning": "Lewis 符号" }
+      ]
+    },
+    "22": {
+      "stemZh": "下列哪种金属的氧化物晶格能最大？",
+      "optionsZh": { "A": "钙", "B": "锶", "C": "镁", "D": "铍", "E": "钡" },
+      "glossary": [
+        { "term": "oxide", "meaning": "氧化物" },
+        { "term": "lattice energy", "meaning": "晶格能" },
+        { "term": "beryllium", "meaning": "铍" }
+      ]
+    },
+    "23": {
+      "stemZh": "氯原子必须形成多少个单共价键才能使其价层达到完整八隅体？",
+      "optionsZh": { "A": "0", "B": "1", "C": "2", "D": "3", "E": "4" },
+      "glossary": [
+        { "term": "single covalent bond", "meaning": "单共价键" },
+        { "term": "complete octet", "meaning": "完整八隅体" },
+        { "term": "valence shell", "meaning": "价层" }
+      ]
+    },
+    "24": {
+      "stemZh": "下列原子中，________ 的电负性最大。",
+      "optionsZh": { "A": "Ba", "B": "Sr", "C": "Ca", "D": "Mg", "E": "Be" },
+      "glossary": [
+        { "term": "electronegative", "meaning": "电负性大的" }
+      ]
+    },
+    "25": {
+      "stemZh": "PF5 中磷的氧化数是 ________。",
+      "optionsZh": { "A": "+5", "B": "+3", "C": "+1", "D": "−5", "E": "0" },
+      "glossary": [
+        { "term": "oxidation number", "meaning": "氧化数" },
+        { "term": "phosphorus", "meaning": "磷" }
+      ]
+    }
+  }
+}

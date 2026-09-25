@@ -1,0 +1,230 @@
+{
+  "label": "chapter1b",
+  "part": 3,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "51": {
+      "stemZh": "晶体固体 ________。",
+      "optionsZh": { "A": "其粒子随机排列", "B": "具有高度有序的结构", "C": "通常非常软", "D": "只存在于高温", "E": "只存在于极低温" },
+      "glossary": [
+        { "term": "crystalline solids", "meaning": "晶体固体" },
+        { "term": "particles", "meaning": "粒子" },
+        { "term": "ordered structures", "meaning": "有序结构" }
+      ]
+    },
+    "52": {
+      "stemZh": "在液体中，分子间吸引力 ________。",
+      "optionsZh": { "A": "与分子动能相比非常弱", "B": "强到足以使分子相对靠近", "C": "强到足以使分子只能在固定晶格点附近振动", "D": "弱到不足以阻止分子互相滑过", "E": "强到足以使分子相对靠近，但弱到不足以阻止分子互相滑过" },
+      "glossary": [
+        { "term": "intermolecular forces", "meaning": "分子间力" },
+        { "term": "kinetic energy", "meaning": "动能" },
+        { "term": "lattice points", "meaning": "晶格点" }
+      ]
+    },
+    "53": {
+      "stemZh": "气体 ________，并呈现容器的 ________；而液体 ________，并呈现容器的 ________。",
+      "optionsZh": { "A": "可压缩，体积和形状；不可压缩，所在一部分的形状", "B": "可压缩，形状；不可压缩，体积和形状", "C": "可压缩，体积和形状；可压缩，体积", "D": "凝聚，体积和形状；凝聚，体积和形状", "E": "凝聚，形状；可压缩，体积和形状" },
+      "glossary": [
+        { "term": "compressible", "meaning": "可压缩的" },
+        { "term": "assume", "meaning": "呈现、呈（形状）" },
+        { "term": "condensed", "meaning": "凝聚的" }
+      ]
+    },
+    "54": {
+      "stemZh": "关于液体成立、而关于固体不成立的说法是哪个？",
+      "optionsZh": { "A": "它们流动且高度有序", "B": "它们高度有序且不可压缩", "C": "它们流动且可压缩", "D": "它们呈现容器的体积和形状", "E": "它们流动且不可压缩" },
+      "glossary": [
+        { "term": "flow", "meaning": "流动" },
+        { "term": "compressible", "meaning": "可压缩的" }
+      ]
+    },
+    "55": {
+      "stemZh": "分子中电荷分布被外电场扭曲的难易程度称为 ________。",
+      "optionsZh": { "A": "电负性", "B": "氢键", "C": "极化率", "D": "挥发性", "E": "黏度" },
+      "glossary": [
+        { "term": "charge distribution", "meaning": "电荷分布" },
+        { "term": "distorted", "meaning": "被扭曲的" },
+        { "term": "polarizability", "meaning": "极化率" },
+        { "term": "volatility", "meaning": "挥发性" },
+        { "term": "viscosity", "meaning": "黏度" }
+      ]
+    },
+    "56": {
+      "stemZh": "氢键是 ________ 的一种特殊情形。",
+      "optionsZh": { "A": "伦敦色散力", "B": "离子–偶极吸引", "C": "偶极–偶极吸引", "D": "离子–离子作用", "E": "以上都不对" },
+      "glossary": [
+        { "term": "hydrogen bonding", "meaning": "氢键" },
+        { "term": "London dispersion forces", "meaning": "伦敦色散力" },
+        { "term": "dipole-dipole", "meaning": "偶极–偶极" },
+        { "term": "ion-dipole", "meaning": "离子–偶极" }
+      ]
+    },
+    "57": {
+      "stemZh": "冰的密度小于液态水，是哪种分子间力造成的？",
+      "optionsZh": { "A": "伦敦色散力", "B": "偶极–偶极力", "C": "离子–偶极力", "D": "氢键", "E": "离子键" },
+      "glossary": [
+        { "term": "intermolecular force", "meaning": "分子间力" },
+        { "term": "less dense", "meaning": "密度更小" },
+        { "term": "hydrogen bonding", "meaning": "氢键" }
+      ]
+    },
+    "58": {
+      "stemZh": "关于黏度哪些说法正确？(i) 温度降低，黏度增大；(ii) 分子量增大，黏度增大；(iii) 分子间力增大，黏度增大。",
+      "optionsZh": { "A": "仅 (i)", "B": "(ii) 和 (iii)", "C": "(i) 和 (iii)", "D": "都不对", "E": "全部" },
+      "glossary": [
+        { "term": "viscosity", "meaning": "黏度" },
+        { "term": "molecular weight", "meaning": "分子量" },
+        { "term": "intermolecular forces", "meaning": "分子间力" }
+      ]
+    },
+    "59": {
+      "stemZh": "黏度是 ________。",
+      "optionsZh": { "A": "由分子间吸引在液面形成的“表层”", "B": "流动的阻力", "C": "与密度相同", "D": "与摩尔质量成反比", "E": "不受温度影响" },
+      "glossary": [
+        { "term": "viscosity", "meaning": "黏度" },
+        { "term": "resistance to flow", "meaning": "流动阻力" },
+        { "term": "inversely proportional", "meaning": "成反比的" }
+      ]
+    },
+    "60": {
+      "stemZh": "物质中较大的分子间力表现为 ________。",
+      "optionsZh": { "A": "低蒸气压", "B": "高沸点", "C": "高熔化热和汽化热", "D": "高临界温度和压力", "E": "以上都是" },
+      "glossary": [
+        { "term": "manifested", "meaning": "表现为" },
+        { "term": "vapor pressure", "meaning": "蒸气压" },
+        { "term": "heats of fusion and vaporization", "meaning": "熔化热和汽化热" },
+        { "term": "critical temperature", "meaning": "临界温度" }
+      ]
+    },
+    "61": {
+      "stemZh": "下列中，________ 是放热过程。",
+      "optionsZh": { "A": "熔化", "B": "升华", "C": "凝固", "D": "沸腾", "E": "以上都是放热" },
+      "glossary": [
+        { "term": "exothermic", "meaning": "放热的" },
+        { "term": "melting", "meaning": "熔化" },
+        { "term": "subliming", "meaning": "升华" },
+        { "term": "freezing", "meaning": "凝固" }
+      ]
+    },
+    "62": {
+      "stemZh": "易挥发液体是 ________ 的液体。",
+      "optionsZh": { "A": "高度易燃", "B": "黏度很高", "C": "氢键很强", "D": "内聚力很强", "E": "容易蒸发" },
+      "glossary": [
+        { "term": "volatile", "meaning": "易挥发的" },
+        { "term": "flammable", "meaning": "易燃的" },
+        { "term": "evaporates", "meaning": "蒸发" }
+      ]
+    },
+    "63": {
+      "stemZh": "一般来说，物质的蒸气压随 ________ 增大而增大。",
+      "optionsZh": { "A": "表面张力", "B": "分子量", "C": "氢键", "D": "黏度", "E": "温度" },
+      "glossary": [
+        { "term": "vapor pressure", "meaning": "蒸气压" },
+        { "term": "surface tension", "meaning": "表面张力" }
+      ]
+    },
+    "64": {
+      "stemZh": "挥发性与蒸气压 ________。",
+      "optionsZh": { "A": "互为反比", "B": "互成正比", "C": "无关", "D": "是同一回事", "E": "都与温度无关" },
+      "glossary": [
+        { "term": "volatility", "meaning": "挥发性" },
+        { "term": "vapor pressure", "meaning": "蒸气压" },
+        { "term": "proportional", "meaning": "成比例的" }
+      ]
+    },
+    "65": {
+      "stemZh": "下列哪个沸点最低？",
+      "optionsZh": { "A": "CH4", "B": "PCl3", "C": "C2H5COOH", "D": "LiCl", "E": "Cl2S" },
+      "glossary": [
+        { "term": "boiling point", "meaning": "沸点" }
+      ]
+    },
+    "66": {
+      "stemZh": "下列物质中，________ 的沸点最高。",
+      "optionsZh": { "A": "H2O", "B": "SiH4", "C": "Ar", "D": "Cl2", "E": "BF3" },
+      "glossary": [
+        { "term": "boiling point", "meaning": "沸点" }
+      ]
+    },
+    "67": {
+      "stemZh": "HCN 中最主要的分子间力是什么？",
+      "optionsZh": { "A": "偶极–偶极吸引", "B": "离子–偶极吸引", "C": "离子键", "D": "氢键", "E": "伦敦色散力" },
+      "glossary": [
+        { "term": "predominant", "meaning": "主要的" },
+        { "term": "intermolecular force", "meaning": "分子间力" }
+      ]
+    },
+    "68": {
+      "stemZh": "乙醇在1 atm 下熔点 −114 °C、沸点 78 °C。0 °C、1 atm 时乙醇样品必须处于什么状态？",
+      "optionsZh": { "A": "液态", "B": "气态", "C": "固态", "D": "固液平衡", "E": "液气平衡" },
+      "glossary": [
+        { "term": "melts", "meaning": "熔化" },
+        { "term": "boils", "meaning": "沸腾" },
+        { "term": "state of matter", "meaning": "物态" },
+        { "term": "equilibrium", "meaning": "平衡" }
+      ]
+    },
+    "69": {
+      "stemZh": "下列中，________ 最难挥发。",
+      "optionsZh": { "A": "CI4", "B": "CF4", "C": "CBr4", "D": "CCl4", "E": "CH4" },
+      "glossary": [
+        { "term": "volatile", "meaning": "易挥发的" },
+        { "term": "least", "meaning": "最不" }
+      ]
+    },
+    "70": {
+      "stemZh": "某固体熔点很高、硬度很大、导电性差。这是一种 ________ 固体。",
+      "optionsZh": { "A": "离子", "B": "分子", "C": "金属", "D": "共价网络", "E": "金属与共价网络" },
+      "glossary": [
+        { "term": "melting point", "meaning": "熔点" },
+        { "term": "hardness", "meaning": "硬度" },
+        { "term": "electrical conduction", "meaning": "导电" },
+        { "term": "covalent network", "meaning": "共价网络（原子晶体）" }
+      ]
+    },
+    "71": {
+      "stemZh": "下列哪个不是固体的类型？",
+      "optionsZh": { "A": "离子", "B": "分子", "C": "超临界", "D": "金属", "E": "共价网络" },
+      "glossary": [
+        { "term": "solid", "meaning": "固体" },
+        { "term": "supercritical", "meaning": "超临界的" }
+      ]
+    },
+    "72": {
+      "stemZh": "晶体固体与非晶体固体的区别在于，晶体固体具有 ________。",
+      "optionsZh": { "A": "明显的分子间吸引力", "B": "原子、分子或离子的长程重复图案", "C": "彼此靠近的原子、分子或离子", "D": "大得多的原子、分子或离子", "E": "无有序结构" },
+      "glossary": [
+        { "term": "crystalline", "meaning": "晶体的" },
+        { "term": "amorphous", "meaning": "非晶的" },
+        { "term": "long-range repeating pattern", "meaning": "长程重复图案" }
+      ]
+    },
+    "73": {
+      "stemZh": "所有边长相等、所有角等于90°、且只在顶角有格点的晶胞称为 ________。",
+      "optionsZh": { "A": "单斜", "B": "体心立方", "C": "简单立方", "D": "面心立方", "E": "球状立方" },
+      "glossary": [
+        { "term": "unit cell", "meaning": "晶胞" },
+        { "term": "lattice points", "meaning": "格点" },
+        { "term": "primitive cubic", "meaning": "简单立方" }
+      ]
+    },
+    "74": {
+      "stemZh": "面心立方晶胞中，每个顶角原子实际有多少比例的体积位于晶胞内？",
+      "optionsZh": { "A": "1", "B": "1/2", "C": "1/4", "D": "1/8", "E": "1/16" },
+      "glossary": [
+        { "term": "fraction", "meaning": "分数、比例" },
+        { "term": "corner atom", "meaning": "顶角原子" },
+        { "term": "face-centered cubic", "meaning": "面心立方" }
+      ]
+    },
+    "75": {
+      "stemZh": "晶胞面上每个原子或离子实际有多少比例位于晶胞内？",
+      "optionsZh": { "A": "1/2", "B": "1/4", "C": "3/4", "D": "全部", "E": "没有" },
+      "glossary": [
+        { "term": "portion", "meaning": "比例、部分" },
+        { "term": "face", "meaning": "面" },
+        { "term": "unit cell", "meaning": "晶胞" }
+      ]
+    }
+  }
+}

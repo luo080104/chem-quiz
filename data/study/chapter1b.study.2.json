@@ -1,0 +1,219 @@
+{
+  "label": "chapter1b",
+  "part": 2,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "26": {
+      "stemZh": "分子成键的 VSEPR 模型的基础是 ________。",
+      "optionsZh": { "A": "原子上的电子密度区域会自行组织以最大化 s 成分", "B": "原子价层的电子密度区域会排列以最大化轨道重叠", "C": "成键原子的原子轨道必须重叠才能成键", "D": "原子价层中的电子域会排列以最小化排斥", "E": "会按需形成杂化轨道以尽可能接近球形对称" },
+      "glossary": [
+        { "term": "VSEPR", "meaning": "价层电子对互斥（模型）" },
+        { "term": "electron density", "meaning": "电子密度" },
+        { "term": "valence shell", "meaning": "价层" },
+        { "term": "repulsions", "meaning": "排斥（作用）" },
+        { "term": "overlap", "meaning": "重叠" }
+      ]
+    },
+    "27": {
+      "stemZh": "一个电子域由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
+      "optionsZh": { "A": "仅 a", "B": "仅 b", "C": "仅 c", "D": "a、b 和 c", "E": "b 和 c" },
+      "glossary": [
+        { "term": "electron domain", "meaning": "电子域（电子对区域）" },
+        { "term": "nonbonding pair", "meaning": "孤对电子" },
+        { "term": "multiple bond", "meaning": "多重键" }
+      ]
+    },
+    "28": {
+      "stemZh": "分子几何由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
+      "optionsZh": { "A": "仅 a", "B": "仅 b", "C": "仅 c", "D": "a、b 和 c", "E": "b 和 c" },
+      "glossary": [
+        { "term": "molecular geometry", "meaning": "分子几何（形状）" },
+        { "term": "nonbonding pair", "meaning": "孤对电子" }
+      ]
+    },
+    "29": {
+      "stemZh": "某分子式为 AB3，其中心原子与周围三个原子不在同一平面。它的分子形状是 ________。",
+      "optionsZh": { "A": "四面体形", "B": "三角锥形", "C": "直线形", "D": "T 形", "E": "弯曲形" },
+      "glossary": [
+        { "term": "central atom", "meaning": "中心原子" },
+        { "term": "molecular shape", "meaning": "分子形状" },
+        { "term": "trigonal pyramidal", "meaning": "三角锥形" }
+      ]
+    },
+    "30": {
+      "stemZh": "PF3 分子的分子几何是 ________，该分子是 ________。",
+      "optionsZh": { "A": "平面三角形，极性", "B": "平面三角形，非极性", "C": "三角锥形，极性", "D": "三角锥形，非极性", "E": "四面体形，单极性" },
+      "glossary": [
+        { "term": "molecular geometry", "meaning": "分子几何" },
+        { "term": "polar", "meaning": "极性的" },
+        { "term": "nonpolar", "meaning": "非极性的" }
+      ]
+    },
+    "31": {
+      "stemZh": "对于只有一个中心原子的分子，中心原子上有几对孤对电子就保证分子有极性？",
+      "optionsZh": { "A": "1", "B": "2", "C": "1 或 2", "D": "3", "E": "1 或 3" },
+      "glossary": [
+        { "term": "lone pair", "meaning": "孤对电子" },
+        { "term": "polarity", "meaning": "极性" }
+      ]
+    },
+    "32": {
+      "stemZh": "sp² 杂化轨道组容纳 ________ 个电子域。",
+      "optionsZh": { "A": "2", "B": "3", "C": "4", "D": "5", "E": "6" },
+      "glossary": [
+        { "term": "sp2 hybrid orbital", "meaning": "sp² 杂化轨道" },
+        { "term": "accommodate", "meaning": "容纳" }
+      ]
+    },
+    "33": {
+      "stemZh": "BeF2 的杂化方式是 ________。",
+      "optionsZh": { "A": "sp", "B": "sp²", "C": "sp³", "D": "sp³d", "E": "sp³d²" },
+      "glossary": [
+        { "term": "hybridization", "meaning": "杂化" }
+      ]
+    },
+    "34": {
+      "stemZh": "当四个原子轨道混合形成杂化轨道时，会形成多少个杂化轨道？",
+      "optionsZh": { "A": "一个", "B": "六个", "C": "三个", "D": "四个", "E": "五个" },
+      "glossary": [
+        { "term": "atomic orbitals", "meaning": "原子轨道" },
+        { "term": "hybrid orbitals", "meaning": "杂化轨道" }
+      ]
+    },
+    "35": {
+      "stemZh": "价键理论不涉及 ________ 的问题。",
+      "optionsZh": { "A": "分子的激发态", "B": "分子形状", "C": "共价成键", "D": "杂化", "E": "多重键" },
+      "glossary": [
+        { "term": "valence bond theory", "meaning": "价键理论" },
+        { "term": "excited states", "meaning": "激发态" }
+      ]
+    },
+    "36": {
+      "stemZh": "典型的双键 ________。",
+      "optionsZh": { "A": "比单键更强更短", "B": "由1个 σ 键和1个 π 键组成", "C": "使分子具有刚性", "D": "由两对共用电子组成", "E": "以上都正确" },
+      "glossary": [
+        { "term": "sigma bond", "meaning": "σ 键" },
+        { "term": "pi bond", "meaning": "π 键" },
+        { "term": "rigidity", "meaning": "刚性" }
+      ]
+    },
+    "37": {
+      "stemZh": "________ 键中的电子定域在两个原子之间；________ 键中的电子可离域到两个以上原子之间。",
+      "optionsZh": { "A": "π，σ", "B": "σ，π", "C": "π，π", "D": "σ，σ", "E": "离子，σ" },
+      "glossary": [
+        { "term": "localized", "meaning": "定域的" },
+        { "term": "delocalized", "meaning": "离域的" },
+        { "term": "sigma", "meaning": "σ（西格玛）" },
+        { "term": "pi", "meaning": "π（派）" }
+      ]
+    },
+    "38": {
+      "stemZh": "任何成键电子数与反键电子数相等的分子，其键级是 ________。",
+      "optionsZh": { "A": "0", "B": "1", "C": "2", "D": "3", "E": "1/2" },
+      "glossary": [
+        { "term": "bond order", "meaning": "键级" },
+        { "term": "bonding electrons", "meaning": "成键电子" },
+        { "term": "antibonding electrons", "meaning": "反键电子" }
+      ]
+    },
+    "39": {
+      "stemZh": "比较同样的两个原子成键时，键级越 ________，键长越 ________，键能越 ________。",
+      "optionsZh": { "A": "大，短，大", "B": "大，大，大", "C": "大，长，大", "D": "小，长，小", "E": "小，大，大" },
+      "glossary": [
+        { "term": "bond order", "meaning": "键级" },
+        { "term": "bond length", "meaning": "键长" },
+        { "term": "bond energy", "meaning": "键能" }
+      ]
+    },
+    "40": {
+      "stemZh": "根据分子轨道理论，OF⁺ 离子中有 ________ 个未成对电子。",
+      "optionsZh": { "A": "0", "B": "3", "C": "1", "D": "2", "E": "1/2" },
+      "glossary": [
+        { "term": "molecular orbital theory", "meaning": "分子轨道理论" },
+        { "term": "unpaired electrons", "meaning": "未成对电子" }
+      ]
+    },
+    "41": {
+      "stemZh": "对于分子式为 AB2 的分子，其分子形状是 ________。",
+      "optionsZh": { "A": "直线形或弯曲形", "B": "直线形或平面三角形", "C": "直线形或 T 形", "D": "T 形", "E": "平面三角形" },
+      "glossary": [
+        { "term": "molecular shape", "meaning": "分子形状" },
+        { "term": "linear", "meaning": "直线形" },
+        { "term": "bent", "meaning": "弯曲形" }
+      ]
+    },
+    "42": {
+      "stemZh": "CHCl3 分子的分子几何是 ________。",
+      "optionsZh": { "A": "弯曲形", "B": "平面三角形", "C": "三角锥形", "D": "四面体形", "E": "T 形" },
+      "glossary": [
+        { "term": "molecular geometry", "meaning": "分子几何" },
+        { "term": "tetrahedral", "meaning": "四面体形" }
+      ]
+    },
+    "43": {
+      "stemZh": "SO2 中 O–S–O 键角略小于 ________。",
+      "optionsZh": { "A": "90°", "B": "109.5°", "C": "120°", "D": "180°", "E": "60°" },
+      "glossary": [
+        { "term": "bond angle", "meaning": "键角" }
+      ]
+    },
+    "44": {
+      "stemZh": "某分子中心原子轨道的杂化方式为 sp。该中心原子周围的电子域几何是 ________。",
+      "optionsZh": { "A": "八面体", "B": "直线形", "C": "平面三角形", "D": "三角双锥", "E": "四面体" },
+      "glossary": [
+        { "term": "hybridization", "meaning": "杂化" },
+        { "term": "electron-domain geometry", "meaning": "电子域几何" },
+        { "term": "octahedral", "meaning": "八面体" },
+        { "term": "trigonal bipyramidal", "meaning": "三角双锥" }
+      ]
+    },
+    "45": {
+      "stemZh": "ClF3 具有“T 形”几何。该分子中有 ________ 个非成键电子域。",
+      "optionsZh": { "A": "4", "B": "2", "C": "3", "D": "1", "E": "0" },
+      "glossary": [
+        { "term": "non-bonding domain", "meaning": "非成键电子域" },
+        { "term": "T-shaped", "meaning": "T 形" }
+      ]
+    },
+    "46": {
+      "stemZh": "CH4 中 H–C–H 键角约为 ________。",
+      "optionsZh": { "A": "180°", "B": "120°", "C": "109.5°", "D": "60°", "E": "90°" },
+      "glossary": [
+        { "term": "bond angle", "meaning": "键角" }
+      ]
+    },
+    "47": {
+      "stemZh": "ICl4⁻ 离子的中心原子在价层中有 ________ 对非键电子、________ 对成键电子。",
+      "optionsZh": { "A": "4, 2", "B": "0, 4", "C": "2, 4", "D": "2, 2", "E": "6, 0" },
+      "glossary": [
+        { "term": "nonbonded electron pair", "meaning": "非键电子对（孤对）" },
+        { "term": "bonded electron pair", "meaning": "成键电子对" },
+        { "term": "valence shell", "meaning": "价层" }
+      ]
+    },
+    "48": {
+      "stemZh": "O3 分子的中心原子在价层中有 ________ 对非键电子、________ 对成键电子。",
+      "optionsZh": { "A": "6, 2", "B": "1, 3", "C": "2, 2", "D": "3, 1", "E": "3, 2" },
+      "glossary": [
+        { "term": "nonbonded electron pair", "meaning": "非键电子对（孤对）" },
+        { "term": "valence shell", "meaning": "价层" }
+      ]
+    },
+    "49": {
+      "stemZh": "根据 VSEPR 理论，若原子价层有3个电子域，它们将排成 ________ 几何。",
+      "optionsZh": { "A": "四面体", "B": "八面体", "C": "直线形", "D": "平面正方形", "E": "弯曲形" },
+      "glossary": [
+        { "term": "VSEPR theory", "meaning": "VSEPR（价层电子对互斥）理论" },
+        { "term": "electron domain", "meaning": "电子域" }
+      ]
+    },
+    "50": {
+      "stemZh": "用 VSEPR 模型，XeF4 中心原子的电子域几何是 ________。",
+      "optionsZh": { "A": "直线形", "B": "平面三角形", "C": "四面体", "D": "三角双锥", "E": "八面体" },
+      "glossary": [
+        { "term": "VSEPR model", "meaning": "VSEPR 模型" },
+        { "term": "electron-domain geometry", "meaning": "电子域几何" }
+      ]
+    }
+  }
+}

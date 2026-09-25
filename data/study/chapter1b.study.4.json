@@ -1,0 +1,240 @@
+{
+  "label": "chapter1b",
+  "part": 4,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "76": {
+      "stemZh": "合金是 ________。",
+      "optionsZh": { "A": "两种金属的非均相混合物", "B": "纯金属", "C": "由两种或以上元素组成的金属材料", "D": "具有某些金属性质的非金属", "E": "含有两种或以上金属的矿物" },
+      "glossary": [
+        { "term": "alloy", "meaning": "合金" },
+        { "term": "pure metal", "meaning": "纯金属" },
+        { "term": "metallic material", "meaning": "金属材料" }
+      ]
+    },
+    "77": {
+      "stemZh": "下列哪项是大多数金属的性质？",
+      "optionsZh": { "A": "低熔点", "B": "脆性", "C": "高电负性", "D": "导热性", "E": "酸性氧化物" },
+      "glossary": [
+        { "term": "property", "meaning": "性质" },
+        { "term": "brittleness", "meaning": "脆性" },
+        { "term": "thermal conductivity", "meaning": "导热性" },
+        { "term": "acidic oxides", "meaning": "酸性氧化物" }
+      ]
+    },
+    "78": {
+      "stemZh": "关于钢，哪个说法是错误的？",
+      "optionsZh": { "A": "它是聚合物。", "B": "它是铁的一种合金。", "C": "它可以含不同百分比的碳。", "D": "可以制成防锈的。", "E": "以上都不对" },
+      "glossary": [
+        { "term": "steel", "meaning": "钢" },
+        { "term": "polymer", "meaning": "聚合物" },
+        { "term": "alloy", "meaning": "合金" },
+        { "term": "resist rust", "meaning": "防锈" }
+      ]
+    },
+    "79": {
+      "stemZh": "加入间隙元素对金属性质的典型影响是什么？",
+      "optionsZh": { "A": "可锻性和抗腐蚀性提高", "B": "硬度和强度提高、延展性下降", "C": "熔点下降、延展性提高", "D": "导电性下降、脆性提高", "E": "表面光泽增强" },
+      "glossary": [
+        { "term": "interstitial element", "meaning": "间隙元素" },
+        { "term": "malleability", "meaning": "可锻性" },
+        { "term": "corrosion resistance", "meaning": "抗腐蚀性" },
+        { "term": "ductility", "meaning": "延展性" }
+      ]
+    },
+    "80": {
+      "stemZh": "合金通常不同于化合物，因为 ________。",
+      "optionsZh": { "A": "前者总含一些碳", "B": "前者总含一些铁", "C": "前者总是半导体", "D": "前者组成元素的原子比不固定、可在很大范围内变化", "E": "前者从不含过渡元素" },
+      "glossary": [
+        { "term": "alloys", "meaning": "合金" },
+        { "term": "compounds", "meaning": "化合物" },
+        { "term": "atomic ratios", "meaning": "原子比" },
+        { "term": "constituent elements", "meaning": "组成元素" }
+      ]
+    },
+    "81": {
+      "stemZh": "金属固体不表现出 ________。",
+      "optionsZh": { "A": "优良导热性", "B": "优良导电性", "C": "可变的硬度", "D": "极端脆性", "E": "可变的熔点" },
+      "glossary": [
+        { "term": "metallic solids", "meaning": "金属固体" },
+        { "term": "brittleness", "meaning": "脆性" }
+      ]
+    },
+    "82": {
+      "stemZh": "下列哪个不是天然聚合物？",
+      "optionsZh": { "A": "蚕丝", "B": "淀粉", "C": "蛋白质", "D": "纤维素", "E": "尼龙" },
+      "glossary": [
+        { "term": "natural polymer", "meaning": "天然聚合物" },
+        { "term": "silk", "meaning": "蚕丝" },
+        { "term": "starch", "meaning": "淀粉" },
+        { "term": "cellulose", "meaning": "纤维素" },
+        { "term": "nylon", "meaning": "尼龙" }
+      ]
+    },
+    "83": {
+      "stemZh": "随着聚合物结晶度提高，________。",
+      "optionsZh": { "A": "其熔点下降", "B": "其密度下降", "C": "其刚度下降", "D": "其屈服应力下降", "E": "以上都不对" },
+      "glossary": [
+        { "term": "crystalline", "meaning": "结晶的" },
+        { "term": "stiffness", "meaning": "刚度" },
+        { "term": "yield stress", "meaning": "屈服应力" }
+      ]
+    },
+    "84": {
+      "stemZh": "________ 固体由靠偶极–偶极力、伦敦色散力和/或氢键结合的原子或分子组成。",
+      "optionsZh": { "A": "离子", "B": "分子", "C": "金属", "D": "共价网络", "E": "金属与共价网络" },
+      "glossary": [
+        { "term": "molecular solids", "meaning": "分子固体" },
+        { "term": "dipole-dipole forces", "meaning": "偶极–偶极力" },
+        { "term": "London dispersion forces", "meaning": "伦敦色散力" },
+        { "term": "hydrogen bonds", "meaning": "氢键" }
+      ]
+    },
+    "85": {
+      "stemZh": "蓝色 LED 通常由 ________ 制成。",
+      "optionsZh": { "A": "GaAs", "B": "GaP", "C": "GaO", "D": "GaS", "E": "GaN" },
+      "glossary": [
+        { "term": "LED", "meaning": "发光二极管" }
+      ]
+    },
+    "86": {
+      "stemZh": "CsCl 的晶胞中，Cs⁺ 位于立方体中心、每个顶角有一个 Cl⁻。CsCl 的晶胞是 ________。",
+      "optionsZh": { "A": "密堆积", "B": "体心立方", "C": "面心立方", "D": "非晶", "E": "简单立方" },
+      "glossary": [
+        { "term": "unit cell", "meaning": "晶胞" },
+        { "term": "body-centered cubic", "meaning": "体心立方" },
+        { "term": "close packed", "meaning": "密堆积" }
+      ]
+    },
+    "87": {
+      "stemZh": "________ 晶格是五种二维晶格之一，其中晶格矢量 a 与 b 相等，两者夹角 γ 为 90°。",
+      "optionsZh": { "A": "正方", "B": "矩形", "C": "六方", "D": "菱形", "E": "斜方" },
+      "glossary": [
+        { "term": "lattice", "meaning": "晶格" },
+        { "term": "lattice vectors", "meaning": "晶格矢量" },
+        { "term": "two-dimensional", "meaning": "二维的" }
+      ]
+    },
+    "88": {
+      "stemZh": "________ 晶格是七种三维简单晶格之一，其晶格矢量满足 a ≠ b ≠ c。",
+      "optionsZh": { "A": "单斜", "B": "六方", "C": "菱面体", "D": "四方", "E": "立方" },
+      "glossary": [
+        { "term": "primitive", "meaning": "简单的" },
+        { "term": "lattice vectors", "meaning": "晶格矢量" },
+        { "term": "monoclinic", "meaning": "单斜" },
+        { "term": "rhombohedral", "meaning": "菱面体" }
+      ]
+    },
+    "89": {
+      "stemZh": "下列哪个不是合金？",
+      "optionsZh": { "A": "单质金", "B": "标准银（斯特林银）", "C": "18K 金", "D": "牙科汞合金", "E": "青铜" },
+      "glossary": [
+        { "term": "alloy", "meaning": "合金" },
+        { "term": "sterling silver", "meaning": "斯特林银（标准银）" },
+        { "term": "karat", "meaning": "开（金纯度单位）" },
+        { "term": "amalgam", "meaning": "汞合金" },
+        { "term": "bronze", "meaning": "青铜" }
+      ]
+    },
+    "90": {
+      "stemZh": "下列中，只有 ________ 不是聚合物。",
+      "optionsZh": { "A": "牙科汞合金", "B": "纤维素", "C": "特氟龙", "D": "塑料", "E": "蛋白质" },
+      "glossary": [
+        { "term": "polymer", "meaning": "聚合物" },
+        { "term": "cellulose", "meaning": "纤维素" },
+        { "term": "Teflon", "meaning": "特氟龙（聚四氟乙烯）" }
+      ]
+    },
+    "91": {
+      "stemZh": "聚合物“低密度聚乙烯”的正确缩写是 ________。",
+      "optionsZh": { "A": "LDPE", "B": "PP", "C": "P", "D": "PETE", "E": "HDPE" },
+      "glossary": [
+        { "term": "abbreviation", "meaning": "缩写" },
+        { "term": "low-density polyethylene", "meaning": "低密度聚乙烯" }
+      ]
+    },
+    "92": {
+      "stemZh": "通常不加入钢中来改性的元素是哪个？",
+      "optionsZh": { "A": "碳", "B": "钒", "C": "铬", "D": "氮", "E": "镍" },
+      "glossary": [
+        { "term": "modify", "meaning": "改变、改性" },
+        { "term": "vanadium", "meaning": "钒" },
+        { "term": "chromium", "meaning": "铬" },
+        { "term": "nickel", "meaning": "镍" }
+      ]
+    },
+    "93": {
+      "stemZh": "金属的哪种性质无法用电子海模型解释？",
+      "optionsZh": { "A": "光泽", "B": "高导热性", "C": "高导电性", "D": "可锻性和延展性", "E": "熔点的变化趋势" },
+      "glossary": [
+        { "term": "electron-sea model", "meaning": "电子海模型" },
+        { "term": "shine", "meaning": "光泽" },
+        { "term": "trends", "meaning": "趋势" }
+      ]
+    },
+    "94": {
+      "stemZh": "NaCl 结晶为面心立方晶胞。NaCl 晶胞内共有多少个离子（Na⁺ 与 Cl⁻ 之和）？",
+      "optionsZh": { "A": "2", "B": "4", "C": "8", "D": "6", "E": "5" },
+      "glossary": [
+        { "term": "face-centered cubic", "meaning": "面心立方" },
+        { "term": "unit cell", "meaning": "晶胞" }
+      ]
+    },
+    "95": {
+      "stemZh": "离子固体 NaCl(s) 能溶于水，是因为 ________。",
+      "optionsZh": { "A": "因 Na⁺、Cl⁻ 电荷小而使晶格能相对较低", "B": "它形成的简单面心立方晶胞类型", "C": "晶胞中离子的1:1 比", "D": "相反电荷离子间强的库仑作用", "E": "相对较低的熔点" },
+      "glossary": [
+        { "term": "dissolves", "meaning": "溶解" },
+        { "term": "lattice energy", "meaning": "晶格能" },
+        { "term": "coulombic interactions", "meaning": "库仑作用" },
+        { "term": "oppositely charged", "meaning": "带相反电荷的" }
+      ]
+    },
+    "96": {
+      "stemZh": "CsCl 的晶胞中 Cs⁺ 位于立方体中心、每个顶角有 Cl⁻。每个晶胞分别含有 ________ 个 Cs⁺ 和 ________ 个 Cl⁻。",
+      "optionsZh": { "A": "1 和 8", "B": "2 和 1", "C": "1 和 1", "D": "2 和 2", "E": "2 和 4" },
+      "glossary": [
+        { "term": "unit cell", "meaning": "晶胞" },
+        { "term": "respectively", "meaning": "分别地" }
+      ]
+    },
+    "97": {
+      "stemZh": "作为半导体的无机化合物平均有 ________ 个价电子。",
+      "optionsZh": { "A": "1", "B": "2", "C": "3", "D": "4", "E": "5" },
+      "glossary": [
+        { "term": "inorganic compounds", "meaning": "无机化合物" },
+        { "term": "semiconductors", "meaning": "半导体" },
+        { "term": "valence electrons", "meaning": "价电子" }
+      ]
+    },
+    "98": {
+      "stemZh": "弹性体在形变超过其 ________ 后，将无法恢复原有尺寸。",
+      "optionsZh": { "A": "玻璃化转变", "B": "相界", "C": "伦敦力", "D": "结晶度", "E": "弹性极限" },
+      "glossary": [
+        { "term": "elastomer", "meaning": "弹性体" },
+        { "term": "regain", "meaning": "恢复" },
+        { "term": "distortion", "meaning": "形变" },
+        { "term": "elastic limit", "meaning": "弹性极限" }
+      ]
+    },
+    "99": {
+      "stemZh": "缩聚物的形成通常涉及 ________。",
+      "optionsZh": { "A": "加入增塑剂", "B": "将硫与加聚物混合", "C": "消去一个小分子", "D": "增塑剂的汽化", "E": "形成大量交联" },
+      "glossary": [
+        { "term": "condensation polymer", "meaning": "缩聚物" },
+        { "term": "plasticizer", "meaning": "增塑剂" },
+        { "term": "elimination", "meaning": "消去" },
+        { "term": "crosslinking", "meaning": "交联" }
+      ]
+    },
+    "100": {
+      "stemZh": "石墨烯的性质包括 ________。",
+      "optionsZh": { "A": "高强度", "B": "低导热性", "C": "零能隙", "D": "A 和 C", "E": "A、B 和 C" },
+      "glossary": [
+        { "term": "graphene", "meaning": "石墨烯" },
+        { "term": "thermal conductivity", "meaning": "导热性" },
+        { "term": "energy gap", "meaning": "能隙" }
+      ]
+    }
+  }
+}

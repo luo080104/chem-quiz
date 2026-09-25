@@ -1,0 +1,2608 @@
+{
+  "label": "chapter1a",
+  "sourceFile": "data\\source\\Chapter1a_Atom_Questions.txt",
+  "parsedAt": "2026-09-25T09:46:06.863Z",
+  "count": 100,
+  "questions": [
+    {
+      "originalNumber": 1,
+      "stem": "A combination of sand, salt, and water is an example of a ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "homogeneous mixture"
+        },
+        {
+          "key": "B",
+          "text": "heterogeneous mixture"
+        },
+        {
+          "key": "C",
+          "text": "compound"
+        },
+        {
+          "key": "D",
+          "text": "pure substance"
+        },
+        {
+          "key": "E",
+          "text": "solid"
+        }
+      ]
+    },
+    {
+      "originalNumber": 2,
+      "stem": "A small amount of salt dissolved in water is an example of a ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "homogeneous mixture"
+        },
+        {
+          "key": "B",
+          "text": "heterogeneous mixture"
+        },
+        {
+          "key": "C",
+          "text": "compound"
+        },
+        {
+          "key": "D",
+          "text": "pure substance"
+        },
+        {
+          "key": "E",
+          "text": "solid"
+        }
+      ]
+    },
+    {
+      "originalNumber": 3,
+      "stem": "Which one of the following has the element name and symbol correctly matched?",
+      "options": [
+        {
+          "key": "A",
+          "text": "S, sodium"
+        },
+        {
+          "key": "B",
+          "text": "Tn, tin"
+        },
+        {
+          "key": "C",
+          "text": "Fe, iron"
+        },
+        {
+          "key": "D",
+          "text": "N, neon"
+        },
+        {
+          "key": "E",
+          "text": "B, bromine"
+        }
+      ]
+    },
+    {
+      "originalNumber": 4,
+      "stem": "In the following list, only ________ is not an example of a chemical reaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "dissolution of a penny in nitric acid"
+        },
+        {
+          "key": "B",
+          "text": "the condensation of water vapor"
+        },
+        {
+          "key": "C",
+          "text": "a burning candle"
+        },
+        {
+          "key": "D",
+          "text": "the formation of polyethylene from ethylene"
+        },
+        {
+          "key": "E",
+          "text": "the rusting of iron"
+        }
+      ]
+    },
+    {
+      "originalNumber": 5,
+      "stem": "Gases and liquids share the property of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "compressibility"
+        },
+        {
+          "key": "B",
+          "text": "definite volume"
+        },
+        {
+          "key": "C",
+          "text": "incompressibility"
+        },
+        {
+          "key": "D",
+          "text": "indefinite shape"
+        },
+        {
+          "key": "E",
+          "text": "definite shape"
+        }
+      ]
+    },
+    {
+      "originalNumber": 6,
+      "stem": "Of the following, only ________ is a chemical reaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "melting of lead"
+        },
+        {
+          "key": "B",
+          "text": "dissolving sugar in water"
+        },
+        {
+          "key": "C",
+          "text": "tarnishing of silver"
+        },
+        {
+          "key": "D",
+          "text": "crushing of stone"
+        },
+        {
+          "key": "E",
+          "text": "dropping a penny into a glass of water"
+        }
+      ]
+    },
+    {
+      "originalNumber": 7,
+      "stem": "In the following list, only ________ is not an example of a chemical reaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "burning a plastic water bottle"
+        },
+        {
+          "key": "B",
+          "text": "the production of hydrogen gas from water"
+        },
+        {
+          "key": "C",
+          "text": "the tarnishing of a copper penny"
+        },
+        {
+          "key": "D",
+          "text": "chopping a log into sawdust"
+        },
+        {
+          "key": "E",
+          "text": "charging a cellular phone"
+        }
+      ]
+    },
+    {
+      "originalNumber": 8,
+      "stem": "Which of the following is (are) the lowest temperature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The freezing point of water"
+        },
+        {
+          "key": "B",
+          "text": "5 °C"
+        },
+        {
+          "key": "C",
+          "text": "30 °F"
+        },
+        {
+          "key": "D",
+          "text": "280 K"
+        },
+        {
+          "key": "E",
+          "text": "A and D"
+        }
+      ]
+    },
+    {
+      "originalNumber": 9,
+      "stem": "Which calculation clearly shows a conversion between temperatures in degrees Celsius, °C, and temperature in Kelvins, K?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K = °C + 273.15"
+        },
+        {
+          "key": "B",
+          "text": "K = 273.15 - °C"
+        },
+        {
+          "key": "C",
+          "text": "K = [°C - 32] / 1.8"
+        },
+        {
+          "key": "D",
+          "text": "K = [°C + 32] × 1.8"
+        },
+        {
+          "key": "E",
+          "text": "K = °C"
+        }
+      ]
+    },
+    {
+      "originalNumber": 10,
+      "stem": "Accuracy refers to ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "how close a measured number is to zero"
+        },
+        {
+          "key": "B",
+          "text": "how close a measured number is to the calculated value"
+        },
+        {
+          "key": "C",
+          "text": "how close a measured number is to other measured numbers"
+        },
+        {
+          "key": "D",
+          "text": "how close a measured number is to the true value"
+        },
+        {
+          "key": "E",
+          "text": "how close a measured number is to infinity"
+        }
+      ]
+    },
+    {
+      "originalNumber": 11,
+      "stem": "________ is the chemical symbol for elemental sodium.",
+      "options": [
+        {
+          "key": "A",
+          "text": "S"
+        },
+        {
+          "key": "B",
+          "text": "W"
+        },
+        {
+          "key": "C",
+          "text": "So"
+        },
+        {
+          "key": "D",
+          "text": "Na"
+        },
+        {
+          "key": "E",
+          "text": "Sn"
+        }
+      ]
+    },
+    {
+      "originalNumber": 12,
+      "stem": "The SI unit for mass is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "kilogram"
+        },
+        {
+          "key": "B",
+          "text": "gram"
+        },
+        {
+          "key": "C",
+          "text": "pound"
+        },
+        {
+          "key": "D",
+          "text": "troy ounce"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 13,
+      "stem": "A one degree of temperature difference is the smallest on the ________ temperature scale.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kelvin"
+        },
+        {
+          "key": "B",
+          "text": "Celsius"
+        },
+        {
+          "key": "C",
+          "text": "Fahrenheit"
+        },
+        {
+          "key": "D",
+          "text": "Kelvin and Celsius"
+        },
+        {
+          "key": "E",
+          "text": "Fahrenheit and Celsius"
+        }
+      ]
+    },
+    {
+      "originalNumber": 14,
+      "stem": "A common English set of units for expressing velocity is miles/hour. The SI unit for velocity is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "km/hr"
+        },
+        {
+          "key": "B",
+          "text": "km/s"
+        },
+        {
+          "key": "C",
+          "text": "m/hr"
+        },
+        {
+          "key": "D",
+          "text": "m/s"
+        },
+        {
+          "key": "E",
+          "text": "cm/s"
+        }
+      ]
+    },
+    {
+      "originalNumber": 15,
+      "stem": "The freezing point of water at 1 atm pressure is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 °F"
+        },
+        {
+          "key": "B",
+          "text": "0 K"
+        },
+        {
+          "key": "C",
+          "text": "0 °C"
+        },
+        {
+          "key": "D",
+          "text": "-273 °C"
+        },
+        {
+          "key": "E",
+          "text": "-32 °F"
+        }
+      ]
+    },
+    {
+      "originalNumber": 16,
+      "stem": "\"Absolute zero\" refers to ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 Kelvin"
+        },
+        {
+          "key": "B",
+          "text": "0° Fahrenheit"
+        },
+        {
+          "key": "C",
+          "text": "0° Celsius"
+        },
+        {
+          "key": "D",
+          "text": "°C + 9/5(°F - 32)"
+        },
+        {
+          "key": "E",
+          "text": "273.15 °C"
+        }
+      ]
+    },
+    {
+      "originalNumber": 17,
+      "stem": "The symbol for the element phosphorus is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pt"
+        },
+        {
+          "key": "B",
+          "text": "K"
+        },
+        {
+          "key": "C",
+          "text": "P"
+        },
+        {
+          "key": "D",
+          "text": "S"
+        },
+        {
+          "key": "E",
+          "text": "Ca"
+        }
+      ]
+    },
+    {
+      "originalNumber": 18,
+      "stem": "The element hydrogen has the symbol ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "H"
+        },
+        {
+          "key": "B",
+          "text": "He"
+        },
+        {
+          "key": "C",
+          "text": "K"
+        },
+        {
+          "key": "D",
+          "text": "B"
+        },
+        {
+          "key": "E",
+          "text": "Ar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 19,
+      "stem": "Which one of the following is a pure substance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tap water"
+        },
+        {
+          "key": "B",
+          "text": "rock"
+        },
+        {
+          "key": "C",
+          "text": "air"
+        },
+        {
+          "key": "D",
+          "text": "elemental oxygen"
+        },
+        {
+          "key": "E",
+          "text": "apple"
+        }
+      ]
+    },
+    {
+      "originalNumber": 20,
+      "stem": "The symbol for the element sodium is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Me"
+        },
+        {
+          "key": "B",
+          "text": "Hg"
+        },
+        {
+          "key": "C",
+          "text": "Sn"
+        },
+        {
+          "key": "D",
+          "text": "Na"
+        },
+        {
+          "key": "E",
+          "text": "Pb"
+        }
+      ]
+    },
+    {
+      "originalNumber": 21,
+      "stem": "Consider the following selected postulates of Dalton's atomic theory: (i) Each element is composed of extremely small particles called atoms. (ii) Atoms are indivisible. (iii) Atoms of a given element are identical. (iv) Atoms of different elements are different and have different properties. Which of the postulates is(are) no longer considered valid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "(i) and (ii)"
+        },
+        {
+          "key": "B",
+          "text": "(ii) only"
+        },
+        {
+          "key": "C",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "key": "D",
+          "text": "(iii) only"
+        },
+        {
+          "key": "E",
+          "text": "(iii) and (iv)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 22,
+      "stem": "Of the following, the smallest and lightest subatomic particle is the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "neutron"
+        },
+        {
+          "key": "B",
+          "text": "proton"
+        },
+        {
+          "key": "C",
+          "text": "electron"
+        },
+        {
+          "key": "D",
+          "text": "nucleus"
+        },
+        {
+          "key": "E",
+          "text": "alpha particle"
+        }
+      ]
+    },
+    {
+      "originalNumber": 23,
+      "stem": "All atoms of a given element have the same ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "mass"
+        },
+        {
+          "key": "B",
+          "text": "number of protons"
+        },
+        {
+          "key": "C",
+          "text": "number of neutrons"
+        },
+        {
+          "key": "D",
+          "text": "number of electrons and neutrons"
+        },
+        {
+          "key": "E",
+          "text": "density"
+        }
+      ]
+    },
+    {
+      "originalNumber": 24,
+      "stem": "There are ________ electrons, ________ protons, and ________ neutrons in an atom of \u0001Xe.",
+      "options": [
+        {
+          "key": "A",
+          "text": "132, 132, 54"
+        },
+        {
+          "key": "B",
+          "text": "54, 54, 132"
+        },
+        {
+          "key": "C",
+          "text": "78, 78, 54"
+        },
+        {
+          "key": "D",
+          "text": "54, 54, 78"
+        },
+        {
+          "key": "E",
+          "text": "78, 78, 132"
+        }
+      ]
+    },
+    {
+      "originalNumber": 25,
+      "stem": "The nucleus of an atom does not contain ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "protons"
+        },
+        {
+          "key": "B",
+          "text": "protons or neutrons"
+        },
+        {
+          "key": "C",
+          "text": "neutrons"
+        },
+        {
+          "key": "D",
+          "text": "subatomic particles"
+        },
+        {
+          "key": "E",
+          "text": "electrons"
+        }
+      ]
+    },
+    {
+      "originalNumber": 26,
+      "stem": "The subatomic particles located in the nucleus with no overall charges are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "electrons"
+        },
+        {
+          "key": "B",
+          "text": "protons"
+        },
+        {
+          "key": "C",
+          "text": "neutrons"
+        },
+        {
+          "key": "D",
+          "text": "protons and neutrons"
+        },
+        {
+          "key": "E",
+          "text": "protons, neutrons, and electrons"
+        }
+      ]
+    },
+    {
+      "originalNumber": 27,
+      "stem": "The atomic mass unit is presently based on assigning an exact integral mass (in amu) to an isotope of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "hydrogen"
+        },
+        {
+          "key": "B",
+          "text": "oxygen"
+        },
+        {
+          "key": "C",
+          "text": "sodium"
+        },
+        {
+          "key": "D",
+          "text": "carbon"
+        },
+        {
+          "key": "E",
+          "text": "helium"
+        }
+      ]
+    },
+    {
+      "originalNumber": 28,
+      "stem": "In the periodic table, the elements are arranged in ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "alphabetical order"
+        },
+        {
+          "key": "B",
+          "text": "order of increasing atomic number"
+        },
+        {
+          "key": "C",
+          "text": "order of increasing metallic properties"
+        },
+        {
+          "key": "D",
+          "text": "order of increasing neutron content"
+        },
+        {
+          "key": "E",
+          "text": "reverse alphabetical order"
+        }
+      ]
+    },
+    {
+      "originalNumber": 29,
+      "stem": "Elements ________ exhibit similar physical and chemical properties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "with similar chemical symbols"
+        },
+        {
+          "key": "B",
+          "text": "with similar atomic masses"
+        },
+        {
+          "key": "C",
+          "text": "in the same period of the periodic table"
+        },
+        {
+          "key": "D",
+          "text": "on opposite sides of the periodic table"
+        },
+        {
+          "key": "E",
+          "text": "in the same group of the periodic table"
+        }
+      ]
+    },
+    {
+      "originalNumber": 30,
+      "stem": "The elements in groups 1A, 6A, and 7A are called ________, respectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "alkaline earth metals, halogens, and chalcogens"
+        },
+        {
+          "key": "B",
+          "text": "alkali metals, chalcogens, and halogens"
+        },
+        {
+          "key": "C",
+          "text": "alkali metals, halogens, and noble gases"
+        },
+        {
+          "key": "D",
+          "text": "alkaline earth metals, transition metals, and halogens"
+        },
+        {
+          "key": "E",
+          "text": "halogens, transition metals, and alkali metals"
+        }
+      ]
+    },
+    {
+      "originalNumber": 31,
+      "stem": "Elements in the same group of the periodic table typically have ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "similar mass numbers"
+        },
+        {
+          "key": "B",
+          "text": "similar physical properties only"
+        },
+        {
+          "key": "C",
+          "text": "similar chemical properties only"
+        },
+        {
+          "key": "D",
+          "text": "similar atomic masses"
+        },
+        {
+          "key": "E",
+          "text": "similar physical and chemical properties"
+        }
+      ]
+    },
+    {
+      "originalNumber": 32,
+      "stem": "Of the choices below, which one is not an ionic compound?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PCl5"
+        },
+        {
+          "key": "B",
+          "text": "MoCl6"
+        },
+        {
+          "key": "C",
+          "text": "RbCl"
+        },
+        {
+          "key": "D",
+          "text": "PbCl2"
+        },
+        {
+          "key": "E",
+          "text": "NaCl"
+        }
+      ]
+    },
+    {
+      "originalNumber": 33,
+      "stem": "Which one of the following compounds is copper(I) chloride?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CuCl"
+        },
+        {
+          "key": "B",
+          "text": "CuCl2"
+        },
+        {
+          "key": "C",
+          "text": "Cu2Cl"
+        },
+        {
+          "key": "D",
+          "text": "Cu2Cl3"
+        },
+        {
+          "key": "E",
+          "text": "Cu3Cl2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 34,
+      "stem": "Which group in the periodic table contains only nonmetals?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1A"
+        },
+        {
+          "key": "B",
+          "text": "6A"
+        },
+        {
+          "key": "C",
+          "text": "2B"
+        },
+        {
+          "key": "D",
+          "text": "2A"
+        },
+        {
+          "key": "E",
+          "text": "8A"
+        }
+      ]
+    },
+    {
+      "originalNumber": 35,
+      "stem": "Horizontal rows of the periodic table are known as ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "periods"
+        },
+        {
+          "key": "B",
+          "text": "groups"
+        },
+        {
+          "key": "C",
+          "text": "metalloids"
+        },
+        {
+          "key": "D",
+          "text": "metals"
+        },
+        {
+          "key": "E",
+          "text": "nonmetals"
+        }
+      ]
+    },
+    {
+      "originalNumber": 36,
+      "stem": "Vertical columns of the periodic table are known as ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "metals"
+        },
+        {
+          "key": "B",
+          "text": "periods"
+        },
+        {
+          "key": "C",
+          "text": "nonmetals"
+        },
+        {
+          "key": "D",
+          "text": "groups"
+        },
+        {
+          "key": "E",
+          "text": "metalloids"
+        }
+      ]
+    },
+    {
+      "originalNumber": 37,
+      "stem": "Elements in Group 8A are known as the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "halogens"
+        },
+        {
+          "key": "B",
+          "text": "alkali metals"
+        },
+        {
+          "key": "C",
+          "text": "alkaline earth metals"
+        },
+        {
+          "key": "D",
+          "text": "chalcogens"
+        },
+        {
+          "key": "E",
+          "text": "noble gases"
+        }
+      ]
+    },
+    {
+      "originalNumber": 38,
+      "stem": "Potassium is a ________ and chlorine is a ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "metal, nonmetal"
+        },
+        {
+          "key": "B",
+          "text": "metal, metal"
+        },
+        {
+          "key": "C",
+          "text": "metal, metalloid"
+        },
+        {
+          "key": "D",
+          "text": "metalloid, nonmetal"
+        },
+        {
+          "key": "E",
+          "text": "nonmetal, metal"
+        }
+      ]
+    },
+    {
+      "originalNumber": 39,
+      "stem": "Oxygen is a ________ and nitrogen is a ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "metal, metalloid"
+        },
+        {
+          "key": "B",
+          "text": "nonmetal, metal"
+        },
+        {
+          "key": "C",
+          "text": "metalloid, metalloid"
+        },
+        {
+          "key": "D",
+          "text": "nonmetal, nonmetal"
+        },
+        {
+          "key": "E",
+          "text": "nonmetal, metalloid"
+        }
+      ]
+    },
+    {
+      "originalNumber": 40,
+      "stem": "The charge on the manganese in the salt MnF3 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1+"
+        },
+        {
+          "key": "B",
+          "text": "1-"
+        },
+        {
+          "key": "C",
+          "text": "2+"
+        },
+        {
+          "key": "D",
+          "text": "2-"
+        },
+        {
+          "key": "E",
+          "text": "3+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 41,
+      "stem": "Calcium forms an ion with a charge of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-"
+        },
+        {
+          "key": "B",
+          "text": "2-"
+        },
+        {
+          "key": "C",
+          "text": "1+"
+        },
+        {
+          "key": "D",
+          "text": "2+"
+        },
+        {
+          "key": "E",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "originalNumber": 42,
+      "stem": "Oxygen forms an ion with a charge of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2-"
+        },
+        {
+          "key": "B",
+          "text": "2+"
+        },
+        {
+          "key": "C",
+          "text": "3-"
+        },
+        {
+          "key": "D",
+          "text": "3+"
+        },
+        {
+          "key": "E",
+          "text": "6+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 43,
+      "stem": "The correct name for Al2O3 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "aluminum oxide"
+        },
+        {
+          "key": "B",
+          "text": "dialuminum oxide"
+        },
+        {
+          "key": "C",
+          "text": "dialuminum trioxide"
+        },
+        {
+          "key": "D",
+          "text": "aluminum hydroxide"
+        },
+        {
+          "key": "E",
+          "text": "aluminum trioxide"
+        }
+      ]
+    },
+    {
+      "originalNumber": 44,
+      "stem": "The correct name for H2SO4 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "sulfuric acid"
+        },
+        {
+          "key": "B",
+          "text": "sulfurous acid"
+        },
+        {
+          "key": "C",
+          "text": "hydrosulfuric acid"
+        },
+        {
+          "key": "D",
+          "text": "hydrosulfic acid"
+        },
+        {
+          "key": "E",
+          "text": "sulfur hydroxide"
+        }
+      ]
+    },
+    {
+      "originalNumber": 45,
+      "stem": "Iron and chlorine form an ionic compound whose formula is FeCl3. The name of this compound is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "iron chlorine"
+        },
+        {
+          "key": "B",
+          "text": "iron (III) chloride"
+        },
+        {
+          "key": "C",
+          "text": "moniron trichloride"
+        },
+        {
+          "key": "D",
+          "text": "iron (III) trichloride"
+        },
+        {
+          "key": "E",
+          "text": "ferric trichloride"
+        }
+      ]
+    },
+    {
+      "originalNumber": 46,
+      "stem": "Copper and chlorine form an ionic compound whose formula is CuCl2. The name of this compound is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "copper chlorine"
+        },
+        {
+          "key": "B",
+          "text": "copper (III) dichloride"
+        },
+        {
+          "key": "C",
+          "text": "monocopper dichloride"
+        },
+        {
+          "key": "D",
+          "text": "copper (II) dichloride"
+        },
+        {
+          "key": "E",
+          "text": "cupric chloride"
+        }
+      ]
+    },
+    {
+      "originalNumber": 47,
+      "stem": "Of the following, the subatomic particle with the smallest mass is the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "proton"
+        },
+        {
+          "key": "B",
+          "text": "neutron"
+        },
+        {
+          "key": "C",
+          "text": "electron"
+        },
+        {
+          "key": "D",
+          "text": "alpha particle"
+        },
+        {
+          "key": "E",
+          "text": "isotope"
+        }
+      ]
+    },
+    {
+      "originalNumber": 48,
+      "stem": "200 pm is the same as ________ Å.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2000"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "200"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        },
+        {
+          "key": "E",
+          "text": "0.0002"
+        }
+      ]
+    },
+    {
+      "originalNumber": 49,
+      "stem": "The charge on the copper ion in the salt CuO is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "+1"
+        },
+        {
+          "key": "B",
+          "text": "+2"
+        },
+        {
+          "key": "C",
+          "text": "+4"
+        },
+        {
+          "key": "D",
+          "text": "+3"
+        },
+        {
+          "key": "E",
+          "text": "+5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 50,
+      "stem": "The charge on the silver ion in the salt AgCl is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "+2"
+        },
+        {
+          "key": "B",
+          "text": "+1"
+        },
+        {
+          "key": "C",
+          "text": "+3"
+        },
+        {
+          "key": "D",
+          "text": "+4"
+        },
+        {
+          "key": "E",
+          "text": "+5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 51,
+      "stem": "Of the following, ________ radiation has the shortest wavelength.",
+      "options": [
+        {
+          "key": "A",
+          "text": "X-ray"
+        },
+        {
+          "key": "B",
+          "text": "radio"
+        },
+        {
+          "key": "C",
+          "text": "microwave"
+        },
+        {
+          "key": "D",
+          "text": "ultraviolet"
+        },
+        {
+          "key": "E",
+          "text": "infrared"
+        }
+      ]
+    },
+    {
+      "originalNumber": 52,
+      "stem": "According to the Heisenberg Uncertainty Principle, it is impossible to know precisely both the position and the ________ of an electron.",
+      "options": [
+        {
+          "key": "A",
+          "text": "mass"
+        },
+        {
+          "key": "B",
+          "text": "color"
+        },
+        {
+          "key": "C",
+          "text": "momentum"
+        },
+        {
+          "key": "D",
+          "text": "shape"
+        },
+        {
+          "key": "E",
+          "text": "charge"
+        }
+      ]
+    },
+    {
+      "originalNumber": 53,
+      "stem": "Which one of the quantum numbers does not result from the solution of the Schrodinger equation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "principal"
+        },
+        {
+          "key": "B",
+          "text": "azimuthal"
+        },
+        {
+          "key": "C",
+          "text": "magnetic"
+        },
+        {
+          "key": "D",
+          "text": "spin"
+        },
+        {
+          "key": "E",
+          "text": "angular momentum"
+        }
+      ]
+    },
+    {
+      "originalNumber": 54,
+      "stem": "The photoelectric effect is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the total reflection of light by metals giving them their typical luster"
+        },
+        {
+          "key": "B",
+          "text": "the production of current by silicon solar cells when exposed to sunlight"
+        },
+        {
+          "key": "C",
+          "text": "the ejection of electrons by a metal when struck with light of sufficient energy"
+        },
+        {
+          "key": "D",
+          "text": "the darkening of photographic film when exposed to an electric field"
+        },
+        {
+          "key": "E",
+          "text": "a relativistic effect"
+        }
+      ]
+    },
+    {
+      "originalNumber": 55,
+      "stem": "All of the orbitals in a given electron shell have the same value as the ________ quantum number.",
+      "options": [
+        {
+          "key": "A",
+          "text": "principal"
+        },
+        {
+          "key": "B",
+          "text": "angular momentum"
+        },
+        {
+          "key": "C",
+          "text": "magnetic"
+        },
+        {
+          "key": "D",
+          "text": "spin"
+        },
+        {
+          "key": "E",
+          "text": "psi"
+        }
+      ]
+    },
+    {
+      "originalNumber": 56,
+      "stem": "The uncertainty principle states that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "matter and energy are really the same thing"
+        },
+        {
+          "key": "B",
+          "text": "it is impossible to know anything with certainty"
+        },
+        {
+          "key": "C",
+          "text": "it is impossible to know the exact position and momentum of an electron"
+        },
+        {
+          "key": "D",
+          "text": "there can only be one uncertain digit in a reported number"
+        },
+        {
+          "key": "E",
+          "text": "it is impossible to know how many electrons there are in an atom"
+        }
+      ]
+    },
+    {
+      "originalNumber": 57,
+      "stem": "Which one of the following orbitals can hold two electrons?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2px"
+        },
+        {
+          "key": "B",
+          "text": "3s"
+        },
+        {
+          "key": "C",
+          "text": "4dxy"
+        },
+        {
+          "key": "D",
+          "text": "all of the above"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 58,
+      "stem": "Which of the subshells below do not exist due to the constraints upon the angular momentum quantum number?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4f"
+        },
+        {
+          "key": "B",
+          "text": "4d"
+        },
+        {
+          "key": "C",
+          "text": "4p"
+        },
+        {
+          "key": "D",
+          "text": "4s"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 59,
+      "stem": "An electron cannot have the quantum numbers n = ________, l = ________, ml = ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2, 0, 0"
+        },
+        {
+          "key": "B",
+          "text": "2, 1, -1"
+        },
+        {
+          "key": "C",
+          "text": "3, 1, -1"
+        },
+        {
+          "key": "D",
+          "text": "1, 1, 1"
+        },
+        {
+          "key": "E",
+          "text": "3, 2, 1"
+        }
+      ]
+    },
+    {
+      "originalNumber": 60,
+      "stem": "Which one of the following is an incorrect subshell notation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4f"
+        },
+        {
+          "key": "B",
+          "text": "2d"
+        },
+        {
+          "key": "C",
+          "text": "3s"
+        },
+        {
+          "key": "D",
+          "text": "2p"
+        },
+        {
+          "key": "E",
+          "text": "3d"
+        }
+      ]
+    },
+    {
+      "originalNumber": 61,
+      "stem": "Which of the following is not a valid set of four quantum numbers? (n, l, ml, ms)",
+      "options": [
+        {
+          "key": "A",
+          "text": "2, 0, 0, +1/2"
+        },
+        {
+          "key": "B",
+          "text": "2, 1, 0, -1/2"
+        },
+        {
+          "key": "C",
+          "text": "3, 1, -1, -1/2"
+        },
+        {
+          "key": "D",
+          "text": "1, 0, 0, +1/2"
+        },
+        {
+          "key": "E",
+          "text": "1, 1, 0, +1/2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 62,
+      "stem": "The lowest orbital energy is reached when the number of electrons with the same spin is maximized. This statement describes ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pauli Exclusion Principle"
+        },
+        {
+          "key": "B",
+          "text": "Planck's constant"
+        },
+        {
+          "key": "C",
+          "text": "deBroglie hypothesis"
+        },
+        {
+          "key": "D",
+          "text": "Heisenberg Uncertainty Principle"
+        },
+        {
+          "key": "E",
+          "text": "Hund's rule"
+        }
+      ]
+    },
+    {
+      "originalNumber": 63,
+      "stem": "Which electron configuration represents a violation of the Pauli exclusion principle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "__IMAGE__"
+        },
+        {
+          "key": "B",
+          "text": "__IMAGE__"
+        },
+        {
+          "key": "C",
+          "text": "__IMAGE__"
+        },
+        {
+          "key": "D",
+          "text": "__IMAGE__"
+        },
+        {
+          "key": "E",
+          "text": "__IMAGE__"
+        }
+      ]
+    },
+    {
+      "originalNumber": 64,
+      "stem": "The ________ quantum number defines the shape of an orbital.",
+      "options": [
+        {
+          "key": "A",
+          "text": "spin"
+        },
+        {
+          "key": "B",
+          "text": "magnetic"
+        },
+        {
+          "key": "C",
+          "text": "principal"
+        },
+        {
+          "key": "D",
+          "text": "angular momentum"
+        },
+        {
+          "key": "E",
+          "text": "psi"
+        }
+      ]
+    },
+    {
+      "originalNumber": 65,
+      "stem": "The n = 1 shell contains ________ p orbitals. All the other shells contain ________ p orbitals.",
+      "options": [
+        {
+          "key": "A",
+          "text": "3, 6"
+        },
+        {
+          "key": "B",
+          "text": "0, 3"
+        },
+        {
+          "key": "C",
+          "text": "6, 2"
+        },
+        {
+          "key": "D",
+          "text": "3, 3"
+        },
+        {
+          "key": "E",
+          "text": "0, 6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 66,
+      "stem": "There are ________ orbitals in the second shell.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        },
+        {
+          "key": "E",
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "originalNumber": 67,
+      "stem": "________-orbitals are spherically symmetrical.",
+      "options": [
+        {
+          "key": "A",
+          "text": "s"
+        },
+        {
+          "key": "B",
+          "text": "p"
+        },
+        {
+          "key": "C",
+          "text": "d"
+        },
+        {
+          "key": "D",
+          "text": "f"
+        },
+        {
+          "key": "E",
+          "text": "g"
+        }
+      ]
+    },
+    {
+      "originalNumber": 68,
+      "stem": "How many quantum numbers are necessary to designate a particular electron in an atom?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        },
+        {
+          "key": "E",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 69,
+      "stem": "Which one of the following represents an acceptable set of quantum numbers for an electron in an atom? (arranged as n, l, ml, and ms )",
+      "options": [
+        {
+          "key": "A",
+          "text": "3, 2, -2, -1/2"
+        },
+        {
+          "key": "B",
+          "text": "3, 3, -4, 1/2"
+        },
+        {
+          "key": "C",
+          "text": "3, 4, 6, -1/2"
+        },
+        {
+          "key": "D",
+          "text": "3, 2, 0, 0"
+        },
+        {
+          "key": "E",
+          "text": "3, 3, 3, -1/2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 70,
+      "stem": "What wavelengths correspond to the visible region of the electromagnetic spectrum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "About 400 to 750 nm"
+        },
+        {
+          "key": "B",
+          "text": "About 100 to 1000 nm"
+        },
+        {
+          "key": "C",
+          "text": "About 200 to 900 nm"
+        },
+        {
+          "key": "D",
+          "text": "About 150 to 550 nm"
+        },
+        {
+          "key": "E",
+          "text": "About 250 to 1000 nm"
+        }
+      ]
+    },
+    {
+      "originalNumber": 71,
+      "stem": "In which set of elements would all members be expected to have very similar chemical properties?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O, S, Se"
+        },
+        {
+          "key": "B",
+          "text": "N, O, F"
+        },
+        {
+          "key": "C",
+          "text": "Na, Mg, K"
+        },
+        {
+          "key": "D",
+          "text": "S, Se, Si"
+        },
+        {
+          "key": "E",
+          "text": "Ne, Na, Mg"
+        }
+      ]
+    },
+    {
+      "originalNumber": 72,
+      "stem": "In which set of elements would all members be expected to have very similar chemical properties?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P, Se, I"
+        },
+        {
+          "key": "B",
+          "text": "Cl, Br, Na"
+        },
+        {
+          "key": "C",
+          "text": "Si, As, Te"
+        },
+        {
+          "key": "D",
+          "text": "Ne, Na, Mg"
+        },
+        {
+          "key": "E",
+          "text": "Br, I, At"
+        }
+      ]
+    },
+    {
+      "originalNumber": 73,
+      "stem": "The effective nuclear charge of an atom is primarily affected by ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "inner electrons"
+        },
+        {
+          "key": "B",
+          "text": "outer electrons"
+        },
+        {
+          "key": "C",
+          "text": "nuclear charge"
+        },
+        {
+          "key": "D",
+          "text": "electron distribution"
+        },
+        {
+          "key": "E",
+          "text": "orbital radial probability"
+        }
+      ]
+    },
+    {
+      "originalNumber": 74,
+      "stem": "Atomic radius generally increases as we move ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "down a group and from right to left across a period"
+        },
+        {
+          "key": "B",
+          "text": "up a group and from left to right across a period"
+        },
+        {
+          "key": "C",
+          "text": "down a group and from left to right across a period"
+        },
+        {
+          "key": "D",
+          "text": "up a group and from right to left across a period"
+        },
+        {
+          "key": "E",
+          "text": "down a group; the period position has no effect"
+        }
+      ]
+    },
+    {
+      "originalNumber": 75,
+      "stem": "Of the following, which gives the correct order for atomic radius for Mg, Na, P, Si and Ar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mg  >  Na  >  P  >  Si  >  Ar"
+        },
+        {
+          "key": "B",
+          "text": "Ar  >  Si  >  P  >  Na >  Mg"
+        },
+        {
+          "key": "C",
+          "text": "Si  >  P  >  Ar  >  Na  >  Mg"
+        },
+        {
+          "key": "D",
+          "text": "Na  >  Mg  >  Si  >  P  >  Ar"
+        },
+        {
+          "key": "E",
+          "text": "Ar  >  P  >  Si  >  Mg  >  Na"
+        }
+      ]
+    },
+    {
+      "originalNumber": 76,
+      "stem": "Which isoelectronic series is correctly arranged in order of increasing radius?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K+  <  Ca2+  <  Ar  <  Cl-"
+        },
+        {
+          "key": "B",
+          "text": "Cl-  <  Ar  <  K+  <  Ca2+"
+        },
+        {
+          "key": "C",
+          "text": "Ca2+  <  Ar  <  K+  <  Cl-"
+        },
+        {
+          "key": "D",
+          "text": "Ca2+  <  K+  <  Ar  <  Cl-"
+        },
+        {
+          "key": "E",
+          "text": "Ca2+  <  K+  <  Cl-  <  Ar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 77,
+      "stem": "Of the choices below, which gives the order for first ionization energies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl  >  S  >  Al  >  Ar  >  Si"
+        },
+        {
+          "key": "B",
+          "text": "Ar  >  Cl  >  S  >  Si  >  Al"
+        },
+        {
+          "key": "C",
+          "text": "Al  >  Si  >  S  >  Cl  >  Ar"
+        },
+        {
+          "key": "D",
+          "text": "Cl  >  S  >  Al  >  Si  >  Ar"
+        },
+        {
+          "key": "E",
+          "text": "S  >  Si  >  Cl  >  Al  >  Ar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 78,
+      "stem": "Which equation correctly represents the first ionization of calcium?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca (g)  →  Ca+ (g)  +  e-"
+        },
+        {
+          "key": "B",
+          "text": "Ca (g)  →  Ca- (g)  +  e-"
+        },
+        {
+          "key": "C",
+          "text": "Ca (g)  +  e-  →  Ca- (g)"
+        },
+        {
+          "key": "D",
+          "text": "Ca- (g)  →  Ca (g)  +  e-"
+        },
+        {
+          "key": "E",
+          "text": "Ca+ (g)  +  e-  →  Ca (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 79,
+      "stem": "Which of the following correctly represents the second ionization of copper?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cu (g)  →  Cu+ (g)  +  e-"
+        },
+        {
+          "key": "B",
+          "text": "Cu+ (g)  →   Cu2+ (g)  +  e-"
+        },
+        {
+          "key": "C",
+          "text": "Cu- (g)  +  e-  →  Cu2- (g)"
+        },
+        {
+          "key": "D",
+          "text": "Cu+ (g)  +  e-  →  Cu2+ (g)"
+        },
+        {
+          "key": "E",
+          "text": "Cu+ (g)  +  e-  →  Cu (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 80,
+      "stem": "Of the following elements, ________ has the most negative electron affinity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "S"
+        },
+        {
+          "key": "B",
+          "text": "Cl"
+        },
+        {
+          "key": "C",
+          "text": "Se"
+        },
+        {
+          "key": "D",
+          "text": "Br"
+        },
+        {
+          "key": "E",
+          "text": "I"
+        }
+      ]
+    },
+    {
+      "originalNumber": 81,
+      "stem": "Which equation correctly represents the electron affinity of calcium?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca (g)  +  e-  →  Ca- (g)"
+        },
+        {
+          "key": "B",
+          "text": "Ca (g)  →  Ca+ (g)  +  e-"
+        },
+        {
+          "key": "C",
+          "text": "Ca (g)  →  Ca- (g)  +  e-"
+        },
+        {
+          "key": "D",
+          "text": "Ca- (g)  →  Ca (g)  +  e-"
+        },
+        {
+          "key": "E",
+          "text": "Ca+ (g)  +  e-  →  Ca (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 82,
+      "stem": "In the generation of most anions, the energy change (kJ/mol) that _______ an electron is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "removes, positive"
+        },
+        {
+          "key": "B",
+          "text": "adds, positive"
+        },
+        {
+          "key": "C",
+          "text": "removes, negative"
+        },
+        {
+          "key": "D",
+          "text": "adds, negative"
+        },
+        {
+          "key": "E",
+          "text": "None of the above is correct."
+        }
+      ]
+    },
+    {
+      "originalNumber": 83,
+      "stem": "Of the elements below, ________ is the most metallic.",
+      "options": [
+        {
+          "key": "A",
+          "text": "sodium"
+        },
+        {
+          "key": "B",
+          "text": "barium"
+        },
+        {
+          "key": "C",
+          "text": "magnesium"
+        },
+        {
+          "key": "D",
+          "text": "calcium"
+        },
+        {
+          "key": "E",
+          "text": "cesium"
+        }
+      ]
+    },
+    {
+      "originalNumber": 84,
+      "stem": "Of the compounds below, ________ has the smallest ionic separation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "KF"
+        },
+        {
+          "key": "B",
+          "text": "K2S"
+        },
+        {
+          "key": "C",
+          "text": "RbCl"
+        },
+        {
+          "key": "D",
+          "text": "SrBr2"
+        },
+        {
+          "key": "E",
+          "text": "RbF"
+        }
+      ]
+    },
+    {
+      "originalNumber": 85,
+      "stem": "Which ion below has the largest radius?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl-"
+        },
+        {
+          "key": "B",
+          "text": "K+"
+        },
+        {
+          "key": "C",
+          "text": "Br-"
+        },
+        {
+          "key": "D",
+          "text": "F-"
+        },
+        {
+          "key": "E",
+          "text": "Na+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 86,
+      "stem": "________ have the lowest first ionization energies of the groups listed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Alkali metals"
+        },
+        {
+          "key": "B",
+          "text": "Transition elements"
+        },
+        {
+          "key": "C",
+          "text": "Halogens"
+        },
+        {
+          "key": "D",
+          "text": "Alkaline earth metals"
+        },
+        {
+          "key": "E",
+          "text": "Noble gases"
+        }
+      ]
+    },
+    {
+      "originalNumber": 87,
+      "stem": "Which of the following correctly represents the second ionization of phosphorus?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P+ (g)  +  e-  →  P2+ (g)"
+        },
+        {
+          "key": "B",
+          "text": "P (g)  →  P+ (g)  +  e-"
+        },
+        {
+          "key": "C",
+          "text": "P- (g)  +  e-  →  P2- (g)"
+        },
+        {
+          "key": "D",
+          "text": "P+ (g)  →  P2+ (g)  +  e-"
+        },
+        {
+          "key": "E",
+          "text": "P+ (g)  +  e-  →  P (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 88,
+      "stem": "Which of the following correctly represents the third ionization of aluminum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Al2+ (g)  +  e-  →  Al+ (g)"
+        },
+        {
+          "key": "B",
+          "text": "Al (g)  →  Al+ (g)  +  e-"
+        },
+        {
+          "key": "C",
+          "text": "Al2- (g)  +  e- →  Al3- (g)"
+        },
+        {
+          "key": "D",
+          "text": "Al2+ (g)  +  e-  →  Al3+ (g)"
+        },
+        {
+          "key": "E",
+          "text": "Al2+ (g)  →  Al3+ (g)  +  e-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 89,
+      "stem": "Of the following elements, ________ has the most negative electron affinity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "O"
+        },
+        {
+          "key": "B",
+          "text": "K"
+        },
+        {
+          "key": "C",
+          "text": "B"
+        },
+        {
+          "key": "D",
+          "text": "Na"
+        },
+        {
+          "key": "E",
+          "text": "S"
+        }
+      ]
+    },
+    {
+      "originalNumber": 90,
+      "stem": "Of the following species, ________ has the largest radius.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rb+"
+        },
+        {
+          "key": "B",
+          "text": "Sr2+"
+        },
+        {
+          "key": "C",
+          "text": "Br-"
+        },
+        {
+          "key": "D",
+          "text": "Kr"
+        },
+        {
+          "key": "E",
+          "text": "Ar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 91,
+      "stem": "Which of the following correctly represents the electron affinity of phosphorus?",
+      "options": [
+        {
+          "key": "A",
+          "text": "P (g)  →  P+ (g)  +  e-"
+        },
+        {
+          "key": "B",
+          "text": "P (g)  +  e-  →  P- (g)"
+        },
+        {
+          "key": "C",
+          "text": "P4 (g)  +  e-  →  P- (g)"
+        },
+        {
+          "key": "D",
+          "text": "P4 (g)  +  4e-  →  4P- (g)"
+        },
+        {
+          "key": "E",
+          "text": "P+ (g)  +  e-  →  P (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 92,
+      "stem": "Sodium is much more apt to exist as a cation than is chlorine. This is because ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "chlorine is a gas and sodium is a solid"
+        },
+        {
+          "key": "B",
+          "text": "chlorine has a greater electron affinity than sodium does"
+        },
+        {
+          "key": "C",
+          "text": "chlorine is bigger than sodium"
+        },
+        {
+          "key": "D",
+          "text": "chlorine has a greater ionization energy than sodium does"
+        },
+        {
+          "key": "E",
+          "text": "chlorine is more metallic than sodium"
+        }
+      ]
+    },
+    {
+      "originalNumber": 93,
+      "stem": "Of the elements below, ________ has the highest melting point.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca"
+        },
+        {
+          "key": "B",
+          "text": "K"
+        },
+        {
+          "key": "C",
+          "text": "Fe"
+        },
+        {
+          "key": "D",
+          "text": "Na"
+        },
+        {
+          "key": "E",
+          "text": "Ba"
+        }
+      ]
+    },
+    {
+      "originalNumber": 94,
+      "stem": "Of the following oxides, ________ is the most acidic.",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaO"
+        },
+        {
+          "key": "B",
+          "text": "CO2"
+        },
+        {
+          "key": "C",
+          "text": "Al2O3"
+        },
+        {
+          "key": "D",
+          "text": "Li2O"
+        },
+        {
+          "key": "E",
+          "text": "Na2O"
+        }
+      ]
+    },
+    {
+      "originalNumber": 95,
+      "stem": "Which of the following is not a characteristic of metals?",
+      "options": [
+        {
+          "key": "A",
+          "text": "acidic oxides"
+        },
+        {
+          "key": "B",
+          "text": "low ionization energies"
+        },
+        {
+          "key": "C",
+          "text": "malleability"
+        },
+        {
+          "key": "D",
+          "text": "ductility"
+        },
+        {
+          "key": "E",
+          "text": "These are all characteristics of metals."
+        }
+      ]
+    },
+    {
+      "originalNumber": 96,
+      "stem": "The element in the periodic table that looks like a metal, is a poor thermal conductor, and acts as an electrical semiconductor is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sn"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "As"
+        },
+        {
+          "key": "D",
+          "text": "Si"
+        },
+        {
+          "key": "E",
+          "text": "Ge"
+        }
+      ]
+    },
+    {
+      "originalNumber": 97,
+      "stem": "Metals can be ________ at room temperature.",
+      "options": [
+        {
+          "key": "A",
+          "text": "liquid only"
+        },
+        {
+          "key": "B",
+          "text": "solid only"
+        },
+        {
+          "key": "C",
+          "text": "solid or liquid"
+        },
+        {
+          "key": "D",
+          "text": "solid, liquid, or gas"
+        },
+        {
+          "key": "E",
+          "text": "liquid or gas"
+        }
+      ]
+    },
+    {
+      "originalNumber": 98,
+      "stem": "The first ionization energies of the elements ________ as you go from left to right across a period of the periodic table, and ________ as you go from the bottom to the top of a group in the table.",
+      "options": [
+        {
+          "key": "A",
+          "text": "increase, increase"
+        },
+        {
+          "key": "B",
+          "text": "increase, decrease"
+        },
+        {
+          "key": "C",
+          "text": "decrease, increase"
+        },
+        {
+          "key": "D",
+          "text": "decrease, decrease"
+        },
+        {
+          "key": "E",
+          "text": "The first ionization energies of the elements are completely unpredictable."
+        }
+      ]
+    },
+    {
+      "originalNumber": 99,
+      "stem": "In general, as you go across a period in the periodic table from left to right: (1) the atomic radius ________; (2) the electron affinity becomes ________ negative; and (3) the first ionization energy ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "decreases, decreasingly, increases"
+        },
+        {
+          "key": "B",
+          "text": "increases, increasingly, decreases"
+        },
+        {
+          "key": "C",
+          "text": "increases, increasingly, increases"
+        },
+        {
+          "key": "D",
+          "text": "decreases, increasingly, increases"
+        },
+        {
+          "key": "E",
+          "text": "decreases, increasingly, decreases"
+        }
+      ]
+    },
+    {
+      "originalNumber": 100,
+      "stem": "Most of the elements on the periodic table are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "gases"
+        },
+        {
+          "key": "B",
+          "text": "nonmetals"
+        },
+        {
+          "key": "C",
+          "text": "metalloids"
+        },
+        {
+          "key": "D",
+          "text": "liquids"
+        },
+        {
+          "key": "E",
+          "text": "metals"
+        }
+      ]
+    }
+  ]
+}

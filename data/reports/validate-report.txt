@@ -1,0 +1,16 @@
+题库校验报告  2026-09-25T09:58:48.929Z
+题库: public/questions/chem-bank.json
+总数: 100
+状态分布: {"pending":98,"pending-image":1,"contested":1}
+
+错误 (0):
+
+警告/待核 (8):
+  - 疑似重复题干: CHEM-007 与 CHEM-004
+  - 含图片选项(待补图): CHEM-063-A
+  - 含图片选项(待补图): CHEM-063-B
+  - 含图片选项(待补图): CHEM-063-C
+  - 含图片选项(待补图): CHEM-063-D
+  - 含图片选项(待补图): CHEM-063-E
+  - 疑似重复题干: CHEM-072 与 CHEM-071
+  - 疑似重复题干: CHEM-089 与 CHEM-080

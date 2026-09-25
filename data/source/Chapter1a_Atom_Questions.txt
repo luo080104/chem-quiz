@@ -1,0 +1,713 @@
+Chapter 1 Introduction of Chemistry and Matter (Atom Questions)
+
+A combination of sand, salt, and water is an example of a ________.
+A) homogeneous mixture
+B) heterogeneous mixture
+C) compound
+D) pure substance
+E) solid
+
+A small amount of salt dissolved in water is an example of a ________.
+A) homogeneous mixture
+B) heterogeneous mixture
+C) compound
+D) pure substance
+E) solid
+
+Which one of the following has the element name and symbol correctly matched?
+A) S, sodium
+B) Tn, tin
+C) Fe, iron
+D) N, neon
+E) B, bromine
+
+In the following list, only ________ is not an example of a chemical reaction.
+A) dissolution of a penny in nitric acid
+B) the condensation of water vapor
+C) a burning candle
+D) the formation of polyethylene from ethylene
+E) the rusting of iron
+
+Gases and liquids share the property of ________.
+A) compressibility
+B) definite volume
+C) incompressibility
+D) indefinite shape
+E) definite shape
+
+Of the following, only ________ is a chemical reaction.
+A) melting of lead
+B) dissolving sugar in water
+C) tarnishing of silver
+D) crushing of stone
+E) dropping a penny into a glass of water
+
+In the following list, only ________ is not an example of a chemical reaction.
+A) burning a plastic water bottle
+B) the production of hydrogen gas from water
+C) the tarnishing of a copper penny
+D) chopping a log into sawdust
+E) charging a cellular phone
+
+Which of the following is (are) the lowest temperature?
+A) The freezing point of water
+B) 5 °C
+C) 30 °F
+D) 280 K
+E) A and D 
+
+Which calculation clearly shows a conversion between temperatures in degrees Celsius, °C, and temperature in Kelvins, K?
+A) K = °C + 273.15
+B) K = 273.15 - °C
+C) K = [°C - 32] / 1.8
+D) K = [°C + 32] × 1.8
+E) K = °C
+
+Accuracy refers to ________.
+A) how close a measured number is to zero
+B) how close a measured number is to the calculated value
+C) how close a measured number is to other measured numbers
+D) how close a measured number is to the true value
+E) how close a measured number is to infinity
+
+________ is the chemical symbol for elemental sodium.
+A) S
+B) W
+C) So
+D) Na
+E) Sn
+
+The SI unit for mass is ________.
+A) kilogram
+B) gram
+C) pound
+D) troy ounce
+E) none of the above
+
+A one degree of temperature difference is the smallest on the ________ temperature scale.
+A) Kelvin
+B) Celsius
+C) Fahrenheit
+D) Kelvin and Celsius
+E) Fahrenheit and Celsius
+
+A common English set of units for expressing velocity is miles/hour. The SI unit for velocity is ________.
+A) km/hr
+B) km/s
+C) m/hr
+D) m/s
+E) cm/s
+
+The freezing point of water at 1 atm pressure is ________.
+A) 0 °F
+B) 0 K
+C) 0 °C
+D) -273 °C
+E) -32 °F
+
+"Absolute zero" refers to ________.
+A) 0 Kelvin
+B) 0° Fahrenheit
+C) 0° Celsius
+D) °C + 9/5(°F - 32)
+E) 273.15 °C
+
+The symbol for the element phosphorus is ________.
+A) Pt
+B) K
+C) P
+D) S
+E) Ca
+
+The element hydrogen has the symbol ________.
+A) H
+B) He
+C) K
+D) B
+E) Ar
+
+Which one of the following is a pure substance?
+A) tap water
+B) rock
+C) air
+D) elemental oxygen
+E) apple
+
+The symbol for the element sodium is ________.
+A) Me
+B) Hg
+C) Sn
+D) Na
+E) Pb
+
+Consider the following selected postulates of Dalton's atomic theory:
+(i)	Each element is composed of extremely small particles called atoms.
+(ii)	Atoms are indivisible.
+(iii)	Atoms of a given element are identical.
+(iv)	Atoms of different elements are different and have different properties.
+Which of the postulates is(are) no longer considered valid?
+A) (i) and (ii)
+B) (ii) only
+C) (ii) and (iii)
+D) (iii) only
+E) (iii) and (iv)
+
+Of the following, the smallest and lightest subatomic particle is the ________.
+A) neutron
+B) proton
+C) electron
+D) nucleus
+E) alpha particle
+
+All atoms of a given element have the same ________.
+A) mass
+B) number of protons
+C) number of neutrons
+D) number of electrons and neutrons
+E) density
+
+There are ________ electrons, ________ protons, and ________ neutrons in an atom of Xe.
+A) 132, 132, 54
+B) 54, 54, 132
+C) 78, 78, 54
+D) 54, 54, 78
+E) 78, 78, 132
+
+The nucleus of an atom does not contain ________.
+A) protons
+B) protons or neutrons
+C) neutrons
+D) subatomic particles
+E) electrons
+
+The subatomic particles located in the nucleus with no overall charges are ________.
+A) electrons
+B) protons
+C) neutrons
+D) protons and neutrons
+E) protons, neutrons, and electrons
+
+The atomic mass unit is presently based on assigning an exact integral mass (in amu) to an isotope of ________.
+A) hydrogen
+B) oxygen
+C) sodium
+D) carbon
+E) helium
+
+In the periodic table, the elements are arranged in ________.  
+A) alphabetical order
+B) order of increasing atomic number
+C) order of increasing metallic properties
+D) order of increasing neutron content
+E) reverse alphabetical order
+
+Elements ________ exhibit similar physical and chemical properties.
+A) with similar chemical symbols
+B) with similar atomic masses
+C) in the same period of the periodic table
+D) on opposite sides of the periodic table
+E) in the same group of the periodic table
+
+The elements in groups 1A, 6A, and 7A are called ________, respectively.
+A) alkaline earth metals, halogens, and chalcogens
+B) alkali metals, chalcogens, and halogens
+C) alkali metals, halogens, and noble gases
+D) alkaline earth metals, transition metals, and halogens
+E) halogens, transition metals, and alkali metals
+
+Elements in the same group of the periodic table typically have ________.
+A) similar mass numbers
+B) similar physical properties only
+C) similar chemical properties only
+D) similar atomic masses
+E) similar physical and chemical properties
+
+Of the choices below, which one is not an ionic compound?
+A) PCl5
+B) MoCl6
+C) RbCl
+D) PbCl2
+E) NaCl
+
+Which one of the following compounds is copper(I) chloride?
+A) CuCl
+B) CuCl2
+C) Cu2Cl
+D) Cu2Cl3
+E) Cu3Cl2
+
+
+Which group in the periodic table contains only nonmetals?
+A) 1A
+B) 6A
+C) 2B
+D) 2A
+E) 8A
+
+Horizontal rows of the periodic table are known as ________.
+A) periods
+B) groups
+C) metalloids
+D) metals
+E) nonmetals
+
+Vertical columns of the periodic table are known as ________.
+A) metals
+B) periods
+C) nonmetals
+D) groups
+E) metalloids
+
+Elements in Group 8A are known as the ________.
+A) halogens
+B) alkali metals
+C) alkaline earth metals
+D) chalcogens
+E) noble gases
+
+Potassium is a ________ and chlorine is a ________.
+A) metal, nonmetal
+B) metal, metal
+C) metal, metalloid
+D) metalloid, nonmetal
+E) nonmetal, metal
+
+Oxygen is a ________ and nitrogen is a ________.
+A) metal, metalloid
+B) nonmetal, metal
+C) metalloid, metalloid
+D) nonmetal, nonmetal
+E) nonmetal, metalloid
+
+The charge on the manganese in the salt MnF3 is ________.
+A) 1+
+B) 1-
+C) 2+
+D) 2-
+E) 3+
+
+Calcium forms an ion with a charge of ________.
+A) 1-
+B) 2-
+C) 1+
+D) 2+
+E) 0
+
+Oxygen forms an ion with a charge of ________.
+A) 2-
+B) 2+
+C) 3-
+D) 3+
+E) 6+
+
+The correct name for Al2O3 is ________.
+A) aluminum oxide
+B) dialuminum oxide
+C) dialuminum trioxide
+D) aluminum hydroxide
+E) aluminum trioxide
+
+The correct name for H2SO4 is ________.
+A) sulfuric acid
+B) sulfurous acid
+C) hydrosulfuric acid
+D) hydrosulfic acid
+E) sulfur hydroxide
+
+Iron and chlorine form an ionic compound whose formula is FeCl3. The name of this compound is ________.
+A) iron chlorine
+B) iron (III) chloride
+C) moniron trichloride
+D) iron (III) trichloride
+E) ferric trichloride
+
+Copper and chlorine form an ionic compound whose formula is CuCl2. The name of this compound is ________.
+A) copper chlorine
+B) copper (III) dichloride
+C) monocopper dichloride
+D) copper (II) dichloride
+E) cupric chloride
+
+Of the following, the subatomic particle with the smallest mass is the ________.
+A) proton
+B) neutron
+C) electron
+D) alpha particle
+E) isotope
+
+200 pm is the same as ________ Å.
+A) 2000
+B) 20
+C) 200
+D) 2
+E) 0.0002
+
+The charge on the copper ion in the salt CuO is ________.
+A) +1
+B) +2
+C) +4
+D) +3
+E) +5
+
+The charge on the silver ion in the salt AgCl is ________.
+A) +2
+B) +1
+C) +3
+D) +4
+E) +5
+
+Of the following, ________ radiation has the shortest wavelength.
+A) X-ray
+B) radio
+C) microwave
+D) ultraviolet
+E) infrared
+
+According to the Heisenberg Uncertainty Principle, it is impossible to know precisely both the position and the ________ of an electron.
+A) mass
+B) color
+C) momentum
+D) shape
+E) charge
+
+Which one of the quantum numbers does not result from the solution of the Schrodinger equation?
+A) principal
+B) azimuthal
+C) magnetic
+D) spin
+E) angular momentum
+
+The photoelectric effect is ________.
+A) the total reflection of light by metals giving them their typical luster
+B) the production of current by silicon solar cells when exposed to sunlight
+C) the ejection of electrons by a metal when struck with light of sufficient energy
+D) the darkening of photographic film when exposed to an electric field
+E) a relativistic effect
+
+All of the orbitals in a given electron shell have the same value as the ________ quantum number.
+A) principal
+B) angular momentum
+C) magnetic
+D) spin
+E) psi
+
+The uncertainty principle states that ________.
+A) matter and energy are really the same thing
+B) it is impossible to know anything with certainty
+C) it is impossible to know the exact position and momentum of an electron
+D) there can only be one uncertain digit in a reported number
+E) it is impossible to know how many electrons there are in an atom
+
+Which one of the following orbitals can hold two electrons?
+A) 2px
+B) 3s
+C) 4dxy
+D) all of the above
+E) none of the above
+Which of the subshells below do not exist due to the constraints upon the angular momentum quantum number?
+A) 4f
+B) 4d
+C) 4p
+D) 4s
+E) none of the above
+
+An electron cannot have the quantum numbers n = ________, l = ________, ml = ________.
+A) 2, 0, 0
+B) 2, 1, -1
+C) 3, 1, -1
+D) 1, 1, 1
+E) 3, 2, 1
+
+Which one of the following is an incorrect subshell notation?
+A) 4f
+B) 2d
+C) 3s
+D) 2p
+E) 3d
+
+Which of the following is not a valid set of four quantum numbers? (n, l, ml, ms)
+A) 2, 0, 0, +1/2
+B) 2, 1, 0, -1/2
+C) 3, 1, -1, -1/2
+D) 1, 0, 0, +1/2
+E) 1, 1, 0, +1/2
+
+The lowest orbital energy is reached when the number of electrons with the same spin is maximized. This statement describes ________.
+A) Pauli Exclusion Principle
+B) Planck's constant
+C) deBroglie hypothesis
+D) Heisenberg Uncertainty Principle
+E) Hund's rule
+
+Which electron configuration represents a violation of the Pauli exclusion principle?
+A) 
+
+B) 
+
+C) 
+
+D) 
+
+E) 
+
+
+The ________ quantum number defines the shape of an orbital.
+A) spin
+B) magnetic
+C) principal
+D) angular momentum
+E) psi
+
+The n = 1 shell contains ________ p orbitals. All the other shells contain ________ p orbitals.
+A) 3, 6
+B) 0, 3
+C) 6, 2
+D) 3, 3
+E) 0, 6
+
+There are ________ orbitals in the second shell.
+A) 1
+B) 2
+C) 4
+D) 8
+E) 9
+________-orbitals are spherically symmetrical.
+A) s
+B) p
+C) d
+D) f
+E) g
+
+How many quantum numbers are necessary to designate a particular electron in an atom?
+A) 3
+B) 4
+C) 2
+D) 1
+E) 5
+
+Which one of the following represents an acceptable set of quantum numbers for an electron in an atom? (arranged as n, l, ml, and ms )
+A) 3, 2, -2, -1/2
+B) 3, 3, -4, 1/2
+C) 3, 4, 6, -1/2
+D) 3, 2, 0, 0
+E) 3, 3, 3, -1/2
+
+What wavelengths correspond to the visible region of the electromagnetic spectrum?
+A) About 400 to 750 nm
+B) About 100 to 1000 nm
+C) About 200 to 900 nm
+D) About 150 to 550 nm 
+E) About 250 to 1000 nm 
+
+In which set of elements would all members be expected to have very similar chemical properties?
+A) O, S, Se
+B) N, O, F
+C) Na, Mg, K
+D) S, Se, Si
+E) Ne, Na, Mg
+
+In which set of elements would all members be expected to have very similar chemical properties?
+A) P, Se, I
+B) Cl, Br, Na
+C) Si, As, Te
+D) Ne, Na, Mg
+E) Br, I, At
+
+The effective nuclear charge of an atom is primarily affected by ________.
+A) inner electrons
+B) outer electrons
+C) nuclear charge
+D) electron distribution
+E) orbital radial probability
+
+Atomic radius generally increases as we move ________.
+A) down a group and from right to left across a period
+B) up a group and from left to right across a period
+C) down a group and from left to right across a period
+D) up a group and from right to left across a period
+E) down a group; the period position has no effect
+
+Of the following, which gives the correct order for atomic radius for Mg, Na, P, Si and Ar?
+A) Mg  >  Na  >  P  >  Si  >  Ar
+B) Ar  >  Si  >  P  >  Na >  Mg
+C) Si  >  P  >  Ar  >  Na  >  Mg
+D) Na  >  Mg  >  Si  >  P  >  Ar
+E) Ar  >  P  >  Si  >  Mg  >  Na
+
+Which isoelectronic series is correctly arranged in order of increasing radius?
+A) K+  <  Ca2+  <  Ar  <  Cl-
+B) Cl-  <  Ar  <  K+  <  Ca2+
+C) Ca2+  <  Ar  <  K+  <  Cl-
+D) Ca2+  <  K+  <  Ar  <  Cl-
+E) Ca2+  <  K+  <  Cl-  <  Ar
+
+Of the choices below, which gives the order for first ionization energies?
+A) Cl  >  S  >  Al  >  Ar  >  Si
+B) Ar  >  Cl  >  S  >  Si  >  Al
+C) Al  >  Si  >  S  >  Cl  >  Ar
+D) Cl  >  S  >  Al  >  Si  >  Ar
+E) S  >  Si  >  Cl  >  Al  >  Ar
+
+Which equation correctly represents the first ionization of calcium?
+A) Ca (g)  →  Ca+ (g)  +  e-
+B) Ca (g)  →  Ca- (g)  +  e-
+C) Ca (g)  +  e-  →  Ca- (g)
+D) Ca- (g)  →  Ca (g)  +  e-
+E) Ca+ (g)  +  e-  →  Ca (g)
+
+Which of the following correctly represents the second ionization of copper?
+A) Cu (g)  →  Cu+ (g)  +  e-
+B) Cu+ (g)  →   Cu2+ (g)  +  e-
+C) Cu- (g)  +  e-  →  Cu2- (g)
+D) Cu+ (g)  +  e-  →  Cu2+ (g)
+E) Cu+ (g)  +  e-  →  Cu (g)
+
+Of the following elements, ________ has the most negative electron affinity.
+A) S
+B) Cl
+C) Se
+D) Br
+E) I
+
+Which equation correctly represents the electron affinity of calcium?
+A) Ca (g)  +  e-  →  Ca- (g)
+B) Ca (g)  →  Ca+ (g)  +  e-
+C) Ca (g)  →  Ca- (g)  +  e-
+D) Ca- (g)  →  Ca (g)  +  e-
+E) Ca+ (g)  +  e-  →  Ca (g)
+
+In the generation of most anions, the energy change (kJ/mol) that _______ an electron is ________.
+A) removes, positive
+B) adds, positive
+C) removes, negative
+D) adds, negative
+E) None of the above is correct.
+
+Of the elements below, ________ is the most metallic.
+A) sodium
+B) barium
+C) magnesium
+D) calcium
+E) cesium
+
+Of the compounds below, ________ has the smallest ionic separation.
+A) KF
+B) K2S
+C) RbCl
+D) SrBr2
+E) RbF
+
+Which ion below has the largest radius?
+A) Cl-
+B) K+
+C) Br-
+D) F-
+E) Na+
+
+________ have the lowest first ionization energies of the groups listed.
+A) Alkali metals
+B) Transition elements
+C) Halogens
+D) Alkaline earth metals
+E) Noble gases 
+
+Which of the following correctly represents the second ionization of phosphorus?
+A) P+ (g)  +  e-  →  P2+ (g)
+B) P (g)  →  P+ (g)  +  e-
+C) P- (g)  +  e-  →  P2- (g)
+D) P+ (g)  →  P2+ (g)  +  e-
+E) P+ (g)  +  e-  →  P (g)
+
+Which of the following correctly represents the third ionization of aluminum?
+A) Al2+ (g)  +  e-  →  Al+ (g)
+B) Al (g)  →  Al+ (g)  +  e-
+C) Al2- (g)  +  e- →  Al3- (g)
+D) Al2+ (g)  +  e-  →  Al3+ (g)
+E) Al2+ (g)  →  Al3+ (g)  +  e-
+
+Of the following elements, ________ has the most negative electron affinity.
+A) O
+B) K
+C) B
+D) Na
+E) S
+
+Of the following species, ________ has the largest radius.
+A) Rb+
+B) Sr2+
+C) Br-
+D) Kr
+E) Ar
+
+Which of the following correctly represents the electron affinity of phosphorus?
+A) P (g)  →  P+ (g)  +  e-
+B) P (g)  +  e-  →  P- (g)
+C) P4 (g)  +  e-  →  P- (g)
+D) P4 (g)  +  4e-  →  4P- (g)
+E) P+ (g)  +  e-  →  P (g)
+
+Sodium is much more apt to exist as a cation than is chlorine. This is because ________.
+A) chlorine is a gas and sodium is a solid
+B) chlorine has a greater electron affinity than sodium does
+C) chlorine is bigger than sodium
+D) chlorine has a greater ionization energy than sodium does
+E) chlorine is more metallic than sodium
+
+Of the elements below, ________ has the highest melting point.
+A) Ca
+B) K
+C) Fe
+D) Na
+E) Ba
+
+Of the following oxides, ________ is the most acidic.
+A) CaO
+B) CO2
+C) Al2O3
+D) Li2O
+E) Na2O
+
+Which of the following is not a characteristic of metals?
+A) acidic oxides
+B) low ionization energies
+C) malleability
+D) ductility
+E) These are all characteristics of metals.
+
+The element in the periodic table that looks like a metal, is a poor thermal conductor, and acts as an electrical semiconductor is ________.
+A) Sn
+B) B
+C) As
+D) Si
+E) Ge
+
+Metals can be ________ at room temperature.
+A) liquid only
+B) solid only
+C) solid or liquid
+D) solid, liquid, or gas
+E) liquid or gas
+
+The first ionization energies of the elements ________ as you go from left to right across a period of the periodic table, and ________ as you go from the bottom to the top of a group in the table.
+A) increase, increase
+B) increase, decrease
+C) decrease, increase
+D) decrease, decrease
+E) The first ionization energies of the elements are completely unpredictable.
+
+In general, as you go across a period in the periodic table from left to right: 
+	(1)	the atomic radius ________; 
+	(2)	the electron affinity becomes ________ negative; and 
+	(3)	the first ionization energy ________.
+A) decreases, decreasingly, increases
+B) increases, increasingly, decreases
+C) increases, increasingly, increases
+D) decreases, increasingly, increases
+E) decreases, increasingly, decreases
+
+Most of the elements on the periodic table are ________.
+A) gases
+B) nonmetals
+C) metalloids
+D) liquids
+E) metals

@@ -1,0 +1,21 @@
+{
+  "name": "chem-quiz",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "手机优先的大学化学刷题网页（样机：Chapter 1a 真实题）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "parse": "node scripts/parse-questions.mjs data/source/Chapter1a_Atom_Questions.txt data/raw/chapter1a.raw.json chapter1a",
+    "build:bank": "node scripts/build-bank.mjs",
+    "validate": "node scripts/validate-bank.mjs public/questions/chem-bank.json data/reports",
+    "test:logic": "node scripts/test-logic.mjs",
+    "test": "npm run validate && npm run test:logic"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

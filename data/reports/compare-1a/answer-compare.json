@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-25T11:23:58.464Z",
+  "labelA": "本次AI",
+  "labelB": "手机DeepSeek",
+  "note": "两版答案一致不等于化学审核通过；有分歧的题请以老师/教材或独立复算为准。",
+  "counts": {
+    "totalCompared": 100,
+    "agree": 97,
+    "disagree": 3,
+    "onlyA": 0,
+    "onlyB": 0
+  },
+  "disagree": [
+    {
+      "n": 46,
+      "a": [
+        "D"
+      ],
+      "b": [
+        "E"
+      ]
+    },
+    {
+      "n": 63,
+      "a": [
+        "C"
+      ],
+      "b": []
+    },
+    {
+      "n": 73,
+      "a": [
+        "C"
+      ],
+      "b": [
+        "A"
+      ]
+    }
+  ],
+  "onlyA": [],
+  "onlyB": []
+}

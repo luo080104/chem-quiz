@@ -1,5 +1,5 @@
 import { getBank } from "../bank";
-import { el, rich, richBlock, richStem, studyBlock } from "../ui";
+import { el, rich, richBlock, richStem, studyBlock, sameSet } from "../ui";
 import { statusLabel } from "../types";
 import type { RouteCtx } from "../main";
 
@@ -24,9 +24,20 @@ export function renderReview({ app }: RouteCtx): void {
       ]),
       el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)]),
       el("div", { class: "answer-line small" }, [
-        el("span", { class: "muted" }, ["候选答案："]),
+        el("span", { class: "muted" }, ["本次AI："]),
         q.answer.length ? rich(q.answer.join(" "), "ans") : el("span", { class: "muted" }, ["（无）"]),
       ]),
+      q.phoneAnswer.length
+        ? el("div", { class: "answer-line small" }, [
+            el("span", { class: "muted" }, ["手机DeepSeek："]),
+            rich(q.phoneAnswer.join(" ")),
+            !q.answer.length
+              ? el("span", { class: "tag pending" }, ["手机有答案/本次AI无"])
+              : sameSet(q.answer, q.phoneAnswer)
+              ? el("span", { class: "tag ok" }, ["与本次AI一致"])
+              : el("span", { class: "tag bad" }, ["与本次AI分歧"]),
+          ])
+        : null,
       richBlock(q.explanation || "（无解析）", "explain small"),
       studyBlock(q),
     ])
@@ -43,6 +54,9 @@ export function renderReview({ app }: RouteCtx): void {
       ]),
       el("div", { class: "banner warn" }, [
         "以下题目尚未审定，候选答案可能与老师/教材不一致。两版AI答案一致也不等于化学审核通过。",
+      ]),
+      el("div", { class: "banner" }, [
+        `手机DeepSeek 对照：已比较 ${counts.phoneCompared ?? 0} 题，其中 ${counts.phoneDisagreements ?? 0} 题与本次AI存在分歧（下方标“与本次AI分歧”）。分歧不擅自二选一。`,
       ]),
       el("div", {}, rows),
     ])

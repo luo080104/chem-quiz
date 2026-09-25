@@ -55,6 +55,9 @@ for (const src of config.sources) {
   const key = src.answers && existsSync(src.answers)
     ? JSON.parse(readFileSync(src.answers, "utf8").replace(/^\uFEFF/, ""))
     : { answers: {} };
+  const phoneKey = src.phone && existsSync(src.phone)
+    ? JSON.parse(readFileSync(src.phone, "utf8").replace(/^\uFEFF/, ""))
+    : { answers: {} };
 
   // Optional study files (translation + glossary), merged by chapter number.
   const studyMap = {};
@@ -78,8 +81,10 @@ for (const src of config.sources) {
     globalNumber += 1;
     const chapterNumber = q.originalNumber;
     const k = key.answers[String(chapterNumber)] || {};
+    const pk = phoneKey.answers[String(chapterNumber)] || {};
     const st = studyMap[String(chapterNumber)] || {};
     const answer = Array.isArray(k.answer) ? k.answer : [];
+    const phoneAnswer = Array.isArray(pk.answer) ? pk.answer : [];
     const stemZh = st.stemZh || k.stemZh || "";
     const optionsZh = st.optionsZh || k.optionsZh || {};
     const glossary = Array.isArray(st.glossary) ? st.glossary : Array.isArray(k.glossary) ? k.glossary : [];
@@ -126,6 +131,7 @@ for (const src of config.sources) {
       answer,
       explanation: k.explanation || "",
       candidateAnswer: answer,
+      phoneAnswer,
       reviewStatus,
       reviewFlag: k.flag || null,
       source: { question: src.raw, answer: answer.length ? src.answers : null },
@@ -134,12 +140,13 @@ for (const src of config.sources) {
   console.log(`  source ${src.label}: ${raw.questions.length} questions, ${imageCursor}/${imageUrls.length} images`);
 }
 
+const normAns = (a) => [...(a || [])].map((x) => String(x).toUpperCase()).sort().join("");
 const meta = {
   bankId: config.bankId,
   version: config.version,
   title: config.title,
   generatedAt: new Date().toISOString(),
-  sourceFiles: config.sources.map((s) => ({ label: s.label, raw: s.raw, answers: s.answers })),
+  sourceFiles: config.sources.map((s) => ({ label: s.label, raw: s.raw, answers: s.answers, phone: s.phone || null })),
   counts: {
     total: questions.length,
     approved: questions.filter((q) => q.reviewStatus === "approved").length,
@@ -148,6 +155,10 @@ const meta = {
     contested: questions.filter((q) => q.reviewStatus === "contested").length,
     translated: questions.filter((q) => q.stemZh).length,
     glossaryTerms: questions.reduce((n, q) => n + q.glossary.length, 0),
+    phoneCompared: questions.filter((q) => q.phoneAnswer.length > 0).length,
+    phoneDisagreements: questions.filter(
+      (q) => q.phoneAnswer.length > 0 && q.answer.length > 0 && normAns(q.answer) !== normAns(q.phoneAnswer)
+    ).length,
   },
   disclaimer:
     "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。",

@@ -1,0 +1,16 @@
+答案对照报告  2026-09-25T11:24:47.640Z
+A = 本次AI (data\answer-keys\chapter1b.deepseek-independent.json)
+B = 手机DeepSeek (data\answer-keys\chapter1b.phone-deepseek.json)
+比较题数 100：一致 96，分歧 4，仅A 0，仅B 0
+
+分歧题 (4):
+  #1  本次AI=[E]  手机DeepSeek=[B,D]
+  #2  本次AI=[A]  手机DeepSeek=[A,D]
+  #47  本次AI=[C]  手机DeepSeek=[B]
+  #88  本次AI=[A]  手机DeepSeek=[E]
+
+仅 A 有 (0):
+
+仅 B 有 (0):
+
+提醒：一致项仍需化学复核；分歧项不得擅自二选一。

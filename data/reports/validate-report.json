@@ -2,19 +2,21 @@
   "bankFile": "public/questions/chem-bank.json",
   "bankId": "chem-250",
   "version": 1,
-  "generatedAt": "2026-09-25T11:07:35.157Z",
+  "generatedAt": "2026-09-25T11:26:08.868Z",
   "counts": {
     "total": 200,
     "approved": 0,
-    "pending": 196,
+    "pending": 191,
     "pendingImage": 0,
-    "contested": 4,
-    "translated": 0,
-    "glossaryTerms": 0
+    "contested": 9,
+    "translated": 200,
+    "glossaryTerms": 535,
+    "phoneCompared": 198,
+    "phoneDisagreements": 6
   },
   "byStatus": {
-    "pending": 196,
-    "contested": 4
+    "pending": 191,
+    "contested": 9
   },
   "errors": [],
   "warnings": [

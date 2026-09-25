@@ -29,6 +29,7 @@ export interface Question {
   answer: string[];
   explanation: string;
   candidateAnswer: string[];
+  phoneAnswer: string[];
   reviewStatus: ReviewStatus;
   reviewFlag: string | null;
   source: { question: string; answer: string | null };
@@ -49,6 +50,8 @@ export interface BankMeta {
     contested: number;
     translated?: number;
     glossaryTerms?: number;
+    phoneCompared?: number;
+    phoneDisagreements?: number;
   };
   disclaimer: string;
 }

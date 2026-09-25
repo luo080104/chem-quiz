@@ -10,6 +10,7 @@
       "idPrefix": "1A",
       "raw": "data/raw/chapter1a.raw.json",
       "answers": "data/answer-keys/chapter1a.deepseek-independent.json",
+      "phone": "data/answer-keys/chapter1a.phone-deepseek.json",
       "study": [
         "data/study/chapter1a.study.1.json",
         "data/study/chapter1a.study.2.json",
@@ -25,6 +26,7 @@
       "idPrefix": "1B",
       "raw": "data/raw/chapter1b.raw.json",
       "answers": "data/answer-keys/chapter1b.deepseek-independent.json",
+      "phone": "data/answer-keys/chapter1b.phone-deepseek.json",
       "study": [
         "data/study/chapter1b.study.1.json",
         "data/study/chapter1b.study.2.json",

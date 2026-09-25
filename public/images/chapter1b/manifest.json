@@ -1,0 +1,38 @@
+[
+    {
+        "index":  1,
+        "rId":  "rId7",
+        "target":  "media/image1.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img001.jpeg"
+    },
+    {
+        "index":  2,
+        "rId":  "rId8",
+        "target":  "media/image2.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img002.jpeg"
+    },
+    {
+        "index":  3,
+        "rId":  "rId9",
+        "target":  "media/image3.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img003.jpeg"
+    },
+    {
+        "index":  4,
+        "rId":  "rId10",
+        "target":  "media/image4.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img004.jpeg"
+    },
+    {
+        "index":  5,
+        "rId":  "rId11",
+        "target":  "media/image5.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img005.jpeg"
+    },
+    {
+        "index":  6,
+        "rId":  "rId12",
+        "target":  "media/image6.jpeg",
+        "savedAs":  "public\\images\\chapter1b\\img006.jpeg"
+    }
+]

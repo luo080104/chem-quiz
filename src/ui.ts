@@ -55,6 +55,45 @@ export function richStem(text: string, images?: (string | null)[]): HTMLElement 
   return wrap;
 }
 
+/**
+ * Collapsible "中文翻译 / 难词注释" block for the answer & explanation area.
+ * Returns null when the question has neither translation nor glossary.
+ */
+export function studyBlock(q: {
+  stemZh?: string;
+  optionsZh?: Record<string, string>;
+  glossary?: { term: string; meaning: string; note?: string }[];
+  options?: { key: string; text: string }[];
+}): HTMLElement | null {
+  const zh = (q.stemZh || "").trim();
+  const optsZh = q.optionsZh || {};
+  const glossary = q.glossary || [];
+  if (!zh && Object.keys(optsZh).length === 0 && glossary.length === 0) return null;
+
+  const body = el("div", { class: "study-body" });
+  if (zh) body.append(el("div", { class: "zh-stem" }, [el("span", { class: "muted" }, ["题干翻译："]), zh]));
+  const optEntries = Object.entries(optsZh);
+  if (optEntries.length) {
+    body.append(
+      el("ul", { class: "zh-options" }, optEntries.map(([k, v]) => el("li", {}, [`${k}. ${v}`])))
+    );
+  }
+  if (glossary.length) {
+    body.append(
+      el("div", { class: "glossary-title"}, ["难词 / 术语："]),
+      el(
+        "dl",
+        { class: "glossary" },
+        glossary.flatMap((g) => [
+          el("dt", {}, [g.term]),
+          el("dd", {}, [g.note ? `${g.meaning}（${g.note}）` : g.meaning]),
+        ])
+      )
+    );
+  }
+  return el("details", { class: "study" }, [el("summary", {}, ["中文翻译 / 难词注释"]), body]);
+}
+
 export function optionContent(opt: { text: string; image?: boolean; imageUrl?: string | null }): HTMLElement {
   if (opt.imageUrl) {
     return el("span", { class: "opt-text opt-imagebox" }, [

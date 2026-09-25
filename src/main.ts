@@ -9,6 +9,7 @@ import { renderStats } from "./views/stats";
 import { renderRules } from "./views/rules";
 import { renderData } from "./views/data";
 import { renderReview } from "./views/review";
+import { renderGlossary } from "./views/glossary";
 import { renderNotFound } from "./views/notfound";
 
 export interface RouteCtx {
@@ -28,6 +29,7 @@ const routes: Array<[RegExp, View]> = [
   [/^rules$/, (c) => renderRules(c)],
   [/^data$/, (c) => renderData(c)],
   [/^review$/, (c) => renderReview(c)],
+  [/^glossary$/, (c) => renderGlossary(c)],
 ];
 
 function currentParts(): string[] {

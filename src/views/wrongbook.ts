@@ -1,6 +1,6 @@
 import { state, persist } from "../store";
 import { byId } from "../bank";
-import { el, go, richStem, fmtDateTime } from "../ui";
+import { el, go, richStem, studyBlock, fmtDateTime } from "../ui";
 import { statusLabel } from "../types";
 import type { RouteCtx } from "../main";
 import type { Question } from "../types";
@@ -33,6 +33,7 @@ export function renderWrongbook({ app }: RouteCtx): void {
       el("div", { class: "muted small" }, [
         `首次答错 ${fmtDateTime(w.firstWrongAt)} · 最近答错 ${fmtDateTime(w.lastWrongAt)}`,
       ]),
+      q ? studyBlock(q) : null,
       el("div", { class: "btn-row" }, [
         el("a", { class: "nav-btn", href: `#/practice/${q ? q.originalNumber : 1}` }, ["重新练习"]),
         w.mastered

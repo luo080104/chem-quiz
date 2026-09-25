@@ -85,6 +85,7 @@ export function renderHome({ app }: RouteCtx): void {
       statCards,
       el("nav", { class: "grid-links" }, [
         link("#/wrongbook", "错题复习", String(wrong) + " 题"),
+        link("#/glossary", "难词 / 术语表", `${bank.meta.counts?.glossaryTerms ?? ""} 个术语`),
         link("#/stats", "成绩与用时", `${exams.length} 次模拟`),
         link("#/rules", "规则说明", "判分与免责"),
         link("#/data", "学习记录备份", "导出 / 导入"),

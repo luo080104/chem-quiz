@@ -1,0 +1,38 @@
+{
+  "bankId": "chem-250",
+  "version": 1,
+  "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
+  "out": "public/questions/chem-bank.json",
+  "sources": [
+    {
+      "label": "chapter1a",
+      "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
+      "idPrefix": "1A",
+      "raw": "data/raw/chapter1a.raw.json",
+      "answers": "data/answer-keys/chapter1a.deepseek-independent.json",
+      "study": [
+        "data/study/chapter1a.study.1.json",
+        "data/study/chapter1a.study.2.json",
+        "data/study/chapter1a.study.3.json",
+        "data/study/chapter1a.study.4.json"
+      ],
+      "imageManifest": "public/images/chapter1a/manifest.json",
+      "imageBase": "images/chapter1a/"
+    },
+    {
+      "label": "chapter1b",
+      "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
+      "idPrefix": "1B",
+      "raw": "data/raw/chapter1b.raw.json",
+      "answers": "data/answer-keys/chapter1b.deepseek-independent.json",
+      "study": [
+        "data/study/chapter1b.study.1.json",
+        "data/study/chapter1b.study.2.json",
+        "data/study/chapter1b.study.3.json",
+        "data/study/chapter1b.study.4.json"
+      ],
+      "imageManifest": "public/images/chapter1b/manifest.json",
+      "imageBase": "images/chapter1b/"
+    }
+  ]
+}

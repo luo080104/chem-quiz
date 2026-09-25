@@ -7,6 +7,12 @@ export interface Option {
   imageUrl?: string | null;
 }
 
+export interface GlossaryTerm {
+  term: string;
+  meaning: string;
+  note?: string;
+}
+
 export interface Question {
   id: string;
   version: number;
@@ -16,7 +22,10 @@ export interface Question {
   type: "single" | "multiple";
   stem: string;
   stemImages?: string[];
+  stemZh: string;
   options: Option[];
+  optionsZh: Record<string, string>;
+  glossary: GlossaryTerm[];
   answer: string[];
   explanation: string;
   candidateAnswer: string[];
@@ -38,6 +47,8 @@ export interface BankMeta {
     pending: number;
     pendingImage: number;
     contested: number;
+    translated?: number;
+    glossaryTerms?: number;
   };
   disclaimer: string;
 }

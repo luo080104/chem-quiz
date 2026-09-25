@@ -1,0 +1,2615 @@
+{
+  "label": "chapter1b",
+  "sourceFile": "data\\source\\Chapter1b_Bonding.txt",
+  "parsedAt": "2026-09-25T11:04:24.061Z",
+  "count": 100,
+  "numbered": false,
+  "explicitNumberCount": 0,
+  "questions": [
+    {
+      "originalNumber": 1,
+      "stem": "Which of the following has eight valence electrons?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ti4+"
+        },
+        {
+          "key": "B",
+          "text": "Kr"
+        },
+        {
+          "key": "C",
+          "text": "Cl-"
+        },
+        {
+          "key": "D",
+          "text": "Na+"
+        },
+        {
+          "key": "E",
+          "text": "all of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 2,
+      "stem": "Which of the following does not have eight valence electrons?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca+"
+        },
+        {
+          "key": "B",
+          "text": "Rb+"
+        },
+        {
+          "key": "C",
+          "text": "Xe"
+        },
+        {
+          "key": "D",
+          "text": "Br-"
+        },
+        {
+          "key": "E",
+          "text": "All of the above have eight valence electrons."
+        }
+      ]
+    },
+    {
+      "originalNumber": 3,
+      "stem": "Lattice energy is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the energy required to convert a mole of ionic solid into its constituent ions in the gas phase"
+        },
+        {
+          "key": "B",
+          "text": "the energy given off when gaseous ions combine to form one mole of an ionic solid"
+        },
+        {
+          "key": "C",
+          "text": "the energy required to produce one mole of an ionic compound from its constituent elements in their standard states"
+        },
+        {
+          "key": "D",
+          "text": "the sum of ionization energies of the components in an ionic solid"
+        },
+        {
+          "key": "E",
+          "text": "the sum of electron affinities of the components in an ionic solid"
+        }
+      ]
+    },
+    {
+      "originalNumber": 4,
+      "stem": "In ionic bond formation, the lattice energy of ions ________ as the magnitude of the ion charges _______ and the radii ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "increases, decrease, increase"
+        },
+        {
+          "key": "B",
+          "text": "increases, increase, increase"
+        },
+        {
+          "key": "C",
+          "text": "decreases, increase, increase"
+        },
+        {
+          "key": "D",
+          "text": "increases, increase, decrease"
+        },
+        {
+          "key": "E",
+          "text": "increases, decrease, decrease"
+        }
+      ]
+    },
+    {
+      "originalNumber": 5,
+      "stem": "The ability of an atom in a molecule to attract electrons is best quantified by the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "paramagnetism"
+        },
+        {
+          "key": "B",
+          "text": "diamagnetism"
+        },
+        {
+          "key": "C",
+          "text": "electronegativity"
+        },
+        {
+          "key": "D",
+          "text": "electron charge-to-mass ratio"
+        },
+        {
+          "key": "E",
+          "text": "first ionization potential"
+        }
+      ]
+    },
+    {
+      "originalNumber": 6,
+      "stem": "In the nitrite ion (NO2), ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "both bonds are single bonds"
+        },
+        {
+          "key": "B",
+          "text": "both bonds are double bonds"
+        },
+        {
+          "key": "C",
+          "text": "one bond is a double bond and the other is a  single bond"
+        },
+        {
+          "key": "D",
+          "text": "both bonds are the same"
+        },
+        {
+          "key": "E",
+          "text": "there are 20 valence electrons"
+        }
+      ]
+    },
+    {
+      "originalNumber": 7,
+      "stem": "The oxidation number of iron in Fe2O3 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "-2"
+        },
+        {
+          "key": "B",
+          "text": "+1"
+        },
+        {
+          "key": "C",
+          "text": "+3"
+        },
+        {
+          "key": "D",
+          "text": "+2"
+        },
+        {
+          "key": "E",
+          "text": "-3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 8,
+      "stem": "The Lewis structure of the CO32- ion is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "__IMAGE__",
+          "image": true
+        },
+        {
+          "key": "B",
+          "text": "__IMAGE__",
+          "image": true
+        },
+        {
+          "key": "C",
+          "text": "__IMAGE__",
+          "image": true
+        },
+        {
+          "key": "D",
+          "text": "__IMAGE__",
+          "image": true
+        },
+        {
+          "key": "E",
+          "text": "__IMAGE__",
+          "image": true
+        }
+      ]
+    },
+    {
+      "originalNumber": 9,
+      "stem": "Bond enthalpy is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "always positive"
+        },
+        {
+          "key": "B",
+          "text": "always negative"
+        },
+        {
+          "key": "C",
+          "text": "sometimes positive, sometimes negative"
+        },
+        {
+          "key": "D",
+          "text": "always zero"
+        },
+        {
+          "key": "E",
+          "text": "unpredictable"
+        }
+      ]
+    },
+    {
+      "originalNumber": 10,
+      "stem": "Of the bonds C-C, C=C, and C≡C, the C-C bond is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "strongest/shortest"
+        },
+        {
+          "key": "B",
+          "text": "strongest/longest"
+        },
+        {
+          "key": "C",
+          "text": "weakest/longest"
+        },
+        {
+          "key": "D",
+          "text": "weakest/shortest"
+        },
+        {
+          "key": "E",
+          "text": "intermediate in both strength and length"
+        }
+      ]
+    },
+    {
+      "originalNumber": 11,
+      "stem": "As the number of covalent bonds between two atoms increases, the distance between the atoms ________ and the strength of the bond between them ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "increases, increases"
+        },
+        {
+          "key": "B",
+          "text": "decreases, decreases"
+        },
+        {
+          "key": "C",
+          "text": "increases, decreases"
+        },
+        {
+          "key": "D",
+          "text": "decreases, increases"
+        },
+        {
+          "key": "E",
+          "text": "is unpredictable"
+        }
+      ]
+    },
+    {
+      "originalNumber": 12,
+      "stem": "Based on the octet rule, magnesium most likely forms a ________ ion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mg2+"
+        },
+        {
+          "key": "B",
+          "text": "Mg2-"
+        },
+        {
+          "key": "C",
+          "text": "Mg6-"
+        },
+        {
+          "key": "D",
+          "text": "Mg6+"
+        },
+        {
+          "key": "E",
+          "text": "Mg-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 13,
+      "stem": "Based on the octet rule, aluminum most likely forms an ________ ion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Al3+"
+        },
+        {
+          "key": "B",
+          "text": "Al4+"
+        },
+        {
+          "key": "C",
+          "text": "Al4-"
+        },
+        {
+          "key": "D",
+          "text": "Al+"
+        },
+        {
+          "key": "E",
+          "text": "Al-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 14,
+      "stem": "For a given arrangement of ions, the lattice energy increases as ionic radius ________ and as ionic charge ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "decreases, increases"
+        },
+        {
+          "key": "B",
+          "text": "increases, decreases"
+        },
+        {
+          "key": "C",
+          "text": "increases, increases"
+        },
+        {
+          "key": "D",
+          "text": "decreases, decreases"
+        },
+        {
+          "key": "E",
+          "text": "This cannot be predicted."
+        }
+      ]
+    },
+    {
+      "originalNumber": 15,
+      "stem": "Elements from opposite sides of the periodic table tend to form ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "covalent compounds"
+        },
+        {
+          "key": "B",
+          "text": "ionic compounds"
+        },
+        {
+          "key": "C",
+          "text": "compounds that are gaseous at room temperature"
+        },
+        {
+          "key": "D",
+          "text": "homonuclear diatomic compounds"
+        },
+        {
+          "key": "E",
+          "text": "covalent compounds that are gaseous at room temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 16,
+      "stem": "A ________ covalent bond between the same two atoms is the longest.",
+      "options": [
+        {
+          "key": "A",
+          "text": "single"
+        },
+        {
+          "key": "B",
+          "text": "double"
+        },
+        {
+          "key": "C",
+          "text": "triple"
+        },
+        {
+          "key": "D",
+          "text": "strong"
+        },
+        {
+          "key": "E",
+          "text": "They are all the same length."
+        }
+      ]
+    },
+    {
+      "originalNumber": 17,
+      "stem": "A double bond consists of ________ pairs of electrons shared between two atoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 18,
+      "stem": "What is the maximum number of double bonds that a hydrogen atom can form?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        },
+        {
+          "key": "E",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 19,
+      "stem": "Electronegativity ________ from left to right within a period and ________ from top to bottom within a group.",
+      "options": [
+        {
+          "key": "A",
+          "text": "decreases, increases"
+        },
+        {
+          "key": "B",
+          "text": "increases, increases"
+        },
+        {
+          "key": "C",
+          "text": "increases, decreases"
+        },
+        {
+          "key": "D",
+          "text": "stays the same, increases"
+        },
+        {
+          "key": "E",
+          "text": "increases, stays the same"
+        }
+      ]
+    },
+    {
+      "originalNumber": 20,
+      "stem": "The formal charge on carbon in the molecule below is ________. \u0001",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "+1"
+        },
+        {
+          "key": "C",
+          "text": "+2"
+        },
+        {
+          "key": "D",
+          "text": "+3"
+        },
+        {
+          "key": "E",
+          "text": "-1"
+        }
+      ]
+    },
+    {
+      "originalNumber": 21,
+      "stem": "There are ________ unpaired electrons in the Lewis symbol for an oxygen atom.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 22,
+      "stem": "The oxide of which of the following metals should have the greatest lattice energy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "calcium"
+        },
+        {
+          "key": "B",
+          "text": "strontium"
+        },
+        {
+          "key": "C",
+          "text": "magnesium"
+        },
+        {
+          "key": "D",
+          "text": "beryllium"
+        },
+        {
+          "key": "E",
+          "text": "barium"
+        }
+      ]
+    },
+    {
+      "originalNumber": 23,
+      "stem": "How many single covalent bonds must a chlorine atom form to have a complete octet in its valence shell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        },
+        {
+          "key": "E",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 24,
+      "stem": "Of the atoms below, ________ is the most electronegative.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ba"
+        },
+        {
+          "key": "B",
+          "text": "Sr"
+        },
+        {
+          "key": "C",
+          "text": "Ca"
+        },
+        {
+          "key": "D",
+          "text": "Mg"
+        },
+        {
+          "key": "E",
+          "text": "Be"
+        }
+      ]
+    },
+    {
+      "originalNumber": 25,
+      "stem": "The oxidation number of phosphorus in PF5 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "+5"
+        },
+        {
+          "key": "B",
+          "text": "+3"
+        },
+        {
+          "key": "C",
+          "text": "+1"
+        },
+        {
+          "key": "D",
+          "text": "-5"
+        },
+        {
+          "key": "E",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "originalNumber": 26,
+      "stem": "The basis of the VSEPR model of molecular bonding is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "regions of electron density on an atom will organize themselves so as to maximize s-character"
+        },
+        {
+          "key": "B",
+          "text": "regions of electron density in the valence shell of an atom will arrange themselves so as to maximize overlap"
+        },
+        {
+          "key": "C",
+          "text": "atomic orbitals of the bonding atoms must overlap for a bond to form"
+        },
+        {
+          "key": "D",
+          "text": "electron domains in the valence shell of an atom will arrange themselves so as to minimize repulsions"
+        },
+        {
+          "key": "E",
+          "text": "hybrid orbitals will form as necessary to, as closely as possible, achieve spherical symmetry"
+        }
+      ]
+    },
+    {
+      "originalNumber": 27,
+      "stem": "An electron domain consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a, b, and c"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ]
+    },
+    {
+      "originalNumber": 28,
+      "stem": "The molecular geometry consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a, b, and c"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ]
+    },
+    {
+      "originalNumber": 29,
+      "stem": "A molecule has the formula AB3 and the central atom is in a different plane from the surrounding three atoms. Its molecular shape is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "tetrahedral"
+        },
+        {
+          "key": "B",
+          "text": "trigonal pyramidal"
+        },
+        {
+          "key": "C",
+          "text": "linear"
+        },
+        {
+          "key": "D",
+          "text": "T-shaped"
+        },
+        {
+          "key": "E",
+          "text": "bent"
+        }
+      ]
+    },
+    {
+      "originalNumber": 30,
+      "stem": "The molecular geometry of the PF3 molecule is ________, and this molecule is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "trigonal planar, polar"
+        },
+        {
+          "key": "B",
+          "text": "trigonal planar, nonpolar"
+        },
+        {
+          "key": "C",
+          "text": "trigonal pyramidal, polar"
+        },
+        {
+          "key": "D",
+          "text": "trigonal pyramidal, nonpolar"
+        },
+        {
+          "key": "E",
+          "text": "tetrahedral, unipolar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 31,
+      "stem": "For molecules with only one central atom, how many lone pairs on the central atom guarantees molecular polarity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "1 or 2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        },
+        {
+          "key": "E",
+          "text": "1 or 3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 32,
+      "stem": "The sp2 atomic hybrid orbital set accommodates ________ electron domains.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        },
+        {
+          "key": "E",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 33,
+      "stem": "The hybridization scheme for BeF2 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "sp"
+        },
+        {
+          "key": "B",
+          "text": "sp2"
+        },
+        {
+          "key": "C",
+          "text": "sp3"
+        },
+        {
+          "key": "D",
+          "text": "sp3d"
+        },
+        {
+          "key": "E",
+          "text": "sp3d2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 34,
+      "stem": "When four atomic orbitals are mixed to form hybrid orbitals, how many hybrid orbitals are formed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "one"
+        },
+        {
+          "key": "B",
+          "text": "six"
+        },
+        {
+          "key": "C",
+          "text": "three"
+        },
+        {
+          "key": "D",
+          "text": "four"
+        },
+        {
+          "key": "E",
+          "text": "five"
+        }
+      ]
+    },
+    {
+      "originalNumber": 35,
+      "stem": "Valence bond theory does not address the issue of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "excited states of molecules"
+        },
+        {
+          "key": "B",
+          "text": "molecular shape"
+        },
+        {
+          "key": "C",
+          "text": "covalent bonding"
+        },
+        {
+          "key": "D",
+          "text": "hybridization"
+        },
+        {
+          "key": "E",
+          "text": "multiple bonds"
+        }
+      ]
+    },
+    {
+      "originalNumber": 36,
+      "stem": "A typical double bond ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is stronger and shorter than a single bond"
+        },
+        {
+          "key": "B",
+          "text": "consists of one σ bond and one π bond"
+        },
+        {
+          "key": "C",
+          "text": "imparts rigidity to a molecule"
+        },
+        {
+          "key": "D",
+          "text": "consists of two shared electron pairs"
+        },
+        {
+          "key": "E",
+          "text": "All of the above answers are correct."
+        }
+      ]
+    },
+    {
+      "originalNumber": 37,
+      "stem": "Electrons in ________ bonds remain localized between two atoms. Electrons in ________ bonds can become delocalized between more than two atoms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "pi, sigma"
+        },
+        {
+          "key": "B",
+          "text": "sigma, pi"
+        },
+        {
+          "key": "C",
+          "text": "pi, pi"
+        },
+        {
+          "key": "D",
+          "text": "sigma, sigma"
+        },
+        {
+          "key": "E",
+          "text": "ionic, sigma"
+        }
+      ]
+    },
+    {
+      "originalNumber": 38,
+      "stem": "The bond order of any molecule containing equal numbers of bonding and antibonding electrons is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        },
+        {
+          "key": "E",
+          "text": "1/2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 39,
+      "stem": "In comparing the same two atoms bonded together, the ________ the bond order, the ________ the bond length, and the ________ the bond energy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "greater, shorter, greater"
+        },
+        {
+          "key": "B",
+          "text": "greater, greater, greater"
+        },
+        {
+          "key": "C",
+          "text": "greater, longer, greater"
+        },
+        {
+          "key": "D",
+          "text": "smaller, longer, smaller"
+        },
+        {
+          "key": "E",
+          "text": "smaller, greater, greater"
+        }
+      ]
+    },
+    {
+      "originalNumber": 40,
+      "stem": "Based on molecular orbital theory, there is/are ________ unpaired electron(s) in the OF+ ion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        },
+        {
+          "key": "E",
+          "text": "1/2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 41,
+      "stem": "For a molecule with the formula AB2, the molecular shape is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "linear or bent"
+        },
+        {
+          "key": "B",
+          "text": "linear or trigonal planar"
+        },
+        {
+          "key": "C",
+          "text": "linear or T-shaped"
+        },
+        {
+          "key": "D",
+          "text": "T-shaped"
+        },
+        {
+          "key": "E",
+          "text": "trigonal planar"
+        }
+      ]
+    },
+    {
+      "originalNumber": 42,
+      "stem": "The molecular geometry of the CHCl3 molecule is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "bent"
+        },
+        {
+          "key": "B",
+          "text": "trigonal planar"
+        },
+        {
+          "key": "C",
+          "text": "trigonal pyramidal"
+        },
+        {
+          "key": "D",
+          "text": "tetrahedral"
+        },
+        {
+          "key": "E",
+          "text": "T-shaped"
+        }
+      ]
+    },
+    {
+      "originalNumber": 43,
+      "stem": "The O-S-O bond angle in SO2 is slightly less than ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "90°"
+        },
+        {
+          "key": "B",
+          "text": "109.5°"
+        },
+        {
+          "key": "C",
+          "text": "120°"
+        },
+        {
+          "key": "D",
+          "text": "180°"
+        },
+        {
+          "key": "E",
+          "text": "60°"
+        }
+      ]
+    },
+    {
+      "originalNumber": 44,
+      "stem": "The hybridization of orbitals on the central atom in a molecule is sp. The electron-domain geometry around this central atom is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "octahedral"
+        },
+        {
+          "key": "B",
+          "text": "linear"
+        },
+        {
+          "key": "C",
+          "text": "trigonal planar"
+        },
+        {
+          "key": "D",
+          "text": "trigonal bipyramidal"
+        },
+        {
+          "key": "E",
+          "text": "tetrahedral"
+        }
+      ]
+    },
+    {
+      "originalNumber": 45,
+      "stem": "ClF3 has \"T-shaped\" geometry. There is/are ________ non-bonding domain(s) in this molecule.",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        },
+        {
+          "key": "E",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "originalNumber": 46,
+      "stem": "The H-C-H bond angle in the CH4 ion is approximately ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "180°"
+        },
+        {
+          "key": "B",
+          "text": "120°"
+        },
+        {
+          "key": "C",
+          "text": "109.5°"
+        },
+        {
+          "key": "D",
+          "text": "60°"
+        },
+        {
+          "key": "E",
+          "text": "90°"
+        }
+      ]
+    },
+    {
+      "originalNumber": 47,
+      "stem": "The central atom in the ICl4- ion has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.",
+      "options": [
+        {
+          "key": "A",
+          "text": "4, 2"
+        },
+        {
+          "key": "B",
+          "text": "0, 4"
+        },
+        {
+          "key": "C",
+          "text": "2, 4"
+        },
+        {
+          "key": "D",
+          "text": "2, 2"
+        },
+        {
+          "key": "E",
+          "text": "6, 0"
+        }
+      ]
+    },
+    {
+      "originalNumber": 48,
+      "stem": "The central atom in the O3 molecule has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.",
+      "options": [
+        {
+          "key": "A",
+          "text": "6, 2"
+        },
+        {
+          "key": "B",
+          "text": "1, 3"
+        },
+        {
+          "key": "C",
+          "text": "2, 2"
+        },
+        {
+          "key": "D",
+          "text": "3, 1"
+        },
+        {
+          "key": "E",
+          "text": "3, 2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 49,
+      "stem": "According to VSEPR theory, if there are three electron domains in the valence shell of an atom, they will be arranged in a(n) ________ geometry.",
+      "options": [
+        {
+          "key": "A",
+          "text": "tetrahedral"
+        },
+        {
+          "key": "B",
+          "text": "octahedral"
+        },
+        {
+          "key": "C",
+          "text": "linear"
+        },
+        {
+          "key": "D",
+          "text": "square planar"
+        },
+        {
+          "key": "E",
+          "text": "bent"
+        }
+      ]
+    },
+    {
+      "originalNumber": 50,
+      "stem": "Using the VSEPR model, the electron-domain geometry of the central atom in XeF4 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "linear"
+        },
+        {
+          "key": "B",
+          "text": "trigonal planar"
+        },
+        {
+          "key": "C",
+          "text": "tetrahedral"
+        },
+        {
+          "key": "D",
+          "text": "trigonal bipyramidal"
+        },
+        {
+          "key": "E",
+          "text": "octahedral"
+        }
+      ]
+    },
+    {
+      "originalNumber": 51,
+      "stem": "Crystalline solids ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "have their particles arranged randomly"
+        },
+        {
+          "key": "B",
+          "text": "have highly ordered structures"
+        },
+        {
+          "key": "C",
+          "text": "are usually very soft"
+        },
+        {
+          "key": "D",
+          "text": "exist only at high temperatures"
+        },
+        {
+          "key": "E",
+          "text": "exist only at very low temperatures"
+        }
+      ]
+    },
+    {
+      "originalNumber": 52,
+      "stem": "In liquids, the attractive intermolecular forces are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "very weak compared with kinetic energies of the molecules"
+        },
+        {
+          "key": "B",
+          "text": "strong enough to hold molecules relatively close together"
+        },
+        {
+          "key": "C",
+          "text": "strong enough to keep the molecules confined to vibrating about their fixed lattice points"
+        },
+        {
+          "key": "D",
+          "text": "not strong enough to keep molecules from moving past each other"
+        },
+        {
+          "key": "E",
+          "text": "strong enough to hold molecules relatively close together but not strong enough to keep molecules from moving past each other"
+        }
+      ]
+    },
+    {
+      "originalNumber": 53,
+      "stem": "A gas is ________ and assumes ________ of its container, whereas a liquid is ________ and assumes ________ of its container.",
+      "options": [
+        {
+          "key": "A",
+          "text": "compressible, the volume and shape, not compressible, the shape of a portion"
+        },
+        {
+          "key": "B",
+          "text": "compressible, the shape, not compressible, the volume and shape"
+        },
+        {
+          "key": "C",
+          "text": "compressible, the volume and shape, compressible, the volume"
+        },
+        {
+          "key": "D",
+          "text": "condensed, the volume and shape, condensed, the volume and shape"
+        },
+        {
+          "key": "E",
+          "text": "condensed, the shape, compressible, the volume and shape"
+        }
+      ]
+    },
+    {
+      "originalNumber": 54,
+      "stem": "Which statement is true about liquids but not true about solids?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They flow and are highly ordered."
+        },
+        {
+          "key": "B",
+          "text": "They are highly ordered and not compressible."
+        },
+        {
+          "key": "C",
+          "text": "They flow and are compressible."
+        },
+        {
+          "key": "D",
+          "text": "They assume both the volume and the shape of their containers."
+        },
+        {
+          "key": "E",
+          "text": "They flow and are not compressible."
+        }
+      ]
+    },
+    {
+      "originalNumber": 55,
+      "stem": "The ease with which the charge distribution in a molecule can be distorted by an external electrical field is called the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "electronegativity"
+        },
+        {
+          "key": "B",
+          "text": "hydrogen bonding"
+        },
+        {
+          "key": "C",
+          "text": "polarizability"
+        },
+        {
+          "key": "D",
+          "text": "volatility"
+        },
+        {
+          "key": "E",
+          "text": "viscosity"
+        }
+      ]
+    },
+    {
+      "originalNumber": 56,
+      "stem": "Hydrogen bonding is a special case of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "London-dispersion forces"
+        },
+        {
+          "key": "B",
+          "text": "ion-dipole attraction"
+        },
+        {
+          "key": "C",
+          "text": "dipole-dipole attractions"
+        },
+        {
+          "key": "D",
+          "text": "ion-ion interactions"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 57,
+      "stem": "What intermolecular force is responsible for the fact that ice is less dense than liquid water?",
+      "options": [
+        {
+          "key": "A",
+          "text": "London dispersion forces"
+        },
+        {
+          "key": "B",
+          "text": "dipole-dipole forces"
+        },
+        {
+          "key": "C",
+          "text": "ion-dipole forces"
+        },
+        {
+          "key": "D",
+          "text": "hydrogen bonding"
+        },
+        {
+          "key": "E",
+          "text": "ionic bonding"
+        }
+      ]
+    },
+    {
+      "originalNumber": 58,
+      "stem": "Which statements about viscosity are true? (i)<w:t>Viscosity increases as temperature decreases. (ii)<w:t>Viscosity increases as molecular weight increases. (iii)<w:t>Viscosity increases as intermolecular forces increase.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(i) only"
+        },
+        {
+          "key": "B",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "key": "C",
+          "text": "(i) and (iii)"
+        },
+        {
+          "key": "D",
+          "text": "none"
+        },
+        {
+          "key": "E",
+          "text": "all"
+        }
+      ]
+    },
+    {
+      "originalNumber": 59,
+      "stem": "Viscosity is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the \"skin\" on a liquid surface caused by intermolecular attraction"
+        },
+        {
+          "key": "B",
+          "text": "the resistance to flow"
+        },
+        {
+          "key": "C",
+          "text": "the same as density"
+        },
+        {
+          "key": "D",
+          "text": "inversely proportional to molar mass"
+        },
+        {
+          "key": "E",
+          "text": "unaffected by temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 60,
+      "stem": "Large intermolecular forces in a substance are manifested by ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "low vapor pressure"
+        },
+        {
+          "key": "B",
+          "text": "high boiling point"
+        },
+        {
+          "key": "C",
+          "text": "high heats of fusion and vaporization"
+        },
+        {
+          "key": "D",
+          "text": "high critical temperatures and pressures"
+        },
+        {
+          "key": "E",
+          "text": "all of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 61,
+      "stem": "Of the following, ________ is an exothermic process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "melting"
+        },
+        {
+          "key": "B",
+          "text": "subliming"
+        },
+        {
+          "key": "C",
+          "text": "freezing"
+        },
+        {
+          "key": "D",
+          "text": "boiling"
+        },
+        {
+          "key": "E",
+          "text": "All of the above are exothermic."
+        }
+      ]
+    },
+    {
+      "originalNumber": 62,
+      "stem": "A volatile liquid is one that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is highly flammable"
+        },
+        {
+          "key": "B",
+          "text": "is highly viscous"
+        },
+        {
+          "key": "C",
+          "text": "is highly hydrogen-bonded"
+        },
+        {
+          "key": "D",
+          "text": "is highly cohesive"
+        },
+        {
+          "key": "E",
+          "text": "readily evaporates"
+        }
+      ]
+    },
+    {
+      "originalNumber": 63,
+      "stem": "In general, the vapor pressure of a substance increases as ________ increases.",
+      "options": [
+        {
+          "key": "A",
+          "text": "surface tension"
+        },
+        {
+          "key": "B",
+          "text": "molecular weight"
+        },
+        {
+          "key": "C",
+          "text": "hydrogen bonding"
+        },
+        {
+          "key": "D",
+          "text": "viscosity"
+        },
+        {
+          "key": "E",
+          "text": "temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 64,
+      "stem": "Volatility and vapor pressure are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "inversely proportional to one another"
+        },
+        {
+          "key": "B",
+          "text": "directly proportional to one another"
+        },
+        {
+          "key": "C",
+          "text": "not related"
+        },
+        {
+          "key": "D",
+          "text": "the same thing"
+        },
+        {
+          "key": "E",
+          "text": "both independent of temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 65,
+      "stem": "Which one of the following should have the lowest boiling point?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH4"
+        },
+        {
+          "key": "B",
+          "text": "PCl3"
+        },
+        {
+          "key": "C",
+          "text": "C2H5COOH"
+        },
+        {
+          "key": "D",
+          "text": "LiCl"
+        },
+        {
+          "key": "E",
+          "text": "Cl2S"
+        }
+      ]
+    },
+    {
+      "originalNumber": 66,
+      "stem": "Of the following substances, ________ has the highest boiling point.",
+      "options": [
+        {
+          "key": "A",
+          "text": "H2O"
+        },
+        {
+          "key": "B",
+          "text": "SiH4"
+        },
+        {
+          "key": "C",
+          "text": "Ar"
+        },
+        {
+          "key": "D",
+          "text": "Cl2"
+        },
+        {
+          "key": "E",
+          "text": "BF3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 67,
+      "stem": "What is the predominant intermolecular force in HCN?",
+      "options": [
+        {
+          "key": "A",
+          "text": "dipole-dipole attraction"
+        },
+        {
+          "key": "B",
+          "text": "ion-dipole attraction"
+        },
+        {
+          "key": "C",
+          "text": "ionic bonding"
+        },
+        {
+          "key": "D",
+          "text": "hydrogen bonding"
+        },
+        {
+          "key": "E",
+          "text": "London dispersion forces"
+        }
+      ]
+    },
+    {
+      "originalNumber": 68,
+      "stem": "Ethanol melts at -114 °C and boils at 78 °C at a constant pressure of 1 atm. What state of matter must a sample of ethanol be in at 0 °C and 1 atm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "liquid"
+        },
+        {
+          "key": "B",
+          "text": "gas"
+        },
+        {
+          "key": "C",
+          "text": "solid"
+        },
+        {
+          "key": "D",
+          "text": "solid and liquid in equilibrium"
+        },
+        {
+          "key": "E",
+          "text": "liquid and gas in equilibrium"
+        }
+      ]
+    },
+    {
+      "originalNumber": 69,
+      "stem": "Of the following, ________ is the least volatile.",
+      "options": [
+        {
+          "key": "A",
+          "text": "CI4"
+        },
+        {
+          "key": "B",
+          "text": "CF4"
+        },
+        {
+          "key": "C",
+          "text": "CBr4"
+        },
+        {
+          "key": "D",
+          "text": "CCl4"
+        },
+        {
+          "key": "E",
+          "text": "CH4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 70,
+      "stem": "A solid has a very high melting point, great hardness, and poor electrical conduction. This is a(n) ________ solid.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ionic"
+        },
+        {
+          "key": "B",
+          "text": "molecular"
+        },
+        {
+          "key": "C",
+          "text": "metallic"
+        },
+        {
+          "key": "D",
+          "text": "covalent network"
+        },
+        {
+          "key": "E",
+          "text": "metallic and covalent network"
+        }
+      ]
+    },
+    {
+      "originalNumber": 71,
+      "stem": "Which of the following is not a type of solid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ionic"
+        },
+        {
+          "key": "B",
+          "text": "molecular"
+        },
+        {
+          "key": "C",
+          "text": "supercritical"
+        },
+        {
+          "key": "D",
+          "text": "metallic"
+        },
+        {
+          "key": "E",
+          "text": "covalent network"
+        }
+      ]
+    },
+    {
+      "originalNumber": 72,
+      "stem": "Crystalline solids differ from amorphous solids in that crystalline solids have ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "appreciable intermolecular attractive forces"
+        },
+        {
+          "key": "B",
+          "text": "a long-range repeating pattern of atoms, molecules, or ions"
+        },
+        {
+          "key": "C",
+          "text": "atoms, molecules, or ions that are close together"
+        },
+        {
+          "key": "D",
+          "text": "much larger atoms, molecules, or ions"
+        },
+        {
+          "key": "E",
+          "text": "no orderly structure"
+        }
+      ]
+    },
+    {
+      "originalNumber": 73,
+      "stem": "The unit cell with all sides the same length and all angles equal to 90° that has lattice points only at the corners is called ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "monoclinic"
+        },
+        {
+          "key": "B",
+          "text": "body-centered cubic"
+        },
+        {
+          "key": "C",
+          "text": "primitive cubic"
+        },
+        {
+          "key": "D",
+          "text": "face-centered cubic"
+        },
+        {
+          "key": "E",
+          "text": "spherical cubic"
+        }
+      ]
+    },
+    {
+      "originalNumber": 74,
+      "stem": "What fraction of the volume of each corner atom is actually within the volume of a face-centered cubic unit cell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "1/2"
+        },
+        {
+          "key": "C",
+          "text": "1/4"
+        },
+        {
+          "key": "D",
+          "text": "1/8"
+        },
+        {
+          "key": "E",
+          "text": "1/16"
+        }
+      ]
+    },
+    {
+      "originalNumber": 75,
+      "stem": "What portion of the volume of each atom or ion on the face of a unit cell is actually within the unit cell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/2"
+        },
+        {
+          "key": "B",
+          "text": "1/4"
+        },
+        {
+          "key": "C",
+          "text": "3/4"
+        },
+        {
+          "key": "D",
+          "text": "all of it"
+        },
+        {
+          "key": "E",
+          "text": "none of it"
+        }
+      ]
+    },
+    {
+      "originalNumber": 76,
+      "stem": "An alloy is a",
+      "options": [
+        {
+          "key": "A",
+          "text": "heterogeneous mixture of two metals."
+        },
+        {
+          "key": "B",
+          "text": "pure metal."
+        },
+        {
+          "key": "C",
+          "text": "metallic material that is composed of two or more elements."
+        },
+        {
+          "key": "D",
+          "text": "nonmetal with some properties of a metal."
+        },
+        {
+          "key": "E",
+          "text": "mineral containing two or more metals."
+        }
+      ]
+    },
+    {
+      "originalNumber": 77,
+      "stem": "Which one of the following is a property of most metals?",
+      "options": [
+        {
+          "key": "A",
+          "text": "low melting point"
+        },
+        {
+          "key": "B",
+          "text": "brittleness"
+        },
+        {
+          "key": "C",
+          "text": "high electronegativity"
+        },
+        {
+          "key": "D",
+          "text": "thermal conductivity"
+        },
+        {
+          "key": "E",
+          "text": "acidic oxides"
+        }
+      ]
+    },
+    {
+      "originalNumber": 78,
+      "stem": "Which statement about steel is false?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a polymer."
+        },
+        {
+          "key": "B",
+          "text": "It is an alloy of iron."
+        },
+        {
+          "key": "C",
+          "text": "It can have different percentages of carbon."
+        },
+        {
+          "key": "D",
+          "text": "It can be made so it resists rust."
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 79,
+      "stem": "What is the typical effect of the addition of an interstitial element on the properties of a metal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "increase in malleability and corrosion resistance"
+        },
+        {
+          "key": "B",
+          "text": "increase in hardness and strength, decrease in ductility"
+        },
+        {
+          "key": "C",
+          "text": "decrease in melting point and increase in ductility"
+        },
+        {
+          "key": "D",
+          "text": "decrease in conductivity and increase in brittleness"
+        },
+        {
+          "key": "E",
+          "text": "increased surface luster"
+        }
+      ]
+    },
+    {
+      "originalNumber": 80,
+      "stem": "Alloys generally differ from compounds in that",
+      "options": [
+        {
+          "key": "A",
+          "text": "the former always contain some carbon."
+        },
+        {
+          "key": "B",
+          "text": "the former always contain some iron."
+        },
+        {
+          "key": "C",
+          "text": "the former always have semiconductor properties."
+        },
+        {
+          "key": "D",
+          "text": "the atomic ratios of the constituent elements in the former are not fixed and may vary over a wide range."
+        },
+        {
+          "key": "E",
+          "text": "the former never contain a transition element."
+        }
+      ]
+    },
+    {
+      "originalNumber": 81,
+      "stem": "Metallic solids do not exhibit ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "excellent thermal conductivity"
+        },
+        {
+          "key": "B",
+          "text": "excellent electrical conductivity"
+        },
+        {
+          "key": "C",
+          "text": "variable hardness"
+        },
+        {
+          "key": "D",
+          "text": "extreme brittleness"
+        },
+        {
+          "key": "E",
+          "text": "variable melting point"
+        }
+      ]
+    },
+    {
+      "originalNumber": 82,
+      "stem": "Which of the following is not a natural polymer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "silk"
+        },
+        {
+          "key": "B",
+          "text": "starch"
+        },
+        {
+          "key": "C",
+          "text": "protein"
+        },
+        {
+          "key": "D",
+          "text": "cellulose"
+        },
+        {
+          "key": "E",
+          "text": "nylon"
+        }
+      ]
+    },
+    {
+      "originalNumber": 83,
+      "stem": "As a polymer becomes more crystalline, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "its melting point decreases"
+        },
+        {
+          "key": "B",
+          "text": "its density decreases"
+        },
+        {
+          "key": "C",
+          "text": "its stiffness decreases"
+        },
+        {
+          "key": "D",
+          "text": "its yield stress decreases"
+        },
+        {
+          "key": "E",
+          "text": "None of the above is correct."
+        }
+      ]
+    },
+    {
+      "originalNumber": 84,
+      "stem": "________ solids consist of atoms or molecules held together by dipole-dipole forces, London dispersion forces, and/or hydrogen bonds.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ionic"
+        },
+        {
+          "key": "B",
+          "text": "Molecular"
+        },
+        {
+          "key": "C",
+          "text": "Metallic"
+        },
+        {
+          "key": "D",
+          "text": "Covalent-network"
+        },
+        {
+          "key": "E",
+          "text": "Metallic and covalent-network"
+        }
+      ]
+    },
+    {
+      "originalNumber": 85,
+      "stem": "Blue LEDs are usually made of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "GaAs"
+        },
+        {
+          "key": "B",
+          "text": "GaP"
+        },
+        {
+          "key": "C",
+          "text": "GaO"
+        },
+        {
+          "key": "D",
+          "text": "GaS"
+        },
+        {
+          "key": "E",
+          "text": "GaN"
+        }
+      ]
+    },
+    {
+      "originalNumber": 86,
+      "stem": "CsCl crystallizes in a unit cell that contains a Cs+ ion at the center of a cube and a Cl- ion at each corner. The unit cell of CsCl is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "close packed"
+        },
+        {
+          "key": "B",
+          "text": "body-centered cubic"
+        },
+        {
+          "key": "C",
+          "text": "face-centered cubic"
+        },
+        {
+          "key": "D",
+          "text": "amorphous"
+        },
+        {
+          "key": "E",
+          "text": "primitive cubic"
+        }
+      ]
+    },
+    {
+      "originalNumber": 87,
+      "stem": "The ________ lattice is one of the five two-dimensional lattices in which the lattice vectors a and b are equal and the γ angle between them is 90°.",
+      "options": [
+        {
+          "key": "A",
+          "text": "square"
+        },
+        {
+          "key": "B",
+          "text": "rectangular"
+        },
+        {
+          "key": "C",
+          "text": "hexagonal"
+        },
+        {
+          "key": "D",
+          "text": "rhombic"
+        },
+        {
+          "key": "E",
+          "text": "oblique"
+        }
+      ]
+    },
+    {
+      "originalNumber": 88,
+      "stem": "The ________ lattice is one of the seven primitive three-dimensional lattices in which the relationship between the lattice vectors a, b, and c can be written as: a ≠ b ≠ c",
+      "options": [
+        {
+          "key": "A",
+          "text": "monoclinic"
+        },
+        {
+          "key": "B",
+          "text": "hexagonal"
+        },
+        {
+          "key": "C",
+          "text": "rhombohedral"
+        },
+        {
+          "key": "D",
+          "text": "tetragonal"
+        },
+        {
+          "key": "E",
+          "text": "cubic"
+        }
+      ]
+    },
+    {
+      "originalNumber": 89,
+      "stem": "Which of the following is not an alloy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "elemental gold"
+        },
+        {
+          "key": "B",
+          "text": "sterling silver"
+        },
+        {
+          "key": "C",
+          "text": "18-karat gold"
+        },
+        {
+          "key": "D",
+          "text": "dental amalgam"
+        },
+        {
+          "key": "E",
+          "text": "bronze"
+        }
+      ]
+    },
+    {
+      "originalNumber": 90,
+      "stem": "Of the following, only ________ is not a polymer.",
+      "options": [
+        {
+          "key": "A",
+          "text": "dental amalgam"
+        },
+        {
+          "key": "B",
+          "text": "cellulose"
+        },
+        {
+          "key": "C",
+          "text": "Teflon"
+        },
+        {
+          "key": "D",
+          "text": "plastic"
+        },
+        {
+          "key": "E",
+          "text": "protein"
+        }
+      ]
+    },
+    {
+      "originalNumber": 91,
+      "stem": "The correct abbreviation for the polymer low-density polyethylene is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "LDPE"
+        },
+        {
+          "key": "B",
+          "text": "PP"
+        },
+        {
+          "key": "C",
+          "text": "P"
+        },
+        {
+          "key": "D",
+          "text": "PETE"
+        },
+        {
+          "key": "E",
+          "text": "HDPE"
+        }
+      ]
+    },
+    {
+      "originalNumber": 92,
+      "stem": "Which element is typically not added to steel to modify its properties?",
+      "options": [
+        {
+          "key": "A",
+          "text": "carbon"
+        },
+        {
+          "key": "B",
+          "text": "vanadium"
+        },
+        {
+          "key": "C",
+          "text": "chromium"
+        },
+        {
+          "key": "D",
+          "text": "nitrogen"
+        },
+        {
+          "key": "E",
+          "text": "nickel"
+        }
+      ]
+    },
+    {
+      "originalNumber": 93,
+      "stem": "Which property of metals cannot be explained with the electron-sea model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "shine"
+        },
+        {
+          "key": "B",
+          "text": "high thermal conductivity"
+        },
+        {
+          "key": "C",
+          "text": "high electric conductivity"
+        },
+        {
+          "key": "D",
+          "text": "malleability and ductility"
+        },
+        {
+          "key": "E",
+          "text": "trends in melting points"
+        }
+      ]
+    },
+    {
+      "originalNumber": 94,
+      "stem": "NaCl crystallizes in a face-centered cubic cell. What is the total number of ions (Na+ ions and Cl- ions) that lie within a unit cell of NaCl?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        },
+        {
+          "key": "E",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 95,
+      "stem": "An ionic solid, NaCl (s), dissolves in water because of the ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "relatively low lattice energy due to small charges of Na+ and Cl- ions"
+        },
+        {
+          "key": "B",
+          "text": "simple face-centered cubic unit cell type it forms"
+        },
+        {
+          "key": "C",
+          "text": "1:1 ratio of ions in the unit cell"
+        },
+        {
+          "key": "D",
+          "text": "strong coulombic interactions between oppositely charged ions"
+        },
+        {
+          "key": "E",
+          "text": "relatively low melting point"
+        }
+      ]
+    },
+    {
+      "originalNumber": 96,
+      "stem": "CsCl crystallizes in a unit cell that contains the Cs+ ion at the center of a cube that has a Cl- at each corner. Each unit cell contains ________ Cs+ ion(s) and ________ Cl- ion(s), respectively.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 and 8"
+        },
+        {
+          "key": "B",
+          "text": "2 and 1"
+        },
+        {
+          "key": "C",
+          "text": "1 and 1"
+        },
+        {
+          "key": "D",
+          "text": "2 and 2"
+        },
+        {
+          "key": "E",
+          "text": "2 and 4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 97,
+      "stem": "Inorganic compounds that are semiconductors have an average of ________ valence electrons.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 98,
+      "stem": "An elastomer will fail to regain its original dimensions following a distortion beyond its ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "glass transition"
+        },
+        {
+          "key": "B",
+          "text": "phase boundary"
+        },
+        {
+          "key": "C",
+          "text": "London force"
+        },
+        {
+          "key": "D",
+          "text": "crystallinity"
+        },
+        {
+          "key": "E",
+          "text": "elastic limit"
+        }
+      ]
+    },
+    {
+      "originalNumber": 99,
+      "stem": "The formation of a condensation polymer generally involves ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the addition of a plasticizer"
+        },
+        {
+          "key": "B",
+          "text": "the mixing of sulfur with an addition polymer"
+        },
+        {
+          "key": "C",
+          "text": "the elimination of a small molecule"
+        },
+        {
+          "key": "D",
+          "text": "the vaporization of a plasticizer"
+        },
+        {
+          "key": "E",
+          "text": "the formation of significant crosslinking"
+        }
+      ]
+    },
+    {
+      "originalNumber": 100,
+      "stem": "The properties of graphene include ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "high strength"
+        },
+        {
+          "key": "B",
+          "text": "low thermal conductivity"
+        },
+        {
+          "key": "C",
+          "text": "a zero energy gap"
+        },
+        {
+          "key": "D",
+          "text": "A and C"
+        },
+        {
+          "key": "E",
+          "text": "A, B and C"
+        }
+      ]
+    }
+  ]
+}

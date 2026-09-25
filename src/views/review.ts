@@ -1,5 +1,5 @@
 import { getBank } from "../bank";
-import { el, rich, richBlock, richStem } from "../ui";
+import { el, rich, richBlock, richStem, studyBlock } from "../ui";
 import { statusLabel } from "../types";
 import type { RouteCtx } from "../main";
 
@@ -28,6 +28,7 @@ export function renderReview({ app }: RouteCtx): void {
         q.answer.length ? rich(q.answer.join(" "), "ans") : el("span", { class: "muted" }, ["（无）"]),
       ]),
       richBlock(q.explanation || "（无解析）", "explain small"),
+      studyBlock(q),
     ])
   );
 

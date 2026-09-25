@@ -1,28 +1,36 @@
 {
   "bankFile": "public/questions/chem-bank.json",
-  "bankId": "chem-sample-ch1a",
+  "bankId": "chem-250",
   "version": 1,
-  "generatedAt": "2026-09-25T10:42:11.687Z",
+  "generatedAt": "2026-09-25T11:07:35.157Z",
   "counts": {
-    "total": 100,
+    "total": 200,
     "approved": 0,
-    "pending": 99,
+    "pending": 196,
     "pendingImage": 0,
-    "contested": 1
+    "contested": 4,
+    "translated": 0,
+    "glossaryTerms": 0
   },
   "byStatus": {
-    "pending": 99,
-    "contested": 1
+    "pending": 196,
+    "contested": 4
   },
   "errors": [],
   "warnings": [
-    "疑似重复题干: CHEM-007 与 CHEM-004",
-    "含图片选项(待补图): CHEM-063-A",
-    "含图片选项(待补图): CHEM-063-B",
-    "含图片选项(待补图): CHEM-063-C",
-    "含图片选项(待补图): CHEM-063-D",
-    "含图片选项(待补图): CHEM-063-E",
-    "疑似重复题干: CHEM-072 与 CHEM-071",
-    "疑似重复题干: CHEM-089 与 CHEM-080"
+    "疑似重复题干: CHEM-1A-007 与 CHEM-1A-004",
+    "含图片选项(待补图): CHEM-1A-063-A",
+    "含图片选项(待补图): CHEM-1A-063-B",
+    "含图片选项(待补图): CHEM-1A-063-C",
+    "含图片选项(待补图): CHEM-1A-063-D",
+    "含图片选项(待补图): CHEM-1A-063-E",
+    "疑似重复题干: CHEM-1A-072 与 CHEM-1A-071",
+    "疑似重复题干: CHEM-1A-089 与 CHEM-1A-080",
+    "含图片选项(待补图): CHEM-1B-008-A",
+    "含图片选项(待补图): CHEM-1B-008-B",
+    "含图片选项(待补图): CHEM-1B-008-C",
+    "含图片选项(待补图): CHEM-1B-008-D",
+    "含图片选项(待补图): CHEM-1B-008-E",
+    "无候选答案: CHEM-1B-049 (contested)"
   ]
 }

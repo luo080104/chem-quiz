@@ -1,19 +1,16 @@
 #!/usr/bin/env node
 /**
- * Merge raw parsed questions + an answer key into the app-facing structured bank.
+ * Build the app-facing structured bank from one or more parsed sources.
  *
- * Optionally maps inline image placeholders (U+0001) to real image URLs using a
- * manifest emitted by scripts/extract-docx.py. Placeholders are consumed in
- * document order: for each question, the stem first, then its options.
+ * Config-driven (recommended):
+ *   node scripts/build-bank.mjs --config data/import.config.json
  *
- * Usage:
- *   node scripts/build-bank.mjs \
- *     --raw data/raw/chapter1a.docx.raw.json \
- *     --answers data/answer-keys/chapter1a.deepseek-independent.json \
- *     --out public/questions/chem-bank.json \
- *     --bankVersion 1 --bankId chem-sample-ch1a \
- *     [--imageManifest public/images/chapter1a/manifest.json] \
- *     [--imageBase images/chapter1a/]
+ * Legacy single-source flags are still accepted (--raw --answers --out ...).
+ *
+ * Each source contributes questions in order. A continuous `originalNumber`
+ * (1..N) is assigned across all sources for app routing, while the source's own
+ * number is kept as `chapterNumber` and the ID is chapter-scoped
+ * (`CHEM-<idPrefix>-<chapterNumber>`) so different chapters never collide.
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, basename } from "node:path";
@@ -23,102 +20,140 @@ function arg(name, fallback) {
   return i >= 0 && process.argv[i + 1] ? process.argv[i + 1] : fallback;
 }
 
-const rawFile = arg("raw", "data/raw/chapter1a.raw.json");
-const ansFile = arg("answers", "data/answer-keys/chapter1a.deepseek-independent.json");
-const outFile = arg("out", "public/questions/chem-bank.json");
-const bankVersion = Number(arg("bankVersion", "1"));
-const bankId = arg("bankId", "chem-sample-ch1a");
-const imageManifest = arg("imageManifest", "");
-const imageBase = arg("imageBase", "");
-
-const raw = JSON.parse(readFileSync(rawFile, "utf8"));
-const key = JSON.parse(readFileSync(ansFile, "utf8"));
-
-let imageUrls = [];
-if (imageManifest && existsSync(imageManifest)) {
-  const manifest = JSON.parse(readFileSync(imageManifest, "utf8").replace(/^\uFEFF/, ""));
-  imageUrls = manifest
-    .filter((m) => m.savedAs)
-    .map((m) => decodeURI(imageBase + basename(m.savedAs)));
+const configFile = arg("config", "");
+let config;
+if (configFile) {
+  config = JSON.parse(readFileSync(configFile, "utf8").replace(/^\uFEFF/, ""));
+} else {
+  config = {
+    bankId: arg("bankId", "chem-250"),
+    version: Number(arg("bankVersion", "1")),
+    title: arg("title", "大学化学题库"),
+    sources: [
+      {
+        label: arg("label", "bank"),
+        chapter: arg("chapter", ""),
+        idPrefix: arg("idPrefix", "1A"),
+        raw: arg("raw", "data/raw/chapter1a.raw.json"),
+        answers: arg("answers", "data/answer-keys/chapter1a.deepseek-independent.json"),
+        imageManifest: arg("imageManifest", ""),
+        imageBase: arg("imageBase", ""),
+      },
+    ],
+  };
 }
-let imageCursor = 0;
-const nextImage = () => (imageCursor < imageUrls.length ? imageUrls[imageCursor++] : null);
 
+const outFile = config.out || arg("out", "public/questions/chem-bank.json");
 const IMAGE_PLACEHOLDER = "[图片选项：原题为插图，待补图]";
+const pad = (n, w = 3) => String(n).padStart(w, "0");
 
-const questions = raw.questions.map((q) => {
-  const k = key.answers[String(q.originalNumber)] || {};
-  const answer = Array.isArray(k.answer) ? k.answer : [];
+const questions = [];
+let globalNumber = 0;
 
-  // Inline images inside the stem, in order.
-  const stemImages = [];
-  let stem = q.stem || "";
-  if (stem.includes("\u0001")) {
-    const parts = stem.split("\u0001");
-    stem = parts.join("\u0001");
-    for (let i = 0; i < parts.length - 1; i++) {
-      const url = nextImage();
-      if (url) stemImages.push(url);
-    }
+for (const src of config.sources) {
+  const raw = JSON.parse(readFileSync(src.raw, "utf8").replace(/^\uFEFF/, ""));
+  const key = src.answers && existsSync(src.answers)
+    ? JSON.parse(readFileSync(src.answers, "utf8").replace(/^\uFEFF/, ""))
+    : { answers: {} };
+
+  // Optional study files (translation + glossary), merged by chapter number.
+  const studyMap = {};
+  const studyFiles = src.study ? (Array.isArray(src.study) ? src.study : [src.study]) : [];
+  for (const f of studyFiles) {
+    if (!existsSync(f)) continue;
+    const s = JSON.parse(readFileSync(f, "utf8").replace(/^\uFEFF/, ""));
+    Object.assign(studyMap, s.study || s);
   }
 
-  const options = q.options.map((o) => {
-    if (o.text === "__IMAGE__" || o.image) {
-      const url = nextImage();
-      return { key: o.key, text: url ? "（图片选项）" : IMAGE_PLACEHOLDER, image: true, imageUrl: url };
+  let imageUrls = [];
+  if (src.imageManifest && existsSync(src.imageManifest)) {
+    const manifest = JSON.parse(readFileSync(src.imageManifest, "utf8").replace(/^\uFEFF/, ""));
+    const base = src.imageBase || "";
+    imageUrls = manifest.filter((m) => m.savedAs).map((m) => base + basename(m.savedAs));
+  }
+  let imageCursor = 0;
+  const nextImage = () => (imageCursor < imageUrls.length ? imageUrls[imageCursor++] : null);
+
+  for (const q of raw.questions) {
+    globalNumber += 1;
+    const chapterNumber = q.originalNumber;
+    const k = key.answers[String(chapterNumber)] || {};
+    const st = studyMap[String(chapterNumber)] || {};
+    const answer = Array.isArray(k.answer) ? k.answer : [];
+    const stemZh = st.stemZh || k.stemZh || "";
+    const optionsZh = st.optionsZh || k.optionsZh || {};
+    const glossary = Array.isArray(st.glossary) ? st.glossary : Array.isArray(k.glossary) ? k.glossary : [];
+
+    const stemImages = [];
+    let stem = q.stem || "";
+    if (stem.includes("\u0001")) {
+      const parts = stem.split("\u0001");
+      for (let i = 0; i < parts.length - 1; i++) {
+        const url = nextImage();
+        if (url) stemImages.push(url);
+      }
     }
-    return { key: o.key, text: o.text };
-  });
 
-  const hasImageOption = options.some((o) => o.image);
-  const type = answer.length > 1 ? "multiple" : "single";
-  let reviewStatus = "pending";
-  if (hasImageOption && !options.every((o) => o.imageUrl)) reviewStatus = "pending-image";
-  else if (k.flag === "contested") reviewStatus = "contested";
-  else if (answer.length === 0) reviewStatus = "pending";
+    const options = q.options.map((o) =>
+      o.text === "__IMAGE__" || o.image
+        ? { key: o.key, text: "（图片选项）", image: true, imageUrl: nextImage() }
+        : { key: o.key, text: o.text }
+    );
 
-  return {
-    id: `CHEM-${String(q.originalNumber).padStart(3, "0")}`,
-    version: bankVersion,
-    originalNumber: q.originalNumber,
-    chapter: q.chapter || key.chapter || "",
-    tags: [],
-    type,
-    stem,
-    stemImages,
-    options,
-    answer,
-    explanation: k.explanation || "",
-    candidateAnswer: answer,
-    reviewStatus,
-    reviewFlag: k.flag || null,
-    source: {
-      question: raw.sourceFile,
-      answer: answer.length ? ansFile : null,
-    },
-  };
-});
+    const hasImageOption = options.some((o) => o.image);
+    const type = answer.length > 1 ? "multiple" : "single";
+    let reviewStatus = "pending";
+    if (hasImageOption && !options.every((o) => o.imageUrl)) reviewStatus = "pending-image";
+    else if (k.flag === "contested") reviewStatus = "contested";
+    else if (answer.length === 0) reviewStatus = "pending";
+    if (k.status === "approved") reviewStatus = "approved";
+
+    questions.push({
+      id: `CHEM-${src.idPrefix}-${pad(chapterNumber)}`,
+      version: config.version,
+      originalNumber: globalNumber,
+      chapterNumber,
+      chapter: src.chapter || "",
+      label: src.label,
+      tags: [],
+      type,
+      stem,
+      stemImages,
+      stemZh,
+      options,
+      optionsZh,
+      glossary,
+      answer,
+      explanation: k.explanation || "",
+      candidateAnswer: answer,
+      reviewStatus,
+      reviewFlag: k.flag || null,
+      source: { question: src.raw, answer: answer.length ? src.answers : null },
+    });
+  }
+  console.log(`  source ${src.label}: ${raw.questions.length} questions, ${imageCursor}/${imageUrls.length} images`);
+}
 
 const meta = {
-  bankId,
-  version: bankVersion,
-  label: raw.label,
-  title: "大学化学题库（样机：Chapter 1a 真实题）",
+  bankId: config.bankId,
+  version: config.version,
+  title: config.title,
   generatedAt: new Date().toISOString(),
-  sourceFiles: { original: raw.sourceFile, answerKey: ansFile, imageManifest: imageManifest || null },
+  sourceFiles: config.sources.map((s) => ({ label: s.label, raw: s.raw, answers: s.answers })),
   counts: {
     total: questions.length,
     approved: questions.filter((q) => q.reviewStatus === "approved").length,
     pending: questions.filter((q) => q.reviewStatus === "pending").length,
     pendingImage: questions.filter((q) => q.reviewStatus === "pending-image").length,
     contested: questions.filter((q) => q.reviewStatus === "contested").length,
+    translated: questions.filter((q) => q.stemZh).length,
+    glossaryTerms: questions.reduce((n, q) => n + q.glossary.length, 0),
   },
   disclaimer:
-    "候选答案仅由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。",
+    "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。",
 };
 
 mkdirSync(dirname(outFile), { recursive: true });
 writeFileSync(outFile, JSON.stringify({ meta, questions }, null, 2), "utf8");
 console.log(`Built bank: ${questions.length} questions -> ${outFile}`);
 console.log("counts:", meta.counts);
-console.log(`images mapped: ${imageCursor}/${imageUrls.length}`);

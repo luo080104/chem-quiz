@@ -1,6 +1,6 @@
 import { getBank, byId, scorableQuestions } from "../bank";
 import { state, persist, uid, sampleIds, nowMs, reloadState } from "../store";
-import { el, go, rich, richBlock, richStem, optionContent, fmtDuration, fmtDateTime, sameSet } from "../ui";
+import { el, go, rich, richBlock, richStem, optionContent, studyBlock, fmtDuration, fmtDateTime, sameSet } from "../ui";
 import { statusLabel, type Question } from "../types";
 import type { RouteCtx, } from "../main";
 
@@ -293,6 +293,7 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
             ])
           : el("div", { class: "muted" }, ["（此题为图片选项，待补图后判分）"]),
         richBlock(q.explanation || "（暂无解析）", "explain small"),
+        studyBlock(q),
       ])
     );
   });

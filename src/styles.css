@@ -458,6 +458,77 @@ sup {
   word-break: break-all;
 }
 
+/* ---------- translation / glossary block ---------- */
+.study {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+}
+.study > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--brand);
+  list-style: none;
+}
+.study > summary::marker {
+  display: none;
+}
+.study > summary::before {
+  content: "▸ ";
+}
+.study[open] > summary::before {
+  content: "▾ ";
+}
+.study-body {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.zh-stem {
+  margin-bottom: 6px;
+}
+.zh-options {
+  margin: 4px 0;
+  padding-left: 18px;
+}
+.zh-options li {
+  margin: 2px 0;
+}
+.glossary-title {
+  margin-top: 8px;
+  font-weight: 600;
+}
+.glossary {
+  margin: 4px 0 0;
+}
+.glossary dt {
+  font-weight: 600;
+}
+.glossary dd {
+  margin: 0 0 6px 0;
+  color: #374151;
+}
+
+/* glossary page */
+.glossary-list {
+  margin: 12px 0;
+}
+.gloss-item {
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin: 8px 0;
+}
+.gloss-term {
+  font-weight: 700;
+}
+.gloss-meaning {
+  margin: 2px 0;
+}
+
 /* ---------- exam ---------- */
 .exam-top {
   display: flex;

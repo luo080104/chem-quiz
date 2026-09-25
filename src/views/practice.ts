@@ -1,6 +1,6 @@
 import { getBank, byOriginalNumber } from "../bank";
 import { state, persist, recordPracticeAnswer } from "../store";
-import { el, go, rich, richBlock, richStem, optionContent, pct, sameSet, fmtDateTime } from "../ui";
+import { el, go, rich, richBlock, richStem, optionContent, studyBlock, pct, sameSet, fmtDateTime } from "../ui";
 import { statusLabel, type Question } from "../types";
 import type { RouteCtx } from "../main";
 
@@ -109,6 +109,8 @@ export function renderPractice({ app, parts }: RouteCtx): void {
         richBlock(q.explanation || "（暂无解析）", "explain")
       );
     }
+    const study = studyBlock(q);
+    if (study) resultBox.append(study);
     resultBox.append(
       el("div", { class: "src muted small" }, [
         `题目来源：${q.source.question}　|　候选答案来源：${q.source.answer || "无"}　|　状态：${statusLabel(q.reviewStatus)}`,

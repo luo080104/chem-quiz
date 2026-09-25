@@ -528,6 +528,17 @@ sup {
 .gloss-meaning {
   margin: 2px 0;
 }
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.check-row input {
+  width: 18px;
+  height: 18px;
+}
 
 /* ---------- exam ---------- */
 .exam-top {

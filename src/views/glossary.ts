@@ -16,6 +16,29 @@ interface Entry {
   refs: string[];
 }
 
+// Very common / non-technical words hidden when "只看专业术语" is on.
+const COMMON_WORDS = new Set(
+  [
+    "amount",
+    "unit",
+    "most",
+    "difference",
+    "set",
+    "order",
+    "define",
+    "hold",
+    "contain",
+    "average",
+    "maximum",
+    "least",
+    "at room temperature",
+    "opposite sides",
+    "similar",
+    "correctly matched",
+    "element name",
+  ].map((s) => s.toLowerCase())
+);
+
 export function renderGlossary({ app }: RouteCtx): void {
   const bank = getBank();
   const map = new Map<string, Entry>();
@@ -29,10 +52,15 @@ export function renderGlossary({ app }: RouteCtx): void {
   }
   const entries = [...map.values()].sort((a, b) => a.term.localeCompare(b.term));
   const listBox = el("div", { class: "glossary-list" });
+  const coreOnly = { on: false };
 
   function render(filter: string): void {
     const f = filter.trim().toLowerCase();
-    const shown = entries.filter((e) => !f || e.term.toLowerCase().includes(f) || e.meaning.includes(f));
+    const shown = entries.filter(
+      (e) =>
+        (!f || e.term.toLowerCase().includes(f) || e.meaning.includes(f)) &&
+        (!coreOnly.on || !COMMON_WORDS.has(e.term.trim().toLowerCase()))
+    );
     const nodes: HTMLElement[] = shown.map((e) =>
       el("div", { class: "gloss-item" }, [
         el("div", { class: "gloss-term" }, [e.term]),
@@ -52,12 +80,21 @@ export function renderGlossary({ app }: RouteCtx): void {
   }) as HTMLInputElement;
   search.addEventListener("input", () => render(search.value));
 
+  const coreToggle = el("input", { type: "checkbox" }) as HTMLInputElement;
+  coreToggle.addEventListener("change", () => {
+    coreOnly.on = coreToggle.checked;
+    render(search.value);
+  });
+
   render("");
   app.replaceChildren(
     header("难词 / 术语表"),
     el("div", { class: "page" }, [
-      el("div", { class: "muted small" }, [`共 ${entries.length} 个术语，来自 ${bank.questions.length} 道题。`]),
+      el("div", { class: "muted small" }, [
+        `共 ${entries.length} 个不重复术语，来自 ${bank.questions.length} 道题（已自动合并重复项）。`,
+      ]),
       search,
+      el("label", { class: "check-row" }, [coreToggle, el("span", {}, ["只看专业术语（隐藏常见词）"])]),
       listBox,
     ])
   );

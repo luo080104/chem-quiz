@@ -37,6 +37,33 @@ export function richBlock(text: string, className?: string): HTMLElement {
   return el("div", { class: className ?? "", html: formatChem(text ?? "") });
 }
 
+/**
+ * Render a stem that may contain inline image placeholders (U+0001).
+ * Images are interleaved in order; a missing image shows a visible hint.
+ */
+export function richStem(text: string, images?: (string | null)[]): HTMLElement {
+  const wrap = el("div", { class: "stem-body" });
+  const parts = String(text ?? "").split("\u0001");
+  parts.forEach((seg, i) => {
+    if (seg) wrap.append(el("span", { html: formatChem(seg) }));
+    if (i < parts.length - 1) {
+      const url = images?.[i];
+      if (url) wrap.append(el("img", { class: "inline-img", src: url, alt: "公式或图片" }));
+      else wrap.append(el("span", { class: "opt-image" }, ["[图片缺失]"]));
+    }
+  });
+  return wrap;
+}
+
+export function optionContent(opt: { text: string; image?: boolean; imageUrl?: string | null }): HTMLElement {
+  if (opt.imageUrl) {
+    return el("span", { class: "opt-text opt-imagebox" }, [
+      el("img", { class: "opt-img", src: opt.imageUrl, alt: opt.text || "图片选项" }),
+    ]);
+  }
+  return rich(opt.text, "opt-text");
+}
+
 export function clear(node: HTMLElement): void {
   node.replaceChildren();
 }

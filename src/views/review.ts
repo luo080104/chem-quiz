@@ -1,5 +1,5 @@
 import { getBank } from "../bank";
-import { el, rich, richBlock } from "../ui";
+import { el, rich, richBlock, richStem } from "../ui";
 import { statusLabel } from "../types";
 import type { RouteCtx } from "../main";
 
@@ -22,7 +22,7 @@ export function renderReview({ app }: RouteCtx): void {
         el("span", { class: `badge ${q.reviewStatus}` }, [statusLabel(q.reviewStatus)]),
         q.reviewFlag ? el("span", { class: "tag bad" }, [q.reviewFlag]) : null,
       ]),
-      richBlock(q.stem, "stem small"),
+      el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)]),
       el("div", { class: "answer-line small" }, [
         el("span", { class: "muted" }, ["候选答案："]),
         q.answer.length ? rich(q.answer.join(" "), "ans") : el("span", { class: "muted" }, ["（无）"]),

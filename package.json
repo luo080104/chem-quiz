@@ -8,11 +8,14 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host",
-    "parse": "node scripts/parse-questions.mjs data/source/Chapter1a_Atom_Questions.txt data/raw/chapter1a.raw.json chapter1a",
-    "build:bank": "node scripts/build-bank.mjs",
+    "extract:docx": "python scripts/extract-docx.py",
+    "parse": "node scripts/parse-questions.mjs data/source/Chapter1a_Atom_Questions.docx.txt data/raw/chapter1a.raw.json chapter1a",
+    "build:bank": "node scripts/build-bank.mjs --raw data/raw/chapter1a.raw.json --answers data/answer-keys/chapter1a.deepseek-independent.json --out public/questions/chem-bank.json --bankVersion 1 --bankId chem-sample-ch1a --imageManifest public/images/chapter1a/manifest.json --imageBase images/chapter1a/",
     "validate": "node scripts/validate-bank.mjs public/questions/chem-bank.json data/reports",
+    "compare": "node scripts/compare-answers.mjs",
     "test:logic": "node scripts/test-logic.mjs",
-    "test": "npm run validate && npm run test:logic"
+    "test:compare": "node scripts/test-compare.mjs",
+    "test": "npm run validate && npm run test:logic && npm run test:compare"
   },
   "devDependencies": {
     "typescript": "^5.6.3",

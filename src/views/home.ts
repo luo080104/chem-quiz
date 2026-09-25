@@ -28,6 +28,18 @@ export function renderHome({ app }: RouteCtx): void {
         ])
       : null;
 
+  const archivedIds = Object.keys(state().archivedBanks || {});
+  const archiveBanner =
+    archivedIds.length > 0
+      ? el("div", { class: "banner" }, [
+          `检测到题库已更换，旧记录已归档（${archivedIds.join(", ")}）。当前仅统计现用题库的进度。`,
+        ])
+      : null;
+
+  const sampleSize = Math.min(100, bank.questions.filter((q) => q.answer.length).length);
+  const seqTitle = total >= 250 ? "顺序刷 250 题" : `顺序刷题（${total} 题）`;
+  const examTitle = total >= 250 && sampleSize >= 100 ? "仿真模拟 100 题" : `仿真模拟（${sampleSize} 题）`;
+
   const progressBlock = el("div", { class: "progress-wrap" }, [
     el("div", { class: "progress-head" }, [
       el("span", {}, [`已刷题数`]),
@@ -59,13 +71,12 @@ export function renderHome({ app }: RouteCtx): void {
         el("p", { class: "sub" }, ["手机优先 · 本机保存学习记录"]),
       ]),
       demoBanner,
+      archiveBanner,
       el("div", { class: "main-actions" }, [
-        bigButton("顺序刷 250 题", `按原题号顺序练习（当前 ${total} 题）`, "seq", () =>
-          go("#/practice")
-        ),
+        bigButton(seqTitle, `按原题号顺序练习（当前 ${total} 题）`, "seq", () => go("#/practice")),
         bigButton(
-          "仿真模拟 100 题",
-          `随机无放回抽题 · 正计时（样机 ${Math.min(100, bank.questions.filter((q) => q.answer.length).length)} 题）`,
+          examTitle,
+          `随机无放回抽题 · 正计时（本次抽 ${sampleSize} 题）`,
           "exam",
           () => go("#/exam")
         ),

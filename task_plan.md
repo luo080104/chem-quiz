@@ -29,6 +29,17 @@
 - [x] 逻辑测试 test-logic.mjs（7 项通过）
 - [ ] 用户手机试用反馈（待反馈）
 
+### Phase B+：导入与审核准备工作 — Status: complete
+- [x] docx 抽题抽图脚本 `extract-docx.py`（文本 + 图片 + manifest，无需 Word）
+- [x] .doc→.docx 转换 + WMF/EMF→PNG（`convert-metafiles.ps1`），解决浏览器不支持公式图格式
+- [x] 解析器保留原题号（“1.”“第1题”等），无编号才顺序编号
+- [x] 图片选项 / 题干内联图片入库与渲染
+- [x] 两版答案对照脚本 `compare-answers.mjs`（一致/分歧/仅一方），带测试
+- [x] 换题库安全：按 bankId 归档旧记录，避免旧题记录错配新题；同 bankId 升版本保留记录
+- [x] 导入规范与模板文档
+- [x] 样机图片题（63）抽图判读，全部 100 题均有候选答案
+- [x] 测试增至 9 项逻辑 + 1 项对照
+
 ### Phase C：导入 250 题并完成首版 — Status: pending
 - [ ] 导入 250 题全部原题
 - [ ] 本次 AI 逐题独立作答 + 关键推理

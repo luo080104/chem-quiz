@@ -1,0 +1,8 @@
+{
+  "label": "testB",
+  "answers": {
+    "1": { "answer": ["B"], "explanation": "B agrees on 1" },
+    "2": { "answer": ["D"], "explanation": "B disagrees on 2" },
+    "4": { "answer": ["A"], "explanation": "only B has 4" }
+  }
+}

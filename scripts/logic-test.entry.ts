@@ -10,6 +10,7 @@ import {
   persist,
   importBackup,
   exportBackup,
+  switchBank,
 } from "../src/store";
 import { sameSet } from "../src/ui";
 
@@ -91,6 +92,27 @@ const rngA = mulberry32(42);
 const rngB = mulberry32(42);
 assert(rngA() === rngB(), "mulberry32 deterministic");
 ok("mulberry32 deterministic");
+
+// 7. swapping bank id archives old records and resets the active bank
+mem.clear();
+state();
+switchBank("chem-sample", 1);
+recordPracticeAnswer("CHEM-001", ["A"], false);
+const switched = switchBank("chem-250", 1);
+assert(switched, "switchBank returns true when bank id changes");
+assert(practicedQuestionIds().length === 0, "active records reset after bank switch");
+assert(!!state().archivedBanks["chem-sample"], "old bank archived under its id");
+assert(
+  !!state().archivedBanks["chem-sample"].practice.records["CHEM-001"],
+  "archived practice record kept"
+);
+ok("bank id change archives history without cross-bank ID collisions");
+
+// 8. version bump within the SAME bank id keeps records
+recordPracticeAnswer("CHEM-001", ["B"], true);
+switchBank("chem-250", 2);
+assert(practicedQuestionIds().length === 1, "same-bank version bump keeps records");
+ok("same-bank version bump preserves records");
 void persist;
 
 console.log(results.join("\n"));

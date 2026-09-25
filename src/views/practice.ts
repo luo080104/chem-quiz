@@ -1,6 +1,6 @@
 import { getBank, byOriginalNumber } from "../bank";
 import { state, persist, recordPracticeAnswer } from "../store";
-import { el, go, rich, richBlock, pct, sameSet, fmtDateTime } from "../ui";
+import { el, go, rich, richBlock, richStem, optionContent, pct, sameSet, fmtDateTime } from "../ui";
 import { statusLabel, type Question } from "../types";
 import type { RouteCtx } from "../main";
 
@@ -150,12 +150,7 @@ export function renderPractice({ app, parts }: RouteCtx): void {
       el(
         "button",
         { class: "option", "data-key": opt.key, onClick: () => toggleOption(opt.key) },
-        [
-          el("span", { class: "opt-key" }, [opt.key]),
-          opt.image
-            ? el("span", { class: "opt-text opt-image" }, [opt.text])
-            : rich(opt.text, "opt-text"),
-        ]
+        [el("span", { class: "opt-key" }, [opt.key]), optionContent(opt)]
       )
     );
   }
@@ -191,7 +186,7 @@ export function renderPractice({ app, parts }: RouteCtx): void {
       el("div", { class: "bar" }, [
         el("div", { class: "bar-fill", style: `width:${pct(idx + 1, total)}%` }),
       ]),
-      richBlock(question.stem, "stem"),
+      el("div", { class: "stem" }, [richStem(question.stem, question.stemImages)]),
       optionList,
       el("div", { class: "practice-controls" }, [submitBtn]),
       resultBox,

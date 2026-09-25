@@ -1,6 +1,6 @@
 import { getBank, byId, scorableQuestions } from "../bank";
 import { state, persist, uid, sampleIds, nowMs, reloadState } from "../store";
-import { el, go, rich, richBlock, fmtDuration, fmtDateTime, sameSet } from "../ui";
+import { el, go, rich, richBlock, richStem, optionContent, fmtDuration, fmtDateTime, sameSet } from "../ui";
 import { statusLabel, type Question } from "../types";
 import type { RouteCtx, } from "../main";
 
@@ -162,10 +162,7 @@ function renderExamRunning(app: HTMLElement, examId: string): void {
         el(
           "button",
           { class: `option${chosen.has(opt.key) ? " selected" : ""}`, "data-key": opt.key, onClick: () => toggle(q.id, opt.key, q.type) },
-          [
-            el("span", { class: "opt-key" }, [opt.key]),
-            opt.image ? el("span", { class: "opt-text opt-image" }, [opt.text]) : rich(opt.text, "opt-text"),
-          ]
+          [el("span", { class: "opt-key" }, [opt.key]), optionContent(opt)]
         )
       );
     }
@@ -177,7 +174,7 @@ function renderExamRunning(app: HTMLElement, examId: string): void {
       el("div", { class: "bar" }, [
         el("div", { class: "bar-fill", style: `width:${Math.round(((cursor + 1) / qs.length) * 100)}%` }),
       ]),
-      richBlock(q.stem, "stem"),
+      el("div", { class: "stem" }, [richStem(q.stem, q.stemImages)]),
       opts
     );
     renderNav();
@@ -199,7 +196,7 @@ function renderExamRunning(app: HTMLElement, examId: string): void {
       cardGrid.append(
         el(
           "button",
-          { class: `cell${answered ? " answered" : ""}${i === cursor ? " current" : ""}`, onClick: () => { cursor = i; cardOverlay.classList.add("hidden"); renderQuestion(); } },
+          { class: `cell${answered ? " answered" : " unanswered"}${i === cursor ? " current" : ""}`, onClick: () => { cursor = i; cardOverlay.classList.add("hidden"); renderQuestion(); } },
           [String(i + 1)]
         )
       );
@@ -220,7 +217,9 @@ function renderExamRunning(app: HTMLElement, examId: string): void {
         el("button", { class: "x", onClick: () => cardOverlay.classList.add("hidden") }, ["关闭"]),
       ]),
       cardGrid,
-      el("div", { class: "muted small" }, ["绿色=已答，蓝色边框=当前题"]),
+      el("div", { class: "muted small" }, [
+        `已答 ${qs.filter((q) => (exam!.answers[q.id] || []).length > 0).length} / ${qs.length}，未答 ${qs.filter((q) => !(exam!.answers[q.id] || []).length).length}。绿色=已答，斜纹=未答，蓝色边框=当前题。`,
+      ]),
     ])
   );
 
@@ -266,7 +265,10 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
     app.replaceChildren(header("模拟结果"), el("div", { class: "page" }, ["找不到该次模拟记录"]));
     return;
   }
-  const qs = exam.questionIds.map((id) => byId(id)).filter((q): q is Question => !!q);
+  const bankChanged = exam.bankId !== getBank().meta.bankId;
+  const qs = bankChanged
+    ? []
+    : exam.questionIds.map((id) => byId(id)).filter((q): q is Question => !!q);
   const items: HTMLElement[] = [];
   qs.forEach((q, i) => {
     const chosen = exam.answers[q.id] || [];
@@ -281,7 +283,7 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
             ? el("span", { class: `tag ${ok ? "ok" : "bad"}` }, [ok ? "答对" : "答错"])
             : el("span", { class: "tag pending" }, ["待核"]),
         ]),
-        richBlock(q.stem, "stem small"),
+        el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)]),
         scorable
           ? el("div", { class: "answer-line" }, [
               el("span", { class: "muted" }, ["正确答案："]),
@@ -303,12 +305,17 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
         el("div", { class: "muted" }, [`用时 ${fmtDuration(exam.elapsedMs)} · ${fmtDateTime(exam.submittedAt)}`]),
         el("div", { class: "muted small" }, [`题库版本 v${exam.bankVersion} · 种子 ${exam.seed}`]),
       ]),
+      bankChanged
+        ? el("div", { class: "banner warn" }, [
+            `该次模拟使用的题库（${exam.bankId} v${exam.bankVersion}）与当前题库不同，逐题解析不可用；仅保留成绩与用时。`,
+          ])
+        : null,
       el("div", { class: "btn-row" }, [
         el("a", { class: "nav-btn", href: "#/" }, ["返回首页"]),
         el("a", { class: "nav-btn", href: "#/stats" }, ["看历次趋势"]),
         el("a", { class: "nav-btn", href: "#/wrongbook" }, ["错题复习"]),
       ]),
-      el("h2", {}, ["逐题解析"]),
+      bankChanged ? null : el("h2", {}, ["逐题解析"]),
       ...items,
     ])
   );

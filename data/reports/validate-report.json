@@ -1,18 +1,17 @@
 {
   "bankFile": "public/questions/chem-bank.json",
-  "bankId": "chem-250",
+  "bankId": "chem-sample-ch1a",
   "version": 1,
-  "generatedAt": "2026-09-25T09:58:48.929Z",
+  "generatedAt": "2026-09-25T10:42:11.687Z",
   "counts": {
     "total": 100,
     "approved": 0,
-    "pending": 98,
-    "pendingImage": 1,
+    "pending": 99,
+    "pendingImage": 0,
     "contested": 1
   },
   "byStatus": {
-    "pending": 98,
-    "pending-image": 1,
+    "pending": 99,
     "contested": 1
   },
   "errors": [],

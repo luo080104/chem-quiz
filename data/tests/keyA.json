@@ -1,0 +1,8 @@
+{
+  "label": "testA",
+  "answers": {
+    "1": { "answer": ["B"], "explanation": "A says B" },
+    "2": { "answer": ["C"], "explanation": "A says C" },
+    "3": { "answer": ["A"], "explanation": "only A has 3" }
+  }
+}

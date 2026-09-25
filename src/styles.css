@@ -93,6 +93,8 @@ body {
   margin: 10px 0;
   font-size: 13px;
   line-height: 1.5;
+  background: #eef2ff;
+  color: #1e3a8a;
 }
 .banner.warn {
   background: var(--warn-bg);
@@ -320,6 +322,29 @@ sup {
   color: var(--warn);
   font-style: italic;
 }
+.stem-body {
+  display: inline;
+}
+.inline-img,
+.stem-img {
+  max-width: 100%;
+  max-height: 96px;
+  vertical-align: middle;
+  margin: 0 2px;
+  background: #fff;
+  border-radius: 6px;
+}
+.opt-imagebox {
+  display: block;
+}
+.opt-img {
+  max-width: 100%;
+  max-height: 120px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  padding: 2px;
+}
 
 /* ---------- buttons ---------- */
 .primary-btn {
@@ -506,6 +531,15 @@ sup {
 .cell.answered {
   background: var(--ok-bg);
   border-color: #86efac;
+}
+.cell.unanswered {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 4px,
+    #eef1f5 4px,
+    #eef1f5 8px
+  );
 }
 .cell.current {
   outline: 2px solid var(--blue);

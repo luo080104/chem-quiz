@@ -4,6 +4,7 @@ export interface Option {
   key: string;
   text: string;
   image?: boolean;
+  imageUrl?: string | null;
 }
 
 export interface Question {
@@ -14,6 +15,7 @@ export interface Question {
   tags: string[];
   type: "single" | "multiple";
   stem: string;
+  stemImages?: string[];
   options: Option[];
   answer: string[];
   explanation: string;

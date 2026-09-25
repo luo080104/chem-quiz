@@ -1,5 +1,5 @@
 import type { Bank, Question } from "./types";
-import { state, persist } from "./store";
+import { switchBank } from "./store";
 
 let bank: Bank | null = null;
 
@@ -17,15 +17,10 @@ export function getBank(): Bank {
   return bank;
 }
 
-/** Record which bank version the learning history refers to. */
+/** Bind history to the loaded bank; archives records if the bank id changed. */
 export function bindBankVersion(): void {
   const b = getBank();
-  const s = state();
-  if (s.bankId !== b.meta.bankId || s.bankVersion !== b.meta.version) {
-    s.bankId = b.meta.bankId;
-    s.bankVersion = b.meta.version;
-    persist();
-  }
+  switchBank(b.meta.bankId, b.meta.version);
 }
 
 export function questions(): Question[] {

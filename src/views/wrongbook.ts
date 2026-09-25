@@ -1,6 +1,6 @@
 import { state, persist } from "../store";
 import { byId } from "../bank";
-import { el, go, richBlock, fmtDateTime } from "../ui";
+import { el, go, richStem, fmtDateTime } from "../ui";
 import { statusLabel } from "../types";
 import type { RouteCtx } from "../main";
 import type { Question } from "../types";
@@ -27,7 +27,9 @@ export function renderWrongbook({ app }: RouteCtx): void {
         w.correctAfterWrong > 0 ? el("span", { class: "tag ok" }, [`答对过 ${w.correctAfterWrong} 次`]) : null,
         w.mastered ? el("span", { class: "tag ok" }, ["已掌握"]) : null,
       ]),
-      q ? richBlock(q.stem, "stem small") : el("div", { class: "muted" }, ["（题库中找不到该题）"]),
+      q
+        ? el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)])
+        : el("div", { class: "muted" }, ["（题库中找不到该题）"]),
       el("div", { class: "muted small" }, [
         `首次答错 ${fmtDateTime(w.firstWrongAt)} · 最近答错 ${fmtDateTime(w.lastWrongAt)}`,
       ]),

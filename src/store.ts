@@ -43,6 +43,14 @@ export interface ExamRecord {
   cursor: number;
 }
 
+export interface ArchivedBank {
+  bankId: string;
+  bankVersion: number | null;
+  archivedAt: number;
+  practice: AppState["practice"];
+  wrongbook: Record<string, WrongbookEntry>;
+}
+
 export interface AppState {
   schema: number;
   bankId: string | null;
@@ -56,6 +64,7 @@ export interface AppState {
   wrongbook: Record<string, WrongbookEntry>;
   exams: ExamRecord[];
   activeExamId: string | null;
+  archivedBanks: Record<string, ArchivedBank>;
 }
 
 export function emptyState(): AppState {
@@ -67,7 +76,41 @@ export function emptyState(): AppState {
     wrongbook: {},
     exams: [],
     activeExamId: null,
+    archivedBanks: {},
   };
+}
+
+/**
+ * Bind the app to a bank. If the bank id changed, archive the previous bank's
+ * practice/wrongbook under its own id (so IDs from a different bank never get
+ * mis-matched) and start a fresh active bank. A version bump within the SAME
+ * bank id keeps records (IDs are stable across revisions).
+ */
+export function switchBank(bankId: string, bankVersion: number): boolean {
+  const s = state();
+  if (s.bankId === bankId) {
+    s.bankVersion = bankVersion;
+    persist();
+    return false;
+  }
+  const hasData =
+    Object.keys(s.practice.records).length > 0 || Object.keys(s.wrongbook).length > 0;
+  if (s.bankId && hasData) {
+    s.archivedBanks[s.bankId] = {
+      bankId: s.bankId,
+      bankVersion: s.bankVersion,
+      archivedAt: nowMs(),
+      practice: s.practice,
+      wrongbook: s.wrongbook,
+    };
+  }
+  s.bankId = bankId;
+  s.bankVersion = bankVersion;
+  s.practice = emptyState().practice;
+  s.wrongbook = {};
+  s.activeExamId = null;
+  persist();
+  return true;
 }
 
 export function loadState(): AppState {
@@ -83,6 +126,7 @@ export function loadState(): AppState {
       practice: { ...base.practice, ...(parsed.practice || {}) },
       wrongbook: parsed.wrongbook || {},
       exams: parsed.exams || [],
+      archivedBanks: parsed.archivedBanks || {},
     };
   } catch {
     return emptyState();
@@ -239,6 +283,7 @@ export function importBackup(text: string): ImportResult {
       practice: { ...emptyState().practice, ...(incoming.practice || {}) },
       wrongbook: incoming.wrongbook || {},
       exams: incoming.exams || [],
+      archivedBanks: incoming.archivedBanks || {},
     };
     persist();
     return { ok: true, message: "导入成功，学习记录已恢复" };

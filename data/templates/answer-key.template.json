@@ -1,0 +1,12 @@
+{
+  "bankLabel": "your-bank-label",
+  "author": "填写来源（例如：本次AI独立作答 / 手机DeepSeek / 课程答案）",
+  "createdAt": "2026-09-25",
+  "status": "pending",
+  "note": "说明本题库答案的来源与是否审定。",
+  "answers": {
+    "1": { "answer": ["B"], "explanation": "为什么选 B，其他为什么错" },
+    "2": { "answer": ["A", "C"], "explanation": "多选示例：集合完全一致才得分" },
+    "3": { "answer": [], "explanation": "暂无答案/待核时留空数组", "flag": "contested" }
+  }
+}

@@ -67,7 +67,7 @@
     "60": { "answer": ["B"], "explanation": "2d 不合法：n=2 时 l 最大为 1，不存在 d 轨道。" },
     "61": { "answer": ["E"], "explanation": "(1,1,0,+1/2) 中 n=1 不允许 l=1，不合法。" },
     "62": { "answer": ["E"], "explanation": "描述 Hund 规则：同一能级电子尽量分占轨道且自旋平行。" },
-    "63": { "answer": [], "explanation": "选项为 5 张电子排布图（图片），文本导出丢失，无法判读。待补图后单独审核。", "flag": "image" },
+    "63": { "answer": ["C"], "explanation": "C 的 2s 轨道两个电子自旋相同（↑↑），违反泡利不相容原理（同一轨道两电子自旋必须相反）。A 是 2p 未填满就成对，违反洪特规则而非泡利；B、D、E 不违反泡利。" },
     "64": { "answer": ["D"], "explanation": "角量子数（angular momentum，l）决定轨道形状。" },
     "65": { "answer": ["B"], "explanation": "n=1 层没有 p 轨道（0 个）；n≥2 每层有 3 个 p 轨道。" },
     "66": { "answer": ["C"], "explanation": "第二层含 2s(1)+2p(3)=4 个轨道。" },

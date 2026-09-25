@@ -32,4 +32,19 @@
 
 ### 运行中的进程（电脑重启后需重开）
 - `npm run preview`（端口 4173）
-- `tools\cloudflared.exe tunnel --url http://localhost:4173`
+- `tools\cloudflared.exe tunnel --url http://localhost:4173`（已停用）
+
+## 2026-09-25（第二段：导入与审核准备）
+
+在用户提供 250 题前的准备工作补齐：
+1. `extract-docx.py`：无需 Word 从 .docx 抽取文本与内联图片（占位符 + manifest）。
+2. `.doc→.docx` + `convert-metafiles.ps1`：WMF/EMF 公式图转 PNG（浏览器不支持 WMF）。
+3. 解析器保留原题号（“1.”“第1题”等），无编号才顺序编号。
+4. 图片选项与题干内联图片入库 + 前端渲染。
+5. `compare-answers.mjs`：两版答案逐题对照（一致/分歧/仅一方），含集成测试。
+6. 换题库安全：`switchBank` 按 bankId 归档旧记录，避免旧题记录错配新题；同 bankId 升版本保留记录；题库变化的旧模拟成绩明确提示解析不可用。
+7. 样机图片题 63 抽图判读为 **C**；100 题全部有候选答案。
+8. 测试：9 项逻辑 + 1 项对照，全过；`npm run build` 通过。
+9. 同步更新 README、阶段A、映射表、导入规范、规划文件，并推送部署。
+
+线上验证：https://luo080104.github.io/chem-quiz/ 首页 200、题库 200、图片 200，Q63 答案 C 已生效。

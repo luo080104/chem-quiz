@@ -1,0 +1,242 @@
+{
+  "label": "chapter1a",
+  "part": 1,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "1": {
+      "stemZh": "沙、盐和水的组合是 ________ 的一个例子。",
+      "optionsZh": { "A": "均相混合物", "B": "非均相混合物", "C": "化合物", "D": "纯物质", "E": "固体" },
+      "glossary": [
+        { "term": "combination", "meaning": "组合、混合" },
+        { "term": "homogeneous mixture", "meaning": "均相（均匀）混合物", "note": "各组分均匀分布" },
+        { "term": "heterogeneous mixture", "meaning": "非均相（不均匀）混合物" },
+        { "term": "compound", "meaning": "化合物" },
+        { "term": "pure substance", "meaning": "纯物质" }
+      ]
+    },
+    "2": {
+      "stemZh": "少量盐溶于水是 ________ 的一个例子。",
+      "optionsZh": { "A": "均相混合物", "B": "非均相混合物", "C": "化合物", "D": "纯物质", "E": "固体" },
+      "glossary": [
+        { "term": "dissolved", "meaning": "溶解了的" },
+        { "term": "a small amount of", "meaning": "少量的" },
+        { "term": "homogeneous mixture", "meaning": "均相（均匀）混合物" }
+      ]
+    },
+    "3": {
+      "stemZh": "下列哪一项的元素名称与元素符号匹配正确？",
+      "optionsZh": { "A": "S—钠", "B": "Tn—锡", "C": "Fe—铁", "D": "N—氖", "E": "B—溴" },
+      "glossary": [
+        { "term": "element name", "meaning": "元素名称" },
+        { "term": "symbol", "meaning": "符号（此处指元素符号）" },
+        { "term": "correctly matched", "meaning": "正确匹配的" }
+      ]
+    },
+    "4": {
+      "stemZh": "下列各项中，只有 ________ 不是化学反应的例子。",
+      "optionsZh": { "A": "硬币在硝酸中溶解", "B": "水蒸气的凝结", "C": "蜡烛燃烧", "D": "由乙烯生成聚乙烯", "E": "铁的锈蚀" },
+      "glossary": [
+        { "term": "chemical reaction", "meaning": "化学反应" },
+        { "term": "dissolution", "meaning": "溶解" },
+        { "term": "nitric acid", "meaning": "硝酸" },
+        { "term": "condensation", "meaning": "凝结、冷凝" },
+        { "term": "polyethylene", "meaning": "聚乙烯" },
+        { "term": "ethylene", "meaning": "乙烯" },
+        { "term": "rusting", "meaning": "锈蚀" }
+      ]
+    },
+    "5": {
+      "stemZh": "气体和液体共有的性质是 ________。",
+      "optionsZh": { "A": "可压缩性", "B": "固定的体积", "C": "不可压缩性", "D": "不固定的形状", "E": "固定的形状" },
+      "glossary": [
+        { "term": "compressibility", "meaning": "可压缩性" },
+        { "term": "definite volume", "meaning": "固定（一定）的体积" },
+        { "term": "indefinite shape", "meaning": "不固定（无定）的形状" },
+        { "term": "share the property", "meaning": "共有该性质" }
+      ]
+    },
+    "6": {
+      "stemZh": "下列各项中，只有 ________ 是化学反应。",
+      "optionsZh": { "A": "铅的熔化", "B": "糖溶于水", "C": "银的失泽（变暗）", "D": "石头的粉碎", "E": "把硬币丢进一杯水" },
+      "glossary": [
+        { "term": "melting", "meaning": "熔化" },
+        { "term": "tarnishing", "meaning": "失泽、失去光泽（表面生成新物质）" },
+        { "term": "crushing", "meaning": "粉碎、压碎" },
+        { "term": "lead", "meaning": "铅" }
+      ]
+    },
+    "7": {
+      "stemZh": "下列各项中，只有 ________ 不是化学反应的例子。",
+      "optionsZh": { "A": "燃烧塑料水瓶", "B": "由水制取氢气", "C": "铜币失泽", "D": "把木头劈成木屑", "E": "给手机充电" },
+      "glossary": [
+        { "term": "chopping", "meaning": "劈、砍" },
+        { "term": "log", "meaning": "原木、圆木" },
+        { "term": "sawdust", "meaning": "木屑" },
+        { "term": "cellular phone", "meaning": "手机" },
+        { "term": "charging", "meaning": "充电" }
+      ]
+    },
+    "8": {
+      "stemZh": "下列哪个（些）温度最低？",
+      "optionsZh": { "A": "水的凝固点", "B": "5 °C", "C": "30 °F", "D": "280 K", "E": "A 和 D" },
+      "glossary": [
+        { "term": "freezing point", "meaning": "凝固点" },
+        { "term": "lowest", "meaning": "最低的" }
+      ]
+    },
+    "9": {
+      "stemZh": "哪个式子清楚地表示摄氏温度（°C）与开尔文温度（K）之间的换算？",
+      "optionsZh": { "A": "K = °C + 273.15", "B": "K = 273.15 − °C", "C": "K = [°C − 32] / 1.8", "D": "K = [°C + 32] × 1.8", "E": "K = °C" },
+      "glossary": [
+        { "term": "conversion", "meaning": "换算、转换" },
+        { "term": "degrees Celsius", "meaning": "摄氏度" },
+        { "term": "Kelvins", "meaning": "开尔文" }
+      ]
+    },
+    "10": {
+      "stemZh": "准确度（accuracy）指的是 ________。",
+      "optionsZh": { "A": "测量值接近零的程度", "B": "测量值接近计算值的程度", "C": "测量值与其他测量值接近的程度", "D": "测量值接近真实值的程度", "E": "测量值接近无穷大的程度" },
+      "glossary": [
+        { "term": "accuracy", "meaning": "准确度（与真值的接近程度）" },
+        { "term": "precision", "meaning": "精密度（多次测量彼此接近程度）", "note": "与 accuracy 常一起考" },
+        { "term": "measured number", "meaning": "测量值" },
+        { "term": "true value", "meaning": "真实值" }
+      ]
+    },
+    "11": {
+      "stemZh": "________ 是元素钠的化学符号。",
+      "optionsZh": { "A": "S", "B": "W", "C": "So", "D": "Na", "E": "Sn" },
+      "glossary": [
+        { "term": "chemical symbol", "meaning": "化学符号" },
+        { "term": "elemental", "meaning": "元素的" },
+        { "term": "sodium", "meaning": "钠" }
+      ]
+    },
+    "12": {
+      "stemZh": "质量的 SI 单位是 ________。",
+      "optionsZh": { "A": "千克", "B": "克", "C": "磅", "D": "金衡盎司", "E": "以上都不对" },
+      "glossary": [
+        { "term": "SI unit", "meaning": "国际单位制（SI）单位" },
+        { "term": "mass", "meaning": "质量" },
+        { "term": "kilogram", "meaning": "千克" },
+        { "term": "troy ounce", "meaning": "金衡盎司" }
+      ]
+    },
+    "13": {
+      "stemZh": "1 度的温度差在 ________ 温标上最小。",
+      "optionsZh": { "A": "开尔文", "B": "摄氏", "C": "华氏", "D": "开尔文和摄氏", "E": "华氏和摄氏" },
+      "glossary": [
+        { "term": "temperature scale", "meaning": "温标" },
+        { "term": "degree", "meaning": "度" },
+        { "term": "difference", "meaning": "差、差值" }
+      ]
+    },
+    "14": {
+      "stemZh": "英文里常用“英里/小时”表示速度。速度的 SI 单位是 ________。",
+      "optionsZh": { "A": "km/hr", "B": "km/s", "C": "m/hr", "D": "m/s", "E": "cm/s" },
+      "glossary": [
+        { "term": "velocity", "meaning": "速度" },
+        { "term": "miles per hour", "meaning": "英里每小时" },
+        { "term": "unit", "meaning": "单位" }
+      ]
+    },
+    "15": {
+      "stemZh": "在 1 atm 压力下，水的凝固点是 ________。",
+      "optionsZh": { "A": "0 °F", "B": "0 K", "C": "0 °C", "D": "−273 °C", "E": "−32 °F" },
+      "glossary": [
+        { "term": "freezing point", "meaning": "凝固点" },
+        { "term": "pressure", "meaning": "压力" },
+        { "term": "atm", "meaning": "标准大气压（单位）" }
+      ]
+    },
+    "16": {
+      "stemZh": "“绝对零度”指的是 ________。",
+      "optionsZh": { "A": "0 开尔文", "B": "0 °F", "C": "0 °C", "D": "°C + 9/5(°F − 32)", "E": "273.15 °C" },
+      "glossary": [
+        { "term": "absolute zero", "meaning": "绝对零度（0 K）" }
+      ]
+    },
+    "17": {
+      "stemZh": "元素磷的符号是 ________。",
+      "optionsZh": { "A": "Pt", "B": "K", "C": "P", "D": "S", "E": "Ca" },
+      "glossary": [
+        { "term": "symbol", "meaning": "符号" },
+        { "term": "phosphorus", "meaning": "磷" }
+      ]
+    },
+    "18": {
+      "stemZh": "元素氢的符号是 ________。",
+      "optionsZh": { "A": "H", "B": "He", "C": "K", "D": "B", "E": "Ar" },
+      "glossary": [
+        { "term": "hydrogen", "meaning": "氢" }
+      ]
+    },
+    "19": {
+      "stemZh": "下列哪一个是纯物质？",
+      "optionsZh": { "A": "自来水", "B": "岩石", "C": "空气", "D": "元素氧（O₂）", "E": "苹果" },
+      "glossary": [
+        { "term": "pure substance", "meaning": "纯物质" },
+        { "term": "tap water", "meaning": "自来水" },
+        { "term": "elemental oxygen", "meaning": "元素氧（O₂）" }
+      ]
+    },
+    "20": {
+      "stemZh": "元素钠的符号是 ________。",
+      "optionsZh": { "A": "Me", "B": "Hg", "C": "Sn", "D": "Na", "E": "Pb" },
+      "glossary": [
+        { "term": "sodium", "meaning": "钠" }
+      ]
+    },
+    "21": {
+      "stemZh": "考虑道尔顿原子论的以下几条假设：(i) 每种元素由称为原子的极小粒子组成；(ii) 原子不可再分；(iii) 同种元素的原子完全相同；(iv) 不同元素的原子不同、性质不同。哪些假设已不再成立？",
+      "optionsZh": { "A": "(i) 和 (ii)", "B": "仅 (ii)", "C": "(ii) 和 (iii)", "D": "仅 (iii)", "E": "(iii) 和 (iv)" },
+      "glossary": [
+        { "term": "postulates", "meaning": "假设、公设" },
+        { "term": "Dalton's atomic theory", "meaning": "道尔顿原子论" },
+        { "term": "indivisible", "meaning": "不可再分的" },
+        { "term": "identical", "meaning": "完全相同的" },
+        { "term": "no longer considered valid", "meaning": "不再被认为成立" }
+      ]
+    },
+    "22": {
+      "stemZh": "下列中，最小最轻的亚原子粒子是 ________。",
+      "optionsZh": { "A": "中子", "B": "质子", "C": "电子", "D": "原子核", "E": "α 粒子" },
+      "glossary": [
+        { "term": "subatomic particle", "meaning": "亚原子（次原子）粒子" },
+        { "term": "neutron", "meaning": "中子" },
+        { "term": "proton", "meaning": "质子" },
+        { "term": "electron", "meaning": "电子" },
+        { "term": "alpha particle", "meaning": "α 粒子" }
+      ]
+    },
+    "23": {
+      "stemZh": "同种元素的所有原子都具有相同的 ________。",
+      "optionsZh": { "A": "质量", "B": "质子数", "C": "中子数", "D": "电子数和中子数", "E": "密度" },
+      "glossary": [
+        { "term": "atoms", "meaning": "原子" },
+        { "term": "element", "meaning": "元素" },
+        { "term": "mass", "meaning": "质量" },
+        { "term": "neutrons", "meaning": "中子" },
+        { "term": "density", "meaning": "密度" }
+      ]
+    },
+    "24": {
+      "stemZh": "一个 ¹³²₅₄Xe 原子中有 ________ 个电子、________ 个质子、________ 个中子。",
+      "optionsZh": { "A": "132, 132, 54", "B": "54, 54, 132", "C": "78, 78, 54", "D": "54, 54, 78", "E": "78, 78, 132" },
+      "glossary": [
+        { "term": "isotope notation", "meaning": "同位素符号（左上角质量数，左下角原子序数）" },
+        { "term": "atomic number", "meaning": "原子序数（=质子数）" },
+        { "term": "mass number", "meaning": "质量数（=质子数+中子数）" }
+      ]
+    },
+    "25": {
+      "stemZh": "原子核中不含有 ________。",
+      "optionsZh": { "A": "质子", "B": "质子或中子", "C": "中子", "D": "亚原子粒子", "E": "电子" },
+      "glossary": [
+        { "term": "nucleus", "meaning": "原子核" },
+        { "term": "does not contain", "meaning": "不含有" },
+        { "term": "electrons", "meaning": "电子" }
+      ]
+    }
+  }
+}

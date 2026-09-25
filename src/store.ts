@@ -16,6 +16,7 @@ export interface QuestionRecord {
   lastCorrect: boolean | null; // null = not scored (answer not yet audited)
   lastPracticedAt: number;
   mastered: boolean;
+  flagged?: boolean;
 }
 
 export interface WrongbookEntry {
@@ -248,6 +249,23 @@ export function practicedQuestionIds(): string[] {
 
 export function wrongQuestionIds(): string[] {
   return Object.keys(state().wrongbook);
+}
+
+export function toggleFlag(questionId: string): boolean {
+  const r = ensureRecord(questionId);
+  r.flagged = !r.flagged;
+  persist();
+  return !!r.flagged;
+}
+
+export function isFlagged(questionId: string): boolean {
+  return !!state().practice.records[questionId]?.flagged;
+}
+
+export function flaggedQuestionIds(): string[] {
+  return Object.values(state().practice.records)
+    .filter((r) => r.flagged)
+    .map((r) => r.questionId);
 }
 
 export function exportBackup(): string {

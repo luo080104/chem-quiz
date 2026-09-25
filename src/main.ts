@@ -12,6 +12,8 @@ import { renderReview } from "./views/review";
 import { renderGlossary } from "./views/glossary";
 import { renderNotFound } from "./views/notfound";
 
+export { APP_VERSION } from "./version";
+
 export interface RouteCtx {
   app: HTMLElement;
   parts: string[];
@@ -69,6 +71,14 @@ async function boot(): Promise<void> {
   }
   window.addEventListener("hashchange", () => void route());
   await route();
+
+  if ("serviceWorker" in navigator && import.meta.env.PROD) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .catch(() => {});
+    });
+  }
 }
 
 void boot();

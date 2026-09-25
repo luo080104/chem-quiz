@@ -1,4 +1,4 @@
-import { state, persist } from "../store";
+import { state, persist, flaggedQuestionIds } from "../store";
 import { byId } from "../bank";
 import { el, go, richStem, studyBlock, fmtDateTime } from "../ui";
 import { statusLabel } from "../types";
@@ -15,6 +15,9 @@ function header(title: string): HTMLElement {
 export function renderWrongbook({ app }: RouteCtx): void {
   const s = state();
   const entries = Object.values(s.wrongbook).sort((a, b) => b.lastWrongAt - a.lastWrongAt);
+  const flagged = flaggedQuestionIds()
+    .map((id) => byId(id))
+    .filter((q): q is Question => !!q);
 
   const items = entries.map((w) => {
     const q = byId(w.questionId) as Question | undefined;
@@ -52,6 +55,25 @@ export function renderWrongbook({ app }: RouteCtx): void {
       entries.length === 0
         ? el("div", { class: "empty" }, ["暂无错题。先去顺序刷题或模拟考吧。"])
         : el("div", {}, items),
+      el("h2", {}, ["标记不懂"]),
+      flagged.length === 0
+        ? el("div", { class: "empty" }, ["还没有标记的题目。做题时可点“标记不懂”。"])
+        : el(
+            "div",
+            {},
+            flagged.map((q) =>
+              el("div", { class: "review-item pending" }, [
+                el("div", { class: "review-head" }, [
+                  el("span", { class: "q-no" }, [`第 ${q.originalNumber} 题`]),
+                  el("span", { class: "tag pending" }, ["标记不懂"]),
+                ]),
+                el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)]),
+                el("div", { class: "btn-row" }, [
+                  el("a", { class: "nav-btn", href: `#/practice/${q.originalNumber}` }, ["去复习"]),
+                ]),
+              ])
+            )
+          ),
     ])
   );
 }

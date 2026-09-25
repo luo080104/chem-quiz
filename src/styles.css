@@ -418,6 +418,18 @@ sup {
   background: var(--panel);
   font-size: 15px;
 }
+.chapter-jump {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+.chapter-jump .nav-btn {
+  padding: 8px 12px;
+}
+.flag-btn {
+  margin: 8px 0;
+}
 
 /* ---------- results ---------- */
 .result {

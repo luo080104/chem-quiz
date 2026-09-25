@@ -17,6 +17,8 @@ export interface Question {
   id: string;
   version: number;
   originalNumber: number;
+  chapterNumber: number;
+  label: string;
   chapter: string;
   tags: string[];
   type: "single" | "multiple";

@@ -1,6 +1,7 @@
 import { getBank } from "../bank";
 import { state, practicedQuestionIds, wrongQuestionIds } from "../store";
 import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
+import { APP_VERSION } from "../version";
 import type { RouteCtx } from "../main";
 
 export function renderHome({ app }: RouteCtx): void {
@@ -39,6 +40,28 @@ export function renderHome({ app }: RouteCtx): void {
   const sampleSize = Math.min(100, bank.questions.filter((q) => q.answer.length).length);
   const seqTitle = total >= 250 ? "顺序刷 250 题" : `顺序刷题（${total} 题）`;
   const examTitle = total >= 250 && sampleSize >= 100 ? "仿真模拟 100 题" : `仿真模拟（${sampleSize} 题）`;
+
+  const practicedSet = new Set(practicedQuestionIds());
+  const chapterLabels = [...new Set(bank.questions.map((q) => q.label))].filter(Boolean) as string[];
+  const chapterRows = chapterLabels.map((lbl) => {
+    const qs = bank.questions.filter((q) => q.label === lbl);
+    const done = qs.filter((q) => practicedSet.has(q.id)).length;
+    return el("div", { class: "progress-wrap" }, [
+      el("div", { class: "progress-head" }, [
+        el("span", {}, [String(lbl).replace("chapter", "Chapter ")]),
+        el("span", { class: "strong" }, [`${done} / ${qs.length}`]),
+      ]),
+      el("div", { class: "bar" }, [el("div", { class: "bar-fill", style: `width:${pct(done, qs.length)}%` })]),
+    ]);
+  });
+
+  const uniqueGlossary = new Set(
+    bank.questions.flatMap((q) => (q.glossary || []).map((g) => g.term.trim().toLowerCase()))
+  ).size;
+
+  const standalone =
+    (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) ||
+    (navigator as unknown as { standalone?: boolean }).standalone === true;
 
   const progressBlock = el("div", { class: "progress-wrap" }, [
     el("div", { class: "progress-head" }, [
@@ -82,20 +105,26 @@ export function renderHome({ app }: RouteCtx): void {
         ),
       ]),
       progressBlock,
+      ...chapterRows,
       statCards,
+      standalone
+        ? null
+        : el("div", { class: "banner" }, [
+            "提示：用浏览器菜单“添加到主屏幕/添加到桌面”可像 App 一样使用，并支持断网刷题（首次打开后）。",
+          ]),
       el("nav", { class: "grid-links" }, [
         link("#/wrongbook", "错题复习", String(wrong) + " 题"),
-        link("#/glossary", "难词 / 术语表", `${bank.meta.counts?.glossaryTerms ?? ""} 个术语`),
+        link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`),
         link("#/stats", "成绩与用时", `${exams.length} 次模拟`),
-        link("#/rules", "规则说明", "判分与免责"),
+        link("#/rules", "规则与关于", `v${APP_VERSION}`),
         link("#/data", "学习记录备份", "导出 / 导入"),
-        link("#/review", "待核与争议清单", "题库质量"),
+        link("#/review", "待核与争议清单", `分歧 ${bank.meta.counts?.phoneDisagreements ?? 0}`),
       ]),
       el("footer", { class: "foot" }, [
+        el("div", {}, [`题库：${bank.meta.title}（${bank.meta.bankId} v${bank.meta.version}）`]),
         el("div", {}, [
-          `题库：${bank.meta.title}（${bank.meta.bankId} v${bank.meta.version}）`,
+          `应用 v${APP_VERSION} · 生成时间 ${bank.meta.generatedAt.slice(0, 10)} · 覆盖 ${bank.meta.counts?.translated ?? 0}/${bank.meta.counts?.total ?? 0} 题有翻译`,
         ]),
-        el("div", {}, [`生成时间 ${bank.meta.generatedAt.slice(0, 10)}`]),
       ]),
     ])
   );

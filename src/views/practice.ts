@@ -1,5 +1,5 @@
 import { getBank, byOriginalNumber } from "../bank";
-import { state, persist, recordPracticeAnswer } from "../store";
+import { state, persist, recordPracticeAnswer, toggleFlag, isFlagged } from "../store";
 import { el, go, rich, richBlock, richStem, optionContent, studyBlock, pct, sameSet, fmtDateTime } from "../ui";
 import { statusLabel, type Question } from "../types";
 import type { RouteCtx } from "../main";
@@ -106,11 +106,32 @@ export function renderPractice({ app, parts }: RouteCtx): void {
           el("span", { class: "muted" }, [`　你的选择：`]),
           rich(chosen.join(" ") || "（未答）"),
         ]),
+        q.phoneAnswer.length
+          ? el("div", { class: "answer-line small" }, [
+              el("span", { class: "muted" }, ["手机DeepSeek："]),
+              rich(q.phoneAnswer.join(" ")),
+              sameSet(q.answer, q.phoneAnswer)
+                ? el("span", { class: "tag ok" }, ["与本次AI一致"])
+                : el("span", { class: "tag bad" }, ["与本次AI分歧，待老师确认"]),
+            ])
+          : el("span", { class: "hidden" }, []),
         richBlock(q.explanation || "（暂无解析）", "explain")
       );
     }
     const study = studyBlock(q);
     if (study) resultBox.append(study);
+    const flagBtn = el(
+      "button",
+      {
+        class: "nav-btn ghost flag-btn",
+        onClick: () => {
+          const on = toggleFlag(q.id);
+          flagBtn.textContent = on ? "已标记不懂（点此取消）" : "标记不懂";
+        },
+      },
+      [isFlagged(q.id) ? "已标记不懂（点此取消）" : "标记不懂"]
+    );
+    resultBox.append(flagBtn);
     resultBox.append(
       el("div", { class: "src muted small" }, [
         `题目来源：${q.source.question}　|　候选答案来源：${q.source.answer || "无"}　|　状态：${statusLabel(q.reviewStatus)}`,
@@ -183,6 +204,7 @@ export function renderPractice({ app, parts }: RouteCtx): void {
     el("div", { class: "page" }, [
       el("div", { class: "qmeta" }, [
         el("span", { class: "q-no" }, [`第 ${idx + 1} / ${total} 题`]),
+        el("span", { class: "badge neutral" }, [String(question.label || "").replace("chapter", "Ch.")]),
         el("span", { class: `badge ${question.reviewStatus}` }, [statusLabel(question.reviewStatus)]),
       ]),
       el("div", { class: "bar" }, [
@@ -194,6 +216,20 @@ export function renderPractice({ app, parts }: RouteCtx): void {
       resultBox,
       el("div", { class: "practice-nav" }),
       el("div", { class: "jump" }, [el("span", { class: "muted small" }, ["题号跳转："]), jumpInput, jumpBtn]),
+      el(
+        "div",
+        { class: "chapter-jump" },
+        [...new Set(bank.questions.map((q) => q.label))]
+          .filter(Boolean)
+          .map((lbl) => {
+            const first = bank.questions.find((q) => q.label === lbl)!;
+            return el(
+              "a",
+              { class: "nav-btn ghost", href: `#/practice/${first.originalNumber}` },
+              [`${String(lbl).replace("chapter", "Ch.")} 起点`]
+            );
+          })
+      ),
       el("div", { class: "muted small" }, [
         `上次练习：${fmtDateTime(state().practice.updatedAt)}（进度按已提交的不同题数计算）`,
       ]),

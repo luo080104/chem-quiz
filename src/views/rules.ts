@@ -1,5 +1,6 @@
 import { getBank } from "../bank";
 import { el } from "../ui";
+import { APP_VERSION } from "../version";
 import type { RouteCtx } from "../main";
 
 function header(title: string): HTMLElement {
@@ -56,6 +57,13 @@ export function renderRules({ app }: RouteCtx): void {
         el("li", {}, ["学习记录保存在当前手机浏览器本机，不上传服务器。"]),
         el("li", {}, ["清除浏览器数据/无痕模式可能导致本机记录丢失，请在“学习记录备份”导出。"]),
         el("li", {}, ["换设备或换浏览器不会自动同步。"]),
+      ]),
+      el("h2", {}, ["关于与安装"]),
+      el("ul", {}, [
+        el("li", {}, [`应用版本 v${APP_VERSION}（正式 1.0）。`]),
+        el("li", {}, ["支持“添加到主屏幕/桌面”，像 App 一样使用。"]),
+        el("li", {}, ["首次在线打开后会自动缓存，支持断网刷题；题库更新后联网打开即刷新。"]),
+        el("li", {}, ["学习记录仅保存在本机浏览器，不上传服务器。"]),
       ]),
       el("p", { class: "muted small" }, [bank.meta.disclaimer]),
     ])

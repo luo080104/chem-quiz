@@ -21,8 +21,10 @@
 - 阶段文档：`docs/`
 
 ### 手机链接
-- 局域网：`http://10.64.93.200:4173/`
-- 公网（临时）：`https://essentials-precision-hats-enter.trycloudflare.com`
+- **长期稳定（GitHub Pages）：https://luo080104.github.io/chem-quiz/**
+- 仓库：https://github.com/luo080104/chem-quiz （push 到 main 自动构建部署）
+- 局域网（调试）：`http://10.64.93.200:4173/`
+- 临时隧道已停用（原先的 trycloudflare 链接不再需要）
 
 ### 未完成 / 阻塞
 - 正式 250 题原件、手机 DeepSeek 答案原件：**等用户提供**。

@@ -6,20 +6,16 @@
 
 ---
 
-## 现在能打开的手机链接
+## 手机链接（长期稳定）
 
-在电脑保持开机、且下面的服务仍在运行的前提下：
+**https://luo080104.github.io/chem-quiz/**
 
-| 方式 | 链接 | 说明 |
-|---|---|---|
-| 局域网（同一 Wi‑Fi） | `http://10.64.93.200:4173/` | 手机与电脑连同一 Wi‑Fi 即可打开 |
-| 公网临时隧道 | `https://essentials-precision-hats-enter.trycloudflare.com` | 手机流量（4G/5G）也能开；**临时链接，电脑/隧道关闭即失效** |
+- 托管：GitHub Pages（仓库 `luo080104/chem-quiz`），手机流量 / 任意网络均可打开，电脑无需开机。
+- 更新方式：把改动 `git push` 到 `main` 分支，GitHub Actions 自动构建并发布（见 `.github/workflows/deploy.yml`）。
+- 仓库：https://github.com/luo080104/chem-quiz
+- 本机局域网（开发调试用，需电脑开机并运行 `npm run preview`）：`http://10.64.93.200:4173/`
 
-> 公网链接由 `cloudflared` 快速隧道提供，无账号、随时可能变化。要一个长期稳定的链接，
-> 见「部署」一节（推荐静态托管），或告诉我你的 GitHub/托管账号，我来配。
-
-如果打不开：确认电脑没关机、预览服务与隧道进程还在；手机流量开公网链接时若被浏览器安全策略拦，
-换用系统浏览器（Chrome / Safari / 微信内置浏览器均可）。
+如果打不开：换系统浏览器（Chrome / Safari / 微信内置浏览器）重试；首次发布后 CDN 可能有几十秒延迟。
 
 ---
 
@@ -128,7 +124,7 @@ node scripts/validate-bank.mjs public\questions\chem-bank.json data\reports
 2. 所有答案均为**由本次 AI 独立给出的候选答案**，`reviewStatus=pending`；未与手机 DeepSeek 逐题对照，未经老师/教材审定。
 3. 有 1 道题（原题号 63）的 5 个选项是**图片**，文本导出丢失，暂无法判读，已在题库标为 `pending-image`。
 4. 化学式采用**保守式上下标渲染**，复杂结构式需配经过核对的图片；图片尚未提取入库。
-5. 公网链接为**临时隧道**，非长期托管；长期链接需按「部署」自行托管或提供账号。
+5. 已用 GitHub Pages 长期托管（自动部署）；仓库公开，若日后需要私密托管可再调整。
 6. PWA/离线缓存未实现；未做离线验收。
 
 ---

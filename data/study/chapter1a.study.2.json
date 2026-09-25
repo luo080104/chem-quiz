@@ -1,0 +1,215 @@
+{
+  "label": "chapter1a",
+  "part": 2,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "26": {
+      "stemZh": "位于原子核内、整体不带电的亚原子粒子是 ________。",
+      "optionsZh": { "A": "电子", "B": "质子", "C": "中子", "D": "质子和中子", "E": "质子、中子和电子" },
+      "glossary": [
+        { "term": "nucleus", "meaning": "原子核" },
+        { "term": "overall charge", "meaning": "净电荷、总电荷" },
+        { "term": "neutrons", "meaning": "中子" }
+      ]
+    },
+    "27": {
+      "stemZh": "目前的原子质量单位是以 ________ 的一种同位素被赋予精确整数质量（amu）为基准的。",
+      "optionsZh": { "A": "氢", "B": "氧", "C": "钠", "D": "碳", "E": "氦" },
+      "glossary": [
+        { "term": "atomic mass unit (amu)", "meaning": "原子质量单位" },
+        { "term": "integral", "meaning": "整数的" },
+        { "term": "isotope", "meaning": "同位素" }
+      ]
+    },
+    "28": {
+      "stemZh": "在周期表中，元素按 ________ 排列。",
+      "optionsZh": { "A": "字母顺序", "B": "原子序数递增的顺序", "C": "金属性递增的顺序", "D": "中子含量递增的顺序", "E": "字母逆序" },
+      "glossary": [
+        { "term": "periodic table", "meaning": "周期表" },
+        { "term": "arranged", "meaning": "排列" },
+        { "term": "atomic number", "meaning": "原子序数" }
+      ]
+    },
+    "29": {
+      "stemZh": "________ 的元素会表现出相似的物理和化学性质。",
+      "optionsZh": { "A": "化学符号相似", "B": "原子质量相近", "C": "位于同一周期", "D": "位于周期表两侧", "E": "位于同一族" },
+      "glossary": [
+        { "term": "exhibit", "meaning": "表现出" },
+        { "term": "same group", "meaning": "同一族（纵列）" },
+        { "term": "period", "meaning": "周期（横行）" }
+      ]
+    },
+    "30": {
+      "stemZh": "1A、6A、7A 族元素分别被称为 ________。",
+      "optionsZh": { "A": "碱土金属、卤素、氧族元素", "B": "碱金属、氧族元素、卤素", "C": "碱金属、卤素、稀有气体", "D": "碱土金属、过渡金属、卤素", "E": "卤素、过渡金属、碱金属" },
+      "glossary": [
+        { "term": "alkali metals", "meaning": "碱金属（1A 族）" },
+        { "term": "chalcogens", "meaning": "氧族元素（6A 族）" },
+        { "term": "halogens", "meaning": "卤素（7A 族）" },
+        { "term": "respectively", "meaning": "分别地" }
+      ]
+    },
+    "31": {
+      "stemZh": "周期表中同一族的元素通常具有 ________。",
+      "optionsZh": { "A": "相同的质量数", "B": "仅相似的物理性质", "C": "仅相似的化学性质", "D": "相近的原子质量", "E": "相似的物理和化学性质" },
+      "glossary": [
+        { "term": "same group", "meaning": "同一族" },
+        { "term": "mass number", "meaning": "质量数" }
+      ]
+    },
+    "32": {
+      "stemZh": "下列哪个不是离子化合物？",
+      "optionsZh": { "A": "PCl5", "B": "MoCl6", "C": "RbCl", "D": "PbCl2", "E": "NaCl" },
+      "glossary": [
+        { "term": "ionic compound", "meaning": "离子化合物" },
+        { "term": "covalent compound", "meaning": "共价化合物（分子化合物）" }
+      ]
+    },
+    "33": {
+      "stemZh": "下列哪个化合物是氯化亚铜（铜(I)氯化物）？",
+      "optionsZh": { "A": "CuCl", "B": "CuCl2", "C": "Cu2Cl", "D": "Cu2Cl3", "E": "Cu3Cl2" },
+      "glossary": [
+        { "term": "copper(I)", "meaning": "铜(I)、一价铜" },
+        { "term": "chloride", "meaning": "氯化物" }
+      ]
+    },
+    "34": {
+      "stemZh": "周期表中哪一族只含非金属？",
+      "optionsZh": { "A": "1A", "B": "6A", "C": "2B", "D": "2A", "E": "8A" },
+      "glossary": [
+        { "term": "group", "meaning": "族" },
+        { "term": "nonmetals", "meaning": "非金属" },
+        { "term": "metalloid", "meaning": "类金属" }
+      ]
+    },
+    "35": {
+      "stemZh": "周期表中横向的行称为 ________。",
+      "optionsZh": { "A": "周期", "B": "族", "C": "类金属", "D": "金属", "E": "非金属" },
+      "glossary": [
+        { "term": "horizontal rows", "meaning": "横向的行" },
+        { "term": "periods", "meaning": "周期" }
+      ]
+    },
+    "36": {
+      "stemZh": "周期表中纵向的列称为 ________。",
+      "optionsZh": { "A": "金属", "B": "周期", "C": "非金属", "D": "族", "E": "类金属" },
+      "glossary": [
+        { "term": "vertical columns", "meaning": "纵向的列" },
+        { "term": "groups", "meaning": "族" }
+      ]
+    },
+    "37": {
+      "stemZh": "8A 族元素被称为 ________。",
+      "optionsZh": { "A": "卤素", "B": "碱金属", "C": "碱土金属", "D": "氧族元素", "E": "稀有气体" },
+      "glossary": [
+        { "term": "noble gases", "meaning": "稀有气体（8A 族）" },
+        { "term": "halogens", "meaning": "卤素" }
+      ]
+    },
+    "38": {
+      "stemZh": "钾是 ________，氯是 ________。",
+      "optionsZh": { "A": "金属，非金属", "B": "金属，金属", "C": "金属，类金属", "D": "类金属，非金属", "E": "非金属，金属" },
+      "glossary": [
+        { "term": "potassium", "meaning": "钾" },
+        { "term": "chlorine", "meaning": "氯" }
+      ]
+    },
+    "39": {
+      "stemZh": "氧是 ________，氮是 ________。",
+      "optionsZh": { "A": "金属，类金属", "B": "非金属，金属", "C": "类金属，类金属", "D": "非金属，非金属", "E": "非金属，类金属" },
+      "glossary": [
+        { "term": "oxygen", "meaning": "氧" },
+        { "term": "nitrogen", "meaning": "氮" }
+      ]
+    },
+    "40": {
+      "stemZh": "盐 MnF3 中锰的电荷是 ________。",
+      "optionsZh": { "A": "1+", "B": "1−", "C": "2+", "D": "2−", "E": "3+" },
+      "glossary": [
+        { "term": "charge", "meaning": "电荷" },
+        { "term": "manganese", "meaning": "锰" },
+        { "term": "salt", "meaning": "盐" }
+      ]
+    },
+    "41": {
+      "stemZh": "钙形成的离子的电荷是 ________。",
+      "optionsZh": { "A": "1−", "B": "2−", "C": "1+", "D": "2+", "E": "0" },
+      "glossary": [
+        { "term": "calcium", "meaning": "钙" },
+        { "term": "ion", "meaning": "离子" }
+      ]
+    },
+    "42": {
+      "stemZh": "氧形成的离子的电荷是 ________。",
+      "optionsZh": { "A": "2−", "B": "2+", "C": "3−", "D": "3+", "E": "6+" },
+      "glossary": [
+        { "term": "oxygen", "meaning": "氧" }
+      ]
+    },
+    "43": {
+      "stemZh": "Al2O3 的正确名称是 ________。",
+      "optionsZh": { "A": "氧化铝", "B": "二铝氧化物", "C": "二铝三氧化物", "D": "氢氧化铝", "E": "三氧化铝" },
+      "glossary": [
+        { "term": "aluminum oxide", "meaning": "氧化铝" },
+        { "term": "hydroxide", "meaning": "氢氧化物" }
+      ]
+    },
+    "44": {
+      "stemZh": "H2SO4 的正确名称是 ________。",
+      "optionsZh": { "A": "硫酸", "B": "亚硫酸", "C": "氢硫酸", "D": "（拼写错误的）氢硫酸", "E": "氢氧化硫" },
+      "glossary": [
+        { "term": "sulfuric acid", "meaning": "硫酸（H2SO4）" },
+        { "term": "sulfurous acid", "meaning": "亚硫酸（H2SO3）" },
+        { "term": "hydrosulfuric acid", "meaning": "氢硫酸（H2S）" }
+      ]
+    },
+    "45": {
+      "stemZh": "铁与氯形成化学式为 FeCl3 的离子化合物，该化合物的名称是 ________。",
+      "optionsZh": { "A": "铁氯", "B": "氯化铁(III)", "C": "一铁三氯化物", "D": "三氯化铁(III)", "E": "三氯化铁（ferric）" },
+      "glossary": [
+        { "term": "iron(III) chloride", "meaning": "氯化铁(III)" },
+        { "term": "formula", "meaning": "化学式" },
+        { "term": "ionic compound", "meaning": "离子化合物" }
+      ]
+    },
+    "46": {
+      "stemZh": "铜与氯形成化学式为 CuCl2 的离子化合物，该化合物的名称是 ________。",
+      "optionsZh": { "A": "铜氯", "B": "二氯化铜(III)", "C": "一铜二氯化物", "D": "二氯化铜(II)", "E": "氯化铜（旧称 cupric chloride）" },
+      "glossary": [
+        { "term": "copper(II) chloride", "meaning": "氯化铜(II)" },
+        { "term": "cupric", "meaning": "铜(II)的（旧命名法）" }
+      ]
+    },
+    "47": {
+      "stemZh": "下列中，质量最小的亚原子粒子是 ________。",
+      "optionsZh": { "A": "质子", "B": "中子", "C": "电子", "D": "α 粒子", "E": "同位素" },
+      "glossary": [
+        { "term": "subatomic particle", "meaning": "亚原子粒子" },
+        { "term": "alpha particle", "meaning": "α 粒子" },
+        { "term": "isotope", "meaning": "同位素" }
+      ]
+    },
+    "48": {
+      "stemZh": "200 pm 等于 ________ Å。",
+      "optionsZh": { "A": "2000", "B": "20", "C": "200", "D": "2", "E": "0.0002" },
+      "glossary": [
+        { "term": "pm (picometer)", "meaning": "皮米（10⁻¹² m）" },
+        { "term": "Å (angstrom)", "meaning": "埃（10⁻¹⁰ m）" }
+      ]
+    },
+    "49": {
+      "stemZh": "盐 CuO 中铜离子的电荷是 ________。",
+      "optionsZh": { "A": "+1", "B": "+2", "C": "+4", "D": "+3", "E": "+5" },
+      "glossary": [
+        { "term": "copper ion", "meaning": "铜离子" }
+      ]
+    },
+    "50": {
+      "stemZh": "盐 AgCl 中银离子的电荷是 ________。",
+      "optionsZh": { "A": "+2", "B": "+1", "C": "+3", "D": "+4", "E": "+5" },
+      "glossary": [
+        { "term": "silver ion", "meaning": "银离子" }
+      ]
+    }
+  }
+}

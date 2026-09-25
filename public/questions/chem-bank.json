@@ -3,7 +3,7 @@
     "bankId": "chem-250",
     "version": 1,
     "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
-    "generatedAt": "2026-09-25T11:08:19.481Z",
+    "generatedAt": "2026-09-25T11:11:52.778Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -22,8 +22,8 @@
       "pending": 196,
       "pendingImage": 0,
       "contested": 4,
-      "translated": 25,
-      "glossaryTerms": 85
+      "translated": 50,
+      "glossaryTerms": 143
     },
     "disclaimer": "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。"
   },
@@ -1808,7 +1808,7 @@
       "type": "single",
       "stem": "The subatomic particles located in the nucleus with no overall charges are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "位于原子核内、整体不带电的亚原子粒子是 ________。",
       "options": [
         {
           "key": "A",
@@ -1831,8 +1831,27 @@
           "text": "protons, neutrons, and electrons"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "电子",
+        "B": "质子",
+        "C": "中子",
+        "D": "质子和中子",
+        "E": "质子、中子和电子"
+      },
+      "glossary": [
+        {
+          "term": "nucleus",
+          "meaning": "原子核"
+        },
+        {
+          "term": "overall charge",
+          "meaning": "净电荷、总电荷"
+        },
+        {
+          "term": "neutrons",
+          "meaning": "中子"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -1858,7 +1877,7 @@
       "type": "single",
       "stem": "The atomic mass unit is presently based on assigning an exact integral mass (in amu) to an isotope of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "目前的原子质量单位是以 ________ 的一种同位素被赋予精确整数质量（amu）为基准的。",
       "options": [
         {
           "key": "A",
@@ -1881,8 +1900,27 @@
           "text": "helium"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "氢",
+        "B": "氧",
+        "C": "钠",
+        "D": "碳",
+        "E": "氦"
+      },
+      "glossary": [
+        {
+          "term": "atomic mass unit (amu)",
+          "meaning": "原子质量单位"
+        },
+        {
+          "term": "integral",
+          "meaning": "整数的"
+        },
+        {
+          "term": "isotope",
+          "meaning": "同位素"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -1908,7 +1946,7 @@
       "type": "single",
       "stem": "In the periodic table, the elements are arranged in ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在周期表中，元素按 ________ 排列。",
       "options": [
         {
           "key": "A",
@@ -1931,8 +1969,27 @@
           "text": "reverse alphabetical order"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "字母顺序",
+        "B": "原子序数递增的顺序",
+        "C": "金属性递增的顺序",
+        "D": "中子含量递增的顺序",
+        "E": "字母逆序"
+      },
+      "glossary": [
+        {
+          "term": "periodic table",
+          "meaning": "周期表"
+        },
+        {
+          "term": "arranged",
+          "meaning": "排列"
+        },
+        {
+          "term": "atomic number",
+          "meaning": "原子序数"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -1958,7 +2015,7 @@
       "type": "single",
       "stem": "Elements ________ exhibit similar physical and chemical properties.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 的元素会表现出相似的物理和化学性质。",
       "options": [
         {
           "key": "A",
@@ -1981,8 +2038,27 @@
           "text": "in the same group of the periodic table"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "化学符号相似",
+        "B": "原子质量相近",
+        "C": "位于同一周期",
+        "D": "位于周期表两侧",
+        "E": "位于同一族"
+      },
+      "glossary": [
+        {
+          "term": "exhibit",
+          "meaning": "表现出"
+        },
+        {
+          "term": "same group",
+          "meaning": "同一族（纵列）"
+        },
+        {
+          "term": "period",
+          "meaning": "周期（横行）"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -2008,7 +2084,7 @@
       "type": "single",
       "stem": "The elements in groups 1A, 6A, and 7A are called ________, respectively.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "1A、6A、7A 族元素分别被称为 ________。",
       "options": [
         {
           "key": "A",
@@ -2031,8 +2107,31 @@
           "text": "halogens, transition metals, and alkali metals"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "碱土金属、卤素、氧族元素",
+        "B": "碱金属、氧族元素、卤素",
+        "C": "碱金属、卤素、稀有气体",
+        "D": "碱土金属、过渡金属、卤素",
+        "E": "卤素、过渡金属、碱金属"
+      },
+      "glossary": [
+        {
+          "term": "alkali metals",
+          "meaning": "碱金属（1A 族）"
+        },
+        {
+          "term": "chalcogens",
+          "meaning": "氧族元素（6A 族）"
+        },
+        {
+          "term": "halogens",
+          "meaning": "卤素（7A 族）"
+        },
+        {
+          "term": "respectively",
+          "meaning": "分别地"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -2058,7 +2157,7 @@
       "type": "single",
       "stem": "Elements in the same group of the periodic table typically have ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中同一族的元素通常具有 ________。",
       "options": [
         {
           "key": "A",
@@ -2081,8 +2180,23 @@
           "text": "similar physical and chemical properties"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "相同的质量数",
+        "B": "仅相似的物理性质",
+        "C": "仅相似的化学性质",
+        "D": "相近的原子质量",
+        "E": "相似的物理和化学性质"
+      },
+      "glossary": [
+        {
+          "term": "same group",
+          "meaning": "同一族"
+        },
+        {
+          "term": "mass number",
+          "meaning": "质量数"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -2108,7 +2222,7 @@
       "type": "single",
       "stem": "Of the choices below, which one is not an ionic compound?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个不是离子化合物？",
       "options": [
         {
           "key": "A",
@@ -2131,8 +2245,23 @@
           "text": "NaCl"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "PCl5",
+        "B": "MoCl6",
+        "C": "RbCl",
+        "D": "PbCl2",
+        "E": "NaCl"
+      },
+      "glossary": [
+        {
+          "term": "ionic compound",
+          "meaning": "离子化合物"
+        },
+        {
+          "term": "covalent compound",
+          "meaning": "共价化合物（分子化合物）"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2158,7 +2287,7 @@
       "type": "single",
       "stem": "Which one of the following compounds is copper(I) chloride?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个化合物是氯化亚铜（铜(I)氯化物）？",
       "options": [
         {
           "key": "A",
@@ -2181,8 +2310,23 @@
           "text": "Cu3Cl2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "CuCl",
+        "B": "CuCl2",
+        "C": "Cu2Cl",
+        "D": "Cu2Cl3",
+        "E": "Cu3Cl2"
+      },
+      "glossary": [
+        {
+          "term": "copper(I)",
+          "meaning": "铜(I)、一价铜"
+        },
+        {
+          "term": "chloride",
+          "meaning": "氯化物"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2208,7 +2352,7 @@
       "type": "single",
       "stem": "Which group in the periodic table contains only nonmetals?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中哪一族只含非金属？",
       "options": [
         {
           "key": "A",
@@ -2231,8 +2375,27 @@
           "text": "8A"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1A",
+        "B": "6A",
+        "C": "2B",
+        "D": "2A",
+        "E": "8A"
+      },
+      "glossary": [
+        {
+          "term": "group",
+          "meaning": "族"
+        },
+        {
+          "term": "nonmetals",
+          "meaning": "非金属"
+        },
+        {
+          "term": "metalloid",
+          "meaning": "类金属"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -2258,7 +2421,7 @@
       "type": "single",
       "stem": "Horizontal rows of the periodic table are known as ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中横向的行称为 ________。",
       "options": [
         {
           "key": "A",
@@ -2281,8 +2444,23 @@
           "text": "nonmetals"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "周期",
+        "B": "族",
+        "C": "类金属",
+        "D": "金属",
+        "E": "非金属"
+      },
+      "glossary": [
+        {
+          "term": "horizontal rows",
+          "meaning": "横向的行"
+        },
+        {
+          "term": "periods",
+          "meaning": "周期"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2308,7 +2486,7 @@
       "type": "single",
       "stem": "Vertical columns of the periodic table are known as ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中纵向的列称为 ________。",
       "options": [
         {
           "key": "A",
@@ -2331,8 +2509,23 @@
           "text": "metalloids"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "金属",
+        "B": "周期",
+        "C": "非金属",
+        "D": "族",
+        "E": "类金属"
+      },
+      "glossary": [
+        {
+          "term": "vertical columns",
+          "meaning": "纵向的列"
+        },
+        {
+          "term": "groups",
+          "meaning": "族"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -2358,7 +2551,7 @@
       "type": "single",
       "stem": "Elements in Group 8A are known as the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "8A 族元素被称为 ________。",
       "options": [
         {
           "key": "A",
@@ -2381,8 +2574,23 @@
           "text": "noble gases"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "卤素",
+        "B": "碱金属",
+        "C": "碱土金属",
+        "D": "氧族元素",
+        "E": "稀有气体"
+      },
+      "glossary": [
+        {
+          "term": "noble gases",
+          "meaning": "稀有气体（8A 族）"
+        },
+        {
+          "term": "halogens",
+          "meaning": "卤素"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -2408,7 +2616,7 @@
       "type": "single",
       "stem": "Potassium is a ________ and chlorine is a ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "钾是 ________，氯是 ________。",
       "options": [
         {
           "key": "A",
@@ -2431,8 +2639,23 @@
           "text": "nonmetal, metal"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "金属，非金属",
+        "B": "金属，金属",
+        "C": "金属，类金属",
+        "D": "类金属，非金属",
+        "E": "非金属，金属"
+      },
+      "glossary": [
+        {
+          "term": "potassium",
+          "meaning": "钾"
+        },
+        {
+          "term": "chlorine",
+          "meaning": "氯"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2458,7 +2681,7 @@
       "type": "single",
       "stem": "Oxygen is a ________ and nitrogen is a ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氧是 ________，氮是 ________。",
       "options": [
         {
           "key": "A",
@@ -2481,8 +2704,23 @@
           "text": "nonmetal, metalloid"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "金属，类金属",
+        "B": "非金属，金属",
+        "C": "类金属，类金属",
+        "D": "非金属，非金属",
+        "E": "非金属，类金属"
+      },
+      "glossary": [
+        {
+          "term": "oxygen",
+          "meaning": "氧"
+        },
+        {
+          "term": "nitrogen",
+          "meaning": "氮"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -2508,7 +2746,7 @@
       "type": "single",
       "stem": "The charge on the manganese in the salt MnF3 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "盐 MnF3 中锰的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -2531,8 +2769,27 @@
           "text": "3+"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1+",
+        "B": "1−",
+        "C": "2+",
+        "D": "2−",
+        "E": "3+"
+      },
+      "glossary": [
+        {
+          "term": "charge",
+          "meaning": "电荷"
+        },
+        {
+          "term": "manganese",
+          "meaning": "锰"
+        },
+        {
+          "term": "salt",
+          "meaning": "盐"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -2558,7 +2815,7 @@
       "type": "single",
       "stem": "Calcium forms an ion with a charge of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "钙形成的离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -2581,8 +2838,23 @@
           "text": "0"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1−",
+        "B": "2−",
+        "C": "1+",
+        "D": "2+",
+        "E": "0"
+      },
+      "glossary": [
+        {
+          "term": "calcium",
+          "meaning": "钙"
+        },
+        {
+          "term": "ion",
+          "meaning": "离子"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -2608,7 +2880,7 @@
       "type": "single",
       "stem": "Oxygen forms an ion with a charge of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氧形成的离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -2631,8 +2903,19 @@
           "text": "6+"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2−",
+        "B": "2+",
+        "C": "3−",
+        "D": "3+",
+        "E": "6+"
+      },
+      "glossary": [
+        {
+          "term": "oxygen",
+          "meaning": "氧"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2658,7 +2941,7 @@
       "type": "single",
       "stem": "The correct name for Al2O3 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Al2O3 的正确名称是 ________。",
       "options": [
         {
           "key": "A",
@@ -2681,8 +2964,23 @@
           "text": "aluminum trioxide"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "氧化铝",
+        "B": "二铝氧化物",
+        "C": "二铝三氧化物",
+        "D": "氢氧化铝",
+        "E": "三氧化铝"
+      },
+      "glossary": [
+        {
+          "term": "aluminum oxide",
+          "meaning": "氧化铝"
+        },
+        {
+          "term": "hydroxide",
+          "meaning": "氢氧化物"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2708,7 +3006,7 @@
       "type": "single",
       "stem": "The correct name for H2SO4 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "H2SO4 的正确名称是 ________。",
       "options": [
         {
           "key": "A",
@@ -2731,8 +3029,27 @@
           "text": "sulfur hydroxide"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "硫酸",
+        "B": "亚硫酸",
+        "C": "氢硫酸",
+        "D": "（拼写错误的）氢硫酸",
+        "E": "氢氧化硫"
+      },
+      "glossary": [
+        {
+          "term": "sulfuric acid",
+          "meaning": "硫酸（H2SO4）"
+        },
+        {
+          "term": "sulfurous acid",
+          "meaning": "亚硫酸（H2SO3）"
+        },
+        {
+          "term": "hydrosulfuric acid",
+          "meaning": "氢硫酸（H2S）"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -2758,7 +3075,7 @@
       "type": "single",
       "stem": "Iron and chlorine form an ionic compound whose formula is FeCl3. The name of this compound is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铁与氯形成化学式为 FeCl3 的离子化合物，该化合物的名称是 ________。",
       "options": [
         {
           "key": "A",
@@ -2781,8 +3098,27 @@
           "text": "ferric trichloride"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "铁氯",
+        "B": "氯化铁(III)",
+        "C": "一铁三氯化物",
+        "D": "三氯化铁(III)",
+        "E": "三氯化铁（ferric）"
+      },
+      "glossary": [
+        {
+          "term": "iron(III) chloride",
+          "meaning": "氯化铁(III)"
+        },
+        {
+          "term": "formula",
+          "meaning": "化学式"
+        },
+        {
+          "term": "ionic compound",
+          "meaning": "离子化合物"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -2808,7 +3144,7 @@
       "type": "single",
       "stem": "Copper and chlorine form an ionic compound whose formula is CuCl2. The name of this compound is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铜与氯形成化学式为 CuCl2 的离子化合物，该化合物的名称是 ________。",
       "options": [
         {
           "key": "A",
@@ -2831,8 +3167,23 @@
           "text": "cupric chloride"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "铜氯",
+        "B": "二氯化铜(III)",
+        "C": "一铜二氯化物",
+        "D": "二氯化铜(II)",
+        "E": "氯化铜（旧称 cupric chloride）"
+      },
+      "glossary": [
+        {
+          "term": "copper(II) chloride",
+          "meaning": "氯化铜(II)"
+        },
+        {
+          "term": "cupric",
+          "meaning": "铜(II)的（旧命名法）"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -2858,7 +3209,7 @@
       "type": "single",
       "stem": "Of the following, the subatomic particle with the smallest mass is the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，质量最小的亚原子粒子是 ________。",
       "options": [
         {
           "key": "A",
@@ -2881,8 +3232,27 @@
           "text": "isotope"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "质子",
+        "B": "中子",
+        "C": "电子",
+        "D": "α 粒子",
+        "E": "同位素"
+      },
+      "glossary": [
+        {
+          "term": "subatomic particle",
+          "meaning": "亚原子粒子"
+        },
+        {
+          "term": "alpha particle",
+          "meaning": "α 粒子"
+        },
+        {
+          "term": "isotope",
+          "meaning": "同位素"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -2908,7 +3278,7 @@
       "type": "single",
       "stem": "200 pm is the same as ________ Å.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "200 pm 等于 ________ Å。",
       "options": [
         {
           "key": "A",
@@ -2931,8 +3301,23 @@
           "text": "0.0002"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2000",
+        "B": "20",
+        "C": "200",
+        "D": "2",
+        "E": "0.0002"
+      },
+      "glossary": [
+        {
+          "term": "pm (picometer)",
+          "meaning": "皮米（10⁻¹² m）"
+        },
+        {
+          "term": "Å (angstrom)",
+          "meaning": "埃（10⁻¹⁰ m）"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -2958,7 +3343,7 @@
       "type": "single",
       "stem": "The charge on the copper ion in the salt CuO is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "盐 CuO 中铜离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -2981,8 +3366,19 @@
           "text": "+5"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "+1",
+        "B": "+2",
+        "C": "+4",
+        "D": "+3",
+        "E": "+5"
+      },
+      "glossary": [
+        {
+          "term": "copper ion",
+          "meaning": "铜离子"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -3008,7 +3404,7 @@
       "type": "single",
       "stem": "The charge on the silver ion in the salt AgCl is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "盐 AgCl 中银离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -3031,8 +3427,19 @@
           "text": "+5"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "+2",
+        "B": "+1",
+        "C": "+3",
+        "D": "+4",
+        "E": "+5"
+      },
+      "glossary": [
+        {
+          "term": "silver ion",
+          "meaning": "银离子"
+        }
+      ],
       "answer": [
         "B"
       ],

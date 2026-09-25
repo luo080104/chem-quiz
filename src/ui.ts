@@ -91,7 +91,10 @@ export function studyBlock(q: {
       )
     );
   }
-  return el("details", { class: "study" }, [el("summary", {}, ["中文翻译 / 难词注释"]), body]);
+  return el("details", { class: "study", open: true }, [
+    el("summary", {}, ["中文翻译 / 难词注释"]),
+    body,
+  ]);
 }
 
 export function optionContent(opt: { text: string; image?: boolean; imageUrl?: string | null }): HTMLElement {

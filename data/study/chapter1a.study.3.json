@@ -1,0 +1,223 @@
+{
+  "label": "chapter1a",
+  "part": 3,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "51": {
+      "stemZh": "下列中，________ 辐射的波长最短。",
+      "optionsZh": { "A": "X 射线", "B": "无线电波", "C": "微波", "D": "紫外", "E": "红外" },
+      "glossary": [
+        { "term": "radiation", "meaning": "辐射" },
+        { "term": "wavelength", "meaning": "波长" },
+        { "term": "ultraviolet", "meaning": "紫外线" },
+        { "term": "infrared", "meaning": "红外线" }
+      ]
+    },
+    "52": {
+      "stemZh": "根据海森堡不确定性原理，不可能同时精确知道电子的位置和它的 ________。",
+      "optionsZh": { "A": "质量", "B": "颜色", "C": "动量", "D": "形状", "E": "电荷" },
+      "glossary": [
+        { "term": "Heisenberg Uncertainty Principle", "meaning": "海森堡不确定性原理" },
+        { "term": "precisely", "meaning": "精确地" },
+        { "term": "position", "meaning": "位置" },
+        { "term": "momentum", "meaning": "动量" }
+      ]
+    },
+    "53": {
+      "stemZh": "哪一个量子数不是由薛定谔方程的解得到的？",
+      "optionsZh": { "A": "主量子数", "B": "角量子数", "C": "磁量子数", "D": "自旋量子数", "E": "角动量量子数" },
+      "glossary": [
+        { "term": "quantum number", "meaning": "量子数" },
+        { "term": "Schrodinger equation", "meaning": "薛定谔方程" },
+        { "term": "principal", "meaning": "主（量子数）" },
+        { "term": "azimuthal", "meaning": "角（量子数）" },
+        { "term": "spin", "meaning": "自旋" }
+      ]
+    },
+    "54": {
+      "stemZh": "光电效应是 ________。",
+      "optionsZh": { "A": "金属对光的全反射，使其呈现典型光泽", "B": "硅太阳能电池受阳光照射时产生电流", "C": "金属被能量足够的光照射时逸出电子", "D": "照相底片暴露在电场中变暗", "E": "一种相对论效应" },
+      "glossary": [
+        { "term": "photoelectric effect", "meaning": "光电效应" },
+        { "term": "ejection", "meaning": "逸出、发射" },
+        { "term": "luster", "meaning": "光泽" },
+        { "term": "relativistic", "meaning": "相对论的" }
+      ]
+    },
+    "55": {
+      "stemZh": "同一电子层中的所有轨道具有相同的 ________ 量子数。",
+      "optionsZh": { "A": "主", "B": "角动量", "C": "磁", "D": "自旋", "E": "psi" },
+      "glossary": [
+        { "term": "electron shell", "meaning": "电子层" },
+        { "term": "orbital", "meaning": "轨道" },
+        { "term": "angular momentum", "meaning": "角动量" }
+      ]
+    },
+    "56": {
+      "stemZh": "不确定性原理指出 ________。",
+      "optionsZh": { "A": "物质与能量其实是同一回事", "B": "不可能确定地知道任何事", "C": "不可能知道电子的精确位置和动量", "D": "报告的数字中只能有一位不确定数字", "E": "不可能知道一个原子中有多少电子" },
+      "glossary": [
+        { "term": "uncertainty principle", "meaning": "不确定性原理" },
+        { "term": "with certainty", "meaning": "确定地" },
+        { "term": "exact", "meaning": "精确的" }
+      ]
+    },
+    "57": {
+      "stemZh": "下列哪个轨道可以容纳两个电子？",
+      "optionsZh": { "A": "2px", "B": "3s", "C": "4dxy", "D": "以上都可以", "E": "以上都不行" },
+      "glossary": [
+        { "term": "orbital", "meaning": "轨道" },
+        { "term": "hold", "meaning": "容纳" }
+      ]
+    },
+    "58": {
+      "stemZh": "由于角动量量子数的限制，下列哪个亚层不存在？",
+      "optionsZh": { "A": "4f", "B": "4d", "C": "4p", "D": "4s", "E": "以上都不对" },
+      "glossary": [
+        { "term": "subshell", "meaning": "亚层" },
+        { "term": "constraints", "meaning": "限制、约束" },
+        { "term": "angular momentum quantum number", "meaning": "角动量量子数" }
+      ]
+    },
+    "59": {
+      "stemZh": "电子不能具有量子数 n=________、l=________、ml=________。",
+      "optionsZh": { "A": "2, 0, 0", "B": "2, 1, −1", "C": "3, 1, −1", "D": "1, 1, 1", "E": "3, 2, 1" },
+      "glossary": [
+        { "term": "quantum numbers", "meaning": "量子数" },
+        { "term": "principal (n)", "meaning": "主量子数" },
+        { "term": "azimuthal (l)", "meaning": "角量子数" },
+        { "term": "magnetic (ml)", "meaning": "磁量子数" }
+      ]
+    },
+    "60": {
+      "stemZh": "下列哪个亚层符号是不正确的？",
+      "optionsZh": { "A": "4f", "B": "2d", "C": "3s", "D": "2p", "E": "3d" },
+      "glossary": [
+        { "term": "subshell notation", "meaning": "亚层（符号）表示法" },
+        { "term": "incorrect", "meaning": "不正确的" }
+      ]
+    },
+    "61": {
+      "stemZh": "下列哪一组四个量子数 (n, l, ml, ms) 是不合法的？",
+      "optionsZh": { "A": "2, 0, 0, +1/2", "B": "2, 1, 0, −1/2", "C": "3, 1, −1, −1/2", "D": "1, 0, 0, +1/2", "E": "1, 1, 0, +1/2" },
+      "glossary": [
+        { "term": "valid", "meaning": "合法的、有效的" },
+        { "term": "set", "meaning": "组、集合" }
+      ]
+    },
+    "62": {
+      "stemZh": "当相同自旋的电子数达到最大时，轨道能量最低。这句话描述的是 ________。",
+      "optionsZh": { "A": "泡利不相容原理", "B": "普朗克常数", "C": "德布罗意假设", "D": "海森堡不确定性原理", "E": "洪特规则" },
+      "glossary": [
+        { "term": "spin", "meaning": "自旋" },
+        { "term": "maximized", "meaning": "最大化" },
+        { "term": "Hund's rule", "meaning": "洪特规则" },
+        { "term": "Pauli Exclusion Principle", "meaning": "泡利不相容原理" }
+      ]
+    },
+    "63": {
+      "stemZh": "下列哪个电子排布图违反了泡利不相容原理？",
+      "optionsZh": { "A": "图 A", "B": "图 B", "C": "图 C", "D": "图 D", "E": "图 E" },
+      "glossary": [
+        { "term": "electron configuration", "meaning": "电子排布（图）" },
+        { "term": "violation", "meaning": "违反" },
+        { "term": "Pauli exclusion principle", "meaning": "泡利不相容原理" }
+      ]
+    },
+    "64": {
+      "stemZh": "________ 量子数决定轨道的形状。",
+      "optionsZh": { "A": "自旋", "B": "磁", "C": "主", "D": "角动量", "E": "psi" },
+      "glossary": [
+        { "term": "define", "meaning": "决定、定义" },
+        { "term": "shape", "meaning": "形状" }
+      ]
+    },
+    "65": {
+      "stemZh": "n=1 电子层含有 ________ 个 p 轨道。其余电子层都含有 ________ 个 p 轨道。",
+      "optionsZh": { "A": "3, 6", "B": "0, 3", "C": "6, 2", "D": "3, 3", "E": "0, 6" },
+      "glossary": [
+        { "term": "shell", "meaning": "电子层" },
+        { "term": "p orbital", "meaning": "p 轨道" }
+      ]
+    },
+    "66": {
+      "stemZh": "第二电子层有 ________ 个轨道。",
+      "optionsZh": { "A": "1", "B": "2", "C": "4", "D": "8", "E": "9" },
+      "glossary": [
+        { "term": "second shell", "meaning": "第二电子层" }
+      ]
+    },
+    "67": {
+      "stemZh": "________ 轨道呈球形对称。",
+      "optionsZh": { "A": "s", "B": "p", "C": "d", "D": "f", "E": "g" },
+      "glossary": [
+        { "term": "spherically symmetrical", "meaning": "球形对称的" }
+      ]
+    },
+    "68": {
+      "stemZh": "确定原子中某个特定电子需要多少个量子数？",
+      "optionsZh": { "A": "3", "B": "4", "C": "2", "D": "1", "E": "5" },
+      "glossary": [
+        { "term": "designate", "meaning": "指定、确定" },
+        { "term": "particular", "meaning": "特定的" }
+      ]
+    },
+    "69": {
+      "stemZh": "下列哪一组是原子中电子可接受的量子数（按 n, l, ml, ms 排列）？",
+      "optionsZh": { "A": "3, 2, −2, −1/2", "B": "3, 3, −4, 1/2", "C": "3, 4, 6, −1/2", "D": "3, 2, 0, 0", "E": "3, 3, 3, −1/2" },
+      "glossary": [
+        { "term": "acceptable", "meaning": "可接受的" }
+      ]
+    },
+    "70": {
+      "stemZh": "可见光区对应电磁波谱的哪个波长范围？",
+      "optionsZh": { "A": "约 400–750 nm", "B": "约 100–1000 nm", "C": "约 200–900 nm", "D": "约 150–550 nm", "E": "约 250–1000 nm" },
+      "glossary": [
+        { "term": "visible region", "meaning": "可见光区" },
+        { "term": "electromagnetic spectrum", "meaning": "电磁波谱" },
+        { "term": "wavelength", "meaning": "波长" }
+      ]
+    },
+    "71": {
+      "stemZh": "下列哪一组元素的所有成员预期具有非常相似的化学性质？",
+      "optionsZh": { "A": "O, S, Se", "B": "N, O, F", "C": "Na, Mg, K", "D": "S, Se, Si", "E": "Ne, Na, Mg" },
+      "glossary": [
+        { "term": "similar chemical properties", "meaning": "相似的化学性质" }
+      ]
+    },
+    "72": {
+      "stemZh": "下列哪一组元素的所有成员预期具有非常相似的化学性质？",
+      "optionsZh": { "A": "P, Se, I", "B": "Cl, Br, Na", "C": "Si, As, Te", "D": "Ne, Na, Mg", "E": "Br, I, At" },
+      "glossary": [
+        { "term": "similar chemical properties", "meaning": "相似的化学性质" }
+      ]
+    },
+    "73": {
+      "stemZh": "原子的有效核电荷主要受 ________ 影响。",
+      "optionsZh": { "A": "内层电子", "B": "外层电子", "C": "核电荷", "D": "电子分布", "E": "轨道径向概率" },
+      "glossary": [
+        { "term": "effective nuclear charge", "meaning": "有效核电荷" },
+        { "term": "primarily", "meaning": "主要地" },
+        { "term": "inner electrons", "meaning": "内层电子" },
+        { "term": "nuclear charge", "meaning": "核电荷" }
+      ]
+    },
+    "74": {
+      "stemZh": "当我们 ________ 时，原子半径通常增大。",
+      "optionsZh": { "A": "沿族向下、沿周期从右向左", "B": "沿族向上、沿周期从左向右", "C": "沿族向下、沿周期从左向右", "D": "沿族向上、沿周期从右向左", "E": "沿族向下；周期位置无影响" },
+      "glossary": [
+        { "term": "atomic radius", "meaning": "原子半径" },
+        { "term": "across a period", "meaning": "沿周期" },
+        { "term": "down a group", "meaning": "沿族向下" }
+      ]
+    },
+    "75": {
+      "stemZh": "下列哪个是 Mg、Na、P、Si、Ar 原子半径的正确顺序？",
+      "optionsZh": { "A": "Mg > Na > P > Si > Ar", "B": "Ar > Si > P > Na > Mg", "C": "Si > P > Ar > Na > Mg", "D": "Na > Mg > Si > P > Ar", "E": "Ar > P > Si > Mg > Na" },
+      "glossary": [
+        { "term": "order", "meaning": "顺序" },
+        { "term": "atomic radius", "meaning": "原子半径" }
+      ]
+    }
+  }
+}

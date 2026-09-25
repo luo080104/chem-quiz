@@ -1,0 +1,205 @@
+{
+  "label": "chapter1a",
+  "part": 4,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "76": {
+      "stemZh": "下列哪个等电子体序列按半径递增排列正确？",
+      "optionsZh": { "A": "K⁺ < Ca²⁺ < Ar < Cl⁻", "B": "Cl⁻ < Ar < K⁺ < Ca²⁺", "C": "Ca²⁺ < Ar < K⁺ < Cl⁻", "D": "Ca²⁺ < K⁺ < Ar < Cl⁻", "E": "Ca²⁺ < K⁺ < Cl⁻ < Ar" },
+      "glossary": [
+        { "term": "isoelectronic series", "meaning": "等电子体序列（电子数相同）" },
+        { "term": "increasing radius", "meaning": "半径递增" }
+      ]
+    },
+    "77": {
+      "stemZh": "下列哪个给出第一电离能的正确顺序？",
+      "optionsZh": { "A": "Cl > S > Al > Ar > Si", "B": "Ar > Cl > S > Si > Al", "C": "Al > Si > S > Cl > Ar", "D": "Cl > S > Al > Si > Ar", "E": "S > Si > Cl > Al > Ar" },
+      "glossary": [
+        { "term": "first ionization energy", "meaning": "第一电离能" },
+        { "term": "order", "meaning": "顺序" }
+      ]
+    },
+    "78": {
+      "stemZh": "哪个方程式正确表示钙的第一电离？",
+      "optionsZh": { "A": "Ca(g) → Ca⁺(g) + e⁻", "B": "Ca(g) → Ca⁻(g) + e⁻", "C": "Ca(g) + e⁻ → Ca⁻(g)", "D": "Ca⁻(g) → Ca(g) + e⁻", "E": "Ca⁺(g) + e⁻ → Ca(g)" },
+      "glossary": [
+        { "term": "first ionization", "meaning": "第一电离（失去第一个电子）" },
+        { "term": "equation", "meaning": "方程式" }
+      ]
+    },
+    "79": {
+      "stemZh": "下列哪个正确表示铜的第二电离？",
+      "optionsZh": { "A": "Cu(g) → Cu⁺(g) + e⁻", "B": "Cu⁺(g) → Cu²⁺(g) + e⁻", "C": "Cu⁻(g) + e⁻ → Cu²⁻(g)", "D": "Cu⁺(g) + e⁻ → Cu²⁺(g)", "E": "Cu⁺(g) + e⁻ → Cu(g)" },
+      "glossary": [
+        { "term": "second ionization", "meaning": "第二电离" }
+      ]
+    },
+    "80": {
+      "stemZh": "下列元素中，________ 的电子亲和能最负。",
+      "optionsZh": { "A": "S", "B": "Cl", "C": "Se", "D": "Br", "E": "I" },
+      "glossary": [
+        { "term": "electron affinity", "meaning": "电子亲和能" },
+        { "term": "most negative", "meaning": "最负（放能最多）" }
+      ]
+    },
+    "81": {
+      "stemZh": "哪个方程式正确表示钙的电子亲和能？",
+      "optionsZh": { "A": "Ca(g) + e⁻ → Ca⁻(g)", "B": "Ca(g) → Ca⁺(g) + e⁻", "C": "Ca(g) → Ca⁻(g) + e⁻", "D": "Ca⁻(g) → Ca(g) + e⁻", "E": "Ca⁺(g) + e⁻ → Ca(g)" },
+      "glossary": [
+        { "term": "electron affinity", "meaning": "电子亲和能" }
+      ]
+    },
+    "82": {
+      "stemZh": "在生成大多数阴离子的过程中，________ 一个电子所对应的能量变化（kJ/mol）是 ________。",
+      "optionsZh": { "A": "移去，正", "B": "加入，正", "C": "移去，负", "D": "加入，负", "E": "以上都不对" },
+      "glossary": [
+        { "term": "anion", "meaning": "阴离子" },
+        { "term": "energy change", "meaning": "能量变化" },
+        { "term": "generation", "meaning": "生成" }
+      ]
+    },
+    "83": {
+      "stemZh": "下列元素中，________ 的金属性最强。",
+      "optionsZh": { "A": "钠", "B": "钡", "C": "镁", "D": "钙", "E": "铯" },
+      "glossary": [
+        { "term": "metallic", "meaning": "金属性的" },
+        { "term": "metallic character", "meaning": "金属性" }
+      ]
+    },
+    "84": {
+      "stemZh": "下列化合物中，________ 的离子间距最小。",
+      "optionsZh": { "A": "KF", "B": "K2S", "C": "RbCl", "D": "SrBr2", "E": "RbF" },
+      "glossary": [
+        { "term": "ionic separation", "meaning": "离子间距" }
+      ]
+    },
+    "85": {
+      "stemZh": "下列哪个离子半径最大？",
+      "optionsZh": { "A": "Cl⁻", "B": "K⁺", "C": "Br⁻", "D": "F⁻", "E": "Na⁺" },
+      "glossary": [
+        { "term": "ion", "meaning": "离子" },
+        { "term": "radius", "meaning": "半径" }
+      ]
+    },
+    "86": {
+      "stemZh": "所列各族中，________ 的第一电离能最低。",
+      "optionsZh": { "A": "碱金属", "B": "过渡元素", "C": "卤素", "D": "碱土金属", "E": "稀有气体" },
+      "glossary": [
+        { "term": "first ionization energy", "meaning": "第一电离能" },
+        { "term": "alkali metals", "meaning": "碱金属" },
+        { "term": "noble gases", "meaning": "稀有气体" }
+      ]
+    },
+    "87": {
+      "stemZh": "下列哪个正确表示磷的第二电离？",
+      "optionsZh": { "A": "P⁺(g) + e⁻ → P²⁺(g)", "B": "P(g) → P⁺(g) + e⁻", "C": "P⁻(g) + e⁻ → P²⁻(g)", "D": "P⁺(g) → P²⁺(g) + e⁻", "E": "P⁺(g) + e⁻ → P(g)" },
+      "glossary": [
+        { "term": "second ionization", "meaning": "第二电离" },
+        { "term": "phosphorus", "meaning": "磷" }
+      ]
+    },
+    "88": {
+      "stemZh": "下列哪个正确表示铝的第三电离？",
+      "optionsZh": { "A": "Al²⁺(g) + e⁻ → Al⁺(g)", "B": "Al(g) → Al⁺(g) + e⁻", "C": "Al²⁻(g) + e⁻ → Al³⁻(g)", "D": "Al²⁺(g) + e⁻ → Al³⁺(g)", "E": "Al²⁺(g) → Al³⁺(g) + e⁻" },
+      "glossary": [
+        { "term": "third ionization", "meaning": "第三电离" },
+        { "term": "aluminum", "meaning": "铝" }
+      ]
+    },
+    "89": {
+      "stemZh": "下列元素中，________ 的电子亲和能最负。",
+      "optionsZh": { "A": "O", "B": "K", "C": "B", "D": "Na", "E": "S" },
+      "glossary": [
+        { "term": "electron affinity", "meaning": "电子亲和能" }
+      ]
+    },
+    "90": {
+      "stemZh": "下列粒子中，________ 的半径最大。",
+      "optionsZh": { "A": "Rb⁺", "B": "Sr²⁺", "C": "Br⁻", "D": "Kr", "E": "Ar" },
+      "glossary": [
+        { "term": "species", "meaning": "粒子（种类）" },
+        { "term": "radius", "meaning": "半径" }
+      ]
+    },
+    "91": {
+      "stemZh": "下列哪个正确表示磷的电子亲和能？",
+      "optionsZh": { "A": "P(g) → P⁺(g) + e⁻", "B": "P(g) + e⁻ → P⁻(g)", "C": "P4(g) + e⁻ → P⁻(g)", "D": "P4(g) + 4e⁻ → 4P⁻(g)", "E": "P⁺(g) + e⁻ → P(g)" },
+      "glossary": [
+        { "term": "electron affinity", "meaning": "电子亲和能" }
+      ]
+    },
+    "92": {
+      "stemZh": "钠比氯更容易以阳离子形式存在。这是因为 ________。",
+      "optionsZh": { "A": "氯是气体而钠是固体", "B": "氯的电子亲和能比钠大", "C": "氯比钠大", "D": "氯的电离能比钠大", "E": "氯比钠更具金属性" },
+      "glossary": [
+        { "term": "apt to", "meaning": "易于" },
+        { "term": "cation", "meaning": "阳离子" },
+        { "term": "ionization energy", "meaning": "电离能" }
+      ]
+    },
+    "93": {
+      "stemZh": "下列元素中，________ 的熔点最高。",
+      "optionsZh": { "A": "Ca", "B": "K", "C": "Fe", "D": "Na", "E": "Ba" },
+      "glossary": [
+        { "term": "melting point", "meaning": "熔点" }
+      ]
+    },
+    "94": {
+      "stemZh": "下列氧化物中，________ 的酸性最强。",
+      "optionsZh": { "A": "CaO", "B": "CO2", "C": "Al2O3", "D": "Li2O", "E": "Na2O" },
+      "glossary": [
+        { "term": "oxide", "meaning": "氧化物" },
+        { "term": "acidic", "meaning": "酸性的" }
+      ]
+    },
+    "95": {
+      "stemZh": "下列哪项不是金属的特征？",
+      "optionsZh": { "A": "酸性氧化物", "B": "低电离能", "C": "可锻性", "D": "延展性", "E": "以上都是金属的特征" },
+      "glossary": [
+        { "term": "characteristic", "meaning": "特征" },
+        { "term": "malleability", "meaning": "可锻性" },
+        { "term": "ductility", "meaning": "延展性" }
+      ]
+    },
+    "96": {
+      "stemZh": "周期表中看起来像金属、导热性差、且作为半导体导电的元素是 ________。",
+      "optionsZh": { "A": "Sn", "B": "B", "C": "As", "D": "Si", "E": "Ge" },
+      "glossary": [
+        { "term": "thermal conductor", "meaning": "导热体" },
+        { "term": "semiconductor", "meaning": "半导体" }
+      ]
+    },
+    "97": {
+      "stemZh": "金属在室温下可以是 ________。",
+      "optionsZh": { "A": "仅液态", "B": "仅固态", "C": "固态或液态", "D": "固态、液态或气态", "E": "液态或气态" },
+      "glossary": [
+        { "term": "at room temperature", "meaning": "在室温下" }
+      ]
+    },
+    "98": {
+      "stemZh": "元素的第一电离能沿周期表从左到右 ________，沿同族从下到上 ________。",
+      "optionsZh": { "A": "增大，增大", "B": "增大，减小", "C": "减小，增大", "D": "减小，减小", "E": "完全无法预测" },
+      "glossary": [
+        { "term": "first ionization energy", "meaning": "第一电离能" },
+        { "term": "across a period", "meaning": "沿周期（从左到右）" },
+        { "term": "from the bottom to the top", "meaning": "从下到上" }
+      ]
+    },
+    "99": {
+      "stemZh": "一般地，沿周期表从左到右：(1) 原子半径 ________；(2) 电子亲和能变得 ________ 负；(3) 第一电离能 ________。",
+      "optionsZh": { "A": "减小，越来越不，增大", "B": "增大，越来越，减小", "C": "增大，越来越，增大", "D": "减小，越来越，增大", "E": "减小，越来越，减小" },
+      "glossary": [
+        { "term": "electron affinity", "meaning": "电子亲和能" },
+        { "term": "increasingly negative", "meaning": "越来越负" },
+        { "term": "atomic radius", "meaning": "原子半径" }
+      ]
+    },
+    "100": {
+      "stemZh": "周期表中大多数元素是 ________。",
+      "optionsZh": { "A": "气体", "B": "非金属", "C": "类金属", "D": "液体", "E": "金属" },
+      "glossary": [
+        { "term": "most", "meaning": "大多数" }
+      ]
+    }
+  }
+}

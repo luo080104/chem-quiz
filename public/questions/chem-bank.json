@@ -3,7 +3,7 @@
     "bankId": "chem-250",
     "version": 1,
     "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
-    "generatedAt": "2026-09-25T11:11:52.778Z",
+    "generatedAt": "2026-09-25T11:12:53.069Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -22,8 +22,8 @@
       "pending": 196,
       "pendingImage": 0,
       "contested": 4,
-      "translated": 50,
-      "glossaryTerms": 143
+      "translated": 100,
+      "glossaryTerms": 257
     },
     "disclaimer": "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。"
   },
@@ -3465,7 +3465,7 @@
       "type": "single",
       "stem": "Of the following, ________ radiation has the shortest wavelength.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，________ 辐射的波长最短。",
       "options": [
         {
           "key": "A",
@@ -3488,8 +3488,31 @@
           "text": "infrared"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "X 射线",
+        "B": "无线电波",
+        "C": "微波",
+        "D": "紫外",
+        "E": "红外"
+      },
+      "glossary": [
+        {
+          "term": "radiation",
+          "meaning": "辐射"
+        },
+        {
+          "term": "wavelength",
+          "meaning": "波长"
+        },
+        {
+          "term": "ultraviolet",
+          "meaning": "紫外线"
+        },
+        {
+          "term": "infrared",
+          "meaning": "红外线"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -3515,7 +3538,7 @@
       "type": "single",
       "stem": "According to the Heisenberg Uncertainty Principle, it is impossible to know precisely both the position and the ________ of an electron.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据海森堡不确定性原理，不可能同时精确知道电子的位置和它的 ________。",
       "options": [
         {
           "key": "A",
@@ -3538,8 +3561,31 @@
           "text": "charge"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "质量",
+        "B": "颜色",
+        "C": "动量",
+        "D": "形状",
+        "E": "电荷"
+      },
+      "glossary": [
+        {
+          "term": "Heisenberg Uncertainty Principle",
+          "meaning": "海森堡不确定性原理"
+        },
+        {
+          "term": "precisely",
+          "meaning": "精确地"
+        },
+        {
+          "term": "position",
+          "meaning": "位置"
+        },
+        {
+          "term": "momentum",
+          "meaning": "动量"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -3565,7 +3611,7 @@
       "type": "single",
       "stem": "Which one of the quantum numbers does not result from the solution of the Schrodinger equation?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "哪一个量子数不是由薛定谔方程的解得到的？",
       "options": [
         {
           "key": "A",
@@ -3588,8 +3634,35 @@
           "text": "angular momentum"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "主量子数",
+        "B": "角量子数",
+        "C": "磁量子数",
+        "D": "自旋量子数",
+        "E": "角动量量子数"
+      },
+      "glossary": [
+        {
+          "term": "quantum number",
+          "meaning": "量子数"
+        },
+        {
+          "term": "Schrodinger equation",
+          "meaning": "薛定谔方程"
+        },
+        {
+          "term": "principal",
+          "meaning": "主（量子数）"
+        },
+        {
+          "term": "azimuthal",
+          "meaning": "角（量子数）"
+        },
+        {
+          "term": "spin",
+          "meaning": "自旋"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -3615,7 +3688,7 @@
       "type": "single",
       "stem": "The photoelectric effect is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "光电效应是 ________。",
       "options": [
         {
           "key": "A",
@@ -3638,8 +3711,31 @@
           "text": "a relativistic effect"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "金属对光的全反射，使其呈现典型光泽",
+        "B": "硅太阳能电池受阳光照射时产生电流",
+        "C": "金属被能量足够的光照射时逸出电子",
+        "D": "照相底片暴露在电场中变暗",
+        "E": "一种相对论效应"
+      },
+      "glossary": [
+        {
+          "term": "photoelectric effect",
+          "meaning": "光电效应"
+        },
+        {
+          "term": "ejection",
+          "meaning": "逸出、发射"
+        },
+        {
+          "term": "luster",
+          "meaning": "光泽"
+        },
+        {
+          "term": "relativistic",
+          "meaning": "相对论的"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -3665,7 +3761,7 @@
       "type": "single",
       "stem": "All of the orbitals in a given electron shell have the same value as the ________ quantum number.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "同一电子层中的所有轨道具有相同的 ________ 量子数。",
       "options": [
         {
           "key": "A",
@@ -3688,8 +3784,27 @@
           "text": "psi"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "主",
+        "B": "角动量",
+        "C": "磁",
+        "D": "自旋",
+        "E": "psi"
+      },
+      "glossary": [
+        {
+          "term": "electron shell",
+          "meaning": "电子层"
+        },
+        {
+          "term": "orbital",
+          "meaning": "轨道"
+        },
+        {
+          "term": "angular momentum",
+          "meaning": "角动量"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -3715,7 +3830,7 @@
       "type": "single",
       "stem": "The uncertainty principle states that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "不确定性原理指出 ________。",
       "options": [
         {
           "key": "A",
@@ -3738,8 +3853,27 @@
           "text": "it is impossible to know how many electrons there are in an atom"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "物质与能量其实是同一回事",
+        "B": "不可能确定地知道任何事",
+        "C": "不可能知道电子的精确位置和动量",
+        "D": "报告的数字中只能有一位不确定数字",
+        "E": "不可能知道一个原子中有多少电子"
+      },
+      "glossary": [
+        {
+          "term": "uncertainty principle",
+          "meaning": "不确定性原理"
+        },
+        {
+          "term": "with certainty",
+          "meaning": "确定地"
+        },
+        {
+          "term": "exact",
+          "meaning": "精确的"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -3765,7 +3899,7 @@
       "type": "single",
       "stem": "Which one of the following orbitals can hold two electrons?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个轨道可以容纳两个电子？",
       "options": [
         {
           "key": "A",
@@ -3788,8 +3922,23 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2px",
+        "B": "3s",
+        "C": "4dxy",
+        "D": "以上都可以",
+        "E": "以上都不行"
+      },
+      "glossary": [
+        {
+          "term": "orbital",
+          "meaning": "轨道"
+        },
+        {
+          "term": "hold",
+          "meaning": "容纳"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -3815,7 +3964,7 @@
       "type": "single",
       "stem": "Which of the subshells below do not exist due to the constraints upon the angular momentum quantum number?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "由于角动量量子数的限制，下列哪个亚层不存在？",
       "options": [
         {
           "key": "A",
@@ -3838,8 +3987,27 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "4f",
+        "B": "4d",
+        "C": "4p",
+        "D": "4s",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "subshell",
+          "meaning": "亚层"
+        },
+        {
+          "term": "constraints",
+          "meaning": "限制、约束"
+        },
+        {
+          "term": "angular momentum quantum number",
+          "meaning": "角动量量子数"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -3865,7 +4033,7 @@
       "type": "single",
       "stem": "An electron cannot have the quantum numbers n = ________, l = ________, ml = ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "电子不能具有量子数 n=________、l=________、ml=________。",
       "options": [
         {
           "key": "A",
@@ -3888,8 +4056,31 @@
           "text": "3, 2, 1"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2, 0, 0",
+        "B": "2, 1, −1",
+        "C": "3, 1, −1",
+        "D": "1, 1, 1",
+        "E": "3, 2, 1"
+      },
+      "glossary": [
+        {
+          "term": "quantum numbers",
+          "meaning": "量子数"
+        },
+        {
+          "term": "principal (n)",
+          "meaning": "主量子数"
+        },
+        {
+          "term": "azimuthal (l)",
+          "meaning": "角量子数"
+        },
+        {
+          "term": "magnetic (ml)",
+          "meaning": "磁量子数"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -3915,7 +4106,7 @@
       "type": "single",
       "stem": "Which one of the following is an incorrect subshell notation?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个亚层符号是不正确的？",
       "options": [
         {
           "key": "A",
@@ -3938,8 +4129,23 @@
           "text": "3d"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "4f",
+        "B": "2d",
+        "C": "3s",
+        "D": "2p",
+        "E": "3d"
+      },
+      "glossary": [
+        {
+          "term": "subshell notation",
+          "meaning": "亚层（符号）表示法"
+        },
+        {
+          "term": "incorrect",
+          "meaning": "不正确的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -3965,7 +4171,7 @@
       "type": "single",
       "stem": "Which of the following is not a valid set of four quantum numbers? (n, l, ml, ms)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪一组四个量子数 (n, l, ml, ms) 是不合法的？",
       "options": [
         {
           "key": "A",
@@ -3988,8 +4194,23 @@
           "text": "1, 1, 0, +1/2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "2, 0, 0, +1/2",
+        "B": "2, 1, 0, −1/2",
+        "C": "3, 1, −1, −1/2",
+        "D": "1, 0, 0, +1/2",
+        "E": "1, 1, 0, +1/2"
+      },
+      "glossary": [
+        {
+          "term": "valid",
+          "meaning": "合法的、有效的"
+        },
+        {
+          "term": "set",
+          "meaning": "组、集合"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -4015,7 +4236,7 @@
       "type": "single",
       "stem": "The lowest orbital energy is reached when the number of electrons with the same spin is maximized. This statement describes ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "当相同自旋的电子数达到最大时，轨道能量最低。这句话描述的是 ________。",
       "options": [
         {
           "key": "A",
@@ -4038,8 +4259,31 @@
           "text": "Hund's rule"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "泡利不相容原理",
+        "B": "普朗克常数",
+        "C": "德布罗意假设",
+        "D": "海森堡不确定性原理",
+        "E": "洪特规则"
+      },
+      "glossary": [
+        {
+          "term": "spin",
+          "meaning": "自旋"
+        },
+        {
+          "term": "maximized",
+          "meaning": "最大化"
+        },
+        {
+          "term": "Hund's rule",
+          "meaning": "洪特规则"
+        },
+        {
+          "term": "Pauli Exclusion Principle",
+          "meaning": "泡利不相容原理"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -4065,7 +4309,7 @@
       "type": "single",
       "stem": "Which electron configuration represents a violation of the Pauli exclusion principle?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个电子排布图违反了泡利不相容原理？",
       "options": [
         {
           "key": "A",
@@ -4098,8 +4342,27 @@
           "imageUrl": "images/chapter1a/img006.jpeg"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "图 A",
+        "B": "图 B",
+        "C": "图 C",
+        "D": "图 D",
+        "E": "图 E"
+      },
+      "glossary": [
+        {
+          "term": "electron configuration",
+          "meaning": "电子排布（图）"
+        },
+        {
+          "term": "violation",
+          "meaning": "违反"
+        },
+        {
+          "term": "Pauli exclusion principle",
+          "meaning": "泡利不相容原理"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -4125,7 +4388,7 @@
       "type": "single",
       "stem": "The ________ quantum number defines the shape of an orbital.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 量子数决定轨道的形状。",
       "options": [
         {
           "key": "A",
@@ -4148,8 +4411,23 @@
           "text": "psi"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "自旋",
+        "B": "磁",
+        "C": "主",
+        "D": "角动量",
+        "E": "psi"
+      },
+      "glossary": [
+        {
+          "term": "define",
+          "meaning": "决定、定义"
+        },
+        {
+          "term": "shape",
+          "meaning": "形状"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -4175,7 +4453,7 @@
       "type": "single",
       "stem": "The n = 1 shell contains ________ p orbitals. All the other shells contain ________ p orbitals.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "n=1 电子层含有 ________ 个 p 轨道。其余电子层都含有 ________ 个 p 轨道。",
       "options": [
         {
           "key": "A",
@@ -4198,8 +4476,23 @@
           "text": "0, 6"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "3, 6",
+        "B": "0, 3",
+        "C": "6, 2",
+        "D": "3, 3",
+        "E": "0, 6"
+      },
+      "glossary": [
+        {
+          "term": "shell",
+          "meaning": "电子层"
+        },
+        {
+          "term": "p orbital",
+          "meaning": "p 轨道"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -4225,7 +4518,7 @@
       "type": "single",
       "stem": "There are ________ orbitals in the second shell.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "第二电子层有 ________ 个轨道。",
       "options": [
         {
           "key": "A",
@@ -4248,8 +4541,19 @@
           "text": "9"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "8",
+        "E": "9"
+      },
+      "glossary": [
+        {
+          "term": "second shell",
+          "meaning": "第二电子层"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -4275,7 +4579,7 @@
       "type": "single",
       "stem": "________-orbitals are spherically symmetrical.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "________ 轨道呈球形对称。",
       "options": [
         {
           "key": "A",
@@ -4298,8 +4602,19 @@
           "text": "g"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "s",
+        "B": "p",
+        "C": "d",
+        "D": "f",
+        "E": "g"
+      },
+      "glossary": [
+        {
+          "term": "spherically symmetrical",
+          "meaning": "球形对称的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4325,7 +4640,7 @@
       "type": "single",
       "stem": "How many quantum numbers are necessary to designate a particular electron in an atom?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "确定原子中某个特定电子需要多少个量子数？",
       "options": [
         {
           "key": "A",
@@ -4348,8 +4663,23 @@
           "text": "5"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1",
+        "E": "5"
+      },
+      "glossary": [
+        {
+          "term": "designate",
+          "meaning": "指定、确定"
+        },
+        {
+          "term": "particular",
+          "meaning": "特定的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -4375,7 +4705,7 @@
       "type": "single",
       "stem": "Which one of the following represents an acceptable set of quantum numbers for an electron in an atom? (arranged as n, l, ml, and ms )",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪一组是原子中电子可接受的量子数（按 n, l, ml, ms 排列）？",
       "options": [
         {
           "key": "A",
@@ -4398,8 +4728,19 @@
           "text": "3, 3, 3, -1/2"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "3, 2, −2, −1/2",
+        "B": "3, 3, −4, 1/2",
+        "C": "3, 4, 6, −1/2",
+        "D": "3, 2, 0, 0",
+        "E": "3, 3, 3, −1/2"
+      },
+      "glossary": [
+        {
+          "term": "acceptable",
+          "meaning": "可接受的"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4425,7 +4766,7 @@
       "type": "single",
       "stem": "What wavelengths correspond to the visible region of the electromagnetic spectrum?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "可见光区对应电磁波谱的哪个波长范围？",
       "options": [
         {
           "key": "A",
@@ -4448,8 +4789,27 @@
           "text": "About 250 to 1000 nm"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "约 400–750 nm",
+        "B": "约 100–1000 nm",
+        "C": "约 200–900 nm",
+        "D": "约 150–550 nm",
+        "E": "约 250–1000 nm"
+      },
+      "glossary": [
+        {
+          "term": "visible region",
+          "meaning": "可见光区"
+        },
+        {
+          "term": "electromagnetic spectrum",
+          "meaning": "电磁波谱"
+        },
+        {
+          "term": "wavelength",
+          "meaning": "波长"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4475,7 +4835,7 @@
       "type": "single",
       "stem": "In which set of elements would all members be expected to have very similar chemical properties?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪一组元素的所有成员预期具有非常相似的化学性质？",
       "options": [
         {
           "key": "A",
@@ -4498,8 +4858,19 @@
           "text": "Ne, Na, Mg"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "O, S, Se",
+        "B": "N, O, F",
+        "C": "Na, Mg, K",
+        "D": "S, Se, Si",
+        "E": "Ne, Na, Mg"
+      },
+      "glossary": [
+        {
+          "term": "similar chemical properties",
+          "meaning": "相似的化学性质"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4525,7 +4896,7 @@
       "type": "single",
       "stem": "In which set of elements would all members be expected to have very similar chemical properties?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪一组元素的所有成员预期具有非常相似的化学性质？",
       "options": [
         {
           "key": "A",
@@ -4548,8 +4919,19 @@
           "text": "Br, I, At"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "P, Se, I",
+        "B": "Cl, Br, Na",
+        "C": "Si, As, Te",
+        "D": "Ne, Na, Mg",
+        "E": "Br, I, At"
+      },
+      "glossary": [
+        {
+          "term": "similar chemical properties",
+          "meaning": "相似的化学性质"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -4575,7 +4957,7 @@
       "type": "single",
       "stem": "The effective nuclear charge of an atom is primarily affected by ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "原子的有效核电荷主要受 ________ 影响。",
       "options": [
         {
           "key": "A",
@@ -4598,8 +4980,31 @@
           "text": "orbital radial probability"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "内层电子",
+        "B": "外层电子",
+        "C": "核电荷",
+        "D": "电子分布",
+        "E": "轨道径向概率"
+      },
+      "glossary": [
+        {
+          "term": "effective nuclear charge",
+          "meaning": "有效核电荷"
+        },
+        {
+          "term": "primarily",
+          "meaning": "主要地"
+        },
+        {
+          "term": "inner electrons",
+          "meaning": "内层电子"
+        },
+        {
+          "term": "nuclear charge",
+          "meaning": "核电荷"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -4625,7 +5030,7 @@
       "type": "single",
       "stem": "Atomic radius generally increases as we move ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "当我们 ________ 时，原子半径通常增大。",
       "options": [
         {
           "key": "A",
@@ -4648,8 +5053,27 @@
           "text": "down a group; the period position has no effect"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "沿族向下、沿周期从右向左",
+        "B": "沿族向上、沿周期从左向右",
+        "C": "沿族向下、沿周期从左向右",
+        "D": "沿族向上、沿周期从右向左",
+        "E": "沿族向下；周期位置无影响"
+      },
+      "glossary": [
+        {
+          "term": "atomic radius",
+          "meaning": "原子半径"
+        },
+        {
+          "term": "across a period",
+          "meaning": "沿周期"
+        },
+        {
+          "term": "down a group",
+          "meaning": "沿族向下"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4675,7 +5099,7 @@
       "type": "single",
       "stem": "Of the following, which gives the correct order for atomic radius for Mg, Na, P, Si and Ar?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个是 Mg、Na、P、Si、Ar 原子半径的正确顺序？",
       "options": [
         {
           "key": "A",
@@ -4698,8 +5122,23 @@
           "text": "Ar  >  P  >  Si  >  Mg  >  Na"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Mg > Na > P > Si > Ar",
+        "B": "Ar > Si > P > Na > Mg",
+        "C": "Si > P > Ar > Na > Mg",
+        "D": "Na > Mg > Si > P > Ar",
+        "E": "Ar > P > Si > Mg > Na"
+      },
+      "glossary": [
+        {
+          "term": "order",
+          "meaning": "顺序"
+        },
+        {
+          "term": "atomic radius",
+          "meaning": "原子半径"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -4725,7 +5164,7 @@
       "type": "single",
       "stem": "Which isoelectronic series is correctly arranged in order of increasing radius?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个等电子体序列按半径递增排列正确？",
       "options": [
         {
           "key": "A",
@@ -4748,8 +5187,23 @@
           "text": "Ca2+  <  K+  <  Cl-  <  Ar"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "K⁺ < Ca²⁺ < Ar < Cl⁻",
+        "B": "Cl⁻ < Ar < K⁺ < Ca²⁺",
+        "C": "Ca²⁺ < Ar < K⁺ < Cl⁻",
+        "D": "Ca²⁺ < K⁺ < Ar < Cl⁻",
+        "E": "Ca²⁺ < K⁺ < Cl⁻ < Ar"
+      },
+      "glossary": [
+        {
+          "term": "isoelectronic series",
+          "meaning": "等电子体序列（电子数相同）"
+        },
+        {
+          "term": "increasing radius",
+          "meaning": "半径递增"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -4775,7 +5229,7 @@
       "type": "single",
       "stem": "Of the choices below, which gives the order for first ionization energies?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个给出第一电离能的正确顺序？",
       "options": [
         {
           "key": "A",
@@ -4798,8 +5252,23 @@
           "text": "S  >  Si  >  Cl  >  Al  >  Ar"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Cl > S > Al > Ar > Si",
+        "B": "Ar > Cl > S > Si > Al",
+        "C": "Al > Si > S > Cl > Ar",
+        "D": "Cl > S > Al > Si > Ar",
+        "E": "S > Si > Cl > Al > Ar"
+      },
+      "glossary": [
+        {
+          "term": "first ionization energy",
+          "meaning": "第一电离能"
+        },
+        {
+          "term": "order",
+          "meaning": "顺序"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -4825,7 +5294,7 @@
       "type": "single",
       "stem": "Which equation correctly represents the first ionization of calcium?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "哪个方程式正确表示钙的第一电离？",
       "options": [
         {
           "key": "A",
@@ -4848,8 +5317,23 @@
           "text": "Ca+ (g)  +  e-  →  Ca (g)"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ca(g) → Ca⁺(g) + e⁻",
+        "B": "Ca(g) → Ca⁻(g) + e⁻",
+        "C": "Ca(g) + e⁻ → Ca⁻(g)",
+        "D": "Ca⁻(g) → Ca(g) + e⁻",
+        "E": "Ca⁺(g) + e⁻ → Ca(g)"
+      },
+      "glossary": [
+        {
+          "term": "first ionization",
+          "meaning": "第一电离（失去第一个电子）"
+        },
+        {
+          "term": "equation",
+          "meaning": "方程式"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -4875,7 +5359,7 @@
       "type": "single",
       "stem": "Which of the following correctly represents the second ionization of copper?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个正确表示铜的第二电离？",
       "options": [
         {
           "key": "A",
@@ -4898,8 +5382,19 @@
           "text": "Cu+ (g)  +  e-  →  Cu (g)"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Cu(g) → Cu⁺(g) + e⁻",
+        "B": "Cu⁺(g) → Cu²⁺(g) + e⁻",
+        "C": "Cu⁻(g) + e⁻ → Cu²⁻(g)",
+        "D": "Cu⁺(g) + e⁻ → Cu²⁺(g)",
+        "E": "Cu⁺(g) + e⁻ → Cu(g)"
+      },
+      "glossary": [
+        {
+          "term": "second ionization",
+          "meaning": "第二电离"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -4925,7 +5420,7 @@
       "type": "single",
       "stem": "Of the following elements, ________ has the most negative electron affinity.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列元素中，________ 的电子亲和能最负。",
       "options": [
         {
           "key": "A",
@@ -4948,8 +5443,23 @@
           "text": "I"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "S",
+        "B": "Cl",
+        "C": "Se",
+        "D": "Br",
+        "E": "I"
+      },
+      "glossary": [
+        {
+          "term": "electron affinity",
+          "meaning": "电子亲和能"
+        },
+        {
+          "term": "most negative",
+          "meaning": "最负（放能最多）"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -4975,7 +5485,7 @@
       "type": "single",
       "stem": "Which equation correctly represents the electron affinity of calcium?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "哪个方程式正确表示钙的电子亲和能？",
       "options": [
         {
           "key": "A",
@@ -4998,8 +5508,19 @@
           "text": "Ca+ (g)  +  e-  →  Ca (g)"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ca(g) + e⁻ → Ca⁻(g)",
+        "B": "Ca(g) → Ca⁺(g) + e⁻",
+        "C": "Ca(g) → Ca⁻(g) + e⁻",
+        "D": "Ca⁻(g) → Ca(g) + e⁻",
+        "E": "Ca⁺(g) + e⁻ → Ca(g)"
+      },
+      "glossary": [
+        {
+          "term": "electron affinity",
+          "meaning": "电子亲和能"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -5025,7 +5546,7 @@
       "type": "single",
       "stem": "In the generation of most anions, the energy change (kJ/mol) that _______ an electron is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在生成大多数阴离子的过程中，________ 一个电子所对应的能量变化（kJ/mol）是 ________。",
       "options": [
         {
           "key": "A",
@@ -5048,8 +5569,27 @@
           "text": "None of the above is correct."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "移去，正",
+        "B": "加入，正",
+        "C": "移去，负",
+        "D": "加入，负",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "anion",
+          "meaning": "阴离子"
+        },
+        {
+          "term": "energy change",
+          "meaning": "能量变化"
+        },
+        {
+          "term": "generation",
+          "meaning": "生成"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -5075,7 +5615,7 @@
       "type": "single",
       "stem": "Of the elements below, ________ is the most metallic.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列元素中，________ 的金属性最强。",
       "options": [
         {
           "key": "A",
@@ -5098,8 +5638,23 @@
           "text": "cesium"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "钠",
+        "B": "钡",
+        "C": "镁",
+        "D": "钙",
+        "E": "铯"
+      },
+      "glossary": [
+        {
+          "term": "metallic",
+          "meaning": "金属性的"
+        },
+        {
+          "term": "metallic character",
+          "meaning": "金属性"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -5125,7 +5680,7 @@
       "type": "single",
       "stem": "Of the compounds below, ________ has the smallest ionic separation.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列化合物中，________ 的离子间距最小。",
       "options": [
         {
           "key": "A",
@@ -5148,8 +5703,19 @@
           "text": "RbF"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "KF",
+        "B": "K2S",
+        "C": "RbCl",
+        "D": "SrBr2",
+        "E": "RbF"
+      },
+      "glossary": [
+        {
+          "term": "ionic separation",
+          "meaning": "离子间距"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -5175,7 +5741,7 @@
       "type": "single",
       "stem": "Which ion below has the largest radius?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个离子半径最大？",
       "options": [
         {
           "key": "A",
@@ -5198,8 +5764,23 @@
           "text": "Na+"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Cl⁻",
+        "B": "K⁺",
+        "C": "Br⁻",
+        "D": "F⁻",
+        "E": "Na⁺"
+      },
+      "glossary": [
+        {
+          "term": "ion",
+          "meaning": "离子"
+        },
+        {
+          "term": "radius",
+          "meaning": "半径"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -5225,7 +5806,7 @@
       "type": "single",
       "stem": "________ have the lowest first ionization energies of the groups listed.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "所列各族中，________ 的第一电离能最低。",
       "options": [
         {
           "key": "A",
@@ -5248,8 +5829,27 @@
           "text": "Noble gases"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "碱金属",
+        "B": "过渡元素",
+        "C": "卤素",
+        "D": "碱土金属",
+        "E": "稀有气体"
+      },
+      "glossary": [
+        {
+          "term": "first ionization energy",
+          "meaning": "第一电离能"
+        },
+        {
+          "term": "alkali metals",
+          "meaning": "碱金属"
+        },
+        {
+          "term": "noble gases",
+          "meaning": "稀有气体"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -5275,7 +5875,7 @@
       "type": "single",
       "stem": "Which of the following correctly represents the second ionization of phosphorus?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个正确表示磷的第二电离？",
       "options": [
         {
           "key": "A",
@@ -5298,8 +5898,23 @@
           "text": "P+ (g)  +  e-  →  P (g)"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "P⁺(g) + e⁻ → P²⁺(g)",
+        "B": "P(g) → P⁺(g) + e⁻",
+        "C": "P⁻(g) + e⁻ → P²⁻(g)",
+        "D": "P⁺(g) → P²⁺(g) + e⁻",
+        "E": "P⁺(g) + e⁻ → P(g)"
+      },
+      "glossary": [
+        {
+          "term": "second ionization",
+          "meaning": "第二电离"
+        },
+        {
+          "term": "phosphorus",
+          "meaning": "磷"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -5325,7 +5940,7 @@
       "type": "single",
       "stem": "Which of the following correctly represents the third ionization of aluminum?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个正确表示铝的第三电离？",
       "options": [
         {
           "key": "A",
@@ -5348,8 +5963,23 @@
           "text": "Al2+ (g)  →  Al3+ (g)  +  e-"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Al²⁺(g) + e⁻ → Al⁺(g)",
+        "B": "Al(g) → Al⁺(g) + e⁻",
+        "C": "Al²⁻(g) + e⁻ → Al³⁻(g)",
+        "D": "Al²⁺(g) + e⁻ → Al³⁺(g)",
+        "E": "Al²⁺(g) → Al³⁺(g) + e⁻"
+      },
+      "glossary": [
+        {
+          "term": "third ionization",
+          "meaning": "第三电离"
+        },
+        {
+          "term": "aluminum",
+          "meaning": "铝"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -5375,7 +6005,7 @@
       "type": "single",
       "stem": "Of the following elements, ________ has the most negative electron affinity.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列元素中，________ 的电子亲和能最负。",
       "options": [
         {
           "key": "A",
@@ -5398,8 +6028,19 @@
           "text": "S"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "O",
+        "B": "K",
+        "C": "B",
+        "D": "Na",
+        "E": "S"
+      },
+      "glossary": [
+        {
+          "term": "electron affinity",
+          "meaning": "电子亲和能"
+        }
+      ],
       "answer": [
         "E"
       ],
@@ -5425,7 +6066,7 @@
       "type": "single",
       "stem": "Of the following species, ________ has the largest radius.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列粒子中，________ 的半径最大。",
       "options": [
         {
           "key": "A",
@@ -5448,8 +6089,23 @@
           "text": "Ar"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Rb⁺",
+        "B": "Sr²⁺",
+        "C": "Br⁻",
+        "D": "Kr",
+        "E": "Ar"
+      },
+      "glossary": [
+        {
+          "term": "species",
+          "meaning": "粒子（种类）"
+        },
+        {
+          "term": "radius",
+          "meaning": "半径"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -5475,7 +6131,7 @@
       "type": "single",
       "stem": "Which of the following correctly represents the electron affinity of phosphorus?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个正确表示磷的电子亲和能？",
       "options": [
         {
           "key": "A",
@@ -5498,8 +6154,19 @@
           "text": "P+ (g)  +  e-  →  P (g)"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "P(g) → P⁺(g) + e⁻",
+        "B": "P(g) + e⁻ → P⁻(g)",
+        "C": "P4(g) + e⁻ → P⁻(g)",
+        "D": "P4(g) + 4e⁻ → 4P⁻(g)",
+        "E": "P⁺(g) + e⁻ → P(g)"
+      },
+      "glossary": [
+        {
+          "term": "electron affinity",
+          "meaning": "电子亲和能"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -5525,7 +6192,7 @@
       "type": "single",
       "stem": "Sodium is much more apt to exist as a cation than is chlorine. This is because ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "钠比氯更容易以阳离子形式存在。这是因为 ________。",
       "options": [
         {
           "key": "A",
@@ -5548,8 +6215,27 @@
           "text": "chlorine is more metallic than sodium"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "氯是气体而钠是固体",
+        "B": "氯的电子亲和能比钠大",
+        "C": "氯比钠大",
+        "D": "氯的电离能比钠大",
+        "E": "氯比钠更具金属性"
+      },
+      "glossary": [
+        {
+          "term": "apt to",
+          "meaning": "易于"
+        },
+        {
+          "term": "cation",
+          "meaning": "阳离子"
+        },
+        {
+          "term": "ionization energy",
+          "meaning": "电离能"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -5575,7 +6261,7 @@
       "type": "single",
       "stem": "Of the elements below, ________ has the highest melting point.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列元素中，________ 的熔点最高。",
       "options": [
         {
           "key": "A",
@@ -5598,8 +6284,19 @@
           "text": "Ba"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Ca",
+        "B": "K",
+        "C": "Fe",
+        "D": "Na",
+        "E": "Ba"
+      },
+      "glossary": [
+        {
+          "term": "melting point",
+          "meaning": "熔点"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -5625,7 +6322,7 @@
       "type": "single",
       "stem": "Of the following oxides, ________ is the most acidic.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列氧化物中，________ 的酸性最强。",
       "options": [
         {
           "key": "A",
@@ -5648,8 +6345,23 @@
           "text": "Na2O"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "CaO",
+        "B": "CO2",
+        "C": "Al2O3",
+        "D": "Li2O",
+        "E": "Na2O"
+      },
+      "glossary": [
+        {
+          "term": "oxide",
+          "meaning": "氧化物"
+        },
+        {
+          "term": "acidic",
+          "meaning": "酸性的"
+        }
+      ],
       "answer": [
         "B"
       ],
@@ -5675,7 +6387,7 @@
       "type": "single",
       "stem": "Which of the following is not a characteristic of metals?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪项不是金属的特征？",
       "options": [
         {
           "key": "A",
@@ -5698,8 +6410,27 @@
           "text": "These are all characteristics of metals."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "酸性氧化物",
+        "B": "低电离能",
+        "C": "可锻性",
+        "D": "延展性",
+        "E": "以上都是金属的特征"
+      },
+      "glossary": [
+        {
+          "term": "characteristic",
+          "meaning": "特征"
+        },
+        {
+          "term": "malleability",
+          "meaning": "可锻性"
+        },
+        {
+          "term": "ductility",
+          "meaning": "延展性"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -5725,7 +6456,7 @@
       "type": "single",
       "stem": "The element in the periodic table that looks like a metal, is a poor thermal conductor, and acts as an electrical semiconductor is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中看起来像金属、导热性差、且作为半导体导电的元素是 ________。",
       "options": [
         {
           "key": "A",
@@ -5748,8 +6479,23 @@
           "text": "Ge"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "Sn",
+        "B": "B",
+        "C": "As",
+        "D": "Si",
+        "E": "Ge"
+      },
+      "glossary": [
+        {
+          "term": "thermal conductor",
+          "meaning": "导热体"
+        },
+        {
+          "term": "semiconductor",
+          "meaning": "半导体"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -5775,7 +6521,7 @@
       "type": "single",
       "stem": "Metals can be ________ at room temperature.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "金属在室温下可以是 ________。",
       "options": [
         {
           "key": "A",
@@ -5798,8 +6544,19 @@
           "text": "liquid or gas"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "仅液态",
+        "B": "仅固态",
+        "C": "固态或液态",
+        "D": "固态、液态或气态",
+        "E": "液态或气态"
+      },
+      "glossary": [
+        {
+          "term": "at room temperature",
+          "meaning": "在室温下"
+        }
+      ],
       "answer": [
         "C"
       ],
@@ -5825,7 +6582,7 @@
       "type": "single",
       "stem": "The first ionization energies of the elements ________ as you go from left to right across a period of the periodic table, and ________ as you go from the bottom to the top of a group in the table.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "元素的第一电离能沿周期表从左到右 ________，沿同族从下到上 ________。",
       "options": [
         {
           "key": "A",
@@ -5848,8 +6605,27 @@
           "text": "The first ionization energies of the elements are completely unpredictable."
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "增大，增大",
+        "B": "增大，减小",
+        "C": "减小，增大",
+        "D": "减小，减小",
+        "E": "完全无法预测"
+      },
+      "glossary": [
+        {
+          "term": "first ionization energy",
+          "meaning": "第一电离能"
+        },
+        {
+          "term": "across a period",
+          "meaning": "沿周期（从左到右）"
+        },
+        {
+          "term": "from the bottom to the top",
+          "meaning": "从下到上"
+        }
+      ],
       "answer": [
         "A"
       ],
@@ -5875,7 +6651,7 @@
       "type": "single",
       "stem": "In general, as you go across a period in the periodic table from left to right: (1) the atomic radius ________; (2) the electron affinity becomes ________ negative; and (3) the first ionization energy ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "一般地，沿周期表从左到右：(1) 原子半径 ________；(2) 电子亲和能变得 ________ 负；(3) 第一电离能 ________。",
       "options": [
         {
           "key": "A",
@@ -5898,8 +6674,27 @@
           "text": "decreases, increasingly, decreases"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "减小，越来越不，增大",
+        "B": "增大，越来越，减小",
+        "C": "增大，越来越，增大",
+        "D": "减小，越来越，增大",
+        "E": "减小，越来越，减小"
+      },
+      "glossary": [
+        {
+          "term": "electron affinity",
+          "meaning": "电子亲和能"
+        },
+        {
+          "term": "increasingly negative",
+          "meaning": "越来越负"
+        },
+        {
+          "term": "atomic radius",
+          "meaning": "原子半径"
+        }
+      ],
       "answer": [
         "D"
       ],
@@ -5925,7 +6720,7 @@
       "type": "single",
       "stem": "Most of the elements on the periodic table are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "周期表中大多数元素是 ________。",
       "options": [
         {
           "key": "A",
@@ -5948,8 +6743,19 @@
           "text": "metals"
         }
       ],
-      "optionsZh": {},
-      "glossary": [],
+      "optionsZh": {
+        "A": "气体",
+        "B": "非金属",
+        "C": "类金属",
+        "D": "液体",
+        "E": "金属"
+      },
+      "glossary": [
+        {
+          "term": "most",
+          "meaning": "大多数"
+        }
+      ],
       "answer": [
         "E"
       ],

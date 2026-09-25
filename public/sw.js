@@ -1,9 +1,31 @@
 /* Service worker: network-first with cache fallback (offline support). */
-const CACHE = "chemquiz-v1.0.0";
+const CACHE = "chemquiz-v1.0.1";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
-  event.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html"]).catch(() => {})));
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(CACHE);
+      for (const u of ["./", "./index.html", "./manifest.webmanifest"]) {
+        await cache.add(u).catch(() => {});
+      }
+      try {
+        const res = await fetch("./questions/chem-bank.json", { cache: "no-cache" });
+        if (res.ok) {
+          await cache.put("./questions/chem-bank.json", res.clone());
+          const bank = await res.json();
+          const urls = new Set();
+          for (const q of bank.questions || []) {
+            for (const u of q.stemImages || []) if (u) urls.add(u);
+            for (const o of q.options || []) if (o.imageUrl) urls.add(o.imageUrl);
+          }
+          await Promise.all([...urls].map((u) => cache.add(u).catch(() => {})));
+        }
+      } catch (e) {
+        /* offline install: ignore */
+      }
+    })()
+  );
 });
 
 self.addEventListener("activate", (event) => {

@@ -3,6 +3,7 @@
   "version": 1,
   "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
   "out": "public/questions/chem-bank.json",
+  "topics": ["data/topics/following-the-arrow.json"],
   "sources": [
     {
       "label": "chapter1a",

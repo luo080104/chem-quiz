@@ -140,6 +140,33 @@ for (const src of config.sources) {
   console.log(`  source ${src.label}: ${raw.questions.length} questions, ${imageCursor}/${imageUrls.length} images`);
 }
 
+// Topics: tag the referenced questions and record resolved question ids.
+const topicFiles = config.topics || [];
+const topics = [];
+for (const tf of topicFiles) {
+  if (!existsSync(tf)) continue;
+  const t = JSON.parse(readFileSync(tf, "utf8").replace(/^\uFEFF/, ""));
+  const ids = [];
+  for (const g of t.groups || []) {
+    for (const it of g.items || []) {
+      const qid = `CHEM-${it.ch}-${String(it.n).padStart(3, "0")}`;
+      const q = questions.find((x) => x.id === qid);
+      if (q) {
+        if (!q.tags.includes(t.id)) q.tags.push(t.id);
+        ids.push(qid);
+      }
+    }
+  }
+  topics.push({
+    id: t.id,
+    title: t.title,
+    description: t.description || "",
+    intro: t.intro || "",
+    groups: t.groups || [],
+    questionIds: ids,
+  });
+}
+
 const normAns = (a) => [...(a || [])].map((x) => String(x).toUpperCase()).sort().join("");
 const meta = {
   bankId: config.bankId,
@@ -160,6 +187,7 @@ const meta = {
       (q) => q.phoneAnswer.length > 0 && q.answer.length > 0 && normAns(q.answer) !== normAns(q.phoneAnswer)
     ).length,
   },
+  topics,
   disclaimer:
     "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。",
 };

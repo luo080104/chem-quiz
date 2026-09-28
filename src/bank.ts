@@ -1,4 +1,4 @@
-import type { Bank, Question } from "./types";
+import type { Bank, Question, TopicMeta } from "./types";
 import { switchBank } from "./store";
 
 let bank: Bank | null = null;
@@ -37,4 +37,18 @@ export function byOriginalNumber(n: number): Question | undefined {
 
 export function scorableQuestions(): Question[] {
   return getBank().questions.filter((q) => q.answer.length > 0);
+}
+
+export function topics(): TopicMeta[] {
+  return getBank().meta.topics || [];
+}
+
+export function topicById(id: string): TopicMeta | undefined {
+  return topics().find((t) => t.id === id);
+}
+
+export function topicQuestions(id: string): Question[] {
+  const t = topicById(id);
+  if (!t) return [];
+  return t.questionIds.map((qid) => byId(qid)).filter((q): q is Question => !!q);
 }

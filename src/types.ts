@@ -37,6 +37,24 @@ export interface Question {
   source: { question: string; answer: string | null };
 }
 
+export interface TopicItem {
+  ch: string;
+  n: number;
+  note: string;
+}
+export interface TopicGroup {
+  name: string;
+  items: TopicItem[];
+}
+export interface TopicMeta {
+  id: string;
+  title: string;
+  description: string;
+  intro: string;
+  groups: TopicGroup[];
+  questionIds: string[];
+}
+
 export interface BankMeta {
   bankId: string;
   version: number;
@@ -55,6 +73,7 @@ export interface BankMeta {
     phoneCompared?: number;
     phoneDisagreements?: number;
   };
+  topics?: TopicMeta[];
   disclaimer: string;
 }
 

@@ -551,6 +551,24 @@ sup {
   width: 18px;
   height: 18px;
 }
+.topic-group {
+  margin: 12px 0;
+}
+.topic-group h3 {
+  font-size: 16px;
+  margin: 12px 0 6px;
+}
+.topic-item {
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-left: 4px solid var(--brand);
+}
+.topic-item .nav-btn {
+  display: inline-block;
+  margin-top: 6px;
+}
 
 /* ---------- exam ---------- */
 .exam-top {

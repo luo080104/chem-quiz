@@ -113,6 +113,9 @@ export function renderHome({ app }: RouteCtx): void {
             "提示：用浏览器菜单“添加到主屏幕/添加到桌面”可像 App 一样使用，并支持断网刷题（首次打开后）。",
           ]),
       el("nav", { class: "grid-links" }, [
+        ...(bank.meta.topics || []).map((t) =>
+          link(`#/topic/${t.id}`, "论文专题", `${t.questionIds.length} 题 · 电子·轨道·化学键`)
+        ),
         link("#/wrongbook", "错题复习", String(wrong) + " 题"),
         link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`),
         link("#/stats", "成绩与用时", `${exams.length} 次模拟`),

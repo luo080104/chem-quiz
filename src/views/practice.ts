@@ -71,6 +71,7 @@ function renderPracticeList(
   const selected = new Set<string>();
   let submitted = false;
   let correct: boolean | null = null;
+  let leaving = false;
 
   const optionList = el("div", { class: "options" });
   const resultBox = el("div", { class: "result hidden" });
@@ -79,6 +80,24 @@ function renderPracticeList(
     { class: "primary-btn", onClick: () => onPickSubmit() },
     [question.type === "multiple" ? "提交答案（多选）" : "提交答案"]
   );
+
+  // Restore the previous result when revisiting an already-answered question.
+  const stored = state().practice.records[question.id];
+  const already = !!(
+    stored &&
+    stored.attempts > 0 &&
+    Array.isArray(stored.lastAnswer) &&
+    stored.lastAnswer.length > 0
+  );
+  if (already && stored) {
+    for (const k of stored.lastAnswer) selected.add(k);
+    submitted = true;
+    correct = stored.lastCorrect;
+  }
+
+  function updateSubmit(): void {
+    submitBtn.classList.toggle("hidden", submitted);
+  }
 
   function selectedArr(): string[] {
     return [...selected].sort();
@@ -113,6 +132,14 @@ function renderPracticeList(
     renderResult(chosen);
     refreshOptionStyles();
     renderNav();
+    updateSubmit();
+    // 答对自动下一题；答错/待核停在本页显示解析。
+    if (correct === true && idx < total - 1) {
+      setTimeout(() => {
+        if (leaving || !resultBox.isConnected) return;
+        step(1);
+      }, 900);
+    }
   }
 
   function renderResult(chosen: string[]): void {
@@ -162,6 +189,26 @@ function renderPracticeList(
     );
     resultBox.append(flagBtn);
     resultBox.append(
+      el(
+        "button",
+        {
+          class: "nav-btn ghost",
+          onClick: () => {
+            leaving = false;
+            submitted = false;
+            correct = null;
+            selected.clear();
+            resultBox.classList.add("hidden");
+            resultBox.replaceChildren();
+            updateSubmit();
+            refreshOptionStyles();
+            renderNav();
+          },
+        },
+        ["重做本题"]
+      )
+    );
+    resultBox.append(
       el("div", { class: "src muted small" }, [
         `题目来源：${q.source.question}　|　答案来源：${q.source.answer || "无"}　|　状态：${statusLabel(q.reviewStatus)}`,
       ])
@@ -171,6 +218,7 @@ function renderPracticeList(
   function step(delta: number): void {
     const nextIdx = idx + delta;
     if (nextIdx < 0 || nextIdx >= total) return;
+    leaving = true;
     if (topic) go(`#/topic/${topic.id}/${nextIdx}`);
     else go(`#/practice/${list[nextIdx].originalNumber}`);
   }
@@ -260,4 +308,6 @@ function renderPracticeList(
   );
   refreshOptionStyles();
   renderNav();
+  updateSubmit();
+  if (already) renderResult(selectedArr());
 }

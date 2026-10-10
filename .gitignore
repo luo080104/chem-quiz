@@ -4,3 +4,6 @@ tools/
 *.log
 preview.log
 .DS_Store
+srv.out
+srv.err
+tools/

@@ -1,0 +1,211 @@
+{
+  "label": "chapter1c",
+  "part": 1,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "1": {
+      "stemZh": "物体可以以 ________ 的形式具有能量。(a) 吸热能 (b) 势能 (c) 动能",
+      "optionsZh": { "A": "仅 a", "B": "仅 b", "C": "仅 c", "D": "a 和 c", "E": "b 和 c" },
+      "glossary": [
+        { "term": "possess", "meaning": "具有" },
+        { "term": "potential energy", "meaning": "势能" },
+        { "term": "kinetic energy", "meaning": "动能" },
+        { "term": "endothermic", "meaning": "吸热的" }
+      ]
+    },
+    "2": {
+      "stemZh": "系统的内能总是可以通过 ________ 而增加。",
+      "optionsZh": { "A": "向系统加热", "B": "让系统对环境做功", "C": "从系统取走热量", "D": "向系统加热并让系统对环境做功", "E": "体积压缩" },
+      "glossary": [
+        { "term": "internal energy", "meaning": "内能" },
+        { "term": "surroundings", "meaning": "环境" },
+        { "term": "withdraw", "meaning": "取走、移去" },
+        { "term": "compression", "meaning": "压缩" }
+      ]
+    },
+    "3": {
+      "stemZh": "系统的内能 ________。",
+      "optionsZh": { "A": "是所有组分动能之和", "B": "是所有组分转动、振动和翻译能之和", "C": "仅指组分分子中原子的核的能量", "D": "是所有组分势能与动能之和", "E": "以上都不对" },
+      "glossary": [
+        { "term": "internal energy", "meaning": "内能" },
+        { "term": "components", "meaning": "组分" },
+        { "term": "translational", "meaning": "平动的" },
+        { "term": "nuclei", "meaning": "原子核" }
+      ]
+    },
+    "4": {
+      "stemZh": "下列哪种情况一定会使系统内能增加？",
+      "optionsZh": { "A": "系统放热并对环境做功", "B": "系统吸热并对环境做功", "C": "系统放热且外界对其做功", "D": "系统吸热且外界对其做功", "E": "以上都不对" },
+      "glossary": [
+        { "term": "gains heat", "meaning": "吸热" },
+        { "term": "loses heat", "meaning": "放热" },
+        { "term": "does work on", "meaning": "对…做功" }
+      ]
+    },
+    "5": {
+      "stemZh": "当系统 ________ 时，ΔE 总是负值。",
+      "optionsZh": { "A": "吸热并做功", "B": "放热并做功", "C": "吸热并被做功", "D": "放热并被做功", "E": "以上都不总是负" },
+      "glossary": [
+        { "term": "ΔE", "meaning": "内能变化" },
+        { "term": "absorbs", "meaning": "吸收" },
+        { "term": "gives off", "meaning": "放出" }
+      ]
+    },
+    "6": {
+      "stemZh": "下列哪个是吸热过程？",
+      "optionsZh": { "A": "冰融化", "B": "水结冰", "C": "煮汤（沸腾）", "D": "25 °C 下盐酸与氢氧化钡混合温度升高", "E": "A 和 C" },
+      "glossary": [
+        { "term": "endothermic", "meaning": "吸热的" },
+        { "term": "melting", "meaning": "融化" },
+        { "term": "freezing", "meaning": "结冰" },
+        { "term": "boiling", "meaning": "沸腾" }
+      ]
+    },
+    "7": {
+      "stemZh": "下列哪个是放热过程？",
+      "optionsZh": { "A": "冰融化", "B": "水蒸发", "C": "煮汤", "D": "水蒸气凝结", "E": "25 °C 下硫氰酸铵与氢氧化钡混合温度下降" },
+      "glossary": [
+        { "term": "exothermic", "meaning": "放热的" },
+        { "term": "evaporating", "meaning": "蒸发" },
+        { "term": "condensation", "meaning": "凝结" }
+      ]
+    },
+    "8": {
+      "stemZh": "下列哪项是热力学第一定律的表述？",
+      "optionsZh": { "A": "Ek = …", "B": "负 ΔH 对应放热过程", "C": "ΔE = E末 − E初", "D": "系统失去的能量必被环境获得", "E": "1 cal = 4.184 J" },
+      "glossary": [
+        { "term": "first law of thermodynamics", "meaning": "热力学第一定律" },
+        { "term": "surroundings", "meaning": "环境" }
+      ]
+    },
+    "9": {
+      "stemZh": "________ 的 ΔH 对应 ________ 过程。",
+      "optionsZh": { "A": "负，吸热", "B": "负，放热", "C": "正，放热", "D": "零，放热", "E": "零，吸热" },
+      "glossary": [
+        { "term": "ΔH", "meaning": "焓变" },
+        { "term": "endothermic", "meaning": "吸热" },
+        { "term": "exothermic", "meaning": "放热" }
+      ]
+    },
+    "10": {
+      "stemZh": "吸热过程的 ΔH 为 ________，放热过程的 ΔH 为 ________。",
+      "optionsZh": { "A": "零，正", "B": "零，负", "C": "正，零", "D": "负，正", "E": "正，负" },
+      "glossary": [
+        { "term": "endothermic", "meaning": "吸热" },
+        { "term": "exothermic", "meaning": "放热" }
+      ]
+    },
+    "11": {
+      "stemZh": "从环境吸热的化学反应称为 ________，恒压下 ΔH 为 ________。",
+      "optionsZh": { "A": "吸热，正", "B": "吸热，负", "C": "放热，负", "D": "放热，正", "E": "放热，中性" },
+      "glossary": [
+        { "term": "absorbs heat", "meaning": "吸热" },
+        { "term": "constant pressure", "meaning": "恒压" }
+      ]
+    },
+    "12": {
+      "stemZh": "反应 4Al(s)+3O2(g)→2Al2O3(s) ΔH°=−3351 kJ 是 ________，因此反应 ________ 热量。",
+      "optionsZh": { "A": "吸热，释放", "B": "吸热，吸收", "C": "放热，释放", "D": "放热，吸收", "E": "热中性，既不释放也不吸收" },
+      "glossary": [
+        { "term": "released", "meaning": "释放" },
+        { "term": "absorbed", "meaning": "吸收" }
+      ]
+    },
+    "13": {
+      "stemZh": "在什么条件下，过程的焓变等于进出系统的热量？(a) 温度恒定 (b) 压力恒定 (c) 体积恒定",
+      "optionsZh": { "A": "仅 a", "B": "仅 b", "C": "仅 c", "D": "a 和 b", "E": "b 和 c" },
+      "glossary": [
+        { "term": "enthalpy change", "meaning": "焓变" },
+        { "term": "transferred", "meaning": "传递" }
+      ]
+    },
+    "14": {
+      "stemZh": "下列哪项是 Hess 定律的表述？",
+      "optionsZh": { "A": "若反应分步进行，总 ΔH 等于各步焓变之和", "B": "总 ΔH 等于各步焓变之积", "C": "正逆反应 ΔH 大小相等符号相反", "D": "正逆反应 ΔH 相等", "E": "ΔH 取决于反应物和产物的物理状态" },
+      "glossary": [
+        { "term": "Hess's law", "meaning": "Hess 定律（盖斯定律）" },
+        { "term": "individual steps", "meaning": "各步" }
+      ]
+    },
+    "15": {
+      "stemZh": "已知两个反应：A→2B ΔH°=456.7 kJ/mol；A→C ΔH°=−22.1 kJ/mol。求 2B→C 的焓变。",
+      "optionsZh": { "A": "−478.8 kJ/mol", "B": "−434.6 kJ/mol", "C": "434.6 kJ/mol", "D": "478.8 kJ/mol", "E": "信息不足" },
+      "glossary": [
+        { "term": "enthalpy change", "meaning": "焓变" }
+      ]
+    },
+    "16": {
+      "stemZh": "关于焓变，“标准条件”指 ________。(a) P=1 atm (b) 某常用温度，通常 298 K (c) V=1 L",
+      "optionsZh": { "A": "仅 a", "B": "仅 b", "C": "仅 c", "D": "a 和 c", "E": "a 和 b" },
+      "glossary": [
+        { "term": "standard conditions", "meaning": "标准条件" }
+      ]
+    },
+    "17": {
+      "stemZh": "某系统放出 12.4 J 热并对环境做 4.2 J 功，其 ΔE 为 ________ J。",
+      "optionsZh": { "A": "16.6", "B": "12.4", "C": "4.2", "D": "−16.6", "E": "−8.2" },
+      "glossary": [
+        { "term": "releases", "meaning": "放出" },
+        { "term": "work", "meaning": "功" }
+      ]
+    },
+    "18": {
+      "stemZh": "反应 2H2(g)+O2(g)→2H2O(g) 的焓变为 −483.6 kJ。则 4H2(g)+2O2(g)→4H2O(g) 的焓变为 ________ kJ。",
+      "optionsZh": { "A": "−483.6", "B": "−967.2", "C": "2.34×10^5", "D": "483.6", "E": "967.2" },
+      "glossary": [
+        { "term": "enthalpy change", "meaning": "焓变" }
+      ]
+    },
+    "19": {
+      "stemZh": "反应 IF5(g)→IF3(g)+F2(g) 的 ΔH 为 ________ kJ（已知：IF(g)+F2(g)→IF3(g) ΔH=−390 kJ；IF(g)+2F2(g)→IF5(g) ΔH=−745 kJ）。",
+      "optionsZh": { "A": "+355", "B": "−1135", "C": "+1135", "D": "+35", "E": "−35" },
+      "glossary": [
+        { "term": "given the data", "meaning": "已知数据" }
+      ]
+    },
+    "20": {
+      "stemZh": "已知反应 Fe2O3(s)+3CO(s)→2Fe(s)+3CO2(g) ΔH=−28.0 kJ；3Fe(s)+4CO2(s)→4CO(g)+Fe3O4(s) ΔH=+12.5 kJ。反应 3Fe2O3(s)+CO(g)→CO2(g)+2Fe3O4(s) 的焓变为 ________ kJ。",
+      "optionsZh": { "A": "−59.0", "B": "40.5", "C": "−15.5", "D": "−109", "E": "+109" },
+      "glossary": [
+        { "term": "enthalpy", "meaning": "焓" }
+      ]
+    },
+    "21": {
+      "stemZh": "已知 N2(g)+2O2(g)→2NO2(g) ΔH=66.4 kJ；2NO(g)+O2(g)→2NO2(g) ΔH=−114.2 kJ。反应 N2(g)+O2(g)→2NO(g) 的焓变为 ________ kJ。",
+      "optionsZh": { "A": "180.6", "B": "−47.8", "C": "47.8", "D": "90.3", "E": "−180.6" },
+      "glossary": [
+        { "term": "nitric oxide", "meaning": "一氧化氮（NO）" }
+      ]
+    },
+    "22": {
+      "stemZh": "反应 2Al(s)+3O2(g)→2Al2O3(s) 的 ΔH°=−3351 kJ。则 Al2O3(s) 的 ΔH°f 为 ________ kJ。",
+      "optionsZh": { "A": "−3351", "B": "−1676", "C": "−32.86", "D": "−16.43", "E": "+3351" },
+      "glossary": [
+        { "term": "standard enthalpy of formation", "meaning": "标准生成焓" }
+      ]
+    },
+    "23": {
+      "stemZh": "当对系统做功时，w 取 ________ 值。",
+      "optionsZh": { "A": "正", "B": "负", "C": "很大", "D": "很小", "E": "信息不足" },
+      "glossary": [
+        { "term": "work", "meaning": "功" }
+      ]
+    },
+    "24": {
+      "stemZh": "某系统对环境做 139 kJ 功并获得 54 kJ 热，其 ΔE 为 ________ kJ。",
+      "optionsZh": { "A": "−85", "B": "193", "C": "7506", "D": "85", "E": "−193" },
+      "glossary": [
+        { "term": "performs work", "meaning": "做功" },
+        { "term": "gains heat", "meaning": "获得热" }
+      ]
+    },
+    "25": {
+      "stemZh": "24.3 g 金样品从 23.7 °C 升温到 31.5 °C。金的比热为 0.129 J/g·K，吸收多少焦耳热？",
+      "optionsZh": { "A": "24.5 J", "B": "0.0414 J", "C": "−24.5 J", "D": "0.293 J", "E": "1.01 J" },
+      "glossary": [
+        { "term": "specific heat", "meaning": "比热（容）" },
+        { "term": "absorbed", "meaning": "吸收" }
+      ]
+    }
+  }
+}

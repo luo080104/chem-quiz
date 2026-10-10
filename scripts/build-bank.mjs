@@ -99,11 +99,21 @@ for (const src of config.sources) {
       }
     }
 
-    const options = q.options.map((o) =>
-      o.text === "__IMAGE__" || o.image
-        ? { key: o.key, text: "（图片选项）", image: true, imageUrl: nextImage() }
-        : { key: o.key, text: o.text }
-    );
+    const options = q.options.map((o) => {
+      if (o.text === "__IMAGE__" || o.image) {
+        return { key: o.key, text: "（图片选项）", image: true, imageUrl: nextImage() };
+      }
+      const count = (o.text.match(/\u0001/g) || []).length;
+      if (count > 0) {
+        const textImages = [];
+        for (let i = 0; i < count; i++) {
+          const u = nextImage();
+          if (u) textImages.push(u);
+        }
+        return { key: o.key, text: o.text, textImages };
+      }
+      return { key: o.key, text: o.text };
+    });
 
     const hasImageOption = options.some((o) => o.image);
     const type = answer.length > 1 ? "multiple" : "single";

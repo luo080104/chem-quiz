@@ -5,6 +5,7 @@ export interface Option {
   text: string;
   image?: boolean;
   imageUrl?: string | null;
+  textImages?: string[];
 }
 
 export interface GlossaryTerm {

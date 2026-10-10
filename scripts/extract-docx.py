@@ -15,7 +15,7 @@ import json
 import zipfile
 
 TOKEN = re.compile(
-    r"(?P<text><w:t[^>]*>(?P<t>.*?)</w:t>)"
+    r"(?P<text><w:t(?:\s[^>]*)?>(?P<t>.*?)</w:t>)"
     r"|(?P<tab><w:tab\b[^>]*/>)"
     r"|(?P<br><w:br\b[^>]*/>)"
     r"|(?P<blip><a:blip\b[^>]*r:embed=\"(?P<rid>[^\"]+)\")"

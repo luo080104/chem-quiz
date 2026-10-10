@@ -1,0 +1,209 @@
+{
+  "label": "chapter1c",
+  "part": 2,
+  "note": "题目保持英文；以下为题干/选项中文翻译与难词注释（本次AI翻译，待核）。",
+  "study": {
+    "26": {
+      "stemZh": "热力学第一定律可写作 ________。",
+      "optionsZh": { "A": "ΔE = q + w", "B": "ΔE = E末 − E初", "C": "任何自发过程宇宙熵增大", "D": "纯晶体在绝对零度熵为零", "E": "恒温下 ΔS = qrev/T" },
+      "glossary": [
+        { "term": "first law", "meaning": "第一定律" },
+        { "term": "spontaneous", "meaning": "自发的" },
+        { "term": "entropy", "meaning": "熵" }
+      ]
+    },
+    "27": {
+      "stemZh": "按书写方向自发的反应 ________。",
+      "optionsZh": { "A": "非常快", "B": "无需外界干预即可进行", "C": "逆方向也自发", "D": "平衡位置远靠左", "E": "非常慢" },
+      "glossary": [
+        { "term": "spontaneous", "meaning": "自发的" },
+        { "term": "intervention", "meaning": "干预" },
+        { "term": "rapid", "meaning": "快" }
+      ]
+    },
+    "28": {
+      "stemZh": "当系统处于平衡时，________。",
+      "optionsZh": { "A": "逆过程自发但正过程不自发", "B": "正、逆过程都自发", "C": "正过程自发但逆过程不自发", "D": "两个方向都不自发", "E": "正、逆过程都停止" },
+      "glossary": [
+        { "term": "equilibrium", "meaning": "平衡" },
+        { "term": "spontaneous", "meaning": "自发的" }
+      ]
+    },
+    "29": {
+      "stemZh": "可逆过程是 ________ 的过程。",
+      "optionsZh": { "A": "反转后系统与环境都无净变化", "B": "自发发生", "C": "两个方向都自发", "D": "必须在低温进行", "E": "必须在高温进行" },
+      "glossary": [
+        { "term": "reversible process", "meaning": "可逆过程" },
+        { "term": "net change", "meaning": "净变化" }
+      ]
+    },
+    "30": {
+      "stemZh": "下列说法哪个正确？",
+      "optionsZh": { "A": "一个方向自发的过程其反方向也自发", "B": "过程自发是因为以可观测速率发生", "C": "自发性可取决于温度", "D": "以上都对" },
+      "glossary": [
+        { "term": "spontaneity", "meaning": "自发性" },
+        { "term": "observable rate", "meaning": "可观测速率" }
+      ]
+    },
+    "31": {
+      "stemZh": "表示系统无序程度的热力学量是 ________。",
+      "optionsZh": { "A": "焓", "B": "内能", "C": "键能", "D": "熵", "E": "热流" },
+      "glossary": [
+        { "term": "randomness", "meaning": "无序/随机性" },
+        { "term": "entropy", "meaning": "熵" },
+        { "term": "enthalpy", "meaning": "焓" }
+      ]
+    },
+    "32": {
+      "stemZh": "宇宙的熵 ________。",
+      "optionsZh": { "A": "恒定", "B": "不断减小", "C": "不断增大", "D": "为零", "E": "与能量 E 相同" },
+      "glossary": [
+        { "term": "universe", "meaning": "宇宙" },
+        { "term": "continually", "meaning": "不断地" }
+      ]
+    },
+    "33": {
+      "stemZh": "热力学第二定律指出 ________。",
+      "optionsZh": { "A": "ΔE = q + w", "B": "ΔH°rxn = ΣnΔH°f(产物) − ΣmΔH°f(反应物)", "C": "任何自发过程宇宙熵增大", "D": "纯晶体在绝对零度熵为零", "E": "恒温下 ΔS = qrev/T" },
+      "glossary": [
+        { "term": "second law", "meaning": "第二定律" },
+        { "term": "entropy of the universe", "meaning": "宇宙的熵" }
+      ]
+    },
+    "34": {
+      "stemZh": "下列哪个过程使系统熵减小？",
+      "optionsZh": { "A": "氯化钠溶于水", "B": "萘升华", "C": "氧气溶于水", "D": "酒精沸腾", "E": "硝化甘油爆炸" },
+      "glossary": [
+        { "term": "decrease", "meaning": "减小" },
+        { "term": "sublimation", "meaning": "升华" },
+        { "term": "naphthalene", "meaning": "萘" },
+        { "term": "explosion", "meaning": "爆炸" }
+      ]
+    },
+    "35": {
+      "stemZh": "将纯晶体固从绝对零度加热到高于该液体沸点的温度。下列哪个过程使物质熵增最大？",
+      "optionsZh": { "A": "熔化固体", "B": "加热液体", "C": "加热气体", "D": "加热固体", "E": "汽化液体" },
+      "glossary": [
+        { "term": "vaporize", "meaning": "汽化" },
+        { "term": "melting", "meaning": "熔化" }
+      ]
+    },
+    "36": {
+      "stemZh": "反应 ________ 的 ΔS 为正。",
+      "optionsZh": { "A": "CaO(s)+CO2(g)→CaCO3(s)", "B": "N2(g)+3H2(g)→2NH3(g)", "C": "2SO3(g)→2SO2(g)+O2(g)", "D": "Ag+(aq)+Cl−(aq)→AgCl(s)", "E": "H2O(l)→H2O(s)" },
+      "glossary": [
+        { "term": "ΔS", "meaning": "熵变" },
+        { "term": "positive", "meaning": "正的" }
+      ]
+    },
+    "37": {
+      "stemZh": "哪个反应使系统熵减小？",
+      "optionsZh": { "A": "CaCO3(s)→CaO(s)+CO2(g)", "B": "2C(s)+O2(g)→2CO(g)", "C": "CO2(s)→CO2(g)", "D": "2H2(g)+O2(g)→2H2O(l)", "E": "H2O(l)→H2O(g)" },
+      "glossary": [
+        { "term": "decrease", "meaning": "减小" }
+      ]
+    },
+    "38": {
+      "stemZh": "哪个反应使系统熵增大？",
+      "optionsZh": { "A": "Ag+(aq)+Cl−(aq)→AgCl(s)", "B": "CO2(s)→CO2(g)", "C": "H2(g)+Cl2(g)→2HCl(g)", "D": "N2(g)+3H2(g)→2NH3(g)", "E": "H2O(l)→H2O(s)" },
+      "glossary": [
+        { "term": "increase", "meaning": "增大" }
+      ]
+    },
+    "39": {
+      "stemZh": "在下图 G 对反应进程(f) 的图中，平衡位置对应哪个字母？",
+      "optionsZh": { "A": "A", "B": "B", "C": "C", "D": "D", "E": "E" },
+      "glossary": [
+        { "term": "equilibrium position", "meaning": "平衡位置" },
+        { "term": "course of reaction", "meaning": "反应进程" },
+        { "term": "Gibbs free energy", "meaning": "吉布斯自由能" }
+      ]
+    },
+    "40": {
+      "stemZh": "反应 C2H6(g)→C2H4(g)+H2(g) 的 ΔH°=+137 kJ/mol，ΔS°=+120 J/K·mol。该反应 ________。",
+      "optionsZh": { "A": "所有温度都自发", "B": "仅高温自发", "C": "仅低温自发", "D": "所有温度都非自发" },
+      "glossary": [
+        { "term": "spontaneous", "meaning": "自发的" }
+      ]
+    },
+    "41": {
+      "stemZh": "反应 2C4H10(g)+13O2(g)→8CO2(g)+10H2O(g) 的 ΔH°=−125 kJ/mol，ΔS°=+253 J/K·mol。该反应 ________。",
+      "optionsZh": { "A": "所有温度都自发", "B": "仅高温自发", "C": "仅低温自发", "D": "所有温度都非自发", "E": "信息不足" },
+      "glossary": [
+        { "term": "spontaneous", "meaning": "自发的" }
+      ]
+    },
+    "42": {
+      "stemZh": "低温非自发、高温自发，需要 ΔH 为 ________、ΔS 为 ________。",
+      "optionsZh": { "A": "+，+", "B": "−，−", "C": "+，−", "D": "−，+", "E": "+，0" },
+      "glossary": [
+        { "term": "spontaneous", "meaning": "自发的" }
+      ]
+    },
+    "43": {
+      "stemZh": "已知下表热力学数据，完成句子：TiCl4 的汽化 ________。（表：TiCl4(g) ΔHf=−763.2, S=354.9；TiCl4(l) ΔHf=−804.2, S=221.9）",
+      "optionsZh": { "A": "所有温度都自发", "B": "低温自发、高温非自发", "C": "低温非自发、高温自发", "D": "所有温度都非自发", "E": "信息不足" },
+      "glossary": [
+        { "term": "vaporization", "meaning": "汽化" },
+        { "term": "thermodynamic data", "meaning": "热力学数据" }
+      ]
+    },
+    "44": {
+      "stemZh": "用热力学无法确定 ________。",
+      "optionsZh": { "A": "反应速率", "B": "自发反应的方向", "C": "反应的程度", "D": "平衡常数的值", "E": "反应自发的温度" },
+      "glossary": [
+        { "term": "thermodynamics", "meaning": "热力学" },
+        { "term": "speed", "meaning": "速率" },
+        { "term": "extent", "meaning": "程度" },
+        { "term": "equilibrium constant", "meaning": "平衡常数" }
+      ]
+    },
+    "45": {
+      "stemZh": "若反应的 ΔG° 为负，关于其平衡常数，下列哪项正确？",
+      "optionsZh": { "A": "K = 0", "B": "K = 1", "C": "K > 1", "D": "K < 1", "E": "信息不足" },
+      "glossary": [
+        { "term": "equilibrium constant", "meaning": "平衡常数" },
+        { "term": "Gibbs free energy", "meaning": "吉布斯自由能" }
+      ]
+    },
+    "46": {
+      "stemZh": "下列哪个过程使系统熵减小？",
+      "optionsZh": { "A": "Fe(l) 凝固为 Fe(s)", "B": "液态乙醇蒸发为气态", "C": "LiOH(s) 溶于水", "D": "冰融化成水", "E": "两种气体混合到同一容器" },
+      "glossary": [
+        { "term": "freezing", "meaning": "凝固" },
+        { "term": "evaporation", "meaning": "蒸发" },
+        { "term": "dissolution", "meaning": "溶解" }
+      ]
+    },
+    "47": {
+      "stemZh": "下列中，________ 的熵最大。",
+      "optionsZh": { "A": "B2F4(g)", "B": "BF3(g)", "C": "B2H6(g)", "D": "BCl3(l)", "E": "B2O3(s)" },
+      "glossary": [
+        { "term": "entropy", "meaning": "熵" },
+        { "term": "largest", "meaning": "最大" }
+      ]
+    },
+    "48": {
+      "stemZh": "________ 的标准生成吉布斯自由能为零。(a) H2O(l) (b) Fe(s) (c) I2(s)",
+      "optionsZh": { "A": "仅 (a)", "B": "仅 (b)", "C": "仅 (c)", "D": "(b) 和 (c)", "E": "(a)、(b) 和 (c)" },
+      "glossary": [
+        { "term": "standard Gibbs free energy of formation", "meaning": "标准生成吉布斯自由能" }
+      ]
+    },
+    "49": {
+      "stemZh": "根据下表数据，计算反应 2SO2(g)+O2(g)→2SO3(g) 在 298 K 的平衡常数。",
+      "optionsZh": { "A": "2.40×10^24", "B": "1.06", "C": "1.95", "D": "3.82×10^23", "E": "数据不足" },
+      "glossary": [
+        { "term": "equilibrium constant", "meaning": "平衡常数" },
+        { "term": "thermodynamic data", "meaning": "热力学数据" }
+      ]
+    },
+    "50": {
+      "stemZh": "某反应 ΔH=+22.2 kJ/mol，ΔS=+81.1 J/K·mol。该反应在 ________ 自发（设 ΔH、ΔS 不随温度变化）。",
+      "optionsZh": { "A": "T < 274 K", "B": "T > 274 K", "C": "T > 298 K", "D": "T < 298 K", "E": "所有温度" },
+      "glossary": [
+        { "term": "spontaneous", "meaning": "自发的" }
+      ]
+    }
+  }
+}

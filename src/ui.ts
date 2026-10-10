@@ -97,11 +97,28 @@ export function studyBlock(q: {
   ]);
 }
 
-export function optionContent(opt: { text: string; image?: boolean; imageUrl?: string | null }): HTMLElement {
+export function optionContent(opt: {
+  text: string;
+  image?: boolean;
+  imageUrl?: string | null;
+  textImages?: string[];
+}): HTMLElement {
   if (opt.imageUrl) {
     return el("span", { class: "opt-text opt-imagebox" }, [
       el("img", { class: "opt-img", src: opt.imageUrl, alt: opt.text || "图片选项" }),
     ]);
+  }
+  if (opt.textImages && opt.textImages.length) {
+    const wrap = el("span", { class: "opt-text" });
+    const parts = opt.text.split("\u0001");
+    parts.forEach((seg, i) => {
+      if (seg) wrap.append(el("span", { html: formatChem(seg) }));
+      if (i < parts.length - 1) {
+        const url = opt.textImages![i];
+        if (url) wrap.append(el("img", { class: "inline-img", src: url, alt: "公式" }));
+      }
+    });
+    return wrap;
   }
   return rich(opt.text, "opt-text");
 }

@@ -1,7 +1,7 @@
-题库校验报告  2026-09-28T14:02:27.879Z
+题库校验报告  2026-10-10T10:38:53.419Z
 题库: public/questions/chem-bank.json
-总数: 200
-状态分布: {"pending":191,"contested":9}
+总数: 250
+状态分布: {"pending":240,"contested":10}
 
 错误 (0):
 

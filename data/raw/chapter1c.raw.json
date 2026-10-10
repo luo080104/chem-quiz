@@ -1,0 +1,1302 @@
+{
+  "label": "chapter1c",
+  "sourceFile": "data\\source\\Chapter1c_50.txt",
+  "parsedAt": "2026-10-10T10:36:41.281Z",
+  "count": 50,
+  "numbered": false,
+  "explicitNumberCount": 0,
+  "questions": [
+    {
+      "originalNumber": 1,
+      "stem": "Objects can possess energy as ________. (a) endothermic energy (b) potential energy (c) kinetic energy",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and c"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ]
+    },
+    {
+      "originalNumber": 2,
+      "stem": "The internal energy of a system is always increased by ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "adding heat to the system"
+        },
+        {
+          "key": "B",
+          "text": "having the system do work on the surroundings"
+        },
+        {
+          "key": "C",
+          "text": "withdrawing heat from the system"
+        },
+        {
+          "key": "D",
+          "text": "adding heat to the system and having the system do work on the surroundings"
+        },
+        {
+          "key": "E",
+          "text": "a volume compression"
+        }
+      ]
+    },
+    {
+      "originalNumber": 3,
+      "stem": "The internal energy of a system ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is the sum of the kinetic energy of all of its components"
+        },
+        {
+          "key": "B",
+          "text": "is the sum of the rotational, vibrational, and translational energies of all of its components"
+        },
+        {
+          "key": "C",
+          "text": "refers only to the energies of the nuclei of the atoms of the component molecules"
+        },
+        {
+          "key": "D",
+          "text": "is the sum of the potential and kinetic energies of the components"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 4,
+      "stem": "Which one of the following conditions would always result in an increase in the internal energy of a system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The system loses heat and does work on the surroundings."
+        },
+        {
+          "key": "B",
+          "text": "The system gains heat and does work on the surroundings."
+        },
+        {
+          "key": "C",
+          "text": "The system loses heat and has work done on it by the surroundings."
+        },
+        {
+          "key": "D",
+          "text": "The system gains heat and has work done on it by the surroundings."
+        },
+        {
+          "key": "E",
+          "text": "None of the above is correct."
+        }
+      ]
+    },
+    {
+      "originalNumber": 5,
+      "stem": "When a system ________, ΔE is always negative.",
+      "options": [
+        {
+          "key": "A",
+          "text": "absorbs heat and does work"
+        },
+        {
+          "key": "B",
+          "text": "gives off heat and does work"
+        },
+        {
+          "key": "C",
+          "text": "absorbs heat and has work done on it"
+        },
+        {
+          "key": "D",
+          "text": "gives off heat and has work done on it"
+        },
+        {
+          "key": "E",
+          "text": "None of the above is always negative."
+        }
+      ]
+    },
+    {
+      "originalNumber": 6,
+      "stem": "Which one of the following is an endothermic process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ice melting"
+        },
+        {
+          "key": "B",
+          "text": "water freezing"
+        },
+        {
+          "key": "C",
+          "text": "boiling soup"
+        },
+        {
+          "key": "D",
+          "text": "Hydrochloric acid and barium hydroxide are mixed at 25 °C: the temperature increases."
+        },
+        {
+          "key": "E",
+          "text": "Both A and C"
+        }
+      ]
+    },
+    {
+      "originalNumber": 7,
+      "stem": "Which one of the following is an exothermic process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ice melting"
+        },
+        {
+          "key": "B",
+          "text": "water evaporating"
+        },
+        {
+          "key": "C",
+          "text": "boiling soup"
+        },
+        {
+          "key": "D",
+          "text": "condensation of water vapor"
+        },
+        {
+          "key": "E",
+          "text": "Ammonium thiocyanate and barium hydroxide are mixed at 25 °C: the temperature drops."
+        }
+      ]
+    },
+    {
+      "originalNumber": 8,
+      "stem": "Which of the following is a statement of the first law of thermodynamics?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ek = \u0001m\u0001"
+        },
+        {
+          "key": "B",
+          "text": "A negative ΔH corresponds to an exothermic process."
+        },
+        {
+          "key": "C",
+          "text": "ΔE = Efinal - Einitial"
+        },
+        {
+          "key": "D",
+          "text": "Energy lost by the system must be gained by the surroundings."
+        },
+        {
+          "key": "E",
+          "text": "1 cal = 4.184 J (exactly)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 9,
+      "stem": "A ________ ΔH corresponds to an ________ process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "negative, endothermic"
+        },
+        {
+          "key": "B",
+          "text": "negative, exothermic"
+        },
+        {
+          "key": "C",
+          "text": "positive, exothermic"
+        },
+        {
+          "key": "D",
+          "text": "zero, exothermic"
+        },
+        {
+          "key": "E",
+          "text": "zero, endothermic"
+        }
+      ]
+    },
+    {
+      "originalNumber": 10,
+      "stem": "ΔH for an endothermic process is ________ while ΔH for an exothermic process is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "zero, positive"
+        },
+        {
+          "key": "B",
+          "text": "zero, negative"
+        },
+        {
+          "key": "C",
+          "text": "positive, zero"
+        },
+        {
+          "key": "D",
+          "text": "negative, positive"
+        },
+        {
+          "key": "E",
+          "text": "positive, negative"
+        }
+      ]
+    },
+    {
+      "originalNumber": 11,
+      "stem": "A chemical reaction that absorbs heat from the surroundings is said to be ________ and has a ________ ΔH at constant pressure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "endothermic, positive"
+        },
+        {
+          "key": "B",
+          "text": "endothermic, negative"
+        },
+        {
+          "key": "C",
+          "text": "exothermic, negative"
+        },
+        {
+          "key": "D",
+          "text": "exothermic, positive"
+        },
+        {
+          "key": "E",
+          "text": "exothermic, neutral"
+        }
+      ]
+    },
+    {
+      "originalNumber": 12,
+      "stem": "The reaction 4Al (s) + 3O2 (g) → 2Al2O3 (s) ΔH° = -3351 kJ is ________, and therefore heat is ________ by the reaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "endothermic, released"
+        },
+        {
+          "key": "B",
+          "text": "endothermic, absorbed"
+        },
+        {
+          "key": "C",
+          "text": "exothermic, released"
+        },
+        {
+          "key": "D",
+          "text": "exothermic, absorbed"
+        },
+        {
+          "key": "E",
+          "text": "thermoneutral, neither released nor absorbed"
+        }
+      ]
+    },
+    {
+      "originalNumber": 13,
+      "stem": "Under what condition(s) is the enthalpy change of a process equal to the amount of heat transferred into or out of the system? (a) temperature is constant (b) pressure is constant (c) volume is constant",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and b"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ]
+    },
+    {
+      "originalNumber": 14,
+      "stem": "Which of the following is a statement of Hess's law?",
+      "options": [
+        {
+          "key": "A",
+          "text": "If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the sum of the enthalpy changes for the individual steps."
+        },
+        {
+          "key": "B",
+          "text": "If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the product of the enthalpy changes for the individual steps."
+        },
+        {
+          "key": "C",
+          "text": "The ΔH for a process in the forward direction is equal in magnitude and opposite in sign to the ΔH for the process in the reverse direction."
+        },
+        {
+          "key": "D",
+          "text": "The ΔH for a process in the forward direction is equal to the ΔH for the process in the reverse direction."
+        },
+        {
+          "key": "E",
+          "text": "The ΔH of a reaction depends on the physical states of the reactants and products."
+        }
+      ]
+    },
+    {
+      "originalNumber": 15,
+      "stem": "Consider the following two reactions: A → 2B ΔH°rxn = 456.7 kJ/mol A → C ΔH°rxn = -22.1 kJ/mol Determine the enthalpy change for the process: 2B → C",
+      "options": [
+        {
+          "key": "A",
+          "text": "-478.8 kJ/mol"
+        },
+        {
+          "key": "B",
+          "text": "-434.6 kJ/mol"
+        },
+        {
+          "key": "C",
+          "text": "434.6 kJ/mol"
+        },
+        {
+          "key": "D",
+          "text": "478.8 kJ/mol"
+        },
+        {
+          "key": "E",
+          "text": "More information is needed to solve the problem."
+        }
+      ]
+    },
+    {
+      "originalNumber": 16,
+      "stem": "With reference to enthalpy changes, the term standard conditions means ________. (a) P = 1 atm (b) some common temperature, usually 298 K (c) V = 1 L",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and c"
+        },
+        {
+          "key": "E",
+          "text": "a and b"
+        }
+      ]
+    },
+    {
+      "originalNumber": 17,
+      "stem": "The ΔE of a system that releases 12.4 J of heat and does 4.2 J of work on the surroundings is ________ J.",
+      "options": [
+        {
+          "key": "A",
+          "text": "16.6"
+        },
+        {
+          "key": "B",
+          "text": "12.4"
+        },
+        {
+          "key": "C",
+          "text": "4.2"
+        },
+        {
+          "key": "D",
+          "text": "-16.6"
+        },
+        {
+          "key": "E",
+          "text": "-8.2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 18,
+      "stem": "The enthalpy change for the following reaction is -483.6 kJ: 2H2 (g) + O2 (g) → 2H2O (g) Therefore, the enthalpy change for the following reaction is ________ kJ. 4H2 (g) + 2O2 (g) → 4H2O (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-483.6"
+        },
+        {
+          "key": "B",
+          "text": "-967.2"
+        },
+        {
+          "key": "C",
+          "text": "2.34 × 105"
+        },
+        {
+          "key": "D",
+          "text": "483.6"
+        },
+        {
+          "key": "E",
+          "text": "967.2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 19,
+      "stem": "ΔH for the reaction IF5 (g) → IF3 (g) + F2 (g) is ________ kJ, give the data below. IF (g) + F2 (g) → IF3 (g) ΔH = -390 kJ IF (g) + 2F2 (g) → IF5 (g) ΔH = -745 kJ",
+      "options": [
+        {
+          "key": "A",
+          "text": "+355"
+        },
+        {
+          "key": "B",
+          "text": "-1135"
+        },
+        {
+          "key": "C",
+          "text": "+1135"
+        },
+        {
+          "key": "D",
+          "text": "+35"
+        },
+        {
+          "key": "E",
+          "text": "-35"
+        }
+      ]
+    },
+    {
+      "originalNumber": 20,
+      "stem": "Given the following reactions Fe2O3 (s) + 3CO (s) → 2Fe (s) + 3CO2 (g) ΔH = -28.0 kJ 3Fe (s) + 4CO2 (s) → 4CO (g) + Fe3O4 (s) ΔH = +12.5 kJ the enthalpy of the reaction of Fe2O3 with CO 3Fe2O3 (s) + CO (g) → CO2 (g) + 2 Fe3O4 (s) is ________ kJ.",
+      "options": [
+        {
+          "key": "A",
+          "text": "-59.0"
+        },
+        {
+          "key": "B",
+          "text": "40.5"
+        },
+        {
+          "key": "C",
+          "text": "-15.5"
+        },
+        {
+          "key": "D",
+          "text": "-109"
+        },
+        {
+          "key": "E",
+          "text": "+109"
+        }
+      ]
+    },
+    {
+      "originalNumber": 21,
+      "stem": "Given the following reactions N2 (g) + 2O2 (g) → 2NO2 (g) ΔH = 66.4 kJ 2NO (g) + O2 (g) → 2NO2 (g) ΔH = -114.2 kJ the enthalpy of the reaction of the nitrogen to produce nitric oxide N2 (g) + O2 (g) → 2NO (g) is ________ kJ.",
+      "options": [
+        {
+          "key": "A",
+          "text": "180.6"
+        },
+        {
+          "key": "B",
+          "text": "-47.8"
+        },
+        {
+          "key": "C",
+          "text": "47.8"
+        },
+        {
+          "key": "D",
+          "text": "90.3"
+        },
+        {
+          "key": "E",
+          "text": "-180.6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 22,
+      "stem": "The value of ΔH° for the following reaction is -3351 kJ: 2Al (s) + 3O2 (g) → 2Al2O3 (s) The value of ΔH°f for Al2O3 (s) is ________ kJ.",
+      "options": [
+        {
+          "key": "A",
+          "text": "-3351"
+        },
+        {
+          "key": "B",
+          "text": "-1676"
+        },
+        {
+          "key": "C",
+          "text": "-32.86"
+        },
+        {
+          "key": "D",
+          "text": "-16.43"
+        },
+        {
+          "key": "E",
+          "text": "+3351"
+        }
+      ]
+    },
+    {
+      "originalNumber": 23,
+      "stem": "When work is done on a system, w will be a ________ value.",
+      "options": [
+        {
+          "key": "A",
+          "text": "positive"
+        },
+        {
+          "key": "B",
+          "text": "negative"
+        },
+        {
+          "key": "C",
+          "text": "very large"
+        },
+        {
+          "key": "D",
+          "text": "very small"
+        },
+        {
+          "key": "E",
+          "text": "There is not enough information given to determine the answer."
+        }
+      ]
+    },
+    {
+      "originalNumber": 24,
+      "stem": "The value of ΔE for a system that performs 139 kJ of work on its surroundings and gains 54kJ of heat is ________ kJ.",
+      "options": [
+        {
+          "key": "A",
+          "text": "-85"
+        },
+        {
+          "key": "B",
+          "text": "193"
+        },
+        {
+          "key": "C",
+          "text": "7506"
+        },
+        {
+          "key": "D",
+          "text": "85"
+        },
+        {
+          "key": "E",
+          "text": "-193"
+        }
+      ]
+    },
+    {
+      "originalNumber": 25,
+      "stem": "The temperature of a 24.3 g sample of gold increases from 23.7 °C to 31.5 °C. If the specific heat of gold is 0.129 J/g-K, how many joules of heat are absorbed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "24.5 J"
+        },
+        {
+          "key": "B",
+          "text": "0.0414 J"
+        },
+        {
+          "key": "C",
+          "text": "-24.5 J"
+        },
+        {
+          "key": "D",
+          "text": "0.293 J"
+        },
+        {
+          "key": "E",
+          "text": "1.01 J"
+        }
+      ]
+    },
+    {
+      "originalNumber": 26,
+      "stem": "The first law of thermodynamics can be given as ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ΔE = q + w"
+        },
+        {
+          "key": "B",
+          "text": "Δ\u0001 = \u0001 - \u0001"
+        },
+        {
+          "key": "C",
+          "text": "for any spontaneous process, the entropy of the universe increases"
+        },
+        {
+          "key": "D",
+          "text": "the entropy of a pure crystalline substance at absolute zero is zero"
+        },
+        {
+          "key": "E",
+          "text": "ΔS = qrev/T at constant temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 27,
+      "stem": "A reaction that is spontaneous as written ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is very rapid"
+        },
+        {
+          "key": "B",
+          "text": "will proceed without outside intervention"
+        },
+        {
+          "key": "C",
+          "text": "is also spontaneous in the reverse direction"
+        },
+        {
+          "key": "D",
+          "text": "has an equilibrium position that lies far to the left"
+        },
+        {
+          "key": "E",
+          "text": "is very slow"
+        }
+      ]
+    },
+    {
+      "originalNumber": 28,
+      "stem": "When a system is at equilibrium, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the reverse process is spontaneous but the forward process is not"
+        },
+        {
+          "key": "B",
+          "text": "the forward and the reverse processes are both spontaneous"
+        },
+        {
+          "key": "C",
+          "text": "the forward process is spontaneous but the reverse process is not"
+        },
+        {
+          "key": "D",
+          "text": "the process is not spontaneous in either direction"
+        },
+        {
+          "key": "E",
+          "text": "both forward and reverse processes have stopped"
+        }
+      ]
+    },
+    {
+      "originalNumber": 29,
+      "stem": "A reversible process is one that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "can be reversed with no net change in either system or surroundings"
+        },
+        {
+          "key": "B",
+          "text": "happens spontaneously"
+        },
+        {
+          "key": "C",
+          "text": "is spontaneous in both directions"
+        },
+        {
+          "key": "D",
+          "text": "must be carried out at low temperature"
+        },
+        {
+          "key": "E",
+          "text": "must be carried out at high temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 30,
+      "stem": "Which of the following statements is true?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Processes that are spontaneous in one direction are spontaneous in the opposite direction."
+        },
+        {
+          "key": "B",
+          "text": "Processes are spontaneous because they occur at an observable rate."
+        },
+        {
+          "key": "C",
+          "text": "Spontaneity can depend on the temperature."
+        },
+        {
+          "key": "D",
+          "text": "All of the statements are true."
+        }
+      ]
+    },
+    {
+      "originalNumber": 31,
+      "stem": "The thermodynamic quantity that expresses the extent of randomness in a system is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "enthalpy"
+        },
+        {
+          "key": "B",
+          "text": "internal energy"
+        },
+        {
+          "key": "C",
+          "text": "bond energy"
+        },
+        {
+          "key": "D",
+          "text": "entropy"
+        },
+        {
+          "key": "E",
+          "text": "heat flow"
+        }
+      ]
+    },
+    {
+      "originalNumber": 32,
+      "stem": "The entropy of the universe is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "constant"
+        },
+        {
+          "key": "B",
+          "text": "continually decreasing"
+        },
+        {
+          "key": "C",
+          "text": "continually increasing"
+        },
+        {
+          "key": "D",
+          "text": "zero"
+        },
+        {
+          "key": "E",
+          "text": "the same as the energy, E"
+        }
+      ]
+    },
+    {
+      "originalNumber": 33,
+      "stem": "The second law of thermodynamics states that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ΔE = q + w"
+        },
+        {
+          "key": "B",
+          "text": "ΔH°rxn = Σ nΔH°f (products) - Σ mΔH°f (reactants)"
+        },
+        {
+          "key": "C",
+          "text": "for any spontaneous process, the entropy of the universe increases"
+        },
+        {
+          "key": "D",
+          "text": "the entropy of a pure crystalline substance is zero at absolute zero"
+        },
+        {
+          "key": "E",
+          "text": "ΔS = qrev/T at constant temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 34,
+      "stem": "Which one of the following processes produces a decrease of the entropy of the system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "dissolving sodium chloride in water"
+        },
+        {
+          "key": "B",
+          "text": "sublimation of naphthalene"
+        },
+        {
+          "key": "C",
+          "text": "dissolving oxygen in water"
+        },
+        {
+          "key": "D",
+          "text": "boiling of alcohol"
+        },
+        {
+          "key": "E",
+          "text": "explosion of nitroglycerine"
+        }
+      ]
+    },
+    {
+      "originalNumber": 35,
+      "stem": "Consider a pure crystalline solid that is heated from absolute zero to a temperature above the boiling point of the liquid. Which of the following processes produces the greatest increase in the entropy of the substance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "melting the solid"
+        },
+        {
+          "key": "B",
+          "text": "heating the liquid"
+        },
+        {
+          "key": "C",
+          "text": "heating the gas"
+        },
+        {
+          "key": "D",
+          "text": "heating the solid"
+        },
+        {
+          "key": "E",
+          "text": "vaporizing the liquid"
+        }
+      ]
+    },
+    {
+      "originalNumber": 36,
+      "stem": "ΔS is positive for the reaction ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaO (s)  +  CO2 (g)  →  CaCO3 (s)"
+        },
+        {
+          "key": "B",
+          "text": "N2 (g)  +  3H2 (g)  →  2NH3 (g)"
+        },
+        {
+          "key": "C",
+          "text": "2SO3 (g)  →  2SO2 (g)  +  O2 (g)"
+        },
+        {
+          "key": "D",
+          "text": "Ag+ (aq)  +  Cl- (aq)  →  AgCl (s)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (s)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 37,
+      "stem": "Which reaction produces a decrease in the entropy of the system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaCO3 (s)   →  CaO (s)  +  CO2 (g)"
+        },
+        {
+          "key": "B",
+          "text": "2C (s)  +  O2 (g)  →  2CO (g)"
+        },
+        {
+          "key": "C",
+          "text": "CO2 (s)  →  CO2 (g)"
+        },
+        {
+          "key": "D",
+          "text": "2H2 (g)  +  O2 (g)   →  2H2O (l)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 38,
+      "stem": "Which reaction produces an increase in the entropy of the system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ag+ (aq)  +  Cl- (aq)  →  AgCl (s)"
+        },
+        {
+          "key": "B",
+          "text": "CO2 (s)  →  CO2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "H2 (g)  +  Cl2 (g)  →  2 HCl (g)"
+        },
+        {
+          "key": "D",
+          "text": "N2 (g)  +  3 H2 (g)   →  2 NH3 (g)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (s)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 39,
+      "stem": "The equilibrium position corresponds to which letter on the graph of G vs. f (course of reaction) below? \u0001",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        }
+      ]
+    },
+    {
+      "originalNumber": 40,
+      "stem": "For the reaction C2H6 (g) → C2H4 (g) + H2 (g) ΔH° is +137 kJ/mol and ΔS° is +120 J/K ∙ mol. This reaction is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous only at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "spontaneous only at low temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        }
+      ]
+    },
+    {
+      "originalNumber": 41,
+      "stem": "For the reaction 2 C4H10 (g) + 13 O2 (g) → 8 CO2 (g) + 10 H2O (g) ΔH° is -125 kJ/mol and ΔS° is +253 J/K ∙ mol. This reaction is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous only at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "spontaneous only at low temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        },
+        {
+          "key": "E",
+          "text": "unable to determine without more information"
+        }
+      ]
+    },
+    {
+      "originalNumber": 42,
+      "stem": "A reaction that is not spontaneous at low temperature can become spontaneous at high temperature if ΔH is ________ and ΔS is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "+, +"
+        },
+        {
+          "key": "B",
+          "text": "-, -"
+        },
+        {
+          "key": "C",
+          "text": "+, -"
+        },
+        {
+          "key": "D",
+          "text": "-, +"
+        },
+        {
+          "key": "E",
+          "text": "+, 0"
+        }
+      ]
+    },
+    {
+      "originalNumber": 43,
+      "stem": "Given the following table of thermodynamic data, \u0001 complete the following sentence. The vaporization of TiCl4 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous at low temperature and nonspontaneous at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "nonspontaneous at low temperature and spontaneous at high temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        },
+        {
+          "key": "E",
+          "text": "not enough information given to draw a conclusion"
+        }
+      ]
+    },
+    {
+      "originalNumber": 44,
+      "stem": "With thermodynamics, one cannot determine ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the speed of a reaction"
+        },
+        {
+          "key": "B",
+          "text": "the direction of a spontaneous reaction"
+        },
+        {
+          "key": "C",
+          "text": "the extent of a reaction"
+        },
+        {
+          "key": "D",
+          "text": "the value of the equilibrium constant"
+        },
+        {
+          "key": "E",
+          "text": "the temperature at which a reaction will be spontaneous"
+        }
+      ]
+    },
+    {
+      "originalNumber": 45,
+      "stem": "Which one of the following statements is true about the equilibrium constant for a reaction if ΔG° for the reaction is negative?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K = 0"
+        },
+        {
+          "key": "B",
+          "text": "K = 1"
+        },
+        {
+          "key": "C",
+          "text": "K > 1"
+        },
+        {
+          "key": "D",
+          "text": "K < 1"
+        },
+        {
+          "key": "E",
+          "text": "More information is needed."
+        }
+      ]
+    },
+    {
+      "originalNumber": 46,
+      "stem": "Which one of the following processes produces a decrease in the entropy of the system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "freezing of Fe(l) into Fe(s)"
+        },
+        {
+          "key": "B",
+          "text": "evaporation of liquid ethanol into gaseous ethanol"
+        },
+        {
+          "key": "C",
+          "text": "dissolution of LiOH(s) in water"
+        },
+        {
+          "key": "D",
+          "text": "melting ice to form water"
+        },
+        {
+          "key": "E",
+          "text": "mixing of two gases into one container"
+        }
+      ]
+    },
+    {
+      "originalNumber": 47,
+      "stem": "Of the following, the entropy of ________ is the largest.",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2F4 (g)"
+        },
+        {
+          "key": "B",
+          "text": "BF3 (g)"
+        },
+        {
+          "key": "C",
+          "text": "B2H6 (g)"
+        },
+        {
+          "key": "D",
+          "text": "BCl3 (l)"
+        },
+        {
+          "key": "E",
+          "text": "B2O3 (s)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 48,
+      "stem": "The standard Gibbs free energy of formation of ________ is zero. (a) H2O (l) (b) Fe (s) (c) I2 (s)",
+      "options": [
+        {
+          "key": "A",
+          "text": "(a) only"
+        },
+        {
+          "key": "B",
+          "text": "(b) only"
+        },
+        {
+          "key": "C",
+          "text": "(c) only"
+        },
+        {
+          "key": "D",
+          "text": "(b) and (c)"
+        },
+        {
+          "key": "E",
+          "text": "(a), (b), and (c)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 49,
+      "stem": "Given the thermodynamic data in the table below, calculate the equilibrium constant (at 298 K) for the reaction: 2 SO2 (g) + O2 (g) \u0001 2 SO3 (g) \u0001",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.40 × 1024"
+        },
+        {
+          "key": "B",
+          "text": "1.06"
+        },
+        {
+          "key": "C",
+          "text": "1.95"
+        },
+        {
+          "key": "D",
+          "text": "3.82 × 1023"
+        },
+        {
+          "key": "E",
+          "text": "More data are needed."
+        }
+      ]
+    },
+    {
+      "originalNumber": 50,
+      "stem": "For a given reaction, ΔH = +22.2 kJ/mol and ΔS = +81.1 J/K-mol. The reaction is spontaneous ________. Assume that ΔH and ΔS do not vary with temperature.",
+      "options": [
+        {
+          "key": "A",
+          "text": "at T < 274 K"
+        },
+        {
+          "key": "B",
+          "text": "at T > 274 K"
+        },
+        {
+          "key": "C",
+          "text": "at T > 298 K"
+        },
+        {
+          "key": "D",
+          "text": "at T < 298 K"
+        },
+        {
+          "key": "E",
+          "text": "at all temperatures"
+        }
+      ]
+    }
+  ]
+}

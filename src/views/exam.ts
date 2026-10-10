@@ -36,11 +36,11 @@ function renderExamStart(app: HTMLElement): void {
     header("仿真模拟"),
     el("div", { class: "page" }, [
       el("div", { class: isReal ? "banner ok" : "banner warn" }, [
-        el("strong", {}, [isReal ? "正式仿真：250 抽 100" : "样机演示卷"]),
+        el("strong", {}, [isReal ? "仿真模拟：250 抽 100" : "样机演示卷"]),
         el("div", {}, [
           isReal
-            ? "从 250 道已核题中随机无放回抽取 100 题。"
-            : `当前题库 ${bank.questions.length} 题（可判分 ${pool.length} 题），本次仅演示模拟流程，不是“250 抽 100 仿真”。`,
+            ? `从 ${bank.questions.length} 道题中随机无放回抽取 ${size} 题。答案仍为 AI 候选（待核，非审定）。`
+            : `当前题库 ${bank.questions.length} 题（可判分 ${pool.length} 题），本次仅演示模拟流程。`,
         ]),
       ]),
       el("ul", { class: "rules-list" }, [

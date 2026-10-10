@@ -2,8 +2,8 @@
   "meta": {
     "bankId": "chem-250",
     "version": 1,
-    "title": "大学化学 250 题（现入库 1a+1b 共 200 题；老师另有 50 题待补）",
-    "generatedAt": "2026-09-28T14:02:21.332Z",
+    "title": "大学化学 250 题（Chapter 1a 原子 + 1b 化学键 + Chapter 2 热力学）",
+    "generatedAt": "2026-10-10T10:38:38.825Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -16,16 +16,22 @@
         "raw": "data/raw/chapter1b.raw.json",
         "answers": "data/answer-keys/chapter1b.deepseek-independent.json",
         "phone": "data/answer-keys/chapter1b.phone-deepseek.json"
+      },
+      {
+        "label": "chapter1c",
+        "raw": "data/raw/chapter1c.raw.json",
+        "answers": "data/answer-keys/chapter1c.deepseek-independent.json",
+        "phone": null
       }
     ],
     "counts": {
-      "total": 200,
+      "total": 250,
       "approved": 0,
-      "pending": 191,
+      "pending": 240,
       "pendingImage": 0,
-      "contested": 9,
-      "translated": 200,
-      "glossaryTerms": 535,
+      "contested": 10,
+      "translated": 250,
+      "glossaryTerms": 641,
       "phoneCompared": 198,
       "phoneDisagreements": 6
     },
@@ -14494,6 +14500,3336 @@
       "source": {
         "question": "data/raw/chapter1b.raw.json",
         "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-001",
+      "version": 1,
+      "originalNumber": 201,
+      "chapterNumber": 1,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Objects can possess energy as ________. (a) endothermic energy (b) potential energy (c) kinetic energy",
+      "stemImages": [],
+      "stemZh": "物体可以以 ________ 的形式具有能量。(a) 吸热能 (b) 势能 (c) 动能",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and c"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ],
+      "optionsZh": {
+        "A": "仅 a",
+        "B": "仅 b",
+        "C": "仅 c",
+        "D": "a 和 c",
+        "E": "b 和 c"
+      },
+      "glossary": [
+        {
+          "term": "possess",
+          "meaning": "具有"
+        },
+        {
+          "term": "potential energy",
+          "meaning": "势能"
+        },
+        {
+          "term": "kinetic energy",
+          "meaning": "动能"
+        },
+        {
+          "term": "endothermic",
+          "meaning": "吸热的"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "explanation": "物体可具有势能和动能（(b)、(c)）；“吸热能/endothermic energy”不是一种能量形式，故选 b and c。",
+      "candidateAnswer": [
+        "E"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-002",
+      "version": 1,
+      "originalNumber": 202,
+      "chapterNumber": 2,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The internal energy of a system is always increased by ________.",
+      "stemImages": [],
+      "stemZh": "系统的内能总是可以通过 ________ 而增加。",
+      "options": [
+        {
+          "key": "A",
+          "text": "adding heat to the system"
+        },
+        {
+          "key": "B",
+          "text": "having the system do work on the surroundings"
+        },
+        {
+          "key": "C",
+          "text": "withdrawing heat from the system"
+        },
+        {
+          "key": "D",
+          "text": "adding heat to the system and having the system do work on the surroundings"
+        },
+        {
+          "key": "E",
+          "text": "a volume compression"
+        }
+      ],
+      "optionsZh": {
+        "A": "向系统加热",
+        "B": "让系统对环境做功",
+        "C": "从系统取走热量",
+        "D": "向系统加热并让系统对环境做功",
+        "E": "体积压缩"
+      },
+      "glossary": [
+        {
+          "term": "internal energy",
+          "meaning": "内能"
+        },
+        {
+          "term": "surroundings",
+          "meaning": "环境"
+        },
+        {
+          "term": "withdraw",
+          "meaning": "取走、移去"
+        },
+        {
+          "term": "compression",
+          "meaning": "压缩"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "任何条件下“向系统加热”都使内能增加（q>0）；做功、失热、压缩等不保证一定增加。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-003",
+      "version": 1,
+      "originalNumber": 203,
+      "chapterNumber": 3,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The internal energy of a system ________.",
+      "stemImages": [],
+      "stemZh": "系统的内能 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "is the sum of the kinetic energy of all of its components"
+        },
+        {
+          "key": "B",
+          "text": "is the sum of the rotational, vibrational, and translational energies of all of its components"
+        },
+        {
+          "key": "C",
+          "text": "refers only to the energies of the nuclei of the atoms of the component molecules"
+        },
+        {
+          "key": "D",
+          "text": "is the sum of the potential and kinetic energies of the components"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ],
+      "optionsZh": {
+        "A": "是所有组分动能之和",
+        "B": "是所有组分转动、振动和翻译能之和",
+        "C": "仅指组分分子中原子的核的能量",
+        "D": "是所有组分势能与动能之和",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "internal energy",
+          "meaning": "内能"
+        },
+        {
+          "term": "components",
+          "meaning": "组分"
+        },
+        {
+          "term": "translational",
+          "meaning": "平动的"
+        },
+        {
+          "term": "nuclei",
+          "meaning": "原子核"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "内能是系统所有粒子的动能与势能之和。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-004",
+      "version": 1,
+      "originalNumber": 204,
+      "chapterNumber": 4,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following conditions would always result in an increase in the internal energy of a system?",
+      "stemImages": [],
+      "stemZh": "下列哪种情况一定会使系统内能增加？",
+      "options": [
+        {
+          "key": "A",
+          "text": "The system loses heat and does work on the surroundings."
+        },
+        {
+          "key": "B",
+          "text": "The system gains heat and does work on the surroundings."
+        },
+        {
+          "key": "C",
+          "text": "The system loses heat and has work done on it by the surroundings."
+        },
+        {
+          "key": "D",
+          "text": "The system gains heat and has work done on it by the surroundings."
+        },
+        {
+          "key": "E",
+          "text": "None of the above is correct."
+        }
+      ],
+      "optionsZh": {
+        "A": "系统放热并对环境做功",
+        "B": "系统吸热并对环境做功",
+        "C": "系统放热且外界对其做功",
+        "D": "系统吸热且外界对其做功",
+        "E": "以上都不对"
+      },
+      "glossary": [
+        {
+          "term": "gains heat",
+          "meaning": "吸热"
+        },
+        {
+          "term": "loses heat",
+          "meaning": "放热"
+        },
+        {
+          "term": "does work on",
+          "meaning": "对…做功"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "系统吸热（q>0）且外界对系统做功（w>0）时 ΔE=q+w 一定增大。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-005",
+      "version": 1,
+      "originalNumber": 205,
+      "chapterNumber": 5,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "When a system ________, ΔE is always negative.",
+      "stemImages": [],
+      "stemZh": "当系统 ________ 时，ΔE 总是负值。",
+      "options": [
+        {
+          "key": "A",
+          "text": "absorbs heat and does work"
+        },
+        {
+          "key": "B",
+          "text": "gives off heat and does work"
+        },
+        {
+          "key": "C",
+          "text": "absorbs heat and has work done on it"
+        },
+        {
+          "key": "D",
+          "text": "gives off heat and has work done on it"
+        },
+        {
+          "key": "E",
+          "text": "None of the above is always negative."
+        }
+      ],
+      "optionsZh": {
+        "A": "吸热并做功",
+        "B": "放热并做功",
+        "C": "吸热并被做功",
+        "D": "放热并被做功",
+        "E": "以上都不总是负"
+      },
+      "glossary": [
+        {
+          "term": "ΔE",
+          "meaning": "内能变化"
+        },
+        {
+          "term": "absorbs",
+          "meaning": "吸收"
+        },
+        {
+          "term": "gives off",
+          "meaning": "放出"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "系统放热（q<0）且对外做功（w<0）时 ΔE=q+w 必为负。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-006",
+      "version": 1,
+      "originalNumber": 206,
+      "chapterNumber": 6,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following is an endothermic process?",
+      "stemImages": [],
+      "stemZh": "下列哪个是吸热过程？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ice melting"
+        },
+        {
+          "key": "B",
+          "text": "water freezing"
+        },
+        {
+          "key": "C",
+          "text": "boiling soup"
+        },
+        {
+          "key": "D",
+          "text": "Hydrochloric acid and barium hydroxide are mixed at 25 °C: the temperature increases."
+        },
+        {
+          "key": "E",
+          "text": "Both A and C"
+        }
+      ],
+      "optionsZh": {
+        "A": "冰融化",
+        "B": "水结冰",
+        "C": "煮汤（沸腾）",
+        "D": "25 °C 下盐酸与氢氧化钡混合温度升高",
+        "E": "A 和 C"
+      },
+      "glossary": [
+        {
+          "term": "endothermic",
+          "meaning": "吸热的"
+        },
+        {
+          "term": "melting",
+          "meaning": "融化"
+        },
+        {
+          "term": "freezing",
+          "meaning": "结冰"
+        },
+        {
+          "term": "boiling",
+          "meaning": "沸腾"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "explanation": "冰融化、烧开水（沸腾）都是吸热的；B 结冰、D 温度升高为放热。故选 Both A and C。",
+      "candidateAnswer": [
+        "E"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-007",
+      "version": 1,
+      "originalNumber": 207,
+      "chapterNumber": 7,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following is an exothermic process?",
+      "stemImages": [],
+      "stemZh": "下列哪个是放热过程？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ice melting"
+        },
+        {
+          "key": "B",
+          "text": "water evaporating"
+        },
+        {
+          "key": "C",
+          "text": "boiling soup"
+        },
+        {
+          "key": "D",
+          "text": "condensation of water vapor"
+        },
+        {
+          "key": "E",
+          "text": "Ammonium thiocyanate and barium hydroxide are mixed at 25 °C: the temperature drops."
+        }
+      ],
+      "optionsZh": {
+        "A": "冰融化",
+        "B": "水蒸发",
+        "C": "煮汤",
+        "D": "水蒸气凝结",
+        "E": "25 °C 下硫氰酸铵与氢氧化钡混合温度下降"
+      },
+      "glossary": [
+        {
+          "term": "exothermic",
+          "meaning": "放热的"
+        },
+        {
+          "term": "evaporating",
+          "meaning": "蒸发"
+        },
+        {
+          "term": "condensation",
+          "meaning": "凝结"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "水蒸气凝结是放热过程；A 融化、B 蒸发、C 沸腾吸热，E 温度下降为吸热。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-008",
+      "version": 1,
+      "originalNumber": 208,
+      "chapterNumber": 8,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which of the following is a statement of the first law of thermodynamics?",
+      "stemImages": [],
+      "stemZh": "下列哪项是热力学第一定律的表述？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ek = \u0001m\u0001",
+          "textImages": [
+            "images/chapter1c/img001.jpeg",
+            "images/chapter1c/img002.jpeg"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A negative ΔH corresponds to an exothermic process."
+        },
+        {
+          "key": "C",
+          "text": "ΔE = Efinal - Einitial"
+        },
+        {
+          "key": "D",
+          "text": "Energy lost by the system must be gained by the surroundings."
+        },
+        {
+          "key": "E",
+          "text": "1 cal = 4.184 J (exactly)"
+        }
+      ],
+      "optionsZh": {
+        "A": "Ek = …",
+        "B": "负 ΔH 对应放热过程",
+        "C": "ΔE = E末 − E初",
+        "D": "系统失去的能量必被环境获得",
+        "E": "1 cal = 4.184 J"
+      },
+      "glossary": [
+        {
+          "term": "first law of thermodynamics",
+          "meaning": "热力学第一定律"
+        },
+        {
+          "term": "surroundings",
+          "meaning": "环境"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "第一定律：系统失去的能量必被环境获得（能量守恒）。A 是动能公式；C 是 ΔE 的定义式。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-009",
+      "version": 1,
+      "originalNumber": 209,
+      "chapterNumber": 9,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "A ________ ΔH corresponds to an ________ process.",
+      "stemImages": [],
+      "stemZh": "________ 的 ΔH 对应 ________ 过程。",
+      "options": [
+        {
+          "key": "A",
+          "text": "negative, endothermic"
+        },
+        {
+          "key": "B",
+          "text": "negative, exothermic"
+        },
+        {
+          "key": "C",
+          "text": "positive, exothermic"
+        },
+        {
+          "key": "D",
+          "text": "zero, exothermic"
+        },
+        {
+          "key": "E",
+          "text": "zero, endothermic"
+        }
+      ],
+      "optionsZh": {
+        "A": "负，吸热",
+        "B": "负，放热",
+        "C": "正，放热",
+        "D": "零，放热",
+        "E": "零，吸热"
+      },
+      "glossary": [
+        {
+          "term": "ΔH",
+          "meaning": "焓变"
+        },
+        {
+          "term": "endothermic",
+          "meaning": "吸热"
+        },
+        {
+          "term": "exothermic",
+          "meaning": "放热"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "ΔH 为负对应放热（exothermic）过程。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-010",
+      "version": 1,
+      "originalNumber": 210,
+      "chapterNumber": 10,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "ΔH for an endothermic process is ________ while ΔH for an exothermic process is ________.",
+      "stemImages": [],
+      "stemZh": "吸热过程的 ΔH 为 ________，放热过程的 ΔH 为 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "zero, positive"
+        },
+        {
+          "key": "B",
+          "text": "zero, negative"
+        },
+        {
+          "key": "C",
+          "text": "positive, zero"
+        },
+        {
+          "key": "D",
+          "text": "negative, positive"
+        },
+        {
+          "key": "E",
+          "text": "positive, negative"
+        }
+      ],
+      "optionsZh": {
+        "A": "零，正",
+        "B": "零，负",
+        "C": "正，零",
+        "D": "负，正",
+        "E": "正，负"
+      },
+      "glossary": [
+        {
+          "term": "endothermic",
+          "meaning": "吸热"
+        },
+        {
+          "term": "exothermic",
+          "meaning": "放热"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "explanation": "吸热 ΔH>0、放热 ΔH<0，故 positive, negative。",
+      "candidateAnswer": [
+        "E"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-011",
+      "version": 1,
+      "originalNumber": 211,
+      "chapterNumber": 11,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "A chemical reaction that absorbs heat from the surroundings is said to be ________ and has a ________ ΔH at constant pressure.",
+      "stemImages": [],
+      "stemZh": "从环境吸热的化学反应称为 ________，恒压下 ΔH 为 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "endothermic, positive"
+        },
+        {
+          "key": "B",
+          "text": "endothermic, negative"
+        },
+        {
+          "key": "C",
+          "text": "exothermic, negative"
+        },
+        {
+          "key": "D",
+          "text": "exothermic, positive"
+        },
+        {
+          "key": "E",
+          "text": "exothermic, neutral"
+        }
+      ],
+      "optionsZh": {
+        "A": "吸热，正",
+        "B": "吸热，负",
+        "C": "放热，负",
+        "D": "放热，正",
+        "E": "放热，中性"
+      },
+      "glossary": [
+        {
+          "term": "absorbs heat",
+          "meaning": "吸热"
+        },
+        {
+          "term": "constant pressure",
+          "meaning": "恒压"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "从环境吸热＝吸热过程，恒压下 ΔH 为正。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-012",
+      "version": 1,
+      "originalNumber": 212,
+      "chapterNumber": 12,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The reaction 4Al (s) + 3O2 (g) → 2Al2O3 (s) ΔH° = -3351 kJ is ________, and therefore heat is ________ by the reaction.",
+      "stemImages": [],
+      "stemZh": "反应 4Al(s)+3O2(g)→2Al2O3(s) ΔH°=−3351 kJ 是 ________，因此反应 ________ 热量。",
+      "options": [
+        {
+          "key": "A",
+          "text": "endothermic, released"
+        },
+        {
+          "key": "B",
+          "text": "endothermic, absorbed"
+        },
+        {
+          "key": "C",
+          "text": "exothermic, released"
+        },
+        {
+          "key": "D",
+          "text": "exothermic, absorbed"
+        },
+        {
+          "key": "E",
+          "text": "thermoneutral, neither released nor absorbed"
+        }
+      ],
+      "optionsZh": {
+        "A": "吸热，释放",
+        "B": "吸热，吸收",
+        "C": "放热，释放",
+        "D": "放热，吸收",
+        "E": "热中性，既不释放也不吸收"
+      },
+      "glossary": [
+        {
+          "term": "released",
+          "meaning": "释放"
+        },
+        {
+          "term": "absorbed",
+          "meaning": "吸收"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "ΔH°=−3351 kJ<0 为放热，热量被释放（released）。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-013",
+      "version": 1,
+      "originalNumber": 213,
+      "chapterNumber": 13,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Under what condition(s) is the enthalpy change of a process equal to the amount of heat transferred into or out of the system? (a) temperature is constant (b) pressure is constant (c) volume is constant",
+      "stemImages": [],
+      "stemZh": "在什么条件下，过程的焓变等于进出系统的热量？(a) 温度恒定 (b) 压力恒定 (c) 体积恒定",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and b"
+        },
+        {
+          "key": "E",
+          "text": "b and c"
+        }
+      ],
+      "optionsZh": {
+        "A": "仅 a",
+        "B": "仅 b",
+        "C": "仅 c",
+        "D": "a 和 b",
+        "E": "b 和 c"
+      },
+      "glossary": [
+        {
+          "term": "enthalpy change",
+          "meaning": "焓变"
+        },
+        {
+          "term": "transferred",
+          "meaning": "传递"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "恒压（pressure constant）时焓变等于热量 qp。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-014",
+      "version": 1,
+      "originalNumber": 214,
+      "chapterNumber": 14,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which of the following is a statement of Hess's law?",
+      "stemImages": [],
+      "stemZh": "下列哪项是 Hess 定律的表述？",
+      "options": [
+        {
+          "key": "A",
+          "text": "If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the sum of the enthalpy changes for the individual steps."
+        },
+        {
+          "key": "B",
+          "text": "If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the product of the enthalpy changes for the individual steps."
+        },
+        {
+          "key": "C",
+          "text": "The ΔH for a process in the forward direction is equal in magnitude and opposite in sign to the ΔH for the process in the reverse direction."
+        },
+        {
+          "key": "D",
+          "text": "The ΔH for a process in the forward direction is equal to the ΔH for the process in the reverse direction."
+        },
+        {
+          "key": "E",
+          "text": "The ΔH of a reaction depends on the physical states of the reactants and products."
+        }
+      ],
+      "optionsZh": {
+        "A": "若反应分步进行，总 ΔH 等于各步焓变之和",
+        "B": "总 ΔH 等于各步焓变之积",
+        "C": "正逆反应 ΔH 大小相等符号相反",
+        "D": "正逆反应 ΔH 相等",
+        "E": "ΔH 取决于反应物和产物的物理状态"
+      },
+      "glossary": [
+        {
+          "term": "Hess's law",
+          "meaning": "Hess 定律（盖斯定律）"
+        },
+        {
+          "term": "individual steps",
+          "meaning": "各步"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "Hess 定律：分步反应的 ΔH 之和等于总反应 ΔH。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-015",
+      "version": 1,
+      "originalNumber": 215,
+      "chapterNumber": 15,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Consider the following two reactions: A → 2B ΔH°rxn = 456.7 kJ/mol A → C ΔH°rxn = -22.1 kJ/mol Determine the enthalpy change for the process: 2B → C",
+      "stemImages": [],
+      "stemZh": "已知两个反应：A→2B ΔH°=456.7 kJ/mol；A→C ΔH°=−22.1 kJ/mol。求 2B→C 的焓变。",
+      "options": [
+        {
+          "key": "A",
+          "text": "-478.8 kJ/mol"
+        },
+        {
+          "key": "B",
+          "text": "-434.6 kJ/mol"
+        },
+        {
+          "key": "C",
+          "text": "434.6 kJ/mol"
+        },
+        {
+          "key": "D",
+          "text": "478.8 kJ/mol"
+        },
+        {
+          "key": "E",
+          "text": "More information is needed to solve the problem."
+        }
+      ],
+      "optionsZh": {
+        "A": "−478.8 kJ/mol",
+        "B": "−434.6 kJ/mol",
+        "C": "434.6 kJ/mol",
+        "D": "478.8 kJ/mol",
+        "E": "信息不足"
+      },
+      "glossary": [
+        {
+          "term": "enthalpy change",
+          "meaning": "焓变"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "①A→2B ΔH=456.7，逆得 2B→A ΔH=−456.7；②A→C ΔH=−22.1；相加 2B→C ΔH=−478.8 kJ/mol。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-016",
+      "version": 1,
+      "originalNumber": 216,
+      "chapterNumber": 16,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "With reference to enthalpy changes, the term standard conditions means ________. (a) P = 1 atm (b) some common temperature, usually 298 K (c) V = 1 L",
+      "stemImages": [],
+      "stemZh": "关于焓变，“标准条件”指 ________。(a) P=1 atm (b) 某常用温度，通常 298 K (c) V=1 L",
+      "options": [
+        {
+          "key": "A",
+          "text": "a only"
+        },
+        {
+          "key": "B",
+          "text": "b only"
+        },
+        {
+          "key": "C",
+          "text": "c only"
+        },
+        {
+          "key": "D",
+          "text": "a and c"
+        },
+        {
+          "key": "E",
+          "text": "a and b"
+        }
+      ],
+      "optionsZh": {
+        "A": "仅 a",
+        "B": "仅 b",
+        "C": "仅 c",
+        "D": "a 和 c",
+        "E": "a 和 b"
+      },
+      "glossary": [
+        {
+          "term": "standard conditions",
+          "meaning": "标准条件"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "explanation": "标准条件指 P=1 atm 且常用温度（通常 298 K），即 (a)(b)；不是 V=1 L。",
+      "candidateAnswer": [
+        "E"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-017",
+      "version": 1,
+      "originalNumber": 217,
+      "chapterNumber": 17,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The ΔE of a system that releases 12.4 J of heat and does 4.2 J of work on the surroundings is ________ J.",
+      "stemImages": [],
+      "stemZh": "某系统放出 12.4 J 热并对环境做 4.2 J 功，其 ΔE 为 ________ J。",
+      "options": [
+        {
+          "key": "A",
+          "text": "16.6"
+        },
+        {
+          "key": "B",
+          "text": "12.4"
+        },
+        {
+          "key": "C",
+          "text": "4.2"
+        },
+        {
+          "key": "D",
+          "text": "-16.6"
+        },
+        {
+          "key": "E",
+          "text": "-8.2"
+        }
+      ],
+      "optionsZh": {
+        "A": "16.6",
+        "B": "12.4",
+        "C": "4.2",
+        "D": "−16.6",
+        "E": "−8.2"
+      },
+      "glossary": [
+        {
+          "term": "releases",
+          "meaning": "放出"
+        },
+        {
+          "term": "work",
+          "meaning": "功"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "ΔE=q+w；放热 12.4 J→q=−12.4，对外做功 4.2 J→w=−4.2，ΔE=−16.6 J。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-018",
+      "version": 1,
+      "originalNumber": 218,
+      "chapterNumber": 18,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The enthalpy change for the following reaction is -483.6 kJ: 2H2 (g) + O2 (g) → 2H2O (g) Therefore, the enthalpy change for the following reaction is ________ kJ. 4H2 (g) + 2O2 (g) → 4H2O (g)",
+      "stemImages": [],
+      "stemZh": "反应 2H2(g)+O2(g)→2H2O(g) 的焓变为 −483.6 kJ。则 4H2(g)+2O2(g)→4H2O(g) 的焓变为 ________ kJ。",
+      "options": [
+        {
+          "key": "A",
+          "text": "-483.6"
+        },
+        {
+          "key": "B",
+          "text": "-967.2"
+        },
+        {
+          "key": "C",
+          "text": "2.34 × 105"
+        },
+        {
+          "key": "D",
+          "text": "483.6"
+        },
+        {
+          "key": "E",
+          "text": "967.2"
+        }
+      ],
+      "optionsZh": {
+        "A": "−483.6",
+        "B": "−967.2",
+        "C": "2.34×10^5",
+        "D": "483.6",
+        "E": "967.2"
+      },
+      "glossary": [
+        {
+          "term": "enthalpy change",
+          "meaning": "焓变"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "反应式系数翻倍，焓变翻倍：2×(−483.6)=−967.2 kJ。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-019",
+      "version": 1,
+      "originalNumber": 219,
+      "chapterNumber": 19,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "ΔH for the reaction IF5 (g) → IF3 (g) + F2 (g) is ________ kJ, give the data below. IF (g) + F2 (g) → IF3 (g) ΔH = -390 kJ IF (g) + 2F2 (g) → IF5 (g) ΔH = -745 kJ",
+      "stemImages": [],
+      "stemZh": "反应 IF5(g)→IF3(g)+F2(g) 的 ΔH 为 ________ kJ（已知：IF(g)+F2(g)→IF3(g) ΔH=−390 kJ；IF(g)+2F2(g)→IF5(g) ΔH=−745 kJ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "+355"
+        },
+        {
+          "key": "B",
+          "text": "-1135"
+        },
+        {
+          "key": "C",
+          "text": "+1135"
+        },
+        {
+          "key": "D",
+          "text": "+35"
+        },
+        {
+          "key": "E",
+          "text": "-35"
+        }
+      ],
+      "optionsZh": {
+        "A": "+355",
+        "B": "−1135",
+        "C": "+1135",
+        "D": "+35",
+        "E": "−35"
+      },
+      "glossary": [
+        {
+          "term": "given the data",
+          "meaning": "已知数据"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "求 IF5→IF3+F2。逆 IF+2F2→IF5 得 IF5→IF+2F2 ΔH=+745；加 IF+F2→IF3 ΔH=−390 → +355 kJ。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-020",
+      "version": 1,
+      "originalNumber": 220,
+      "chapterNumber": 20,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Given the following reactions Fe2O3 (s) + 3CO (s) → 2Fe (s) + 3CO2 (g) ΔH = -28.0 kJ 3Fe (s) + 4CO2 (s) → 4CO (g) + Fe3O4 (s) ΔH = +12.5 kJ the enthalpy of the reaction of Fe2O3 with CO 3Fe2O3 (s) + CO (g) → CO2 (g) + 2 Fe3O4 (s) is ________ kJ.",
+      "stemImages": [],
+      "stemZh": "已知反应 Fe2O3(s)+3CO(s)→2Fe(s)+3CO2(g) ΔH=−28.0 kJ；3Fe(s)+4CO2(s)→4CO(g)+Fe3O4(s) ΔH=+12.5 kJ。反应 3Fe2O3(s)+CO(g)→CO2(g)+2Fe3O4(s) 的焓变为 ________ kJ。",
+      "options": [
+        {
+          "key": "A",
+          "text": "-59.0"
+        },
+        {
+          "key": "B",
+          "text": "40.5"
+        },
+        {
+          "key": "C",
+          "text": "-15.5"
+        },
+        {
+          "key": "D",
+          "text": "-109"
+        },
+        {
+          "key": "E",
+          "text": "+109"
+        }
+      ],
+      "optionsZh": {
+        "A": "−59.0",
+        "B": "40.5",
+        "C": "−15.5",
+        "D": "−109",
+        "E": "+109"
+      },
+      "glossary": [
+        {
+          "term": "enthalpy",
+          "meaning": "焓"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "①×3：3Fe2O3+9CO→6Fe+9CO2 ΔH=−84.0；②×2：6Fe+8CO2→8CO+2Fe3O4 ΔH=+25.0；相加消去：3Fe2O3+CO→CO2+2Fe3O4 ΔH=−59.0 kJ。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-021",
+      "version": 1,
+      "originalNumber": 221,
+      "chapterNumber": 21,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Given the following reactions N2 (g) + 2O2 (g) → 2NO2 (g) ΔH = 66.4 kJ 2NO (g) + O2 (g) → 2NO2 (g) ΔH = -114.2 kJ the enthalpy of the reaction of the nitrogen to produce nitric oxide N2 (g) + O2 (g) → 2NO (g) is ________ kJ.",
+      "stemImages": [],
+      "stemZh": "已知 N2(g)+2O2(g)→2NO2(g) ΔH=66.4 kJ；2NO(g)+O2(g)→2NO2(g) ΔH=−114.2 kJ。反应 N2(g)+O2(g)→2NO(g) 的焓变为 ________ kJ。",
+      "options": [
+        {
+          "key": "A",
+          "text": "180.6"
+        },
+        {
+          "key": "B",
+          "text": "-47.8"
+        },
+        {
+          "key": "C",
+          "text": "47.8"
+        },
+        {
+          "key": "D",
+          "text": "90.3"
+        },
+        {
+          "key": "E",
+          "text": "-180.6"
+        }
+      ],
+      "optionsZh": {
+        "A": "180.6",
+        "B": "−47.8",
+        "C": "47.8",
+        "D": "90.3",
+        "E": "−180.6"
+      },
+      "glossary": [
+        {
+          "term": "nitric oxide",
+          "meaning": "一氧化氮（NO）"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "N2+2O2→2NO2 ΔH=66.4；逆 2NO2→2NO+O2 ΔH=+114.2；相加得 N2+O2→2NO ΔH=180.6 kJ。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-022",
+      "version": 1,
+      "originalNumber": 222,
+      "chapterNumber": 22,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The value of ΔH° for the following reaction is -3351 kJ: 2Al (s) + 3O2 (g) → 2Al2O3 (s) The value of ΔH°f for Al2O3 (s) is ________ kJ.",
+      "stemImages": [],
+      "stemZh": "反应 2Al(s)+3O2(g)→2Al2O3(s) 的 ΔH°=−3351 kJ。则 Al2O3(s) 的 ΔH°f 为 ________ kJ。",
+      "options": [
+        {
+          "key": "A",
+          "text": "-3351"
+        },
+        {
+          "key": "B",
+          "text": "-1676"
+        },
+        {
+          "key": "C",
+          "text": "-32.86"
+        },
+        {
+          "key": "D",
+          "text": "-16.43"
+        },
+        {
+          "key": "E",
+          "text": "+3351"
+        }
+      ],
+      "optionsZh": {
+        "A": "−3351",
+        "B": "−1676",
+        "C": "−32.86",
+        "D": "−16.43",
+        "E": "+3351"
+      },
+      "glossary": [
+        {
+          "term": "standard enthalpy of formation",
+          "meaning": "标准生成焓"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "生成 2 mol Al2O3 放热 3351 kJ，故 ΔH°f(Al2O3)=−3351/2≈−1676 kJ/mol。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-023",
+      "version": 1,
+      "originalNumber": 223,
+      "chapterNumber": 23,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "When work is done on a system, w will be a ________ value.",
+      "stemImages": [],
+      "stemZh": "当对系统做功时，w 取 ________ 值。",
+      "options": [
+        {
+          "key": "A",
+          "text": "positive"
+        },
+        {
+          "key": "B",
+          "text": "negative"
+        },
+        {
+          "key": "C",
+          "text": "very large"
+        },
+        {
+          "key": "D",
+          "text": "very small"
+        },
+        {
+          "key": "E",
+          "text": "There is not enough information given to determine the answer."
+        }
+      ],
+      "optionsZh": {
+        "A": "正",
+        "B": "负",
+        "C": "很大",
+        "D": "很小",
+        "E": "信息不足"
+      },
+      "glossary": [
+        {
+          "term": "work",
+          "meaning": "功"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "外界对系统做功时 w 取正值。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-024",
+      "version": 1,
+      "originalNumber": 224,
+      "chapterNumber": 24,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The value of ΔE for a system that performs 139 kJ of work on its surroundings and gains 54kJ of heat is ________ kJ.",
+      "stemImages": [],
+      "stemZh": "某系统对环境做 139 kJ 功并获得 54 kJ 热，其 ΔE 为 ________ kJ。",
+      "options": [
+        {
+          "key": "A",
+          "text": "-85"
+        },
+        {
+          "key": "B",
+          "text": "193"
+        },
+        {
+          "key": "C",
+          "text": "7506"
+        },
+        {
+          "key": "D",
+          "text": "85"
+        },
+        {
+          "key": "E",
+          "text": "-193"
+        }
+      ],
+      "optionsZh": {
+        "A": "−85",
+        "B": "193",
+        "C": "7506",
+        "D": "85",
+        "E": "−193"
+      },
+      "glossary": [
+        {
+          "term": "performs work",
+          "meaning": "做功"
+        },
+        {
+          "term": "gains heat",
+          "meaning": "获得热"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "ΔE=q+w=+54+(−139)=−85 kJ。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-025",
+      "version": 1,
+      "originalNumber": 225,
+      "chapterNumber": 25,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The temperature of a 24.3 g sample of gold increases from 23.7 °C to 31.5 °C. If the specific heat of gold is 0.129 J/g-K, how many joules of heat are absorbed?",
+      "stemImages": [],
+      "stemZh": "24.3 g 金样品从 23.7 °C 升温到 31.5 °C。金的比热为 0.129 J/g·K，吸收多少焦耳热？",
+      "options": [
+        {
+          "key": "A",
+          "text": "24.5 J"
+        },
+        {
+          "key": "B",
+          "text": "0.0414 J"
+        },
+        {
+          "key": "C",
+          "text": "-24.5 J"
+        },
+        {
+          "key": "D",
+          "text": "0.293 J"
+        },
+        {
+          "key": "E",
+          "text": "1.01 J"
+        }
+      ],
+      "optionsZh": {
+        "A": "24.5 J",
+        "B": "0.0414 J",
+        "C": "−24.5 J",
+        "D": "0.293 J",
+        "E": "1.01 J"
+      },
+      "glossary": [
+        {
+          "term": "specific heat",
+          "meaning": "比热（容）"
+        },
+        {
+          "term": "absorbed",
+          "meaning": "吸收"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "q=mcΔT=24.3×0.129×(31.5−23.7)=24.3×0.129×7.8≈24.5 J。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-026",
+      "version": 1,
+      "originalNumber": 226,
+      "chapterNumber": 26,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The first law of thermodynamics can be given as ________.",
+      "stemImages": [],
+      "stemZh": "热力学第一定律可写作 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "ΔE = q + w"
+        },
+        {
+          "key": "B",
+          "text": "Δ\u0001 = \u0001 - \u0001",
+          "textImages": [
+            "images/chapter1c/img003.jpeg",
+            "images/chapter1c/img004.jpeg",
+            "images/chapter1c/img005.jpeg"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "for any spontaneous process, the entropy of the universe increases"
+        },
+        {
+          "key": "D",
+          "text": "the entropy of a pure crystalline substance at absolute zero is zero"
+        },
+        {
+          "key": "E",
+          "text": "ΔS = qrev/T at constant temperature"
+        }
+      ],
+      "optionsZh": {
+        "A": "ΔE = q + w",
+        "B": "ΔE = E末 − E初",
+        "C": "任何自发过程宇宙熵增大",
+        "D": "纯晶体在绝对零度熵为零",
+        "E": "恒温下 ΔS = qrev/T"
+      },
+      "glossary": [
+        {
+          "term": "first law",
+          "meaning": "第一定律"
+        },
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        },
+        {
+          "term": "entropy",
+          "meaning": "熵"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "第一定律：ΔE=q+w。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-027",
+      "version": 1,
+      "originalNumber": 227,
+      "chapterNumber": 27,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "A reaction that is spontaneous as written ________.",
+      "stemImages": [],
+      "stemZh": "按书写方向自发的反应 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "is very rapid"
+        },
+        {
+          "key": "B",
+          "text": "will proceed without outside intervention"
+        },
+        {
+          "key": "C",
+          "text": "is also spontaneous in the reverse direction"
+        },
+        {
+          "key": "D",
+          "text": "has an equilibrium position that lies far to the left"
+        },
+        {
+          "key": "E",
+          "text": "is very slow"
+        }
+      ],
+      "optionsZh": {
+        "A": "非常快",
+        "B": "无需外界干预即可进行",
+        "C": "逆方向也自发",
+        "D": "平衡位置远靠左",
+        "E": "非常慢"
+      },
+      "glossary": [
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        },
+        {
+          "term": "intervention",
+          "meaning": "干预"
+        },
+        {
+          "term": "rapid",
+          "meaning": "快"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "自发（as written）指不需外界干预即可进行；与快慢无关。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-028",
+      "version": 1,
+      "originalNumber": 228,
+      "chapterNumber": 28,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "When a system is at equilibrium, ________.",
+      "stemImages": [],
+      "stemZh": "当系统处于平衡时，________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "the reverse process is spontaneous but the forward process is not"
+        },
+        {
+          "key": "B",
+          "text": "the forward and the reverse processes are both spontaneous"
+        },
+        {
+          "key": "C",
+          "text": "the forward process is spontaneous but the reverse process is not"
+        },
+        {
+          "key": "D",
+          "text": "the process is not spontaneous in either direction"
+        },
+        {
+          "key": "E",
+          "text": "both forward and reverse processes have stopped"
+        }
+      ],
+      "optionsZh": {
+        "A": "逆过程自发但正过程不自发",
+        "B": "正、逆过程都自发",
+        "C": "正过程自发但逆过程不自发",
+        "D": "两个方向都不自发",
+        "E": "正、逆过程都停止"
+      },
+      "glossary": [
+        {
+          "term": "equilibrium",
+          "meaning": "平衡"
+        },
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "平衡时 ΔG=0，正、逆方向都没有净自发倾向（E 错在“停止”，平衡是动态的）。【A 与 D 口径易混，标待核】",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "contested",
+      "reviewFlag": "contested",
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-029",
+      "version": 1,
+      "originalNumber": 229,
+      "chapterNumber": 29,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "A reversible process is one that ________.",
+      "stemImages": [],
+      "stemZh": "可逆过程是 ________ 的过程。",
+      "options": [
+        {
+          "key": "A",
+          "text": "can be reversed with no net change in either system or surroundings"
+        },
+        {
+          "key": "B",
+          "text": "happens spontaneously"
+        },
+        {
+          "key": "C",
+          "text": "is spontaneous in both directions"
+        },
+        {
+          "key": "D",
+          "text": "must be carried out at low temperature"
+        },
+        {
+          "key": "E",
+          "text": "must be carried out at high temperature"
+        }
+      ],
+      "optionsZh": {
+        "A": "反转后系统与环境都无净变化",
+        "B": "自发发生",
+        "C": "两个方向都自发",
+        "D": "必须在低温进行",
+        "E": "必须在高温进行"
+      },
+      "glossary": [
+        {
+          "term": "reversible process",
+          "meaning": "可逆过程"
+        },
+        {
+          "term": "net change",
+          "meaning": "净变化"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "可逆过程：反转后系统与环境都不留净变化。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-030",
+      "version": 1,
+      "originalNumber": 230,
+      "chapterNumber": 30,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which of the following statements is true?",
+      "stemImages": [],
+      "stemZh": "下列说法哪个正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Processes that are spontaneous in one direction are spontaneous in the opposite direction."
+        },
+        {
+          "key": "B",
+          "text": "Processes are spontaneous because they occur at an observable rate."
+        },
+        {
+          "key": "C",
+          "text": "Spontaneity can depend on the temperature."
+        },
+        {
+          "key": "D",
+          "text": "All of the statements are true."
+        }
+      ],
+      "optionsZh": {
+        "A": "一个方向自发的过程其反方向也自发",
+        "B": "过程自发是因为以可观测速率发生",
+        "C": "自发性可取决于温度",
+        "D": "以上都对"
+      },
+      "glossary": [
+        {
+          "term": "spontaneity",
+          "meaning": "自发性"
+        },
+        {
+          "term": "observable rate",
+          "meaning": "可观测速率"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "自发性可随温度改变（ΔG=ΔH−TΔS）；与反应速率无关。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-031",
+      "version": 1,
+      "originalNumber": 231,
+      "chapterNumber": 31,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The thermodynamic quantity that expresses the extent of randomness in a system is ________.",
+      "stemImages": [],
+      "stemZh": "表示系统无序程度的热力学量是 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "enthalpy"
+        },
+        {
+          "key": "B",
+          "text": "internal energy"
+        },
+        {
+          "key": "C",
+          "text": "bond energy"
+        },
+        {
+          "key": "D",
+          "text": "entropy"
+        },
+        {
+          "key": "E",
+          "text": "heat flow"
+        }
+      ],
+      "optionsZh": {
+        "A": "焓",
+        "B": "内能",
+        "C": "键能",
+        "D": "熵",
+        "E": "热流"
+      },
+      "glossary": [
+        {
+          "term": "randomness",
+          "meaning": "无序/随机性"
+        },
+        {
+          "term": "entropy",
+          "meaning": "熵"
+        },
+        {
+          "term": "enthalpy",
+          "meaning": "焓"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "熵（entropy）衡量系统无序/混乱程度。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-032",
+      "version": 1,
+      "originalNumber": 232,
+      "chapterNumber": 32,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The entropy of the universe is ________.",
+      "stemImages": [],
+      "stemZh": "宇宙的熵 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "constant"
+        },
+        {
+          "key": "B",
+          "text": "continually decreasing"
+        },
+        {
+          "key": "C",
+          "text": "continually increasing"
+        },
+        {
+          "key": "D",
+          "text": "zero"
+        },
+        {
+          "key": "E",
+          "text": "the same as the energy, E"
+        }
+      ],
+      "optionsZh": {
+        "A": "恒定",
+        "B": "不断减小",
+        "C": "不断增大",
+        "D": "为零",
+        "E": "与能量 E 相同"
+      },
+      "glossary": [
+        {
+          "term": "universe",
+          "meaning": "宇宙"
+        },
+        {
+          "term": "continually",
+          "meaning": "不断地"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "宇宙的熵不断增大（第二定律）。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-033",
+      "version": 1,
+      "originalNumber": 233,
+      "chapterNumber": 33,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The second law of thermodynamics states that ________.",
+      "stemImages": [],
+      "stemZh": "热力学第二定律指出 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "ΔE = q + w"
+        },
+        {
+          "key": "B",
+          "text": "ΔH°rxn = Σ nΔH°f (products) - Σ mΔH°f (reactants)"
+        },
+        {
+          "key": "C",
+          "text": "for any spontaneous process, the entropy of the universe increases"
+        },
+        {
+          "key": "D",
+          "text": "the entropy of a pure crystalline substance is zero at absolute zero"
+        },
+        {
+          "key": "E",
+          "text": "ΔS = qrev/T at constant temperature"
+        }
+      ],
+      "optionsZh": {
+        "A": "ΔE = q + w",
+        "B": "ΔH°rxn = ΣnΔH°f(产物) − ΣmΔH°f(反应物)",
+        "C": "任何自发过程宇宙熵增大",
+        "D": "纯晶体在绝对零度熵为零",
+        "E": "恒温下 ΔS = qrev/T"
+      },
+      "glossary": [
+        {
+          "term": "second law",
+          "meaning": "第二定律"
+        },
+        {
+          "term": "entropy of the universe",
+          "meaning": "宇宙的熵"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "第二定律：任何自发过程使宇宙总熵增大。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-034",
+      "version": 1,
+      "originalNumber": 234,
+      "chapterNumber": 34,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following processes produces a decrease of the entropy of the system?",
+      "stemImages": [],
+      "stemZh": "下列哪个过程使系统熵减小？",
+      "options": [
+        {
+          "key": "A",
+          "text": "dissolving sodium chloride in water"
+        },
+        {
+          "key": "B",
+          "text": "sublimation of naphthalene"
+        },
+        {
+          "key": "C",
+          "text": "dissolving oxygen in water"
+        },
+        {
+          "key": "D",
+          "text": "boiling of alcohol"
+        },
+        {
+          "key": "E",
+          "text": "explosion of nitroglycerine"
+        }
+      ],
+      "optionsZh": {
+        "A": "氯化钠溶于水",
+        "B": "萘升华",
+        "C": "氧气溶于水",
+        "D": "酒精沸腾",
+        "E": "硝化甘油爆炸"
+      },
+      "glossary": [
+        {
+          "term": "decrease",
+          "meaning": "减小"
+        },
+        {
+          "term": "sublimation",
+          "meaning": "升华"
+        },
+        {
+          "term": "naphthalene",
+          "meaning": "萘"
+        },
+        {
+          "term": "explosion",
+          "meaning": "爆炸"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "氧气溶于水是气→溶液，混乱度减小，系统熵减小；其余均增大。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-035",
+      "version": 1,
+      "originalNumber": 235,
+      "chapterNumber": 35,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Consider a pure crystalline solid that is heated from absolute zero to a temperature above the boiling point of the liquid. Which of the following processes produces the greatest increase in the entropy of the substance?",
+      "stemImages": [],
+      "stemZh": "将纯晶体固从绝对零度加热到高于该液体沸点的温度。下列哪个过程使物质熵增最大？",
+      "options": [
+        {
+          "key": "A",
+          "text": "melting the solid"
+        },
+        {
+          "key": "B",
+          "text": "heating the liquid"
+        },
+        {
+          "key": "C",
+          "text": "heating the gas"
+        },
+        {
+          "key": "D",
+          "text": "heating the solid"
+        },
+        {
+          "key": "E",
+          "text": "vaporizing the liquid"
+        }
+      ],
+      "optionsZh": {
+        "A": "熔化固体",
+        "B": "加热液体",
+        "C": "加热气体",
+        "D": "加热固体",
+        "E": "汽化液体"
+      },
+      "glossary": [
+        {
+          "term": "vaporize",
+          "meaning": "汽化"
+        },
+        {
+          "term": "melting",
+          "meaning": "熔化"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "explanation": "液→气（汽化）的相变熵增最大。",
+      "candidateAnswer": [
+        "E"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-036",
+      "version": 1,
+      "originalNumber": 236,
+      "chapterNumber": 36,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "ΔS is positive for the reaction ________.",
+      "stemImages": [],
+      "stemZh": "反应 ________ 的 ΔS 为正。",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaO (s)  +  CO2 (g)  →  CaCO3 (s)"
+        },
+        {
+          "key": "B",
+          "text": "N2 (g)  +  3H2 (g)  →  2NH3 (g)"
+        },
+        {
+          "key": "C",
+          "text": "2SO3 (g)  →  2SO2 (g)  +  O2 (g)"
+        },
+        {
+          "key": "D",
+          "text": "Ag+ (aq)  +  Cl- (aq)  →  AgCl (s)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (s)"
+        }
+      ],
+      "optionsZh": {
+        "A": "CaO(s)+CO2(g)→CaCO3(s)",
+        "B": "N2(g)+3H2(g)→2NH3(g)",
+        "C": "2SO3(g)→2SO2(g)+O2(g)",
+        "D": "Ag+(aq)+Cl−(aq)→AgCl(s)",
+        "E": "H2O(l)→H2O(s)"
+      },
+      "glossary": [
+        {
+          "term": "ΔS",
+          "meaning": "熵变"
+        },
+        {
+          "term": "positive",
+          "meaning": "正的"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "2SO3→2SO2+O2 气体分子数由2增到3，ΔS>0。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-037",
+      "version": 1,
+      "originalNumber": 237,
+      "chapterNumber": 37,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which reaction produces a decrease in the entropy of the system?",
+      "stemImages": [],
+      "stemZh": "哪个反应使系统熵减小？",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaCO3 (s)   →  CaO (s)  +  CO2 (g)"
+        },
+        {
+          "key": "B",
+          "text": "2C (s)  +  O2 (g)  →  2CO (g)"
+        },
+        {
+          "key": "C",
+          "text": "CO2 (s)  →  CO2 (g)"
+        },
+        {
+          "key": "D",
+          "text": "2H2 (g)  +  O2 (g)   →  2H2O (l)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (g)"
+        }
+      ],
+      "optionsZh": {
+        "A": "CaCO3(s)→CaO(s)+CO2(g)",
+        "B": "2C(s)+O2(g)→2CO(g)",
+        "C": "CO2(s)→CO2(g)",
+        "D": "2H2(g)+O2(g)→2H2O(l)",
+        "E": "H2O(l)→H2O(g)"
+      },
+      "glossary": [
+        {
+          "term": "decrease",
+          "meaning": "减小"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "2H2(g)+O2(g)→2H2O(l)：气体减少且生成液体，熵减小。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-038",
+      "version": 1,
+      "originalNumber": 238,
+      "chapterNumber": 38,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which reaction produces an increase in the entropy of the system?",
+      "stemImages": [],
+      "stemZh": "哪个反应使系统熵增大？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ag+ (aq)  +  Cl- (aq)  →  AgCl (s)"
+        },
+        {
+          "key": "B",
+          "text": "CO2 (s)  →  CO2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "H2 (g)  +  Cl2 (g)  →  2 HCl (g)"
+        },
+        {
+          "key": "D",
+          "text": "N2 (g)  +  3 H2 (g)   →  2 NH3 (g)"
+        },
+        {
+          "key": "E",
+          "text": "H2O (l)  →  H2O (s)"
+        }
+      ],
+      "optionsZh": {
+        "A": "Ag+(aq)+Cl−(aq)→AgCl(s)",
+        "B": "CO2(s)→CO2(g)",
+        "C": "H2(g)+Cl2(g)→2HCl(g)",
+        "D": "N2(g)+3H2(g)→2NH3(g)",
+        "E": "H2O(l)→H2O(s)"
+      },
+      "glossary": [
+        {
+          "term": "increase",
+          "meaning": "增大"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "CO2(s)→CO2(g) 由固变气，熵增大。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-039",
+      "version": 1,
+      "originalNumber": 239,
+      "chapterNumber": 39,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The equilibrium position corresponds to which letter on the graph of G vs. f (course of reaction) below? \u0001",
+      "stemImages": [
+        "images/chapter1c/img006.jpeg"
+      ],
+      "stemZh": "在下图 G 对反应进程(f) 的图中，平衡位置对应哪个字母？",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        }
+      ],
+      "optionsZh": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "glossary": [
+        {
+          "term": "equilibrium position",
+          "meaning": "平衡位置"
+        },
+        {
+          "term": "course of reaction",
+          "meaning": "反应进程"
+        },
+        {
+          "term": "Gibbs free energy",
+          "meaning": "吉布斯自由能"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "图 G–反应进程的最低点 C 即平衡位置。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-040",
+      "version": 1,
+      "originalNumber": 240,
+      "chapterNumber": 40,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "For the reaction C2H6 (g) → C2H4 (g) + H2 (g) ΔH° is +137 kJ/mol and ΔS° is +120 J/K ∙ mol. This reaction is ________.",
+      "stemImages": [],
+      "stemZh": "反应 C2H6(g)→C2H4(g)+H2(g) 的 ΔH°=+137 kJ/mol，ΔS°=+120 J/K·mol。该反应 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous only at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "spontaneous only at low temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        }
+      ],
+      "optionsZh": {
+        "A": "所有温度都自发",
+        "B": "仅高温自发",
+        "C": "仅低温自发",
+        "D": "所有温度都非自发"
+      },
+      "glossary": [
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "ΔH>0、ΔS>0，高温自发：T>ΔH/ΔS=137000/120≈1142 K，故仅高温自发。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-041",
+      "version": 1,
+      "originalNumber": 241,
+      "chapterNumber": 41,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "For the reaction 2 C4H10 (g) + 13 O2 (g) → 8 CO2 (g) + 10 H2O (g) ΔH° is -125 kJ/mol and ΔS° is +253 J/K ∙ mol. This reaction is ________.",
+      "stemImages": [],
+      "stemZh": "反应 2C4H10(g)+13O2(g)→8CO2(g)+10H2O(g) 的 ΔH°=−125 kJ/mol，ΔS°=+253 J/K·mol。该反应 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous only at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "spontaneous only at low temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        },
+        {
+          "key": "E",
+          "text": "unable to determine without more information"
+        }
+      ],
+      "optionsZh": {
+        "A": "所有温度都自发",
+        "B": "仅高温自发",
+        "C": "仅低温自发",
+        "D": "所有温度都非自发",
+        "E": "信息不足"
+      },
+      "glossary": [
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "ΔH<0、ΔS>0 → ΔG<0 对所有温度都自发。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-042",
+      "version": 1,
+      "originalNumber": 242,
+      "chapterNumber": 42,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "A reaction that is not spontaneous at low temperature can become spontaneous at high temperature if ΔH is ________ and ΔS is ________.",
+      "stemImages": [],
+      "stemZh": "低温非自发、高温自发，需要 ΔH 为 ________、ΔS 为 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "+, +"
+        },
+        {
+          "key": "B",
+          "text": "-, -"
+        },
+        {
+          "key": "C",
+          "text": "+, -"
+        },
+        {
+          "key": "D",
+          "text": "-, +"
+        },
+        {
+          "key": "E",
+          "text": "+, 0"
+        }
+      ],
+      "optionsZh": {
+        "A": "+，+",
+        "B": "−，−",
+        "C": "+，−",
+        "D": "−，+",
+        "E": "+，0"
+      },
+      "glossary": [
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "低温非自发、高温自发需 ΔH>0、ΔS>0（T 高时 −TΔS 更负）。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-043",
+      "version": 1,
+      "originalNumber": 243,
+      "chapterNumber": 43,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Given the following table of thermodynamic data, \u0001 complete the following sentence. The vaporization of TiCl4 is ________.",
+      "stemImages": [
+        "images/chapter1c/img007.jpeg"
+      ],
+      "stemZh": "已知下表热力学数据，完成句子：TiCl4 的汽化 ________。（表：TiCl4(g) ΔHf=−763.2, S=354.9；TiCl4(l) ΔHf=−804.2, S=221.9）",
+      "options": [
+        {
+          "key": "A",
+          "text": "spontaneous at all temperatures"
+        },
+        {
+          "key": "B",
+          "text": "spontaneous at low temperature and nonspontaneous at high temperature"
+        },
+        {
+          "key": "C",
+          "text": "nonspontaneous at low temperature and spontaneous at high temperature"
+        },
+        {
+          "key": "D",
+          "text": "nonspontaneous at all temperatures"
+        },
+        {
+          "key": "E",
+          "text": "not enough information given to draw a conclusion"
+        }
+      ],
+      "optionsZh": {
+        "A": "所有温度都自发",
+        "B": "低温自发、高温非自发",
+        "C": "低温非自发、高温自发",
+        "D": "所有温度都非自发",
+        "E": "信息不足"
+      },
+      "glossary": [
+        {
+          "term": "vaporization",
+          "meaning": "汽化"
+        },
+        {
+          "term": "thermodynamic data",
+          "meaning": "热力学数据"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "TiCl4(l)→TiCl4(g)：ΔH=ΔHf(g)−ΔHf(l)=−763.2−(−804.2)=+41.0 kJ；ΔS=354.9−221.9=+133.0 J/K。ΔG=ΔH−TΔS，低温>0、高温<0（阈值≈308 K），故低温非自发、高温自发。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-044",
+      "version": 1,
+      "originalNumber": 244,
+      "chapterNumber": 44,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "With thermodynamics, one cannot determine ________.",
+      "stemImages": [],
+      "stemZh": "用热力学无法确定 ________。",
+      "options": [
+        {
+          "key": "A",
+          "text": "the speed of a reaction"
+        },
+        {
+          "key": "B",
+          "text": "the direction of a spontaneous reaction"
+        },
+        {
+          "key": "C",
+          "text": "the extent of a reaction"
+        },
+        {
+          "key": "D",
+          "text": "the value of the equilibrium constant"
+        },
+        {
+          "key": "E",
+          "text": "the temperature at which a reaction will be spontaneous"
+        }
+      ],
+      "optionsZh": {
+        "A": "反应速率",
+        "B": "自发反应的方向",
+        "C": "反应的程度",
+        "D": "平衡常数的值",
+        "E": "反应自发的温度"
+      },
+      "glossary": [
+        {
+          "term": "thermodynamics",
+          "meaning": "热力学"
+        },
+        {
+          "term": "speed",
+          "meaning": "速率"
+        },
+        {
+          "term": "extent",
+          "meaning": "程度"
+        },
+        {
+          "term": "equilibrium constant",
+          "meaning": "平衡常数"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "热力学只能判断方向、程度、平衡常数与自发温度，不能判断反应速率（速度）。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-045",
+      "version": 1,
+      "originalNumber": 245,
+      "chapterNumber": 45,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following statements is true about the equilibrium constant for a reaction if ΔG° for the reaction is negative?",
+      "stemImages": [],
+      "stemZh": "若反应的 ΔG° 为负，关于其平衡常数，下列哪项正确？",
+      "options": [
+        {
+          "key": "A",
+          "text": "K = 0"
+        },
+        {
+          "key": "B",
+          "text": "K = 1"
+        },
+        {
+          "key": "C",
+          "text": "K > 1"
+        },
+        {
+          "key": "D",
+          "text": "K < 1"
+        },
+        {
+          "key": "E",
+          "text": "More information is needed."
+        }
+      ],
+      "optionsZh": {
+        "A": "K = 0",
+        "B": "K = 1",
+        "C": "K > 1",
+        "D": "K < 1",
+        "E": "信息不足"
+      },
+      "glossary": [
+        {
+          "term": "equilibrium constant",
+          "meaning": "平衡常数"
+        },
+        {
+          "term": "Gibbs free energy",
+          "meaning": "吉布斯自由能"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "ΔG°=−RT lnK，ΔG°<0 → lnK>0 → K>1。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-046",
+      "version": 1,
+      "originalNumber": 246,
+      "chapterNumber": 46,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Which one of the following processes produces a decrease in the entropy of the system?",
+      "stemImages": [],
+      "stemZh": "下列哪个过程使系统熵减小？",
+      "options": [
+        {
+          "key": "A",
+          "text": "freezing of Fe(l) into Fe(s)"
+        },
+        {
+          "key": "B",
+          "text": "evaporation of liquid ethanol into gaseous ethanol"
+        },
+        {
+          "key": "C",
+          "text": "dissolution of LiOH(s) in water"
+        },
+        {
+          "key": "D",
+          "text": "melting ice to form water"
+        },
+        {
+          "key": "E",
+          "text": "mixing of two gases into one container"
+        }
+      ],
+      "optionsZh": {
+        "A": "Fe(l) 凝固为 Fe(s)",
+        "B": "液态乙醇蒸发为气态",
+        "C": "LiOH(s) 溶于水",
+        "D": "冰融化成水",
+        "E": "两种气体混合到同一容器"
+      },
+      "glossary": [
+        {
+          "term": "freezing",
+          "meaning": "凝固"
+        },
+        {
+          "term": "evaporation",
+          "meaning": "蒸发"
+        },
+        {
+          "term": "dissolution",
+          "meaning": "溶解"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "Fe(l)→Fe(s) 凝固，液→固熵减小；其余均熵增。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-047",
+      "version": 1,
+      "originalNumber": 247,
+      "chapterNumber": 47,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Of the following, the entropy of ________ is the largest.",
+      "stemImages": [],
+      "stemZh": "下列中，________ 的熵最大。",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2F4 (g)"
+        },
+        {
+          "key": "B",
+          "text": "BF3 (g)"
+        },
+        {
+          "key": "C",
+          "text": "B2H6 (g)"
+        },
+        {
+          "key": "D",
+          "text": "BCl3 (l)"
+        },
+        {
+          "key": "E",
+          "text": "B2O3 (s)"
+        }
+      ],
+      "optionsZh": {
+        "A": "B2F4(g)",
+        "B": "BF3(g)",
+        "C": "B2H6(g)",
+        "D": "BCl3(l)",
+        "E": "B2O3(s)"
+      },
+      "glossary": [
+        {
+          "term": "entropy",
+          "meaning": "熵"
+        },
+        {
+          "term": "largest",
+          "meaning": "最大"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "explanation": "熵：气>液>固；同为气体时分子越大越多原子熵越大，B2H6(g)（8 个原子）> B2F4(g)（6）> BF3(g)（4），故最大。",
+      "candidateAnswer": [
+        "C"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-048",
+      "version": 1,
+      "originalNumber": 248,
+      "chapterNumber": 48,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "The standard Gibbs free energy of formation of ________ is zero. (a) H2O (l) (b) Fe (s) (c) I2 (s)",
+      "stemImages": [],
+      "stemZh": "________ 的标准生成吉布斯自由能为零。(a) H2O(l) (b) Fe(s) (c) I2(s)",
+      "options": [
+        {
+          "key": "A",
+          "text": "(a) only"
+        },
+        {
+          "key": "B",
+          "text": "(b) only"
+        },
+        {
+          "key": "C",
+          "text": "(c) only"
+        },
+        {
+          "key": "D",
+          "text": "(b) and (c)"
+        },
+        {
+          "key": "E",
+          "text": "(a), (b), and (c)"
+        }
+      ],
+      "optionsZh": {
+        "A": "仅 (a)",
+        "B": "仅 (b)",
+        "C": "仅 (c)",
+        "D": "(b) 和 (c)",
+        "E": "(a)、(b) 和 (c)"
+      },
+      "glossary": [
+        {
+          "term": "standard Gibbs free energy of formation",
+          "meaning": "标准生成吉布斯自由能"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "explanation": "标准态单质的 ΔGf°=0：Fe(s)、I2(s) 是；(a) H2O(l) 是化合物，不为零。",
+      "candidateAnswer": [
+        "D"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-049",
+      "version": 1,
+      "originalNumber": 249,
+      "chapterNumber": 49,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "Given the thermodynamic data in the table below, calculate the equilibrium constant (at 298 K) for the reaction: 2 SO2 (g) + O2 (g) \u0001 2 SO3 (g) \u0001",
+      "stemImages": [
+        "images/chapter1c/img008.jpeg",
+        "images/chapter1c/img009.jpeg"
+      ],
+      "stemZh": "根据下表数据，计算反应 2SO2(g)+O2(g)→2SO3(g) 在 298 K 的平衡常数。",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.40 × 1024"
+        },
+        {
+          "key": "B",
+          "text": "1.06"
+        },
+        {
+          "key": "C",
+          "text": "1.95"
+        },
+        {
+          "key": "D",
+          "text": "3.82 × 1023"
+        },
+        {
+          "key": "E",
+          "text": "More data are needed."
+        }
+      ],
+      "optionsZh": {
+        "A": "2.40×10^24",
+        "B": "1.06",
+        "C": "1.95",
+        "D": "3.82×10^23",
+        "E": "数据不足"
+      },
+      "glossary": [
+        {
+          "term": "equilibrium constant",
+          "meaning": "平衡常数"
+        },
+        {
+          "term": "thermodynamic data",
+          "meaning": "热力学数据"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "explanation": "2SO2+O2→2SO3：ΔH°=2(−395)−[2(−297)+0]=−196 kJ；ΔS°=2(256)−[2(249)+205]=−191 J/K。ΔG°=−196000−298(−191)=−139082 J/mol。lnK=−ΔG°/(RT)=139082/(8.314×298)=56.1 → K≈e^56.1≈2.4×10^24。",
+      "candidateAnswer": [
+        "A"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+      }
+    },
+    {
+      "id": "CHEM-2-050",
+      "version": 1,
+      "originalNumber": 250,
+      "chapterNumber": 50,
+      "chapter": "Chapter 2 Thermodynamics (Questions)",
+      "label": "chapter1c",
+      "tags": [],
+      "type": "single",
+      "stem": "For a given reaction, ΔH = +22.2 kJ/mol and ΔS = +81.1 J/K-mol. The reaction is spontaneous ________. Assume that ΔH and ΔS do not vary with temperature.",
+      "stemImages": [],
+      "stemZh": "某反应 ΔH=+22.2 kJ/mol，ΔS=+81.1 J/K·mol。该反应在 ________ 自发（设 ΔH、ΔS 不随温度变化）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "at T < 274 K"
+        },
+        {
+          "key": "B",
+          "text": "at T > 274 K"
+        },
+        {
+          "key": "C",
+          "text": "at T > 298 K"
+        },
+        {
+          "key": "D",
+          "text": "at T < 298 K"
+        },
+        {
+          "key": "E",
+          "text": "at all temperatures"
+        }
+      ],
+      "optionsZh": {
+        "A": "T < 274 K",
+        "B": "T > 274 K",
+        "C": "T > 298 K",
+        "D": "T < 298 K",
+        "E": "所有温度"
+      },
+      "glossary": [
+        {
+          "term": "spontaneous",
+          "meaning": "自发的"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "自发需 ΔG=ΔH−TΔS<0 → T>ΔH/ΔS=22200/81.1≈274 K，即 T>274 K。",
+      "candidateAnswer": [
+        "B"
+      ],
+      "phoneAnswer": [],
+      "reviewStatus": "pending",
+      "reviewFlag": null,
+      "source": {
+        "question": "data/raw/chapter1c.raw.json",
+        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
       }
     }
   ]

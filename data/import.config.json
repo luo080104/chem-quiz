@@ -1,6 +1,6 @@
 {
   "bankId": "chem-250",
-  "version": 1,
+  "version": 2,
   "title": "大学化学 250 题（Chapter 1a 原子 + 1b 化学键 + Chapter 2 热力学）",
   "out": "public/questions/chem-bank.json",
   "sources": [

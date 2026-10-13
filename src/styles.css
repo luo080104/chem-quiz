@@ -551,6 +551,39 @@ sup {
   width: 18px;
   height: 18px;
 }
+.issues-fab {
+  position: fixed;
+  right: 12px;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  background: var(--warn-bg);
+  color: var(--warn);
+  border: 1px solid #f59e0b;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.issues-fab.hidden {
+  display: none;
+}
+.options-list {
+  margin: 6px 0;
+}
+.cell-line {
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+.cell-line.correct {
+  background: var(--ok-bg);
+  font-weight: 600;
+}
+.old-ans {
+  text-decoration: line-through;
+  color: var(--bad);
+}
 .topic-group {
   margin: 12px 0;
 }

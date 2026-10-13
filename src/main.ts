@@ -9,10 +9,20 @@ import { renderStats } from "./views/stats";
 import { renderRules } from "./views/rules";
 import { renderData } from "./views/data";
 import { renderFlagged } from "./views/flagged";
+import { renderIssues } from "./views/issues";
 import { renderGlossary } from "./views/glossary";
 import { renderNotFound } from "./views/notfound";
 
 export { APP_VERSION } from "./version";
+
+function mountIssuesButton(): void {
+  if (document.getElementById("issues-fab")) return;
+  document.body.append(
+    el("a", { id: "issues-fab", class: "issues-fab", href: "#/issues", title: "遗留问题（答案更正）" }, [
+      "遗留问题",
+    ])
+  );
+}
 
 export interface RouteCtx {
   app: HTMLElement;
@@ -31,6 +41,7 @@ const routes: Array<[RegExp, View]> = [
   [/^rules$/, (c) => renderRules(c)],
   [/^data$/, (c) => renderData(c)],
   [/^flagged$/, (c) => renderFlagged(c)],
+  [/^issues$/, (c) => renderIssues(c)],
   [/^glossary$/, (c) => renderGlossary(c)],
 ];
 
@@ -47,6 +58,8 @@ async function route(): Promise<void> {
     if (re.test(path)) {
       await view({ app, parts });
       window.scrollTo(0, 0);
+      const fab = document.getElementById("issues-fab");
+      if (fab) fab.classList.toggle("hidden", path === "issues");
       return;
     }
   }
@@ -70,6 +83,7 @@ async function boot(): Promise<void> {
     return;
   }
   window.addEventListener("hashchange", () => void route());
+  mountIssuesButton();
   await route();
 
   if ("serviceWorker" in navigator && import.meta.env.PROD) {

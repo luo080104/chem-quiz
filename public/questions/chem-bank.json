@@ -3,7 +3,7 @@
     "bankId": "chem-250",
     "version": 1,
     "title": "大学化学 250 题（Chapter 1a 原子 + 1b 化学键 + Chapter 2 热力学）",
-    "generatedAt": "2026-10-10T10:38:38.825Z",
+    "generatedAt": "2026-10-13T02:11:59.773Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -26,251 +26,16 @@
     ],
     "counts": {
       "total": 250,
-      "approved": 0,
-      "pending": 240,
+      "approved": 250,
+      "pending": 0,
       "pendingImage": 0,
-      "contested": 10,
+      "contested": 0,
       "translated": 250,
       "glossaryTerms": 641,
       "phoneCompared": 198,
-      "phoneDisagreements": 6
+      "phoneDisagreements": 5
     },
-    "topics": [
-      {
-        "id": "arrow",
-        "title": "论文专题：电子·轨道·化学键（Following the Arrow）",
-        "description": "配合随笔《Following the Arrow》：电子与波/测量、原子轨道与电子排布、化学键与分子轨道、部分电荷/电负性/极性、共振与形式电荷。",
-        "intro": "论文讨论“电子在反应中究竟如何移动”：弯箭头的含义、电子密度与概率、轨道形状、H₂ 成键、部分电荷 δ、共振、以及超快光谱/电子衍射的测量。下列题目覆盖这些概念。注：题库为入门大学化学，不含“弯箭头机理”题；最接近的是 Lewis/形式电荷/共振/分子轨道等电子记账题。",
-        "groups": [
-          {
-            "name": "量子、波与测量",
-            "items": [
-              {
-                "ch": "1A",
-                "n": 22,
-                "note": "电子是最小最轻的亚原子粒子（论文讨论“移动的是电子”）。"
-              },
-              {
-                "ch": "1A",
-                "n": 51,
-                "note": "电磁波谱：X 射线波长最短。"
-              },
-              {
-                "ch": "1A",
-                "n": 52,
-                "note": "海森堡不确定性原理：位置与动量不能同时精确。"
-              },
-              {
-                "ch": "1A",
-                "n": 54,
-                "note": "光电效应：足够能量的光把电子从金属打出。"
-              },
-              {
-                "ch": "1A",
-                "n": 56,
-                "note": "不确定性原理的表述。"
-              },
-              {
-                "ch": "1A",
-                "n": 70,
-                "note": "可见光波长约 400–750 nm。"
-              }
-            ]
-          },
-          {
-            "name": "原子轨道与电子排布",
-            "items": [
-              {
-                "ch": "1A",
-                "n": 55,
-                "note": "同一电子层轨道的主量子数相同。"
-              },
-              {
-                "ch": "1A",
-                "n": 57,
-                "note": "一个轨道最多容纳 2 个电子。"
-              },
-              {
-                "ch": "1A",
-                "n": 62,
-                "note": "洪特规则：同亚层电子尽量分占轨道且自旋平行。"
-              },
-              {
-                "ch": "1A",
-                "n": 63,
-                "note": "泡利不相容（图片题）：同轨道两电子自旋必须相反——正是论文强调的“同一轨道成对”。"
-              },
-              {
-                "ch": "1A",
-                "n": 64,
-                "note": "角动量量子数决定轨道形状。"
-              },
-              {
-                "ch": "1A",
-                "n": 65,
-                "note": "n=1 层没有 p 轨道。"
-              },
-              {
-                "ch": "1A",
-                "n": 66,
-                "note": "第二层共 4 个轨道。"
-              },
-              {
-                "ch": "1A",
-                "n": 67,
-                "note": "s 轨道球形对称（论文原句：1s 球形，p 双叶带节面）。"
-              },
-              {
-                "ch": "1A",
-                "n": 68,
-                "note": "描述一个电子需 4 个量子数。"
-              }
-            ]
-          },
-          {
-            "name": "化学键与分子轨道",
-            "items": [
-              {
-                "ch": "1B",
-                "n": 6,
-                "note": "亚硝酸根两键因共振完全等同。"
-              },
-              {
-                "ch": "1B",
-                "n": 8,
-                "note": "碳酸根 CO₃²⁻ 的 Lewis 结构（共振）。"
-              },
-              {
-                "ch": "1B",
-                "n": 20,
-                "note": "CO₂ 中碳的形式电荷（电子记账）。"
-              },
-              {
-                "ch": "1B",
-                "n": 21,
-                "note": "氧原子 Lewis 符号中的未成对电子。"
-              },
-              {
-                "ch": "1B",
-                "n": 36,
-                "note": "双键由 1 个 σ + 1 个 π 组成。"
-              },
-              {
-                "ch": "1B",
-                "n": 37,
-                "note": "σ 电子定域、π 电子可离域（对应论文“电子密度可变化/离域”）。"
-              },
-              {
-                "ch": "1B",
-                "n": 38,
-                "note": "成键与反键电子数相等时键级为 0。"
-              },
-              {
-                "ch": "1B",
-                "n": 39,
-                "note": "键级越大→键长越短、键能越大。"
-              },
-              {
-                "ch": "1B",
-                "n": 40,
-                "note": "OF⁺ 的分子轨道未成对电子（与 O₂ 等电子）。"
-              }
-            ]
-          },
-          {
-            "name": "部分电荷、电负性与极性",
-            "items": [
-              {
-                "ch": "1A",
-                "n": 73,
-                "note": "有效核电荷（核电荷 vs 内层电子屏蔽）——与“电子被拉向谁”有关。"
-              },
-              {
-                "ch": "1A",
-                "n": 80,
-                "note": "电子亲和能最负的元素。"
-              },
-              {
-                "ch": "1B",
-                "n": 5,
-                "note": "电负性：分子中原子吸引电子的能力（论文 δ−/δ+ 的基础）。"
-              },
-              {
-                "ch": "1B",
-                "n": 19,
-                "note": "电负性在周期/族中的趋势。"
-              },
-              {
-                "ch": "1B",
-                "n": 24,
-                "note": "电负性最大的元素。"
-              },
-              {
-                "ch": "1B",
-                "n": 30,
-                "note": "PF₃ 的分子几何与极性。"
-              },
-              {
-                "ch": "1B",
-                "n": 31,
-                "note": "孤对电子保证分子有极性。"
-              },
-              {
-                "ch": "1B",
-                "n": 55,
-                "note": "极化率：电荷分布被外电场扭曲的难易。"
-              },
-              {
-                "ch": "1B",
-                "n": 56,
-                "note": "氢键是偶极–偶极作用的特殊情形。"
-              },
-              {
-                "ch": "1B",
-                "n": 67,
-                "note": "HCN 的主导分子间力（偶极）。"
-              }
-            ]
-          }
-        ],
-        "questionIds": [
-          "CHEM-1A-022",
-          "CHEM-1A-051",
-          "CHEM-1A-052",
-          "CHEM-1A-054",
-          "CHEM-1A-056",
-          "CHEM-1A-070",
-          "CHEM-1A-055",
-          "CHEM-1A-057",
-          "CHEM-1A-062",
-          "CHEM-1A-063",
-          "CHEM-1A-064",
-          "CHEM-1A-065",
-          "CHEM-1A-066",
-          "CHEM-1A-067",
-          "CHEM-1A-068",
-          "CHEM-1B-006",
-          "CHEM-1B-008",
-          "CHEM-1B-020",
-          "CHEM-1B-021",
-          "CHEM-1B-036",
-          "CHEM-1B-037",
-          "CHEM-1B-038",
-          "CHEM-1B-039",
-          "CHEM-1B-040",
-          "CHEM-1A-073",
-          "CHEM-1A-080",
-          "CHEM-1B-005",
-          "CHEM-1B-019",
-          "CHEM-1B-024",
-          "CHEM-1B-030",
-          "CHEM-1B-031",
-          "CHEM-1B-055",
-          "CHEM-1B-056",
-          "CHEM-1B-067"
-        ]
-      }
-    ],
+    "topics": [],
     "disclaimer": "候选答案与翻译由本次AI独立给出，尚未与手机DeepSeek答案对照，也未经课程/教材审定。不得视为学校官方标准答案。"
   },
   "questions": [
@@ -348,11 +113,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -420,11 +185,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -492,11 +257,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -580,11 +345,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -656,11 +421,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -732,11 +497,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -812,11 +577,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -880,11 +645,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -952,11 +717,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1029,11 +794,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1101,11 +866,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1177,11 +942,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1249,11 +1014,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1321,11 +1086,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1393,11 +1158,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1457,11 +1222,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1525,11 +1290,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1589,11 +1354,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1661,11 +1426,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1725,11 +1490,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1805,11 +1570,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1819,9 +1584,7 @@
       "chapterNumber": 22,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Of the following, the smallest and lightest subatomic particle is the ________.",
       "stemImages": [],
@@ -1887,11 +1650,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -1967,11 +1730,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2041,11 +1804,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2113,11 +1876,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2185,11 +1948,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2257,11 +2020,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2329,11 +2092,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2401,11 +2164,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2477,11 +2240,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2545,11 +2308,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2613,11 +2376,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2681,11 +2444,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2753,11 +2516,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2821,11 +2584,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2889,11 +2652,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -2957,11 +2720,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3025,11 +2788,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3093,11 +2856,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3165,11 +2928,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3233,11 +2996,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3297,11 +3060,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3365,11 +3128,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3437,11 +3200,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3509,11 +3272,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3568,20 +3331,20 @@
         }
       ],
       "answer": [
-        "D"
+        "E"
       ],
-      "explanation": "CuCl2 中 Cu 为 +2，应命名 copper(II) chloride。选项 D 为 copper(II) dichloride（多前缀）、E 为旧称 cupric chloride。严格 IUPAC 应为 copper(II) chloride，选项中无完全对应。【本次AI=D，手机=E，有争议待老师确认】",
+      "explanation": "官方答案 E（cupric chloride，铜(II)的旧称；系统名为 copper(II) chloride）。本次AI曾选 D，按官方更正为 E。",
       "candidateAnswer": [
-        "D"
+        "E"
       ],
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "contested",
-      "reviewFlag": "contested",
+      "reviewStatus": "approved",
+      "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3649,11 +3412,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3717,11 +3480,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3781,11 +3544,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3845,11 +3608,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3859,9 +3622,7 @@
       "chapterNumber": 51,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Of the following, ________ radiation has the shortest wavelength.",
       "stemImages": [],
@@ -3923,11 +3684,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -3937,9 +3698,7 @@
       "chapterNumber": 52,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "According to the Heisenberg Uncertainty Principle, it is impossible to know precisely both the position and the ________ of an electron.",
       "stemImages": [],
@@ -4001,11 +3760,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4081,11 +3840,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4095,9 +3854,7 @@
       "chapterNumber": 54,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The photoelectric effect is ________.",
       "stemImages": [],
@@ -4159,11 +3916,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4173,9 +3930,7 @@
       "chapterNumber": 55,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "All of the orbitals in a given electron shell have the same value as the ________ quantum number.",
       "stemImages": [],
@@ -4233,11 +3988,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4247,9 +4002,7 @@
       "chapterNumber": 56,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The uncertainty principle states that ________.",
       "stemImages": [],
@@ -4307,11 +4060,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4321,9 +4074,7 @@
       "chapterNumber": 57,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Which one of the following orbitals can hold two electrons?",
       "stemImages": [],
@@ -4377,11 +4128,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4449,11 +4200,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4525,11 +4276,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4593,11 +4344,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4661,11 +4412,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4675,9 +4426,7 @@
       "chapterNumber": 62,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The lowest orbital energy is reached when the number of electrons with the same spin is maximized. This statement describes ________.",
       "stemImages": [],
@@ -4739,11 +4488,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4753,9 +4502,7 @@
       "chapterNumber": 63,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Which electron configuration represents a violation of the Pauli exclusion principle?",
       "stemImages": [],
@@ -4821,11 +4568,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4835,9 +4582,7 @@
       "chapterNumber": 64,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The ________ quantum number defines the shape of an orbital.",
       "stemImages": [],
@@ -4891,11 +4636,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4905,9 +4650,7 @@
       "chapterNumber": 65,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The n = 1 shell contains ________ p orbitals. All the other shells contain ________ p orbitals.",
       "stemImages": [],
@@ -4961,11 +4704,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -4975,9 +4718,7 @@
       "chapterNumber": 66,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "There are ________ orbitals in the second shell.",
       "stemImages": [],
@@ -5027,11 +4768,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5041,9 +4782,7 @@
       "chapterNumber": 67,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "________-orbitals are spherically symmetrical.",
       "stemImages": [],
@@ -5093,11 +4832,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5107,9 +4846,7 @@
       "chapterNumber": 68,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "How many quantum numbers are necessary to designate a particular electron in an atom?",
       "stemImages": [],
@@ -5163,11 +4900,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5227,11 +4964,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5241,9 +4978,7 @@
       "chapterNumber": 70,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "What wavelengths correspond to the visible region of the electromagnetic spectrum?",
       "stemImages": [],
@@ -5301,11 +5036,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5365,11 +5100,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5429,11 +5164,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5443,9 +5178,7 @@
       "chapterNumber": 73,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The effective nuclear charge of an atom is primarily affected by ________.",
       "stemImages": [],
@@ -5498,20 +5231,20 @@
         }
       ],
       "answer": [
-        "C"
+        "A"
       ],
-      "explanation": "有效核电荷 Zeff = Z − 屏蔽常数；本次AI认为“主要受核电荷影响”（C），手机选“内层电子屏蔽”（A）。教材常强调内层电子的屏蔽作用，此题口径存疑。【本次AI=C，手机=A，有争议待老师确认】",
+      "explanation": "官方答案 A：有效核电荷主要受内层电子的屏蔽作用影响。本次AI曾选 C，按官方更正为 A。",
       "candidateAnswer": [
-        "C"
+        "A"
       ],
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "contested",
-      "reviewFlag": "contested",
+      "reviewStatus": "approved",
+      "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5579,11 +5312,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5647,11 +5380,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5715,11 +5448,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5783,11 +5516,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5851,11 +5584,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5915,11 +5648,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -5929,9 +5662,7 @@
       "chapterNumber": 80,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Atom Questions)",
       "label": "chapter1a",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Of the following elements, ________ has the most negative electron affinity.",
       "stemImages": [],
@@ -5985,11 +5716,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6049,11 +5780,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6121,11 +5852,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6189,11 +5920,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6253,11 +5984,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6321,11 +6052,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6393,11 +6124,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6461,11 +6192,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6529,11 +6260,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6593,11 +6324,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6661,11 +6392,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6725,11 +6456,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6797,11 +6528,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6861,11 +6592,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -6929,11 +6660,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7001,11 +6732,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7069,11 +6800,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7133,11 +6864,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7205,11 +6936,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7277,11 +7008,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7341,11 +7072,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1a.raw.json",
-        "answer": "data/answer-keys/chapter1a.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1a.official.json"
       }
     },
     {
@@ -7410,11 +7141,11 @@
         "B",
         "D"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7475,11 +7206,11 @@
         "A",
         "D"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7551,11 +7282,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7623,11 +7354,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7637,9 +7368,7 @@
       "chapterNumber": 5,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The ability of an atom in a molecule to attract electrons is best quantified by the ________.",
       "stemImages": [],
@@ -7705,11 +7434,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7719,9 +7448,7 @@
       "chapterNumber": 6,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "In the nitrite ion (NO2), ________.",
       "stemImages": [],
@@ -7779,11 +7506,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7847,11 +7574,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7861,9 +7588,7 @@
       "chapterNumber": 8,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The Lewis structure of the CO32- ion is ________.",
       "stemImages": [],
@@ -7927,11 +7652,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -7995,11 +7720,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8071,11 +7796,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8143,11 +7868,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8207,11 +7932,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8271,11 +7996,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8343,11 +8068,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8415,11 +8140,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8479,11 +8204,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8547,11 +8272,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8615,11 +8340,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8629,9 +8354,7 @@
       "chapterNumber": 19,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Electronegativity ________ from left to right within a period and ________ from top to bottom within a group.",
       "stemImages": [],
@@ -8689,11 +8412,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8703,9 +8426,7 @@
       "chapterNumber": 20,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The formal charge on carbon in the molecule below is ________. \u0001",
       "stemImages": [
@@ -8761,11 +8482,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8775,9 +8496,7 @@
       "chapterNumber": 21,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "There are ________ unpaired electrons in the Lewis symbol for an oxygen atom.",
       "stemImages": [],
@@ -8831,11 +8550,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8903,11 +8622,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8975,11 +8694,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -8989,9 +8708,7 @@
       "chapterNumber": 24,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Of the atoms below, ________ is the most electronegative.",
       "stemImages": [],
@@ -9041,11 +8758,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9109,11 +8826,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9189,11 +8906,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9205,7 +8922,7 @@
       "label": "chapter1b",
       "tags": [],
       "type": "single",
-      "stem": "An electron domain consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "stem": "An electron domain consists of ________. a) a nonbonding pair of electrons b) a single bond c) a multiple bond",
       "stemImages": [],
       "stemZh": "一个电子域由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
       "options": [
@@ -9261,11 +8978,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9277,7 +8994,7 @@
       "label": "chapter1b",
       "tags": [],
       "type": "single",
-      "stem": "The molecular geometry consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "stem": "The molecular geometry consists of ________. a) a nonbonding pair of electrons b) a single bond c) a multiple bond",
       "stemImages": [],
       "stemZh": "分子几何由 ________ 构成。a) 一对孤对电子；b) 一个单键；c) 一个多重键。",
       "options": [
@@ -9329,11 +9046,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9401,11 +9118,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9415,9 +9132,7 @@
       "chapterNumber": 30,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The molecular geometry of the PF3 molecule is ________, and this molecule is ________.",
       "stemImages": [],
@@ -9475,11 +9190,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9489,9 +9204,7 @@
       "chapterNumber": 31,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "For molecules with only one central atom, how many lone pairs on the central atom guarantees molecular polarity?",
       "stemImages": [],
@@ -9545,11 +9258,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9613,11 +9326,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9677,11 +9390,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9745,11 +9458,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9813,11 +9526,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9827,9 +9540,7 @@
       "chapterNumber": 36,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "A typical double bond ________.",
       "stemImages": [],
@@ -9887,11 +9598,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9901,9 +9612,7 @@
       "chapterNumber": 37,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Electrons in ________ bonds remain localized between two atoms. Electrons in ________ bonds can become delocalized between more than two atoms.",
       "stemImages": [],
@@ -9965,11 +9674,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -9979,9 +9688,7 @@
       "chapterNumber": 38,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The bond order of any molecule containing equal numbers of bonding and antibonding electrons is ________.",
       "stemImages": [],
@@ -10039,11 +9746,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10053,9 +9760,7 @@
       "chapterNumber": 39,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "In comparing the same two atoms bonded together, the ________ the bond order, the ________ the bond length, and the ________ the bond energy.",
       "stemImages": [],
@@ -10104,20 +9809,20 @@
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
-      "explanation": "键级越大→键长越短、键能越大。",
+      "explanation": "官方答案 D：键级越小→键长越长、键能越小（与 A“越大→越短→越大”是同一规律的另一种表述；本题 A、D 皆自洽，按官方取 D）。",
       "candidateAnswer": [
-        "A"
+        "D"
       ],
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10127,9 +9832,7 @@
       "chapterNumber": 40,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Based on molecular orbital theory, there is/are ________ unpaired electron(s) in the OF+ ion.",
       "stemImages": [],
@@ -10183,11 +9886,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10255,11 +9958,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10323,11 +10026,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10387,11 +10090,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10463,11 +10166,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10531,11 +10234,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10595,11 +10298,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10667,11 +10370,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10735,11 +10438,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10793,15 +10496,19 @@
           "meaning": "电子域"
         }
       ],
-      "answer": [],
-      "explanation": "3个电子域的电子域几何应为“平面三角形（trigonal planar）”，但选项未列出该答案，题目选项可能有误，暂挂争议。",
-      "candidateAnswer": [],
+      "answer": [
+        "E"
+      ],
+      "explanation": "官方答案 E（bent，弯曲形）。严格说 3 个电子域的“电子域几何”应为平面三角形，但原选项缺失该项，官方按 E 给分。",
+      "candidateAnswer": [
+        "E"
+      ],
       "phoneAnswer": [],
-      "reviewStatus": "contested",
-      "reviewFlag": "contested",
+      "reviewStatus": "approved",
+      "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": null
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10865,11 +10572,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -10937,11 +10644,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11009,11 +10716,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11081,11 +10788,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11149,11 +10856,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11163,9 +10870,7 @@
       "chapterNumber": 55,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "The ease with which the charge distribution in a molecule can be distorted by an external electrical field is called the ________.",
       "stemImages": [],
@@ -11231,11 +10936,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11245,9 +10950,7 @@
       "chapterNumber": 56,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "Hydrogen bonding is a special case of ________.",
       "stemImages": [],
@@ -11309,11 +11012,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11381,11 +11084,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11397,7 +11100,7 @@
       "label": "chapter1b",
       "tags": [],
       "type": "single",
-      "stem": "Which statements about viscosity are true? (i)<w:t>Viscosity increases as temperature decreases. (ii)<w:t>Viscosity increases as molecular weight increases. (iii)<w:t>Viscosity increases as intermolecular forces increase.",
+      "stem": "Which statements about viscosity are true? (i) Viscosity increases as temperature decreases. (ii) Viscosity increases as molecular weight increases. (iii) Viscosity increases as intermolecular forces increase.",
       "stemImages": [],
       "stemZh": "关于黏度哪些说法正确？(i) 温度降低，黏度增大；(ii) 分子量增大，黏度增大；(iii) 分子间力增大，黏度增大。",
       "options": [
@@ -11453,11 +11156,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11525,11 +11228,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11601,11 +11304,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11677,11 +11380,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11749,11 +11452,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11817,11 +11520,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11889,11 +11592,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -11953,11 +11656,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12017,11 +11720,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12031,9 +11734,7 @@
       "chapterNumber": 67,
       "chapter": "Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)",
       "label": "chapter1b",
-      "tags": [
-        "arrow"
-      ],
+      "tags": [],
       "type": "single",
       "stem": "What is the predominant intermolecular force in HCN?",
       "stemImages": [],
@@ -12087,11 +11788,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12163,11 +11864,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12231,11 +11932,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12307,11 +12008,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12375,11 +12076,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12447,11 +12148,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12519,11 +12220,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12591,11 +12292,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12663,11 +12364,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12735,11 +12436,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12811,11 +12512,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12887,11 +12588,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -12963,11 +12664,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13039,11 +12740,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13107,11 +12808,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13187,11 +12888,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13259,11 +12960,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13335,11 +13036,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13399,11 +13100,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13471,11 +13172,11 @@
       "phoneAnswer": [
         "B"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13543,11 +13244,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13619,11 +13320,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13699,11 +13400,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13771,11 +13472,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13839,11 +13540,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13915,11 +13616,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -13987,11 +13688,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14055,11 +13756,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14131,11 +13832,11 @@
       "phoneAnswer": [
         "A"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14199,11 +13900,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14271,11 +13972,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14347,11 +14048,11 @@
       "phoneAnswer": [
         "E"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14423,11 +14124,11 @@
       "phoneAnswer": [
         "C"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14495,11 +14196,11 @@
       "phoneAnswer": [
         "D"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1b.raw.json",
-        "answer": "data/answer-keys/chapter1b.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1b.official.json"
       }
     },
     {
@@ -14569,11 +14270,11 @@
         "E"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -14643,11 +14344,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -14717,11 +14418,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -14787,11 +14488,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -14857,11 +14558,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -14931,11 +14632,11 @@
         "E"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15001,11 +14702,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15071,11 +14772,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15141,11 +14842,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15207,11 +14908,11 @@
         "E"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15273,11 +14974,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15339,11 +15040,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15405,11 +15106,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15471,11 +15172,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15533,11 +15234,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15595,11 +15296,11 @@
         "E"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15661,11 +15362,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15723,11 +15424,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15785,11 +15486,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15847,11 +15548,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15909,11 +15610,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -15971,11 +15672,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16033,11 +15734,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16099,11 +15800,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16165,11 +15866,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16240,11 +15941,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16310,11 +16011,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16376,11 +16077,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "contested",
+      "reviewStatus": "approved",
       "reviewFlag": "contested",
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16442,11 +16143,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16503,11 +16204,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16573,11 +16274,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16639,11 +16340,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16705,11 +16406,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16779,11 +16480,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16845,11 +16546,11 @@
         "E"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16911,11 +16612,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -16973,11 +16674,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17035,11 +16736,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17107,11 +16808,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17164,11 +16865,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17226,11 +16927,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17288,11 +16989,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17356,11 +17057,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17430,11 +17131,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17496,11 +17197,11 @@
         "C"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17566,11 +17267,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17625,18 +17326,18 @@
         }
       ],
       "answer": [
-        "C"
+        "A"
       ],
-      "explanation": "熵：气>液>固；同为气体时分子越大越多原子熵越大，B2H6(g)（8 个原子）> B2F4(g)（6）> BF3(g)（4），故最大。",
+      "explanation": "官方答案 A（B2F4(g)）。同为气体时熵随摩尔质量/结构复杂度增大，B2F4 最大。本次AI曾选 C，按官方更正为 A。",
       "candidateAnswer": [
-        "C"
+        "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17694,11 +17395,11 @@
         "D"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17763,11 +17464,11 @@
         "A"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     },
     {
@@ -17825,11 +17526,11 @@
         "B"
       ],
       "phoneAnswer": [],
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "reviewFlag": null,
       "source": {
         "question": "data/raw/chapter1c.raw.json",
-        "answer": "data/answer-keys/chapter1c.deepseek-independent.json"
+        "answer": "data/answer-keys/chapter1c.official.json"
       }
     }
   ]

@@ -1,0 +1,1114 @@
+Chapter 1 Introduction of Chemistry and Matter (Bonding & Crystalline Q&A)
+
+Which of the following has eight valence electrons?
+A) Ti4+
+B) Kr
+C) Cl-
+D) Na+
+E) all of the above
+Answer:  E
+Diff: 3      Var: 1      Page Ref: Sec. 8.1
+LO:  8.1
+GO:  G2
+
+Which of the following does not have eight valence electrons?
+A) Ca+
+B) Rb+
+C) Xe
+D) Br-
+E) All of the above have eight valence electrons.
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 8.1
+LO:  8.1
+GO:  G2
+
+Lattice energy is ________.
+A) the energy required to convert a mole of ionic solid into its constituent ions in the gas phase
+B) the energy given off when gaseous ions combine to form one mole of an ionic solid
+C) the energy required to produce one mole of an ionic compound from its constituent elements in their standard states
+D) the sum of ionization energies of the components in an ionic solid
+E) the sum of electron affinities of the components in an ionic solid
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.2
+LO:  8.2
+GO:  G2
+
+In ionic bond formation, the lattice energy of ions ________ as the magnitude of the ion charges _______ and the radii ________.
+A) increases, decrease, increase
+B) increases, increase, increase
+C) decreases, increase, increase
+D) increases, increase, decrease
+E) increases, decrease, decrease
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 8.2
+LO:  8.2
+GO:  G2
+
+The ability of an atom in a molecule to attract electrons is best quantified by the ________.
+A) paramagnetism
+B) diamagnetism
+C) electronegativity
+D) electron charge-to-mass ratio
+E) first ionization potential
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 8.4
+LO:  8.4
+GO:  G2
+
+In the nitrite ion (NO2-), ________.
+A) both bonds are single bonds
+B) both bonds are double bonds
+C) one bond is a double bond and the other is a  single bond
+D) both bonds are the same
+E) there are 20 valence electrons
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 8.6
+LO:  8.6
+GO:  G2
+
+The oxidation number of iron in Fe2O3 is ________.
+A) -2
+B) +1
+C) +3
+D) +2
+E) -3
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 8.6
+LO:  8.6
+GO:  G2
+The Lewis structure of the CO32- ion is ________.
+A) 
+
+B) 
+
+C) 
+
+D) 
+
+E) 
+
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 8.5
+LO:  8.5
+GO:  G2
+Bond enthalpy is ________.
+A) always positive
+B) always negative
+C) sometimes positive, sometimes negative
+D) always zero
+E) unpredictable
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.8
+LO:  8.8
+GO:  G2
+
+Of the bonds C-C, C C, and C≡C, the C-C bond is ________.
+A) strongest/shortest
+B) strongest/longest
+C) weakest/longest
+D) weakest/shortest
+E) intermediate in both strength and length
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 8.8
+LO:  8.8
+GO:  G2
+
+As the number of covalent bonds between two atoms increases, the distance between the atoms ________ and the strength of the bond between them ________.
+A) increases, increases
+B) decreases, decreases
+C) increases, decreases
+D) decreases, increases
+E) is unpredictable
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 8.8
+LO:  8.8
+GO:  G2
+
+Based on the octet rule, magnesium most likely forms a ________ ion.
+A) Mg2+
+B) Mg2-
+C) Mg6-
+D) Mg6+
+E) Mg-
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.1
+LO:  8.1
+GO:  G2
+
+Based on the octet rule, aluminum most likely forms an ________ ion.
+A) Al3+
+B) Al4+
+C) Al4-
+D) Al+
+E) Al-
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.1
+LO:  8.1
+GO:  G2
+
+For a given arrangement of ions, the lattice energy increases as ionic radius ________ and as ionic charge ________.
+A) decreases, increases
+B) increases, decreases
+C) increases, increases
+D) decreases, decreases
+E) This cannot be predicted.
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.2
+LO:  8.2
+GO:  G2
+
+Elements from opposite sides of the periodic table tend to form ________.
+A) covalent compounds
+B) ionic compounds
+C) compounds that are gaseous at room temperature
+D) homonuclear diatomic compounds
+E) covalent compounds that are gaseous at room temperature
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 8.2
+LO:  8.2
+GO:  G2
+
+A ________ covalent bond between the same two atoms is the longest.
+A) single
+B) double
+C) triple
+D) strong
+E) They are all the same length.
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.3
+LO:  8.3
+GO:  G2
+
+A double bond consists of ________ pairs of electrons shared between two atoms.
+A) 1
+B) 2
+C) 3
+D) 4
+E) 6
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 8.3
+LO:  8.3
+GO:  G2
+
+What is the maximum number of double bonds that a hydrogen atom can form?
+A) 0
+B) 1
+C) 2
+D) 3
+E) 4
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.3
+LO:  8.3
+GO:  G2
+
+Electronegativity ________ from left to right within a period and ________ from top to bottom within a group.
+A) decreases, increases
+B) increases, increases
+C) increases, decreases
+D) stays the same, increases
+E) increases, stays the same
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 8.4
+LO:  8.4
+GO:  G2
+
+The formal charge on carbon in the molecule below is ________.
+A) 0
+B) +1
+C) +2
+D) +3
+E) -1
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 8.5
+LO:  8.5
+GO:  G2
+
+There are ________ unpaired electrons in the Lewis symbol for an oxygen atom.
+A) 0
+B) 1
+C) 2
+D) 4
+E) 3
+Answer:  C
+Diff: 1      Var: 5      Page Ref: Sec. 8.1
+LO:  8.1
+GO:  G2
+
+The oxide of which of the following metals should have the greatest lattice energy?
+A) calcium
+B) strontium
+C) magnesium
+D) beryllium
+E) barium
+Answer:  D
+Diff: 2      Var: 5      Page Ref: Sec. 8.2
+LO:  8.2
+GO:  G2
+
+How many single covalent bonds must a chlorine atom form to have a complete octet in its valence shell?
+A) 0
+B) 1
+C) 2
+D) 3
+E) 4
+Answer:  B
+Diff: 1      Var: 6      Page Ref: Sec. 8.3
+LO:  8.3
+GO:  G2
+
+Of the atoms below, ________ is the most electronegative.
+A) Ba
+B) Sr
+C) Ca
+D) Mg
+E) Be
+Answer:  E
+Diff: 1      Var: 6      Page Ref: Sec. 8.4
+LO:  8.4
+GO:  G2
+
+The oxidation number of phosphorus in PF5 is ________.
+A) +5
+B) +3
+C) +1
+D) -5
+E) 0
+Answer:  A
+Diff: 2      Var: 4      Page Ref: Sec. 8.6
+LO:  8.6
+GO:  G2
+
+The basis of the VSEPR model of molecular bonding is ________.
+A) regions of electron density on an atom will organize themselves so as to maximize s-character
+B) regions of electron density in the valence shell of an atom will arrange themselves so as to maximize overlap
+C) atomic orbitals of the bonding atoms must overlap for a bond to form
+D) electron domains in the valence shell of an atom will arrange themselves so as to minimize repulsions
+E) hybrid orbitals will form as necessary to, as closely as possible, achieve spherical symmetry
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+An electron domain consists of ________. 
+
+	a)  a nonbonding pair of electrons
+	b)  a single bond
+	c)  a multiple bond
+
+A) a only
+B) b only
+C) c only
+D) a, b, and c
+E) b and c
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The molecular geometry consists of ________. 
+
+	a)  a nonbonding pair of electrons
+	b)  a single bond
+	c)  a multiple bond
+
+A) a only
+B) b only
+C) c only
+D) a, b, and c
+E) b and c
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+A molecule has the formula AB3 and the central atom is in a different plane from the surrounding three atoms. Its molecular shape is ________.
+A) tetrahedral
+B) trigonal pyramidal
+C) linear
+D) T-shaped
+E) bent
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The molecular geometry of the PF3 molecule is ________, and this molecule is ________.
+A) trigonal planar, polar
+B) trigonal planar, nonpolar
+C) trigonal pyramidal, polar
+D) trigonal pyramidal, nonpolar
+E) tetrahedral, unipolar
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 9.3
+LO:  9.3
+GO:  G2
+
+For molecules with only one central atom, how many lone pairs on the central atom guarantees molecular polarity?
+A) 1
+B) 2
+C) 1 or 2
+D) 3
+E) 1 or 3
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 9.3
+LO:  9.3
+GO:  G2
+
+The sp2 atomic hybrid orbital set accommodates ________ electron domains.
+A) 2
+B) 3
+C) 4
+D) 5
+E) 6
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 9.5
+LO:  9.5
+GO:  G2
+
+The hybridization scheme for BeF2 is ________.
+A) sp
+B) sp2
+C) sp3
+D) sp3d
+E) sp3d2
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 9.5
+LO:  9.5
+GO:  G2
+
+When four atomic orbitals are mixed to form hybrid orbitals, how many hybrid orbitals are formed?
+A) one
+B) six
+C) three
+D) four
+E) five
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 9.5
+LO:  9.5
+GO:  G2
+
+Valence bond theory does not address the issue of ________.
+A) excited states of molecules
+B) molecular shape
+C) covalent bonding
+D) hybridization
+E) multiple bonds
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 9.5
+LO:  9.5
+GO:  G2
+
+A typical double bond ________.
+A) is stronger and shorter than a single bond
+B) consists of one σ bond and one π bond
+C) imparts rigidity to a molecule
+D) consists of two shared electron pairs
+E) All of the above answers are correct.
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 9.6
+LO:  9.6
+GO:  G2
+
+Electrons in ________ bonds remain localized between two atoms. Electrons in ________ bonds can become delocalized between more than two atoms.
+A) pi, sigma
+B) sigma, pi
+C) pi, pi
+D) sigma, sigma
+E) ionic, sigma
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 9.6
+LO:  9.6
+GO:  G2
+
+The bond order of any molecule containing equal numbers of bonding and antibonding electrons is ________.
+A) 0
+B) 1
+C) 2
+D) 3
+E) 1/2
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 9.7
+LO:  9.7
+GO:  G2
+
+In comparing the same two atoms bonded together, the ________ the bond order, the ________ the bond length, and the ________ the bond energy.
+A) greater, shorter, greater
+B) greater, greater, greater
+C) greater, longer, greater
+D) smaller, longer, smaller
+E) smaller, greater, greater
+Answer:  D
+Diff: 4      Var: 1      Page Ref: Sec. 9.7
+LO:  9.7
+GO:  G2
+
+Based on molecular orbital theory, there is/are ________ unpaired electron(s) in the OF+ ion.
+A) 0
+B) 3
+C) 1
+D) 2
+E) 1/2
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 9.8
+LO:  9.7, 9.8
+GO:  G2
+
+For a molecule with the formula AB2, the molecular shape is ________.
+A) linear or bent
+B) linear or trigonal planar
+C) linear or T-shaped
+D) T-shaped
+E) trigonal planar
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 9.1
+LO:  9.2
+GO:  G2
+
+The molecular geometry of the CHCl3 molecule is ________.
+A) bent
+B) trigonal planar
+C) trigonal pyramidal
+D) tetrahedral
+E) T-shaped
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The O-S-O bond angle in SO2 is slightly less than ________.
+A) 90°
+B) 109.5°
+C) 120°
+D) 180°
+E) 60°
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The hybridization of orbitals on the central atom in a molecule is sp. The electron-domain geometry around this central atom is ________.
+A) octahedral
+B) linear
+C) trigonal planar
+D) trigonal bipyramidal
+E) tetrahedral
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 9.5
+LO:  9.5
+GO:  G2
+
+ClF3 has "T-shaped" geometry. There is/are ________ non-bonding domain(s) in this molecule.
+A) 4
+B) 2
+C) 3
+D) 1
+E) 0
+Answer:  B
+Diff: 4      Var: 4      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The H-C-H bond angle in the CH4 ion is approximately ________. 
+A) 180°
+B) 120°
+C) 109.5°
+D) 60°
+E) 90°
+Answer:  C
+Diff: 2      Var: 4      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The central atom in the ICl4- ion has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.
+A) 4, 2
+B) 0, 4
+C) 2, 4
+D) 2, 2
+E) 6, 0
+Answer:  C
+Diff: 1      Var: 4      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+The central atom in the O3 molecule has ________ nonbonded electron pair(s) and ________ bonded electron pair(s) in its valence shell.
+A) 6, 2
+B) 1, 3
+C) 2, 2
+D) 3, 1
+E) 3, 2
+Answer:  B
+Diff: 1      Var: 4      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+According to VSEPR theory, if there are three electron domains in the valence shell of an atom, they will be arranged in a(n) ________ geometry.
+A) tetrahedral
+B) octahedral
+C) linear
+D) square planar
+E) bent
+Answer:  E
+Diff: 1      Var: 4      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+Using the VSEPR model, the electron-domain geometry of the central atom in XeF4 is ________.
+A) linear
+B) trigonal planar
+C) tetrahedral
+D) trigonal bipyramidal
+E) octahedral
+Answer:  E
+Diff: 1      Var: 6      Page Ref: Sec. 9.2
+LO:  9.2
+GO:  G2
+
+Crystalline solids ________.
+A) have their particles arranged randomly
+B) have highly ordered structures
+C) are usually very soft
+D) exist only at high temperatures
+E) exist only at very low temperatures
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 11.1
+GO:  G2
+
+In liquids, the attractive intermolecular forces are ________.
+A) very weak compared with kinetic energies of the molecules
+B) strong enough to hold molecules relatively close together
+C) strong enough to keep the molecules confined to vibrating about their fixed lattice points
+D) not strong enough to keep molecules from moving past each other
+E) strong enough to hold molecules relatively close together but not strong enough to keep molecules from moving past each other
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 11.1
+GO:  G2
+
+A gas is ________ and assumes ________ of its container, whereas a liquid is ________ and assumes ________ of its container.
+A) compressible, the volume and shape, not compressible, the shape of a portion
+B) compressible, the shape, not compressible, the volume and shape
+C) compressible, the volume and shape, compressible, the volume
+D) condensed, the volume and shape, condensed, the volume and shape
+E) condensed, the shape, compressible, the volume and shape
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 11.1
+GO:  G2
+
+Which statement is true about liquids but not true about solids?
+A) They flow and are highly ordered.
+B) They are highly ordered and not compressible.
+C) They flow and are compressible.
+D) They assume both the volume and the shape of their containers.
+E) They flow and are not compressible.
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 11.1
+GO:  G2
+
+The ease with which the charge distribution in a molecule can be distorted by an external electrical field is called the ________.
+A) electronegativity
+B) hydrogen bonding
+C) polarizability
+D) volatility
+E) viscosity
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+Hydrogen bonding is a special case of ________.
+A) London-dispersion forces
+B) ion-dipole attraction
+C) dipole-dipole attractions
+D) ion-ion interactions
+E) none of the above
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+What intermolecular force is responsible for the fact that ice is less dense than liquid water?
+A) London dispersion forces
+B) dipole-dipole forces
+C) ion-dipole forces
+D) hydrogen bonding
+E) ionic bonding
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+Which statements about viscosity are true?
+(i)	Viscosity increases as temperature decreases.
+(ii)	Viscosity increases as molecular weight increases.
+(iii)	Viscosity increases as intermolecular forces increase.
+A) (i) only
+B) (ii) and (iii)
+C) (i) and (iii)
+D) none
+E) all
+Answer:  E
+Diff: 3      Var: 1      Page Ref: Sec. 11.3
+LO:  11.3
+GO:  G2
+
+Viscosity is ________.
+A) the "skin" on a liquid surface caused by intermolecular attraction
+B) the resistance to flow
+C) the same as density
+D) inversely proportional to molar mass
+E) unaffected by temperature
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 11.3
+LO:  11.3
+GO:  G2
+
+Large intermolecular forces in a substance are manifested by ________.
+A) low vapor pressure
+B) high boiling point
+C) high heats of fusion and vaporization
+D) high critical temperatures and pressures
+E) all of the above
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 11.4
+LO:  11.4
+GO:  G2
+
+Of the following, ________ is an exothermic process.
+A) melting
+B) subliming
+C) freezing
+D) boiling
+E) All of the above are exothermic.
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 11.4
+LO:  11.4
+GO:  G2
+
+A volatile liquid is one that ________.
+A) is highly flammable
+B) is highly viscous
+C) is highly hydrogen-bonded
+D) is highly cohesive
+E) readily evaporates
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 11.5
+LO:  11.5, 11.6
+GO:  G2
+
+In general, the vapor pressure of a substance increases as ________ increases.
+A) surface tension
+B) molecular weight
+C) hydrogen bonding
+D) viscosity
+E) temperature
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 11.5
+LO:  11.5, 11.6
+GO:  G2
+
+Volatility and vapor pressure are ________.
+A) inversely proportional to one another
+B) directly proportional to one another
+C) not related
+D) the same thing
+E) both independent of temperature
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 11.5
+LO:  11.5, 11.6
+GO:  G2
+
+Which one of the following should have the lowest boiling point?
+A) CH4 
+B) PCl3 
+C) C2H5COOH 
+D) LiCl
+E) Cl2S
+Answer:  A
+Diff: 3      Var: 50+      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+Of the following substances, ________ has the highest boiling point.
+A) H2O
+B) SiH4 
+C) Ar
+D) Cl2 
+E) BF3 
+Answer:  A
+Diff: 3      Var: 50+      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+What is the predominant intermolecular force in HCN?
+A) dipole-dipole attraction 
+B) ion-dipole attraction
+C) ionic bonding
+D) hydrogen bonding
+E) London dispersion forces
+Answer:  A
+Diff: 2      Var: 7      Page Ref: Sec. 11.2
+LO:  11.2
+GO:  G2
+
+18) Ethanol melts at -114 °C and boils at 78 °C at a constant pressure of 1 atm. What state of matter must a sample of ethanol be in at 0 °C and 1 atm?
+A) liquid
+B) gas
+C) solid
+D) solid and liquid in equilibrium
+E) liquid and gas in equilibrium
+Answer:  A
+Diff: 2      Var: 6      Page Ref: Sec. 11.4
+LO:  11.4
+GO:  G2
+
+Of the following, ________ is the least volatile.
+A) CI4 
+B) CF4 
+C) CBr4 
+D) CCl4 
+E) CH4 
+Answer:  A
+Diff: 2      Var: 5      Page Ref: Sec. 11.5
+LO:  11.5, 11.6
+GO:  G2
+
+A solid has a very high melting point, great hardness, and poor electrical conduction. This is a(n) ________ solid.
+A) ionic
+B) molecular
+C) metallic
+D) covalent network
+E) metallic and covalent network
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 12.1
+LO:  12.1
+GO:  G2
+
+Which of the following is not a type of solid? 
+A) ionic
+B) molecular
+C) supercritical
+D) metallic
+E) covalent network
+Answer:  C
+Diff: 3      Var: 1      Page Ref: Sec. 12.1
+LO:  12.1
+GO:  G2
+
+Crystalline solids differ from amorphous solids in that crystalline solids have ________.
+A) appreciable intermolecular attractive forces
+B) a long-range repeating pattern of atoms, molecules, or ions
+C) atoms, molecules, or ions that are close together
+D) much larger atoms, molecules, or ions
+E) no orderly structure
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 12.2
+LO:  12.2
+GO:  G2
+
+The unit cell with all sides the same length and all angles equal to 90° that has lattice points only at the corners is called ________.
+A) monoclinic
+B) body-centered cubic
+C) primitive cubic
+D) face-centered cubic
+E) spherical cubic
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 12.2
+LO:  12.2
+GO:  G2
+
+What fraction of the volume of each corner atom is actually within the volume of a face-centered cubic unit cell?
+A) 1
+B) 1/2
+C) 1/4
+D) 1/8
+E) 1/16
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3, 12.5
+GO:  G2
+
+What portion of the volume of each atom or ion on the face of a unit cell is actually within the unit cell?
+A) 1/2
+B) 1/4
+C) 3/4
+D) all of it
+E) none of it
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3, 12.5
+GO:  G2
+
+An alloy is a
+A) heterogeneous mixture of two metals.
+B) pure metal.
+C) metallic material that is composed of two or more elements.
+D) nonmetal with some properties of a metal.
+E) mineral containing two or more metals.
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Which one of the following is a property of most metals?
+A) low melting point
+B) brittleness
+C) high electronegativity
+D) thermal conductivity
+E) acidic oxides
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Which statement about steel is false?
+A) It is a polymer.
+B) It is an alloy of iron.
+C) It can have different percentages of carbon.
+D) It can be made so it resists rust.
+E) none of the above
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+What is the typical effect of the addition of an interstitial element on the properties of a metal?
+A) increase in malleability and corrosion resistance
+B) increase in hardness and strength, decrease in ductility
+C) decrease in melting point and increase in ductility
+D) decrease in conductivity and increase in brittleness
+E) increased surface luster
+Answer:  B
+Diff: 3      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Alloys generally differ from compounds in that
+A) the former always contain some carbon.
+B) the former always contain some iron.
+C) the former always have semiconductor properties.
+D) the atomic ratios of the constituent elements in the former are not fixed and may vary over a wide range.
+E) the former never contain a transition element.
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Metallic solids do not exhibit ________.
+A) excellent thermal conductivity
+B) excellent electrical conductivity
+C) variable hardness
+D) extreme brittleness
+E) variable melting point
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 12.4
+LO:  12.4
+GO:  G2
+
+Which of the following is not a natural polymer?
+A) silk
+B) starch
+C) protein
+D) cellulose
+E) nylon
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+As a polymer becomes more crystalline, ________.
+A) its melting point decreases
+B) its density decreases
+C) its stiffness decreases
+D) its yield stress decreases
+E) None of the above is correct.
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+________ solids consist of atoms or molecules held together by dipole-dipole forces, London dispersion forces, and/or hydrogen bonds.
+A) Ionic
+B) Molecular
+C) Metallic
+D) Covalent-network
+E) Metallic and covalent-network
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 12.1
+LO:  12.1
+GO:  G2
+
+Blue LEDs are usually made of ________.
+A) GaAs
+B) GaP
+C) GaO
+D) GaS
+E) GaN
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 12.7
+LO:  12.7
+GO:  G2
+
+CsCl crystallizes in a unit cell that contains a Cs+ ion at the center of a cube and a Cl- ion at each corner. The unit cell of CsCl is ________.
+A) close packed
+B) body-centered cubic
+C) face-centered cubic
+D) amorphous
+E) primitive cubic
+Answer:  B
+Diff: 3      Var: 1      Page Ref: Sec. 12.5
+LO:  12.3, 12.5
+GO:  G2
+
+The ________ lattice is one of the five two-dimensional lattices in which the lattice vectors a and b are equal and the γ angle between them is 90°.
+A) square
+B) rectangular
+C) hexagonal
+D) rhombic
+E) oblique
+Answer:  A
+Diff: 3      Var: 5      Page Ref: Sec. 12.2
+LO:  12.2
+GO:  G2
+
+The ________ lattice is one of the seven primitive three-dimensional lattices in which the relationship between the lattice vectors a, b, and c can be written as: a ≠ b ≠ c
+A) monoclinic
+B) hexagonal
+C) rhombohedral
+D) tetragonal
+E) cubic
+Answer:  A
+Diff: 3      Var: 7      Page Ref: Sec. 12.2
+LO:  12.2
+GO:  G2
+
+Which of the following is not an alloy?
+A) elemental gold
+B) sterling silver
+C) 18-karat gold
+D) dental amalgam
+E) bronze
+Answer:  A
+Diff: 3      Var: 50+      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Of the following, only ________ is not a polymer.
+A) dental amalgam
+B) cellulose
+C) Teflon
+D) plastic
+E) protein
+Answer:  A
+Diff: 2      Var: 50+      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+The correct abbreviation for the polymer low-density polyethylene is ________.
+A) LDPE
+B) PP
+C) P
+D) PETE
+E) HDPE
+Answer:  A
+Diff: 3      Var: 6      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+Which element is typically not added to steel to modify its properties?
+A) carbon
+B) vanadium
+C) chromium
+D) nitrogen
+E) nickel
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 12.3
+LO:  12.3
+GO:  G2
+
+Which property of metals cannot be explained with the electron-sea model?
+A) shine
+B) high thermal conductivity
+C) high electric conductivity
+D) malleability and ductility
+E) trends in melting points
+Answer:  E
+Diff: 3      Var: 1      Page Ref: Sec. 12.4
+LO:  12.4
+GO:  G2
+
+NaCl crystallizes in a face-centered cubic cell. What is the total number of ions (Na+ ions and Cl- ions) that lie within a unit cell of NaCl?
+A) 2
+B) 4
+C) 8
+D) 6
+E) 5
+Answer:  C
+Diff: 3      Var: 1      Page Ref: Sec. 12.5
+LO:  12.3, 12.5
+GO:  G2
+
+An ionic solid, NaCl (s), dissolves in water because of the ________.
+A) relatively low lattice energy due to small charges of Na+ and Cl- ions
+B) simple face-centered cubic unit cell type it forms
+C) 1:1 ratio of ions in the unit cell
+D) strong coulombic interactions between oppositely charged ions
+E) relatively low melting point
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 12.5
+LO:  12.3, 12.5
+GO:  G2
+
+CsCl crystallizes in a unit cell that contains the Cs+ ion at the center of a cube that has a Cl- at each corner. Each unit cell contains ________ Cs+ ion(s) and ________ Cl- ion(s), respectively.
+A) 1 and 8
+B) 2 and 1
+C) 1 and 1
+D) 2 and 2
+E) 2 and 4
+Answer:  C
+Diff: 3      Var: 1      Page Ref: Sec. 12.5
+LO:  12.3, 12.5
+GO:  G2
+
+Inorganic compounds that are semiconductors have an average of ________ valence electrons.
+A) 1
+B) 2
+C) 3
+D) 4
+E) 5
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 12.7
+LO:  12.7
+GO:  G2
+
+An elastomer will fail to regain its original dimensions following a distortion beyond its ________.
+A) glass transition
+B) phase boundary
+C) London force
+D) crystallinity
+E) elastic limit
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+The formation of a condensation polymer generally involves ________.
+A) the addition of a plasticizer
+B) the mixing of sulfur with an addition polymer
+C) the elimination of a small molecule
+D) the vaporization of a plasticizer
+E) the formation of significant crosslinking
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 12.8
+LO:  12.8
+GO:  G2
+
+The properties of graphene include ________.
+A) high strength
+B) low thermal conductivity
+C) a zero energy gap
+D) A and C
+E) A, B and C
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 12.9
+LO:  12.9
+GO:  G2
+

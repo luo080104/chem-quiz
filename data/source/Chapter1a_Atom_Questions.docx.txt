@@ -120,10 +120,10 @@ C) Sn
 D) Na
 E) Pb
 Consider the following selected postulates of Dalton's atomic theory:
-(i)<w:t>Each element is composed of extremely small particles called atoms.
-(ii)<w:t>Atoms are indivisible.
-(iii)<w:t>Atoms of a given element are identical.
-(iv)<w:t>Atoms of different elements are different and have different properties.
+(i)	Each element is composed of extremely small particles called atoms.
+(ii)	Atoms are indivisible.
+(iii)	Atoms of a given element are identical.
+(iv)	Atoms of different elements are different and have different properties.
 Which of the postulates is(are) no longer considered valid?
 A) (i) and (ii)
 B) (ii) only
@@ -598,9 +598,9 @@ C) decrease, increase
 D) decrease, decrease
 E) The first ionization energies of the elements are completely unpredictable.
 In general, as you go across a period in the periodic table from left to right:
-<w:t>(1)<w:t xml:space="preserve">the atomic radius ________;
-<w:t>(2)<w:t xml:space="preserve">the electron affinity becomes ________ negative; and
-<w:t>(3)<w:t>the first ionization energy ________.
+(1)	the atomic radius ________;
+(2)	the electron affinity becomes ________ negative; and
+(3)	the first ionization energy ________.
 A) decreases, decreasingly, increases
 B) increases, increasingly, decreases
 C) increases, increasingly, increases

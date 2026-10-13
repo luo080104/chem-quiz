@@ -1,0 +1,14 @@
+答案对照报告  2026-10-13T02:10:24.402Z
+A = 本次AI (data\answer-keys\chapter1b.deepseek-independent.json)
+B = 官方 (data\answer-keys\chapter1b.official.json)
+比较题数 100：一致 98，分歧 2，仅A 0，仅B 0
+
+分歧题 (2):
+  #39  本次AI=[A]  官方=[D]
+  #49  本次AI=[-]  官方=[E]
+
+仅 A 有 (0):
+
+仅 B 有 (0):
+
+提醒：一致项仍需化学复核；分歧项不得擅自二选一。

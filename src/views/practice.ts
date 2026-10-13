@@ -162,15 +162,6 @@ function renderPracticeList(
           el("span", { class: "muted" }, ["　你的选择："]),
           rich(chosen.join(" ") || "（未答）"),
         ]),
-        q.phoneAnswer.length
-          ? el("div", { class: "answer-line small" }, [
-              el("span", { class: "muted" }, ["手机DeepSeek："]),
-              rich(q.phoneAnswer.join(" ")),
-              sameSet(q.answer, q.phoneAnswer)
-                ? el("span", { class: "tag ok" }, ["与本次AI一致"])
-                : el("span", { class: "tag bad" }, ["与本次AI分歧，待老师确认"]),
-            ])
-          : el("span", { class: "hidden" }, []),
         richBlock(q.explanation || "（暂无解析）", "explain")
       );
     }

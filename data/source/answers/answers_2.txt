@@ -1,0 +1,597 @@
+Chapter 2 Thermodynamics (Q&A)
+
+Objects can possess energy as ________.
+	(a) endothermic energy
+	(b) potential energy
+	(c) kinetic energy
+A) a only
+B) b only
+C) c only
+D) a and c
+E) b and c
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 5.1
+LO:  5.2
+GO:  G2
+
+The internal energy of a system is always increased by ________.
+A) adding heat to the system
+B) having the system do work on the surroundings
+C) withdrawing heat from the system
+D) adding heat to the system and having the system do work on the surroundings
+E) a volume compression
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+The internal energy of a system ________.
+A) is the sum of the kinetic energy of all of its components
+B) is the sum of the rotational, vibrational, and translational energies of all of its components
+C) refers only to the energies of the nuclei of the atoms of the component molecules
+D) is the sum of the potential and kinetic energies of the components
+E) none of the above
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+Which one of the following conditions would always result in an increase in the internal energy of a system?
+A) The system loses heat and does work on the surroundings.
+B) The system gains heat and does work on the surroundings.
+C) The system loses heat and has work done on it by the surroundings.
+D) The system gains heat and has work done on it by the surroundings.
+E) None of the above is correct.
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+When a system ________, ΔE is always negative.
+A) absorbs heat and does work
+B) gives off heat and does work
+C) absorbs heat and has work done on it
+D) gives off heat and has work done on it
+E) None of the above is always negative.
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+Which one of the following is an endothermic process?
+A) ice melting
+B) water freezing
+C) boiling soup
+D) Hydrochloric acid and barium hydroxide are mixed at 25 °C: the temperature increases.
+E) Both A and C
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+Which one of the following is an exothermic process?
+A) ice melting
+B) water evaporating
+C) boiling soup
+D) condensation of water vapor
+E) Ammonium thiocyanate and barium hydroxide are mixed at 25 °C: the temperature drops.
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+Which of the following is a statement of the first law of thermodynamics?
+A) Ek = m
+B) A negative ΔH corresponds to an exothermic process.
+C) ΔE = Efinal - Einitial
+D) Energy lost by the system must be gained by the surroundings.
+E) 1 cal = 4.184 J (exactly)
+Answer:  D
+Diff: 3      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G2
+
+A ________ ΔH corresponds to an ________ process.
+A) negative, endothermic
+B) negative, exothermic
+C) positive, exothermic
+D) zero, exothermic
+E) zero, endothermic
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 5.3
+LO:  5.2, 5.3
+GO:  G2
+
+ΔH for an endothermic process is ________ while ΔH for an exothermic process is ________.
+A) zero, positive
+B) zero, negative
+C) positive, zero
+D) negative, positive
+E) positive, negative
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 5.3
+LO:  5.2, 5.3
+GO:  G2
+
+A chemical reaction that absorbs heat from the surroundings is said to be ________ and has a ________ ΔH at constant pressure.
+A) endothermic, positive
+B) endothermic, negative
+C) exothermic, negative
+D) exothermic, positive
+E) exothermic, neutral
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 5.4
+LO:  5.2, 5.3
+GO:  G4
+
+The reaction
+	4Al (s)  +  3O2 (g)  →  2Al2O3 (s)        ΔH° = -3351 kJ
+is ________, and therefore heat is ________ by the reaction.
+A) endothermic, released
+B) endothermic, absorbed
+C) exothermic, released
+D) exothermic, absorbed
+E) thermoneutral, neither released nor absorbed
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 5.4
+LO:  5.2, 5.3
+GO:  G4
+
+Under what condition(s) is the enthalpy change of a process equal to the amount of heat transferred into or out of the system?
+
+	(a) temperature is constant
+	(b) pressure is constant
+	(c) volume is constant
+
+A) a only
+B) b only
+C) c only
+D) a and b
+E) b and c
+Answer:  B
+Diff: 3      Var: 1      Page Ref: Sec. 5.4
+LO:  5.2, 5.3
+GO:  G2
+
+Which of the following is a statement of Hess's law?
+A) If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the sum of the enthalpy changes for the individual steps.
+B) If a reaction is carried out in a series of steps, the ΔH for the reaction will equal the product of the enthalpy changes for the individual steps.
+C) The ΔH for a process in the forward direction is equal in magnitude and opposite in sign to the ΔH for the process in the reverse direction.
+D) The ΔH for a process in the forward direction is equal to the ΔH for the process in the reverse direction.
+E) The ΔH of a reaction depends on the physical states of the reactants and products.
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 5.6
+LO:  5.6
+GO:  G2
+
+Consider the following two reactions:
+	A  →  2B	ΔH°rxn  = 456.7 kJ/mol
+	A  →  C	ΔH°rxn  = -22.1 kJ/mol
+Determine the enthalpy change for the process:
+	2B  → C
+A) -478.8 kJ/mol
+B) -434.6 kJ/mol
+C) 434.6 kJ/mol
+D) 478.8 kJ/mol
+E) More information is needed to solve the problem.
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 5.7
+LO:  5.7
+GO:  G4
+
+With reference to enthalpy changes, the term standard conditions means ________.
+	(a) P = 1 atm 
+	(b) some common temperature, usually 298 K
+	(c) V = 1 L
+A) a only
+B) b only
+C) c only
+D) a and c
+E) a and b
+Answer:  E
+Diff: 1      Var: 1      Page Ref: Sec. 5.7
+LO:  5.7
+GO:  G2
+
+The ΔE of a system that releases 12.4 J of heat and does 4.2 J of work on the surroundings is ________ J.
+A) 16.6
+B) 12.4
+C) 4.2
+D) -16.6
+E) -8.2
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G4
+
+The enthalpy change for the following reaction is -483.6 kJ: 
+	2H2 (g)  +  O2 (g)  →  2H2O (g)
+Therefore, the enthalpy change for the following reaction is ________ kJ.
+	4H2 (g)  +  2O2 (g)  →  4H2O (g)
+A) -483.6
+B) -967.2
+C) 2.34 × 105
+D) 483.6
+E) 967.2
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 5.4
+LO:  5.4
+GO:  G4
+
+ΔH for the reaction
+	IF5 (g)  →  IF3 (g)  +  F2 (g) 
+is ________ kJ, give the data below. 
+	IF (g)  +  F2 (g)  →  IF3 (g)		ΔH = -390 kJ
+	IF (g)  +  2F2 (g)  →  IF5 (g)	ΔH = -745 kJ
+A) +355
+B) -1135
+C) +1135
+D) +35
+E) -35
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 5.6
+LO:  5.6
+GO:  G4
+
+Given the following reactions
+	Fe2O3 (s)  +  3CO (s)  →  2Fe (s) +  3CO2 (g)		ΔH = -28.0 kJ 
+	3Fe (s)  +  4CO2 (s)  →  4CO (g)  +  Fe3O4 (s)	ΔH = +12.5 kJ
+the enthalpy of the reaction of Fe2O3 with CO
+ 	3Fe2O3 (s)  +  CO (g)  →  CO2 (g)  +  2 Fe3O4 (s)
+is ________ kJ.
+A) -59.0
+B) 40.5
+C) -15.5
+D) -109
+E) +109
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 5.6
+LO:  5.6
+GO:  G4
+
+Given the following reactions
+	N2 (g)  +  2O2 (g)  →  2NO2 (g)		ΔH = 66.4 kJ 
+	2NO (g)  +  O2 (g)  →  2NO2 (g) 	ΔH = -114.2 kJ
+the enthalpy of the reaction of the nitrogen to produce nitric oxide
+	N2 (g)  +  O2 (g)  →  2NO (g)
+is ________ kJ.
+A) 180.6
+B) -47.8
+C) 47.8
+D) 90.3
+E) -180.6
+Answer:  A
+Diff: 3      Var: 1      Page Ref: Sec. 5.6
+LO:  5.6
+GO:  G4
+
+The value of ΔH° for the following reaction is -3351 kJ:
+	2Al (s)  +  3O2 (g)  →  2Al2O3 (s)
+The value of ΔH°f for Al2O3 (s) is ________ kJ.
+A) -3351
+B) -1676
+C) -32.86
+D) -16.43
+E) +3351
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 5.7
+LO:  5.7
+GO:  G4
+
+When work is done on a system, w will be a ________ value.
+A) positive
+B) negative
+C) very large
+D) very small
+E) There is not enough information given to determine the answer.
+Answer:  A
+Diff: 3      Var: 4      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G4
+
+The value of ΔE for a system that performs 139 kJ of work on its surroundings and gains 54kJ of heat is ________ kJ.
+A) -85
+B) 193
+C) 7506
+D) 85
+E) -193
+Answer:  A
+Diff: 2      Var: 50+      Page Ref: Sec. 5.2
+LO:  5.2
+GO:  G4
+
+The temperature of a 24.3 g sample of gold increases from 23.7 °C to 31.5 °C. If the specific heat of gold is 0.129 J/g-K, how many joules of heat are absorbed?
+A) 24.5 J
+B) 0.0414 J
+C) -24.5 J
+D) 0.293 J
+E) 1.01 J
+Answer:  A
+Diff: 3      Var: 50+      Page Ref: Sec. 5.5
+LO:  5.5
+GO:  G4
+
+The first law of thermodynamics can be given as ________.
+A) ΔE = q + w
+B) Δ =  - 
+C) for any spontaneous process, the entropy of the universe increases
+D) the entropy of a pure crystalline substance at absolute zero is zero
+E) ΔS = qrev/T at constant temperature
+Answer:  A
+Diff: 1      Var: 1      Page Ref: Sec. 19.1
+LO:  19.1
+GO:  G2
+
+A reaction that is spontaneous as written ________.
+A) is very rapid
+B) will proceed without outside intervention
+C) is also spontaneous in the reverse direction
+D) has an equilibrium position that lies far to the left
+E) is very slow
+Answer:  B
+Diff: 1      Var: 1      Page Ref: Sec. 19.1
+LO:  19.1
+GO:  G2
+
+When a system is at equilibrium, ________.
+A) the reverse process is spontaneous but the forward process is not
+B) the forward and the reverse processes are both spontaneous
+C) the forward process is spontaneous but the reverse process is not
+D) the process is not spontaneous in either direction
+E) both forward and reverse processes have stopped
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 19.1
+LO:  19.1
+GO:  G2
+
+A reversible process is one that ________.
+A) can be reversed with no net change in either system or surroundings
+B) happens spontaneously
+C) is spontaneous in both directions
+D) must be carried out at low temperature
+E) must be carried out at high temperature
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 19.1
+LO:  19.1
+GO:  G2
+
+Which of the following statements is true?
+A) Processes that are spontaneous in one direction are spontaneous in the opposite direction.
+B) Processes are spontaneous because they occur at an observable rate.
+C) Spontaneity can depend on the temperature.
+D) All of the statements are true.
+Answer:  C
+Diff: 3      Var: 1      Page Ref: Sec. 19.1
+LO:  19.1
+GO:  G2
+
+The thermodynamic quantity that expresses the extent of randomness in a system is ________.
+A) enthalpy
+B) internal energy
+C) bond energy
+D) entropy
+E) heat flow
+Answer:  D
+Diff: 1      Var: 1      Page Ref: Sec. 19.2
+LO:  19.2
+GO:  G2
+
+The entropy of the universe is ________.
+A) constant
+B) continually decreasing
+C) continually increasing
+D) zero
+E) the same as the energy, E
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 19.2
+LO:  19.2
+GO:  G2
+
+The second law of thermodynamics states that ________.
+A) ΔE = q + w
+B) ΔH°rxn = Σ nΔH°f (products) - Σ mΔH°f (reactants)
+C) for any spontaneous process, the entropy of the universe increases
+D) the entropy of a pure crystalline substance is zero at absolute zero
+E) ΔS = qrev/T at constant temperature
+Answer:  C
+Diff: 1      Var: 1      Page Ref: Sec. 19.2
+LO:  19.2
+GO:  G2
+
+Which one of the following processes produces a decrease of the entropy of the system?
+A) dissolving sodium chloride in water
+B) sublimation of naphthalene
+C) dissolving oxygen in water
+D) boiling of alcohol
+E) explosion of nitroglycerine
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 19.3
+LO:  19.2
+GO:  G2
+
+Consider a pure crystalline solid that is heated from absolute zero to a temperature above the boiling point of the liquid. Which of the following processes produces the greatest increase in the entropy of the substance?
+A) melting the solid
+B) heating the liquid
+C) heating the gas
+D) heating the solid
+E) vaporizing the liquid
+Answer:  E
+Diff: 2      Var: 1      Page Ref: Sec. 19.3
+LO:  19.2
+GO:  G2
+
+ΔS is positive for the reaction ________.
+A) CaO (s)  +  CO2 (g)  →  CaCO3 (s)
+B) N2 (g)  +  3H2 (g)  →  2NH3 (g)
+C) 2SO3 (g)  →  2SO2 (g)  +  O2 (g)
+D) Ag+ (aq)  +  Cl- (aq)  →  AgCl (s) 
+E) H2O (l)  →  H2O (s)
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 19.4
+LO:  19.4
+GO:  G2
+
+Which reaction produces a decrease in the entropy of the system?
+A) CaCO3 (s)   →  CaO (s)  +  CO2 (g)
+B) 2C (s)  +  O2 (g)  →  2CO (g)
+C) CO2 (s)  →  CO2 (g) 
+D) 2H2 (g)  +  O2 (g)   →  2H2O (l)
+E) H2O (l)  →  H2O (g)
+Answer:  D
+Diff: 2      Var: 1      Page Ref: Sec. 19.4
+LO:  19.4
+GO:  G2
+
+Which reaction produces an increase in the entropy of the system?
+A) Ag+ (aq)  +  Cl- (aq)  →  AgCl (s)
+B) CO2 (s)  →  CO2 (g)
+C) H2 (g)  +  Cl2 (g)  →  2 HCl (g)
+D) N2 (g)  +  3 H2 (g)   →  2 NH3 (g)
+E) H2O (l)  →  H2O (s)
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 19.4
+LO:  19.4
+GO:  G2
+
+The equilibrium position corresponds to which letter on the graph of G vs. f (course of reaction) below?
+	
+A) A
+B) B
+C) C
+D) D
+E) E
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 19.5
+LO:  19.5
+GO:  G3
+
+For the reaction
+	C2H6 (g)  →  C2H4 (g)  +  H2 (g)
+ΔH° is +137 kJ/mol and ΔS° is +120 J/K ∙ mol. This reaction is ________.
+A) spontaneous at all temperatures
+B) spontaneous only at high temperature
+C) spontaneous only at low temperature
+D) nonspontaneous at all temperatures
+Answer:  B
+Diff: 2      Var: 1      Page Ref: Sec. 19.6
+LO:  19.6
+GO:  G2
+
+For the reaction
+	2 C4H10 (g)  +  13 O2 (g) →  8 CO2 (g)  +  10 H2O (g)
+ΔH° is -125 kJ/mol and ΔS° is +253 J/K ∙ mol. This reaction is ________.
+A) spontaneous at all temperatures
+B) spontaneous only at high temperature
+C) spontaneous only at low temperature
+D) nonspontaneous at all temperatures
+E) unable to determine without more information
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 19.6
+LO:  19.6
+GO:  G2
+
+A reaction that is not spontaneous at low temperature can become spontaneous at high temperature if ΔH is ________ and ΔS is ________.
+A) +, +
+B) -, -
+C) +, -
+D) -, +
+E) +, 0
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 19.6
+LO:  19.6
+GO:  G2
+
+Given the following table of thermodynamic data,
+	
+complete the following sentence. The vaporization of TiCl4 is ________.
+A) spontaneous at all temperatures
+B) spontaneous at low temperature and nonspontaneous at high temperature
+C) nonspontaneous at low temperature and spontaneous at high temperature
+D) nonspontaneous at all temperatures
+E) not enough information given to draw a conclusion
+Answer:  C
+Diff: 3      Var: 1      Page Ref: Sec. 19.6
+LO:  19.6
+GO:  G3
+
+With thermodynamics, one cannot determine ________.
+A) the speed of a reaction
+B) the direction of a spontaneous reaction
+C) the extent of a reaction
+D) the value of the equilibrium constant
+E) the temperature at which a reaction will be spontaneous
+Answer:  A
+Diff: 2      Var: 1      Page Ref: Sec. 19.7
+LO:  19.6
+GO:  G2
+
+Which one of the following statements is true about the equilibrium constant for a reaction if ΔG° for the reaction is negative?
+A) K = 0
+B) K = 1
+C) K > 1
+D) K < 1
+E) More information is needed.
+Answer:  C
+Diff: 2      Var: 1      Page Ref: Sec. 19.7
+LO:  19.6
+GO:  G2
+
+Which one of the following processes produces a decrease in the entropy of the system?
+A) freezing of Fe(l) into Fe(s)
+B) evaporation of liquid ethanol into gaseous ethanol
+C) dissolution of LiOH(s) in water
+D) melting ice to form water
+E) mixing of two gases into one container
+Answer:  A
+Diff: 2      Var: 50+      Page Ref: Sec. 19.3
+LO:  19.3
+GO:  G2
+
+Of the following, the entropy of ________ is the largest.
+A) B2F4 (g)
+B) BF3 (g)
+C) B2H6 (g)
+D) BCl3 (l)
+E) B2O3 (s)
+Answer:  A
+Diff: 2      Var: 3      Page Ref: Sec. 19.4
+LO:  19.4
+GO:  G2
+
+The standard Gibbs free energy of formation of ________ is zero.
+	(a)  H2O (l)
+	(b)  Fe (s)
+	(c)  I2 (s)
+A) (a) only
+B) (b) only
+C) (c) only
+D) (b) and (c)
+E) (a), (b), and (c)
+Answer:  D
+Diff: 1      Var: 7      Page Ref: Sec. 19.5
+LO:  19.5
+GO:  G2
+
+For a given reaction, ΔH = +22.2 kJ/mol and ΔS = +81.1 J/K-mol. The reaction is spontaneous ________. Assume that ΔH and ΔS do not vary with temperature.
+A) at T < 274 K
+B) at T > 274 K
+C) at T > 298 K
+D) at T < 298 K
+E) at all temperatures
+Answer:  B
+Diff: 2      Var: 12      Page Ref: Sec. 19.6
+LO:  19.6
+GO:  G4
+Given the thermodynamic data in the table below, calculate the equilibrium constant (at 298 K) for the reaction:
+	2 SO2 (g)  +  O2 (g)    2 SO3 (g)
+	        
+A) 2.40 × 1024
+B) 1.06
+C) 1.95
+D) 3.82 × 1023 
+E) More data are needed.
+Answer:  A
+Diff: 4      Var: 1      Page Ref: Sec. 19.7
+LO:  19.7
+GO:  G3
+

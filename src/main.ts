@@ -2,14 +2,13 @@ import "./styles.css";
 import { loadBank, bindBankVersion } from "./bank";
 import { el } from "./ui";
 import { renderHome } from "./views/home";
-import { renderPractice, renderTopicPractice } from "./views/practice";
-import { renderTopic } from "./views/topic";
+import { renderPractice } from "./views/practice";
 import { renderExam, renderExamResult } from "./views/exam";
 import { renderWrongbook } from "./views/wrongbook";
 import { renderStats } from "./views/stats";
 import { renderRules } from "./views/rules";
 import { renderData } from "./views/data";
-import { renderReview } from "./views/review";
+import { renderFlagged } from "./views/flagged";
 import { renderGlossary } from "./views/glossary";
 import { renderNotFound } from "./views/notfound";
 
@@ -25,15 +24,13 @@ type View = (ctx: RouteCtx) => void | Promise<void>;
 const routes: Array<[RegExp, View]> = [
   [/^$/, (c) => renderHome(c)],
   [/^practice(?:\/(\d+))?$/, (c) => renderPractice(c)],
-  [/^topic\/[\w-]+\/\d+$/, (c) => renderTopicPractice(c)],
-  [/^topic\/[\w-]+$/, (c) => renderTopic(c)],
   [/^exam$/, (c) => renderExam(c)],
   [/^exam\/result\/(.+)$/, (c) => renderExamResult(c)],
   [/^wrongbook$/, (c) => renderWrongbook(c)],
   [/^stats$/, (c) => renderStats(c)],
   [/^rules$/, (c) => renderRules(c)],
   [/^data$/, (c) => renderData(c)],
-  [/^review$/, (c) => renderReview(c)],
+  [/^flagged$/, (c) => renderFlagged(c)],
   [/^glossary$/, (c) => renderGlossary(c)],
 ];
 

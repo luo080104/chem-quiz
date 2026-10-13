@@ -1,7 +1,7 @@
 {
   "label": "chapter1b",
   "sourceFile": "data\\source\\Chapter1b_Bonding.txt",
-  "parsedAt": "2026-09-25T11:04:24.061Z",
+  "parsedAt": "2026-10-13T02:09:09.364Z",
   "count": 100,
   "numbered": false,
   "explicitNumberCount": 0,
@@ -689,7 +689,7 @@
     },
     {
       "originalNumber": 27,
-      "stem": "An electron domain consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "stem": "An electron domain consists of ________. a) a nonbonding pair of electrons b) a single bond c) a multiple bond",
       "options": [
         {
           "key": "A",
@@ -715,7 +715,7 @@
     },
     {
       "originalNumber": 28,
-      "stem": "The molecular geometry consists of ________. <w:t>a) a nonbonding pair of electrons <w:t>b) a single bond <w:t>c) a multiple bond",
+      "stem": "The molecular geometry consists of ________. a) a nonbonding pair of electrons b) a single bond c) a multiple bond",
       "options": [
         {
           "key": "A",
@@ -1495,7 +1495,7 @@
     },
     {
       "originalNumber": 58,
-      "stem": "Which statements about viscosity are true? (i)<w:t>Viscosity increases as temperature decreases. (ii)<w:t>Viscosity increases as molecular weight increases. (iii)<w:t>Viscosity increases as intermolecular forces increase.",
+      "stem": "Which statements about viscosity are true? (i) Viscosity increases as temperature decreases. (ii) Viscosity increases as molecular weight increases. (iii) Viscosity increases as intermolecular forces increase.",
       "options": [
         {
           "key": "A",

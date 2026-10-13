@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-13T02:10:24.309Z",
+  "labelA": "本次AI",
+  "labelB": "官方",
+  "note": "两版答案一致不等于化学审核通过；有分歧的题请以老师/教材或独立复算为准。",
+  "counts": {
+    "totalCompared": 100,
+    "agree": 98,
+    "disagree": 2,
+    "onlyA": 0,
+    "onlyB": 0
+  },
+  "disagree": [
+    {
+      "n": 46,
+      "a": [
+        "D"
+      ],
+      "b": [
+        "E"
+      ]
+    },
+    {
+      "n": 73,
+      "a": [
+        "C"
+      ],
+      "b": [
+        "A"
+      ]
+    }
+  ],
+  "onlyA": [],
+  "onlyB": []
+}

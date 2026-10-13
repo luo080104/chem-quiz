@@ -1,5 +1,5 @@
 import { getBank } from "../bank";
-import { state, practicedQuestionIds, wrongQuestionIds } from "../store";
+import { state, practicedQuestionIds, wrongQuestionIds, flaggedQuestionIds } from "../store";
 import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
 import { APP_VERSION } from "../version";
 import type { RouteCtx } from "../main";
@@ -58,6 +58,7 @@ export function renderHome({ app }: RouteCtx): void {
   const uniqueGlossary = new Set(
     bank.questions.flatMap((q) => (q.glossary || []).map((g) => g.term.trim().toLowerCase()))
   ).size;
+  const flagged = flaggedQuestionIds().length;
 
   const standalone =
     (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) ||
@@ -113,15 +114,12 @@ export function renderHome({ app }: RouteCtx): void {
             "提示：用浏览器菜单“添加到主屏幕/添加到桌面”可像 App 一样使用，并支持断网刷题（首次打开后）。",
           ]),
       el("nav", { class: "grid-links" }, [
-        ...(bank.meta.topics || []).map((t) =>
-          link(`#/topic/${t.id}`, "论文专题", `${t.questionIds.length} 题 · 电子·轨道·化学键`)
-        ),
         link("#/wrongbook", "错题复习", String(wrong) + " 题"),
+        link("#/flagged", "标记不懂汇总", `${flagged} 题`),
         link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`),
         link("#/stats", "成绩与用时", `${exams.length} 次模拟`),
         link("#/rules", "规则与关于", `v${APP_VERSION}`),
         link("#/data", "学习记录备份", "导出 / 导入"),
-        link("#/review", "待核与争议清单", `分歧 ${bank.meta.counts?.phoneDisagreements ?? 0}`),
       ]),
       el("footer", { class: "foot" }, [
         el("div", {}, [`题库：${bank.meta.title}（${bank.meta.bankId} v${bank.meta.version}）`]),

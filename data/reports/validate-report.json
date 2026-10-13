@@ -2,21 +2,20 @@
   "bankFile": "public/questions/chem-bank.json",
   "bankId": "chem-250",
   "version": 1,
-  "generatedAt": "2026-10-10T10:38:53.419Z",
+  "generatedAt": "2026-10-13T02:12:07.749Z",
   "counts": {
     "total": 250,
-    "approved": 0,
-    "pending": 240,
+    "approved": 250,
+    "pending": 0,
     "pendingImage": 0,
-    "contested": 10,
+    "contested": 0,
     "translated": 250,
     "glossaryTerms": 641,
     "phoneCompared": 198,
-    "phoneDisagreements": 6
+    "phoneDisagreements": 5
   },
   "byStatus": {
-    "pending": 240,
-    "contested": 10
+    "approved": 250
   },
   "errors": [],
   "warnings": [
@@ -32,7 +31,6 @@
     "含图片选项(待补图): CHEM-1B-008-B",
     "含图片选项(待补图): CHEM-1B-008-C",
     "含图片选项(待补图): CHEM-1B-008-D",
-    "含图片选项(待补图): CHEM-1B-008-E",
-    "无候选答案: CHEM-1B-049 (contested)"
+    "含图片选项(待补图): CHEM-1B-008-E"
   ]
 }

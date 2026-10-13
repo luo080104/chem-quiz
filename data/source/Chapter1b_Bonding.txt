@@ -162,18 +162,18 @@ C) atomic orbitals of the bonding atoms must overlap for a bond to form
 D) electron domains in the valence shell of an atom will arrange themselves so as to minimize repulsions
 E) hybrid orbitals will form as necessary to, as closely as possible, achieve spherical symmetry
 An electron domain consists of ________.
-<w:t>a)  a nonbonding pair of electrons
-<w:t>b)  a single bond
-<w:t>c)  a multiple bond
+a)  a nonbonding pair of electrons
+b)  a single bond
+c)  a multiple bond
 A) a only
 B) b only
 C) c only
 D) a, b, and c
 E) b and c
 The molecular geometry consists of ________.
-<w:t>a)  a nonbonding pair of electrons
-<w:t>b)  a single bond
-<w:t>c)  a multiple bond
+a)  a nonbonding pair of electrons
+b)  a single bond
+c)  a multiple bond
 A) a only
 B) b only
 C) c only
@@ -354,9 +354,9 @@ C) ion-dipole forces
 D) hydrogen bonding
 E) ionic bonding
 Which statements about viscosity are true?
-(i)<w:t>Viscosity increases as temperature decreases.
-(ii)<w:t>Viscosity increases as molecular weight increases.
-(iii)<w:t>Viscosity increases as intermolecular forces increase.
+(i)	Viscosity increases as temperature decreases.
+(ii)	Viscosity increases as molecular weight increases.
+(iii)	Viscosity increases as intermolecular forces increase.
 A) (i) only
 B) (ii) and (iii)
 C) (i) and (iii)

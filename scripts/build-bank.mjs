@@ -58,6 +58,9 @@ for (const src of config.sources) {
   const phoneKey = src.phone && existsSync(src.phone)
     ? JSON.parse(readFileSync(src.phone, "utf8").replace(/^\uFEFF/, ""))
     : { answers: {} };
+  const officialKey = src.official && existsSync(src.official)
+    ? JSON.parse(readFileSync(src.official, "utf8").replace(/^\uFEFF/, ""))
+    : { answers: {} };
 
   // Optional study files (translation + glossary), merged by chapter number.
   const studyMap = {};
@@ -82,8 +85,10 @@ for (const src of config.sources) {
     const chapterNumber = q.originalNumber;
     const k = key.answers[String(chapterNumber)] || {};
     const pk = phoneKey.answers[String(chapterNumber)] || {};
+    const ok = officialKey.answers[String(chapterNumber)] || {};
     const st = studyMap[String(chapterNumber)] || {};
-    const answer = Array.isArray(k.answer) ? k.answer : [];
+    const officialAnswer = Array.isArray(ok.answer) ? ok.answer : [];
+    const answer = officialAnswer.length ? officialAnswer : Array.isArray(k.answer) ? k.answer : [];
     const phoneAnswer = Array.isArray(pk.answer) ? pk.answer : [];
     const stemZh = st.stemZh || k.stemZh || "";
     const optionsZh = st.optionsZh || k.optionsZh || {};
@@ -118,7 +123,8 @@ for (const src of config.sources) {
     const hasImageOption = options.some((o) => o.image);
     const type = answer.length > 1 ? "multiple" : "single";
     let reviewStatus = "pending";
-    if (hasImageOption && !options.every((o) => o.imageUrl)) reviewStatus = "pending-image";
+    if (officialAnswer.length) reviewStatus = "approved";
+    else if (hasImageOption && !options.every((o) => o.imageUrl)) reviewStatus = "pending-image";
     else if (k.flag === "contested") reviewStatus = "contested";
     else if (answer.length === 0) reviewStatus = "pending";
     if (k.status === "approved") reviewStatus = "approved";
@@ -144,7 +150,10 @@ for (const src of config.sources) {
       phoneAnswer,
       reviewStatus,
       reviewFlag: k.flag || null,
-      source: { question: src.raw, answer: answer.length ? src.answers : null },
+      source: {
+        question: src.raw,
+        answer: officialAnswer.length ? src.official : answer.length ? src.answers : null,
+      },
     });
   }
   console.log(`  source ${src.label}: ${raw.questions.length} questions, ${imageCursor}/${imageUrls.length} images`);

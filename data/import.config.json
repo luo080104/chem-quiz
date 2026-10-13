@@ -3,7 +3,6 @@
   "version": 1,
   "title": "大学化学 250 题（Chapter 1a 原子 + 1b 化学键 + Chapter 2 热力学）",
   "out": "public/questions/chem-bank.json",
-  "topics": ["data/topics/following-the-arrow.json"],
   "sources": [
     {
       "label": "chapter1a",
@@ -19,7 +18,8 @@
         "data/study/chapter1a.study.4.json"
       ],
       "imageManifest": "public/images/chapter1a/manifest.json",
-      "imageBase": "images/chapter1a/"
+      "imageBase": "images/chapter1a/",
+      "official": "data/answer-keys/chapter1a.official.json"
     },
     {
       "label": "chapter1b",
@@ -35,7 +35,8 @@
         "data/study/chapter1b.study.4.json"
       ],
       "imageManifest": "public/images/chapter1b/manifest.json",
-      "imageBase": "images/chapter1b/"
+      "imageBase": "images/chapter1b/",
+      "official": "data/answer-keys/chapter1b.official.json"
     },
     {
       "label": "chapter1c",
@@ -48,7 +49,8 @@
         "data/study/chapter1c.study.2.json"
       ],
       "imageManifest": "public/images/chapter1c/manifest.json",
-      "imageBase": "images/chapter1c/"
+      "imageBase": "images/chapter1c/",
+      "official": "data/answer-keys/chapter1c.official.json"
     }
   ]
 }

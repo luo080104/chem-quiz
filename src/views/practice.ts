@@ -21,6 +21,7 @@ import {
   fmtDateTime,
 } from "../ui";
 import { statusLabel, type Question } from "../types";
+import { sfx } from "../audio";
 import type { RouteCtx } from "../main";
 
 interface DrillCtx {
@@ -205,6 +206,7 @@ function renderPracticeList(
     const chosen = selectedArr();
     correct = question.answer.length === 0 ? null : sameSet(chosen, question.answer);
     recordPracticeAnswer(question.id, chosen, correct);
+    sfx(correct === true ? "correct" : correct === false ? "wrong" : "tap");
     renderResult(chosen);
     paintAnswerOptions(chosen);
     refreshOptionStyles();

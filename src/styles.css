@@ -125,6 +125,21 @@ h2 {
   color: #eafcff;
   text-shadow: 0 0 10px rgba(34, 211, 238, 0.7), 0 0 2px rgba(244, 114, 182, 0.5);
 }
+.theme-toggle {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.25);
+  color: #eafcff;
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
 .hero .sub {
   margin: 8px 0 0;
   font-size: 12px;
@@ -1118,3 +1133,50 @@ a.score-row:active {
 .issues-fab.hidden {
   display: none;
 }
+/* ---------- light theme ---------- */
+html[data-theme="light"] {
+  --bg: #eef2f7;
+  --panel: #ffffff;
+  --panel-2: #f1f5fb;
+  --ink: #0b1220;
+  --muted: #5b6b82;
+  --line: #d5dce8;
+  --neon: #0e7490;
+  --neon-2: #be185d;
+  --neon-3: #6d28d9;
+  --ok: #15803d;
+  --bad: #be123c;
+  --warn: #b45309;
+  --ok-bg: #e6f6ec;
+  --bad-bg: #fdeaee;
+  --warn-bg: #fdf6e0;
+  --glow: 0 0 0 1px rgba(14, 116, 144, 0.22);
+}
+html[data-theme="light"] body {
+  background-image: linear-gradient(rgba(14, 116, 144, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 116, 144, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+html[data-theme="light"] body::before { display: none; }
+html[data-theme="light"] .hero { background: linear-gradient(135deg, #0e7490, #0d9488); }
+html[data-theme="light"] .hero h1 { color: #f2ffff; text-shadow: none; }
+html[data-theme="light"] .hero .sub { color: #d6f4f7; }
+html[data-theme="light"] .theme-toggle { border-color: rgba(255,255,255,.6); color: #ffffff; }
+html[data-theme="light"] .big-btn { background: var(--panel); }
+html[data-theme="light"] .big-title,
+html[data-theme="light"] .card-value,
+html[data-theme="light"] .q-no,
+html[data-theme="light"] .score-score,
+html[data-theme="light"] .topbar-title { color: var(--ink); text-shadow: none; }
+html[data-theme="light"] .big-btn .big-ico { color: var(--neon); }
+html[data-theme="light"] .big-btn.exam .big-ico { color: var(--neon-2); }
+html[data-theme="light"] .tile-ico { color: var(--neon); }
+html[data-theme="light"] .tile-ico svg { filter: none; }
+html[data-theme="light"] .timer { color: var(--ok); text-shadow: none; }
+html[data-theme="light"] .bar-fill { box-shadow: none; }
+html[data-theme="light"] .score-num { color: var(--neon); text-shadow: none; }
+html[data-theme="light"] .issues-fab { background: var(--panel); }
+html[data-theme="light"] .overlay-panel { background: var(--panel); }
+html[data-theme="light"] .explain,
+html[data-theme="light"] .study { background: #f7fafc; }
+html[data-theme="light"] .option.selected { background: #e8f7f5; }

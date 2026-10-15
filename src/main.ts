@@ -11,7 +11,10 @@ import { renderData } from "./views/data";
 import { renderFlagged } from "./views/flagged";
 import { renderIssues } from "./views/issues";
 import { renderGlossary } from "./views/glossary";
+import { renderSearch } from "./views/search";
 import { renderNotFound } from "./views/notfound";
+import { sfx, unlockAudio, startMusic, stopMusic, isMusicOn } from "./audio";
+import { initTheme } from "./theme";
 
 export { APP_VERSION } from "./version";
 
@@ -46,6 +49,7 @@ const routes: Array<[RegExp, View]> = [
   [/^flagged$/, (c) => renderFlagged(c)],
   [/^issues$/, (c) => renderIssues(c)],
   [/^glossary$/, (c) => renderGlossary(c)],
+  [/^search$/, (c) => renderSearch(c)],
 ];
 
 function currentParts(): string[] {
@@ -61,6 +65,11 @@ async function route(): Promise<void> {
     if (re.test(path)) {
       await view({ app, parts });
       window.scrollTo(0, 0);
+      if (path === "") {
+        if (isMusicOn()) startMusic();
+      } else {
+        stopMusic();
+      }
       const fab = document.getElementById("issues-fab");
       if (fab) {
         const hide =
@@ -77,6 +86,7 @@ async function route(): Promise<void> {
 }
 
 async function boot(): Promise<void> {
+  initTheme();
   const app = document.getElementById("app") as HTMLElement;
   app.replaceChildren(el("div", { class: "loading" }, ["题库加载中…"]));
   try {
@@ -92,6 +102,19 @@ async function boot(): Promise<void> {
     );
     return;
   }
+  document.addEventListener(
+    "click",
+    (e) => {
+      const t = (e.target as HTMLElement)?.closest(
+        "button, a, .option, .cell, summary, label, input[type=checkbox]"
+      );
+      if (!t) return;
+      unlockAudio();
+      sfx("tap");
+      if (isMusicOn() && currentParts().length === 0) startMusic();
+    },
+    true
+  );
   window.addEventListener("hashchange", () => void route());
   mountIssuesButton();
   await route();

@@ -19,6 +19,11 @@ export function renderStats({ app }: RouteCtx): void {
     .exams.filter((e) => e.submittedAt)
     .sort((a, b) => (a.submittedAt || 0) - (b.submittedAt || 0));
 
+  const recs = Object.values(state().practice.records).filter((r) => r.attempts > 0);
+  const attempts = recs.reduce((a, r) => a + r.attempts, 0);
+  const corrects = recs.reduce((a, r) => a + r.correctCount, 0);
+  const acc = attempts ? Math.round((corrects / attempts) * 100) : 0;
+
   const scores = exams.map((e) => e.correctCount ?? 0);
   const best = scores.length ? Math.max(...scores) : 0;
   const avg = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
@@ -47,6 +52,11 @@ export function renderStats({ app }: RouteCtx): void {
           el("div", { class: "card-label" }, ["顺序进度"]),
           el("div", { class: "card-value" }, [`${practiced}/${total}`]),
           el("div", { class: "card-hint muted small" }, ["至少提交过一次的不同题数"]),
+        ]),
+        el("div", { class: "card" }, [
+          el("div", { class: "card-label" }, ["正确率"]),
+          el("div", { class: "card-value" }, [`${acc}%`]),
+          el("div", { class: "card-hint muted small" }, [`答对 ${corrects}/${attempts} 次`]),
         ]),
         el("div", { class: "card" }, [
           el("div", { class: "card-label" }, ["错题数"]),

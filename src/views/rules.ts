@@ -1,6 +1,7 @@
 import { getBank } from "../bank";
 import { el } from "../ui";
 import { APP_VERSION } from "../version";
+import { isSfxOn, setSfxOn, isMusicOn, setMusicOn } from "../audio";
 import type { RouteCtx } from "../main";
 
 function header(title: string): HTMLElement {
@@ -57,6 +58,25 @@ export function renderRules({ app }: RouteCtx): void {
         el("li", {}, ["学习记录保存在当前手机浏览器本机，不上传服务器。"]),
         el("li", {}, ["清除浏览器数据/无痕模式可能导致本机记录丢失，请在“学习记录备份”导出。"]),
         el("li", {}, ["换设备或换浏览器不会自动同步。"]),
+      ]),
+      el("h2", {}, ["音效与音乐"]),
+      el("label", { class: "check-row" }, [
+        (() => {
+          const cb = el("input", { type: "checkbox" }) as HTMLInputElement;
+          cb.checked = isSfxOn();
+          cb.addEventListener("change", () => setSfxOn(cb.checked));
+          return cb;
+        })(),
+        el("span", {}, ["点击音效（按钮 / 选项 / 下一题）"]),
+      ]),
+      el("label", { class: "check-row" }, [
+        (() => {
+          const cb = el("input", { type: "checkbox" }) as HTMLInputElement;
+          cb.checked = isMusicOn();
+          cb.addEventListener("change", () => setMusicOn(cb.checked));
+          return cb;
+        })(),
+        el("span", {}, ["主界面轻音乐（做题时不播放）"]),
       ]),
       el("h2", {}, ["关于与安装"]),
       el("ul", {}, [

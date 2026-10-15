@@ -2,6 +2,7 @@ import { getBank } from "../bank";
 import { state, practicedQuestionIds, activeWrongIds, flaggedQuestionIds } from "../store";
 import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
 import { APP_VERSION } from "../version";
+import { getTheme, toggleTheme } from "../theme";
 import type { RouteCtx } from "../main";
 
 export function renderHome({ app }: RouteCtx): void {
@@ -93,6 +94,17 @@ export function renderHome({ app }: RouteCtx): void {
   app.replaceChildren(
     el("div", { class: "page" }, [
       el("header", { class: "hero" }, [
+        el(
+          "button",
+          {
+            class: "theme-toggle",
+            onClick: (e) => {
+              const t = toggleTheme();
+              (e.currentTarget as HTMLElement).textContent = t === "light" ? "暗色" : "亮色";
+            },
+          },
+          [getTheme() === "light" ? "暗色" : "亮色"]
+        ),
         el("h1", {}, ["大学化学刷题"]),
         el("p", { class: "sub" }, ["手机优先 · 本机保存学习记录"]),
       ]),
@@ -114,6 +126,7 @@ export function renderHome({ app }: RouteCtx): void {
         link("#/wrongbook", "错题复习", String(wrong) + " 题", "wrong"),
         link("#/flagged", "标记不懂汇总", `${flagged} 题`, "flag"),
         link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`, "glossary"),
+        link("#/search", "搜索题目", "关键词 / 题号", "search"),
         link("#/stats", "成绩与用时", `${exams.length} 次模拟`, "stats"),
         link("#/rules", "规则与关于", `v${APP_VERSION}`, "info"),
         link("#/data", "学习记录备份", "导出 / 导入", "save"),
@@ -145,6 +158,7 @@ const ICONS: Record<string, string> = {
   stats: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="9" width="3" height="5"/><rect x="6" y="5" width="3" height="9"/><rect x="10" y="2" width="3" height="12"/></svg>',
   info: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="2" width="2" height="2"/><rect x="7" y="6" width="2" height="7"/></svg>',
   save: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="7"/><rect x="4" y="5" width="2" height="2"/><rect x="10" y="5" width="2" height="2"/><rect x="6" y="7" width="4" height="2"/><rect x="3" y="12" width="10" height="2"/></svg>',
+  search: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="2" width="8" height="1"/><rect x="2" y="9" width="8" height="1"/><rect x="2" y="2" width="1" height="8"/><rect x="9" y="2" width="1" height="8"/><rect x="10" y="10" width="2" height="2"/><rect x="12" y="12" width="2" height="2"/></svg>',
 };
 
 function iconSpan(name: string, cls: string): HTMLSpanElement {

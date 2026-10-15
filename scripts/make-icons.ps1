@@ -13,11 +13,13 @@ function New-Icon([int]$size, [string]$path) {
   $g = [System.Drawing.Graphics]::FromImage($bmp)
   $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
   $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAlias
-  $brand = [System.Drawing.Color]::FromArgb(15, 118, 110)
+  $brand = [System.Drawing.Color]::FromArgb(5, 7, 15)
   $g.Clear($brand)
+  $neon = New-Object System.Drawing.Pen -ArgumentList ([System.Drawing.Color]::FromArgb(34, 211, 238)), ([float]($size * 0.05))
+  $g.DrawRectangle($neon, [int]($size * 0.08), [int]($size * 0.08), [int]($size * 0.84), [int]($size * 0.84))
   $fontSize = [float]($size * 0.42)
-  $font = New-Object System.Drawing.Font -ArgumentList "Segoe UI", $fontSize, ([System.Drawing.FontStyle]::Bold), ([System.Drawing.GraphicsUnit]::Pixel)
-  $brush = [System.Drawing.Brushes]::White
+  $font = New-Object System.Drawing.Font -ArgumentList "Consolas", $fontSize, ([System.Drawing.FontStyle]::Bold), ([System.Drawing.GraphicsUnit]::Pixel)
+  $brush = New-Object System.Drawing.SolidBrush -ArgumentList ([System.Drawing.Color]::FromArgb(34, 211, 238))
   $fmt = New-Object System.Drawing.StringFormat
   $fmt.Alignment = [System.Drawing.StringAlignment]::Center
   $fmt.LineAlignment = [System.Drawing.StringAlignment]::Center

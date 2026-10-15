@@ -6,10 +6,27 @@
 
 const LS_SFX = "chemquiz.sfx";
 const LS_MUSIC = "chemquiz.music";
+const LS_VOL = "chemquiz.vol";
 
 let ctx: AudioContext | null = null;
 let sfxOn = localStorage.getItem(LS_SFX) !== "0";
 let musicOn = localStorage.getItem(LS_MUSIC) !== "0";
+let volume = (() => {
+  const v = Number(localStorage.getItem(LS_VOL));
+  return v >= 0 && v <= 1 ? v : 0.8;
+})();
+
+function clamp01(v: number): number {
+  return Math.max(0, Math.min(1, v));
+}
+export function getVolume(): number {
+  return volume;
+}
+export function setVolume(v: number): void {
+  volume = clamp01(v);
+  localStorage.setItem(LS_VOL, String(volume));
+  if (masterGain) masterGain.gain.value = volume;
+}
 
 let musicPlaying = false;
 let musicTimer: number | null = null;
@@ -23,7 +40,7 @@ function ac(): AudioContext | null {
   if (!ctx) {
     ctx = new Ctor();
     masterGain = ctx.createGain();
-    masterGain.gain.value = 0.9;
+    masterGain.gain.value = volume;
     masterGain.connect(ctx.destination);
   }
   return ctx;

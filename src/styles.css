@@ -830,6 +830,44 @@ sup {
   color: var(--bad);
   font-size: 12px;
 }
+.score-table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0;
+}
+.score-row {
+  display: grid;
+  grid-template-columns: 62px 1fr auto auto auto;
+  align-items: center;
+  gap: 6px;
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 9px 10px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+a.score-row {
+  border: 1px solid var(--line);
+}
+.score-row.score-head {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 2px 10px;
+}
+.score-score {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.score-delta.ok {
+  color: var(--ok);
+}
+.score-delta.bad {
+  color: var(--bad);
+}
 
 /* ---------- misc ---------- */
 .muted {

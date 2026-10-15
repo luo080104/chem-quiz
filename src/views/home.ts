@@ -39,6 +39,11 @@ export function renderHome({ app }: RouteCtx): void {
 
   const sampleSize = Math.min(100, bank.questions.filter((q) => q.answer.length).length);
   const seqTitle = total >= 250 ? "顺序刷 250 题" : `顺序刷题（${total} 题）`;
+  const lastPos = Math.min(state().practice.lastIndex + 1, total);
+  const seqSub =
+    practiced > 0 && lastPos > 0
+      ? `上次刷到第 ${lastPos} 题 · 点此继续（共 ${total} 题）`
+      : `按原题号顺序练习（共 ${total} 题）`;
   const examTitle = total >= 250 && sampleSize >= 100 ? "仿真模拟 100 题" : `仿真模拟（${sampleSize} 题）`;
 
   const practicedSet = new Set(practicedQuestionIds());
@@ -94,7 +99,7 @@ export function renderHome({ app }: RouteCtx): void {
       demoBanner,
       archiveBanner,
       el("div", { class: "main-actions" }, [
-        bigButton(seqTitle, `按原题号顺序练习（当前 ${total} 题）`, "seq", () => go("#/practice")),
+        bigButton(seqTitle, seqSub, "seq", () => go("#/practice")),
         bigButton(
           examTitle,
           `随机无放回抽题 · 正计时（本次抽 ${sampleSize} 题）`,

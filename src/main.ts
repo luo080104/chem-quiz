@@ -62,7 +62,14 @@ async function route(): Promise<void> {
       await view({ app, parts });
       window.scrollTo(0, 0);
       const fab = document.getElementById("issues-fab");
-      if (fab) fab.classList.toggle("hidden", path === "issues");
+      if (fab) {
+        const hide =
+          path === "issues" ||
+          path.startsWith("practice") ||
+          path.startsWith("exam") ||
+          path.startsWith("drill");
+        fab.classList.toggle("hidden", hide);
+      }
       return;
     }
   }

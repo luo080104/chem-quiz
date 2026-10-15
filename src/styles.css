@@ -3,7 +3,7 @@
   --panel: #0b1120;
   --panel-2: #0e1730;
   --ink: #cfeffd;
-  --muted: #6f93b4;
+  --muted: #86a9c9;
   --line: #1d2f4d;
   --neon: #22d3ee;
   --neon-2: #f472b6;
@@ -484,6 +484,24 @@ sup {
   border-color: var(--neon);
   color: var(--neon);
   box-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
+}
+.option.correct {
+  border-color: var(--ok);
+  box-shadow: 0 0 0 1px rgba(74, 222, 128, 0.4), 0 0 12px rgba(74, 222, 128, 0.22);
+}
+.option.correct .opt-key {
+  border-color: var(--ok);
+  color: var(--ok);
+  box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+}
+.option.wrong {
+  border-color: var(--bad);
+  box-shadow: 0 0 0 1px rgba(255, 77, 109, 0.4), 0 0 12px rgba(255, 77, 109, 0.22);
+}
+.option.wrong .opt-key {
+  border-color: var(--bad);
+  color: var(--bad);
+  box-shadow: 0 0 8px rgba(255, 77, 109, 0.6);
 }
 .opt-image {
   color: var(--warn);

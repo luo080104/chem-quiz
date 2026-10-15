@@ -173,6 +173,20 @@ function renderPracticeList(
     submitBtn.toggleAttribute("disabled", selected.size === 0);
   }
 
+  function paintAnswerOptions(chosen: string[]): void {
+    for (const child of Array.from(optionList.children)) {
+      const btn = child as HTMLElement;
+      const key = btn.dataset.key!;
+      btn.classList.toggle("correct", question.answer.includes(key));
+      btn.classList.toggle("wrong", !question.answer.includes(key) && chosen.includes(key));
+    }
+  }
+  function clearAnswerPaint(): void {
+    for (const child of Array.from(optionList.children)) {
+      (child as HTMLElement).classList.remove("correct", "wrong");
+    }
+  }
+
   function toggleOption(key: string): void {
     if (submitted) return;
     if (question.type === "multiple") {
@@ -192,6 +206,7 @@ function renderPracticeList(
     correct = question.answer.length === 0 ? null : sameSet(chosen, question.answer);
     recordPracticeAnswer(question.id, chosen, correct);
     renderResult(chosen);
+    paintAnswerOptions(chosen);
     refreshOptionStyles();
     renderNav();
     updateSubmit();
@@ -253,6 +268,7 @@ function renderPracticeList(
             selected.clear();
             resultBox.classList.add("hidden");
             resultBox.replaceChildren();
+            clearAnswerPaint();
             updateSubmit();
             refreshOptionStyles();
             renderNav();
@@ -366,5 +382,8 @@ function renderPracticeList(
   refreshOptionStyles();
   renderNav();
   updateSubmit();
-  if (already) renderResult(selectedArr());
+  if (already) {
+    renderResult(selectedArr());
+    paintAnswerOptions(selectedArr());
+  }
 }

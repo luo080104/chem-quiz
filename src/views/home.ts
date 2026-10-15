@@ -60,10 +60,6 @@ export function renderHome({ app }: RouteCtx): void {
   ).size;
   const flagged = flaggedQuestionIds().length;
 
-  const standalone =
-    (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) ||
-    (navigator as unknown as { standalone?: boolean }).standalone === true;
-
   const progressBlock = el("div", { class: "progress-wrap" }, [
     el("div", { class: "progress-head" }, [
       el("span", {}, [`已刷题数`]),
@@ -109,11 +105,6 @@ export function renderHome({ app }: RouteCtx): void {
       progressBlock,
       ...chapterRows,
       statCards,
-      standalone
-        ? null
-        : el("div", { class: "banner" }, [
-            "提示：用浏览器菜单“添加到主屏幕/添加到桌面”可像 App 一样使用，并支持断网刷题（首次打开后）。",
-          ]),
       el("nav", { class: "grid-links" }, [
         link("#/wrongbook", "错题复习", String(wrong) + " 题"),
         link("#/flagged", "标记不懂汇总", `${flagged} 题`),

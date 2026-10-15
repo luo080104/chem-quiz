@@ -52,34 +52,59 @@ export function setMusicOn(v: boolean): void {
 
 export type SfxKind = "tap" | "next" | "correct" | "wrong" | "open";
 
+// one crisp sine "blip"
+function blip(c: AudioContext, freq: number, at: number, dur: number, vol: number, type: OscillatorType = "sine"): void {
+  const o = c.createOscillator();
+  const g = c.createGain();
+  o.type = type;
+  o.frequency.setValueAtTime(freq, at);
+  g.gain.setValueAtTime(0.0001, at);
+  g.gain.exponentialRampToValueAtTime(vol, at + 0.004);
+  g.gain.exponentialRampToValueAtTime(0.0001, at + dur);
+  o.connect(g).connect(masterGain ?? c.destination);
+  o.start(at);
+  o.stop(at + dur + 0.02);
+}
+
 export function sfx(kind: SfxKind): void {
   if (!sfxOn) return;
   const c = ac();
   if (!c) return;
   if (c.state === "suspended") void c.resume();
   const t = c.currentTime;
-  const o = c.createOscillator();
-  const g = c.createGain();
-  const table: Record<SfxKind, { f: number[]; type: OscillatorType; dur: number; vol: number }> = {
-    tap: { f: [520], type: "square", dur: 0.06, vol: 0.05 },
-    open: { f: [440, 660], type: "square", dur: 0.12, vol: 0.05 },
-    next: { f: [600, 760], type: "square", dur: 0.1, vol: 0.05 },
-    correct: { f: [660, 880, 1180], type: "triangle", dur: 0.22, vol: 0.07 },
-    wrong: { f: [200, 150], type: "sawtooth", dur: 0.2, vol: 0.06 },
-  };
-  const cfg = table[kind];
-  o.type = cfg.type;
-  cfg.f.forEach((f, i) => o.frequency.setValueAtTime(f, t + i * (cfg.dur / cfg.f.length)));
-  g.gain.setValueAtTime(0.0001, t);
-  g.gain.exponentialRampToValueAtTime(cfg.vol, t + 0.01);
-  g.gain.exponentialRampToValueAtTime(0.0001, t + cfg.dur);
-  o.connect(g).connect(masterGain ?? c.destination);
-  o.start(t);
-  o.stop(t + cfg.dur + 0.02);
+  switch (kind) {
+    case "tap":
+      // crisp high tick
+      blip(c, 1500, t, 0.035, 0.06, "triangle");
+      blip(c, 3000, t, 0.02, 0.03, "sine");
+      break;
+    case "open":
+      blip(c, 1046.5, t, 0.06, 0.05, "triangle");
+      blip(c, 1568.0, t + 0.05, 0.07, 0.05, "triangle");
+      break;
+    case "next":
+      blip(c, 1318.5, t, 0.05, 0.055, "triangle");
+      blip(c, 1760.0, t + 0.045, 0.06, 0.05, "triangle");
+      break;
+    case "correct":
+      blip(c, 783.99, t, 0.09, 0.06, "triangle");
+      blip(c, 987.77, t + 0.09, 0.09, 0.06, "triangle");
+      blip(c, 1318.5, t + 0.18, 0.16, 0.06, "triangle");
+      break;
+    case "wrong":
+      blip(c, 311.13, t, 0.13, 0.055, "triangle");
+      blip(c, 207.65, t + 0.12, 0.18, 0.055, "triangle");
+      break;
+  }
 }
 
-// gentle looping arpeggio (main screen only)
-const SCALE = [261.63, 329.63, 392.0, 523.25, 440.0, 349.23]; // C E G C A F
+// calm ambient chord pad loop (main screen only): C - Am - F - G
+const PROGRESSION: number[][] = [
+  [261.63, 329.63, 392.0, 130.81],
+  [220.0, 261.63, 329.63, 110.0],
+  [174.61, 220.0, 261.63, 87.31],
+  [196.0, 246.94, 293.66, 98.0],
+];
 
 export function startMusic(): void {
   if (!musicOn || musicPlaying) return;
@@ -88,23 +113,30 @@ export function startMusic(): void {
   if (c.state === "suspended") void c.resume();
   musicPlaying = true;
   musicStep = 0;
-  const play = () => {
+  const playChord = () => {
     if (!musicPlaying || !c) return;
     const t = c.currentTime;
-    const o = c.createOscillator();
-    const g = c.createGain();
-    o.type = "triangle";
-    o.frequency.value = SCALE[musicStep % SCALE.length];
-    g.gain.setValueAtTime(0.0001, t);
-    g.gain.exponentialRampToValueAtTime(0.028, t + 0.35);
-    g.gain.exponentialRampToValueAtTime(0.0001, t + 1.15);
-    o.connect(g).connect(masterGain ?? c.destination);
-    o.start(t);
-    o.stop(t + 1.2);
+    const dur = 3.2;
+    const freqs = PROGRESSION[musicStep % PROGRESSION.length];
+    freqs.forEach((f, i) => {
+      const o = c.createOscillator();
+      const g = c.createGain();
+      o.type = "sine";
+      o.frequency.value = f;
+      const vol = i === freqs.length - 1 ? 0.02 : 0.015;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.linearRampToValueAtTime(vol, t + 0.9);
+      g.gain.linearRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(masterGain ?? c.destination);
+      o.start(t);
+      o.stop(t + dur + 0.1);
+    });
+    // faint high shimmer
+    blip(c, freqs[0] * 4, t + 0.2, 1.6, 0.006, "sine");
     musicStep++;
   };
-  play();
-  musicTimer = window.setInterval(play, 760);
+  playChord();
+  musicTimer = window.setInterval(playChord, 3100);
 }
 
 export function stopMusic(): void {

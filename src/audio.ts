@@ -34,12 +34,20 @@ function ac(): AudioContext | null {
   if (!Ctor) return null;
   if (!ctx) {
     ctx = new Ctor();
+    // soft limiter so boosted SFX never clip/hiss
+    const comp = ctx.createDynamicsCompressor();
+    comp.threshold.value = -6;
+    comp.knee.value = 8;
+    comp.ratio.value = 4;
+    comp.attack.value = 0.003;
+    comp.release.value = 0.2;
+    comp.connect(ctx.destination);
     sfxGain = ctx.createGain();
     sfxGain.gain.value = sfxVolume;
-    sfxGain.connect(ctx.destination);
+    sfxGain.connect(comp);
     musicGain = ctx.createGain();
     musicGain.gain.value = musicVolume;
-    musicGain.connect(ctx.destination);
+    musicGain.connect(comp);
   }
   return ctx;
 }
@@ -108,25 +116,25 @@ export function sfx(kind: SfxKind): void {
   const d = sfxGain;
   switch (kind) {
     case "tap":
-      blip(d, 1500, t, 0.05, 0.16, "triangle");
-      blip(d, 3000, t, 0.02, 0.07, "sine");
+      blip(d, 1500, t, 0.06, 0.6, "triangle");
+      blip(d, 3000, t, 0.025, 0.28, "sine");
       break;
     case "open":
-      blip(d, 1046.5, t, 0.07, 0.13, "triangle");
-      blip(d, 1568.0, t + 0.05, 0.08, 0.12, "triangle");
+      blip(d, 1046.5, t, 0.08, 0.5, "triangle");
+      blip(d, 1568.0, t + 0.05, 0.09, 0.45, "triangle");
       break;
     case "next":
-      blip(d, 1318.5, t, 0.06, 0.14, "triangle");
-      blip(d, 1760.0, t + 0.045, 0.07, 0.12, "triangle");
+      blip(d, 1318.5, t, 0.07, 0.55, "triangle");
+      blip(d, 1760.0, t + 0.045, 0.08, 0.45, "triangle");
       break;
     case "correct":
-      blip(d, 783.99, t, 0.1, 0.12, "triangle");
-      blip(d, 987.77, t + 0.09, 0.1, 0.12, "triangle");
-      blip(d, 1318.5, t + 0.18, 0.18, 0.12, "triangle");
+      blip(d, 783.99, t, 0.11, 0.5, "triangle");
+      blip(d, 987.77, t + 0.09, 0.11, 0.5, "triangle");
+      blip(d, 1318.5, t + 0.18, 0.2, 0.5, "triangle");
       break;
     case "wrong":
-      blip(d, 311.13, t, 0.14, 0.11, "triangle");
-      blip(d, 207.65, t + 0.12, 0.2, 0.11, "triangle");
+      blip(d, 311.13, t, 0.15, 0.45, "triangle");
+      blip(d, 207.65, t + 0.12, 0.22, 0.45, "triangle");
       break;
   }
 }

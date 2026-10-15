@@ -74,26 +74,26 @@ export function sfx(kind: SfxKind): void {
   const t = c.currentTime;
   switch (kind) {
     case "tap":
-      // crisp high tick
-      blip(c, 1500, t, 0.035, 0.06, "triangle");
-      blip(c, 3000, t, 0.02, 0.03, "sine");
+      // crisp high tick (louder)
+      blip(c, 1500, t, 0.05, 0.16, "triangle");
+      blip(c, 3000, t, 0.02, 0.07, "sine");
       break;
     case "open":
-      blip(c, 1046.5, t, 0.06, 0.05, "triangle");
-      blip(c, 1568.0, t + 0.05, 0.07, 0.05, "triangle");
+      blip(c, 1046.5, t, 0.07, 0.13, "triangle");
+      blip(c, 1568.0, t + 0.05, 0.08, 0.12, "triangle");
       break;
     case "next":
-      blip(c, 1318.5, t, 0.05, 0.055, "triangle");
-      blip(c, 1760.0, t + 0.045, 0.06, 0.05, "triangle");
+      blip(c, 1318.5, t, 0.06, 0.14, "triangle");
+      blip(c, 1760.0, t + 0.045, 0.07, 0.12, "triangle");
       break;
     case "correct":
-      blip(c, 783.99, t, 0.09, 0.06, "triangle");
-      blip(c, 987.77, t + 0.09, 0.09, 0.06, "triangle");
-      blip(c, 1318.5, t + 0.18, 0.16, 0.06, "triangle");
+      blip(c, 783.99, t, 0.1, 0.12, "triangle");
+      blip(c, 987.77, t + 0.09, 0.1, 0.12, "triangle");
+      blip(c, 1318.5, t + 0.18, 0.18, 0.12, "triangle");
       break;
     case "wrong":
-      blip(c, 311.13, t, 0.13, 0.055, "triangle");
-      blip(c, 207.65, t + 0.12, 0.18, 0.055, "triangle");
+      blip(c, 311.13, t, 0.14, 0.11, "triangle");
+      blip(c, 207.65, t + 0.12, 0.2, 0.11, "triangle");
       break;
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "大学化学刷题",
+  "short_name": "化学刷题",
+  "description": "手机优先的大学化学刷题：顺序刷题 + 随机抽题仿真模拟",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef2f7",
+  "theme_color": "#0e7490",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icons/icon-192-light.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512-light.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

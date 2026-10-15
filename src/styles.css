@@ -697,6 +697,18 @@ sup {
 }
 
 /* ---------- score / review ---------- */
+.drill-btn {
+  display: block;
+  text-align: center;
+  background: var(--bad);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 13px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
 .score-card {
   background: var(--panel);
   border-radius: var(--radius);

@@ -81,6 +81,31 @@ export function renderDrillFlag({ app, parts }: RouteCtx): void {
   });
 }
 
+/** Drill only the wrong questions of one exam paper. */
+export function renderDrillExamWrong({ app, parts }: RouteCtx): void {
+  const examId = parts[2];
+  const exam = state().exams.find((e) => e.id === examId);
+  if (!exam) {
+    app.replaceChildren(header("错题回测"), el("div", { class: "page" }, ["找不到该次模拟"]));
+    return;
+  }
+  const list = exam.questionIds
+    .map((id) => byId(id))
+    .filter((q): q is Question => !!q)
+    .filter((q) => {
+      const chosen = exam.answers[q.id] || [];
+      return q.answer.length > 0 && !sameSet(chosen, q.answer);
+    });
+  const idx = parts[3] ? Number(parts[3]) : 0;
+  renderPracticeList(app, list, idx, {
+    title: "本次模拟错题",
+    backHref: `#/exam/result/${examId}`,
+    backLabel: "← 模拟结果",
+    basePath: (i) => `#/drill/examwrong/${examId}/${i}`,
+    emptyHint: "本次模拟没有错题。",
+  });
+}
+
 function renderPracticeList(
   app: HTMLElement,
   list: Question[],

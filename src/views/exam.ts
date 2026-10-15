@@ -270,10 +270,12 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
     ? []
     : exam.questionIds.map((id) => byId(id)).filter((q): q is Question => !!q);
   const items: HTMLElement[] = [];
+  let wrongCount = 0;
   qs.forEach((q, i) => {
     const chosen = exam.answers[q.id] || [];
     const scorable = q.answer.length > 0;
     const ok = scorable && sameSet(chosen, q.answer);
+    if (scorable && !ok) wrongCount++;
     items.push(
       el("div", { class: `review-item ${scorable ? (ok ? "ok" : "bad") : "pending"}` }, [
         el("div", { class: "review-head" }, [
@@ -311,11 +313,20 @@ export function renderExamResult({ app, parts }: RouteCtx): void {
             `该次模拟使用的题库（${exam.bankId} v${exam.bankVersion}）与当前题库不同，逐题解析不可用；仅保留成绩与用时。`,
           ])
         : null,
+      !bankChanged && wrongCount > 0
+        ? el("a", { class: "drill-btn", href: `#/drill/examwrong/${exam.id}/0` }, [
+            `开始练习本次错题（${wrongCount} 题）`,
+          ])
+        : null,
       el("div", { class: "btn-row" }, [
         el("a", { class: "nav-btn", href: "#/" }, ["返回首页"]),
         el("a", { class: "nav-btn", href: "#/stats" }, ["看历次趋势"]),
-        el("a", { class: "nav-btn", href: "#/wrongbook" }, ["错题复习"]),
       ]),
+      bankChanged
+        ? null
+        : el("div", { class: "muted small" }, [
+            `本次错题 ${wrongCount} 道。下面为逐题解析；点上方按钮可只重做错题。`,
+          ]),
       bankChanged ? null : el("h2", {}, ["逐题解析"]),
       ...items,
     ])

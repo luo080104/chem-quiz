@@ -3,7 +3,7 @@ import { state, practicedQuestionIds, activeWrongIds, flaggedQuestionIds } from 
 import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
 import { APP_VERSION } from "../version";
 import { getTheme, toggleTheme } from "../theme";
-import { getVolume, setVolume } from "../audio";
+import { getSfxVolume, setSfxVolume, getMusicVolume, setMusicVolume } from "../audio";
 import type { RouteCtx } from "../main";
 
 export function renderHome({ app }: RouteCtx): void {
@@ -111,25 +111,8 @@ export function renderHome({ app }: RouteCtx): void {
       ]),
       demoBanner,
       archiveBanner,
-      (() => {
-        const slider = el("input", {
-          class: "vol-slider",
-          type: "range",
-          min: "0",
-          max: "100",
-          value: String(Math.round(getVolume() * 100)),
-        }) as HTMLInputElement;
-        const val = el("span", { class: "vol-val" }, [`${Math.round(getVolume() * 100)}%`]);
-        slider.addEventListener("input", () => {
-          setVolume(Number(slider.value) / 100);
-          val.textContent = `${slider.value}%`;
-        });
-        return el("div", { class: "volume-bar" }, [
-          el("span", { class: "vol-label" }, ["音量"]),
-          slider,
-          val,
-        ]);
-      })(),
+      volRow("音效", getSfxVolume, setSfxVolume),
+      volRow("音乐", getMusicVolume, setMusicVolume),
       el("div", { class: "main-actions" }, [
         bigButton(seqTitle, seqSub, "seq", () => go("#/practice")),
         bigButton(
@@ -185,6 +168,26 @@ function iconSpan(name: string, cls: string): HTMLSpanElement {
   const s = el("span", { class: cls });
   s.innerHTML = ICONS[name] || "";
   return s;
+}
+
+function volRow(label: string, get: () => number, set: (v: number) => void): HTMLElement {
+  const slider = el("input", {
+    class: "vol-slider",
+    type: "range",
+    min: "0",
+    max: "100",
+    value: String(Math.round(get() * 100)),
+  }) as HTMLInputElement;
+  const val = el("span", { class: "vol-val" }, [`${Math.round(get() * 100)}%`]);
+  slider.addEventListener("input", () => {
+    set(Number(slider.value) / 100);
+    val.textContent = `${slider.value}%`;
+  });
+  return el("div", { class: "volume-bar" }, [
+    el("span", { class: "vol-label" }, [label]),
+    slider,
+    val,
+  ]);
 }
 
 function statCardLink(href: string, label: string, value: string, hint: string): HTMLElement {

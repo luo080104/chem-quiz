@@ -66,6 +66,8 @@ export interface AppState {
   exams: ExamRecord[];
   activeExamId: string | null;
   archivedBanks: Record<string, ArchivedBank>;
+  archivedWrong: string[];
+  archivedFlagged: string[];
 }
 
 export function emptyState(): AppState {
@@ -78,6 +80,8 @@ export function emptyState(): AppState {
     exams: [],
     activeExamId: null,
     archivedBanks: {},
+    archivedWrong: [],
+    archivedFlagged: [],
   };
 }
 
@@ -128,6 +132,8 @@ export function loadState(): AppState {
       wrongbook: parsed.wrongbook || {},
       exams: parsed.exams || [],
       archivedBanks: parsed.archivedBanks || {},
+      archivedWrong: parsed.archivedWrong || [],
+      archivedFlagged: parsed.archivedFlagged || [],
     };
   } catch {
     return emptyState();
@@ -222,6 +228,8 @@ export function recordPracticeAnswer(
     }
   } else if (correct === false) {
     r.wrongCount += 1;
+    // A fresh wrong re-activates the item if it had been archived ("曾经错过").
+    s.archivedWrong = s.archivedWrong.filter((x) => x !== questionId);
     const wb = s.wrongbook[questionId];
     if (wb) {
       wb.lastWrongAt = nowMs();
@@ -251,21 +259,70 @@ export function wrongQuestionIds(): string[] {
   return Object.keys(state().wrongbook);
 }
 
+/** Active wrong list = wrong entries not moved to "曾经错过". */
+export function activeWrongIds(): string[] {
+  const s = state();
+  return Object.keys(s.wrongbook).filter((id) => !s.archivedWrong.includes(id));
+}
+
+/** Archived wrong list = "曾经错过" (moved out, restorable). */
+export function archivedWrongIds(): string[] {
+  const s = state();
+  return s.archivedWrong.filter((id) => !!s.wrongbook[id]);
+}
+
+export function archiveWrong(questionId: string): void {
+  const s = state();
+  if (!s.archivedWrong.includes(questionId)) s.archivedWrong.push(questionId);
+  persist();
+}
+
+export function unarchiveWrong(questionId: string): void {
+  const s = state();
+  s.archivedWrong = s.archivedWrong.filter((x) => x !== questionId);
+  persist();
+}
+
 export function toggleFlag(questionId: string): boolean {
   const r = ensureRecord(questionId);
   r.flagged = !r.flagged;
+  const s = state();
+  if (r.flagged) s.archivedFlagged = s.archivedFlagged.filter((x) => x !== questionId);
   persist();
   return !!r.flagged;
+}
+
+/** Turn flag off and keep it in "曾经不懂". */
+export function removeFlag(questionId: string): void {
+  const s = state();
+  const r = ensureRecord(questionId);
+  r.flagged = false;
+  if (!s.archivedFlagged.includes(questionId)) s.archivedFlagged.push(questionId);
+  persist();
+}
+
+export function unarchiveFlagged(questionId: string): void {
+  const s = state();
+  s.archivedFlagged = s.archivedFlagged.filter((x) => x !== questionId);
+  const r = ensureRecord(questionId);
+  r.flagged = true;
+  persist();
 }
 
 export function isFlagged(questionId: string): boolean {
   return !!state().practice.records[questionId]?.flagged;
 }
 
+/** Active flagged list (excludes "曾经不懂"). */
 export function flaggedQuestionIds(): string[] {
-  return Object.values(state().practice.records)
-    .filter((r) => r.flagged)
+  const s = state();
+  return Object.values(s.practice.records)
+    .filter((r) => r.flagged && !s.archivedFlagged.includes(r.questionId))
     .map((r) => r.questionId);
+}
+
+export function archivedFlaggedIds(): string[] {
+  return state().archivedFlagged.slice();
 }
 
 export function exportBackup(): string {
@@ -302,6 +359,8 @@ export function importBackup(text: string): ImportResult {
       wrongbook: incoming.wrongbook || {},
       exams: incoming.exams || [],
       archivedBanks: incoming.archivedBanks || {},
+      archivedWrong: incoming.archivedWrong || [],
+      archivedFlagged: incoming.archivedFlagged || [],
     };
     persist();
     return { ok: true, message: "导入成功，学习记录已恢复" };

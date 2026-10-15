@@ -1,4 +1,4 @@
-import { state, persist, flaggedQuestionIds } from "../store";
+import { state, activeWrongIds, archivedWrongIds, archiveWrong, unarchiveWrong } from "../store";
 import { byId } from "../bank";
 import { el, go, richStem, studyBlock, fmtDateTime } from "../ui";
 import { statusLabel } from "../types";
@@ -14,21 +14,23 @@ function header(title: string): HTMLElement {
 
 export function renderWrongbook({ app }: RouteCtx): void {
   const s = state();
-  const entries = Object.values(s.wrongbook).sort((a, b) => b.lastWrongAt - a.lastWrongAt);
-  const flagged = flaggedQuestionIds()
+  const active = activeWrongIds()
+    .map((id) => s.wrongbook[id])
+    .filter(Boolean)
+    .sort((a, b) => b.lastWrongAt - a.lastWrongAt);
+  const archived = archivedWrongIds()
     .map((id) => byId(id))
     .filter((q): q is Question => !!q);
 
-  const items = entries.map((w) => {
+  const items = active.map((w) => {
     const q = byId(w.questionId) as Question | undefined;
     const no = q ? `第 ${q.originalNumber} 题` : w.questionId;
-    return el("div", { class: `review-item ${w.mastered ? "ok" : "bad"}` }, [
+    return el("div", { class: "review-item bad" }, [
       el("div", { class: "review-head" }, [
         el("span", { class: "q-no" }, [no]),
         q ? el("span", { class: `badge ${q.reviewStatus}` }, [statusLabel(q.reviewStatus)]) : null,
         el("span", { class: "tag bad" }, [`错 ${w.wrongCount} 次`]),
         w.correctAfterWrong > 0 ? el("span", { class: "tag ok" }, [`答对过 ${w.correctAfterWrong} 次`]) : null,
-        w.mastered ? el("span", { class: "tag ok" }, ["已掌握"]) : null,
       ]),
       q
         ? el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)])
@@ -39,9 +41,17 @@ export function renderWrongbook({ app }: RouteCtx): void {
       q ? studyBlock(q) : null,
       el("div", { class: "btn-row" }, [
         el("a", { class: "nav-btn", href: `#/practice/${q ? q.originalNumber : 1}` }, ["重新练习"]),
-        w.mastered
-          ? el("button", { class: "nav-btn ghost", onClick: () => { w.mastered = false; persist(); go("#/wrongbook"); } }, ["取消已掌握"])
-          : el("button", { class: "nav-btn ghost", onClick: () => { w.mastered = true; persist(); go("#/wrongbook"); } }, ["标记已掌握"]),
+        el(
+          "button",
+          {
+            class: "nav-btn ghost",
+            onClick: () => {
+              archiveWrong(w.questionId);
+              go("#/wrongbook");
+            },
+          },
+          ["移出错题（已掌握）"]
+        ),
       ]),
     ]);
   });
@@ -50,26 +60,42 @@ export function renderWrongbook({ app }: RouteCtx): void {
     header("错题复习"),
     el("div", { class: "page" }, [
       el("div", { class: "muted small" }, [
-        "做对一次不会抹掉历史错误；已掌握需手动标记，且不删除错误记录。",
+        "这里只显示当前错题。移出的题会进“曾经错过”，可随时用“还是不会”加回来。",
       ]),
-      entries.length === 0
+      active.length === 0
         ? el("div", { class: "empty" }, ["暂无错题。先去顺序刷题或模拟考吧。"])
-        : el("div", {}, items),
-      el("h2", {}, ["标记不懂"]),
-      flagged.length === 0
-        ? el("div", { class: "empty" }, ["还没有标记的题目。做题时可点“标记不懂”。"])
+        : el("div", {}, [
+            el("button", { class: "primary-btn", onClick: () => go("#/drill/wrong/0") }, [
+              `错题回测（${active.length} 题）`,
+            ]),
+            ...items,
+          ]),
+      el("h2", {}, ["曾经错过"]),
+      archived.length === 0
+        ? el("div", { class: "muted small" }, ["（无）"])
         : el(
             "div",
             {},
-            flagged.map((q) =>
+            archived.map((q) =>
               el("div", { class: "review-item pending" }, [
                 el("div", { class: "review-head" }, [
                   el("span", { class: "q-no" }, [`第 ${q.originalNumber} 题`]),
-                  el("span", { class: "tag pending" }, ["标记不懂"]),
+                  el("span", { class: "tag pending" }, ["曾经错过"]),
                 ]),
                 el("div", { class: "stem small" }, [richStem(q.stem, q.stemImages)]),
                 el("div", { class: "btn-row" }, [
-                  el("a", { class: "nav-btn", href: `#/practice/${q.originalNumber}` }, ["去复习"]),
+                  el("a", { class: "nav-btn", href: `#/practice/${q.originalNumber}` }, ["重做"]),
+                  el(
+                    "button",
+                    {
+                      class: "nav-btn ghost",
+                      onClick: () => {
+                        unarchiveWrong(q.id);
+                        go("#/wrongbook");
+                      },
+                    },
+                    ["还是不会"]
+                  ),
                 ]),
               ])
             )

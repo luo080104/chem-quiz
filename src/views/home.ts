@@ -1,5 +1,5 @@
 import { getBank } from "../bank";
-import { state, practicedQuestionIds, wrongQuestionIds, flaggedQuestionIds } from "../store";
+import { state, practicedQuestionIds, activeWrongIds, flaggedQuestionIds } from "../store";
 import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
 import { APP_VERSION } from "../version";
 import type { RouteCtx } from "../main";
@@ -8,7 +8,7 @@ export function renderHome({ app }: RouteCtx): void {
   const bank = getBank();
   const total = bank.questions.length;
   const practiced = practicedQuestionIds().length;
-  const wrong = wrongQuestionIds().length;
+  const wrong = activeWrongIds().length;
   const exams = state()
     .exams.filter((e) => e.submittedAt)
     .sort((a, b) => (b.submittedAt || 0) - (a.submittedAt || 0));
@@ -78,10 +78,11 @@ export function renderHome({ app }: RouteCtx): void {
   ]);
 
   const statCards = el("div", { class: "cards" }, [
-    statCard("错题数", String(wrong), "历史答错过的不同题目"),
+    statCard("错题数", String(wrong), "当前错题（点下方可复习）"),
     lastExam
-      ? statCard(
-          "最近模拟",
+      ? statCardLink(
+          `#/exam/result/${lastExam.id}`,
+          "最近模拟（点击查看）",
           `${lastExam.correctCount ?? 0} / ${lastExam.total}`,
           `用时 ${fmtDuration(lastExam.elapsedMs)} · ${fmtDateTime(lastExam.submittedAt)}`
         )
@@ -133,6 +134,14 @@ export function renderHome({ app }: RouteCtx): void {
 
 function statCard(label: string, value: string, hint: string): HTMLElement {
   return el("div", { class: "card" }, [
+    el("div", { class: "card-label" }, [label]),
+    el("div", { class: "card-value" }, [value]),
+    el("div", { class: "card-hint muted small" }, [hint]),
+  ]);
+}
+
+function statCardLink(href: string, label: string, value: string, hint: string): HTMLElement {
+  return el("a", { class: "card card-link", href }, [
     el("div", { class: "card-label" }, [label]),
     el("div", { class: "card-value" }, [value]),
     el("div", { class: "card-hint muted small" }, [hint]),

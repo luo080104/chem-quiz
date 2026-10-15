@@ -1,5 +1,13 @@
-import { getBank, topicById, topicQuestions } from "../bank";
-import { state, persist, recordPracticeAnswer, toggleFlag, isFlagged } from "../store";
+import { getBank, byId } from "../bank";
+import {
+  state,
+  persist,
+  recordPracticeAnswer,
+  toggleFlag,
+  isFlagged,
+  activeWrongIds,
+  flaggedQuestionIds,
+} from "../store";
 import {
   el,
   go,
@@ -12,14 +20,26 @@ import {
   sameSet,
   fmtDateTime,
 } from "../ui";
-import { statusLabel, type Question, type TopicMeta } from "../types";
+import { statusLabel, type Question } from "../types";
 import type { RouteCtx } from "../main";
+
+interface DrillCtx {
+  title: string;
+  backHref: string;
+  backLabel: string;
+  basePath: (i: number) => string;
+  emptyHint: string;
+}
 
 function header(title: string, backHref = "#/", backLabel = "← 首页"): HTMLElement {
   return el("header", { class: "topbar" }, [
     el("a", { class: "back", href: backHref }, [backLabel]),
     el("span", { class: "topbar-title" }, [title]),
   ]);
+}
+
+function resolve(ids: string[]): Question[] {
+  return ids.map((id) => byId(id)).filter((q): q is Question => !!q);
 }
 
 export function renderPractice({ app, parts }: RouteCtx): void {
@@ -35,33 +55,50 @@ export function renderPractice({ app, parts }: RouteCtx): void {
   renderPracticeList(app, bank.questions, startIndex, null);
 }
 
-export function renderTopicPractice({ app, parts }: RouteCtx): void {
-  const topicId = parts[1];
-  const topic = topicById(topicId);
-  const list = topicQuestions(topicId);
-  if (!topic || list.length === 0) {
-    app.replaceChildren(header("专题"), el("div", { class: "page" }, ["找不到该专题"]));
-    return;
-  }
+/** Drill only the active wrong questions. */
+export function renderDrillWrong({ app, parts }: RouteCtx): void {
+  const list = resolve(activeWrongIds());
   const idx = parts[2] ? Number(parts[2]) : 0;
-  renderPracticeList(app, list, Math.max(0, Math.min(idx, list.length - 1)), topic);
+  renderPracticeList(app, list, idx, {
+    title: "错题回测",
+    backHref: "#/wrongbook",
+    backLabel: "← 错题复习",
+    basePath: (i) => `#/drill/wrong/${i}`,
+    emptyHint: "错题列表为空，先去做题吧。",
+  });
+}
+
+/** Drill only the active flagged ("标记不懂") questions. */
+export function renderDrillFlag({ app, parts }: RouteCtx): void {
+  const list = resolve(flaggedQuestionIds());
+  const idx = parts[2] ? Number(parts[2]) : 0;
+  renderPracticeList(app, list, idx, {
+    title: "标记不懂回测",
+    backHref: "#/flagged",
+    backLabel: "← 标记不懂",
+    basePath: (i) => `#/drill/flag/${i}`,
+    emptyHint: "还没有标记不懂的题。",
+  });
 }
 
 function renderPracticeList(
   app: HTMLElement,
   list: Question[],
   startIndex: number,
-  topic: TopicMeta | null
+  ctx: DrillCtx | null
 ): void {
   const total = list.length;
   const idx = Math.max(0, Math.min(startIndex, total - 1));
   const question = list[idx];
   if (!question) {
-    app.replaceChildren(header("顺序刷题"), el("div", { class: "page" }, ["题库为空"]));
+    app.replaceChildren(
+      header(ctx ? ctx.title : "顺序刷题", ctx ? ctx.backHref : "#/", ctx ? ctx.backLabel : "← 首页"),
+      el("div", { class: "page" }, [ctx ? ctx.emptyHint : "题库为空"])
+    );
     return;
   }
 
-  if (!topic) {
+  if (!ctx) {
     state().practice.lastIndex = getBank().questions.findIndex((q) => q.id === question.id);
     state().practice.lastQuestionId = question.id;
     state().practice.updatedAt = Date.now();
@@ -210,7 +247,7 @@ function renderPracticeList(
     const nextIdx = idx + delta;
     if (nextIdx < 0 || nextIdx >= total) return;
     leaving = true;
-    if (topic) go(`#/topic/${topic.id}/${nextIdx}`);
+    if (ctx) go(ctx.basePath(nextIdx));
     else go(`#/practice/${list[nextIdx].originalNumber}`);
   }
 
@@ -255,7 +292,7 @@ function renderPracticeList(
     ["跳转"]
   );
 
-  const chapterJump = topic
+  const chapterJump = ctx
     ? null
     : el(
         "div",
@@ -271,12 +308,16 @@ function renderPracticeList(
       );
 
   app.replaceChildren(
-    header(topic ? topic.title : "顺序刷题", topic ? `#/topic/${topic.id}` : "#/", topic ? "← 专题" : "← 首页"),
+    header(
+      ctx ? ctx.title : "顺序刷题",
+      ctx ? ctx.backHref : "#/",
+      ctx ? ctx.backLabel : "← 首页"
+    ),
     el("div", { class: "page" }, [
       el("div", { class: "qmeta" }, [
         el("span", { class: "q-no" }, [`第 ${idx + 1} / ${total} 题`]),
         el("span", { class: "badge neutral" }, [
-          topic ? "专题" : String(question.label || "").replace("chapter", "Ch."),
+          ctx ? ctx.title : String(question.label || "").replace("chapter", "Ch."),
         ]),
         el("span", { class: `badge ${question.reviewStatus}` }, [statusLabel(question.reviewStatus)]),
       ]),
@@ -288,11 +329,11 @@ function renderPracticeList(
       el("div", { class: "practice-controls" }, [submitBtn]),
       resultBox,
       navEl,
-      topic ? null : el("div", { class: "jump" }, [el("span", { class: "muted small" }, ["题号跳转："]), jumpInput, jumpBtn]),
+      ctx ? null : el("div", { class: "jump" }, [el("span", { class: "muted small" }, ["题号跳转："]), jumpInput, jumpBtn]),
       chapterJump,
       el("div", { class: "muted small" }, [
-        topic
-          ? "本页为论文相关专题；进度仍按“至少提交过一次的不同题目数”统计。"
+        ctx
+          ? "回测中的每题都可提交、看解析、并可“标记不懂”。"
           : `上次练习：${fmtDateTime(state().practice.updatedAt)}（进度按已提交的不同题数计算）`,
       ]),
     ])

@@ -2,7 +2,7 @@ import "./styles.css";
 import { loadBank, bindBankVersion } from "./bank";
 import { el } from "./ui";
 import { renderHome } from "./views/home";
-import { renderPractice } from "./views/practice";
+import { renderPractice, renderDrillWrong, renderDrillFlag } from "./views/practice";
 import { renderExam, renderExamResult } from "./views/exam";
 import { renderWrongbook } from "./views/wrongbook";
 import { renderStats } from "./views/stats";
@@ -34,6 +34,8 @@ type View = (ctx: RouteCtx) => void | Promise<void>;
 const routes: Array<[RegExp, View]> = [
   [/^$/, (c) => renderHome(c)],
   [/^practice(?:\/(\d+))?$/, (c) => renderPractice(c)],
+  [/^drill\/wrong\/(\d+)$/, (c) => renderDrillWrong(c)],
+  [/^drill\/flag\/(\d+)$/, (c) => renderDrillFlag(c)],
   [/^exam$/, (c) => renderExam(c)],
   [/^exam\/result\/(.+)$/, (c) => renderExamResult(c)],
   [/^wrongbook$/, (c) => renderWrongbook(c)],

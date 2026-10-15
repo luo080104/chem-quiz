@@ -106,12 +106,12 @@ export function renderHome({ app }: RouteCtx): void {
       ...chapterRows,
       statCards,
       el("nav", { class: "grid-links" }, [
-        link("#/wrongbook", "错题复习", String(wrong) + " 题"),
-        link("#/flagged", "标记不懂汇总", `${flagged} 题`),
-        link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`),
-        link("#/stats", "成绩与用时", `${exams.length} 次模拟`),
-        link("#/rules", "规则与关于", `v${APP_VERSION}`),
-        link("#/data", "学习记录备份", "导出 / 导入"),
+        link("#/wrongbook", "错题复习", String(wrong) + " 题", "wrong"),
+        link("#/flagged", "标记不懂汇总", `${flagged} 题`, "flag"),
+        link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`, "glossary"),
+        link("#/stats", "成绩与用时", `${exams.length} 次模拟`, "stats"),
+        link("#/rules", "规则与关于", `v${APP_VERSION}`, "info"),
+        link("#/data", "学习记录备份", "导出 / 导入", "save"),
       ]),
       el("footer", { class: "foot" }, [
         el("div", {}, [`题库：${bank.meta.title}（${bank.meta.bankId} v${bank.meta.version}）`]),
@@ -131,6 +131,23 @@ function statCard(label: string, value: string, hint: string): HTMLElement {
   ]);
 }
 
+const ICONS: Record<string, string> = {
+  seq: '<svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="3" width="2" height="2"/><rect x="6" y="3" width="8" height="2"/><rect x="2" y="7" width="2" height="2"/><rect x="6" y="7" width="8" height="2"/><rect x="2" y="11" width="2" height="2"/><rect x="6" y="11" width="8" height="2"/></svg>',
+  exam: '<svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="2"/><rect x="3" y="3" width="10" height="1"/><rect x="2" y="4" width="1" height="8"/><rect x="13" y="4" width="1" height="8"/><rect x="3" y="12" width="10" height="1"/><rect x="7" y="5" width="1" height="4"/><rect x="8" y="8" width="3" height="1"/></svg>',
+  wrong: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><g transform="rotate(45 8 8)"><rect x="7" y="2" width="2" height="12"/><rect x="2" y="7" width="12" height="2"/></g></svg>',
+  flag: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="3" y="2" width="1" height="12"/><rect x="4" y="3" width="8" height="2"/><rect x="4" y="5" width="6" height="2"/><rect x="4" y="7" width="4" height="2"/></svg>',
+  glossary: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="2" width="1" height="12"/><rect x="3" y="2" width="10" height="1"/><rect x="3" y="13" width="10" height="1"/><rect x="12" y="2" width="1" height="12"/><rect x="5" y="5" width="6" height="1"/><rect x="5" y="8" width="6" height="1"/></svg>',
+  stats: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="9" width="3" height="5"/><rect x="6" y="5" width="3" height="9"/><rect x="10" y="2" width="3" height="12"/></svg>',
+  info: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="2" width="2" height="2"/><rect x="7" y="6" width="2" height="7"/></svg>',
+  save: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="7"/><rect x="4" y="5" width="2" height="2"/><rect x="10" y="5" width="2" height="2"/><rect x="6" y="7" width="4" height="2"/><rect x="3" y="12" width="10" height="2"/></svg>',
+};
+
+function iconSpan(name: string, cls: string): HTMLSpanElement {
+  const s = el("span", { class: cls });
+  s.innerHTML = ICONS[name] || "";
+  return s;
+}
+
 function statCardLink(href: string, label: string, value: string, hint: string): HTMLElement {
   return el("a", { class: "card card-link", href }, [
     el("div", { class: "card-label" }, [label]),
@@ -143,12 +160,17 @@ function bigButton(title: string, sub: string, kind: string, onclick: () => void
   return el(
     "button",
     { class: `big-btn ${kind}`, onClick: onclick },
-    [el("span", { class: "big-title" }, [title]), el("span", { class: "big-sub" }, [sub])]
+    [
+      iconSpan(kind, "big-ico"),
+      el("span", { class: "big-title" }, [title]),
+      el("span", { class: "big-sub" }, [sub]),
+    ]
   );
 }
 
-function link(href: string, title: string, sub: string): HTMLElement {
+function link(href: string, title: string, sub: string, icon: string): HTMLElement {
   return el("a", { class: "tile", href }, [
+    iconSpan(icon, "tile-ico"),
     el("span", { class: "tile-title" }, [title]),
     el("span", { class: "tile-sub muted small" }, [sub]),
   ]);

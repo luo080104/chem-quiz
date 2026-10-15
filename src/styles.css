@@ -20,6 +20,12 @@
   --safe: env(safe-area-inset-bottom, 0px);
 }
 
+@font-face {
+  font-family: "PixelTitle";
+  src: url("./assets/fonts/press-start-2p.woff2") format("woff2");
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
@@ -30,10 +36,9 @@ body {
   margin: 0;
   padding: 0;
   color: var(--ink);
-  font-family: "Share Tech Mono", "Consolas", "Lucida Console", "Courier New",
-    ui-monospace, monospace;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: "Consolas", "Lucida Console", "Courier New", ui-monospace, monospace;
+  font-size: 17px;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.3px;
 }
@@ -72,6 +77,20 @@ body::before {
   padding: 14px 14px calc(30px + var(--safe));
 }
 
+/* pixel display: titles + numbers */
+.hero h1,
+h2,
+.topbar-title,
+.big-title,
+.card-value,
+.score-num,
+.timer,
+.score-score,
+.nav-pos,
+.q-no {
+  font-family: "PixelTitle", "Consolas", monospace;
+}
+
 .loading,
 .fatal {
   padding: 48px 22px;
@@ -100,8 +119,8 @@ h2 {
 }
 .hero h1 {
   margin: 0;
-  font-size: 24px;
-  letter-spacing: 4px;
+  font-size: 27px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #eafcff;
   text-shadow: 0 0 10px rgba(34, 211, 238, 0.7), 0 0 2px rgba(244, 114, 182, 0.5);
@@ -195,9 +214,9 @@ h2 {
   box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.35), 0 0 14px rgba(244, 114, 182, 0.18);
 }
 .big-title {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #eafcff;
 }
@@ -273,7 +292,7 @@ h2 {
   letter-spacing: 1px;
 }
 .card-value {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin: 3px 0;
   color: #eafcff;
@@ -305,15 +324,24 @@ h2 {
 .tile:active {
   transform: translateY(1px);
 }
-.tile::before {
-  content: "";
-  position: absolute;
-  right: 12px;
-  top: 14px;
-  width: 8px;
-  height: 8px;
-  background: var(--neon);
-  box-shadow: 0 0 8px var(--neon);
+.tile-ico {
+  display: block;
+  line-height: 0;
+  margin-bottom: 5px;
+  color: var(--neon);
+}
+.tile-ico svg {
+  filter: drop-shadow(0 0 6px rgba(34, 211, 238, 0.6));
+}
+.big-ico {
+  display: block;
+  line-height: 0;
+  margin-bottom: 4px;
+  color: #eafcff;
+  opacity: 0.95;
+}
+.big-btn.exam .big-ico {
+  color: #ffd9f1;
 }
 .tile-title {
   font-weight: 700;
@@ -374,7 +402,7 @@ h2 {
   border-left: 3px solid var(--neon);
   border-radius: var(--radius);
   padding: 17px 15px;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.8;
   margin: 12px 0;
 }
@@ -424,7 +452,7 @@ sup {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 14px 15px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   color: var(--ink);
   cursor: pointer;
@@ -725,7 +753,7 @@ sup {
   letter-spacing: 1px;
 }
 .timer {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   color: var(--ok);
@@ -835,7 +863,7 @@ sup {
   margin: 12px 0;
 }
 .score-num {
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 700;
   color: var(--neon);
   text-shadow: 0 0 14px rgba(34, 211, 238, 0.6);

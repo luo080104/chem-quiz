@@ -5,7 +5,6 @@ import {
   emptyState,
   recordPracticeAnswer,
   practicedQuestionIds,
-  wrongQuestionIds,
   state,
   persist,
   importBackup,
@@ -62,7 +61,7 @@ mem.clear();
 const st = emptyState();
 assert(practicedQuestionIds().length === 0, "initial practiced 0");
 recordPracticeAnswer("CHEM-005", ["A"], false);
-assert(wrongQuestionIds().includes("CHEM-005"), "wrong enters wrongbook");
+assert(Object.keys(state().wrongbook).includes("CHEM-005"), "wrong enters wrongbook");
 recordPracticeAnswer("CHEM-005", ["B"], true);
 const wb = state().wrongbook["CHEM-005"];
 assert(wb.wrongCount === 1, "old wrong count retained");
@@ -73,7 +72,7 @@ void st;
 
 // 4. unscored (pending) answers do not enter wrongbook
 recordPracticeAnswer("CHEM-063", ["A"], null);
-assert(!wrongQuestionIds().includes("CHEM-063"), "pending answer not counted wrong");
+assert(!Object.keys(state().wrongbook).includes("CHEM-063"), "pending answer not counted wrong");
 recordPracticeAnswer("CHEM-063", [], null);
 ok("unscored/pending answer not written to wrongbook");
 
@@ -84,7 +83,7 @@ state(); // force re-init from empty storage
 const r = importBackup(backup);
 assert(r.ok, "import ok");
 assert(practicedQuestionIds().length >= 1, "history restored after import");
-assert(wrongQuestionIds().includes("CHEM-005"), "wrongbook restored");
+assert(Object.keys(state().wrongbook).includes("CHEM-005"), "wrongbook restored");
 ok("export/import round-trip");
 
 // 6. seed reproducibility of the actual random generator

@@ -1,0 +1,266 @@
+备份时间: 2026-10-26T14:21:52.263Z
+提交过的模拟: 12 次
+成绩: 88/100, 89/100, 93/100, 96/100, 95/100, 100/100, 98/100, 97/100, 99/100, 98/100, 100/100, 99/100
+
+每章概况:
+  Ch.1a: 练过 100/100 题，正确率 86% (89/103)，模拟错 10 次
+  Ch.1b: 练过 100/100 题，正确率 66% (75/113)，模拟错 31 次
+  Ch.1c: 练过 50/50 题，正确率 63% (39/62)，模拟错 7 次
+
+从未练过: 0 题
+只练过 1 次: 224 题
+从未答对: 49 题
+模拟错过的不同题: 42 题
+标记不懂: 57 题
+
+突击清单（优先级排序，共 250 题）:
+  1. Ch.1b-45  [模拟错 2 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  ClF3 has "T-shaped" geometry. There is/are ________ non-bonding domain
+  2. Ch.1a-45  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Iron and chlorine form an ionic compound whose formula is FeCl3. The n
+  3. Ch.1b-28  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The molecular geometry consists of ________. a) a nonbonding pair of e
+  4. Ch.1b-29  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  A molecule has the formula AB3 and the central atom is in a different 
+  5. Ch.1b-40  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Based on molecular orbital theory, there is/are ________ unpaired elec
+  6. Ch.1b-78  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which statement about steel is false?
+  7. Ch.1b-93  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which property of metals cannot be explained with the electron-sea mod
+  8. Ch.1b-94  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  NaCl crystallizes in a face-centered cubic cell. What is the total num
+  9. Ch.1b-98  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  An elastomer will fail to regain its original dimensions following a d
+ 10. Ch.1c-6  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which one of the following is an endothermic process?
+ 11. Ch.1c-8  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which of the following is a statement of the first law of thermodynami
+ 12. Ch.1b-88  [模拟错 1 次 / 错题本(未订正) / 标记不懂 / 从未答对]  The ________ lattice is one of the seven primitive three-dimensional l
+ 13. Ch.1b-69  [模拟错 1 次 / 错题本(未订正) / 从未答对 / 只练过1次]  Of the following, ________ is the least volatile.
+ 14. Ch.1b-50  [模拟错 2 次 / 错题本(错过1次) / 标记不懂]  Using the VSEPR model, the electron-domain geometry of the central ato
+ 15. Ch.1a-89  [模拟错 1 次 / 错题本(错过1次) / 标记不懂]  Of the following elements, ________ has the most negative electron aff
+ 16. Ch.1b-96  [模拟错 1 次 / 错题本(错过1次) / 标记不懂]  CsCl crystallizes in a unit cell that contains the Cs+ ion at the cent
+ 17. Ch.1a-92  [模拟错 2 次 / 标记不懂 / 只练过1次]  Sodium is much more apt to exist as a cation than is chlorine. This is
+ 18. Ch.1a-51  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Of the following, ________ radiation has the shortest wavelength.
+ 19. Ch.1a-53  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which one of the quantum numbers does not result from the solution of 
+ 20. Ch.1a-55  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  All of the orbitals in a given electron shell have the same value as t
+ 21. Ch.1a-57  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which one of the following orbitals can hold two electrons?
+ 22. Ch.1a-84  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Of the compounds below, ________ has the smallest ionic separation.
+ 23. Ch.1a-90  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Of the following species, ________ has the largest radius.
+ 24. Ch.1a-98  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The first ionization energies of the elements ________ as you go from 
+ 25. Ch.1b-6  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  In the nitrite ion (NO2), ________.
+ 26. Ch.1b-8  [模拟错 1 次 / 标记不懂 / 只练过1次]  The Lewis structure of the CO32- ion is ________.
+ 27. Ch.1b-21  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  There are ________ unpaired electrons in the Lewis symbol for an oxyge
+ 28. Ch.1b-22  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The oxide of which of the following metals should have the greatest la
+ 29. Ch.1b-27  [模拟错 1 次 / 标记不懂 / 只练过1次]  An electron domain consists of ________. a) a nonbonding pair of elect
+ 30. Ch.1b-39  [模拟错 1 次 / 标记不懂 / 只练过1次]  In comparing the same two atoms bonded together, the ________ the bond
+ 31. Ch.1b-48  [模拟错 1 次 / 标记不懂 / 只练过1次]  The central atom in the O3 molecule has ________ nonbonded electron pa
+ 32. Ch.1b-67  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  What is the predominant intermolecular force in HCN?
+ 33. Ch.1b-71  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which of the following is not a type of solid?
+ 34. Ch.1b-74  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  What fraction of the volume of each corner atom is actually within the
+ 35. Ch.1b-89  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which of the following is not an alloy?
+ 36. Ch.1b-91  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The correct abbreviation for the polymer low-density polyethylene is _
+ 37. Ch.1b-97  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Inorganic compounds that are semiconductors have an average of _______
+ 38. Ch.1b-99  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The formation of a condensation polymer generally involves ________.
+ 39. Ch.1b-100  [模拟错 1 次 / 标记不懂 / 只练过1次]  The properties of graphene include ________.
+ 40. Ch.1c-1  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Objects can possess energy as ________. (a) endothermic energy (b) pot
+ 41. Ch.1c-16  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  With reference to enthalpy changes, the term standard conditions means
+ 42. Ch.1c-17  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The ΔE of a system that releases 12.4 J of heat and does 4.2 J of work
+ 43. Ch.1c-27  [模拟错 1 次 / 标记不懂 / 只练过1次]  A reaction that is spontaneous as written ________.
+ 44. Ch.1c-31  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The thermodynamic quantity that expresses the extent of randomness in 
+ 45. Ch.1c-34  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which one of the following processes produces a decrease of the entrop
+ 46. Ch.1c-35  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Consider a pure crystalline solid that is heated from absolute zero to
+ 47. Ch.1c-42  [模拟错 2 次 / 标记不懂]  A reaction that is not spontaneous at low temperature can become spont
+ 48. Ch.1c-45  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Which one of the following statements is true about the equilibrium co
+ 49. Ch.1c-48  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  The standard Gibbs free energy of formation of ________ is zero. (a) H
+ 50. Ch.1c-49  [错题本(未订正) / 标记不懂 / 从未答对 / 只练过1次]  Given the thermodynamic data in the table below, calculate the equilib
+ 51. Ch.1b-42  [模拟错 3 次 / 只练过1次]  The molecular geometry of the CHCl3 molecule is ________.
+ 52. Ch.1b-81  [模拟错 1 次 / 错题本(错过1次)]  Metallic solids do not exhibit ________.
+ 53. Ch.1c-28  [模拟错 1 次 / 错题本(错过1次)]  When a system is at equilibrium, ________.
+ 54. Ch.1c-43  [模拟错 1 次 / 错题本(错过1次)]  Given the following table of thermodynamic data,  complete the follow
+ 55. Ch.1a-5  [模拟错 1 次 / 只练过1次]  Gases and liquids share the property of ________.
+ 56. Ch.1a-6  [错题本(未订正) / 从未答对 / 只练过1次]  Of the following, only ________ is a chemical reaction.
+ 57. Ch.1a-21  [错题本(未订正) / 从未答对 / 只练过1次]  Consider the following selected postulates of Dalton's atomic theory: 
+ 58. Ch.1a-25  [模拟错 1 次 / 只练过1次]  The nucleus of an atom does not contain ________.
+ 59. Ch.1a-26  [错题本(未订正) / 从未答对 / 只练过1次]  The subatomic particles located in the nucleus with no overall charges
+ 60. Ch.1a-74  [模拟错 1 次 / 只练过1次]  Atomic radius generally increases as we move ________.
+ 61. Ch.1a-80  [模拟错 1 次 / 只练过1次]  Of the following elements, ________ has the most negative electron aff
+ 62. Ch.1a-83  [模拟错 1 次 / 只练过1次]  Of the elements below, ________ is the most metallic.
+ 63. Ch.1a-88  [模拟错 1 次 / 只练过1次]  Which of the following correctly represents the third ionization of al
+ 64. Ch.1b-2  [模拟错 1 次 / 只练过1次]  Which of the following does not have eight valence electrons?
+ 65. Ch.1b-11  [模拟错 1 次 / 只练过1次]  As the number of covalent bonds between two atoms increases, the dista
+ 66. Ch.1b-31  [错题本(未订正) / 从未答对 / 只练过1次]  For molecules with only one central atom, how many lone pairs on the c
+ 67. Ch.1b-53  [错题本(未订正) / 从未答对 / 只练过1次]  A gas is ________ and assumes ________ of its container, whereas a liq
+ 68. Ch.1b-57  [模拟错 1 次 / 只练过1次]  What intermolecular force is responsible for the fact that ice is less
+ 69. Ch.1b-58  [模拟错 1 次 / 只练过1次]  Which statements about viscosity are true? (i) Viscosity increases as 
+ 70. Ch.1b-63  [模拟错 1 次 / 只练过1次]  In general, the vapor pressure of a substance increases as ________ in
+ 71. Ch.1b-73  [模拟错 1 次 / 只练过1次]  The unit cell with all sides the same length and all angles equal to 9
+ 72. Ch.1b-79  [错题本(未订正) / 从未答对 / 只练过1次]  What is the typical effect of the addition of an interstitial element 
+ 73. Ch.1b-92  [模拟错 1 次 / 只练过1次]  Which element is typically not added to steel to modify its properties
+ 74. Ch.1b-95  [错题本(未订正) / 从未答对 / 只练过1次]  An ionic solid, NaCl (s), dissolves in water because of the ________.
+ 75. Ch.1c-30  [错题本(未订正) / 从未答对 / 只练过1次]  Which of the following statements is true?
+ 76. Ch.1b-75  [模拟错 1 次]  What portion of the volume of each atom or ion on the face of a unit c
+ 77. Ch.1b-82  [错题本(未订正) / 从未答对]  Which of the following is not a natural polymer?
+ 78. Ch.1b-49  [标记不懂 / 从未答对 / 只练过1次]  According to VSEPR theory, if there are three electron domains in the 
+ 79. Ch.1b-47  [错题本(错过2次) / 标记不懂]  The central atom in the ICl4- ion has ________ nonbonded electron pair
+ 80. Ch.1a-44  [标记不懂 / 只练过1次]  The correct name for H2SO4 is ________.
+ 81. Ch.1a-46  [标记不懂 / 只练过1次]  Copper and chlorine form an ionic compound whose formula is CuCl2. The
+ 82. Ch.1a-62  [标记不懂 / 只练过1次]  The lowest orbital energy is reached when the number of electrons with
+ 83. Ch.1b-26  [标记不懂 / 只练过1次]  The basis of the VSEPR model of molecular bonding is ________.
+ 84. Ch.1b-87  [标记不懂 / 只练过1次]  The ________ lattice is one of the five two-dimensional lattices in wh
+ 85. Ch.1c-44  [标记不懂 / 只练过1次]  With thermodynamics, one cannot determine ________.
+ 86. Ch.1a-34  [错题本(错过1次)]  Which group in the periodic table contains only nonmetals?
+ 87. Ch.1a-64  [错题本(错过1次)]  The ________ quantum number defines the shape of an orbital.
+ 88. Ch.1b-36  [错题本(错过1次)]  A typical double bond ________.
+ 89. Ch.1b-43  [错题本(错过1次)]  The O-S-O bond angle in SO2 is slightly less than ________.
+ 90. Ch.1b-60  [错题本(错过1次)]  Large intermolecular forces in a substance are manifested by ________.
+ 91. Ch.1b-70  [错题本(错过1次)]  A solid has a very high melting point, great hardness, and poor electr
+ 92. Ch.1b-76  [错题本(错过1次)]  An alloy is a
+ 93. Ch.1c-4  [错题本(错过1次)]  Which one of the following conditions would always result in an increa
+ 94. Ch.1c-10  [错题本(错过1次)]  ΔH for an endothermic process is ________ while ΔH for an exothermic p
+ 95. Ch.1c-14  [错题本(错过2次)]  Which of the following is a statement of Hess's law?
+ 96. Ch.1c-21  [错题本(错过1次)]  Given the following reactions N2 (g) + 2O2 (g) → 2NO2 (g) ΔH = 66.4 kJ
+ 97. Ch.1c-22  [错题本(错过1次)]  The value of ΔH° for the following reaction is -3351 kJ: 2Al (s) + 3O2
+ 98. Ch.1c-25  [错题本(错过1次)]  The temperature of a 24.3 g sample of gold increases from 23.7 °C to 3
+ 99. Ch.1c-32  [错题本(错过1次)]  The entropy of the universe is ________.
+100. Ch.1c-50  [错题本(错过1次)]  For a given reaction, ΔH = +22.2 kJ/mol and ΔS = +81.1 J/K-mol. The re
+101. Ch.1a-1  [只练过1次]  A combination of sand, salt, and water is an example of a ________.
+102. Ch.1a-2  [只练过1次]  A small amount of salt dissolved in water is an example of a ________.
+103. Ch.1a-3  [只练过1次]  Which one of the following has the element name and symbol correctly m
+104. Ch.1a-4  [只练过1次]  In the following list, only ________ is not an example of a chemical r
+105. Ch.1a-7  [只练过1次]  In the following list, only ________ is not an example of a chemical r
+106. Ch.1a-8  [只练过1次]  Which of the following is (are) the lowest temperature?
+107. Ch.1a-9  [只练过1次]  Which calculation clearly shows a conversion between temperatures in d
+108. Ch.1a-10  [只练过1次]  Accuracy refers to ________.
+109. Ch.1a-11  [只练过1次]  ________ is the chemical symbol for elemental sodium.
+110. Ch.1a-12  [只练过1次]  The SI unit for mass is ________.
+111. Ch.1a-13  [只练过1次]  A one degree of temperature difference is the smallest on the ________
+112. Ch.1a-14  [只练过1次]  A common English set of units for expressing velocity is miles/hour. T
+113. Ch.1a-15  [只练过1次]  The freezing point of water at 1 atm pressure is ________.
+114. Ch.1a-16  [只练过1次]  "Absolute zero" refers to ________.
+115. Ch.1a-17  [只练过1次]  The symbol for the element phosphorus is ________.
+116. Ch.1a-18  [只练过1次]  The element hydrogen has the symbol ________.
+117. Ch.1a-19  [只练过1次]  Which one of the following is a pure substance?
+118. Ch.1a-20  [只练过1次]  The symbol for the element sodium is ________.
+119. Ch.1a-22  [只练过1次]  Of the following, the smallest and lightest subatomic particle is the 
+120. Ch.1a-23  [只练过1次]  All atoms of a given element have the same ________.
+121. Ch.1a-24  [只练过1次]  There are ________ electrons, ________ protons, and ________ neutrons 
+122. Ch.1a-27  [只练过1次]  The atomic mass unit is presently based on assigning an exact integral
+123. Ch.1a-28  [只练过1次]  In the periodic table, the elements are arranged in ________.
+124. Ch.1a-29  [只练过1次]  Elements ________ exhibit similar physical and chemical properties.
+125. Ch.1a-30  [只练过1次]  The elements in groups 1A, 6A, and 7A are called ________, respectivel
+126. Ch.1a-31  [只练过1次]  Elements in the same group of the periodic table typically have ______
+127. Ch.1a-32  [只练过1次]  Of the choices below, which one is not an ionic compound?
+128. Ch.1a-33  [只练过1次]  Which one of the following compounds is copper(I) chloride?
+129. Ch.1a-35  [只练过1次]  Horizontal rows of the periodic table are known as ________.
+130. Ch.1a-36  [只练过1次]  Vertical columns of the periodic table are known as ________.
+131. Ch.1a-37  [只练过1次]  Elements in Group 8A are known as the ________.
+132. Ch.1a-38  [只练过1次]  Potassium is a ________ and chlorine is a ________.
+133. Ch.1a-39  [只练过1次]  Oxygen is a ________ and nitrogen is a ________.
+134. Ch.1a-40  [只练过1次]  The charge on the manganese in the salt MnF3 is ________.
+135. Ch.1a-41  [只练过1次]  Calcium forms an ion with a charge of ________.
+136. Ch.1a-42  [只练过1次]  Oxygen forms an ion with a charge of ________.
+137. Ch.1a-43  [只练过1次]  The correct name for Al2O3 is ________.
+138. Ch.1a-47  [只练过1次]  Of the following, the subatomic particle with the smallest mass is the
+139. Ch.1a-48  [只练过1次]  200 pm is the same as ________ Å.
+140. Ch.1a-49  [只练过1次]  The charge on the copper ion in the salt CuO is ________.
+141. Ch.1a-50  [只练过1次]  The charge on the silver ion in the salt AgCl is ________.
+142. Ch.1a-52  [只练过1次]  According to the Heisenberg Uncertainty Principle, it is impossible to
+143. Ch.1a-54  [只练过1次]  The photoelectric effect is ________.
+144. Ch.1a-56  [只练过1次]  The uncertainty principle states that ________.
+145. Ch.1a-58  [只练过1次]  Which of the subshells below do not exist due to the constraints upon 
+146. Ch.1a-59  [只练过1次]  An electron cannot have the quantum numbers n = ________, l = ________
+147. Ch.1a-60  [只练过1次]  Which one of the following is an incorrect subshell notation?
+148. Ch.1a-61  [只练过1次]  Which of the following is not a valid set of four quantum numbers? (n,
+149. Ch.1a-63  [只练过1次]  Which electron configuration represents a violation of the Pauli exclu
+150. Ch.1a-65  [只练过1次]  The n = 1 shell contains ________ p orbitals. All the other shells con
+151. Ch.1a-66  [只练过1次]  There are ________ orbitals in the second shell.
+152. Ch.1a-67  [只练过1次]  ________-orbitals are spherically symmetrical.
+153. Ch.1a-68  [只练过1次]  How many quantum numbers are necessary to designate a particular elect
+154. Ch.1a-69  [只练过1次]  Which one of the following represents an acceptable set of quantum num
+155. Ch.1a-70  [只练过1次]  What wavelengths correspond to the visible region of the electromagnet
+156. Ch.1a-71  [只练过1次]  In which set of elements would all members be expected to have very si
+157. Ch.1a-72  [只练过1次]  In which set of elements would all members be expected to have very si
+158. Ch.1a-73  [只练过1次]  The effective nuclear charge of an atom is primarily affected by _____
+159. Ch.1a-75  [只练过1次]  Of the following, which gives the correct order for atomic radius for 
+160. Ch.1a-76  [只练过1次]  Which isoelectronic series is correctly arranged in order of increasin
+161. Ch.1a-77  [只练过1次]  Of the choices below, which gives the order for first ionization energ
+162. Ch.1a-78  [只练过1次]  Which equation correctly represents the first ionization of calcium?
+163. Ch.1a-79  [只练过1次]  Which of the following correctly represents the second ionization of c
+164. Ch.1a-81  [只练过1次]  Which equation correctly represents the electron affinity of calcium?
+165. Ch.1a-82  [只练过1次]  In the generation of most anions, the energy change (kJ/mol) that ____
+166. Ch.1a-85  [只练过1次]  Which ion below has the largest radius?
+167. Ch.1a-86  [只练过1次]  ________ have the lowest first ionization energies of the groups liste
+168. Ch.1a-87  [只练过1次]  Which of the following correctly represents the second ionization of p
+169. Ch.1a-91  [只练过1次]  Which of the following correctly represents the electron affinity of p
+170. Ch.1a-93  [只练过1次]  Of the elements below, ________ has the highest melting point.
+171. Ch.1a-94  [只练过1次]  Of the following oxides, ________ is the most acidic.
+172. Ch.1a-95  [只练过1次]  Which of the following is not a characteristic of metals?
+173. Ch.1a-96  [只练过1次]  The element in the periodic table that looks like a metal, is a poor t
+174. Ch.1a-97  [只练过1次]  Metals can be ________ at room temperature.
+175. Ch.1a-99  [只练过1次]  In general, as you go across a period in the periodic table from left 
+176. Ch.1a-100  [只练过1次]  Most of the elements on the periodic table are ________.
+177. Ch.1b-1  [只练过1次]  Which of the following has eight valence electrons?
+178. Ch.1b-3  [只练过1次]  Lattice energy is ________.
+179. Ch.1b-4  [只练过1次]  In ionic bond formation, the lattice energy of ions ________ as the ma
+180. Ch.1b-5  [只练过1次]  The ability of an atom in a molecule to attract electrons is best quan
+181. Ch.1b-7  [只练过1次]  The oxidation number of iron in Fe2O3 is ________.
+182. Ch.1b-9  [只练过1次]  Bond enthalpy is ________.
+183. Ch.1b-10  [只练过1次]  Of the bonds C-C, C=C, and C≡C, the C-C bond is ________.
+184. Ch.1b-12  [只练过1次]  Based on the octet rule, magnesium most likely forms a ________ ion.
+185. Ch.1b-13  [只练过1次]  Based on the octet rule, aluminum most likely forms an ________ ion.
+186. Ch.1b-14  [只练过1次]  For a given arrangement of ions, the lattice energy increases as ionic
+187. Ch.1b-15  [只练过1次]  Elements from opposite sides of the periodic table tend to form ______
+188. Ch.1b-16  [只练过1次]  A ________ covalent bond between the same two atoms is the longest.
+189. Ch.1b-17  [只练过1次]  A double bond consists of ________ pairs of electrons shared between t
+190. Ch.1b-18  [只练过1次]  What is the maximum number of double bonds that a hydrogen atom can fo
+191. Ch.1b-19  [只练过1次]  Electronegativity ________ from left to right within a period and ____
+192. Ch.1b-20  [只练过1次]  The formal charge on carbon in the molecule below is ________. 
+193. Ch.1b-23  [只练过1次]  How many single covalent bonds must a chlorine atom form to have a com
+194. Ch.1b-24  [只练过1次]  Of the atoms below, ________ is the most electronegative.
+195. Ch.1b-25  [只练过1次]  The oxidation number of phosphorus in PF5 is ________.
+196. Ch.1b-30  [只练过1次]  The molecular geometry of the PF3 molecule is ________, and this molec
+197. Ch.1b-32  [只练过1次]  The sp2 atomic hybrid orbital set accommodates ________ electron domai
+198. Ch.1b-33  [只练过1次]  The hybridization scheme for BeF2 is ________.
+199. Ch.1b-34  [只练过1次]  When four atomic orbitals are mixed to form hybrid orbitals, how many 
+200. Ch.1b-35  [只练过1次]  Valence bond theory does not address the issue of ________.
+201. Ch.1b-37  [只练过1次]  Electrons in ________ bonds remain localized between two atoms. Electr
+202. Ch.1b-38  [只练过1次]  The bond order of any molecule containing equal numbers of bonding and
+203. Ch.1b-41  [只练过1次]  For a molecule with the formula AB2, the molecular shape is ________.
+204. Ch.1b-44  [只练过1次]  The hybridization of orbitals on the central atom in a molecule is sp.
+205. Ch.1b-46  [只练过1次]  The H-C-H bond angle in the CH4 ion is approximately ________.
+206. Ch.1b-51  [只练过1次]  Crystalline solids ________.
+207. Ch.1b-52  [只练过1次]  In liquids, the attractive intermolecular forces are ________.
+208. Ch.1b-54  [只练过1次]  Which statement is true about liquids but not true about solids?
+209. Ch.1b-55  [只练过1次]  The ease with which the charge distribution in a molecule can be disto
+210. Ch.1b-56  [只练过1次]  Hydrogen bonding is a special case of ________.
+211. Ch.1b-59  [只练过1次]  Viscosity is ________.
+212. Ch.1b-61  [只练过1次]  Of the following, ________ is an exothermic process.
+213. Ch.1b-62  [只练过1次]  A volatile liquid is one that ________.
+214. Ch.1b-64  [只练过1次]  Volatility and vapor pressure are ________.
+215. Ch.1b-65  [只练过1次]  Which one of the following should have the lowest boiling point?
+216. Ch.1b-66  [只练过1次]  Of the following substances, ________ has the highest boiling point.
+217. Ch.1b-68  [只练过1次]  Ethanol melts at -114 °C and boils at 78 °C at a constant pressure of 
+218. Ch.1b-72  [只练过1次]  Crystalline solids differ from amorphous solids in that crystalline so
+219. Ch.1b-77  [只练过1次]  Which one of the following is a property of most metals?
+220. Ch.1b-80  [只练过1次]  Alloys generally differ from compounds in that
+221. Ch.1b-83  [只练过1次]  As a polymer becomes more crystalline, ________.
+222. Ch.1b-84  [只练过1次]  ________ solids consist of atoms or molecules held together by dipole-
+223. Ch.1b-85  [只练过1次]  Blue LEDs are usually made of ________.
+224. Ch.1b-86  [只练过1次]  CsCl crystallizes in a unit cell that contains a Cs+ ion at the center
+225. Ch.1b-90  [只练过1次]  Of the following, only ________ is not a polymer.
+226. Ch.1c-2  [只练过1次]  The internal energy of a system is always increased by ________.
+227. Ch.1c-3  [只练过1次]  The internal energy of a system ________.
+228. Ch.1c-5  [只练过1次]  When a system ________, ΔE is always negative.
+229. Ch.1c-7  [只练过1次]  Which one of the following is an exothermic process?
+230. Ch.1c-9  [只练过1次]  A ________ ΔH corresponds to an ________ process.
+231. Ch.1c-11  [只练过1次]  A chemical reaction that absorbs heat from the surroundings is said to
+232. Ch.1c-12  [只练过1次]  The reaction 4Al (s) + 3O2 (g) → 2Al2O3 (s) ΔH° = -3351 kJ is ________
+233. Ch.1c-13  [只练过1次]  Under what condition(s) is the enthalpy change of a process equal to t
+234. Ch.1c-15  [只练过1次]  Consider the following two reactions: A → 2B ΔH°rxn = 456.7 kJ/mol A →
+235. Ch.1c-18  [只练过1次]  The enthalpy change for the following reaction is -483.6 kJ: 2H2 (g) +
+236. Ch.1c-19  [只练过1次]  ΔH for the reaction IF5 (g) → IF3 (g) + F2 (g) is ________ kJ, give th
+237. Ch.1c-20  [只练过1次]  Given the following reactions Fe2O3 (s) + 3CO (s) → 2Fe (s) + 3CO2 (g)
+238. Ch.1c-23  [只练过1次]  When work is done on a system, w will be a ________ value.
+239. Ch.1c-24  [只练过1次]  The value of ΔE for a system that performs 139 kJ of work on its surro
+240. Ch.1c-26  [只练过1次]  The first law of thermodynamics can be given as ________.
+241. Ch.1c-29  [只练过1次]  A reversible process is one that ________.
+242. Ch.1c-33  [只练过1次]  The second law of thermodynamics states that ________.
+243. Ch.1c-36  [只练过1次]  ΔS is positive for the reaction ________.
+244. Ch.1c-37  [只练过1次]  Which reaction produces a decrease in the entropy of the system?
+245. Ch.1c-38  [只练过1次]  Which reaction produces an increase in the entropy of the system?
+246. Ch.1c-39  [只练过1次]  The equilibrium position corresponds to which letter on the graph of G
+247. Ch.1c-40  [只练过1次]  For the reaction C2H6 (g) → C2H4 (g) + H2 (g) ΔH° is +137 kJ/mol and Δ
+248. Ch.1c-41  [只练过1次]  For the reaction 2 C4H10 (g) + 13 O2 (g) → 8 CO2 (g) + 10 H2O (g) ΔH° 
+249. Ch.1c-46  [只练过1次]  Which one of the following processes produces a decrease in the entrop
+250. Ch.1c-47  [只练过1次]  Of the following, the entropy of ________ is the largest.

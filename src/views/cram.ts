@@ -36,9 +36,15 @@ export function renderCram({ app }: RouteCtx): void {
     header("突击练习"),
     el("div", { class: "page" }, [
       el("div", { class: "banner warn" }, [
-        "按“这几次模拟的错题 → 错题本 → 标记不懂 → 从没练过 → 只练过 1 次”的优先级去重合并。清单在手机上实时生成。",
+        "按“模拟错题（错得越多越靠前）→ 错题未订正 → 标记不懂 → 从未答对”去重合并；只练过 1 次的不默认计入。清单在手机上实时生成。",
       ]),
       el("div", { class: "cards" }, groupCards),
+      el("div", { class: "muted small" }, [
+        "重点分布：" + cram.byChapter.map((c) => `${c.chapter} ${c.count}`).join(" · "),
+      ]),
+      el("div", { class: "muted small" }, [
+        `只练过 1 次的有 ${cram.onceCount} 题（范围太大，默认不计入突击；需要的话我可以加“低练习量”专项）。`,
+      ]),
       cram.total === 0
         ? el("div", { class: "empty" }, ["暂时没有需要突击的题，去模拟一次或刷几题吧。"])
         : el("button", {

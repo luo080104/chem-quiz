@@ -12,6 +12,8 @@ export interface CramResult {
   groups: CramGroup[];
   ordered: Question[];
   total: number;
+  onceCount: number;
+  byChapter: Array<{ chapter: string; count: number }>;
 }
 
 const SESSION_KEY = "chemquiz.cramIds";
@@ -28,14 +30,20 @@ function uniq(ids: string[]): string[] {
   return out;
 }
 
-/** Build the crash-review list from on-device records. */
+const setEq = (a: string[], b: string[]) =>
+  a.length === b.length && a.every((x) => b.includes(x)) && b.every((x) => a.includes(x));
+
+/**
+ * Focused crash-review list from on-device records:
+ *   sim wrong (by frequency) > wrongbook (not yet corrected) > flagged > never correct.
+ * "Only practiced once" is reported separately and NOT included (too broad).
+ */
 export function buildCram(): CramResult {
   const bank = getBank();
   const s = state();
   const touched = s.practice.records;
 
-  // 1) wrong questions from all submitted exams (most recent first)
-  const simWrong: string[] = [];
+  const simCount = new Map<string, number>();
   const exams = s.exams
     .filter((e) => e.submittedAt)
     .sort((a, b) => (b.submittedAt || 0) - (a.submittedAt || 0));
@@ -44,53 +52,55 @@ export function buildCram(): CramResult {
       const q = byId(qid);
       if (!q || !q.answer.length) continue;
       const chosen = e.answers[qid] || [];
-      const ok = chosen.length === q.answer.length && chosen.every((k) => q.answer.includes(k));
-      if (!ok) simWrong.push(qid);
+      if (!setEq(chosen, q.answer)) simCount.set(qid, (simCount.get(qid) || 0) + 1);
     }
   }
 
-  // 2) current wrongbook
-  const wrong = Object.keys(s.wrongbook);
-
-  // 3) active flagged
+  const notFixed = Object.keys(s.wrongbook).filter((id) => s.wrongbook[id].correctAfterWrong === 0);
   const flagged = Object.values(touched)
     .filter((r) => r.flagged && !s.archivedFlagged.includes(r.questionId))
     .map((r) => r.questionId);
+  const neverCorrect = bank.questions
+    .filter((q) => touched[q.id] && touched[q.id].attempts > 0 && touched[q.id].correctCount === 0)
+    .map((q) => q.id);
+  const once = bank.questions
+    .filter((q) => touched[q.id] && touched[q.id].attempts === 1)
+    .map((q) => q.id);
 
-  // 4) never practiced / only once (from the full bank)
-  const never: string[] = [];
-  const once: string[] = [];
-  for (const q of bank.questions) {
-    const r = touched[q.id];
-    if (!r || r.attempts === 0) never.push(q.id);
-    else if (r.attempts === 1) once.push(q.id);
-  }
-
+  const sim = [...simCount.keys()];
   const groups: CramGroup[] = [
-    { key: "sim", label: "模拟错题", ids: uniq(simWrong) },
-    { key: "wrong", label: "当前错题本", ids: uniq(wrong) },
+    { key: "sim", label: "模拟错题", ids: uniq(sim) },
+    { key: "notfixed", label: "错题(未订正)", ids: uniq(notFixed) },
     { key: "flag", label: "标记不懂", ids: uniq(flagged) },
-    { key: "never", label: "从没练过", ids: uniq(never) },
-    { key: "once", label: "只练过 1 次", ids: uniq(once) },
+    { key: "never", label: "从未答对", ids: uniq(neverCorrect) },
   ];
 
-  // priority: sim wrong > wrongbook > flagged > never > once, deduped
-  const priority = uniq([
-    ...groups[0].ids,
-    ...groups[1].ids,
-    ...groups[2].ids,
-    ...groups[3].ids,
-    ...groups[4].ids,
-  ]);
-
-  const ordered = priority
+  const core = uniq([...groups[0].ids, ...groups[1].ids, ...groups[2].ids, ...groups[3].ids]);
+  const score = (id: string): number => {
+    let w = 0;
+    if (simCount.has(id)) w += 100 + simCount.get(id)! * 10;
+    if (notFixed.includes(id)) w += 50;
+    if (neverCorrect.includes(id)) w += 40;
+    if (flagged.includes(id)) w += 30;
+    return w;
+  };
+  const ordered = core
     .map((id) => byId(id))
-    .filter((q): q is Question => !!q);
+    .filter((q): q is Question => !!q)
+    .sort((a, b) => score(b.id) - score(a.id) || a.originalNumber - b.originalNumber);
 
-  return { groups, ordered, total: ordered.length };
+  const chMap = new Map<string, number>();
+  for (const q of ordered) {
+    const k = String(q.label || "").replace("chapter", "Ch.");
+    chMap.set(k, (chMap.get(k) || 0) + 1);
+  }
+  const byChapter = [...chMap.entries()]
+    .map(([chapter, count]) => ({ chapter, count }))
+    .sort((a, b) => b.count - a.count);
+
+  return { groups, ordered, total: ordered.length, onceCount: once.length, byChapter };
 }
 
-/** Persist a fixed id order for the current drill session (stable while answering). */
 export function saveCramSession(ids: string[]): void {
   sessionStorage.setItem(SESSION_KEY, JSON.stringify(ids));
 }

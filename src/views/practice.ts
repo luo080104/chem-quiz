@@ -161,14 +161,17 @@ function renderPracticeList(
     [question.type === "multiple" ? "提交答案（多选）" : "提交答案"]
   );
 
-  // Restore the previous result when revisiting an already-answered question.
+  // Restore the previous result ONLY in normal sequential practice. In a drill
+  // (cram / wrong / flagged / exam-wrong) always start from a blank question.
   const stored = state().practice.records[question.id];
-  const already = !!(
-    stored &&
-    stored.attempts > 0 &&
-    Array.isArray(stored.lastAnswer) &&
-    stored.lastAnswer.length > 0
-  );
+  const already =
+    !ctx &&
+    !!(
+      stored &&
+      stored.attempts > 0 &&
+      Array.isArray(stored.lastAnswer) &&
+      stored.lastAnswer.length > 0
+    );
   if (already && stored) {
     for (const k of stored.lastAnswer) selected.add(k);
     submitted = true;

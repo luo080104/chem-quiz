@@ -27,6 +27,7 @@ const clamp01 = (v: number) => Math.max(0, Math.min(1, v));
 let musicPlaying = false;
 let musicTimer: number | null = null;
 let musicStep = 0;
+let musicVoices: Array<{ o: OscillatorNode; g: GainNode }> = [];
 
 function ac(): AudioContext | null {
   if (typeof window === "undefined") return null;
@@ -171,8 +172,26 @@ export function startMusic(): void {
       o.connect(g).connect(musicGain!);
       o.start(t);
       o.stop(t + dur + 0.1);
+      musicVoices.push({ o, g });
+      o.onended = () => {
+        musicVoices = musicVoices.filter((v) => v.o !== o);
+      };
     });
-    blip(musicGain, freqs[0] * 4, t + 0.2, 1.6, 0.012, "sine");
+    // faint high shimmer (tracked so it can be stopped too)
+    const so = c.createOscillator();
+    const sg = c.createGain();
+    so.type = "sine";
+    so.frequency.value = freqs[0] * 4;
+    sg.gain.setValueAtTime(0.0001, t + 0.2);
+    sg.gain.linearRampToValueAtTime(0.012, t + 0.6);
+    sg.gain.linearRampToValueAtTime(0.0001, t + 1.8);
+    so.connect(sg).connect(musicGain!);
+    so.start(t + 0.2);
+    so.stop(t + 1.9);
+    musicVoices.push({ o: so, g: sg });
+    so.onended = () => {
+      musicVoices = musicVoices.filter((v) => v.o !== so);
+    };
     musicStep++;
   };
   playChord();
@@ -185,6 +204,21 @@ export function stopMusic(): void {
     window.clearInterval(musicTimer);
     musicTimer = null;
   }
+  // fade out any notes already scheduled so music stops when leaving home
+  const c = ctx;
+  if (c) {
+    const now = c.currentTime;
+    for (const { o, g } of musicVoices) {
+      try {
+        g.gain.cancelScheduledValues(now);
+        g.gain.setTargetAtTime(0.0001, now, 0.04);
+        o.stop(now + 0.25);
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  musicVoices = [];
 }
 
 export function isMusicPlaying(): boolean {

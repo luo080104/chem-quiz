@@ -255,10 +255,6 @@ export function practicedQuestionIds(): string[] {
     .map((r) => r.questionId);
 }
 
-export function wrongQuestionIds(): string[] {
-  return Object.keys(state().wrongbook);
-}
-
 /** Active wrong list = wrong entries not moved to "曾经错过". */
 export function activeWrongIds(): string[] {
   const s = state();

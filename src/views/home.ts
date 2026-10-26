@@ -4,6 +4,7 @@ import { el, go, pct, fmtDuration, fmtDateTime } from "../ui";
 import { APP_VERSION } from "../version";
 import { getTheme, toggleTheme } from "../theme";
 import { getSfxVolume, setSfxVolume, getMusicVolume, setMusicVolume } from "../audio";
+import { buildCram } from "../cram";
 import type { RouteCtx } from "../main";
 
 export function renderHome({ app }: RouteCtx): void {
@@ -66,6 +67,7 @@ export function renderHome({ app }: RouteCtx): void {
     bank.questions.flatMap((q) => (q.glossary || []).map((g) => g.term.trim().toLowerCase()))
   ).size;
   const flagged = flaggedQuestionIds().length;
+  const cramTotal = buildCram().total;
 
   const progressBlock = el("div", { class: "progress-wrap" }, [
     el("div", { class: "progress-head" }, [
@@ -113,6 +115,13 @@ export function renderHome({ app }: RouteCtx): void {
       archiveBanner,
       volRow("音效", getSfxVolume, setSfxVolume),
       volRow("音乐", getMusicVolume, setMusicVolume),
+      cramTotal > 0
+        ? el(
+            "a",
+            { class: "banner warn", href: "#/cram", style: "display:block;text-decoration:none;" },
+            [`考前突击：${cramTotal} 题待练（模拟错题 + 错题本 + 没练过的）→`]
+          )
+        : null,
       el("div", { class: "main-actions" }, [
         bigButton(seqTitle, seqSub, "seq", () => go("#/practice")),
         bigButton(
@@ -126,6 +135,7 @@ export function renderHome({ app }: RouteCtx): void {
       ...chapterRows,
       statCards,
       el("nav", { class: "grid-links" }, [
+        link("#/cram", "突击练习", `${cramTotal} 题`, "bolt"),
         link("#/wrongbook", "错题复习", String(wrong) + " 题", "wrong"),
         link("#/flagged", "标记不懂汇总", `${flagged} 题`, "flag"),
         link("#/glossary", "难词 / 术语表", `${uniqueGlossary} 个术语`, "glossary"),
@@ -162,6 +172,7 @@ const ICONS: Record<string, string> = {
   info: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="2" width="2" height="2"/><rect x="7" y="6" width="2" height="7"/></svg>',
   save: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="7"/><rect x="4" y="5" width="2" height="2"/><rect x="10" y="5" width="2" height="2"/><rect x="6" y="7" width="4" height="2"/><rect x="3" y="12" width="10" height="2"/></svg>',
   search: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="2" width="8" height="1"/><rect x="2" y="9" width="8" height="1"/><rect x="2" y="2" width="1" height="8"/><rect x="9" y="2" width="1" height="8"/><rect x="10" y="10" width="2" height="2"/><rect x="12" y="12" width="2" height="2"/></svg>',
+  bolt: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="8" y="1" width="3" height="6"/><rect x="6" y="6" width="4" height="3"/><rect x="5" y="8" width="3" height="7"/></svg>',
 };
 
 function iconSpan(name: string, cls: string): HTMLSpanElement {

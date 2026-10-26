@@ -22,6 +22,7 @@ import {
 } from "../ui";
 import { statusLabel, type Question } from "../types";
 import { sfx } from "../audio";
+import { buildCram, loadCramSession } from "../cram";
 import type { RouteCtx } from "../main";
 
 interface DrillCtx {
@@ -79,6 +80,22 @@ export function renderDrillFlag({ app, parts }: RouteCtx): void {
     backLabel: "← 标记不懂",
     basePath: (i) => `#/drill/flag/${i}`,
     emptyHint: "还没有标记不懂的题。",
+  });
+}
+
+/** Drill the crash-review list (fixed order for this session). */
+export function renderDrillCram({ app, parts }: RouteCtx): void {
+  const saved = loadCramSession();
+  const list = saved
+    ? resolve(saved)
+    : buildCram().ordered;
+  const idx = parts[2] ? Number(parts[2]) : 0;
+  renderPracticeList(app, list, idx, {
+    title: "突击练习",
+    backHref: "#/cram",
+    backLabel: "← 突击清单",
+    basePath: (i) => `#/drill/cram/${i}`,
+    emptyHint: "突击清单为空。",
   });
 }
 

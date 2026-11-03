@@ -1,0 +1,306 @@
+{
+  "label": "ai",
+  "generatedAt": "2026-11-03T10:42:06.191Z",
+  "answers": {
+    "1": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "Ar 是惰性气体，不电离，不是电解质。"
+    },
+    "2": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "完全中和生成 K2SO4 溶液和水，E 为正确的分子方程式。"
+    },
+    "3": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "PbCl2 难溶，故 KCl 与 Pb(NO3)2 发生复分解生成沉淀。"
+    },
+    "4": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "碳酸镍溶于酸：NiCO3(s) + 2H+ → Ni2+ + CO2 + H2O。"
+    },
+    "5": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Al(OH)3 溶于强酸：Al(OH)3 + 3H+ → Al3+ + 3H2O。"
+    },
+    "6": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "磷酸镁 Mg3(PO4)2 难溶于水。"
+    },
+    "7": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "AgBr 难溶，故 NiBr2 与 AgNO3 混合生成 AgBr 沉淀。"
+    },
+    "8": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "ZnS 难溶于水。"
+    },
+    "9": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "KOH 与 Mg(NO3)2 生成难溶的 Mg(OH)2。"
+    },
+    "10": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "Pb(NO3)2 与 HCl 生成难溶的 PbCl2。"
+    },
+    "11": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "铵盐均易溶，故铵根不形成难溶盐。"
+    },
+    "12": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "H2SO4 第二步电离不完全，净离子式为 H+ + HSO4- + 2OH- → 2H2O + SO4^2-。"
+    },
+    "13": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "生成水（分子化合物）和 Sr(ClO3)2（强电解质）。"
+    },
+    "14": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "HF 是弱酸，其余均为强酸。"
+    },
+    "15": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "中和生成水和醋酸钾 KC2H3O2。"
+    },
+    "16": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "2H2O → 2H2 + O2 中氧由 -2 升到 0。"
+    },
+    "17": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "MgSO3 中 S 为 +4，是各选项中最高价态。"
+    },
+    "18": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "铜不与盐酸反应，适合作储酸罐内衬。"
+    },
+    "19": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "Mg 的还原性比 Al 强，可被 Al3+ 氧化。"
+    },
+    "20": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Ag 不能置换 H+，故 2Ag + 2HNO3 → 2AgNO3 + H2 非自发。"
+    },
+    "21": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "HI、HNO3、HBr 为强酸，HF 为弱酸。"
+    },
+    "22": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "n = 9.3/58.44 ≈ 0.159 mol，c = 0.159/0.350 ≈ 0.45 M。"
+    },
+    "23": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "稀释 5 倍后 Na2S 为 0.175 M，[Na+] = 0.350 M。"
+    },
+    "24": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "c = 1.005×43.72/500 ≈ 0.0879 M。"
+    },
+    "25": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "Na2SO4 完全电离：[Na+] = 4.208 M，[SO4^2-] = 2.104 M。"
+    },
+    "26": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "元素得电子称为还原。"
+    },
+    "27": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "S2O3^2- 中 S 由 +2 升至 +2.5，被氧化。"
+    },
+    "28": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "还原剂自身被氧化，故为 S2O3^2-。"
+    },
+    "29": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "2x + 7(-2) = -2，解得 x = +6。"
+    },
+    "30": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "S4O6^2- + 2e- → 2S2O3^2-，需 2 个电子。"
+    },
+    "31": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "阳极发生氧化：Fe → Fe3+ + 3e-。"
+    },
+    "32": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "E°red 越正，得电子倾向越强。"
+    },
+    "33": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "E°cell = 0.771 - 0.154 = +0.617 V。"
+    },
+    "34": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "E°cell = 0.771 - (-0.74) = +1.51 V。"
+    },
+    "35": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "ΔG° = -nFE。"
+    },
+    "36": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "ΔG° = -2×96485×0.126 ≈ -24.3 kJ/mol。"
+    },
+    "37": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "n = 6，ΔG° = -6×96485×1.34 ≈ -776 kJ/mol。"
+    },
+    "38": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "充电时 PbSO4 被转化回 Pb 与 PbO2，故消耗 PbSO4。"
+    },
+    "39": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "高 pH 下铁更易钝化，腐蚀减慢。"
+    },
+    "40": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "盐桥通过离子迁移维持两半电池的电中性。"
+    },
+    "41": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "阳极发生氧化：NO → NO3-，N 由 +2 升至 +5。"
+    },
+    "42": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "氢燃料电池中 O2 在阴极被还原。"
+    },
+    "43": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "铅酸电池放电时阳极为 Pb。"
+    },
+    "44": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "阴极保护：连接活泼金属，使被保护管道成为阴极。"
+    },
+    "45": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "电解池中非自发反应被外加电源强制进行。"
+    },
+    "46": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "HI 中 H 为 +1，生成 H2 后为 0，被还原。"
+    },
+    "47": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "只有 (c) 有化合价变化（Cu 0→+2，S 0→-2）。"
+    },
+    "48": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "HNO3 中 N 由 +5 降至 +4，是氧化剂。"
+    },
+    "49": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "配平为 2MnO4- + 10Br- + 16H+ → 2Mn2+ + 5Br2 + 8H2O，系数为 2。"
+    },
+    "50": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "配平为 CN- + 2Fe3+ + 2OH- → CNO- + 2Fe2+ + H2O，Fe3+ 系数为 2。"
+    }
+  }
+}

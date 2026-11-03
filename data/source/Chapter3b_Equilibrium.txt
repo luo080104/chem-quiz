@@ -1,0 +1,735 @@
+Chapter 3 Chemical Reaction (Equilibrium Q&A)
+At equilibrium, ________.
+A) all chemical reactions have ceased
+B) the rates of the forward and reverse reactions are equal
+C) the rate constants of the forward and reverse reactions are equal
+D) the value of the equilibrium constant is 1
+E) the limiting reagent has been consumed
+
+Which one of the following is true concerning the Haber process?
+A) It is a process used for shifting equilibrium positions to the right for more economical chemical synthesis of a variety of substances.
+B) It is a process used for the synthesis of ammonia.
+C) It is another way of stating Le Châtelier's principle.
+D) It is an industrial synthesis of sodium chloride that was discovered by Karl Haber.
+E) It is a process for the synthesis of elemental chlorine. 
+
+Which one of the following will change the value of an equilibrium constant?
+A) changing temperature
+B) adding other substances that do not react with any of the species involved in the equilibrium
+C) varying the initial concentrations of reactants
+D) varying the initial concentrations of products
+E) changing the volume of the reaction vessel
+
+Which of the following expressions is the correct equilibrium-constant expression for the equilibrium between dinitrogen tetroxide and nitrogen dioxide?
+	N2O4 (g)     2NO2 (g)
+A) 
+B)  
+C)  
+D) [NO2][N2O4]
+E) [NO2]2[N2O4]
+
+The equilibrium-constant expression depends on the ________ of the reaction.
+A) stoichiometry
+B) mechanism
+C) stoichiometry and mechanism
+D) the quantities of reactants and products initially present
+E) temperature
+
+The equilibrium expression for Kp for the reaction below is ________.
+	2O3 (g)    3O2 (g)
+A) 
+B) 
+C) 
+D) 
+E) 
+
+The Keq for the equilibrium below is 7.52 × 10-2 at 480.0 °C. 
+	2Cl2 (g)  +  2H2O (g)    4HCl (g)  +  O2 (g)
+What is the value of Keq at this temperature for the following reaction?
+	2HCl (g)  +  O2 (g)    Cl2 (g)  +  H2O (g)
+A) 13.3
+B) 3.65
+C) -0.0376
+D) 5.66 × 10-3
+E) 0.274
+Given the following reaction at equilibrium, if Kc = 1.90  × 1019 at 25.0 °C, Kp = ________.
+	H2 (g)  + Br2 (g)   2 HBr (g)  
+A) 5.26 × 10-20
+B) 1.56 × 104
+C) 6.44 × 105
+D) 1.90 × 1019
+E) none of the above
+
+Which of the following expressions is the correct equilibrium-constant expression for the reaction below?
+	HF (aq) + H2O (l)   H3O+ (aq) + F- (aq) 
+A) [HF][H2O] / [H3O+][F-]
+B) 1 / [HF]
+C) [H3O+][F-] / [HF][H2O]
+D) [H3O+][F-] / [HF]
+E) [F-] / [HF]
+
+The equilibrium constant for the gas phase reaction 
+	N2 (g)  +  3H2 (g)    2NH3 (g)
+is Keq = 4.34 × 10-3 at 300 °C. At equilibrium, ________.
+A) products predominate
+B) reactants predominate
+C) roughly equal amounts of products and reactants are present
+D) only products are present
+E) only reactants are present 
+
+Consider the following equilibrium. 
+	2 SO2 (g)  +  O2 (g)    2 SO3 (g) 
+The equilibrium cannot be established when ________ is/are placed in a 1.0-L container.
+A) 0.25 mol SO2 (g) and 0.25 mol O2 (g)
+B) 0.75 mol SO2 (g)
+C) 0.25 mol of SO2 (g) and 0.25 mol of SO3 (g)
+D) 0.50 mol O2 (g) and 0.50 mol SO3 (g)
+E) 1.0 mol SO3 (g)
+
+At 400 K, the equilibrium constant for the reaction
+	Br2 (g)  +  Cl2 (g)    2BrCl (g)
+is Kp = 7.0. A closed vessel at 400 K is charged with 1.00 atm of Br2 (g), 1.00 atm of Cl2 (g), and 2.00 atm of BrCl (g). Use Q to determine which of the statements below is true.
+A) The equilibrium partial pressures of Br2, Cl2, and BrCl will be the same as the initial values.
+B) The equilibrium partial pressure of Br2 will be greater than 1.00 atm.
+C) At equilibrium, the total pressure in the vessel will be less than the initial total pressure.
+D) The equilibrium partial pressure of BrCl (g) will be greater than 2.00 atm. 
+E) The reaction will go to completion since there are equal amounts of Br2 and Cl2.
+
+Which of the following statements is true?
+A) Q does not change with temperature.
+B) Keq does not change with temperature, whereas Q is temperature dependent.
+C) K does not depend on the concentrations or partial pressures of reaction components.
+D) Q does not depend on the concentrations or partial pressures of reaction components.
+E) Q is the same as Keq when a reaction is at equilibrium.
+How is the reaction quotient used to determine whether a system is at equilibrium?
+A) The reaction quotient must be satisfied for equilibrium to be achieved.
+B) At equilibrium, the reaction quotient is undefined.
+C) The reaction is at equilibrium when Q < Keq.
+D) The reaction is at equilibrium when Q > Keq.
+E) The reaction is at equilibrium when Q = Keq.
+
+Of the following equilibria, only ________ will shift to the right in response to a decrease in volume.
+A) H2 (g)  +  Cl2 (g)    2 HCl (g)
+B) 2 SO3 (g)    2 SO2 (g)  +  O2 (g)
+C) N2 (g)  +  3H2 (g)    2NH3 (g)
+D) 2 Fe2O3 (s)    4 Fe (s)  +  3O2 (g)
+E) 2HI (g)    H2 (g)  +  I2 (g) 
+
+Consider the following reaction at equilibrium: 
+	2NH3 (g)    N2 (g)  +  3H2 (g)
+Le Châtelier's principle predicts that the moles of H2 in the reaction container will increase with ________.
+A) some removal of NH3 from the reaction vessel (V and T constant)
+B) a decrease in the total pressure (T constant)
+C) addition of some N2 to the reaction vessel (V and T constant)
+D) a decrease in the total volume of the reaction vessel (T constant)
+E) an increase in total pressure by the addition of helium gas (V and T constant)
+
+The effect of a catalyst on an equilibrium is to ________.
+A) increase the rate of the forward reaction only
+B) increase the equilibrium constant so that products are favored
+C) slow the reverse reaction only
+D) increase the rate at which equilibrium is achieved without changing the composition of the equilibrium mixture
+E) shift the equilibrium to the right 
+
+The value of Keq for the equilibrium 
+	H2 (g)  +  I2 (g)    2HI (g) 
+is 794 at 25 °C. What is the value of Keq for the equilibrium below?
+	H2 (g)  +  I2 (g)    HI (g)
+A) 397
+B) 0.035
+C) 28
+D) 1588
+E) 0.0013 
+
+The value of Keq for the equilibrium 
+	CO2 (g)  +  2H2 (g)    CH3OH (g) 
+is 14.5 at 483 °C. What is the value of Keq for the equilibrium below?
+	CO2 + H2 (g)    CH3OH (g)
+A) 7.30
+B) 7.35
+C) 0.136
+D) 3.81
+E) 6.90 × 10-2
+
+A reaction vessel is charged with hydrogen iodide, which partially decomposes to molecular hydrogen and iodine:
+	2HI (g)    H2(g)  +  I2(g)
+When the system comes to equilibrium at 425 °C, PHI = 0.708 atm, and PH2 =  PI2  = 0.0960 atm. The value of Kp at this temperature is ________.
+A) 6.80 × 10-2
+B) 1.30 × 10-2
+C) 54.3
+D) 1.84 × 10-2
+E) Kp cannot be calculated for this gas reaction when the volume of the reaction vessel is not given.
+
+Given the following reaction:
+		CO (g)  +  2 H2(g)    CH3OH (g)
+In an experiment, 0.42 mol of CO and 0.42 mol of H2 were placed in a 1.00-L reaction vessel. At equilibrium, there were 0.29 mol of CO remaining. Keq at the temperature of the experiment is ________.
+A) 2.80
+B) 0.357
+C) 14.5
+D) 17.5
+E) none of the above
+
+A sealed 1.0 L flask is charged with 0.500 mol of I2 and 0.500 mol of Br2. An equilibrium reaction ensues:
+	I2 (g)  +  Br2 (g)    2IBr (g)
+When the container contents achieve equilibrium, the flask contains 0.84 mol of IBr. The value of Keq is ________.
+A) 11
+B) 4.0
+C) 110
+D) 6.1
+E) 2.8 
+
+At 200 °C, the equilibrium constant (Kp) for the reaction below is 2.40 × 103.  
+	2NO (g)    N2 (g)  +  O2 (g)
+A closed vessel is charged with 36.1 atm of NO. At equilibrium, the partial pressure of O2 is ________ atm.
+A) 294
+B) 35.7
+C) 17.9
+D) 6.00
+E) 1.50 × 10-2
+
+According to the Arrhenius concept, an acid is a substance that ________.
+A) is capable of donating one or more H+
+B) causes an increase in the concentration of H+ in aqueous solutions
+C) can accept a pair of electrons to form a coordinate covalent bond
+D) reacts with the solvent to form the cation formed by autoionization of that solvent
+E) tastes bitter
+
+A Br∅nsted-Lowry base is defined as a substance that ________.
+A) increases [H+] when placed in H2O
+B) decreases [H+] when placed in H2O
+C) increases [OH-] when placed in H2O
+D) acts as a proton acceptor
+E) acts as a proton donor
+
+The molar concentration of hydronium ion in pure water at 25 °C is ________.
+A) 0.00
+B) 1.0 × 10-7 
+C) 1.0 × 10-14 
+D) 1.00
+E) 7.00
+
+The hydride ion, H-, is a stronger base than the hydroxide ion, OH-. The product(s) of the reaction of hydride ion with water is/are ________.
+A) H3O+ (aq)
+B) OH- (aq)  +  H2 (g)
+C) OH- (aq)  +  2H+ (aq)
+D) no reaction occurs
+E) H2O2 (aq) 
+
+Of the following acids, ________ is a strong acid.
+A) HNO2
+B) H2CO3
+C) HNO3
+D) HClO
+E) HF 
+
+Of the following, ________ is a weak acid.
+A) HF
+B) HCl
+C) HBr
+D) HNO3
+E) HClO4
+
+Of the acids in the table below, ________ is the strongest acid. 
+	
+A) HOAc
+B) HCHO2
+C) HClO
+D) HF
+E) HOAc and HCHO2
+
+The Ka of hypochlorous acid (HClO) is 3.0 × 10-8 at 25 °C. What is the percent ionization of hypochlorous acid in a 0.015 M aqueous solution of HClO at 25 °C?
+A) 4.5 × 10-8
+B) 14
+C) 2.1 × 10-5
+D) 0.14
+E) 1.4 × 10-3
+
+Classify the following compounds as weak acids (W) or strong acids (S):
+	benzoic acid	nitric acid	acetic acid 
+A) W W W
+B) S S S
+C) S W W
+D) W S S
+E) W S W
+
+Classify the following compounds as weak acids (W) or strong acids (S):
+	hypochlorous acid	perchloric acid	chloric acid
+A) W S S
+B) S S S
+C) S W W 
+D) W W W
+E) W S W
+
+Ammonia is a ________.
+A) weak acid
+B) strong base
+C) weak base
+D) strong acid
+E) salt 
+
+HA is a weak acid. Which equilibrium corresponds to the equilibrium constant Kb for A-?
+A) HA (aq)  +  H2O (l)    H2A+ (aq)  +  OH-(aq)
+B) A- (aq)  +  H3O+ (aq)    HA (aq)  +  H2O (l)
+C) HA (aq)  +  OH- (aq)    H2O (l)  +  H+ (aq)
+D) A- (aq)  +  H2O (l)    HA (aq)  +  OH- (aq)
+E) A- (aq)  +  OH- (aq)    HOA2- (aq)
+
+Classify the following compounds as weak bases (W) or strong bases (S):
+	ammonia 	fluoride ion	sodium hydroxide
+A) W W S
+B) S S S
+C) S W W
+D) W S  S
+E) W S W
+
+Using the data in the table, which of the conjugate bases below is the strongest base?
+	
+A) OAc-
+B) C7H5O2-
+C) NO2-
+D) F-
+E) OAc- and C7H5O2-
+
+Using the data in the table, which of the conjugate bases below is the strongest base?
+	
+A) OAc-
+B) CHO2-
+C) ClO-
+D) F-
+E) OAc- and CHO2-
+
+Using the data in the table, which of the conjugate acids below is the strongest acid?
+	
+A) HClO
+B) HCO3-
+C) H2S
+D) NH3CH3+
+E) H2S and HClO
+
+Using the data in the table, which of the conjugate acids below is the weakest acid?
+	
+A) NH4+
+B) C5H5NH+
+C) H3NOH+
+D) NH3CH3+
+E) NH4+ and NH3CH3+
+
+Which of the following ions will act as a weak base in water?
+A) OH-
+B) Cl-
+C) NO3-
+D) ClO-
+E) None of the above will act as a weak base in water.
+
+Which of the following aqueous solutions has the highest [OH-]?
+A) a solution with a pH of 3.0
+B) a 1 × 10-4 M solution of HNO3
+C) a solution with a pOH of 12.0
+D) pure water
+E) a 1 × 10-3 M solution of NH4Cl 
+
+Of the following substances, an aqueous solution of ________ will form basic solutions. 
+	NH4Cl	Cu(NO3)2	K2CO3	NaF
+A) NH4Cl, Cu(NO3)2
+B) K2CO3, NH4Cl
+C) NaF only
+D) NaF, K2CO3
+E) NH4Cl only 
+
+Of the compounds below, a 0.1 M aqueous solution of ________ will have the highest pH.
+A) KCN, Ka of HCN = 4.0 × 10-10
+B) NH4NO3, Kb of NH3 = 1.8 × 10-5
+C) NaOAc, Ka of HOAc = 1.8 × 10-5
+D) NaClO, Ka of HClO = 3.2 × 10-8
+E) NaHS, Kb of HS- = 1.8 × 10-7
+
+What is the pOH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydronium ion?
+A) 8.400
+B) 5.600
+C) 9.000
+D) 3.980
+E) 7.000
+
+What is the pH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydroxide ion?
+A) 8.40
+B) 5.60
+C) 9.00
+D) 3.98
+E) 7.00
+
+Calculate the concentration (in M) of hydronium ions in a solution at 25.0 °C with a pOH of 4.223.
+A) 5.98 × 10-5
+B) 1.67 × 10-10 
+C) 1.67 × 104
+D) 5.99 × 10-19 
+E) 1.00 × 10-7
+
+An aqueous solution contains 0.100 M NaOH at 25.0 °C. The pH of the solution is ________.
+A) 0.100
+B) 1.00
+C) 13.00
+D) 7.00
+E) -1.00
+
+HZ is a weak acid. An aqueous solution of HZ is prepared by dissolving 0.020 mol of HZ in sufficient water to yield 1.0 L of solution. The pH of the solution was 4.93 at 25.0 °C. The Ka of HZ is ________.
+A) 1.2 × 10-5 
+B) 6.9 × 10-9 
+C) 1.4 × 10-10
+D) 9.9 × 10-2 
+E) 2.8 × 10-12 
+
+The pH of a 0.25 M aqueous solution of hydrofluoric acid, HF, at 25.0 °C is 2.03. What is the value of Ka for HF?
+A) 2.0 × 10-9 
+B) 1.1 × 10-9 
+C) 6.0 × 10-5
+D) 3.5 × 10-4
+E) none of the above
+
+The Ka of hypochlorous acid (HClO) is 3.00 × 10-8. What is the pH at 25.0 °C of an aqueous solution that is 0.0200 M in HClO?
+A) +2.45
+B) -2.45
+C) -9.22
+D) +9.22
+E) +4.61
+
+The acid-dissociation constants of sulfurous acid (H2SO3) are Ka1 = 1.7 × 10-2 and Ka2 = 6.4 × 10-8 at 25.0 °C. Calculate the pH of a 0.163 M aqueous solution of sulfurous acid.
+A) 4.53
+B) 1.28
+C) 1.86
+D) 6.21
+E) 1.93
+
+The pH of a 0.55 M aqueous solution ammonia, NH3, at 25.0 °C is 11.50. What is the value of Kb for NH3?
+A) 2.0 × 10-9
+B) 1.1 × 10-9
+C) 6.0 × 10-5
+D) 1.8 × 10-5
+E) none of the above
+
+The pH of a 0.10 M solution of a weak base is 9.82. What is the Kb for this base?
+A) 2.1 × 10-4
+B) 4.4 × 10-8
+C) 8.8 × 10-8
+D) 6.6 × 10-4
+E) 2.0 × 10-5
+
+An aqueous solution contains 0.050 M of methylamine. The concentration of hydroxide ion in this solution is ________ M. Kb for methylamine is 4.4 × 10-4.
+A) 0.050
+B) 2.2 × 10-5
+C) 2.9 × 10-3
+D) 4.5 × 10-3
+E) 4.7 × 10-3
+
+Which one of the following pairs cannot be mixed together to form a buffer solution?
+A) HONH2, HONH3Cl
+B) NaCl, HCl 
+C) RbOH, HF
+D) KOH, HNO2
+E) H2SO3, KHSO3
+
+A solution containing which one of the following pairs of substances will be a buffer solution?
+A) KI, HI
+B) AgBr, HBr
+C) CuCl, HCl
+D) CsI, HI
+E) none of the above
+
+What change will be caused by addition of a small amount of HCl to a solution containing fluoride ions and hydrogen fluoride?
+A) The concentration of hydronium ions will increase significantly.
+B) The concentration of fluoride ions will increase as will the concentration of hydronium ions.
+C) The concentration of hydrogen fluoride will decrease and the concentration of fluoride ions will increase.
+D) The concentration of fluoride ion will decrease and the concentration of hydrogen fluoride will increase.
+E) The fluoride ions will precipitate out of solution as its acid salt.  
+
+In a solution, when the concentrations of a weak acid and its conjugate base are equal, ________.
+A) the system is not at equilibrium
+B) the buffering capacity is significantly decreased
+C) the -log of the [H+] and the -log of the Ka are equal
+D) All of the above are true.
+
+The addition of hydrofluoric acid and ________ to water produces a buffer solution.
+A) HCl
+B) NaNO3
+C) NaCl
+D) NaOH
+E) NaBr
+
+Which of the following could be added to a solution of potassium fluoride to prepare a buffer?
+A) sodium hydroxide
+B) potassium acetate
+C) hydrochloric acid
+D) sodium fluoride
+E) ammonia
+
+A result of the common-ion effect is ________.
+A) that some ions, such as Na+ (aq), frequently appear in solutions but do not participate in solubility equilibria
+B) that common ions, such as Na+ (aq), don't affect equilibrium constants
+C) that the selective precipitation of a metal ion, such as Ag+, is promoted by the addition of an appropriate counterion (X-) that produces a compound (AgX) with a very low solubility
+D)  that ions such as K+ and Na+ are common ions, so that their values in quilibrium constant expressions are always 1.00
+E) that common ions precipitate all counter-ions
+
+The Ka of benzoic acid is 6.30 × 10-5. The pH of a buffer prepared by combining 50.0 mL of 1.00 M potassium benzoate and 50.0 mL of 1.00 M benzoic acid is ________.
+A) 1.705
+B) 0.851
+C) 3.406
+D) 4.201
+E) 2.383
+
+Calculate the pH of a solution prepared by dissolving 0.150 mol of acetic acid and 0.300 mol of sodium acetate in water sufficient to yield 1.00 L of solution. The Ka of acetic acid is 1.76 × 10-5.
+A) 2.516
+B) 3.892
+C) 4.502
+D) 10.158
+E) 5.056
+
+The pH of a solution prepared by mixing 50.0 mL of 0.125 M KOH and 50.0 mL of 0.125 M HCl is ________.
+A) 6.29
+B) 7.00
+C) 8.11
+D) 5.78
+E) 0.00
+
+The pH of a solution prepared by mixing 50.0 mL of 0.125 M NaOH and 40.0 mL of 0.125 M HNO3 is ________.
+A) 13.29
+B) 7.00
+C) 8.11
+D) 11.00
+E) 12.14
+
+The concentration of fluoride ions in a saturated solution of barium fluoride is ________ M. The solubility product constant of BaF2 is 1.7 × 10-6.
+A) 3.8 × 10-4
+B) 3.0 × 10-3
+C) 1.5 × 10-2
+D) 7.5 × 10-3
+E) 1.4 × 10-4
+
+The solubility of lead (II) chloride (PbCl2) is 1.6 × 10-2 M. What is the Ksp of PbCl2?
+A) 5.0 × 10-4
+B) 4.1 × 10-6
+C) 3.1 × 10-7
+D) 1.6 × 10-5
+E) 1.6 × 10-2
+
+Determine the Ksp for magnesium hydroxide (Mg(OH)2) where the solubility of Mg(OH)2 is 1.4 × 10-4 M.
+A) 2.7 × 10-12
+B) 1.1 × 10-11
+C) 2.0 × 10-8
+D) 3.9 × 10-8
+E) 1.4 × 10-4
+
+Calculate the maximum concentration (in M) of silver ions (Ag+) in a solution that contains 0.025 M of CO32-. The Ksp of Ag2CO3 is 8.1 × 10-12.
+A) 1.8 × 10-5
+B) 1.4 × 10-6
+C) 2.8 × 10-6
+D) 3.2 × 10-10
+E) 8.1 × 10-12
+
+What is the solubility (in M) of PbCl2 in a 0.15 M solution of HCl? The Ksp of PbCl2 is 1.6 × 10-5.
+A) 2.0 × 10-3
+B) 1.1 × 10-4
+C) 1.8 × 10-4
+D) 7.1 × 10-4
+E) 1.6 × 10-5
+
+The Ksp for Zn(OH)2 is 5.0 × 10-17. Determine the molar solubility of Zn(OH)2 in a buffer solution with a pH of 11.5.
+A) 5.0 × 106
+B) 1.2 × 10-12
+C) 1.6 × 10-14
+D) 5.0 × 10-12
+E) 5.0 × 10-17
+
+A mineral is ________.
+A) a solid inorganic compound that contains one or more metals
+B) a vitamin
+C) metal in its elemental form
+D) a transition metal ion
+E) a source of carbon
+
+The coordination number of platinum in complexes is always ________.
+A) 4
+B) 5
+C) 2
+D) 3
+E) 6
+
+The coordination sphere of a complex consists of ________.
+A) the central metal ion only
+B) the ligands
+C) the central metal ion and the ligands bonded to it
+D) the primary and secondary valencies
+E) coordination and steric numbers
+
+How many d electrons are in the cobalt ion of K3[Co(CN)6]?
+A) 3
+B) 5
+C) 6
+D) 7
+E) 4
+
+What is the charge on the complex ion in Mg2[FeCl6]?
+A) 2-
+B) 2+
+C) 3-
+D) 3+
+E) 4-
+
+What is the ligand in Ca3[Fe(CN)6]2?
+A) Ca2+
+B) Fe3+
+C) CN-
+D) Fe(CN)63-
+E) Fe2+
+
+What is the charge of the central metal ion in Ca3[Fe(CN)6]2?
+A) 0
+B) 1+
+C) 2+
+D) 3+
+E) 6+
+
+The coordination number for [Zn(H2O)3Cl]Cl is ________.
+A) 5
+B) 4
+C) 2
+D) 1
+E) 6
+What is the oxidation state of cobalt in [Co(NH3)5Cl](NO3)2?
+A) 0
+B) 2
+C) 3
+D) 4
+E) 6
+
+EDTA is ________-dantate ligand.
+A) mono
+B) bi
+C) tri
+D) tetra
+E) hexa
+
+Metals with ________ electron configurations characteristically form diamagnetic, square planar complexes.
+A) d0
+B) d9
+C) d6
+D) d8
+E) d10
+
+What two oxidation states are more frequently observed in the first transition series than in the third?
+A) +3 and +7
+B) +2 and +3
+C) +2 and +7
+D) +5 and +6
+E) +3 and +5
+
+The lanthanide contraction is responsible for the fact that ________.
+A) Zr and Y have about the same radius
+B) Zr and Nb have similar oxidation states
+C) Zr and Hf have about the same radius
+D) Zr and Zn have similar oxidation states
+E) Zr and Hf have the same oxidation states
+
+Which one of the following is not true about transition metals?
+A) They frequently have more than one common oxidation state.
+B) Their compounds are frequently colored.
+C) Their compounds frequently exhibit magnetic properties.
+D) They are found in the d-block of the periodic table.
+E) They typically have low melting points.
+
+Diamagnetic solids ________.
+A) have atoms with one or more unpaired electrons
+B) have atoms with randomly oriented magnetic moments
+C) show very slight magnetic character when placed in a magnetic field
+D) have atoms with strongly aligned electrons when placed in a magnetic field
+E) both a and d
+
+What is the most common geometry found in four-coordinate complexes?
+A) square planar
+B) octahedral
+C) tetrahedral
+D) icosahedral
+E) trigonal bipyramidal
+
+The minimum number of unshared valence electron pairs in the ligands of a coordination compound is ________.
+A) 1
+B) 2
+C) 3
+D) 4
+E) 5
+
+What is the oxidation number of Ni in [Ni(CN)5]3-?
+A) 1+
+B) 2+
+C) 3+
+D) 4+
+E) 5+
+
+Which of the following is not a chelating agent?
+A) chloride anion
+B) EDTA
+C) porphine
+D) ethylenediamine
+E) oxalate anion
+
+In humans, what percent of absorbed iron is found in blood?
+A) 15
+B) 25
+C) 40
+D) 60
+E) 75
+
+A complex of correctly written formula [Pt(NH3)3Br]Br ∙ H2O has which set of ligands in its inner coordination sphere?
+A) 3 NH3
+B) 3 NH3 and 2 Br-
+C) 3 NH3 and 1 Br-
+D) 3 NH3, 1 Br-, and 1 H2O
+E) 3 NH3, 2 Br-, and 1 H2O
+
+Which one of the following complexes would most likely have tetrahedral geometry?
+A) [NiCl4]2-
+B) [Co(H2O)6]2+
+C) [Cr(NH3)6]3+
+D) [Fe(CN)6]3+
+E) [Pt(NH3)2Cl2]
+
+Coordination sphere isomers ________.
+A) have the same molecular formula and coordination number
+B) have the same molecular formula but different coordination numbers
+C) have different molecular formulas but the same coordination number
+D) have different molecular formulas and different coordination numbers
+E) are the same as resonance structures
+
+Based on electron configuration, which is most likely colorless?
+A) [Cu(NH3)4]2+
+B) [Cd(NH3)4]2+
+C) [Ni(NH3)6]2+
+D) [Cr(NH3)5Cl]2+
+E) [Co(NH3)6]2+
+
+A metal complex absorbs light mainly at 420 nm. What is the color of the complex?
+A) green
+B) yellow
+C) red
+D) orange
+E) purple
+
+Which one of the following complex ions will be paramagnetic?
+A) [Fe(H2O)6]2+ (low spin)
+B) [Fe(H2O)6]3+ (low spin)
+C) [Co(H2O)6]3+ (low spin)
+D) [Zn(H2O)4]2+
+E) [Zn(NH3)4]2+
+
+Complexes containing metals with d10 electron configurations are typically colorless because ________.
+A) there is no d electron that can be promoted via the absorption of visible light
+B) the empty d orbitals absorb all of the visible wavelengths
+C) there are no d electrons to form bonds to ligands
+D) a complex must be charged to be colored
+E) d electrons must be emitted by the complex in order for it to appear colored
+
+The attraction of a metal to a neutral ligand is due to ________ bonding.
+A) ionic
+B) covalent
+C) ion-dipole
+D) dipole-dipole
+E) hydrophobic
+

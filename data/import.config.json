@@ -1,7 +1,7 @@
 {
   "bankId": "chem-250",
-  "version": 2,
-  "title": "大学化学 250 题（Chapter 1a 原子 + 1b 化学键 + Chapter 2 热力学）",
+  "version": 3,
+  "title": "大学化学 400 题（1a 原子 + 1b 化学键 + 2 热力学 + 3b 平衡 + 4 电化学）",
   "out": "public/questions/chem-bank.json",
   "sources": [
     {
@@ -51,6 +51,20 @@
       "imageManifest": "public/images/chapter1c/manifest.json",
       "imageBase": "images/chapter1c/",
       "official": "data/answer-keys/chapter1c.official.json"
+    },
+    {
+      "label": "chapter3b",
+      "chapter": "Chapter 3 Chemical Reaction (Equilibrium Q&A)",
+      "idPrefix": "3B",
+      "raw": "data/raw/chapter3b.raw.json",
+      "answers": "data/answer-keys/chapter3b.ai.json"
+    },
+    {
+      "label": "chapter4",
+      "chapter": "Chapter 4 Electrochemistry (Questions)",
+      "idPrefix": "4",
+      "raw": "data/raw/chapter4.raw.json",
+      "answers": "data/answer-keys/chapter4.ai.json"
     }
   ]
 }

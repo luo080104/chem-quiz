@@ -1,0 +1,2606 @@
+{
+  "label": "chapter3b",
+  "sourceFile": "C:\\Users\\luoji\\AppData\\Local\\Temp\\opencode\\chemnew\\ch3b.txt",
+  "parsedAt": "2026-11-03T09:37:10.076Z",
+  "count": 100,
+  "numbered": false,
+  "explicitNumberCount": 0,
+  "questions": [
+    {
+      "originalNumber": 1,
+      "stem": "At equilibrium, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "all chemical reactions have ceased"
+        },
+        {
+          "key": "B",
+          "text": "the rates of the forward and reverse reactions are equal"
+        },
+        {
+          "key": "C",
+          "text": "the rate constants of the forward and reverse reactions are equal"
+        },
+        {
+          "key": "D",
+          "text": "the value of the equilibrium constant is 1"
+        },
+        {
+          "key": "E",
+          "text": "the limiting reagent has been consumed"
+        }
+      ]
+    },
+    {
+      "originalNumber": 2,
+      "stem": "Which one of the following is true concerning the Haber process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a process used for shifting equilibrium positions to the right for more economical chemical synthesis of a variety of substances."
+        },
+        {
+          "key": "B",
+          "text": "It is a process used for the synthesis of ammonia."
+        },
+        {
+          "key": "C",
+          "text": "It is another way of stating Le Châtelier's principle."
+        },
+        {
+          "key": "D",
+          "text": "It is an industrial synthesis of sodium chloride that was discovered by Karl Haber."
+        },
+        {
+          "key": "E",
+          "text": "It is a process for the synthesis of elemental chlorine."
+        }
+      ]
+    },
+    {
+      "originalNumber": 3,
+      "stem": "Which one of the following will change the value of an equilibrium constant?",
+      "options": [
+        {
+          "key": "A",
+          "text": "changing temperature"
+        },
+        {
+          "key": "B",
+          "text": "adding other substances that do not react with any of the species involved in the equilibrium"
+        },
+        {
+          "key": "C",
+          "text": "varying the initial concentrations of reactants"
+        },
+        {
+          "key": "D",
+          "text": "varying the initial concentrations of products"
+        },
+        {
+          "key": "E",
+          "text": "changing the volume of the reaction vessel"
+        }
+      ]
+    },
+    {
+      "originalNumber": 4,
+      "stem": "Which of the following expressions is the correct equilibrium-constant expression for the equilibrium between dinitrogen tetroxide and nitrogen dioxide? N2O4 (g) ⇌ 2NO2 (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "[NO2]/[N2O4]"
+        },
+        {
+          "key": "B",
+          "text": "[NO2]2/[N2O4]"
+        },
+        {
+          "key": "C",
+          "text": "[NO2]/[N2O4]2"
+        },
+        {
+          "key": "D",
+          "text": "[NO2][N2O4]"
+        },
+        {
+          "key": "E",
+          "text": "[NO2]2[N2O4]"
+        }
+      ]
+    },
+    {
+      "originalNumber": 5,
+      "stem": "The equilibrium-constant expression depends on the ________ of the reaction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "stoichiometry"
+        },
+        {
+          "key": "B",
+          "text": "mechanism"
+        },
+        {
+          "key": "C",
+          "text": "stoichiometry and mechanism"
+        },
+        {
+          "key": "D",
+          "text": "the quantities of reactants and products initially present"
+        },
+        {
+          "key": "E",
+          "text": "temperature"
+        }
+      ]
+    },
+    {
+      "originalNumber": 6,
+      "stem": "The equilibrium expression for Kp for the reaction below is ________. 2O3 (g) ⇌ 3O2 (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3P(O2)/2P(O3)"
+        },
+        {
+          "key": "B",
+          "text": "2P(O3)/3P(O2)"
+        },
+        {
+          "key": "C",
+          "text": "3P(O3)/2P(O2)"
+        },
+        {
+          "key": "D",
+          "text": "P(O3)2/P(O2)2"
+        },
+        {
+          "key": "E",
+          "text": "P(O2)3/P(O3)2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 7,
+      "stem": "The Keq for the equilibrium below is 7.52 × 10-2 at 480.0 °C. 2Cl2 (g) + 2H2O (g) ⇌ 4HCl (g) + O2 (g) What is the value of Keq at this temperature for the following reaction? 2HCl (g) + ½O2 (g) ⇌ Cl2 (g) + H2O (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "13.3"
+        },
+        {
+          "key": "B",
+          "text": "3.65"
+        },
+        {
+          "key": "C",
+          "text": "-0.0376"
+        },
+        {
+          "key": "D",
+          "text": "5.66 × 10-3"
+        },
+        {
+          "key": "E",
+          "text": "0.274"
+        }
+      ]
+    },
+    {
+      "originalNumber": 8,
+      "stem": "Given the following reaction at equilibrium, if Kc = 1.90 × 1019 at 25.0 °C, Kp = ________. H2 (g) + Br2 (g) ⇌ 2 HBr (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.26 × 10-20"
+        },
+        {
+          "key": "B",
+          "text": "1.56 × 104"
+        },
+        {
+          "key": "C",
+          "text": "6.44 × 105"
+        },
+        {
+          "key": "D",
+          "text": "1.90 × 1019"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 9,
+      "stem": "Which of the following expressions is the correct equilibrium-constant expression for the reaction below? HF (aq) + H2O (l) ⇌ H3O+ (aq) + F- (aq)",
+      "options": [
+        {
+          "key": "A",
+          "text": "[HF][H2O] / [H3O+][F-]"
+        },
+        {
+          "key": "B",
+          "text": "1 / [HF]"
+        },
+        {
+          "key": "C",
+          "text": "[H3O+][F-] / [HF][H2O]"
+        },
+        {
+          "key": "D",
+          "text": "[H3O+][F-] / [HF]"
+        },
+        {
+          "key": "E",
+          "text": "[F-] / [HF]"
+        }
+      ]
+    },
+    {
+      "originalNumber": 10,
+      "stem": "The equilibrium constant for the gas phase reaction N2 (g) + 3H2 (g) ⇌ 2NH3 (g) is Keq = 4.34 × 10-3 at 300 °C. At equilibrium, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "products predominate"
+        },
+        {
+          "key": "B",
+          "text": "reactants predominate"
+        },
+        {
+          "key": "C",
+          "text": "roughly equal amounts of products and reactants are present"
+        },
+        {
+          "key": "D",
+          "text": "only products are present"
+        },
+        {
+          "key": "E",
+          "text": "only reactants are present"
+        }
+      ]
+    },
+    {
+      "originalNumber": 11,
+      "stem": "Consider the following equilibrium. 2 SO2 (g) + O2 (g) ⇌ 2 SO3 (g) The equilibrium cannot be established when ________ is/are placed in a 1.0-L container.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.25 mol SO2 (g) and 0.25 mol O2 (g)"
+        },
+        {
+          "key": "B",
+          "text": "0.75 mol SO2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "0.25 mol of SO2 (g) and 0.25 mol of SO3 (g)"
+        },
+        {
+          "key": "D",
+          "text": "0.50 mol O2 (g) and 0.50 mol SO3 (g)"
+        },
+        {
+          "key": "E",
+          "text": "1.0 mol SO3 (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 12,
+      "stem": "At 400 K, the equilibrium constant for the reaction Br2 (g) + Cl2 (g) ⇌ 2BrCl (g) is Kp = 7.0. A closed vessel at 400 K is charged with 1.00 atm of Br2 (g), 1.00 atm of Cl2 (g), and 2.00 atm of BrCl (g). Use Q to determine which of the statements below is true.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The equilibrium partial pressures of Br2, Cl2, and BrCl will be the same as the initial values."
+        },
+        {
+          "key": "B",
+          "text": "The equilibrium partial pressure of Br2 will be greater than 1.00 atm."
+        },
+        {
+          "key": "C",
+          "text": "At equilibrium, the total pressure in the vessel will be less than the initial total pressure."
+        },
+        {
+          "key": "D",
+          "text": "The equilibrium partial pressure of BrCl (g) will be greater than 2.00 atm."
+        },
+        {
+          "key": "E",
+          "text": "The reaction will go to completion since there are equal amounts of Br2 and Cl2."
+        }
+      ]
+    },
+    {
+      "originalNumber": 13,
+      "stem": "Which of the following statements is true?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Q does not change with temperature."
+        },
+        {
+          "key": "B",
+          "text": "Keq does not change with temperature, whereas Q is temperature dependent."
+        },
+        {
+          "key": "C",
+          "text": "K does not depend on the concentrations or partial pressures of reaction components."
+        },
+        {
+          "key": "D",
+          "text": "Q does not depend on the concentrations or partial pressures of reaction components."
+        },
+        {
+          "key": "E",
+          "text": "Q is the same as Keq when a reaction is at equilibrium."
+        }
+      ]
+    },
+    {
+      "originalNumber": 14,
+      "stem": "How is the reaction quotient used to determine whether a system is at equilibrium?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reaction quotient must be satisfied for equilibrium to be achieved."
+        },
+        {
+          "key": "B",
+          "text": "At equilibrium, the reaction quotient is undefined."
+        },
+        {
+          "key": "C",
+          "text": "The reaction is at equilibrium when Q < Keq."
+        },
+        {
+          "key": "D",
+          "text": "The reaction is at equilibrium when Q > Keq."
+        },
+        {
+          "key": "E",
+          "text": "The reaction is at equilibrium when Q = Keq."
+        }
+      ]
+    },
+    {
+      "originalNumber": 15,
+      "stem": "Of the following equilibria, only ________ will shift to the right in response to a decrease in volume.",
+      "options": [
+        {
+          "key": "A",
+          "text": "H2 (g)  +  Cl2 (g)  ⇌  2 HCl (g)"
+        },
+        {
+          "key": "B",
+          "text": "2 SO3 (g)  ⇌  2 SO2 (g)  +  O2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "N2 (g)  +  3H2 (g)  ⇌  2NH3 (g)"
+        },
+        {
+          "key": "D",
+          "text": "2 Fe2O3 (s)  ⇌  4 Fe (s)  +  3O2 (g)"
+        },
+        {
+          "key": "E",
+          "text": "2HI (g)  ⇌  H2 (g)  +  I2 (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 16,
+      "stem": "Consider the following reaction at equilibrium: 2NH3 (g) ⇌ N2 (g) + 3H2 (g) Le Châtelier's principle predicts that the moles of H2 in the reaction container will increase with ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "some removal of NH3 from the reaction vessel (V and T constant)"
+        },
+        {
+          "key": "B",
+          "text": "a decrease in the total pressure (T constant)"
+        },
+        {
+          "key": "C",
+          "text": "addition of some N2 to the reaction vessel (V and T constant)"
+        },
+        {
+          "key": "D",
+          "text": "a decrease in the total volume of the reaction vessel (T constant)"
+        },
+        {
+          "key": "E",
+          "text": "an increase in total pressure by the addition of helium gas (V and T constant)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 17,
+      "stem": "The effect of a catalyst on an equilibrium is to ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "increase the rate of the forward reaction only"
+        },
+        {
+          "key": "B",
+          "text": "increase the equilibrium constant so that products are favored"
+        },
+        {
+          "key": "C",
+          "text": "slow the reverse reaction only"
+        },
+        {
+          "key": "D",
+          "text": "increase the rate at which equilibrium is achieved without changing the composition of the equilibrium mixture"
+        },
+        {
+          "key": "E",
+          "text": "shift the equilibrium to the right"
+        }
+      ]
+    },
+    {
+      "originalNumber": 18,
+      "stem": "The value of Keq for the equilibrium H2 (g) + I2 (g) ⇌ 2HI (g) is 794 at 25 °C. What is the value of Keq for the equilibrium below? ½H2 (g) + ½I2 (g) ⇌ HI (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "397"
+        },
+        {
+          "key": "B",
+          "text": "0.035"
+        },
+        {
+          "key": "C",
+          "text": "28"
+        },
+        {
+          "key": "D",
+          "text": "1588"
+        },
+        {
+          "key": "E",
+          "text": "0.0013"
+        }
+      ]
+    },
+    {
+      "originalNumber": 19,
+      "stem": "The value of Keq for the equilibrium CO2 (g) + 2H2 (g) ⇌ CH3OH (g) is 14.5 at 483 °C. What is the value of Keq for the equilibrium below? ½CO2 (g) + H2 (g) ⇌ ½CH3OH (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "7.30"
+        },
+        {
+          "key": "B",
+          "text": "7.35"
+        },
+        {
+          "key": "C",
+          "text": "0.136"
+        },
+        {
+          "key": "D",
+          "text": "3.81"
+        },
+        {
+          "key": "E",
+          "text": "6.90 × 10-2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 20,
+      "stem": "A reaction vessel is charged with hydrogen iodide, which partially decomposes to molecular hydrogen and iodine: 2HI (g) ⇌ H2(g) + I2(g) When the system comes to equilibrium at 425 °C, PHI = 0.708 atm, and PH2 = PI2 = 0.0960 atm. The value of Kp at this temperature is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "6.80 × 10-2"
+        },
+        {
+          "key": "B",
+          "text": "1.30 × 10-2"
+        },
+        {
+          "key": "C",
+          "text": "54.3"
+        },
+        {
+          "key": "D",
+          "text": "1.84 × 10-2"
+        },
+        {
+          "key": "E",
+          "text": "Kp cannot be calculated for this gas reaction when the volume of the reaction vessel is not given."
+        }
+      ]
+    },
+    {
+      "originalNumber": 21,
+      "stem": "Given the following reaction: CO (g) + 2 H2(g) ⇌ CH3OH (g) In an experiment, 0.42 mol of CO and 0.42 mol of H2 were placed in a 1.00-L reaction vessel. At equilibrium, there were 0.29 mol of CO remaining. Keq at the temperature of the experiment is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.80"
+        },
+        {
+          "key": "B",
+          "text": "0.357"
+        },
+        {
+          "key": "C",
+          "text": "14.5"
+        },
+        {
+          "key": "D",
+          "text": "17.5"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 22,
+      "stem": "A sealed 1.0 L flask is charged with 0.500 mol of I2 and 0.500 mol of Br2. An equilibrium reaction ensues: I2 (g) + Br2 (g) ⇌ 2IBr (g) When the container contents achieve equilibrium, the flask contains 0.84 mol of IBr. The value of Keq is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "11"
+        },
+        {
+          "key": "B",
+          "text": "4.0"
+        },
+        {
+          "key": "C",
+          "text": "110"
+        },
+        {
+          "key": "D",
+          "text": "6.1"
+        },
+        {
+          "key": "E",
+          "text": "2.8"
+        }
+      ]
+    },
+    {
+      "originalNumber": 23,
+      "stem": "At 200 °C, the equilibrium constant (Kp) for the reaction below is 2.40 × 103. 2NO (g) ⇌ N2 (g) + O2 (g) A closed vessel is charged with 36.1 atm of NO. At equilibrium, the partial pressure of O2 is ________ atm.",
+      "options": [
+        {
+          "key": "A",
+          "text": "294"
+        },
+        {
+          "key": "B",
+          "text": "35.7"
+        },
+        {
+          "key": "C",
+          "text": "17.9"
+        },
+        {
+          "key": "D",
+          "text": "6.00"
+        },
+        {
+          "key": "E",
+          "text": "1.50 × 10-2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 24,
+      "stem": "According to the Arrhenius concept, an acid is a substance that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is capable of donating one or more H+"
+        },
+        {
+          "key": "B",
+          "text": "causes an increase in the concentration of H+ in aqueous solutions"
+        },
+        {
+          "key": "C",
+          "text": "can accept a pair of electrons to form a coordinate covalent bond"
+        },
+        {
+          "key": "D",
+          "text": "reacts with the solvent to form the cation formed by autoionization of that solvent"
+        },
+        {
+          "key": "E",
+          "text": "tastes bitter"
+        }
+      ]
+    },
+    {
+      "originalNumber": 25,
+      "stem": "A Br∅nsted-Lowry base is defined as a substance that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "increases [H+] when placed in H2O"
+        },
+        {
+          "key": "B",
+          "text": "decreases [H+] when placed in H2O"
+        },
+        {
+          "key": "C",
+          "text": "increases [OH-] when placed in H2O"
+        },
+        {
+          "key": "D",
+          "text": "acts as a proton acceptor"
+        },
+        {
+          "key": "E",
+          "text": "acts as a proton donor"
+        }
+      ]
+    },
+    {
+      "originalNumber": 26,
+      "stem": "The molar concentration of hydronium ion in pure water at 25 °C is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.00"
+        },
+        {
+          "key": "B",
+          "text": "1.0 × 10-7"
+        },
+        {
+          "key": "C",
+          "text": "1.0 × 10-14"
+        },
+        {
+          "key": "D",
+          "text": "1.00"
+        },
+        {
+          "key": "E",
+          "text": "7.00"
+        }
+      ]
+    },
+    {
+      "originalNumber": 27,
+      "stem": "The hydride ion, H-, is a stronger base than the hydroxide ion, OH-. The product(s) of the reaction of hydride ion with water is/are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "H3O+ (aq)"
+        },
+        {
+          "key": "B",
+          "text": "OH- (aq)  +  H2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "OH- (aq)  +  2H+ (aq)"
+        },
+        {
+          "key": "D",
+          "text": "no reaction occurs"
+        },
+        {
+          "key": "E",
+          "text": "H2O2 (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 28,
+      "stem": "Of the following acids, ________ is a strong acid.",
+      "options": [
+        {
+          "key": "A",
+          "text": "HNO2"
+        },
+        {
+          "key": "B",
+          "text": "H2CO3"
+        },
+        {
+          "key": "C",
+          "text": "HNO3"
+        },
+        {
+          "key": "D",
+          "text": "HClO"
+        },
+        {
+          "key": "E",
+          "text": "HF"
+        }
+      ]
+    },
+    {
+      "originalNumber": 29,
+      "stem": "Of the following, ________ is a weak acid.",
+      "options": [
+        {
+          "key": "A",
+          "text": "HF"
+        },
+        {
+          "key": "B",
+          "text": "HCl"
+        },
+        {
+          "key": "C",
+          "text": "HBr"
+        },
+        {
+          "key": "D",
+          "text": "HNO3"
+        },
+        {
+          "key": "E",
+          "text": "HClO4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 30,
+      "stem": "Of the acids in the table below, ________ is the strongest acid. (Ka: HOAc 1.8 × 10-5; HCHO2 1.8 × 10-4; HClO 3.0 × 10-8; HF 6.8 × 10-4)",
+      "options": [
+        {
+          "key": "A",
+          "text": "HOAc"
+        },
+        {
+          "key": "B",
+          "text": "HCHO2"
+        },
+        {
+          "key": "C",
+          "text": "HClO"
+        },
+        {
+          "key": "D",
+          "text": "HF"
+        },
+        {
+          "key": "E",
+          "text": "HOAc and HCHO2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 31,
+      "stem": "The Ka of hypochlorous acid (HClO) is 3.0 × 10-8 at 25 °C. What is the percent ionization of hypochlorous acid in a 0.015 M aqueous solution of HClO at 25 °C?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4.5 × 10-8"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "2.1 × 10-5"
+        },
+        {
+          "key": "D",
+          "text": "0.14"
+        },
+        {
+          "key": "E",
+          "text": "1.4 × 10-3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 32,
+      "stem": "Classify the following compounds as weak acids (W) or strong acids (S): benzoic acid nitric acid acetic acid",
+      "options": [
+        {
+          "key": "A",
+          "text": "W W W"
+        },
+        {
+          "key": "B",
+          "text": "S S S"
+        },
+        {
+          "key": "C",
+          "text": "S W W"
+        },
+        {
+          "key": "D",
+          "text": "W S S"
+        },
+        {
+          "key": "E",
+          "text": "W S W"
+        }
+      ]
+    },
+    {
+      "originalNumber": 33,
+      "stem": "Classify the following compounds as weak acids (W) or strong acids (S): hypochlorous acid perchloric acid chloric acid",
+      "options": [
+        {
+          "key": "A",
+          "text": "W S S"
+        },
+        {
+          "key": "B",
+          "text": "S S S"
+        },
+        {
+          "key": "C",
+          "text": "S W W"
+        },
+        {
+          "key": "D",
+          "text": "W W W"
+        },
+        {
+          "key": "E",
+          "text": "W S W"
+        }
+      ]
+    },
+    {
+      "originalNumber": 34,
+      "stem": "Ammonia is a ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "weak acid"
+        },
+        {
+          "key": "B",
+          "text": "strong base"
+        },
+        {
+          "key": "C",
+          "text": "weak base"
+        },
+        {
+          "key": "D",
+          "text": "strong acid"
+        },
+        {
+          "key": "E",
+          "text": "salt"
+        }
+      ]
+    },
+    {
+      "originalNumber": 35,
+      "stem": "HA is a weak acid. Which equilibrium corresponds to the equilibrium constant Kb for A-?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HA (aq)  +  H2O (l)  ⇌  H2A+ (aq)  +  OH-(aq)"
+        },
+        {
+          "key": "B",
+          "text": "A- (aq)  +  H3O+ (aq)  ⇌  HA (aq)  +  H2O (l)"
+        },
+        {
+          "key": "C",
+          "text": "HA (aq)  +  OH- (aq)  ⇌  H2O (l)  +  H+ (aq)"
+        },
+        {
+          "key": "D",
+          "text": "A- (aq)  +  H2O (l)  ⇌  HA (aq)  +  OH- (aq)"
+        },
+        {
+          "key": "E",
+          "text": "A- (aq)  +  OH- (aq)  ⇌  HOA2- (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 36,
+      "stem": "Classify the following compounds as weak bases (W) or strong bases (S): ammonia fluoride ion sodium hydroxide",
+      "options": [
+        {
+          "key": "A",
+          "text": "W W S"
+        },
+        {
+          "key": "B",
+          "text": "S S S"
+        },
+        {
+          "key": "C",
+          "text": "S W W"
+        },
+        {
+          "key": "D",
+          "text": "W S  S"
+        },
+        {
+          "key": "E",
+          "text": "W S W"
+        }
+      ]
+    },
+    {
+      "originalNumber": 37,
+      "stem": "Using the data in the table, which of the conjugate bases below is the strongest base? (Ka: HOAc 1.8 × 10-5; HC7H5O2 6.3 × 10-5; HNO2 4.5 × 10-4; HF 6.8 × 10-4)",
+      "options": [
+        {
+          "key": "A",
+          "text": "OAc-"
+        },
+        {
+          "key": "B",
+          "text": "C7H5O2-"
+        },
+        {
+          "key": "C",
+          "text": "NO2-"
+        },
+        {
+          "key": "D",
+          "text": "F-"
+        },
+        {
+          "key": "E",
+          "text": "OAc- and C7H5O2-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 38,
+      "stem": "Using the data in the table, which of the conjugate bases below is the strongest base? (Ka: HOAc 1.8 × 10-5; HCHO2 1.8 × 10-4; HClO 3.0 × 10-8; HF 6.8 × 10-4)",
+      "options": [
+        {
+          "key": "A",
+          "text": "OAc-"
+        },
+        {
+          "key": "B",
+          "text": "CHO2-"
+        },
+        {
+          "key": "C",
+          "text": "ClO-"
+        },
+        {
+          "key": "D",
+          "text": "F-"
+        },
+        {
+          "key": "E",
+          "text": "OAc- and CHO2-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 39,
+      "stem": "Using the data in the table, which of the conjugate acids below is the strongest acid? (Kb: ClO- 3.3 × 10-7; CO3^2- 1.8 × 10-4; HS- 1.8 × 10-7; NH2CH3 4.4 × 10-4)",
+      "options": [
+        {
+          "key": "A",
+          "text": "HClO"
+        },
+        {
+          "key": "B",
+          "text": "HCO3-"
+        },
+        {
+          "key": "C",
+          "text": "H2S"
+        },
+        {
+          "key": "D",
+          "text": "NH3CH3+"
+        },
+        {
+          "key": "E",
+          "text": "H2S and HClO"
+        }
+      ]
+    },
+    {
+      "originalNumber": 40,
+      "stem": "Using the data in the table, which of the conjugate acids below is the weakest acid? (Kb: NH3 1.8 × 10-5; C5H5N 1.7 × 10-9; H2NOH 1.1 × 10-8; NH2CH3 4.4 × 10-4)",
+      "options": [
+        {
+          "key": "A",
+          "text": "NH4+"
+        },
+        {
+          "key": "B",
+          "text": "C5H5NH+"
+        },
+        {
+          "key": "C",
+          "text": "H3NOH+"
+        },
+        {
+          "key": "D",
+          "text": "NH3CH3+"
+        },
+        {
+          "key": "E",
+          "text": "NH4+ and NH3CH3+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 41,
+      "stem": "Which of the following ions will act as a weak base in water?",
+      "options": [
+        {
+          "key": "A",
+          "text": "OH-"
+        },
+        {
+          "key": "B",
+          "text": "Cl-"
+        },
+        {
+          "key": "C",
+          "text": "NO3-"
+        },
+        {
+          "key": "D",
+          "text": "ClO-"
+        },
+        {
+          "key": "E",
+          "text": "None of the above will act as a weak base in water."
+        }
+      ]
+    },
+    {
+      "originalNumber": 42,
+      "stem": "Which of the following aqueous solutions has the highest [OH-]?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a solution with a pH of 3.0"
+        },
+        {
+          "key": "B",
+          "text": "a 1 × 10-4 M solution of HNO3"
+        },
+        {
+          "key": "C",
+          "text": "a solution with a pOH of 12.0"
+        },
+        {
+          "key": "D",
+          "text": "pure water"
+        },
+        {
+          "key": "E",
+          "text": "a 1 × 10-3 M solution of NH4Cl"
+        }
+      ]
+    },
+    {
+      "originalNumber": 43,
+      "stem": "Of the following substances, an aqueous solution of ________ will form basic solutions. NH4Cl Cu(NO3)2 K2CO3 NaF",
+      "options": [
+        {
+          "key": "A",
+          "text": "NH4Cl, Cu(NO3)2"
+        },
+        {
+          "key": "B",
+          "text": "K2CO3, NH4Cl"
+        },
+        {
+          "key": "C",
+          "text": "NaF only"
+        },
+        {
+          "key": "D",
+          "text": "NaF, K2CO3"
+        },
+        {
+          "key": "E",
+          "text": "NH4Cl only"
+        }
+      ]
+    },
+    {
+      "originalNumber": 44,
+      "stem": "Of the compounds below, a 0.1 M aqueous solution of ________ will have the highest pH.",
+      "options": [
+        {
+          "key": "A",
+          "text": "KCN, Ka of HCN = 4.0 × 10-10"
+        },
+        {
+          "key": "B",
+          "text": "NH4NO3, Kb of NH3 = 1.8 × 10-5"
+        },
+        {
+          "key": "C",
+          "text": "NaOAc, Ka of HOAc = 1.8 × 10-5"
+        },
+        {
+          "key": "D",
+          "text": "NaClO, Ka of HClO = 3.2 × 10-8"
+        },
+        {
+          "key": "E",
+          "text": "NaHS, Kb of HS- = 1.8 × 10-7"
+        }
+      ]
+    },
+    {
+      "originalNumber": 45,
+      "stem": "What is the pOH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydronium ion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "8.400"
+        },
+        {
+          "key": "B",
+          "text": "5.600"
+        },
+        {
+          "key": "C",
+          "text": "9.000"
+        },
+        {
+          "key": "D",
+          "text": "3.980"
+        },
+        {
+          "key": "E",
+          "text": "7.000"
+        }
+      ]
+    },
+    {
+      "originalNumber": 46,
+      "stem": "What is the pH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydroxide ion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "8.40"
+        },
+        {
+          "key": "B",
+          "text": "5.60"
+        },
+        {
+          "key": "C",
+          "text": "9.00"
+        },
+        {
+          "key": "D",
+          "text": "3.98"
+        },
+        {
+          "key": "E",
+          "text": "7.00"
+        }
+      ]
+    },
+    {
+      "originalNumber": 47,
+      "stem": "Calculate the concentration (in M) of hydronium ions in a solution at 25.0 °C with a pOH of 4.223.",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.98 × 10-5"
+        },
+        {
+          "key": "B",
+          "text": "1.67 × 10-10"
+        },
+        {
+          "key": "C",
+          "text": "1.67 × 104"
+        },
+        {
+          "key": "D",
+          "text": "5.99 × 10-19"
+        },
+        {
+          "key": "E",
+          "text": "1.00 × 10-7"
+        }
+      ]
+    },
+    {
+      "originalNumber": 48,
+      "stem": "An aqueous solution contains 0.100 M NaOH at 25.0 °C. The pH of the solution is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.100"
+        },
+        {
+          "key": "B",
+          "text": "1.00"
+        },
+        {
+          "key": "C",
+          "text": "13.00"
+        },
+        {
+          "key": "D",
+          "text": "7.00"
+        },
+        {
+          "key": "E",
+          "text": "-1.00"
+        }
+      ]
+    },
+    {
+      "originalNumber": 49,
+      "stem": "HZ is a weak acid. An aqueous solution of HZ is prepared by dissolving 0.020 mol of HZ in sufficient water to yield 1.0 L of solution. The pH of the solution was 4.93 at 25.0 °C. The Ka of HZ is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.2 × 10-5"
+        },
+        {
+          "key": "B",
+          "text": "6.9 × 10-9"
+        },
+        {
+          "key": "C",
+          "text": "1.4 × 10-10"
+        },
+        {
+          "key": "D",
+          "text": "9.9 × 10-2"
+        },
+        {
+          "key": "E",
+          "text": "2.8 × 10-12"
+        }
+      ]
+    },
+    {
+      "originalNumber": 50,
+      "stem": "The pH of a 0.25 M aqueous solution of hydrofluoric acid, HF, at 25.0 °C is 2.03. What is the value of Ka for HF?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.0 × 10-9"
+        },
+        {
+          "key": "B",
+          "text": "1.1 × 10-9"
+        },
+        {
+          "key": "C",
+          "text": "6.0 × 10-5"
+        },
+        {
+          "key": "D",
+          "text": "3.5 × 10-4"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 51,
+      "stem": "The Ka of hypochlorous acid (HClO) is 3.00 × 10-8. What is the pH at 25.0 °C of an aqueous solution that is 0.0200 M in HClO?",
+      "options": [
+        {
+          "key": "A",
+          "text": "+2.45"
+        },
+        {
+          "key": "B",
+          "text": "-2.45"
+        },
+        {
+          "key": "C",
+          "text": "-9.22"
+        },
+        {
+          "key": "D",
+          "text": "+9.22"
+        },
+        {
+          "key": "E",
+          "text": "+4.61"
+        }
+      ]
+    },
+    {
+      "originalNumber": 52,
+      "stem": "The acid-dissociation constants of sulfurous acid (H2SO3) are Ka1 = 1.7 × 10-2 and Ka2 = 6.4 × 10-8 at 25.0 °C. Calculate the pH of a 0.163 M aqueous solution of sulfurous acid.",
+      "options": [
+        {
+          "key": "A",
+          "text": "4.53"
+        },
+        {
+          "key": "B",
+          "text": "1.28"
+        },
+        {
+          "key": "C",
+          "text": "1.86"
+        },
+        {
+          "key": "D",
+          "text": "6.21"
+        },
+        {
+          "key": "E",
+          "text": "1.93"
+        }
+      ]
+    },
+    {
+      "originalNumber": 53,
+      "stem": "The pH of a 0.55 M aqueous solution ammonia, NH3, at 25.0 °C is 11.50. What is the value of Kb for NH3?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.0 × 10-9"
+        },
+        {
+          "key": "B",
+          "text": "1.1 × 10-9"
+        },
+        {
+          "key": "C",
+          "text": "6.0 × 10-5"
+        },
+        {
+          "key": "D",
+          "text": "1.8 × 10-5"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 54,
+      "stem": "The pH of a 0.10 M solution of a weak base is 9.82. What is the Kb for this base?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.1 × 10-4"
+        },
+        {
+          "key": "B",
+          "text": "4.4 × 10-8"
+        },
+        {
+          "key": "C",
+          "text": "8.8 × 10-8"
+        },
+        {
+          "key": "D",
+          "text": "6.6 × 10-4"
+        },
+        {
+          "key": "E",
+          "text": "2.0 × 10-5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 55,
+      "stem": "An aqueous solution contains 0.050 M of methylamine. The concentration of hydroxide ion in this solution is ________ M. Kb for methylamine is 4.4 × 10-4.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.050"
+        },
+        {
+          "key": "B",
+          "text": "2.2 × 10-5"
+        },
+        {
+          "key": "C",
+          "text": "2.9 × 10-3"
+        },
+        {
+          "key": "D",
+          "text": "4.5 × 10-3"
+        },
+        {
+          "key": "E",
+          "text": "4.7 × 10-3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 56,
+      "stem": "Which one of the following pairs cannot be mixed together to form a buffer solution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HONH2, HONH3Cl"
+        },
+        {
+          "key": "B",
+          "text": "NaCl, HCl"
+        },
+        {
+          "key": "C",
+          "text": "RbOH, HF"
+        },
+        {
+          "key": "D",
+          "text": "KOH, HNO2"
+        },
+        {
+          "key": "E",
+          "text": "H2SO3, KHSO3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 57,
+      "stem": "A solution containing which one of the following pairs of substances will be a buffer solution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "KI, HI"
+        },
+        {
+          "key": "B",
+          "text": "AgBr, HBr"
+        },
+        {
+          "key": "C",
+          "text": "CuCl, HCl"
+        },
+        {
+          "key": "D",
+          "text": "CsI, HI"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 58,
+      "stem": "What change will be caused by addition of a small amount of HCl to a solution containing fluoride ions and hydrogen fluoride?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The concentration of hydronium ions will increase significantly."
+        },
+        {
+          "key": "B",
+          "text": "The concentration of fluoride ions will increase as will the concentration of hydronium ions."
+        },
+        {
+          "key": "C",
+          "text": "The concentration of hydrogen fluoride will decrease and the concentration of fluoride ions will increase."
+        },
+        {
+          "key": "D",
+          "text": "The concentration of fluoride ion will decrease and the concentration of hydrogen fluoride will increase."
+        },
+        {
+          "key": "E",
+          "text": "The fluoride ions will precipitate out of solution as its acid salt."
+        }
+      ]
+    },
+    {
+      "originalNumber": 59,
+      "stem": "In a solution, when the concentrations of a weak acid and its conjugate base are equal, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the system is not at equilibrium"
+        },
+        {
+          "key": "B",
+          "text": "the buffering capacity is significantly decreased"
+        },
+        {
+          "key": "C",
+          "text": "the -log of the [H+] and the -log of the Ka are equal"
+        },
+        {
+          "key": "D",
+          "text": "All of the above are true."
+        }
+      ]
+    },
+    {
+      "originalNumber": 60,
+      "stem": "The addition of hydrofluoric acid and ________ to water produces a buffer solution.",
+      "options": [
+        {
+          "key": "A",
+          "text": "HCl"
+        },
+        {
+          "key": "B",
+          "text": "NaNO3"
+        },
+        {
+          "key": "C",
+          "text": "NaCl"
+        },
+        {
+          "key": "D",
+          "text": "NaOH"
+        },
+        {
+          "key": "E",
+          "text": "NaBr"
+        }
+      ]
+    },
+    {
+      "originalNumber": 61,
+      "stem": "Which of the following could be added to a solution of potassium fluoride to prepare a buffer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "sodium hydroxide"
+        },
+        {
+          "key": "B",
+          "text": "potassium acetate"
+        },
+        {
+          "key": "C",
+          "text": "hydrochloric acid"
+        },
+        {
+          "key": "D",
+          "text": "sodium fluoride"
+        },
+        {
+          "key": "E",
+          "text": "ammonia"
+        }
+      ]
+    },
+    {
+      "originalNumber": 62,
+      "stem": "A result of the common-ion effect is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "that some ions, such as Na+ (aq), frequently appear in solutions but do not participate in solubility equilibria"
+        },
+        {
+          "key": "B",
+          "text": "that common ions, such as Na+ (aq), don't affect equilibrium constants"
+        },
+        {
+          "key": "C",
+          "text": "that the selective precipitation of a metal ion, such as Ag+, is promoted by the addition of an appropriate counterion (X-) that produces a compound (AgX) with a very low solubility"
+        },
+        {
+          "key": "D",
+          "text": "that ions such as K+ and Na+ are common ions, so that their values in quilibrium constant expressions are always 1.00"
+        },
+        {
+          "key": "E",
+          "text": "that common ions precipitate all counter-ions"
+        }
+      ]
+    },
+    {
+      "originalNumber": 63,
+      "stem": "The Ka of benzoic acid is 6.30 × 10-5. The pH of a buffer prepared by combining 50.0 mL of 1.00 M potassium benzoate and 50.0 mL of 1.00 M benzoic acid is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.705"
+        },
+        {
+          "key": "B",
+          "text": "0.851"
+        },
+        {
+          "key": "C",
+          "text": "3.406"
+        },
+        {
+          "key": "D",
+          "text": "4.201"
+        },
+        {
+          "key": "E",
+          "text": "2.383"
+        }
+      ]
+    },
+    {
+      "originalNumber": 64,
+      "stem": "Calculate the pH of a solution prepared by dissolving 0.150 mol of acetic acid and 0.300 mol of sodium acetate in water sufficient to yield 1.00 L of solution. The Ka of acetic acid is 1.76 × 10-5.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.516"
+        },
+        {
+          "key": "B",
+          "text": "3.892"
+        },
+        {
+          "key": "C",
+          "text": "4.502"
+        },
+        {
+          "key": "D",
+          "text": "10.158"
+        },
+        {
+          "key": "E",
+          "text": "5.056"
+        }
+      ]
+    },
+    {
+      "originalNumber": 65,
+      "stem": "The pH of a solution prepared by mixing 50.0 mL of 0.125 M KOH and 50.0 mL of 0.125 M HCl is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "6.29"
+        },
+        {
+          "key": "B",
+          "text": "7.00"
+        },
+        {
+          "key": "C",
+          "text": "8.11"
+        },
+        {
+          "key": "D",
+          "text": "5.78"
+        },
+        {
+          "key": "E",
+          "text": "0.00"
+        }
+      ]
+    },
+    {
+      "originalNumber": 66,
+      "stem": "The pH of a solution prepared by mixing 50.0 mL of 0.125 M NaOH and 40.0 mL of 0.125 M HNO3 is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "13.29"
+        },
+        {
+          "key": "B",
+          "text": "7.00"
+        },
+        {
+          "key": "C",
+          "text": "8.11"
+        },
+        {
+          "key": "D",
+          "text": "11.00"
+        },
+        {
+          "key": "E",
+          "text": "12.14"
+        }
+      ]
+    },
+    {
+      "originalNumber": 67,
+      "stem": "The concentration of fluoride ions in a saturated solution of barium fluoride is ________ M. The solubility product constant of BaF2 is 1.7 × 10-6.",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.8 × 10-4"
+        },
+        {
+          "key": "B",
+          "text": "3.0 × 10-3"
+        },
+        {
+          "key": "C",
+          "text": "1.5 × 10-2"
+        },
+        {
+          "key": "D",
+          "text": "7.5 × 10-3"
+        },
+        {
+          "key": "E",
+          "text": "1.4 × 10-4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 68,
+      "stem": "The solubility of lead (II) chloride (PbCl2) is 1.6 × 10-2 M. What is the Ksp of PbCl2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.0 × 10-4"
+        },
+        {
+          "key": "B",
+          "text": "4.1 × 10-6"
+        },
+        {
+          "key": "C",
+          "text": "3.1 × 10-7"
+        },
+        {
+          "key": "D",
+          "text": "1.6 × 10-5"
+        },
+        {
+          "key": "E",
+          "text": "1.6 × 10-2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 69,
+      "stem": "Determine the Ksp for magnesium hydroxide (Mg(OH)2) where the solubility of Mg(OH)2 is 1.4 × 10-4 M.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.7 × 10-12"
+        },
+        {
+          "key": "B",
+          "text": "1.1 × 10-11"
+        },
+        {
+          "key": "C",
+          "text": "2.0 × 10-8"
+        },
+        {
+          "key": "D",
+          "text": "3.9 × 10-8"
+        },
+        {
+          "key": "E",
+          "text": "1.4 × 10-4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 70,
+      "stem": "Calculate the maximum concentration (in M) of silver ions (Ag+) in a solution that contains 0.025 M of CO32-. The Ksp of Ag2CO3 is 8.1 × 10-12.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.8 × 10-5"
+        },
+        {
+          "key": "B",
+          "text": "1.4 × 10-6"
+        },
+        {
+          "key": "C",
+          "text": "2.8 × 10-6"
+        },
+        {
+          "key": "D",
+          "text": "3.2 × 10-10"
+        },
+        {
+          "key": "E",
+          "text": "8.1 × 10-12"
+        }
+      ]
+    },
+    {
+      "originalNumber": 71,
+      "stem": "What is the solubility (in M) of PbCl2 in a 0.15 M solution of HCl? The Ksp of PbCl2 is 1.6 × 10-5.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.0 × 10-3"
+        },
+        {
+          "key": "B",
+          "text": "1.1 × 10-4"
+        },
+        {
+          "key": "C",
+          "text": "1.8 × 10-4"
+        },
+        {
+          "key": "D",
+          "text": "7.1 × 10-4"
+        },
+        {
+          "key": "E",
+          "text": "1.6 × 10-5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 72,
+      "stem": "The Ksp for Zn(OH)2 is 5.0 × 10-17. Determine the molar solubility of Zn(OH)2 in a buffer solution with a pH of 11.5.",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.0 × 106"
+        },
+        {
+          "key": "B",
+          "text": "1.2 × 10-12"
+        },
+        {
+          "key": "C",
+          "text": "1.6 × 10-14"
+        },
+        {
+          "key": "D",
+          "text": "5.0 × 10-12"
+        },
+        {
+          "key": "E",
+          "text": "5.0 × 10-17"
+        }
+      ]
+    },
+    {
+      "originalNumber": 73,
+      "stem": "A mineral is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "a solid inorganic compound that contains one or more metals"
+        },
+        {
+          "key": "B",
+          "text": "a vitamin"
+        },
+        {
+          "key": "C",
+          "text": "metal in its elemental form"
+        },
+        {
+          "key": "D",
+          "text": "a transition metal ion"
+        },
+        {
+          "key": "E",
+          "text": "a source of carbon"
+        }
+      ]
+    },
+    {
+      "originalNumber": 74,
+      "stem": "The coordination number of platinum in complexes is always ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        },
+        {
+          "key": "E",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 75,
+      "stem": "The coordination sphere of a complex consists of ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the central metal ion only"
+        },
+        {
+          "key": "B",
+          "text": "the ligands"
+        },
+        {
+          "key": "C",
+          "text": "the central metal ion and the ligands bonded to it"
+        },
+        {
+          "key": "D",
+          "text": "the primary and secondary valencies"
+        },
+        {
+          "key": "E",
+          "text": "coordination and steric numbers"
+        }
+      ]
+    },
+    {
+      "originalNumber": 76,
+      "stem": "How many d electrons are in the cobalt ion of K3[Co(CN)6]?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        },
+        {
+          "key": "E",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 77,
+      "stem": "What is the charge on the complex ion in Mg2[FeCl6]?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2-"
+        },
+        {
+          "key": "B",
+          "text": "2+"
+        },
+        {
+          "key": "C",
+          "text": "3-"
+        },
+        {
+          "key": "D",
+          "text": "3+"
+        },
+        {
+          "key": "E",
+          "text": "4-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 78,
+      "stem": "What is the ligand in Ca3[Fe(CN)6]2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ca2+"
+        },
+        {
+          "key": "B",
+          "text": "Fe3+"
+        },
+        {
+          "key": "C",
+          "text": "CN-"
+        },
+        {
+          "key": "D",
+          "text": "Fe(CN)63-"
+        },
+        {
+          "key": "E",
+          "text": "Fe2+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 79,
+      "stem": "What is the charge of the central metal ion in Ca3[Fe(CN)6]2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1+"
+        },
+        {
+          "key": "C",
+          "text": "2+"
+        },
+        {
+          "key": "D",
+          "text": "3+"
+        },
+        {
+          "key": "E",
+          "text": "6+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 80,
+      "stem": "The coordination number for [Zn(H2O)3Cl]Cl is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        },
+        {
+          "key": "E",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 81,
+      "stem": "What is the oxidation state of cobalt in [Co(NH3)5Cl](NO3)2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "originalNumber": 82,
+      "stem": "EDTA is ________-dantate ligand.",
+      "options": [
+        {
+          "key": "A",
+          "text": "mono"
+        },
+        {
+          "key": "B",
+          "text": "bi"
+        },
+        {
+          "key": "C",
+          "text": "tri"
+        },
+        {
+          "key": "D",
+          "text": "tetra"
+        },
+        {
+          "key": "E",
+          "text": "hexa"
+        }
+      ]
+    },
+    {
+      "originalNumber": 83,
+      "stem": "Metals with ________ electron configurations characteristically form diamagnetic, square planar complexes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "d0"
+        },
+        {
+          "key": "B",
+          "text": "d9"
+        },
+        {
+          "key": "C",
+          "text": "d6"
+        },
+        {
+          "key": "D",
+          "text": "d8"
+        },
+        {
+          "key": "E",
+          "text": "d10"
+        }
+      ]
+    },
+    {
+      "originalNumber": 84,
+      "stem": "What two oxidation states are more frequently observed in the first transition series than in the third?",
+      "options": [
+        {
+          "key": "A",
+          "text": "+3 and +7"
+        },
+        {
+          "key": "B",
+          "text": "+2 and +3"
+        },
+        {
+          "key": "C",
+          "text": "+2 and +7"
+        },
+        {
+          "key": "D",
+          "text": "+5 and +6"
+        },
+        {
+          "key": "E",
+          "text": "+3 and +5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 85,
+      "stem": "The lanthanide contraction is responsible for the fact that ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zr and Y have about the same radius"
+        },
+        {
+          "key": "B",
+          "text": "Zr and Nb have similar oxidation states"
+        },
+        {
+          "key": "C",
+          "text": "Zr and Hf have about the same radius"
+        },
+        {
+          "key": "D",
+          "text": "Zr and Zn have similar oxidation states"
+        },
+        {
+          "key": "E",
+          "text": "Zr and Hf have the same oxidation states"
+        }
+      ]
+    },
+    {
+      "originalNumber": 86,
+      "stem": "Which one of the following is not true about transition metals?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They frequently have more than one common oxidation state."
+        },
+        {
+          "key": "B",
+          "text": "Their compounds are frequently colored."
+        },
+        {
+          "key": "C",
+          "text": "Their compounds frequently exhibit magnetic properties."
+        },
+        {
+          "key": "D",
+          "text": "They are found in the d-block of the periodic table."
+        },
+        {
+          "key": "E",
+          "text": "They typically have low melting points."
+        }
+      ]
+    },
+    {
+      "originalNumber": 87,
+      "stem": "Diamagnetic solids ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "have atoms with one or more unpaired electrons"
+        },
+        {
+          "key": "B",
+          "text": "have atoms with randomly oriented magnetic moments"
+        },
+        {
+          "key": "C",
+          "text": "show very slight magnetic character when placed in a magnetic field"
+        },
+        {
+          "key": "D",
+          "text": "have atoms with strongly aligned electrons when placed in a magnetic field"
+        },
+        {
+          "key": "E",
+          "text": "both a and d"
+        }
+      ]
+    },
+    {
+      "originalNumber": 88,
+      "stem": "What is the most common geometry found in four-coordinate complexes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "square planar"
+        },
+        {
+          "key": "B",
+          "text": "octahedral"
+        },
+        {
+          "key": "C",
+          "text": "tetrahedral"
+        },
+        {
+          "key": "D",
+          "text": "icosahedral"
+        },
+        {
+          "key": "E",
+          "text": "trigonal bipyramidal"
+        }
+      ]
+    },
+    {
+      "originalNumber": 89,
+      "stem": "The minimum number of unshared valence electron pairs in the ligands of a coordination compound is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "originalNumber": 90,
+      "stem": "What is the oxidation number of Ni in [Ni(CN)5]3-?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1+"
+        },
+        {
+          "key": "B",
+          "text": "2+"
+        },
+        {
+          "key": "C",
+          "text": "3+"
+        },
+        {
+          "key": "D",
+          "text": "4+"
+        },
+        {
+          "key": "E",
+          "text": "5+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 91,
+      "stem": "Which of the following is not a chelating agent?",
+      "options": [
+        {
+          "key": "A",
+          "text": "chloride anion"
+        },
+        {
+          "key": "B",
+          "text": "EDTA"
+        },
+        {
+          "key": "C",
+          "text": "porphine"
+        },
+        {
+          "key": "D",
+          "text": "ethylenediamine"
+        },
+        {
+          "key": "E",
+          "text": "oxalate anion"
+        }
+      ]
+    },
+    {
+      "originalNumber": 92,
+      "stem": "In humans, what percent of absorbed iron is found in blood?",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "40"
+        },
+        {
+          "key": "D",
+          "text": "60"
+        },
+        {
+          "key": "E",
+          "text": "75"
+        }
+      ]
+    },
+    {
+      "originalNumber": 93,
+      "stem": "A complex of correctly written formula [Pt(NH3)3Br]Br ∙ H2O has which set of ligands in its inner coordination sphere?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 NH3"
+        },
+        {
+          "key": "B",
+          "text": "3 NH3 and 2 Br-"
+        },
+        {
+          "key": "C",
+          "text": "3 NH3 and 1 Br-"
+        },
+        {
+          "key": "D",
+          "text": "3 NH3, 1 Br-, and 1 H2O"
+        },
+        {
+          "key": "E",
+          "text": "3 NH3, 2 Br-, and 1 H2O"
+        }
+      ]
+    },
+    {
+      "originalNumber": 94,
+      "stem": "Which one of the following complexes would most likely have tetrahedral geometry?",
+      "options": [
+        {
+          "key": "A",
+          "text": "[NiCl4]2-"
+        },
+        {
+          "key": "B",
+          "text": "[Co(H2O)6]2+"
+        },
+        {
+          "key": "C",
+          "text": "[Cr(NH3)6]3+"
+        },
+        {
+          "key": "D",
+          "text": "[Fe(CN)6]3+"
+        },
+        {
+          "key": "E",
+          "text": "[Pt(NH3)2Cl2]"
+        }
+      ]
+    },
+    {
+      "originalNumber": 95,
+      "stem": "Coordination sphere isomers ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "have the same molecular formula and coordination number"
+        },
+        {
+          "key": "B",
+          "text": "have the same molecular formula but different coordination numbers"
+        },
+        {
+          "key": "C",
+          "text": "have different molecular formulas but the same coordination number"
+        },
+        {
+          "key": "D",
+          "text": "have different molecular formulas and different coordination numbers"
+        },
+        {
+          "key": "E",
+          "text": "are the same as resonance structures"
+        }
+      ]
+    },
+    {
+      "originalNumber": 96,
+      "stem": "Based on electron configuration, which is most likely colorless?",
+      "options": [
+        {
+          "key": "A",
+          "text": "[Cu(NH3)4]2+"
+        },
+        {
+          "key": "B",
+          "text": "[Cd(NH3)4]2+"
+        },
+        {
+          "key": "C",
+          "text": "[Ni(NH3)6]2+"
+        },
+        {
+          "key": "D",
+          "text": "[Cr(NH3)5Cl]2+"
+        },
+        {
+          "key": "E",
+          "text": "[Co(NH3)6]2+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 97,
+      "stem": "A metal complex absorbs light mainly at 420 nm. What is the color of the complex?",
+      "options": [
+        {
+          "key": "A",
+          "text": "green"
+        },
+        {
+          "key": "B",
+          "text": "yellow"
+        },
+        {
+          "key": "C",
+          "text": "red"
+        },
+        {
+          "key": "D",
+          "text": "orange"
+        },
+        {
+          "key": "E",
+          "text": "purple"
+        }
+      ]
+    },
+    {
+      "originalNumber": 98,
+      "stem": "Which one of the following complex ions will be paramagnetic?",
+      "options": [
+        {
+          "key": "A",
+          "text": "[Fe(H2O)6]2+ (low spin)"
+        },
+        {
+          "key": "B",
+          "text": "[Fe(H2O)6]3+ (low spin)"
+        },
+        {
+          "key": "C",
+          "text": "[Co(H2O)6]3+ (low spin)"
+        },
+        {
+          "key": "D",
+          "text": "[Zn(H2O)4]2+"
+        },
+        {
+          "key": "E",
+          "text": "[Zn(NH3)4]2+"
+        }
+      ]
+    },
+    {
+      "originalNumber": 99,
+      "stem": "Complexes containing metals with d10 electron configurations are typically colorless because ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "there is no d electron that can be promoted via the absorption of visible light"
+        },
+        {
+          "key": "B",
+          "text": "the empty d orbitals absorb all of the visible wavelengths"
+        },
+        {
+          "key": "C",
+          "text": "there are no d electrons to form bonds to ligands"
+        },
+        {
+          "key": "D",
+          "text": "a complex must be charged to be colored"
+        },
+        {
+          "key": "E",
+          "text": "d electrons must be emitted by the complex in order for it to appear colored"
+        }
+      ]
+    },
+    {
+      "originalNumber": 100,
+      "stem": "The attraction of a metal to a neutral ligand is due to ________ bonding.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ionic"
+        },
+        {
+          "key": "B",
+          "text": "covalent"
+        },
+        {
+          "key": "C",
+          "text": "ion-dipole"
+        },
+        {
+          "key": "D",
+          "text": "dipole-dipole"
+        },
+        {
+          "key": "E",
+          "text": "hydrophobic"
+        }
+      ]
+    }
+  ]
+}

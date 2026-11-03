@@ -1,0 +1,1310 @@
+{
+  "label": "chapter4",
+  "sourceFile": "C:\\Users\\luoji\\AppData\\Local\\Temp\\opencode\\chemnew\\ch4.txt",
+  "parsedAt": "2026-11-03T09:37:10.179Z",
+  "count": 50,
+  "numbered": false,
+  "explicitNumberCount": 0,
+  "questions": [
+    {
+      "originalNumber": 1,
+      "stem": "Of the species below, only ________ is not an electrolyte.",
+      "options": [
+        {
+          "key": "A",
+          "text": "HCl"
+        },
+        {
+          "key": "B",
+          "text": "Rb2SO4"
+        },
+        {
+          "key": "C",
+          "text": "Ar"
+        },
+        {
+          "key": "D",
+          "text": "KOH"
+        },
+        {
+          "key": "E",
+          "text": "NaCl"
+        }
+      ]
+    },
+    {
+      "originalNumber": 2,
+      "stem": "The balanced molecular equation for complete neutralization of H2SO4 by KOH in aqueous solution is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2H+ (aq) + 2OH- (aq) → 2H2O (l)"
+        },
+        {
+          "key": "B",
+          "text": "2H+ (aq) + 2KOH (aq) → 2H2O (l) + 2K+ (aq)"
+        },
+        {
+          "key": "C",
+          "text": "H2SO4 (aq) + 2OH- (aq) → 2H2O (l) + SO42- (aq)"
+        },
+        {
+          "key": "D",
+          "text": "H2SO4 (aq) + 2KOH (aq) → 2H2O (l) + K2SO4 (s)"
+        },
+        {
+          "key": "E",
+          "text": "H2SO4 (aq) + 2KOH (aq) → 2H2O (l) + K2SO4 (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 3,
+      "stem": "Aqueous potassium chloride will react with which one of the following in an exchange (metathesis) reaction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "calcium nitrate"
+        },
+        {
+          "key": "B",
+          "text": "sodium bromide"
+        },
+        {
+          "key": "C",
+          "text": "lead nitrate"
+        },
+        {
+          "key": "D",
+          "text": "barium nitrate"
+        },
+        {
+          "key": "E",
+          "text": "sodium chloride"
+        }
+      ]
+    },
+    {
+      "originalNumber": 4,
+      "stem": "The net ionic equation for formation of an aqueous solution of NiI2 accompanied by evolution of CO2 gas via mixing solid NiCO3 and aqueous hydriodic acid is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2NiCO3 (s) + HI (aq) → 2H2O (l) + CO2 (g) + 2Ni2+ (aq)"
+        },
+        {
+          "key": "B",
+          "text": "NiCO3 (s) + I- (aq) → 2H2O (l) + CO2 (g) + Ni2+ (aq) + HI (aq)"
+        },
+        {
+          "key": "C",
+          "text": "NiCO3 (s) + 2H+ (aq) → H2O (l) + CO2 (g) + Ni2+ (aq)"
+        },
+        {
+          "key": "D",
+          "text": "NiCO3 (s) + 2HI (aq) → 2H2O (l) + CO2 (g) + NiI2 (aq)"
+        },
+        {
+          "key": "E",
+          "text": "NiCO3 (s) + 2HI (aq) → H2O (l) + CO2 (g) + Ni2+ (aq) + 2I- (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 5,
+      "stem": "The net ionic equation for formation of an aqueous solution of Al(NO3)3 via mixing solid Al(OH)3 and aqueous nitric acid is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Al(OH)3 (s)  +  3HNO3 (aq)  →  3H2O (l)  +  Al(NO3)3 (aq)"
+        },
+        {
+          "key": "B",
+          "text": "Al(OH)3 (s)  +  3NO3- (aq)  →  3OH- (aq)  +  Al(NO3)3 (aq)"
+        },
+        {
+          "key": "C",
+          "text": "Al(OH)3 (s)  +  3NO3- (aq)  →  3OH- (aq)  +  Al(NO3)3 (s)"
+        },
+        {
+          "key": "D",
+          "text": "Al(OH)3 (s)  +  3H+ (aq)  →  3H2O (l)  +  Al3+ (aq)"
+        },
+        {
+          "key": "E",
+          "text": "Al(OH)3 (s)  +  3HNO3 (aq)  →  3H2O (l)  +  Al3+ (aq)  +  NO3- (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 6,
+      "stem": "Which of the following is insoluble in water at 25 °C?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mg3(PO4)2"
+        },
+        {
+          "key": "B",
+          "text": "Na2S"
+        },
+        {
+          "key": "C",
+          "text": "(NH4)2CO3"
+        },
+        {
+          "key": "D",
+          "text": "Ca(OH)2"
+        },
+        {
+          "key": "E",
+          "text": "Ba(C2H3O2)2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 7,
+      "stem": "When aqueous solutions of ________ are mixed, a precipitate forms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "NiBr2 and AgNO3"
+        },
+        {
+          "key": "B",
+          "text": "NaI and KBr"
+        },
+        {
+          "key": "C",
+          "text": "K2SO4 and CrCl3"
+        },
+        {
+          "key": "D",
+          "text": "KOH and Ba(NO3)2"
+        },
+        {
+          "key": "E",
+          "text": "Li2CO3 and CsI"
+        }
+      ]
+    },
+    {
+      "originalNumber": 8,
+      "stem": "Which one of the following compounds is insoluble in water?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Na2CO3"
+        },
+        {
+          "key": "B",
+          "text": "K2SO4"
+        },
+        {
+          "key": "C",
+          "text": "Fe(NO3)3"
+        },
+        {
+          "key": "D",
+          "text": "ZnS"
+        },
+        {
+          "key": "E",
+          "text": "AgNO3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 9,
+      "stem": "Which combination will produce a precipitate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NaC2H3O2 (aq) and HCl (aq)"
+        },
+        {
+          "key": "B",
+          "text": "NaOH (aq) and HCl (aq)"
+        },
+        {
+          "key": "C",
+          "text": "AgNO3(aq) and Ca(C2H3O2)2 (aq)"
+        },
+        {
+          "key": "D",
+          "text": "KOH (aq) and Mg(NO3)2 (aq)"
+        },
+        {
+          "key": "E",
+          "text": "NaF (aq) and HCl (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 10,
+      "stem": "Which combination will produce a precipitate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pb(NO3)2 (aq) and HCl (aq)"
+        },
+        {
+          "key": "B",
+          "text": "Cu(NO3)2 (aq) and KC2H3O2 (aq)"
+        },
+        {
+          "key": "C",
+          "text": "KOH (aq) and HNO3 (aq)"
+        },
+        {
+          "key": "D",
+          "text": "AgC2H3O2 (aq) and HC2H3O2 (aq)"
+        },
+        {
+          "key": "E",
+          "text": "NaOH (aq) and Sr(NO3)2 (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 11,
+      "stem": "With which of the following will the ammonium ion form an insoluble salt?",
+      "options": [
+        {
+          "key": "A",
+          "text": "chloride"
+        },
+        {
+          "key": "B",
+          "text": "sulfate"
+        },
+        {
+          "key": "C",
+          "text": "carbonate"
+        },
+        {
+          "key": "D",
+          "text": "sulfate and carbonate"
+        },
+        {
+          "key": "E",
+          "text": "none of the above"
+        }
+      ]
+    },
+    {
+      "originalNumber": 12,
+      "stem": "The net ionic equation for the reaction between aqueous sulfuric acid and aqueous sodium hydroxide is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "H+ (aq)  +  HSO4- (aq)  +  2OH- (aq)  →  2H2O (l)  +  SO42- (aq)"
+        },
+        {
+          "key": "B",
+          "text": "H+ (aq)  +  HSO4- (aq)  +  2Na+ (aq)  +  2OH- (aq)  →  2H2O (l)  +  2Na+ (aq)  +  SO42-(aq)"
+        },
+        {
+          "key": "C",
+          "text": "SO42- (aq)  +  2Na+ (aq)  →  2Na+ (aq)  +  SO42-(aq)"
+        },
+        {
+          "key": "D",
+          "text": "H+ (aq)  +  OH- (aq)  →  H2O( l)"
+        },
+        {
+          "key": "E",
+          "text": "2H+ (aq)  +  SO42- (aq)  +  2Na+ (aq)  +  2OH- (aq)  →  2H2O (l)  +  2Na+ (aq)  +  SO42- (aq)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 13,
+      "stem": "The reaction between strontium hydroxide and chloric acid produces ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "a molecular compound and a weak electrolyte"
+        },
+        {
+          "key": "B",
+          "text": "two weak electrolytes"
+        },
+        {
+          "key": "C",
+          "text": "two strong electrolytes"
+        },
+        {
+          "key": "D",
+          "text": "a molecular compound and a strong electrolyte"
+        },
+        {
+          "key": "E",
+          "text": "two molecular compounds"
+        }
+      ]
+    },
+    {
+      "originalNumber": 14,
+      "stem": "Which one of the following is a weak acid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HNO3"
+        },
+        {
+          "key": "B",
+          "text": "HCl"
+        },
+        {
+          "key": "C",
+          "text": "HI"
+        },
+        {
+          "key": "D",
+          "text": "HF"
+        },
+        {
+          "key": "E",
+          "text": "HClO4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 15,
+      "stem": "The balanced reaction between aqueous potassium hydroxide and aqueous acetic acid is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "KOH (aq)  +  HC2H3O2 (aq)  →  OH- (l)  +  HC2H3O2+ (aq)  +  K (s)"
+        },
+        {
+          "key": "B",
+          "text": "KOH (aq)  +  HC2H3O2 (aq)  →  H2O (l)  +  KC2H3O2 (aq)"
+        },
+        {
+          "key": "C",
+          "text": "KOH (aq)  +  HC2H3O2 (aq)  →  H2C2H3O3 (aq)  +  K (s)"
+        },
+        {
+          "key": "D",
+          "text": "KOH (aq)  +  HC2H3O2 (aq)  →  KC2H3O3 (aq)  +  H2 (g)"
+        },
+        {
+          "key": "E",
+          "text": "KOH (aq)  +  HC2H3O2 (aq)  →  H2KC2H3O (aq)  +  O2 (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 16,
+      "stem": "In which reaction does the oxidation number of oxygen increase?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ba(NO3)2 (aq)  +  K2SO4 (aq)  →  BaSO4 (s)  +  2KNO3 (aq)"
+        },
+        {
+          "key": "B",
+          "text": "HCl (aq)  +  NaOH (aq)  →  NaCl (aq)  +  H2O (l)"
+        },
+        {
+          "key": "C",
+          "text": "MgO (s)  +  H2O (l)  →  Mg(OH)2 (s)"
+        },
+        {
+          "key": "D",
+          "text": "2SO2 (g)  +  O2 (g)  →  2SO3 (g)"
+        },
+        {
+          "key": "E",
+          "text": "2H2O (l)  →  2H2 (g)  +  O2 (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 17,
+      "stem": "Which compound has the atom with the highest oxidation number?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaS"
+        },
+        {
+          "key": "B",
+          "text": "Na3N"
+        },
+        {
+          "key": "C",
+          "text": "MgSO3"
+        },
+        {
+          "key": "D",
+          "text": "Al(NO2)3"
+        },
+        {
+          "key": "E",
+          "text": "NH4Cl"
+        }
+      ]
+    },
+    {
+      "originalNumber": 18,
+      "stem": "Of the choices below, which would be the best for the lining of a tank intended for use in storage of hydrochloric acid?",
+      "options": [
+        {
+          "key": "A",
+          "text": "copper"
+        },
+        {
+          "key": "B",
+          "text": "zinc"
+        },
+        {
+          "key": "C",
+          "text": "nickel"
+        },
+        {
+          "key": "D",
+          "text": "iron"
+        },
+        {
+          "key": "E",
+          "text": "tin"
+        }
+      ]
+    },
+    {
+      "originalNumber": 19,
+      "stem": "Which of these metals will be oxidized by the ions of aluminum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "magnesium"
+        },
+        {
+          "key": "B",
+          "text": "zinc"
+        },
+        {
+          "key": "C",
+          "text": "chromium"
+        },
+        {
+          "key": "D",
+          "text": "iron"
+        },
+        {
+          "key": "E",
+          "text": "nickel"
+        }
+      ]
+    },
+    {
+      "originalNumber": 20,
+      "stem": "Of the reactions below, only ________ is not spontaneous.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mg (s)  +  2HCl (aq)  →  MgCl2 (aq)  +  H2(g)"
+        },
+        {
+          "key": "B",
+          "text": "2Ag (s)  +  2HNO3 (aq)  →  2AgNO3 (aq)  +  H2 (g)"
+        },
+        {
+          "key": "C",
+          "text": "2Ni (s)  +  H2SO4  (aq)  →  Ni2SO4  (aq)  +  H2 (g)"
+        },
+        {
+          "key": "D",
+          "text": "2Al (s)  +  6HBr (aq)  →  2AlBr3 (aq)  +  3H2 (g)"
+        },
+        {
+          "key": "E",
+          "text": "Zn (s)  +  2HI (aq)  →  ZnI2(aq)  +  H2 (g)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 21,
+      "stem": "Which of the following are strong acids? HI HNO3 HF HBr",
+      "options": [
+        {
+          "key": "A",
+          "text": "HF, HBr"
+        },
+        {
+          "key": "B",
+          "text": "HI, HNO3, HF, HBr"
+        },
+        {
+          "key": "C",
+          "text": "HI, HF, HBr"
+        },
+        {
+          "key": "D",
+          "text": "HNO3, HF, HBr"
+        },
+        {
+          "key": "E",
+          "text": "HI, HNO3, HBr"
+        }
+      ]
+    },
+    {
+      "originalNumber": 22,
+      "stem": "What is the concentration (M) of a NaCl solution prepared by dissolving 9.3 g of NaCl in sufficient water to give 350 mL of solution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "18"
+        },
+        {
+          "key": "B",
+          "text": "0.16"
+        },
+        {
+          "key": "C",
+          "text": "0.45"
+        },
+        {
+          "key": "D",
+          "text": "27"
+        },
+        {
+          "key": "E",
+          "text": "2.7 × 10-2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 23,
+      "stem": "Calculate the concentration (M) of sodium ions in a solution made by diluting 50.0 mL of a 0.874 M solution of sodium sulfide to a total volume of 250.0 mL.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.175"
+        },
+        {
+          "key": "B",
+          "text": "4.37"
+        },
+        {
+          "key": "C",
+          "text": "0.525"
+        },
+        {
+          "key": "D",
+          "text": "0.350"
+        },
+        {
+          "key": "E",
+          "text": "0.874"
+        }
+      ]
+    },
+    {
+      "originalNumber": 24,
+      "stem": "The molarity of a solution prepared by diluting 43.72 mL of 1.005 M aqueous K2Cr2O7 to 500. mL is ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.0879"
+        },
+        {
+          "key": "B",
+          "text": "87.9"
+        },
+        {
+          "key": "C",
+          "text": "0.0218"
+        },
+        {
+          "key": "D",
+          "text": "0.0115"
+        },
+        {
+          "key": "E",
+          "text": "0.870"
+        }
+      ]
+    },
+    {
+      "originalNumber": 25,
+      "stem": "The concentration of species in 500 mL of a 2.104 M solution of sodium sulfate is ________ M sodium ion and ________ M sulfate ion.",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.104, 1.052"
+        },
+        {
+          "key": "B",
+          "text": "2.104, 2.104"
+        },
+        {
+          "key": "C",
+          "text": "2.104, 4.208"
+        },
+        {
+          "key": "D",
+          "text": "1.052, 1.052"
+        },
+        {
+          "key": "E",
+          "text": "4.208, 2.104"
+        }
+      ]
+    },
+    {
+      "originalNumber": 26,
+      "stem": "The gain of electrons by an element is called ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "reduction"
+        },
+        {
+          "key": "B",
+          "text": "oxidation"
+        },
+        {
+          "key": "C",
+          "text": "disproportionation"
+        },
+        {
+          "key": "D",
+          "text": "fractionation"
+        },
+        {
+          "key": "E",
+          "text": "sublimation"
+        }
+      ]
+    },
+    {
+      "originalNumber": 27,
+      "stem": "________ is oxidized in the following reaction: Cr2O72- + 6S2O32- + 14H+ → 2Cr3+ + 3S4O62- + 7H2O",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cr6+"
+        },
+        {
+          "key": "B",
+          "text": "S2+"
+        },
+        {
+          "key": "C",
+          "text": "H+"
+        },
+        {
+          "key": "D",
+          "text": "O2-"
+        },
+        {
+          "key": "E",
+          "text": "S4O62-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 28,
+      "stem": "________ is the reducing agent in the reaction below. Cr2O72- + 6S2O32- + 14H+ → 2Cr3+ + 3S4O62- + 7H2O",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cr2O72-"
+        },
+        {
+          "key": "B",
+          "text": "S2O32-"
+        },
+        {
+          "key": "C",
+          "text": "H+"
+        },
+        {
+          "key": "D",
+          "text": "Cr3+"
+        },
+        {
+          "key": "E",
+          "text": "S4O62-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 29,
+      "stem": "What is the oxidation number of chromium in Cr2O72- ion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "+3"
+        },
+        {
+          "key": "B",
+          "text": "+12"
+        },
+        {
+          "key": "C",
+          "text": "+7"
+        },
+        {
+          "key": "D",
+          "text": "+6"
+        },
+        {
+          "key": "E",
+          "text": "+14"
+        }
+      ]
+    },
+    {
+      "originalNumber": 30,
+      "stem": "________ electrons appear in the following half-reaction when it is balanced. S4O62- → 2S2O32-",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        },
+        {
+          "key": "E",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "originalNumber": 31,
+      "stem": "The half-reaction occurring at the anode in the balanced reaction shown below is ________. 3MnO4- (aq) + 24H+ (aq) + 5Fe (s) → 3Mn2+ (aq) + 5Fe3+ (aq) + 12H2O (l)",
+      "options": [
+        {
+          "key": "A",
+          "text": "MnO4-  (aq)  +  8H+ (aq)  +  5e-  →  Mn2+ (aq)  +  4H2O (l)"
+        },
+        {
+          "key": "B",
+          "text": "2MnO4- (aq)  +  12H+ (aq)  +  6e-  →  2Mn2+ (aq)  +  3H2O (l)"
+        },
+        {
+          "key": "C",
+          "text": "Fe (s)  →  Fe3+ (aq)  +  3e-"
+        },
+        {
+          "key": "D",
+          "text": "Fe (s)  →  Fe2+ (aq)  +  2e-"
+        },
+        {
+          "key": "E",
+          "text": "Fe2+ (aq)  →  Fe3+ (aq)  +  e-"
+        }
+      ]
+    },
+    {
+      "originalNumber": 32,
+      "stem": "The more ________ the value of E°red, the greater the driving force for reduction.",
+      "options": [
+        {
+          "key": "A",
+          "text": "positive"
+        },
+        {
+          "key": "B",
+          "text": "negative"
+        },
+        {
+          "key": "C",
+          "text": "exothermic"
+        },
+        {
+          "key": "D",
+          "text": "endothermic"
+        },
+        {
+          "key": "E",
+          "text": "extensive"
+        }
+      ]
+    },
+    {
+      "originalNumber": 33,
+      "stem": "Standard reduction potentials (V): Cr3+ + 3e- → Cr, -0.74; Fe2+ + 2e- → Fe, -0.440; Fe3+ + e- → Fe2+, +0.771; Sn4+ + 2e- → Sn2+, +0.154. The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V. Sn2+ (aq) + 2Fe3+ (aq) → 2Fe2+ (aq) + Sn4+ (aq)",
+      "options": [
+        {
+          "key": "A",
+          "text": "+0.46"
+        },
+        {
+          "key": "B",
+          "text": "+0.617"
+        },
+        {
+          "key": "C",
+          "text": "+1.39"
+        },
+        {
+          "key": "D",
+          "text": "-0.46"
+        },
+        {
+          "key": "E",
+          "text": "+1.21"
+        }
+      ]
+    },
+    {
+      "originalNumber": 34,
+      "stem": "Standard reduction potentials (V): Cr3+ + 3e- → Cr, -0.74; Fe2+ + 2e- → Fe, -0.440; Fe3+ + e- → Fe2+, +0.771; Sn4+ + 2e- → Sn2+, +0.154. The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V. Cr (s) + 3Fe3+ (aq) → 3Fe2+ (aq) + Cr3+ (aq)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1.45"
+        },
+        {
+          "key": "B",
+          "text": "+2.99"
+        },
+        {
+          "key": "C",
+          "text": "+1.51"
+        },
+        {
+          "key": "D",
+          "text": "+3.05"
+        },
+        {
+          "key": "E",
+          "text": "+1.57"
+        }
+      ]
+    },
+    {
+      "originalNumber": 35,
+      "stem": "The relationship between the change in Gibbs free energy and the emf of an electrochemical cell is given by ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ΔG = -nF/E"
+        },
+        {
+          "key": "B",
+          "text": "ΔG = -E/(nF)"
+        },
+        {
+          "key": "C",
+          "text": "ΔG  =  -nFE"
+        },
+        {
+          "key": "D",
+          "text": "ΔG  =  -nRTF"
+        },
+        {
+          "key": "E",
+          "text": "ΔG = -nF/(ERT)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 36,
+      "stem": "The standard cell potential (E°cell) of the reaction below is +0.126 V. The value of ΔG° for the reaction is ________ kJ/mol. Pb (s) + 2H+(aq) → Pb2+ (aq) + H2 (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-24.3"
+        },
+        {
+          "key": "B",
+          "text": "+24.3"
+        },
+        {
+          "key": "C",
+          "text": "-12.6"
+        },
+        {
+          "key": "D",
+          "text": "+12.6"
+        },
+        {
+          "key": "E",
+          "text": "-50.8"
+        }
+      ]
+    },
+    {
+      "originalNumber": 37,
+      "stem": "The standard cell potential (E°cell) of the reaction below is +1.34 V. The value of ΔG° for the reaction is ________ kJ/mol. 3 Cu (s) + 2 MnO4- (aq) + 8H+ (aq) → 3 Cu2+ (aq) + 2 MnO2 (s) + 4 H2O (l)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-24.3"
+        },
+        {
+          "key": "B",
+          "text": "+259"
+        },
+        {
+          "key": "C",
+          "text": "-259"
+        },
+        {
+          "key": "D",
+          "text": "+776"
+        },
+        {
+          "key": "E",
+          "text": "–776"
+        }
+      ]
+    },
+    {
+      "originalNumber": 38,
+      "stem": "The lead-containing reactant(s) consumed during recharging of a lead-acid battery is/are ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pb (s) only"
+        },
+        {
+          "key": "B",
+          "text": "PbO2 (s) only"
+        },
+        {
+          "key": "C",
+          "text": "PbSO4 (s) only"
+        },
+        {
+          "key": "D",
+          "text": "both PbO2 (s) and PbSO4 (s)"
+        },
+        {
+          "key": "E",
+          "text": "both Pb (s) and PbO2 (s)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 39,
+      "stem": "Corrosion of iron is retarded by ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the presence of salts"
+        },
+        {
+          "key": "B",
+          "text": "high pH conditions"
+        },
+        {
+          "key": "C",
+          "text": "low pH conditions"
+        },
+        {
+          "key": "D",
+          "text": "both the presence of salts and high pH conditions"
+        },
+        {
+          "key": "E",
+          "text": "both the presence of salts and low pH conditions"
+        }
+      ]
+    },
+    {
+      "originalNumber": 40,
+      "stem": "The purpose of the salt bridge in an electrochemical cell is to ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "maintain electrical neutrality in the half-cells via migration of ions"
+        },
+        {
+          "key": "B",
+          "text": "provide a source of ions to react at the anode and cathode"
+        },
+        {
+          "key": "C",
+          "text": "provide oxygen to facilitate oxidation at the anode"
+        },
+        {
+          "key": "D",
+          "text": "provide a means for electrons to travel from the anode to the cathode"
+        },
+        {
+          "key": "E",
+          "text": "provide a means for electrons to travel from the cathode to the anode"
+        }
+      ]
+    },
+    {
+      "originalNumber": 41,
+      "stem": "Which transformation could take place at the anode of an electrochemical cell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NO  →  NO3-"
+        },
+        {
+          "key": "B",
+          "text": "CO2  →  C2O42-"
+        },
+        {
+          "key": "C",
+          "text": "VO2+  →  VO2+"
+        },
+        {
+          "key": "D",
+          "text": "H2AsO4  →  H3AsO3"
+        },
+        {
+          "key": "E",
+          "text": "O2  →  H2O2"
+        }
+      ]
+    },
+    {
+      "originalNumber": 42,
+      "stem": "What is the cathode in the hydrogen fuel cell?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "KOH"
+        },
+        {
+          "key": "C",
+          "text": "Li"
+        },
+        {
+          "key": "D",
+          "text": "H2"
+        },
+        {
+          "key": "E",
+          "text": "Pt"
+        }
+      ]
+    },
+    {
+      "originalNumber": 43,
+      "stem": "In a lead-acid battery, the electrodes are consumed. In this battery, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the anode is Pb"
+        },
+        {
+          "key": "B",
+          "text": "the anode is PbSO4"
+        },
+        {
+          "key": "C",
+          "text": "the anode is PbO2"
+        },
+        {
+          "key": "D",
+          "text": "the cathode is PbSO4"
+        },
+        {
+          "key": "E",
+          "text": "the cathode is Pb"
+        }
+      ]
+    },
+    {
+      "originalNumber": 44,
+      "stem": "Cathodic protection of a metal pipe against corrosion usually entails ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "attaching an active metal to make the pipe the anode in an electrochemical cell"
+        },
+        {
+          "key": "B",
+          "text": "coating the pipe with another metal whose standard reduction potential is less negative than that of the pipe"
+        },
+        {
+          "key": "C",
+          "text": "attaching an active metal to make the pipe the cathode in an electrochemical cell"
+        },
+        {
+          "key": "D",
+          "text": "attaching a dry cell to reduce any metal ions which might be formed"
+        },
+        {
+          "key": "E",
+          "text": "coating the pipe with a fluoropolymer to act as a source of fluoride ion (since the latter is so hard to oxidize)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 45,
+      "stem": "One of the differences between a voltaic cell and an electrolytic cell is that in an electrolytic cell, ________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "an electric current is produced by a chemical reaction"
+        },
+        {
+          "key": "B",
+          "text": "electrons flow toward the anode"
+        },
+        {
+          "key": "C",
+          "text": "a nonspontaneous reaction is forced to occur"
+        },
+        {
+          "key": "D",
+          "text": "O2 gas is produced at the cathode"
+        },
+        {
+          "key": "E",
+          "text": "oxidation occurs at the cathode"
+        }
+      ]
+    },
+    {
+      "originalNumber": 46,
+      "stem": "Which element is reduced in the reaction below? Fe(CO)5 (l) + 2HI (g) → Fe(CO)4I2 (s) + CO (g) + H2 (g)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe"
+        },
+        {
+          "key": "B",
+          "text": "C"
+        },
+        {
+          "key": "C",
+          "text": "O"
+        },
+        {
+          "key": "D",
+          "text": "H"
+        },
+        {
+          "key": "E",
+          "text": "I"
+        }
+      ]
+    },
+    {
+      "originalNumber": 47,
+      "stem": "Which of the following reactions is a redox reaction? (a) K2CrO4 + BaCl2 → BaCrO4 + 2KCl (b) Pb22+ + 2Br- → PbBr (c) Cu + S → CuS",
+      "options": [
+        {
+          "key": "A",
+          "text": "(a) only"
+        },
+        {
+          "key": "B",
+          "text": "(b) only"
+        },
+        {
+          "key": "C",
+          "text": "(c) only"
+        },
+        {
+          "key": "D",
+          "text": "(a) and (c)"
+        },
+        {
+          "key": "E",
+          "text": "(b) and (c)"
+        }
+      ]
+    },
+    {
+      "originalNumber": 48,
+      "stem": "Which substance is the oxidizing agent in the following reaction? Fe2S3 + 12HNO3 → 2Fe(NO3)3 + 3S + 6NO2 + 6H2O",
+      "options": [
+        {
+          "key": "A",
+          "text": "HNO3"
+        },
+        {
+          "key": "B",
+          "text": "S"
+        },
+        {
+          "key": "C",
+          "text": "NO2"
+        },
+        {
+          "key": "D",
+          "text": "Fe2S3"
+        },
+        {
+          "key": "E",
+          "text": "H2O"
+        }
+      ]
+    },
+    {
+      "originalNumber": 49,
+      "stem": "What is the coefficient of the permanganate ion when the following equation is balanced? MnO4- + Br- → Mn2+ + Br2 (acidic solution)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        },
+        {
+          "key": "E",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "originalNumber": 50,
+      "stem": "What is the coefficient of Fe3+ when the following equation is balanced? CN- + Fe3+ → CNO- + Fe2+ (basic solution)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "5"
+        }
+      ]
+    }
+  ]
+}

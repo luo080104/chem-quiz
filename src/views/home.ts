@@ -41,7 +41,8 @@ export function renderHome({ app }: RouteCtx): void {
       : null;
 
   const sampleSize = Math.min(100, bank.questions.filter((q) => q.answer.length).length);
-  const seqTitle = total >= 250 ? "顺序刷 250 题" : `顺序刷题（${total} 题）`;
+  const newCount = bank.questions.filter((q) => q.label === "chapter3b" || q.label === "chapter4").length;
+  const seqTitle = total >= 250 ? `顺序刷 ${total} 题` : `顺序刷题（${total} 题）`;
   const lastPos = Math.min(state().practice.lastIndex + 1, total);
   const seqSub =
     practiced > 0 && lastPos > 0
@@ -130,6 +131,14 @@ export function renderHome({ app }: RouteCtx): void {
           "exam",
           () => go("#/exam")
         ),
+        newCount > 0
+          ? bigButton(
+              "新题开刷",
+              `Chapter 3b 平衡 + Chapter 4 电化学（共 ${newCount} 题）`,
+              "new",
+              () => go("#/drill/new/0")
+            )
+          : null,
       ]),
       progressBlock,
       ...chapterRows,
@@ -173,6 +182,7 @@ const ICONS: Record<string, string> = {
   save: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="7"/><rect x="4" y="5" width="2" height="2"/><rect x="10" y="5" width="2" height="2"/><rect x="6" y="7" width="4" height="2"/><rect x="3" y="12" width="10" height="2"/></svg>',
   search: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="2" width="8" height="1"/><rect x="2" y="9" width="8" height="1"/><rect x="2" y="2" width="1" height="8"/><rect x="9" y="2" width="1" height="8"/><rect x="10" y="10" width="2" height="2"/><rect x="12" y="12" width="2" height="2"/></svg>',
   bolt: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="8" y="1" width="3" height="6"/><rect x="6" y="6" width="4" height="3"/><rect x="5" y="8" width="3" height="7"/></svg>',
+  new: '<svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="4"/><rect x="7" y="11" width="2" height="4"/><rect x="1" y="7" width="4" height="2"/><rect x="11" y="7" width="4" height="2"/><rect x="5" y="5" width="2" height="2"/><rect x="9" y="5" width="2" height="2"/><rect x="5" y="9" width="2" height="2"/><rect x="9" y="9" width="2" height="2"/></svg>',
 };
 
 function iconSpan(name: string, cls: string): HTMLSpanElement {

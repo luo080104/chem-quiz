@@ -1,0 +1,369 @@
+Chapter 4 Electrochemistry (Questions)
+Of the species below, only ________ is not an electrolyte.
+A) HCl
+B) Rb2SO4
+C) Ar
+D) KOH
+E) NaCl
+
+The balanced molecular equation for complete neutralization of H2SO4 by KOH in aqueous solution is ________.
+A) 2H+ (aq) + 2OH- (aq) → 2H2O (l)
+B) 2H+ (aq) + 2KOH (aq) → 2H2O (l) + 2K+ (aq)
+C) H2SO4 (aq) + 2OH- (aq) → 2H2O (l) + SO42- (aq)
+D) H2SO4 (aq) + 2KOH (aq) → 2H2O (l) + K2SO4 (s)
+E) H2SO4 (aq) + 2KOH (aq) → 2H2O (l) + K2SO4 (aq)
+
+Aqueous potassium chloride will react with which one of the following in an exchange (metathesis) reaction?
+A) calcium nitrate
+B) sodium bromide
+C) lead nitrate
+D) barium nitrate
+E) sodium chloride
+
+The net ionic equation for formation of an aqueous solution of NiI2 accompanied by evolution of CO2 gas via mixing solid NiCO3 and aqueous hydriodic acid is ________.
+A) 2NiCO3 (s) + HI (aq) → 2H2O (l) + CO2 (g) + 2Ni2+ (aq)
+B) NiCO3 (s) + I- (aq) → 2H2O (l) + CO2 (g) + Ni2+ (aq) + HI (aq)
+C) NiCO3 (s) + 2H+ (aq) → H2O (l) + CO2 (g) + Ni2+ (aq)
+D) NiCO3 (s) + 2HI (aq) → 2H2O (l) + CO2 (g) + NiI2 (aq)
+E) NiCO3 (s) + 2HI (aq) → H2O (l) + CO2 (g) + Ni2+ (aq) + 2I- (aq)
+
+The net ionic equation for formation of an aqueous solution of Al(NO3)3 via mixing solid Al(OH)3 and aqueous nitric acid is ________.
+A) Al(OH)3 (s)  +  3HNO3 (aq)  →  3H2O (l)  +  Al(NO3)3 (aq)
+B) Al(OH)3 (s)  +  3NO3- (aq)  →  3OH- (aq)  +  Al(NO3)3 (aq)
+C) Al(OH)3 (s)  +  3NO3- (aq)  →  3OH- (aq)  +  Al(NO3)3 (s)
+D) Al(OH)3 (s)  +  3H+ (aq)  →  3H2O (l)  +  Al3+ (aq)
+E) Al(OH)3 (s)  +  3HNO3 (aq)  →  3H2O (l)  +  Al3+ (aq)  +  NO3- (aq)
+
+Which of the following is insoluble in water at 25 °C?
+A) Mg3(PO4)2
+B) Na2S
+C) (NH4)2CO3
+D) Ca(OH)2
+E) Ba(C2H3O2)2
+
+When aqueous solutions of ________ are mixed, a precipitate forms.
+A) NiBr2 and AgNO3
+B) NaI and KBr
+C) K2SO4 and CrCl3
+D) KOH and Ba(NO3)2
+E) Li2CO3 and CsI
+
+Which one of the following compounds is insoluble in water?
+A) Na2CO3
+B) K2SO4
+C) Fe(NO3)3
+D) ZnS
+E) AgNO3
+
+Which combination will produce a precipitate?
+A) NaC2H3O2 (aq) and HCl (aq)
+B) NaOH (aq) and HCl (aq)
+C) AgNO3(aq) and Ca(C2H3O2)2 (aq)
+D) KOH (aq) and Mg(NO3)2 (aq)
+E) NaF (aq) and HCl (aq) 
+
+
+Which combination will produce a precipitate?
+A) Pb(NO3)2 (aq) and HCl (aq)
+B) Cu(NO3)2 (aq) and KC2H3O2 (aq)
+C) KOH (aq) and HNO3 (aq)
+D) AgC2H3O2 (aq) and HC2H3O2 (aq)
+E) NaOH (aq) and Sr(NO3)2 (aq)
+With which of the following will the ammonium ion form an insoluble salt?
+A) chloride
+B) sulfate
+C) carbonate
+D) sulfate and carbonate
+E) none of the above
+
+The net ionic equation for the reaction between aqueous sulfuric acid and aqueous sodium hydroxide is ________.
+A) H+ (aq)  +  HSO4- (aq)  +  2OH- (aq)  →  2H2O (l)  +  SO42- (aq)
+B) H+ (aq)  +  HSO4- (aq)  +  2Na+ (aq)  +  2OH- (aq)  →  2H2O (l)  +  2Na+ (aq)  +  SO42-(aq)
+C) SO42- (aq)  +  2Na+ (aq)  →  2Na+ (aq)  +  SO42-(aq)
+D) H+ (aq)  +  OH- (aq)  →  H2O( l)
+E) 2H+ (aq)  +  SO42- (aq)  +  2Na+ (aq)  +  2OH- (aq)  →  2H2O (l)  +  2Na+ (aq)  +  SO42- (aq)
+
+The reaction between strontium hydroxide and chloric acid produces ________.
+A) a molecular compound and a weak electrolyte
+B) two weak electrolytes
+C) two strong electrolytes
+D) a molecular compound and a strong electrolyte
+E) two molecular compounds
+
+Which one of the following is a weak acid?
+A) HNO3
+B) HCl
+C) HI
+D) HF
+E) HClO4
+
+The balanced reaction between aqueous potassium hydroxide and aqueous acetic acid is ________.
+A) KOH (aq)  +  HC2H3O2 (aq)  →  OH- (l)  +  HC2H3O2+ (aq)  +  K (s)
+B) KOH (aq)  +  HC2H3O2 (aq)  →  H2O (l)  +  KC2H3O2 (aq)
+C) KOH (aq)  +  HC2H3O2 (aq)  →  H2C2H3O3 (aq)  +  K (s)
+D) KOH (aq)  +  HC2H3O2 (aq)  →  KC2H3O3 (aq)  +  H2 (g)
+E) KOH (aq)  +  HC2H3O2 (aq)  →  H2KC2H3O (aq)  +  O2 (g)
+
+In which reaction does the oxidation number of oxygen increase?
+A) Ba(NO3)2 (aq)  +  K2SO4 (aq)  →  BaSO4 (s)  +  2KNO3 (aq)
+B) HCl (aq)  +  NaOH (aq)  →  NaCl (aq)  +  H2O (l)
+C) MgO (s)  +  H2O (l)  →  Mg(OH)2 (s)
+D) 2SO2 (g)  +  O2 (g)  →  2SO3 (g)
+E) 2H2O (l)  →  2H2 (g)  +  O2 (g)
+
+Which compound has the atom with the highest oxidation number?
+A) CaS
+B) Na3N
+C) MgSO3
+D) Al(NO2)3
+E) NH4Cl
+
+Of the choices below, which would be the best for the lining of a tank intended for use in storage of hydrochloric acid?
+A) copper
+B) zinc
+C) nickel
+D) iron
+E) tin 
+Which of these metals will be oxidized by the ions of aluminum?
+A) magnesium
+B) zinc
+C) chromium
+D) iron
+E) nickel
+
+Of the reactions below, only ________ is not spontaneous.
+A) Mg (s)  +  2HCl (aq)  →  MgCl2 (aq)  +  H2(g)
+B) 2Ag (s)  +  2HNO3 (aq)  →  2AgNO3 (aq)  +  H2 (g)
+C) 2Ni (s)  +  H2SO4  (aq)  →  Ni2SO4  (aq)  +  H2 (g)
+D) 2Al (s)  +  6HBr (aq)  →  2AlBr3 (aq)  +  3H2 (g)
+E) Zn (s)  +  2HI (aq)  →  ZnI2(aq)  +  H2 (g)
+
+Which of the following are strong acids? 
+
+HI 
+HNO3
+HF 
+HBr
+A) HF, HBr
+B) HI, HNO3, HF, HBr
+C) HI, HF, HBr
+D) HNO3, HF, HBr
+E) HI, HNO3, HBr
+
+What is the concentration (M) of a NaCl solution prepared by dissolving 9.3 g of NaCl in sufficient water to give 350 mL of solution?
+A) 18
+B) 0.16
+C) 0.45
+D) 27
+E) 2.7 × 10-2
+Calculate the concentration (M) of sodium ions in a solution made by diluting 50.0 mL of a 0.874 M solution of sodium sulfide to a total volume of 250.0 mL.
+A) 0.175
+B) 4.37
+C) 0.525
+D) 0.350
+E) 0.874
+
+The molarity of a solution prepared by diluting 43.72 mL of 1.005 M aqueous K2Cr2O7 to 500. mL is ________.
+A) 0.0879
+B) 87.9
+C) 0.0218
+D) 0.0115
+E) 0.870
+
+The concentration of species in 500 mL of a 2.104 M solution of sodium sulfate is ________ M sodium ion and ________ M sulfate ion.
+A) 2.104, 1.052
+B) 2.104, 2.104
+C) 2.104, 4.208
+D) 1.052, 1.052
+E) 4.208, 2.104
+
+The gain of electrons by an element is called ________.
+A) reduction
+B) oxidation
+C) disproportionation
+D) fractionation
+E) sublimation
+
+________ is oxidized in the following reaction:
+	Cr2O72-  +  6S2O32-  +  14H+  →  2Cr3+  +  3S4O62-  +  7H2O
+A) Cr6+
+B) S2+
+C) H+
+D) O2-
+E) S4O62-
+
+________ is the reducing agent in the reaction below.
+	Cr2O72- + 6S2O32- + 14H+ → 2Cr3+ + 3S4O62- + 7H2O
+A) Cr2O72-
+B) S2O32-
+C) H+
+D) Cr3+
+E) S4O62-
+
+What is the oxidation number of chromium in Cr2O72- ion?
+A) +3
+B) +12
+C) +7
+D) +6
+E) +14
+
+________ electrons appear in the following half-reaction when it is balanced.
+	S4O62-  →  2S2O32- 
+A) 6
+B) 2
+C) 4
+D) 1
+E) 3
+
+The half-reaction occurring at the anode in the balanced reaction shown below is ________.
+	3MnO4- (aq) + 24H+ (aq) + 5Fe (s) → 3Mn2+ (aq) + 5Fe3+ (aq) + 12H2O (l) 
+A) MnO4-  (aq)  +  8H+ (aq)  +  5e-  →  Mn2+ (aq)  +  4H2O (l)
+B) 2MnO4- (aq)  +  12H+ (aq)  +  6e-  →  2Mn2+ (aq)  +  3H2O (l)
+C) Fe (s)  →  Fe3+ (aq)  +  3e-
+D) Fe (s)  →  Fe2+ (aq)  +  2e-
+E) Fe2+ (aq)  →  Fe3+ (aq)  +  e-
+
+The more ________ the value of E°red, the greater the driving force for reduction.
+A) positive
+B) negative
+C) exothermic
+D) endothermic
+E) extensive
+
+	
+
+The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V.
+	Sn2+ (aq)  +  2Fe3+ (aq)  →  2Fe2+ (aq)  +  Sn4+ (aq)
+A) +0.46
+B) +0.617
+C) +1.39
+D) -0.46
+E) +1.21
+
+The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V.
+	Cr (s)  +  3Fe3+ (aq)  →  3Fe2+ (aq)  +  Cr3+ (aq)
+A) -1.45
+B) +2.99
+C) +1.51
+D) +3.05
+E) +1.57
+
+The relationship between the change in Gibbs free energy and the emf of an electrochemical cell is given by ________.
+A) ΔG  =  
+B) ΔG  =  
+C) ΔG  =  -nFE
+D) ΔG  =  -nRTF
+E) ΔG  =  
+
+The standard cell potential (E°cell) of the reaction below is +0.126 V. The value of ΔG° for the reaction is ________ kJ/mol. 
+	Pb (s)  +  2H+(aq)  →  Pb2+ (aq)  +  H2 (g)
+A) -24.3
+B) +24.3
+C) -12.6
+D) +12.6
+E) -50.8
+
+The standard cell potential (E°cell) of the reaction below is +1.34 V. The value of ΔG° for the reaction is ________ kJ/mol.
+	3 Cu (s) + 2 MnO4- (aq) + 8H+ (aq) → 3 Cu2+ (aq) + 2 MnO2 (s) + 4 H2O (l)
+A) -24.3
+B) +259
+C) -259
+D) +776
+E) –776
+The lead-containing reactant(s) consumed during recharging of a lead-acid battery is/are ________.
+A) Pb (s) only
+B) PbO2 (s) only
+C) PbSO4 (s) only
+D) both PbO2 (s) and PbSO4 (s)
+E) both Pb (s) and PbO2 (s)
+
+Corrosion of iron is retarded by ________.
+A) the presence of salts
+B) high pH conditions
+C) low pH conditions
+D) both the presence of salts and high pH conditions
+E) both the presence of salts and low pH conditions
+
+The purpose of the salt bridge in an electrochemical cell is to ________.
+A) maintain electrical neutrality in the half-cells via migration of ions
+B) provide a source of ions to react at the anode and cathode
+C) provide oxygen to facilitate oxidation at the anode
+D) provide a means for electrons to travel from the anode to the cathode
+E) provide a means for electrons to travel from the cathode to the anode
+
+
+Which transformation could take place at the anode of an electrochemical cell?
+A) NO  →  NO3-
+B) CO2  →  C2O42-
+C) VO2+  →  VO2+
+D) H2AsO4  →  H3AsO3
+E) O2  →  H2O2
+
+What is the cathode in the hydrogen fuel cell?
+A) O2
+B) KOH
+C) Li
+D) H2
+E) Pt
+
+In a lead-acid battery, the electrodes are consumed. In this battery, ________.
+A) the anode is Pb
+B) the anode is PbSO4
+C) the anode is PbO2
+D) the cathode is PbSO4
+E) the cathode is Pb
+
+Cathodic protection of a metal pipe against corrosion usually entails ________.
+A) attaching an active metal to make the pipe the anode in an electrochemical cell
+B) coating the pipe with another metal whose standard reduction potential is less negative than that of the pipe
+C) attaching an active metal to make the pipe the cathode in an electrochemical cell
+D) attaching a dry cell to reduce any metal ions which might be formed
+E) coating the pipe with a fluoropolymer to act as a source of fluoride ion (since the latter is so hard to oxidize)
+
+One of the differences between a voltaic cell and an electrolytic cell is that in an electrolytic cell, ________.
+A) an electric current is produced by a chemical reaction
+B) electrons flow toward the anode
+C) a nonspontaneous reaction is forced to occur
+D) O2 gas is produced at the cathode
+E) oxidation occurs at the cathode
+
+Which element is reduced in the reaction below?
+	Fe(CO)5 (l) + 2HI (g) → Fe(CO)4I2 (s) + CO (g) + H2 (g)
+A) Fe
+B) C
+C) O
+D) H
+E) I
+
+Which of the following reactions is a redox reaction?
+	(a)  K2CrO4  +  BaCl2  →  BaCrO4  +  2KCl
+	(b)  Pb22+  +  2Br-   →  PbBr
+	(c)  Cu  +  S  →  CuS
+A) (a) only
+B) (b) only
+C) (c) only
+D) (a) and (c)
+E) (b) and (c)
+
+Which substance is the oxidizing agent in the following reaction?
+	Fe2S3  +  12HNO3  →  2Fe(NO3)3  +  3S  +  6NO2  +  6H2O
+A) HNO3
+B) S
+C) NO2
+D) Fe2S3
+E) H2O
+
+What is the coefficient of the permanganate ion when the following equation is balanced?
+	MnO4-  +  Br-  →  Mn2+  +  Br2        (acidic solution)
+A) 1
+B) 2
+C) 3
+D) 5
+E) 4
+What is the coefficient of Fe3+ when the following equation is balanced?
+	CN-  +  Fe3+  →  CNO-  +  Fe2+          (basic solution)
+A) 1
+B) 2
+C) 3
+D) 4
+E) 5

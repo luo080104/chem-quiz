@@ -1,0 +1,606 @@
+{
+  "label": "ai",
+  "generatedAt": "2026-11-03T10:42:06.180Z",
+  "answers": {
+    "1": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "平衡时正、逆反应速率相等，但反应并未停止。"
+    },
+    "2": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "哈伯法即工业上合成氨的方法。"
+    },
+    "3": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "平衡常数只随温度改变，与浓度、压强无关。"
+    },
+    "4": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Kc = [NO2]^2/[N2O4]，纯固体、纯液体不写入表达式。"
+    },
+    "5": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "平衡常数表达式由反应方程式的计量数决定。"
+    },
+    "6": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "Kp = P(O2)^3/P(O3)^2。"
+    },
+    "7": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "目标反应为原反应逆向并除以 2，故 K' = 1/√K = 1/√0.0752 ≈ 3.65。"
+    },
+    "8": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Δn = 2-2 = 0，故 Kp = Kc = 1.90×10^19。"
+    },
+    "9": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "水是纯液体不写入，K = [H3O+][F-]/[HF]。"
+    },
+    "10": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "K = 4.34×10^-3 ≪ 1，平衡时反应物占优。"
+    },
+    "11": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "只放入 SO2 时无法生成 O2，故不能建立该平衡。"
+    },
+    "12": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Q = 2^2/(1×1) = 4 < Kp = 7，反应向右进行，BrCl 分压增大。"
+    },
+    "13": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "K 只与温度有关，不随浓度或分压改变。"
+    },
+    "14": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "Q = K 时体系处于平衡。"
+    },
+    "15": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "减小体积（增大压强）时平衡向气体分子数少的一侧移动；C 为 4→2，正向移动。"
+    },
+    "16": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "降低总压使平衡向气体分子数多的一侧（右）移动，H2 增多。"
+    },
+    "17": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "催化剂只加快达到平衡，不改变平衡组成与 K。"
+    },
+    "18": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "方程式系数减半，K' = √794 ≈ 28。"
+    },
+    "19": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "方程式系数减半，K' = √14.5 ≈ 3.81。"
+    },
+    "20": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Kp = (0.0960)^2/(0.708)^2 ≈ 1.84×10^-2。"
+    },
+    "21": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "平衡时 CO 为 0.29，反应掉 0.13；H2 = 0.16，CH3OH = 0.13；K = 0.13/(0.29×0.16^2) ≈ 17.5。"
+    },
+    "22": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "生成 IBr 0.84，消耗 I2、Br2 各 0.42，余 0.08；K = 0.84^2/(0.08×0.08) ≈ 110。"
+    },
+    "23": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "设 O2 分压为 x，则 x^2/(36.1-2x)^2 = 2400，解得 x ≈ 17.9 atm。"
+    },
+    "24": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "阿伦尼乌斯酸能使水溶液中 H+ 浓度增大。"
+    },
+    "25": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "布朗斯特-劳里碱是质子接受体。"
+    },
+    "26": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "25 °C 纯水中 [H3O+] = 1.0×10^-7 M。"
+    },
+    "27": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "H- 是强碱，夺取水中的 H 生成 H2 和 OH-。"
+    },
+    "28": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "硝酸是强酸。"
+    },
+    "29": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "HF 是弱酸。"
+    },
+    "30": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Ka 越大酸性越强，HF 的 Ka = 6.8×10^-4 最大。"
+    },
+    "31": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "α = √(Ka/C) = √(3.0×10^-8/0.015) ≈ 1.4×10^-3，即 0.14%。"
+    },
+    "32": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "苯甲酸弱、硝酸强、乙酸弱，故为 W S W。"
+    },
+    "33": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "HClO 弱、HClO4 强、HClO3 强，故为 W S S。"
+    },
+    "34": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "氨是弱碱。"
+    },
+    "35": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Kb 对应 A- 与水生成 HA 和 OH- 的平衡。"
+    },
+    "36": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "氨弱碱、F- 弱碱、NaOH 强碱，故为 W W S。"
+    },
+    "37": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "酸越弱其共轭碱越强；HOAc 的 Ka 最小，OAc- 最强。"
+    },
+    "38": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "HClO 的 Ka 最小，其共轭碱 ClO- 最强。"
+    },
+    "39": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "碱越强其共轭酸越强；甲胺 Kb 最大，CH3NH3+ 最强。"
+    },
+    "40": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "吡啶 Kb 最小，其共轭酸 C5H5NH+ 最弱。"
+    },
+    "41": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "ClO- 是弱酸根，水解显碱性。"
+    },
+    "42": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "纯水 [OH-] = 1.0×10^-7 M，其余各项均更小（E 为酸性）。"
+    },
+    "43": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "K2CO3 与 NaF 水解均显碱性。"
+    },
+    "44": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "KCN 的 Kb = Kw/Ka ≈ 2.5×10^-5 最大，pH 最高。"
+    },
+    "45": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "[H3O+] = 3.98×10^-9，pH = 8.400，故 pOH = 5.600。"
+    },
+    "46": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "pOH = 8.40，pH = 14 - 8.40 = 5.60。"
+    },
+    "47": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "pH = 14 - 4.223 = 9.777，[H+] = 10^-9.777 ≈ 1.67×10^-10。"
+    },
+    "48": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "0.100 M NaOH 的 pOH = 1.00，pH = 13.00。"
+    },
+    "49": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "[H+] = 10^-4.93 ≈ 1.2×10^-5，Ka = [H+]^2/C ≈ 6.9×10^-9。"
+    },
+    "50": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "[H+] = 10^-2.03 ≈ 9.3×10^-3，Ka ≈ (9.3×10^-3)^2/0.25 ≈ 3.5×10^-4。"
+    },
+    "51": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "[H+] = √(Ka·C) = √(3.00×10^-8×0.0200) ≈ 2.45×10^-5，pH ≈ 4.61。"
+    },
+    "52": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "一级电离主导，[H+] ≈ √(Ka1·C) = √(1.7×10^-2×0.163) ≈ 0.053，pH ≈ 1.28。"
+    },
+    "53": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "pOH = 2.50，[OH-] = 3.2×10^-3，Kb ≈ [OH-]^2/C ≈ 1.8×10^-5。"
+    },
+    "54": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "pOH = 4.18，[OH-] = 6.6×10^-5，Kb ≈ 4.4×10^-8。"
+    },
+    "55": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "[OH-] = √(Kb·C) = √(4.4×10^-4×0.050) ≈ 4.7×10^-3。"
+    },
+    "56": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "NaCl 与 HCl 是强酸及其盐，不能构成缓冲对。"
+    },
+    "57": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "其余各组都没有弱酸/弱碱与共轭对，故选“以上都不是”。"
+    },
+    "58": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "加入的 H+ 与 F- 结合生成 HF，故 F- 减少、HF 增多。"
+    },
+    "59": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "[HA] = [A-] 时 pH = pKa，即 -log[H+] = -logKa。"
+    },
+    "60": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "HF 与 NaOH 部分中和生成 NaF，与剩余 HF 构成缓冲。"
+    },
+    "61": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "KF 中加入少量 HCl 生成 HF，与 F- 构成缓冲。"
+    },
+    "62": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "同离子效应可使难溶盐选择性沉淀。"
+    },
+    "63": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "等浓度等体积混合，pH = pKa = 4.201。"
+    },
+    "64": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "pH = pKa + log(0.300/0.150) = 4.754 + 0.301 ≈ 5.06。"
+    },
+    "65": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "等物质的量的强酸与强碱恰好中和，pH = 7.00。"
+    },
+    "66": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "剩余 OH- = 1.25 mmol/90 mL = 0.0139 M，pOH = 1.86，pH = 12.14。"
+    },
+    "67": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "Ksp = 4s^3，s = 7.5×10^-3，[F-] = 2s = 1.5×10^-2。"
+    },
+    "68": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "Ksp = 4s^3 = 4×(1.6×10^-2)^3 ≈ 1.6×10^-5。"
+    },
+    "69": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Ksp = 4s^3 = 4×(1.4×10^-4)^3 ≈ 1.1×10^-11。"
+    },
+    "70": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "[Ag+] = √(Ksp/[CO3^2-]) = √(8.1×10^-12/0.025) ≈ 1.8×10^-5。"
+    },
+    "71": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "同离子效应使 [Cl-] ≈ 0.15，s = Ksp/[Cl-]^2 ≈ 7.1×10^-4。"
+    },
+    "72": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "pH 11.5 时 [OH-] = 3.16×10^-3，s = Ksp/[OH-]^2 ≈ 5.0×10^-12。"
+    },
+    "73": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "矿物是含一种或多种金属的固态无机化合物。"
+    },
+    "74": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "铂配合物通常为四配位（平面四方）。"
+    },
+    "75": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "配位圈由中心金属离子及其配位的配体组成。"
+    },
+    "76": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "K3[Co(CN)6] 中 Co 为 +3 价，d6，故有 6 个 d 电子。"
+    },
+    "77": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "2 个 Mg2+ 共 +4，故配离子为 [FeCl6]4-。"
+    },
+    "78": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "配体是 CN-。"
+    },
+    "79": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "2 个配离子共 -6，每个 -3；Fe + 6(-1) = -3，Fe = +3。"
+    },
+    "80": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "内界有 3 个 H2O 和 1 个 Cl-，配位数为 4。"
+    },
+    "81": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "Co + 5(0) + (-1) + 2(-1) = 0，Co = +3。"
+    },
+    "82": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "EDTA 是六齿配体。"
+    },
+    "83": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "d8 构型（如 Ni2+、Pt2+）常形成平面四方抗磁性配合物。"
+    },
+    "84": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "第一过渡系以 +2、+3 氧化态最常见。"
+    },
+    "85": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "镧系收缩使 Zr 与 Hf 的半径几乎相同。"
+    },
+    "86": {
+      "answer": [
+        "E"
+      ],
+      "explanation": "过渡金属熔点高，故“熔点低”不正确。"
+    },
+    "87": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "抗磁性物质在磁场中只显示极微弱的磁性。"
+    },
+    "88": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "四配位配合物最常见的是四面体构型。"
+    },
+    "89": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "每个配体至少提供一对孤对电子，故最少为 1。"
+    },
+    "90": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Ni + 5(-1) = -3，故 Ni = +2。"
+    },
+    "91": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "Cl- 只有一个配位原子，不能形成螯合物。"
+    },
+    "92": {
+      "answer": [
+        "D"
+      ],
+      "explanation": "人体吸收的铁约 60% 存在于血液的血红蛋白中。"
+    },
+    "93": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "内界为 3 个 NH3 和 1 个 Br-。"
+    },
+    "94": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "[NiCl4]2- 为四面体构型。"
+    },
+    "95": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "配位圈异构体分子式相同，但配位数不同。"
+    },
+    "96": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Cd2+ 为 d10，无 d-d 跃迁，故无色。"
+    },
+    "97": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "420 nm 属紫光，其补色为黄色。"
+    },
+    "98": {
+      "answer": [
+        "B"
+      ],
+      "explanation": "Fe(III) 低自旋 d5 有 1 个未成对电子，呈顺磁性。"
+    },
+    "99": {
+      "answer": [
+        "A"
+      ],
+      "explanation": "d10 构型无 d 电子可跃迁，故无色。"
+    },
+    "100": {
+      "answer": [
+        "C"
+      ],
+      "explanation": "中性配体与金属离子之间主要为离子-偶极作用。"
+    }
+  }
+}

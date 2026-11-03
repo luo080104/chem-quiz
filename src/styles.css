@@ -254,6 +254,10 @@ h2 {
   border-color: var(--neon-2);
   box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.35), 0 0 14px rgba(244, 114, 182, 0.18);
 }
+.big-btn.new {
+  border-color: var(--ok);
+  box-shadow: 0 0 0 1px rgba(52, 211, 153, 0.35), 0 0 14px rgba(52, 211, 153, 0.18);
+}
 .big-title {
   font-size: 17px;
   font-weight: 700;
@@ -266,6 +270,9 @@ h2 {
 }
 .big-btn.exam .big-title {
   text-shadow: 0 0 8px rgba(244, 114, 182, 0.6);
+}
+.big-btn.new .big-title {
+  text-shadow: 0 0 8px rgba(52, 211, 153, 0.6);
 }
 .big-sub {
   font-size: 12px;
@@ -383,6 +390,9 @@ h2 {
 }
 .big-btn.exam .big-ico {
   color: #ffd9f1;
+}
+.big-btn.new .big-ico {
+  color: #d1fae5;
 }
 .tile-title {
   font-weight: 700;
@@ -1196,6 +1206,7 @@ html[data-theme="light"] .score-score,
 html[data-theme="light"] .topbar-title { color: var(--ink); text-shadow: none; }
 html[data-theme="light"] .big-btn .big-ico { color: var(--neon); }
 html[data-theme="light"] .big-btn.exam .big-ico { color: var(--neon-2); }
+html[data-theme="light"] .big-btn.new .big-ico { color: var(--ok); }
 html[data-theme="light"] .tile-ico { color: var(--neon); }
 html[data-theme="light"] .tile-ico svg { filter: none; }
 html[data-theme="light"] .timer { color: var(--ok); text-shadow: none; }

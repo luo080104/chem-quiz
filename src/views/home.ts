@@ -41,7 +41,9 @@ export function renderHome({ app }: RouteCtx): void {
       : null;
 
   const sampleSize = Math.min(100, bank.questions.filter((q) => q.answer.length).length);
-  const newCount = bank.questions.filter((q) => q.label === "chapter3b" || q.label === "chapter4").length;
+  const newCount = bank.questions.filter(
+    (q) => q.label === "chapter3a" || q.label === "chapter3b" || q.label === "chapter4"
+  ).length;
   const seqTitle = total >= 250 ? `顺序刷 ${total} 题` : `顺序刷题（${total} 题）`;
   const lastPos = Math.min(state().practice.lastIndex + 1, total);
   const seqSub =
@@ -134,7 +136,7 @@ export function renderHome({ app }: RouteCtx): void {
         newCount > 0
           ? bigButton(
               "新题开刷",
-              `Chapter 3b 平衡 + Chapter 4 电化学（共 ${newCount} 题）`,
+              `Chapter 3a 动力学 + 3b 平衡 + 4 电化学（共 ${newCount} 题）`,
               "new",
               () => go("#/drill/new/0")
             )

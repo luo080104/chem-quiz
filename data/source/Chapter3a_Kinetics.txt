@@ -1,0 +1,743 @@
+Chapter 3 Chemical Reaction (Kinetics Q&A)
+
+When the following equation is balanced, the coefficients are ________.
+	C8H18  +  O2  →  CO2  +  H2O
+A) 2, 3, 4, 4
+B) 1, 4, 8, 9
+C) 2, 12, 8, 9
+D) 4, 4, 32, 36
+E) 2, 25, 16, 18
+
+When a hydrocarbon burns in air, what component of air reacts?
+A) oxygen
+B) nitrogen
+C) carbon dioxide
+D) water
+E) argon
+
+Of the reactions below, which one is a decomposition reaction?
+A) NH4Cl  →  NH3  +  HCl
+B) 2Mg  +  O2  →  2MgO
+C) 2N2  +  3H2  →  2NH3
+D) 2CH4  +  4O2  →  2CO2  +  4H2O
+E) Cd(NO3)2  +  Na2S  →  CdS  +  2NaNO3 
+
+Which one of the following substances is the product of this combination reaction?  
+	Al (s)  +  I2 (s)  →  ________
+A) AlI2
+B) AlI
+C) AlI3
+D) Al2I3
+E) Al3I2
+
+Which of the following are combustion reactions? 
+1)  CH4 (g)  + O2 (g)  →  CO2 (g)  +  H2O (l) 
+2)  CaO (s)  +  CO2 (g)  →  CaCO3 (s) 
+3)  PbCO3 (s)  →  PbO (s)  +  CO2 (g) 
+4)  CH3OH (l)  +  O2 (g)  →  CO2 (g)  +  H2O (l)
+A) 1 and 4
+B) 1, 2, 3, and 4
+C) 1, 3, and 4
+D) 2, 3, and 4
+E) 3 and 4
+
+Which of the following are decomposition reactions? 
+1)  CH4 (g)  +  O2 (g)  →  CO2 (g)  +  H2O (l) 
+2)  CaO (s)  +  CO2 (g)  →  CaCO3 (s) 
+3)  Mg (s)  +  O2 (g)  →  MgO (s) 
+4)  PbCO3 (s)  →  PbO (s)  +  CO2 (g)
+A) 1, 2, and 3
+B) 4 only
+C) 1, 2, 3, and 4
+D) 2 and 3
+E) 2, 3, and 4
+
+The formula of nitrobenzene is C6H5NO2. The molecular weight of this compound is ________ amu.
+A) 107.11
+B) 43.03
+C) 109.10
+D) 123.11
+E) 3.06
+
+The formula weight of silver chromate (Ag2CrO4) is ________ amu.
+A) 159.87
+B) 223.87
+C) 331.73
+D) 339.86
+E) 175.87
+
+The molecular weight of the acetic acid (CH3CO2H), rounded to the nearest integer, is ________ amu.
+A) 60
+B) 48
+C) 44
+D) 32
+
+The formula weight of a substance is ________.
+A) identical to the molar mass
+B) the same as the percent by mass weight
+C) determined by combustion analysis
+D) the sum of the atomic weights of each atom in its chemical formula
+E) the weight of a sample of the substance
+
+The formula weight of lead nitrate (Pb(NO3)2) is ________ amu.
+A) 269.2
+B) 285.2
+C) 317.2
+D) 331.2
+E) 538.4
+
+The mass % of C in methane (CH4) is ________.
+A) 25.13
+B) 133.6
+C) 74.87
+D) 92.26
+E) 7.743
+
+The mass % of H in methane (CH4) is ________.
+A) 25.13
+B) 4.032
+C) 74.87
+D) 92.26
+E) 7.743
+
+Calculate the percentage by mass of nitrogen in PtCl2(NH3)2.
+A) 4.67
+B) 9.34
+C) 9.90
+D) 4.95
+E) 12.67
+
+Calculate the percentage by mass of lead in PbCO3.
+A) 17.96
+B) 22.46
+C) 73.05
+D) 77.54
+E) 89.22
+
+Calculate the percentage by mass of hydrogen in PtCl2(NH3)2.
+A) 1.558
+B) 1.008
+C) 0.672
+D) 0.034
+E) 2.016
+
+One mole of ________ contains the largest number of atoms.
+A) S8
+B) C10H8 
+C) Al2(SO4)3 
+D) Na3PO4
+E) Cl2
+
+A 30.5 gram sample of glucose (C6H12O6) contains ________ mol of glucose.
+A) 0.424
+B) 0.169
+C) 5.90
+D) 2.36
+E) 0.136
+
+A sample of CH4O with a mass of 32.0 g contains ________ molecules of CH4O.
+A) 5.32 × 10-23
+B) 1.00
+C) 1.88 × 1022
+D) 6.02 × 1023
+E) 32.0
+
+Gaseous argon has a density of 1.40 g/L at standard conditions. How many argon atoms are in 1.00 L of argon gas at standard conditions?
+A) 4.76 × 1022
+B) 3.43 × 1025
+C) 2.11 × 1022
+D) 1.59 × 1025
+E) 6.02 × 1023
+How many sulfur dioxide molecules are there in 1.80 mol of sulfur dioxide?
+A) 1.08 × 1023
+B) 6.02 × 1024
+C) 1.80 × 1024
+D) 1.08 × 1024
+E) 6.02 × 1023
+
+How many carbon atoms are there in 52.06 g of carbon dioxide?
+A) 5.206 × 1024
+B) 3.134 × 1025
+C) 7.122 × 1023
+D) 8.648 × 10-23
+E) 1.424 × 1024
+
+A nitrogen oxide is 63.65% by mass nitrogen. The molecular formula could be ________.
+A) NO
+B) NO2
+C) N2O
+D) N2O4
+E) either NO2 or N2O4
+
+A sulfur oxide is 50.0% by mass sulfur. This molecular formula could be ________.
+A) SO
+B) SO2
+C) S2O
+D) S2O4
+E) either SO2 or S2O4
+
+Propane (C3H8) reacts with oxygen in the air to produce carbon dioxide and water. In a particular experiment, 38.0 grams of carbon dioxide are produced from the reaction of 22.05 grams of propane with excess oxygen. What is the % yield in this reaction?
+A) 38.0
+B) 57.6
+C) 66.0
+D) 86.4
+E) 94.5
+
+When the following equation is balanced, the coefficients are ________.
+	Al(NO3)3  +  Na2S  →  Al2S3  +  NaNO3
+A) 2, 3, 1, 6
+B) 2, 1, 3, 2
+C) 1, 1, 1, 1
+D) 4, 6, 3, 2
+E) 2, 3, 2, 3
+
+When the following equation is balanced, the coefficient of H2 is ________.
+	K (s)  +  H2O (l)  →  KOH (aq)  +  H2 (g)
+A) 1
+B) 2
+C) 3
+D) 4
+E) 5
+
+When the following equation is balanced, the coefficient of H2O is ________.
+	Ca (s)  +  H2O (l)  →  Ca(OH)2 (aq)  +  H2 (g)
+A) 1
+B) 2
+C) 3
+D) 5
+E) 4
+
+Write the balanced equation for the reaction that occurs when methanol, CH3OH (l), is burned in air.  What is the coefficient of methanol in the balanced equation?
+A) 1
+B) 2
+C) 3
+D) 4
+E) 3/2
+
+What is the empirical formula of a compound that contains 27.0% S, 13.4% O, and 59.6% Cl by mass?
+A) SOCl
+B) SOCl2
+C) S2OCl
+D) SO2Cl
+E) ClSO4
+
+A compound contains 38.7% K, 13.9% N, and 47.4% O by mass. What is the empirical formula of the compound?
+A) KNO3
+B) K2N2O3
+C) KNO2
+D) K2NO3
+E) K4NO5
+Combustion of a 0.9827-g sample of a compound containing only carbon, hydrogen, and oxygen produced 1.900 g of CO2 and 1.070 g of H2O. What is the empirical formula of the compound?
+A) C2H5O
+B) C4H10O2
+C) C4H11O2
+D) C4H10O
+E) C2H5O2
+
+The combustion of propane (C3H8) in the presence of excess oxygen yields CO2 and H2O:
+	C3H8 (g)  +  5O2 (g)  →  3CO2 (g)  +  4H2O (g)
+When 2.5 mol of O2 are consumed in their reaction, ________ mol of CO2 are produced.
+A) 1.5
+B) 3.0
+C) 5.0
+D) 6.0
+E) 2.5
+
+Under appropriate conditions, nitrogen and hydrogen undergo a combination reaction to yield ammonia:
+	N2 (g)  +  3H2 (g)  →  2NH3 (g)
+A ________ g sample of N2 requires 3.0 g of H2 for complete reaction.
+A) 0.51
+B) 0.76
+C) 1.2
+D) 14.0
+E) 17.2
+
+If the reaction yield is 94.4%, what mass in grams of hydrogen is produced by the reaction of 4.73 g of magnesium with 1.83 g of water?
+	Mg (s)  +  2H2O (l)   →  Mg(OH)2 (s)  +  H2 (g)
+A) 0.0962
+B) 0.0162
+C) 0.0485
+D) 0.219
+E) 0.204
+
+The dissolution of water in octane (C8H18) is prevented by ________.
+A) London dispersion forces between octane molecules
+B) hydrogen bonding between water molecules
+C) dipole-dipole attraction between octane molecules
+D) ion-dipole attraction between water and octane molecules
+E) repulsion between like-charged water and octane molecules
+
+When argon is placed in a container of neon, the argon spontaneously disperses throughout the neon because ________.
+A) of the large attractive forces between argon and neon atoms
+B) of hydrogen bonding
+C) a decrease in energy occurs when the two mix
+D) the dispersion of argon atoms produces an increase in disorder
+E) of solvent-solute interactions
+
+Hydration is a specific example of the phenomenon known generally as ________.
+A) salutation
+B) disordering
+C) solvation
+D) condensation
+E) dilution
+
+When solutions of strong electrolytes in water are formed, the ions are surrounded by water molecules.  These interactions are described as a case of ________.
+A) hydration
+B) supersaturation
+C) crystallization
+D) dehydration
+E) saturation
+
+In a saturated solution of a salt in water, ________.
+A) the rate of crystallization  >  the rate of dissolution
+B) the rate of dissolution  >  the rate of crystallization
+C) seed crystal addition may cause massive crystallization
+D) the rate of crystallization  =  the rate of dissolution
+E) addition of more water causes massive crystallization
+
+An unsaturated solution is one that ________.
+A) has no double bonds
+B) contains the maximum concentration of solute possible, and is in equilibrium with undissolved solute
+C) has a concentration lower than the solubility
+D) contains more dissolved solute than the solubility allows
+E) contains no solute
+
+A solution with a concentration higher than the solubility is ________.
+A) not possible
+B) unsaturated
+C) supercritical
+D) saturated
+E) supersaturated
+
+The principal reason for the extremely low solubility of NaCl in benzene (C6H6) is the ________.
+A) strong solvent-solvent interactions
+B) hydrogen bonding in C6H6
+C) strength of the covalent bond in NaCl
+D) weak solvation of Na+ and Cl- by C6H6
+E) increased disorder due to mixing of solute and solvent
+
+Which one of the following is least soluble in water?
+A) CH3OH
+B) CH3CH2CH2OH
+C) CH3CH2OH
+D) CH3CH2CH2CH2OH
+E) CH3CH2CH2CH2CH2OH
+Which one of the following is most soluble in water?
+A) CH3OH
+B) CH3CH2CH2OH
+C) CH3CH2OH
+D) CH3CH2CH2CH2OH
+E) CH3CH2CH2CH2CH2OH
+
+The solubility of nitrogen gas at 25 °C and 1 atm is 6.8 × 10-4 mol/L. If the partial pressure of nitrogen gas in air is 0.76 atm, what is the concentration (molarity) of dissolved nitrogen?
+A) 6.8 × 10-4 M
+B) 5.2 × 10-4 M
+C) 4.9 × 10-4 M
+D) 3.8 × 10-4 M
+E) 1.1 × 10-5 M
+
+The concentration of CO2 in a soft drink bottled with a partial pressure of CO2 of 6.5 atm over the liquid at 29 °C is 2.2 × 10-1 M. The Henry's law constant for CO2 at this temperature is ________.
+A) 2.2 × 10-1 mol/L-atm
+B) 7.6 × 10-3 mol/L-atm
+C) 5.6 × 10-3 mol/L-atm
+D) 3.4 × 10-2 mol/L-atm
+E) More information is needed to solve the problem.
+
+Pressure has an appreciable effect on the solubility of ________ in liquids.
+A) gases
+B) solids
+C) liquids
+D) salts
+E) solids and liquids
+
+Which of the following statements is false?
+A) Nonpolar liquids tend to be insoluble in polar liquids.
+B) The weaker the attraction between the solute and solvent molecules, the greater the solubility.
+C) Substances with similar intermolecular attractive forces tend to be soluble in one another.
+D) The solubility of a gas increases in direct proportion to its partial pressure above the solution.
+E) The solubility of gases in water decreases with increasing temperature.
+
+A solution is prepared by dissolving calcium chloride in water and diluting to 500.0 mL. If this solution contains 44 ppm chloride ions, the concentration of calcium ions is ________ ppm.
+A) 44
+B) 88
+C) 22
+D) 11
+E) 500
+
+Molality is defined as the ________.
+A) moles solute/moles solvent
+B) moles solute/liters solution
+C) moles solute/kg solution
+D) moles solute/kg solvent
+E) none (dimensionless)
+
+Which one of the following concentration units varies with temperature?
+A) molarity
+B) mass percent
+C) mole fraction
+D) molality
+E) all of the above
+
+A solution contains 11% by mass of sodium chloride. This means that ________.
+A) there are 11 g of sodium chloride in in 1.0 mL of this solution
+B) 100 g of the solution contains 11 g of sodium chloride
+C) 100 mL of the solution contains 11 g of sodium chloride
+D) the density of the solution is 11 g/mL
+E) the molality of the solution is 11
+
+A solution contains 15 ppm of benzene. The density of the solution is 1.00 g/mL. This means that ________.
+A) there are 15 mg of benzene in 1.0 g of this solution
+B) 100 g of the solution contains 15 g of benzene
+C) 1.0 g of the solution contains 15 × 10-6 g of benzene
+D) 1.0 L of the solution contains 15 g of benzene
+E) the solution is 15% by mass of benzene
+
+The magnitudes of Kf and of Kb depend on the identity of the ________.
+A) solute
+B) solvent
+C) solution
+D) solvent and on temperature
+E) solute and solvent
+
+As the concentration of a solute in a solution increases, the freezing point of the solution ________ and the vapor pressure of the solution ________.
+A) increases, increases
+B) increases, decreases
+C) decreases, increases
+D) decreases, decreases
+E) decreases, is unaffected
+
+Which of the following liquids will have the highest freezing point?
+A) pure H2O
+B) aqueous glucose (0.60 m) 
+C) aqueous sucrose (0.60 m)
+D) aqueous FeI3 (0.24 m)
+E) aqueous KF (0.50 m) 
+
+A 1.35 m aqueous solution of compound X had a boiling point of 101.4 °C. Which one of the following could be compound X? The boiling point elevation constant for water is 0.52 °C/m.
+A) CH3CH2OH
+B) C6H12O6
+C) Na3PO4
+D) KCl
+E) CaCl2
+
+Of the following, a 0.1 M aqueous solution of ________ will have the lowest freezing point.
+A) NaCl
+B) Al(NO3)3
+C) K2CrO4
+D) Na2SO4
+E) sucrose
+
+Which one of the following solutes has a limiting van't Hoff factor (i) of 3 when dissolved in water?
+A) KNO3
+B) CH3OH
+C) CCl4
+D) Na2SO4
+E) sucrose
+
+Calculate the vapor pressure of a solution made by dissolving 109 grams of glucose 
+(molar mass = 180.2 g/mol) in 920.0 ml of water at 25 °C. The vapor pressure of pure water at 25 °C is 23.76 mm Hg. Assume the density of the solution is 1.00 g/ml.
+A) 0.278 mm Hg
+B) 0.605 mm Hg
+C) 22.98 mm Hg
+D) 23.48 mm Hg
+E) 23.76 mm Hg
+
+The process of a substance sticking to the surface of another is called
+A) absorption
+B) diffusion
+C) effusion
+D) adsorption
+E) coagulation
+
+The process of solute particles being surrounded by solvent particles is known as ________.
+A) salutation
+B) agglomeration
+C) solvation
+D) agglutination
+E) dehydration
+
+
+
+
+A sample of potassium nitrate (49.0 g) is dissolved in 101 g of water at 100 °C, with precautions taken to avoid evaporation of any water. The solution is cooled to 30.0 °C and no precipitate is observed. This solution is ________. 
+A) hydrated
+B) placated
+C) saturated
+D) unsaturated
+E) supersaturated
+
+A sample of potassium chlorate (15.0 g) is dissolved in 201 g of water at 70 °C, with precautions taken to avoid evaporation of any water. The solution is cooled to 30.0 °C and no precipitate is observed. This solution is ________.  
+A) hydrated
+B) miscible
+C) saturated
+D) unsaturated
+E) supersaturated
+
+A solution is prepared by dissolving 15.0 g of NH3 in 250.0 g of water. The density of the resulting solution is 0.974 g/mL. The molarity of NH3 in the solution is ________ M.
+A) 0.00353
+B) 0.882
+C) 60.0
+D) 3.24
+E) 3.53
+
+The concentration (M) of HCl in a solution prepared by dissolving 5.5 g of HCl in 200 g of C2H6O is ________ M. The density of the solution is 0.79 g/mL.
+A) 21
+B) 0.93
+C) 0.58
+D) 6.0 × 10-4 
+E) 1.72
+
+What is the molarity of sodium chloride in solution that is 13.0% by mass sodium chloride and that has a density of 1.10 g/mL?
+A) 143
+B) 2.45
+C) 2.56
+D) 2.23
+E) 1.43 × 10-2
+
+A burning splint will burn more vigorously in pure oxygen than in air because ________.
+A) oxygen is a reactant in combustion and concentration of oxygen is higher in pure oxygen than is in air
+B) oxygen is a catalyst for combustion
+C) oxygen is a product of combustion
+D) nitrogen is a product of combustion and the system reaches equilibrium at a lower temperature
+E) nitrogen is a reactant in combustion and its low concentration in pure oxygen catalyzes the combustion
+
+Of the following, all are valid units for a reaction rate except ________.
+A) mol/L
+B) M/s
+C) mol/hr
+D) g/s
+E) mol/L-hr 
+
+The rate law of a reaction is rate = k[D][X]. The units of the rate constant are ________.
+A) mol L-1s-1
+B) L mol-1s-1
+C) mol2 L-2s-1
+D) mol L-1s-2
+E) L2 mol-2s-1
+
+The data in the table below were obtained for the reaction:
+	2 ClO2 (aq)  +  2 OH- (aq)  →  ClO3- (aq)  +  ClO2- (aq)  +  H2O (1)
+
+
+What is the order of the reaction with respect to ClO2?
+A) 1
+B) 0
+C) 2
+D) 3
+E) 4 
+
+What is the order of the reaction with respect to OH-?
+A) 0
+B) 1
+C) 2
+D) 3
+E) 4 
+
+What is the overall order of the reaction?
+A) 4
+B) 0
+C) 1
+D) 2
+E) 3 
+
+What is the magnitude of the rate constant for the reaction?
+A) 1.15 × 104
+B) 4.6
+C) 230
+D) 115
+E) 713 
+
+Under constant conditions, the half-life of a first-order reaction ________.
+A) is the time necessary for the reactant concentration to drop to half its original value
+B) is constant
+C) can be calculated from the reaction rate constant
+D) does not depend on the initial reactant concentration
+E) All of the above are correct.
+
+The reaction
+	CH3-N≡C  →  CH3-C≡N
+is a first-order reaction. At 230.3 °C, k = 6.29 × 10-4s-1. If  is 1.00 × 10-3 initially,  is ________ after 1.000 × 103 s.
+A) 5.33 × 10-4
+B) 2.34 × 10-4
+C) 1.88 × 10-3
+D) 4.27 × 10-3
+E) 1.00 × 10-6
+
+The following reaction is second order in [A] and the rate constant is 0.025 M-1s-1: 
+	A  →  B 
+The concentration of A was 0.65 M at 33 s. The initial concentration of A was ________ M.
+A) 2.4
+B) 0.27
+C) 0.24
+D) 1.4
+E) 1.2 × 10-2
+
+The decomposition of N2O5 in solution in carbon tetrachloride proceeds via the reaction
+	2N2O5 (soln)  → 4NO2 (soln)  +  O2 (soln)
+The reaction is first order and has a rate constant of 4.82 × 10-3 s-1 at 64 °C. The rate law for the reaction is rate = ________.
+A) k[N2O5]2 
+B) k 
+C) k[N2O5]
+D) k 
+E) 2k[N2O5] 
+
+As the temperature of a reaction is increased, the rate of the reaction increases because the ________.
+A) reactant molecules collide less frequently
+B) reactant molecules collide more frequently and with greater energy per collision
+C) activation energy is lowered
+D) reactant molecules collide less frequently and with greater energy per collision
+E) reactant molecules collide more frequently with less energy per collision 
+
+The rate of a reaction depends on ________.
+A) collision frequency
+B) collision energy
+C) collision orientation
+D) all of the above
+E) none of the above
+
+Which energy difference in the energy profile below corresponds to the activation energy for the forward reaction? 
+	
+A) x
+B) y
+C) x + y
+D) x - y
+E) y - x
+
+In the Arrhenius equation, 
+	k = Ae-Ea/RT
+________ is the frequency factor.
+A) k
+B) A
+C) e
+D) Ea
+E) R
+
+In general, as activation energy increases, reaction rate ________.
+A) goes down if the reaction is exothermic
+B) goes down if the reaction is endothermic
+C) stays the same regardless of whether the reaction is exothermic or endothermic
+D) goes down regardless of whether the reaction is exothermic or endothermic
+E) none of the above  
+
+Which of the following is true?
+A) If we know that a reaction is an elementary reaction, then we know its rate law.
+B) The rate-determining step of a reaction is the rate of the fastest elementary step of its mechanism.
+C) Since intermediate compounds can be formed, the chemical equations for the elementary reactions in a multistep mechanism do not always have to add to give the chemical equation of the overall process.
+D) In a reaction mechanism, an intermediate is identical to an activated complex.
+E) All of the above statements are true.
+
+Of the following, ________ will lower the activation energy for a reaction.
+A) increasing the concentrations of reactants
+B) raising the temperature of the reaction
+C) adding a catalyst for the reaction
+D) removing products as the reaction proceeds
+E) increasing the pressure
+
+The rate law of the overall reaction
+	A  +  B  →  C 
+is rate  =  k[A]2. Which of the following will not increase the rate of the reaction?
+A) increasing the concentration of reactant A
+B) increasing the concentration of reactant B
+C) increasing the temperature of the reaction
+D) adding a catalyst for the reaction
+E) All of these will increase the rate.
+
+________ are used in automotive catalytic converters.
+A) Heterogeneous catalysts
+B) Homogeneous catalysts
+C) Enzymes
+D) Noble gases
+E) Nonmetal oxides 
+
+Consider the following reaction: 
+	A  →  2C 
+The average rate of appearance of C is given by Δ[C]/Δt. Comparing the rate of appearance of C and the rate of disappearance of A, we get Δ[C]/Δt = ________ × (-Δ[A]/Δt).
+A) +2
+B) -1
+C) +1
+D) +1/2
+E) -1/2
+
+A flask is charged with 0.124 mol of A and allowed to react to form B according to the reaction A(g) →B(g). The following data are obtained for [A] as the reaction proceeds:
+
+
+The average rate of disappearance of A between 10 s and 20 s is ________ mol/s.
+A) 2.2 × 10-3
+B) 1.1 × 10-3
+C) 4.4 × 10-3
+D) 454
+E) 9.90 × 10-3
+
+The average rate of disappearance of A between 20 s and 40 s is ________ mol/s.
+A) 8.5 × 10-4
+B) 1.7 × 10-3
+C) 590
+D) 7.1 × 10-3
+E) 1.4 × 10-3
+
+The average rate of appearance of B between 20 s and 30 s is ________ mol/s.
+A) +1.5 × 10-3
+B) +5.0 × 10-4
+C) -1.5 × 10-3
+D) +7.3 × 10-3
+E) -7.3 × 10-3
+
+The average rate disappearance of A between 20 s and 30 s is ________ mol/s.
+A) 5.0 × 10-4
+B) 1.6 × 10-2
+C) 1.5 × 10-3   
+D) 670
+E) 0.15
+
+How many moles of B are present at 10 s?
+A) 0.011
+B) 0.220
+C) 0.110
+D) 0.014
+E) 1.4 × 10-3 
+
+How many moles of B are present at 30 s?
+A) 2.4 × 10-3
+B) 0.15
+C) 0.073
+D) 1.7 × 10-3
+E) 0.051
+
+A reaction was found to be second order in carbon monoxide concentration. The rate of the reaction ________ if the [CO] is doubled, with everything else kept the same.
+A) doubles
+B) remains unchanged
+C) triples
+D) increases by a factor of 4
+E) is reduced by a factor of 2
+
+If the rate law for the reaction
+	2A  +  3B  → products
+is first order in A and second order in B, then the rate law is rate = ________.
+A) k[A][B]
+B) k[A]2[B]3
+C) k[A][B]2
+D) k[A]2[B]
+E) k[A]2[B]2
+
+The overall order of a reaction is 1. The units of the rate constant for the reaction are ________.
+A) M/s
+B) M-1s-1
+C) 1/s
+D) 1/M
+E) s/M2
+
+The kinetics of the reaction below were studied and it was determined that the reaction rate increased by a factor of 9 when the concentration of B was tripled. The reaction is ________ order in B. 
+	A  +  B   →  P
+A) zero
+B) first
+C) second
+D) third
+E) one-half 
+
+A reaction was found to be zero order in A. Increasing the concentration of A by a factor of 3 will cause the reaction rate to ________.
+A) remain constant
+B) increase by a factor of 27
+C) increase by a factor of 9
+D) triple
+E) decrease by a factor of the cube root of 3 
+

@@ -126,7 +126,9 @@ export function renderDrillExamWrong({ app, parts }: RouteCtx): void {
 
 /** Drill the newly imported chapters (3b equilibrium + 4 electrochemistry). */
 export function renderDrillNew({ app, parts }: RouteCtx): void {
-  const list = getBank().questions.filter((q) => q.label === "chapter3b" || q.label === "chapter4");
+  const list = getBank().questions.filter(
+    (q) => q.label === "chapter3a" || q.label === "chapter3b" || q.label === "chapter4"
+  );
   const idx = parts[2] ? Number(parts[2]) : 0;
   renderPracticeList(app, list, idx, {
     title: "新题开刷",

@@ -28,7 +28,7 @@ export function renderExam({ app }: RouteCtx): void {
 
 function renderExamStart(app: HTMLElement): void {
   const bank = getBank();
-  const pool = scorableQuestions();
+  const pool = scorableQuestions().filter((q) => q.reviewStatus === "approved");
   const size = Math.min(100, pool.length);
   const isReal = bank.questions.length >= 250 && pool.length >= 100;
 
@@ -36,11 +36,11 @@ function renderExamStart(app: HTMLElement): void {
     header("仿真模拟"),
     el("div", { class: "page" }, [
       el("div", { class: isReal ? "banner ok" : "banner warn" }, [
-        el("strong", {}, [isReal ? "仿真模拟：250 抽 100" : "样机演示卷"]),
+        el("strong", {}, [isReal ? `仿真模拟：${pool.length} 抽 ${size}` : "样机演示："]),
         el("div", {}, [
           isReal
-            ? `从 ${bank.questions.length} 道题中随机无放回抽取 ${size} 题。答案仍为 AI 候选（待核，非审定）。`
-            : `当前题库 ${bank.questions.length} 题（可判分 ${pool.length} 题），本次仅演示模拟流程。`,
+            ? `从 ${pool.length} 道已核题中随机无放回抽取 ${size} 题。`
+            : `当前题库 ${bank.questions.length} 题（已核 ${pool.length} 题），本次仅演示模拟流程。`,
         ]),
       ]),
       el("ul", { class: "rules-list" }, [
@@ -65,7 +65,7 @@ function renderExamStart(app: HTMLElement): void {
 
 function startExam(): void {
   const s = state();
-  const pool = scorableQuestions().map((q) => q.id);
+  const pool = scorableQuestions().filter((q) => q.reviewStatus === "approved").map((q) => q.id);
   const seed = (Math.random() * 2 ** 31) >>> 0;
   const ids = sampleIds(pool, 100, seed);
   const bank = getBank();

@@ -6,301 +6,701 @@
       "answer": [
         "C"
       ],
-      "explanation": "Ar 是惰性气体，不电离，不是电解质。"
+      "explanation": "Ar 是惰性气体，不电离，不是电解质。",
+      "stemZh": "下列物质中，只有 ________ 不是电解质。",
+      "optionsZh": {
+        "A": "HCl（盐酸）",
+        "B": "Rb2SO4（硫酸铷）",
+        "C": "Ar（氩）",
+        "D": "KOH（氢氧化钾）",
+        "E": "NaCl（氯化钠）"
+      }
     },
     "2": {
       "answer": [
         "E"
       ],
-      "explanation": "完全中和生成 K2SO4 溶液和水，E 为正确的分子方程式。"
+      "explanation": "完全中和生成 K2SO4 溶液和水，E 为正确的分子方程式。",
+      "stemZh": "H2SO4 被 KOH 水溶液完全中和的配平分子方程式是 ________。",
+      "optionsZh": {
+        "A": "2H+ + 2OH- → 2H2O",
+        "B": "2H+ + 2KOH → 2H2O + 2K+",
+        "C": "H2SO4 + 2OH- → 2H2O + SO4^2-",
+        "D": "H2SO4 + 2KOH → 2H2O + K2SO4(s)",
+        "E": "H2SO4 + 2KOH → 2H2O + K2SO4(aq)"
+      }
     },
     "3": {
       "answer": [
         "C"
       ],
-      "explanation": "PbCl2 难溶，故 KCl 与 Pb(NO3)2 发生复分解生成沉淀。"
+      "explanation": "PbCl2 难溶，故 KCl 与 Pb(NO3)2 发生复分解生成沉淀。",
+      "stemZh": "氯化钾水溶液会与下列哪一种物质发生复分解（交换）反应？",
+      "optionsZh": {
+        "A": "硝酸钙",
+        "B": "溴化钠",
+        "C": "硝酸铅",
+        "D": "硝酸钡",
+        "E": "氯化钠"
+      }
     },
     "4": {
       "answer": [
         "C"
       ],
-      "explanation": "碳酸镍溶于酸：NiCO3(s) + 2H+ → Ni2+ + CO2 + H2O。"
+      "explanation": "碳酸镍溶于酸：NiCO3(s) + 2H+ → Ni2+ + CO2 + H2O。",
+      "stemZh": "固体 NiCO3 与氢碘酸水溶液混合生成 NiI2 水溶液并放出 CO2 气体的净离子方程式是 ________。",
+      "optionsZh": {
+        "A": "2NiCO3 + HI → 2H2O + CO2 + 2Ni2+",
+        "B": "NiCO3 + I- → 2H2O + CO2 + Ni2+ + HI",
+        "C": "NiCO3 + 2H+ → H2O + CO2 + Ni2+",
+        "D": "NiCO3 + 2HI → 2H2O + CO2 + NiI2",
+        "E": "NiCO3 + 2HI → H2O + CO2 + Ni2+ + 2I-"
+      }
     },
     "5": {
       "answer": [
         "D"
       ],
-      "explanation": "Al(OH)3 溶于强酸：Al(OH)3 + 3H+ → Al3+ + 3H2O。"
+      "explanation": "Al(OH)3 溶于强酸：Al(OH)3 + 3H+ → Al3+ + 3H2O。",
+      "stemZh": "固体 Al(OH)3 与硝酸水溶液混合生成 Al(NO3)3 水溶液的净离子方程式是 ________。",
+      "optionsZh": {
+        "A": "Al(OH)3 + 3HNO3 → 3H2O + Al(NO3)3",
+        "B": "Al(OH)3 + 3NO3- → 3OH- + Al(NO3)3",
+        "C": "Al(OH)3 + 3NO3- → 3OH- + Al(NO3)3(s)",
+        "D": "Al(OH)3 + 3H+ → 3H2O + Al3+",
+        "E": "Al(OH)3 + 3HNO3 → 3H2O + Al3+ + NO3-"
+      }
     },
     "6": {
       "answer": [
         "A"
       ],
-      "explanation": "磷酸镁 Mg3(PO4)2 难溶于水。"
+      "explanation": "磷酸镁 Mg3(PO4)2 难溶于水。",
+      "stemZh": "下列哪一种物质在 25 °C 时难溶于水？",
+      "optionsZh": {
+        "A": "Mg3(PO4)2（磷酸镁）",
+        "B": "Na2S（硫化钠）",
+        "C": "(NH4)2CO3（碳酸铵）",
+        "D": "Ca(OH)2（氢氧化钙）",
+        "E": "Ba(C2H3O2)2（醋酸钡）"
+      }
     },
     "7": {
       "answer": [
         "A"
       ],
-      "explanation": "AgBr 难溶，故 NiBr2 与 AgNO3 混合生成 AgBr 沉淀。"
+      "explanation": "AgBr 难溶，故 NiBr2 与 AgNO3 混合生成 AgBr 沉淀。",
+      "stemZh": "下列两种水溶液混合时 ________ 会产生沉淀。",
+      "optionsZh": {
+        "A": "NiBr2 与 AgNO3",
+        "B": "NaI 与 KBr",
+        "C": "K2SO4 与 CrCl3",
+        "D": "KOH 与 Ba(NO3)2",
+        "E": "Li2CO3 与 CsI"
+      }
     },
     "8": {
       "answer": [
         "D"
       ],
-      "explanation": "ZnS 难溶于水。"
+      "explanation": "ZnS 难溶于水。",
+      "stemZh": "下列哪种化合物难溶于水？",
+      "optionsZh": {
+        "A": "Na2CO3",
+        "B": "K2SO4",
+        "C": "Fe(NO3)3",
+        "D": "ZnS",
+        "E": "AgNO3"
+      }
     },
     "9": {
       "answer": [
         "D"
       ],
-      "explanation": "KOH 与 Mg(NO3)2 生成难溶的 Mg(OH)2。"
+      "explanation": "KOH 与 Mg(NO3)2 生成难溶的 Mg(OH)2。",
+      "stemZh": "下列哪种组合会产生沉淀？",
+      "optionsZh": {
+        "A": "NaC2H3O2 与 HCl",
+        "B": "NaOH 与 HCl",
+        "C": "AgNO3 与 Ca(C2H3O2)2",
+        "D": "KOH 与 Mg(NO3)2",
+        "E": "NaF 与 HCl"
+      }
     },
     "10": {
       "answer": [
         "A"
       ],
-      "explanation": "Pb(NO3)2 与 HCl 生成难溶的 PbCl2。"
+      "explanation": "Pb(NO3)2 与 HCl 生成难溶的 PbCl2。",
+      "stemZh": "下列哪种组合会产生沉淀？",
+      "optionsZh": {
+        "A": "Pb(NO3)2 与 HCl",
+        "B": "Cu(NO3)2 与 KC2H3O2",
+        "C": "KOH 与 HNO3",
+        "D": "AgC2H3O2 与 HC2H3O2",
+        "E": "NaOH 与 Sr(NO3)2"
+      }
     },
     "11": {
       "answer": [
         "E"
       ],
-      "explanation": "铵盐均易溶，故铵根不形成难溶盐。"
+      "explanation": "铵盐均易溶，故铵根不形成难溶盐。",
+      "stemZh": "铵根离子会与下列哪种离子形成难溶盐？",
+      "optionsZh": {
+        "A": "氯离子",
+        "B": "硫酸根",
+        "C": "碳酸根",
+        "D": "硫酸根和碳酸根",
+        "E": "以上都不是"
+      }
     },
     "12": {
       "answer": [
         "A"
       ],
-      "explanation": "H2SO4 第二步电离不完全，净离子式为 H+ + HSO4- + 2OH- → 2H2O + SO4^2-。"
+      "explanation": "H2SO4 第二步电离不完全，净离子式为 H+ + HSO4- + 2OH- → 2H2O + SO4^2-。",
+      "stemZh": "硫酸水溶液与氢氧化钠水溶液反应的净离子方程式是 ________。",
+      "optionsZh": {
+        "A": "H+ + HSO4- + 2OH- → 2H2O + SO4^2-",
+        "B": "H+ + HSO4- + 2Na+ + 2OH- → 2H2O + 2Na+ + SO4^2-",
+        "C": "SO4^2- + 2Na+ → 2Na+ + SO4^2-",
+        "D": "H+ + OH- → H2O",
+        "E": "2H+ + SO4^2- + 2Na+ + 2OH- → 2H2O + 2Na+ + SO4^2-"
+      }
     },
     "13": {
       "answer": [
         "D"
       ],
-      "explanation": "生成水（分子化合物）和 Sr(ClO3)2（强电解质）。"
+      "explanation": "生成水（分子化合物）和 Sr(ClO3)2（强电解质）。",
+      "stemZh": "氢氧化锶与氯酸反应生成 ________。",
+      "optionsZh": {
+        "A": "一种分子化合物和一种弱电解质",
+        "B": "两种弱电解质",
+        "C": "两种强电解质",
+        "D": "一种分子化合物和一种强电解质",
+        "E": "两种分子化合物"
+      }
     },
     "14": {
       "answer": [
         "D"
       ],
-      "explanation": "HF 是弱酸，其余均为强酸。"
+      "explanation": "HF 是弱酸，其余均为强酸。",
+      "stemZh": "下列哪种是弱酸？",
+      "optionsZh": {
+        "A": "HNO3",
+        "B": "HCl",
+        "C": "HI",
+        "D": "HF",
+        "E": "HClO4"
+      }
     },
     "15": {
       "answer": [
         "B"
       ],
-      "explanation": "中和生成水和醋酸钾 KC2H3O2。"
+      "explanation": "中和生成水和醋酸钾 KC2H3O2。",
+      "stemZh": "氢氧化钾水溶液与醋酸水溶液反应的正确配平方程式是 ________。",
+      "optionsZh": {
+        "A": "KOH + HC2H3O2 → OH- + HC2H3O2+ + K",
+        "B": "KOH + HC2H3O2 → H2O + KC2H3O2",
+        "C": "KOH + HC2H3O2 → H2C2H3O3 + K",
+        "D": "KOH + HC2H3O2 → KC2H3O3 + H2",
+        "E": "KOH + HC2H3O2 → H2KC2H3O + O2"
+      }
     },
     "16": {
       "answer": [
         "E"
       ],
-      "explanation": "2H2O → 2H2 + O2 中氧由 -2 升到 0。"
+      "explanation": "2H2O → 2H2 + O2 中氧由 -2 升到 0。",
+      "stemZh": "在哪个反应中氧的氧化数升高？",
+      "optionsZh": {
+        "A": "Ba(NO3)2 + K2SO4 → BaSO4 + 2KNO3",
+        "B": "HCl + NaOH → NaCl + H2O",
+        "C": "MgO + H2O → Mg(OH)2",
+        "D": "2SO2 + O2 → 2SO3",
+        "E": "2H2O → 2H2 + O2"
+      }
     },
     "17": {
       "answer": [
         "C"
       ],
-      "explanation": "MgSO3 中 S 为 +4，是各选项中最高价态。"
+      "explanation": "MgSO3 中 S 为 +4，是各选项中最高价态。",
+      "stemZh": "下列哪种化合物含有氧化数最高的原子？",
+      "optionsZh": {
+        "A": "CaS",
+        "B": "Na3N",
+        "C": "MgSO3",
+        "D": "Al(NO2)3",
+        "E": "NH4Cl"
+      }
     },
     "18": {
       "answer": [
         "A"
       ],
-      "explanation": "铜不与盐酸反应，适合作储酸罐内衬。"
+      "explanation": "铜不与盐酸反应，适合作储酸罐内衬。",
+      "stemZh": "下列材料中，哪种最适合做储存盐酸的储罐内衬？",
+      "optionsZh": {
+        "A": "铜",
+        "B": "锌",
+        "C": "镍",
+        "D": "铁",
+        "E": "锡"
+      }
     },
     "19": {
       "answer": [
         "A"
       ],
-      "explanation": "Mg 的还原性比 Al 强，可被 Al3+ 氧化。"
+      "explanation": "Mg 的还原性比 Al 强，可被 Al3+ 氧化。",
+      "stemZh": "下列金属中，哪种会被铝离子氧化？",
+      "optionsZh": {
+        "A": "镁",
+        "B": "锌",
+        "C": "铬",
+        "D": "铁",
+        "E": "镍"
+      }
     },
     "20": {
       "answer": [
         "B"
       ],
-      "explanation": "Ag 不能置换 H+，故 2Ag + 2HNO3 → 2AgNO3 + H2 非自发。"
+      "explanation": "Ag 不能置换 H+，故 2Ag + 2HNO3 → 2AgNO3 + H2 非自发。",
+      "stemZh": "下列反应中，只有 ________ 是非自发的。",
+      "optionsZh": {
+        "A": "Mg + 2HCl → MgCl2 + H2",
+        "B": "2Ag + 2HNO3 → 2AgNO3 + H2",
+        "C": "2Ni + H2SO4 → Ni2SO4 + H2",
+        "D": "2Al + 6HBr → 2AlBr3 + 3H2",
+        "E": "Zn + 2HI → ZnI2 + H2"
+      }
     },
     "21": {
       "answer": [
         "E"
       ],
-      "explanation": "HI、HNO3、HBr 为强酸，HF 为弱酸。"
+      "explanation": "HI、HNO3、HBr 为强酸，HF 为弱酸。",
+      "stemZh": "下列哪些是强酸？ HI HNO3 HF HBr",
+      "optionsZh": {
+        "A": "HF、HBr",
+        "B": "HI、HNO3、HF、HBr",
+        "C": "HI、HF、HBr",
+        "D": "HNO3、HF、HBr",
+        "E": "HI、HNO3、HBr"
+      }
     },
     "22": {
       "answer": [
         "C"
       ],
-      "explanation": "n = 9.3/58.44 ≈ 0.159 mol，c = 0.159/0.350 ≈ 0.45 M。"
+      "explanation": "n = 9.3/58.44 ≈ 0.159 mol，c = 0.159/0.350 ≈ 0.45 M。",
+      "stemZh": "把 9.3 g NaCl 溶于水配成 350 mL 溶液，NaCl 的浓度（M）是 ________。",
+      "optionsZh": {
+        "A": "18",
+        "B": "0.16",
+        "C": "0.45",
+        "D": "27",
+        "E": "2.7 × 10^-2"
+      }
     },
     "23": {
       "answer": [
         "D"
       ],
-      "explanation": "稀释 5 倍后 Na2S 为 0.175 M，[Na+] = 0.350 M。"
+      "explanation": "稀释 5 倍后 Na2S 为 0.175 M，[Na+] = 0.350 M。",
+      "stemZh": "将 50.0 mL 0.874 M 硫化钠溶液稀释至 250.0 mL，钠离子的浓度（M）是 ________。",
+      "optionsZh": {
+        "A": "0.175",
+        "B": "4.37",
+        "C": "0.525",
+        "D": "0.350",
+        "E": "0.874"
+      }
     },
     "24": {
       "answer": [
         "A"
       ],
-      "explanation": "c = 1.005×43.72/500 ≈ 0.0879 M。"
+      "explanation": "c = 1.005×43.72/500 ≈ 0.0879 M。",
+      "stemZh": "将 43.72 mL 1.005 M K2Cr2O7 稀释至 500 mL，其摩尔浓度是 ________。",
+      "optionsZh": {
+        "A": "0.0879",
+        "B": "87.9",
+        "C": "0.0218",
+        "D": "0.0115",
+        "E": "0.870"
+      }
     },
     "25": {
       "answer": [
         "E"
       ],
-      "explanation": "Na2SO4 完全电离：[Na+] = 4.208 M，[SO4^2-] = 2.104 M。"
+      "explanation": "Na2SO4 完全电离：[Na+] = 4.208 M，[SO4^2-] = 2.104 M。",
+      "stemZh": "500 mL 2.104 M 硫酸钠溶液中，钠离子为 ________ M，硫酸根离子为 ________ M。",
+      "optionsZh": {
+        "A": "2.104, 1.052",
+        "B": "2.104, 2.104",
+        "C": "2.104, 4.208",
+        "D": "1.052, 1.052",
+        "E": "4.208, 2.104"
+      }
     },
     "26": {
       "answer": [
         "A"
       ],
-      "explanation": "元素得电子称为还原。"
+      "explanation": "元素得电子称为还原。",
+      "stemZh": "元素得到电子称为 ________。",
+      "optionsZh": {
+        "A": "还原",
+        "B": "氧化",
+        "C": "歧化",
+        "D": "分馏",
+        "E": "升华"
+      }
     },
     "27": {
       "answer": [
         "B"
       ],
-      "explanation": "S2O3^2- 中 S 由 +2 升至 +2.5，被氧化。"
+      "explanation": "S2O3^2- 中 S 由 +2 升至 +2.5，被氧化。",
+      "stemZh": "在反应 Cr2O7^2- + 6S2O3^2- + 14H+ → 2Cr3+ + 3S4O6^2- + 7H2O 中，________ 被氧化。",
+      "optionsZh": {
+        "A": "Cr6+",
+        "B": "S2+",
+        "C": "H+",
+        "D": "O2-",
+        "E": "S4O6^2-"
+      }
     },
     "28": {
       "answer": [
         "B"
       ],
-      "explanation": "还原剂自身被氧化，故为 S2O3^2-。"
+      "explanation": "还原剂自身被氧化，故为 S2O3^2-。",
+      "stemZh": "在下面的反应中 ________ 是还原剂。 Cr2O7^2- + 6S2O3^2- + 14H+ → 2Cr3+ + 3S4O6^2- + 7H2O",
+      "optionsZh": {
+        "A": "Cr2O7^2-",
+        "B": "S2O3^2-",
+        "C": "H+",
+        "D": "Cr3+",
+        "E": "S4O6^2-"
+      }
     },
     "29": {
       "answer": [
         "D"
       ],
-      "explanation": "2x + 7(-2) = -2，解得 x = +6。"
+      "explanation": "2x + 7(-2) = -2，解得 x = +6。",
+      "stemZh": "Cr2O7^2- 离子中铬的氧化数是 ________。",
+      "optionsZh": {
+        "A": "+3",
+        "B": "+12",
+        "C": "+7",
+        "D": "+6",
+        "E": "+14"
+      }
     },
     "30": {
       "answer": [
         "B"
       ],
-      "explanation": "S4O6^2- + 2e- → 2S2O3^2-，需 2 个电子。"
+      "explanation": "S4O6^2- + 2e- → 2S2O3^2-，需 2 个电子。",
+      "stemZh": "配平半反应 S4O6^2- → 2S2O3^2- 时，有 ________ 个电子出现。",
+      "optionsZh": {
+        "A": "6",
+        "B": "2",
+        "C": "4",
+        "D": "1",
+        "E": "3"
+      }
     },
     "31": {
       "answer": [
         "C"
       ],
-      "explanation": "阳极发生氧化：Fe → Fe3+ + 3e-。"
+      "explanation": "阳极发生氧化：Fe → Fe3+ + 3e-。",
+      "stemZh": "在配平的反应 3MnO4- + 24H+ + 5Fe → 3Mn2+ + 5Fe3+ + 12H2O 中，阳极发生的半反应是 ________。",
+      "optionsZh": {
+        "A": "MnO4- + 8H+ + 5e- → Mn2+ + 4H2O",
+        "B": "2MnO4- + 12H+ + 6e- → 2Mn2+ + 3H2O",
+        "C": "Fe → Fe3+ + 3e-",
+        "D": "Fe → Fe2+ + 2e-",
+        "E": "Fe2+ → Fe3+ + e-"
+      }
     },
     "32": {
       "answer": [
         "A"
       ],
-      "explanation": "E°red 越正，得电子倾向越强。"
+      "explanation": "E°red 越正，得电子倾向越强。",
+      "stemZh": "E°red 的值越 ________，还原的驱动力越大。",
+      "optionsZh": {
+        "A": "正",
+        "B": "负",
+        "C": "放热",
+        "D": "吸热",
+        "E": "广泛"
+      }
     },
     "33": {
       "answer": [
         "B"
       ],
-      "explanation": "E°cell = 0.771 - 0.154 = +0.617 V。"
+      "explanation": "E°cell = 0.771 - 0.154 = +0.617 V。",
+      "stemZh": "（标准电极电势表）基于下列反应的伏打电池标准电动势 E°cell 是 ________ V。 Sn2+ + 2Fe3+ → 2Fe2+ + Sn4+",
+      "optionsZh": {
+        "A": "+0.46",
+        "B": "+0.617",
+        "C": "+1.39",
+        "D": "-0.46",
+        "E": "+1.21"
+      }
     },
     "34": {
       "answer": [
         "C"
       ],
-      "explanation": "E°cell = 0.771 - (-0.74) = +1.51 V。"
+      "explanation": "E°cell = 0.771 - (-0.74) = +1.51 V。",
+      "stemZh": "（标准电极电势表）基于下列反应的伏打电池标准电动势 E°cell 是 ________ V。 Cr + 3Fe3+ → 3Fe2+ + Cr3+",
+      "optionsZh": {
+        "A": "-1.45",
+        "B": "+2.99",
+        "C": "+1.51",
+        "D": "+3.05",
+        "E": "+1.57"
+      }
     },
     "35": {
       "answer": [
         "C"
       ],
-      "explanation": "ΔG° = -nFE。"
+      "explanation": "ΔG° = -nFE。",
+      "stemZh": "吉布斯自由能变化与电化学电池电动势的关系是 ________。",
+      "optionsZh": {
+        "A": "ΔG = -nF/E",
+        "B": "ΔG = -E/(nF)",
+        "C": "ΔG = -nFE",
+        "D": "ΔG = -nRTF",
+        "E": "ΔG = -nF/(ERT)"
+      }
     },
     "36": {
       "answer": [
         "A"
       ],
-      "explanation": "ΔG° = -2×96485×0.126 ≈ -24.3 kJ/mol。"
+      "explanation": "ΔG° = -2×96485×0.126 ≈ -24.3 kJ/mol。",
+      "stemZh": "下列反应的标准电动势 E°cell 为 +0.126 V，该反应的 ΔG° 是 ________ kJ/mol。 Pb + 2H+ → Pb2+ + H2",
+      "optionsZh": {
+        "A": "-24.3",
+        "B": "+24.3",
+        "C": "-12.6",
+        "D": "+12.6",
+        "E": "-50.8"
+      }
     },
     "37": {
       "answer": [
         "E"
       ],
-      "explanation": "n = 6，ΔG° = -6×96485×1.34 ≈ -776 kJ/mol。"
+      "explanation": "n = 6，ΔG° = -6×96485×1.34 ≈ -776 kJ/mol。",
+      "stemZh": "下列反应的标准电动势 E°cell 为 +1.34 V，该反应的 ΔG° 是 ________ kJ/mol。 3Cu + 2MnO4- + 8H+ → 3Cu2+ + 2MnO2 + 4H2O",
+      "optionsZh": {
+        "A": "-24.3",
+        "B": "+259",
+        "C": "-259",
+        "D": "+776",
+        "E": "-776"
+      }
     },
     "38": {
       "answer": [
         "C"
       ],
-      "explanation": "充电时 PbSO4 被转化回 Pb 与 PbO2，故消耗 PbSO4。"
+      "explanation": "充电时 PbSO4 被转化回 Pb 与 PbO2，故消耗 PbSO4。",
+      "stemZh": "铅酸电池充电时消耗的含铅反应物是 ________。",
+      "optionsZh": {
+        "A": "仅 Pb(s)",
+        "B": "仅 PbO2(s)",
+        "C": "仅 PbSO4(s)",
+        "D": "PbO2(s) 和 PbSO4(s)",
+        "E": "Pb(s) 和 PbO2(s)"
+      }
     },
     "39": {
       "answer": [
         "B"
       ],
-      "explanation": "高 pH 下铁更易钝化，腐蚀减慢。"
+      "explanation": "高 pH 下铁更易钝化，腐蚀减慢。",
+      "stemZh": "铁的腐蚀可通过 ________ 减缓。",
+      "optionsZh": {
+        "A": "盐的存在",
+        "B": "高 pH 条件",
+        "C": "低 pH 条件",
+        "D": "盐的存在和高 pH 条件",
+        "E": "盐的存在和低 pH 条件"
+      }
     },
     "40": {
       "answer": [
         "A"
       ],
-      "explanation": "盐桥通过离子迁移维持两半电池的电中性。"
+      "explanation": "盐桥通过离子迁移维持两半电池的电中性。",
+      "stemZh": "电化学电池中盐桥的作用是 ________。",
+      "optionsZh": {
+        "A": "通过离子迁移维持半电池电中性",
+        "B": "提供在阴阳极反应的离子来源",
+        "C": "提供氧气以促进阳极氧化",
+        "D": "提供电子从阳极流向阴极的通路",
+        "E": "提供电子从阴极流向阳极的通路"
+      }
     },
     "41": {
       "answer": [
         "A"
       ],
-      "explanation": "阳极发生氧化：NO → NO3-，N 由 +2 升至 +5。"
+      "explanation": "阳极发生氧化：NO → NO3-，N 由 +2 升至 +5。",
+      "stemZh": "下列哪种转化可发生在电化学电池的阳极？",
+      "optionsZh": {
+        "A": "NO → NO3-",
+        "B": "CO2 → C2O4^2-",
+        "C": "VO2+ → VO2+",
+        "D": "H2AsO4 → H3AsO3",
+        "E": "O2 → H2O2"
+      }
     },
     "42": {
       "answer": [
         "A"
       ],
-      "explanation": "氢燃料电池中 O2 在阴极被还原。"
+      "explanation": "氢燃料电池中 O2 在阴极被还原。",
+      "stemZh": "氢燃料电池中的阴极是 ________。",
+      "optionsZh": {
+        "A": "O2",
+        "B": "KOH",
+        "C": "Li",
+        "D": "H2",
+        "E": "Pt"
+      }
     },
     "43": {
       "answer": [
         "A"
       ],
-      "explanation": "铅酸电池放电时阳极为 Pb。"
+      "explanation": "铅酸电池放电时阳极为 Pb。",
+      "stemZh": "在铅酸电池中电极会被消耗，该电池中 ________。",
+      "optionsZh": {
+        "A": "阳极是 Pb",
+        "B": "阳极是 PbSO4",
+        "C": "阳极是 PbO2",
+        "D": "阴极是 PbSO4",
+        "E": "阴极是 Pb"
+      }
     },
     "44": {
       "answer": [
         "C"
       ],
-      "explanation": "阴极保护：连接活泼金属，使被保护管道成为阴极。"
+      "explanation": "阴极保护：连接活泼金属，使被保护管道成为阴极。",
+      "stemZh": "金属管道的阴极保护通常需要 ________。",
+      "optionsZh": {
+        "A": "连接活泼金属使管道成为电池的阳极",
+        "B": "用标准还原电位比管道更正的金属镀覆管道",
+        "C": "连接活泼金属使管道成为阴极",
+        "D": "连接干电池还原可能生成的金属离子",
+        "E": "用含氟聚合物镀覆管道以提供氟离子源"
+      }
     },
     "45": {
       "answer": [
         "C"
       ],
-      "explanation": "电解池中非自发反应被外加电源强制进行。"
+      "explanation": "电解池中非自发反应被外加电源强制进行。",
+      "stemZh": "伏打电池与电解池的区别之一是：在电解池中 ________。",
+      "optionsZh": {
+        "A": "由化学反应产生电流",
+        "B": "电子流向阳极",
+        "C": "非自发反应被强制进行",
+        "D": "阴极生成 O2 气体",
+        "E": "阴极发生氧化"
+      }
     },
     "46": {
       "answer": [
         "D"
       ],
-      "explanation": "HI 中 H 为 +1，生成 H2 后为 0，被还原。"
+      "explanation": "HI 中 H 为 +1，生成 H2 后为 0，被还原。",
+      "stemZh": "在反应 Fe(CO)5 + 2HI → Fe(CO)4I2 + CO + H2 中，哪种元素被还原？",
+      "optionsZh": {
+        "A": "Fe",
+        "B": "C",
+        "C": "O",
+        "D": "H",
+        "E": "I"
+      }
     },
     "47": {
       "answer": [
         "C"
       ],
-      "explanation": "只有 (c) 有化合价变化（Cu 0→+2，S 0→-2）。"
+      "explanation": "只有 (c) 有化合价变化（Cu 0→+2，S 0→-2）。",
+      "stemZh": "下列哪个反应是氧化还原反应？",
+      "optionsZh": {
+        "A": "仅 (a)",
+        "B": "仅 (b)",
+        "C": "仅 (c)",
+        "D": "(a) 和 (c)",
+        "E": "(b) 和 (c)"
+      }
     },
     "48": {
       "answer": [
         "A"
       ],
-      "explanation": "HNO3 中 N 由 +5 降至 +4，是氧化剂。"
+      "explanation": "HNO3 中 N 由 +5 降至 +4，是氧化剂。",
+      "stemZh": "在反应 Fe2S3 + 12HNO3 → 2Fe(NO3)3 + 3S + 6NO2 + 6H2O 中，哪种物质是氧化剂？",
+      "optionsZh": {
+        "A": "HNO3",
+        "B": "S",
+        "C": "NO2",
+        "D": "Fe2S3",
+        "E": "H2O"
+      }
     },
     "49": {
       "answer": [
         "B"
       ],
-      "explanation": "配平为 2MnO4- + 10Br- + 16H+ → 2Mn2+ + 5Br2 + 8H2O，系数为 2。"
+      "explanation": "配平为 2MnO4- + 10Br- + 16H+ → 2Mn2+ + 5Br2 + 8H2O，系数为 2。",
+      "stemZh": "配平 MnO4- + Br- → Mn2+ + Br2（酸性溶液）时，高锰酸根离子的系数是 ________。",
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "4"
+      }
     },
     "50": {
       "answer": [
         "B"
       ],
-      "explanation": "配平为 CN- + 2Fe3+ + 2OH- → CNO- + 2Fe2+ + H2O，Fe3+ 系数为 2。"
+      "explanation": "配平为 CN- + 2Fe3+ + 2OH- → CNO- + 2Fe2+ + H2O，Fe3+ 系数为 2。",
+      "stemZh": "配平 CN- + Fe3+ → CNO- + Fe2+（碱性溶液）时，Fe3+ 的系数是 ________。",
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      }
     }
   }
 }

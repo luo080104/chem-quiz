@@ -6,601 +6,1083 @@
       "answer": [
         "E"
       ],
-      "explanation": "配平 C8H18 燃烧：2C8H18+25O2→16CO2+18H2O，系数 2,25,16,18。"
+      "explanation": "配平 C8H18 燃烧：2C8H18+25O2→16CO2+18H2O，系数 2,25,16,18。",
+      "stemZh": "配平下列方程式时，系数是 ________。 C8H18 + O2 → CO2 + H2O",
+      "optionsZh": {}
     },
     "2": {
       "answer": [
         "A"
       ],
-      "explanation": "烃在空气中燃烧，参与反应的是氧气。"
+      "explanation": "烃在空气中燃烧，参与反应的是氧气。",
+      "stemZh": "烃在空气中燃烧时，空气中的哪种成分参与反应？",
+      "optionsZh": {
+        "A": "氧气",
+        "B": "氮气",
+        "C": "二氧化碳",
+        "D": "水",
+        "E": "氩"
+      }
     },
     "3": {
       "answer": [
         "A"
       ],
-      "explanation": "NH4Cl → NH3 + HCl 是分解反应。"
+      "explanation": "NH4Cl → NH3 + HCl 是分解反应。",
+      "stemZh": "下列反应中，哪个是分解反应？",
+      "optionsZh": {
+        "A": "NH4Cl → NH3 + HCl",
+        "B": "2Mg + O2 → 2MgO",
+        "C": "2N2 + 3H2 → 2NH3",
+        "D": "2CH4 + 4O2 → 2CO2 + 4H2O",
+        "E": "Cd(NO3)2 + Na2S → CdS + 2NaNO3"
+      }
     },
     "4": {
       "answer": [
         "C"
       ],
-      "explanation": "Al 为 +3、I 为 -1，产物为 AlI3。"
+      "explanation": "Al 为 +3、I 为 -1，产物为 AlI3。",
+      "stemZh": "下列哪种物质是此化合反应的产物？ Al (s) + I2 (s) → ________",
+      "optionsZh": {}
     },
     "5": {
       "answer": [
         "A"
       ],
-      "explanation": "燃烧反应是 1 和 4。"
+      "explanation": "燃烧反应是 1 和 4。",
+      "stemZh": "下列哪些是燃烧反应？",
+      "optionsZh": {}
     },
     "6": {
       "answer": [
         "B"
       ],
-      "explanation": "只有 PbCO3 分解是分解反应。"
+      "explanation": "只有 PbCO3 分解是分解反应。",
+      "stemZh": "下列哪些是分解反应？",
+      "optionsZh": {}
     },
     "7": {
       "answer": [
         "D"
       ],
-      "explanation": "6×12.011+5×1.008+14.007+2×15.999=123.11。"
+      "explanation": "6×12.011+5×1.008+14.007+2×15.999=123.11。",
+      "stemZh": "硝基苯的分子式为 C6H5NO2，其分子量是 ________ amu。",
+      "optionsZh": {}
     },
     "8": {
       "answer": [
         "C"
       ],
-      "explanation": "2×107.87+51.996+4×15.999=331.73。"
+      "explanation": "2×107.87+51.996+4×15.999=331.73。",
+      "stemZh": "铬酸银（Ag2CrO4）的式量是 ________ amu。",
+      "optionsZh": {}
     },
     "9": {
       "answer": [
         "A"
       ],
-      "explanation": "乙酸分子量约 60。"
+      "explanation": "乙酸分子量约 60。",
+      "stemZh": "乙酸（CH3CO2H）的分子量取整后是 ________ amu。",
+      "optionsZh": {}
     },
     "10": {
       "answer": [
         "D"
       ],
-      "explanation": "式量是化学式中各原子原子量之和。"
+      "explanation": "式量是化学式中各原子原子量之和。",
+      "stemZh": "物质的式量是 ________。",
+      "optionsZh": {
+        "A": "与摩尔质量相同",
+        "B": "与质量百分数相同",
+        "C": "由燃烧分析确定",
+        "D": "化学式中各原子原子量之和",
+        "E": "样品本身的质量"
+      }
     },
     "11": {
       "answer": [
         "D"
       ],
-      "explanation": "207.2+2×62.004=331.2。"
+      "explanation": "207.2+2×62.004=331.2。",
+      "stemZh": "硝酸铅（Pb(NO3)2）的式量是 ________ amu。",
+      "optionsZh": {}
     },
     "12": {
       "answer": [
         "C"
       ],
-      "explanation": "C 占 12.011/16.043=74.87%。"
+      "explanation": "C 占 12.011/16.043=74.87%。",
+      "stemZh": "甲烷（CH4）中 C 的质量分数是 ________。",
+      "optionsZh": {}
     },
     "13": {
       "answer": [
         "A"
       ],
-      "explanation": "H 占 4.032/16.043=25.13%。"
+      "explanation": "H 占 4.032/16.043=25.13%。",
+      "stemZh": "甲烷（CH4）中 H 的质量分数是 ________。",
+      "optionsZh": {}
     },
     "14": {
       "answer": [
         "B"
       ],
-      "explanation": "N 占 28.014/300.04=9.34%。"
+      "explanation": "N 占 28.014/300.04=9.34%。",
+      "stemZh": "计算 PtCl2(NH3)2 中氮的质量百分数。",
+      "optionsZh": {}
     },
     "15": {
       "answer": [
         "D"
       ],
-      "explanation": "Pb 占 207.2/267.21=77.54%。"
+      "explanation": "Pb 占 207.2/267.21=77.54%。",
+      "stemZh": "计算 PbCO3 中铅的质量百分数。",
+      "optionsZh": {}
     },
     "16": {
       "answer": [
         "E"
       ],
-      "explanation": "H 占 6.048/300.04=2.016%。"
+      "explanation": "H 占 6.048/300.04=2.016%。",
+      "stemZh": "计算 PtCl2(NH3)2 中氢的质量百分数。",
+      "optionsZh": {}
     },
     "17": {
       "answer": [
         "B"
       ],
-      "explanation": "每摩尔原子数最多的是 C10H8（18 个原子）。"
+      "explanation": "每摩尔原子数最多的是 C10H8（18 个原子）。",
+      "stemZh": "1 mol 下列物质中，________ 所含原子数最多。",
+      "optionsZh": {}
     },
     "18": {
       "answer": [
         "B"
       ],
-      "explanation": "30.5/180.16=0.169 mol。"
+      "explanation": "30.5/180.16=0.169 mol。",
+      "stemZh": "30.5 g 葡萄糖（C6H12O6）样品含 ________ mol 葡萄糖。",
+      "optionsZh": {}
     },
     "19": {
       "answer": [
         "D"
       ],
-      "explanation": "32.0/32.04≈1 mol，含 6.02×10^23 个分子。"
+      "explanation": "32.0/32.04≈1 mol，含 6.02×10^23 个分子。",
+      "stemZh": "32.0 g CH4O 样品含 ________ 个 CH4O 分子。",
+      "optionsZh": {}
     },
     "20": {
       "answer": [
         "C"
       ],
-      "explanation": "1.40 g/39.95=0.0350 mol，×NA=2.11×10^22。"
+      "explanation": "1.40 g/39.95=0.0350 mol，×NA=2.11×10^22。",
+      "stemZh": "标准状况下氩气密度为 1.40 g/L。1.00 L 氩气含 ________ 个氩原子。",
+      "optionsZh": {}
     },
     "21": {
       "answer": [
         "D"
       ],
-      "explanation": "1.80×6.022×10^23=1.08×10^24。"
+      "explanation": "1.80×6.022×10^23=1.08×10^24。",
+      "stemZh": "1.80 mol 二氧化硫含 ________ 个二氧化硫分子。",
+      "optionsZh": {}
     },
     "22": {
       "answer": [
         "C"
       ],
-      "explanation": "52.06/44.01=1.183 mol C，×NA=7.12×10^23。"
+      "explanation": "52.06/44.01=1.183 mol C，×NA=7.12×10^23。",
+      "stemZh": "52.06 g 二氧化碳含 ________ 个碳原子。",
+      "optionsZh": {}
     },
     "23": {
       "answer": [
         "C"
       ],
-      "explanation": "N2O 中 N 占 28/44=63.6%。"
+      "explanation": "N2O 中 N 占 28/44=63.6%。",
+      "stemZh": "某氮氧化物含氮 63.65%（质量），其分子式可能是 ________。",
+      "optionsZh": {}
     },
     "24": {
       "answer": [
         "E"
       ],
-      "explanation": "SO2 与 S2O4 中 S 均占 50%。"
+      "explanation": "SO2 与 S2O4 中 S 均占 50%。",
+      "stemZh": "某硫氧化物含硫 50.0%（质量），其分子式可能是 ________。",
+      "optionsZh": {}
     },
     "25": {
       "answer": [
         "B"
       ],
-      "explanation": "理论 CO2=66.0 g，产率=38.0/66.0=57.6%。"
+      "explanation": "理论 CO2=66.0 g，产率=38.0/66.0=57.6%。",
+      "stemZh": "丙烷（C3H8）与氧气反应生成 CO2 和水。某实验用 22.05 g 丙烷与过量氧气反应得 38.0 g CO2，该反应产率是 ________。",
+      "optionsZh": {}
     },
     "26": {
       "answer": [
         "A"
       ],
-      "explanation": "2Al(NO3)3+3Na2S→Al2S3+6NaNO3，系数 2,3,1,6。"
+      "explanation": "2Al(NO3)3+3Na2S→Al2S3+6NaNO3，系数 2,3,1,6。",
+      "stemZh": "配平 Al(NO3)3 + Na2S → Al2S3 + NaNO3 时，系数是 ________。",
+      "optionsZh": {}
     },
     "27": {
       "answer": [
         "A"
       ],
-      "explanation": "2K+2H2O→2KOH+H2，H2 系数 1。"
+      "explanation": "2K+2H2O→2KOH+H2，H2 系数 1。",
+      "stemZh": "配平 K (s) + H2O (l) → KOH (aq) + H2 (g) 时，H2 的系数是 ________。",
+      "optionsZh": {}
     },
     "28": {
       "answer": [
         "B"
       ],
-      "explanation": "Ca+2H2O→Ca(OH)2+H2，H2O 系数 2。"
+      "explanation": "Ca+2H2O→Ca(OH)2+H2，H2O 系数 2。",
+      "stemZh": "配平 Ca (s) + H2O (l) → Ca(OH)2 (aq) + H2 (g) 时，H2O 的系数是 ________。",
+      "optionsZh": {}
     },
     "29": {
       "answer": [
         "B"
       ],
-      "explanation": "2CH3OH+3O2→2CO2+4H2O，甲醇系数 2。"
+      "explanation": "2CH3OH+3O2→2CO2+4H2O，甲醇系数 2。",
+      "stemZh": "写出甲醇 CH3OH 在空气中燃烧的配平方程式，甲醇的系数是 ________。",
+      "optionsZh": {}
     },
     "30": {
       "answer": [
         "B"
       ],
-      "explanation": "S:O:Cl=1:1:2，故为 SOCl2。"
+      "explanation": "S:O:Cl=1:1:2，故为 SOCl2。",
+      "stemZh": "某化合物含 27.0% S、13.4% O、59.6% Cl（质量），其经验式是 ________。",
+      "optionsZh": {}
     },
     "31": {
       "answer": [
         "A"
       ],
-      "explanation": "K:N:O=1:1:3，故为 KNO3。"
+      "explanation": "K:N:O=1:1:3，故为 KNO3。",
+      "stemZh": "某化合物含 38.7% K、13.9% N、47.4% O（质量），其经验式是 ________。",
+      "optionsZh": {}
     },
     "32": {
       "answer": [
         "C"
       ],
-      "explanation": "由燃烧数据得 C:H:O=4:11:2，即 C4H11O2。"
+      "explanation": "由燃烧数据得 C:H:O=4:11:2，即 C4H11O2。",
+      "stemZh": "燃烧 0.9827 g 只含 C、H、O 的化合物，生成 1.900 g CO2 和 1.070 g H2O，其经验式是 ________。",
+      "optionsZh": {}
     },
     "33": {
       "answer": [
         "A"
       ],
-      "explanation": "2.5×(3/5)=1.5 mol CO2。"
+      "explanation": "2.5×(3/5)=1.5 mol CO2。",
+      "stemZh": "丙烷在过量氧气中燃烧：C3H8 + 5O2 → 3CO2 + 4H2O。消耗 2.5 mol O2 时，生成 ________ mol CO2。",
+      "optionsZh": {}
     },
     "34": {
       "answer": [
         "D"
       ],
-      "explanation": "3.0 g H2=1.49 mol，需 N2 0.496 mol≈14.0 g。"
+      "explanation": "3.0 g H2=1.49 mol，需 N2 0.496 mol≈14.0 g。",
+      "stemZh": "适当条件下 N2 和 H2 化合生成氨：N2 + 3H2 → 2NH3。完全反应 3.0 g H2 需要 ________ g N2。",
+      "optionsZh": {}
     },
     "35": {
       "answer": [
         "A"
       ],
-      "explanation": "H2O 为限制试剂，H2 理论 0.102 g，×94.4%=0.0962 g。"
+      "explanation": "H2O 为限制试剂，H2 理论 0.102 g，×94.4%=0.0962 g。",
+      "stemZh": "若产率为 94.4%，4.73 g 镁与 1.83 g 水反应（Mg + 2H2O → Mg(OH)2 + H2）生成的氢气质量是 ________ g。",
+      "optionsZh": {}
     },
     "36": {
       "answer": [
         "B"
       ],
-      "explanation": "水分子间氢键阻止其溶于辛烷。"
+      "explanation": "水分子间氢键阻止其溶于辛烷。",
+      "stemZh": "水在辛烷（C8H18）中的溶解受到 ________ 的阻碍。",
+      "optionsZh": {
+        "A": "辛烷分子间的伦敦色散力",
+        "B": "水分子间的氢键",
+        "C": "辛烷分子间的偶极-偶极作用",
+        "D": "水与辛烷分子间的离子-偶极作用",
+        "E": "同类电荷水与辛烷分子间的排斥"
+      }
     },
     "37": {
       "answer": [
         "D"
       ],
-      "explanation": "氩扩散使无序度增大（熵增）。"
+      "explanation": "氩扩散使无序度增大（熵增）。",
+      "stemZh": "氩放入装有氖的容器后会自发扩散到整个容器，因为 ________。",
+      "optionsZh": {
+        "A": "氩与氖原子间存在强吸引力",
+        "B": "氢键",
+        "C": "混合时能量降低",
+        "D": "氩原子扩散使无序度增大",
+        "E": "溶剂-溶质相互作用"
+      }
     },
     "38": {
       "answer": [
         "C"
       ],
-      "explanation": "水合是溶剂化的特例。"
+      "explanation": "水合是溶剂化的特例。",
+      "stemZh": "水合作用是通常称为 ________ 的现象的具体例子。",
+      "optionsZh": {
+        "A": "溶解现象",
+        "B": "无序化",
+        "C": "溶剂化",
+        "D": "冷凝",
+        "E": "稀释"
+      }
     },
     "39": {
       "answer": [
         "A"
       ],
-      "explanation": "离子被水分子包围即水合作用。"
+      "explanation": "离子被水分子包围即水合作用。",
+      "stemZh": "强电解质溶于水时，离子被水分子包围，这些相互作用属于 ________。",
+      "optionsZh": {
+        "A": "水合作用",
+        "B": "过饱和",
+        "C": "结晶",
+        "D": "脱水",
+        "E": "饱和"
+      }
     },
     "40": {
       "answer": [
         "D"
       ],
-      "explanation": "饱和时溶解速率=结晶速率。"
+      "explanation": "饱和时溶解速率=结晶速率。",
+      "stemZh": "在盐的饱和水溶液中，________。",
+      "optionsZh": {
+        "A": "结晶速率 > 溶解速率",
+        "B": "溶解速率 > 结晶速率",
+        "C": "加晶种会引起大量结晶",
+        "D": "结晶速率 = 溶解速率",
+        "E": "加更多水引起大量结晶"
+      }
     },
     "41": {
       "answer": [
         "C"
       ],
-      "explanation": "不饱和溶液浓度低于溶解度。"
+      "explanation": "不饱和溶液浓度低于溶解度。",
+      "stemZh": "不饱和溶液是 ________。",
+      "optionsZh": {
+        "A": "没有双键",
+        "B": "含最大浓度溶质并与未溶溶质平衡",
+        "C": "浓度低于溶解度",
+        "D": "溶解的溶质超过溶解度",
+        "E": "不含溶质"
+      }
     },
     "42": {
       "answer": [
         "E"
       ],
-      "explanation": "浓度高于溶解度即过饱和。"
+      "explanation": "浓度高于溶解度即过饱和。",
+      "stemZh": "浓度高于溶解度的溶液是 ________。",
+      "optionsZh": {
+        "A": "不可能",
+        "B": "不饱和",
+        "C": "超临界",
+        "D": "饱和",
+        "E": "过饱和"
+      }
     },
     "43": {
       "answer": [
         "D"
       ],
-      "explanation": "苯对 Na+、Cl- 的溶剂化作用弱，故 NaCl 难溶。"
+      "explanation": "苯对 Na+、Cl- 的溶剂化作用弱，故 NaCl 难溶。",
+      "stemZh": "NaCl 在苯（C6H6）中溶解度极低的主要原因是 ________。",
+      "optionsZh": {
+        "A": "强溶剂-溶剂作用",
+        "B": "C6H6 中的氢键",
+        "C": "NaCl 共价键强度",
+        "D": "C6H6 对 Na+、Cl- 溶剂化作用弱",
+        "E": "混合使无序度增大"
+      }
     },
     "44": {
       "answer": [
         "E"
       ],
-      "explanation": "碳链最长（戊醇）最不溶于水。"
+      "explanation": "碳链最长（戊醇）最不溶于水。",
+      "stemZh": "下列哪种物质在水中的溶解度最小？",
+      "optionsZh": {
+        "A": "CH3OH",
+        "B": "CH3CH2CH2OH",
+        "C": "CH3CH2OH",
+        "D": "CH3CH2CH2CH2OH",
+        "E": "CH3CH2CH2CH2CH2OH"
+      }
     },
     "45": {
       "answer": [
         "A"
       ],
-      "explanation": "甲醇碳链最短，最易溶于水。"
+      "explanation": "甲醇碳链最短，最易溶于水。",
+      "stemZh": "下列哪种物质在水中的溶解度最大？",
+      "optionsZh": {
+        "A": "CH3OH",
+        "B": "CH3CH2CH2OH",
+        "C": "CH3CH2OH",
+        "D": "CH3CH2CH2CH2OH",
+        "E": "CH3CH2CH2CH2CH2OH"
+      }
     },
     "46": {
       "answer": [
         "B"
       ],
-      "explanation": "C=kP=6.8×10^-4×0.76=5.2×10^-4 M。"
+      "explanation": "C=kP=6.8×10^-4×0.76=5.2×10^-4 M。",
+      "stemZh": "25 °C、1 atm 下氮气溶解度为 6.8×10^-4 mol/L。若空气中氮气分压为 0.76 atm，溶解氮的浓度（mol/L）是 ________。",
+      "optionsZh": {}
     },
     "47": {
       "answer": [
         "D"
       ],
-      "explanation": "kH=C/P=0.22/6.5=3.4×10^-2 mol/L-atm。"
+      "explanation": "kH=C/P=0.22/6.5=3.4×10^-2 mol/L-atm。",
+      "stemZh": "29 °C 下 CO2 分压 6.5 atm 的汽水中 CO2 浓度为 2.2×10^-1 M，该温度下 CO2 的亨利常数为 ________。",
+      "optionsZh": {}
     },
     "48": {
       "answer": [
         "A"
       ],
-      "explanation": "压强主要影响气体在液体中的溶解度。"
+      "explanation": "压强主要影响气体在液体中的溶解度。",
+      "stemZh": "压强对 ________ 在液体中的溶解度有显著影响。",
+      "optionsZh": {
+        "A": "气体",
+        "B": "固体",
+        "C": "液体",
+        "D": "盐",
+        "E": "固体和液体"
+      }
     },
     "49": {
       "answer": [
         "B"
       ],
-      "explanation": "溶质与溶剂吸引力越弱溶解度越小，故 B 错误。"
+      "explanation": "溶质与溶剂吸引力越弱溶解度越小，故 B 错误。",
+      "stemZh": "下列哪句话是错误的？",
+      "optionsZh": {
+        "A": "非极性液体往往不溶于极性液体",
+        "B": "溶质溶剂间吸引力越弱溶解度越大",
+        "C": "分子间作用力相似的物质彼此易溶",
+        "D": "气体溶解度与其分压成正比",
+        "E": "气体在水中溶解度随温度升高而降低"
+      }
     },
     "50": {
       "answer": [
         "C"
       ],
-      "explanation": "CaCl2 中 Ca2+:Cl-=1:2，故 Ca2+=22 ppm。"
+      "explanation": "CaCl2 中 Ca2+:Cl-=1:2，故 Ca2+=22 ppm。",
+      "stemZh": "氯化钙溶于水配成 500.0 mL 溶液，若溶液含 44 ppm 氯离子，则钙离子浓度为 ________ ppm。",
+      "optionsZh": {}
     },
     "51": {
       "answer": [
         "D"
       ],
-      "explanation": "质量摩尔浓度=mol 溶质/kg 溶剂。"
+      "explanation": "质量摩尔浓度=mol 溶质/kg 溶剂。",
+      "stemZh": "质量摩尔浓度的定义是 ________。",
+      "optionsZh": {
+        "A": "mol 溶质/mol 溶剂",
+        "B": "mol 溶质/L 溶液",
+        "C": "mol 溶质/kg 溶液",
+        "D": "mol 溶质/kg 溶剂",
+        "E": "无（无量纲）"
+      }
     },
     "52": {
       "answer": [
         "A"
       ],
-      "explanation": "摩尔浓度随温度变化（体积随温度变化）。"
+      "explanation": "摩尔浓度随温度变化（体积随温度变化）。",
+      "stemZh": "下列哪种浓度单位随温度变化？",
+      "optionsZh": {
+        "A": "摩尔浓度",
+        "B": "质量百分数",
+        "C": "摩尔分数",
+        "D": "质量摩尔浓度",
+        "E": "以上全部"
+      }
     },
     "53": {
       "answer": [
         "B"
       ],
-      "explanation": "11% 质量分数即 100 g 溶液含 11 g NaCl。"
+      "explanation": "11% 质量分数即 100 g 溶液含 11 g NaCl。",
+      "stemZh": "某溶液含 11%（质量）氯化钠，这意味着 ________。",
+      "optionsZh": {
+        "A": "1.0 mL 溶液含 11 g 氯化钠",
+        "B": "100 g 溶液含 11 g 氯化钠",
+        "C": "100 mL 溶液含 11 g 氯化钠",
+        "D": "溶液密度为 11 g/mL",
+        "E": "溶液质量摩尔浓度为 11"
+      }
     },
     "54": {
       "answer": [
         "C"
       ],
-      "explanation": "15 ppm=每克溶液含 15×10^-6 g 苯。"
+      "explanation": "15 ppm=每克溶液含 15×10^-6 g 苯。",
+      "stemZh": "某溶液含 15 ppm 苯，密度 1.00 g/mL，这意味着 ________。",
+      "optionsZh": {
+        "A": "1.0 g 溶液含 15 mg 苯",
+        "B": "100 g 溶液含 15 g 苯",
+        "C": "1.0 g 溶液含 15×10^-6 g 苯",
+        "D": "1.0 L 溶液含 15 g 苯",
+        "E": "溶液含 15%（质量）苯"
+      }
     },
     "55": {
       "answer": [
         "D"
       ],
-      "explanation": "Kf、Kb 取决于溶剂（也随温度略变）。"
+      "explanation": "Kf、Kb 取决于溶剂（也随温度略变）。",
+      "stemZh": "Kf 与 Kb 的大小取决于 ________。",
+      "optionsZh": {
+        "A": "溶质",
+        "B": "溶剂",
+        "C": "溶液",
+        "D": "溶剂及温度",
+        "E": "溶质和溶剂"
+      }
     },
     "56": {
       "answer": [
         "D"
       ],
-      "explanation": "浓度增大，凝固点下降、蒸气压下降。"
+      "explanation": "浓度增大，凝固点下降、蒸气压下降。",
+      "stemZh": "随溶质浓度增大，溶液凝固点 ________、蒸气压 ________。",
+      "optionsZh": {
+        "A": "升高、升高",
+        "B": "升高、降低",
+        "C": "降低、升高",
+        "D": "降低、降低",
+        "E": "降低、不变"
+      }
     },
     "57": {
       "answer": [
         "A"
       ],
-      "explanation": "纯水无溶质，凝固点最高。"
+      "explanation": "纯水无溶质，凝固点最高。",
+      "stemZh": "下列哪种液体的凝固点最高？",
+      "optionsZh": {
+        "A": "纯 H2O",
+        "B": "葡萄糖水溶液（0.60 m）",
+        "C": "蔗糖水溶液（0.60 m）",
+        "D": "FeI3 水溶液（0.24 m）",
+        "E": "KF 水溶液（0.50 m）"
+      }
     },
     "58": {
       "answer": [
         "D"
       ],
-      "explanation": "ΔTb=iKbm，i≈2，故为 KCl。"
+      "explanation": "ΔTb=iKbm，i≈2，故为 KCl。",
+      "stemZh": "1.35 m 化合物 X 水溶液沸点为 101.4 °C，水的沸点升高常数为 0.52 °C/m，X 可能是 ________。",
+      "optionsZh": {
+        "A": "CH3CH2OH",
+        "B": "C6H12O6",
+        "C": "Na3PO4",
+        "D": "KCl",
+        "E": "CaCl2"
+      }
     },
     "59": {
       "answer": [
         "B"
       ],
-      "explanation": "Al(NO3)3 的 i×m=4×0.1=0.4 最大，凝固点最低。"
+      "explanation": "Al(NO3)3 的 i×m=4×0.1=0.4 最大，凝固点最低。",
+      "stemZh": "下列 0.1 M 水溶液中，________ 的凝固点最低。",
+      "optionsZh": {
+        "A": "NaCl",
+        "B": "Al(NO3)3",
+        "C": "K2CrO4",
+        "D": "Na2SO4",
+        "E": "蔗糖"
+      }
     },
     "60": {
       "answer": [
         "D"
       ],
-      "explanation": "Na2SO4 电离出 3 个离子，i=3。"
+      "explanation": "Na2SO4 电离出 3 个离子，i=3。",
+      "stemZh": "下列哪种溶质溶于水时的极限范特霍夫因子 i 为 3？",
+      "optionsZh": {
+        "A": "KNO3",
+        "B": "CH3OH",
+        "C": "CCl4",
+        "D": "Na2SO4",
+        "E": "蔗糖"
+      }
     },
     "61": {
       "answer": [
         "D"
       ],
-      "explanation": "x水=0.9883，P=0.9883×23.76=23.48 mmHg。"
+      "explanation": "x水=0.9883，P=0.9883×23.76=23.48 mmHg。",
+      "stemZh": "将 109 g 葡萄糖（摩尔质量 180.2 g/mol）溶于 920.0 mL 水，25 °C 下溶液的蒸气压为 ________。纯水 25 °C 蒸气压 23.76 mmHg，设密度 1.00 g/mL。",
+      "optionsZh": {}
     },
     "62": {
       "answer": [
         "D"
       ],
-      "explanation": "物质附着于表面称为吸附。"
+      "explanation": "物质附着于表面称为吸附。",
+      "stemZh": "物质附着于另一种物质表面的过程叫 ________。",
+      "optionsZh": {
+        "A": "吸收",
+        "B": "扩散",
+        "C": "渗流",
+        "D": "吸附",
+        "E": "凝固"
+      }
     },
     "63": {
       "answer": [
         "C"
       ],
-      "explanation": "溶质被溶剂包围即溶剂化。"
+      "explanation": "溶质被溶剂包围即溶剂化。",
+      "stemZh": "溶质粒子被溶剂粒子包围的过程叫 ________。",
+      "optionsZh": {
+        "A": "溶解",
+        "B": "团聚",
+        "C": "溶剂化",
+        "D": "凝集",
+        "E": "脱水"
+      }
     },
     "64": {
       "answer": [
         "E"
       ],
-      "explanation": "冷却到 30 °C 后无沉淀，为过饱和溶液。"
+      "explanation": "冷却到 30 °C 后无沉淀，为过饱和溶液。",
+      "stemZh": "（溶解度曲线）49.0 g 硝酸钾溶于 101 g 水（100 °C，避免蒸发），冷却到 30.0 °C 无沉淀，此溶液是 ________。",
+      "optionsZh": {
+        "A": "水合",
+        "B": "饱和",
+        "C": "饱和",
+        "D": "不饱和",
+        "E": "过饱和"
+      }
     },
     "65": {
       "answer": [
         "D"
       ],
-      "explanation": "15 g KClO3 在 201 g 水中仍未达溶解度，为不饱和。"
+      "explanation": "15 g KClO3 在 201 g 水中仍未达溶解度，为不饱和。",
+      "stemZh": "15.0 g 氯酸钾溶于 201 g 水（70 °C），冷却到 30.0 °C 无沉淀，此溶液是 ________。",
+      "optionsZh": {
+        "A": "水合",
+        "B": "混溶",
+        "C": "饱和",
+        "D": "不饱和",
+        "E": "过饱和"
+      }
     },
     "66": {
       "answer": [
         "D"
       ],
-      "explanation": "15.0/17.03=0.881 mol，体积 0.272 L，M=3.24。"
+      "explanation": "15.0/17.03=0.881 mol，体积 0.272 L，M=3.24。",
+      "stemZh": "将 15.0 g NH3 溶于 250.0 g 水，溶液密度 0.974 g/mL，NH3 的摩尔浓度是 ________ M。",
+      "optionsZh": {}
     },
     "67": {
       "answer": [
         "C"
       ],
-      "explanation": "5.5/36.46=0.151 mol，体积 0.260 L，M=0.58。"
+      "explanation": "5.5/36.46=0.151 mol，体积 0.260 L，M=0.58。",
+      "stemZh": "将 5.5 g HCl 溶于 200 g C2H6O，溶液密度 0.79 g/mL，HCl 的浓度是 ________ M。",
+      "optionsZh": {}
     },
     "68": {
       "answer": [
         "B"
       ],
-      "explanation": "13 g NaCl=0.222 mol，体积 0.0909 L，M=2.45。"
+      "explanation": "13 g NaCl=0.222 mol，体积 0.0909 L，M=2.45。",
+      "stemZh": "13.0%（质量）NaCl 溶液密度 1.10 g/mL，其摩尔浓度是 ________。",
+      "optionsZh": {}
     },
     "69": {
       "answer": [
         "A"
       ],
-      "explanation": "纯氧中氧浓度更高，燃烧更旺。"
+      "explanation": "纯氧中氧浓度更高，燃烧更旺。",
+      "stemZh": "木条在纯氧中比在空气中燃烧更旺，因为 ________。",
+      "optionsZh": {
+        "A": "氧气是燃烧反应物，纯氧中浓度更高",
+        "B": "氧气是燃烧催化剂",
+        "C": "氧气是燃烧产物",
+        "D": "氮气是燃烧产物",
+        "E": "氮气是燃烧反应物且低浓度催化燃烧"
+      }
     },
     "70": {
       "answer": [
         "A"
       ],
-      "explanation": "mol/L 是浓度单位，不是速率单位。"
+      "explanation": "mol/L 是浓度单位，不是速率单位。",
+      "stemZh": "下列都是反应速率的有效单位，除了 ________。",
+      "optionsZh": {
+        "A": "mol/L",
+        "B": "M/s",
+        "C": "mol/hr",
+        "D": "g/s",
+        "E": "mol/L-hr"
+      }
     },
     "71": {
       "answer": [
         "B"
       ],
-      "explanation": "二级反应速率常数单位为 L·mol^-1·s^-1。"
+      "explanation": "二级反应速率常数单位为 L·mol^-1·s^-1。",
+      "stemZh": "某反应速率定律为 rate = k[D][X]，其速率常数单位是 ________。",
+      "optionsZh": {
+        "A": "mol·L^-1·s^-1",
+        "B": "L·mol^-1·s^-1",
+        "C": "mol^2·L^-2·s^-1",
+        "D": "mol·L^-1·s^-2",
+        "E": "L^2·mol^-2·s^-1"
+      }
     },
     "72": {
       "answer": [
         "C"
       ],
-      "explanation": "ClO2 浓度降为 1/3 时速率降为 1/9，故对 ClO2 为 2 级。"
+      "explanation": "ClO2 浓度降为 1/3 时速率降为 1/9，故对 ClO2 为 2 级。",
+      "stemZh": "（数据表）反应 2 ClO2 + 2 OH- → ClO3- + ClO2- + H2O 的数据如下，该反应对 ClO2 的级数是 ________。",
+      "optionsZh": {}
     },
     "73": {
       "answer": [
         "B"
       ],
-      "explanation": "OH- 浓度×3 时速率×3，故对 OH- 为 1 级。"
+      "explanation": "OH- 浓度×3 时速率×3，故对 OH- 为 1 级。",
+      "stemZh": "（沿用上题数据）对 OH- 的级数是 ________。",
+      "optionsZh": {}
     },
     "74": {
       "answer": [
         "E"
       ],
-      "explanation": "总级数=2+1=3。"
+      "explanation": "总级数=2+1=3。",
+      "stemZh": "（沿用上题数据）反应总级数是 ________。",
+      "optionsZh": {}
     },
     "75": {
       "answer": [
         "C"
       ],
-      "explanation": "k=0.0248/(0.060^2×0.030)=230。"
+      "explanation": "k=0.0248/(0.060^2×0.030)=230。",
+      "stemZh": "（沿用上题数据）该反应的速率常数大小是 ________。",
+      "optionsZh": {}
     },
     "76": {
       "answer": [
         "E"
       ],
-      "explanation": "一级反应半衰期与初浓度无关且恒定，以上均正确。"
+      "explanation": "一级反应半衰期与初浓度无关且恒定，以上均正确。",
+      "stemZh": "恒温条件下，一级反应的半衰期 ________。",
+      "optionsZh": {
+        "A": "是反应物浓度降到一半所需时间",
+        "B": "是常数",
+        "C": "可由速率常数算出",
+        "D": "与初始浓度无关",
+        "E": "以上都正确"
+      }
     },
     "77": {
       "answer": [
         "A"
       ],
-      "explanation": "ln(A/A0)=-kt=-0.629，A=5.33×10^-4。"
+      "explanation": "ln(A/A0)=-kt=-0.629，A=5.33×10^-4。",
+      "stemZh": "CH3-N≡C → CH3-C≡N 为一级反应，230.3 °C 时 k = 6.29×10^-4 s^-1。若 [CH3-N≡C] 初始为 1.00×10^-3 M，1000 s 后为 ________。",
+      "optionsZh": {}
     },
     "78": {
       "answer": [
         "D"
       ],
-      "explanation": "1/[A]=1/[A]0+kt，解得 [A]0≈1.4 M。"
+      "explanation": "1/[A]=1/[A]0+kt，解得 [A]0≈1.4 M。",
+      "stemZh": "反应 A → B 对 [A] 为二级，速率常数 0.025 M^-1s^-1。33 s 时 [A] = 0.65 M，则 [A] 初始浓度为 ________ M。",
+      "optionsZh": {}
     },
     "79": {
       "answer": [
         "C"
       ],
-      "explanation": "一级反应速率定律为 rate=k[N2O5]。"
+      "explanation": "一级反应速率定律为 rate=k[N2O5]。",
+      "stemZh": "N2O5 在四氯化碳中分解：2N2O5 → 4NO2 + O2，为一级反应，64 °C 速率常数 4.82×10^-3 s^-1，速率定律为 ________。",
+      "optionsZh": {}
     },
     "80": {
       "answer": [
         "B"
       ],
-      "explanation": "升温使碰撞更频繁且每次碰撞能量更高。"
+      "explanation": "升温使碰撞更频繁且每次碰撞能量更高。",
+      "stemZh": "温度升高反应速率增大，因为 ________。",
+      "optionsZh": {
+        "A": "反应物分子碰撞频率降低",
+        "B": "反应物分子碰撞更频繁且每次能量更高",
+        "C": "活化能降低",
+        "D": "碰撞更少但能量更高",
+        "E": "碰撞更频繁但能量更低"
+      }
     },
     "81": {
       "answer": [
         "D"
       ],
-      "explanation": "反应速率与碰撞频率、能量、取向都有关。"
+      "explanation": "反应速率与碰撞频率、能量、取向都有关。",
+      "stemZh": "反应速率取决于 ________。",
+      "optionsZh": {
+        "A": "碰撞频率",
+        "B": "碰撞能量",
+        "C": "碰撞取向",
+        "D": "以上全部",
+        "E": "以上都不是"
+      }
     },
     "82": {
       "answer": [
         "A"
       ],
-      "explanation": "正反应活化能对应能量 x。"
+      "explanation": "正反应活化能对应能量 x。",
+      "stemZh": "（能量曲线图）下列哪个能量差对应正反应的活化能？",
+      "optionsZh": {
+        "A": "x",
+        "B": "y",
+        "C": "x + y",
+        "D": "x - y",
+        "E": "y - x"
+      }
     },
     "83": {
       "answer": [
         "B"
       ],
-      "explanation": "阿伦尼乌斯方程中 A 为频率因子。"
+      "explanation": "阿伦尼乌斯方程中 A 为频率因子。",
+      "stemZh": "阿伦尼乌斯方程 k = Ae^(-Ea/RT) 中，________ 是频率因子。",
+      "optionsZh": {
+        "A": "k",
+        "B": "A",
+        "C": "e",
+        "D": "Ea",
+        "E": "R"
+      }
     },
     "84": {
       "answer": [
         "D"
       ],
-      "explanation": "活化能越大，反应速率越小。"
+      "explanation": "活化能越大，反应速率越小。",
+      "stemZh": "一般地，活化能增大，反应速率 ________。",
+      "optionsZh": {
+        "A": "放热反应则降低",
+        "B": "吸热反应则降低",
+        "C": "无论放热吸热都不变",
+        "D": "无论放热吸热都降低",
+        "E": "以上都不是"
+      }
     },
     "85": {
       "answer": [
         "A"
       ],
-      "explanation": "已知是基元反应即可直接写出其速率定律。"
+      "explanation": "已知是基元反应即可直接写出其速率定律。",
+      "stemZh": "下列哪种说法正确？",
+      "optionsZh": {
+        "A": "已知是基元反应即可写出其速率定律",
+        "B": "决速步骤是机理中最快的基元步骤",
+        "C": "多步机理中各基元反应不必加和成总反应",
+        "D": "中间体等同于活化络合物",
+        "E": "以上都正确"
+      }
     },
     "86": {
       "answer": [
         "C"
       ],
-      "explanation": "催化剂能降低活化能。"
+      "explanation": "催化剂能降低活化能。",
+      "stemZh": "下列哪种措施能降低反应的活化能？",
+      "optionsZh": {
+        "A": "增大反应物浓度",
+        "B": "升高温度",
+        "C": "加入催化剂",
+        "D": "随反应进行移除产物",
+        "E": "增大压强"
+      }
     },
     "87": {
       "answer": [
         "B"
       ],
-      "explanation": "速率定律不含 B，故增大 B 浓度不加快反应。"
+      "explanation": "速率定律不含 B，故增大 B 浓度不加快反应。",
+      "stemZh": "总反应 A + B → C 的速率定律为 rate = k[A]^2。下列哪种做法不会加快反应？",
+      "optionsZh": {
+        "A": "增大 A 浓度",
+        "B": "增大 B 浓度",
+        "C": "升高温度",
+        "D": "加入催化剂",
+        "E": "以上都会加快"
+      }
     },
     "88": {
       "answer": [
         "A"
       ],
-      "explanation": "汽车催化转化器使用多相催化剂。"
+      "explanation": "汽车催化转化器使用多相催化剂。",
+      "stemZh": "汽车催化转化器中使用 ________。",
+      "optionsZh": {
+        "A": "多相催化剂",
+        "B": "均相催化剂",
+        "C": "酶",
+        "D": "稀有气体",
+        "E": "非金属氧化物"
+      }
     },
     "89": {
       "answer": [
         "A"
       ],
-      "explanation": "Δ[C]/Δt=+2×(-Δ[A]/Δt)。"
+      "explanation": "Δ[C]/Δt=+2×(-Δ[A]/Δt)。",
+      "stemZh": "考虑反应 A → 2C，C 的平均生成速率为 Δ[C]/Δt。Δ[C]/Δt = ________ × (-Δ[A]/Δt)。",
+      "optionsZh": {}
     },
     "90": {
       "answer": [
         "A"
       ],
-      "explanation": "(0.110-0.088)/10=2.2×10^-3 mol/s。"
+      "explanation": "(0.110-0.088)/10=2.2×10^-3 mol/s。",
+      "stemZh": "（数据表）烧瓶装 0.124 mol A 生成 B：A(g) → B(g)，[A] 随时间变化如下。10 s 到 20 s 间 A 的平均消失速率是 ________ mol/s。",
+      "optionsZh": {}
     },
     "91": {
       "answer": [
         "B"
       ],
-      "explanation": "(0.088-0.054)/20=1.7×10^-3 mol/s。"
+      "explanation": "(0.088-0.054)/20=1.7×10^-3 mol/s。",
+      "stemZh": "（沿用上题数据）20 s 到 40 s 间 A 的平均消失速率是 ________ mol/s。",
+      "optionsZh": {}
     },
     "92": {
       "answer": [
         "A"
       ],
-      "explanation": "(0.088-0.073)/10=+1.5×10^-3 mol/s。"
+      "explanation": "(0.088-0.073)/10=+1.5×10^-3 mol/s。",
+      "stemZh": "（沿用上题数据）20 s 到 30 s 间 B 的平均生成速率是 ________ mol/s。",
+      "optionsZh": {}
     },
     "93": {
       "answer": [
         "C"
       ],
-      "explanation": "(0.088-0.073)/10=1.5×10^-3 mol/s。"
+      "explanation": "(0.088-0.073)/10=1.5×10^-3 mol/s。",
+      "stemZh": "（沿用上题数据）20 s 到 30 s 间 A 的平均消失速率是 ________ mol/s。",
+      "optionsZh": {}
     },
     "94": {
       "answer": [
         "D"
       ],
-      "explanation": "10 s 时 A 减少 0.014 mol，故 B=0.014 mol。"
+      "explanation": "10 s 时 A 减少 0.014 mol，故 B=0.014 mol。",
+      "stemZh": "（沿用上题数据）10 s 时 B 的物质的量是 ________ mol。",
+      "optionsZh": {}
     },
     "95": {
       "answer": [
         "E"
       ],
-      "explanation": "30 s 时 A 减少 0.051 mol，故 B=0.051 mol。"
+      "explanation": "30 s 时 A 减少 0.051 mol，故 B=0.051 mol。",
+      "stemZh": "（沿用上题数据）30 s 时 B 的物质的量是 ________ mol。",
+      "optionsZh": {}
     },
     "96": {
       "answer": [
         "D"
       ],
-      "explanation": "二级反应，浓度×2 则速率×4。"
+      "explanation": "二级反应，浓度×2 则速率×4。",
+      "stemZh": "某反应对 CO 浓度为二级。若 [CO] 加倍（其余不变），反应速率 ________。",
+      "optionsZh": {
+        "A": "加倍",
+        "B": "不变",
+        "C": "增至 3 倍",
+        "D": "增至 4 倍",
+        "E": "减为 1/2"
+      }
     },
     "97": {
       "answer": [
         "C"
       ],
-      "explanation": "rate=k[A][B]^2。"
+      "explanation": "rate=k[A][B]^2。",
+      "stemZh": "若反应 2A + 3B → 产物对 A 为一级、对 B 为二级，则速率定律为 ________。",
+      "optionsZh": {
+        "A": "k[A][B]",
+        "B": "k[A]^2[B]^3",
+        "C": "k[A][B]^2",
+        "D": "k[A]^2[B]",
+        "E": "k[A]^2[B]^2"
+      }
     },
     "98": {
       "answer": [
         "C"
       ],
-      "explanation": "一级反应速率常数单位为 1/s。"
+      "explanation": "一级反应速率常数单位为 1/s。",
+      "stemZh": "某反应总级数为 1，其速率常数单位为 ________。",
+      "optionsZh": {
+        "A": "M/s",
+        "B": "M^-1s^-1",
+        "C": "1/s",
+        "D": "1/M",
+        "E": "s/M^2"
+      }
     },
     "99": {
       "answer": [
         "C"
       ],
-      "explanation": "浓度×3 速率×9，故对 B 为二级。"
+      "explanation": "浓度×3 速率×9，故对 B 为二级。",
+      "stemZh": "研究表明 B 浓度×3 时反应速率×9，则反应对 B 为 ________ 级。 A + B → P",
+      "optionsZh": {
+        "A": "零级",
+        "B": "一级",
+        "C": "二级",
+        "D": "三级",
+        "E": "1/2 级"
+      }
     },
     "100": {
       "answer": [
         "A"
       ],
-      "explanation": "零级反应速率与浓度无关。"
+      "explanation": "零级反应速率与浓度无关。",
+      "stemZh": "某反应对 A 为零级，把 [A] 增大 3 倍会使反应速率 ________。",
+      "optionsZh": {
+        "A": "保持不变",
+        "B": "增至 27 倍",
+        "C": "增至 9 倍",
+        "D": "增至 3 倍",
+        "E": "减为 3 的立方根倍"
+      }
     }
   }
 }

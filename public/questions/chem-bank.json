@@ -3,7 +3,7 @@
     "bankId": "chem-250",
     "version": 3,
     "title": "大学化学 500 题（1a 原子 + 1b 化学键 + 2 热力学 + 3a 动力学 + 3b 平衡 + 4 电化学）",
-    "generatedAt": "2026-11-04T12:37:00.265Z",
+    "generatedAt": "2026-11-04T13:04:27.840Z",
     "sourceFiles": [
       {
         "label": "chapter1a",
@@ -48,7 +48,7 @@
       "pending": 200,
       "pendingImage": 0,
       "contested": 0,
-      "translated": 250,
+      "translated": 500,
       "glossaryTerms": 641,
       "phoneCompared": 198,
       "phoneDisagreements": 5
@@ -17562,7 +17562,7 @@
       "type": "single",
       "stem": "When the following equation is balanced, the coefficients are ________. C8H18 + O2 → CO2 + H2O",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平下列方程式时，系数是 ________。 C8H18 + O2 → CO2 + H2O",
       "options": [
         {
           "key": "A",
@@ -17613,7 +17613,7 @@
       "type": "single",
       "stem": "When a hydrocarbon burns in air, what component of air reacts?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "烃在空气中燃烧时，空气中的哪种成分参与反应？",
       "options": [
         {
           "key": "A",
@@ -17636,7 +17636,13 @@
           "text": "argon"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氧气",
+        "B": "氮气",
+        "C": "二氧化碳",
+        "D": "水",
+        "E": "氩"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -17664,7 +17670,7 @@
       "type": "single",
       "stem": "Of the reactions below, which one is a decomposition reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列反应中，哪个是分解反应？",
       "options": [
         {
           "key": "A",
@@ -17687,7 +17693,13 @@
           "text": "Cd(NO3)2  +  Na2S  →  CdS  +  2NaNO3"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NH4Cl → NH3 + HCl",
+        "B": "2Mg + O2 → 2MgO",
+        "C": "2N2 + 3H2 → 2NH3",
+        "D": "2CH4 + 4O2 → 2CO2 + 4H2O",
+        "E": "Cd(NO3)2 + Na2S → CdS + 2NaNO3"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -17715,7 +17727,7 @@
       "type": "single",
       "stem": "Which one of the following substances is the product of this combination reaction? Al (s) + I2 (s) → ________",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种物质是此化合反应的产物？ Al (s) + I2 (s) → ________",
       "options": [
         {
           "key": "A",
@@ -17766,7 +17778,7 @@
       "type": "single",
       "stem": "Which of the following are combustion reactions? 1) CH4 (g) + O2 (g) → CO2 (g) + H2O (l) 2) CaO (s) + CO2 (g) → CaCO3 (s) 3) PbCO3 (s) → PbO (s) + CO2 (g) 4) CH3OH (l) + O2 (g) → CO2 (g) + H2O (l)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪些是燃烧反应？",
       "options": [
         {
           "key": "A",
@@ -17817,7 +17829,7 @@
       "type": "single",
       "stem": "Which of the following are decomposition reactions? 1) CH4 (g) + O2 (g) → CO2 (g) + H2O (l) 2) CaO (s) + CO2 (g) → CaCO3 (s) 3) Mg (s) + O2 (g) → MgO (s) 4) PbCO3 (s) → PbO (s) + CO2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪些是分解反应？",
       "options": [
         {
           "key": "A",
@@ -17868,7 +17880,7 @@
       "type": "single",
       "stem": "The formula of nitrobenzene is C6H5NO2. The molecular weight of this compound is ________ amu.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "硝基苯的分子式为 C6H5NO2，其分子量是 ________ amu。",
       "options": [
         {
           "key": "A",
@@ -17919,7 +17931,7 @@
       "type": "single",
       "stem": "The formula weight of silver chromate (Ag2CrO4) is ________ amu.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铬酸银（Ag2CrO4）的式量是 ________ amu。",
       "options": [
         {
           "key": "A",
@@ -17970,7 +17982,7 @@
       "type": "single",
       "stem": "The molecular weight of the acetic acid (CH3CO2H), rounded to the nearest integer, is ________ amu.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "乙酸（CH3CO2H）的分子量取整后是 ________ amu。",
       "options": [
         {
           "key": "A",
@@ -18017,7 +18029,7 @@
       "type": "single",
       "stem": "The formula weight of a substance is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "物质的式量是 ________。",
       "options": [
         {
           "key": "A",
@@ -18040,7 +18052,13 @@
           "text": "the weight of a sample of the substance"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "与摩尔质量相同",
+        "B": "与质量百分数相同",
+        "C": "由燃烧分析确定",
+        "D": "化学式中各原子原子量之和",
+        "E": "样品本身的质量"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -18068,7 +18086,7 @@
       "type": "single",
       "stem": "The formula weight of lead nitrate (Pb(NO3)2) is ________ amu.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "硝酸铅（Pb(NO3)2）的式量是 ________ amu。",
       "options": [
         {
           "key": "A",
@@ -18119,7 +18137,7 @@
       "type": "single",
       "stem": "The mass % of C in methane (CH4) is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "甲烷（CH4）中 C 的质量分数是 ________。",
       "options": [
         {
           "key": "A",
@@ -18170,7 +18188,7 @@
       "type": "single",
       "stem": "The mass % of H in methane (CH4) is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "甲烷（CH4）中 H 的质量分数是 ________。",
       "options": [
         {
           "key": "A",
@@ -18221,7 +18239,7 @@
       "type": "single",
       "stem": "Calculate the percentage by mass of nitrogen in PtCl2(NH3)2.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "计算 PtCl2(NH3)2 中氮的质量百分数。",
       "options": [
         {
           "key": "A",
@@ -18272,7 +18290,7 @@
       "type": "single",
       "stem": "Calculate the percentage by mass of lead in PbCO3.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "计算 PbCO3 中铅的质量百分数。",
       "options": [
         {
           "key": "A",
@@ -18323,7 +18341,7 @@
       "type": "single",
       "stem": "Calculate the percentage by mass of hydrogen in PtCl2(NH3)2.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "计算 PtCl2(NH3)2 中氢的质量百分数。",
       "options": [
         {
           "key": "A",
@@ -18374,7 +18392,7 @@
       "type": "single",
       "stem": "One mole of ________ contains the largest number of atoms.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "1 mol 下列物质中，________ 所含原子数最多。",
       "options": [
         {
           "key": "A",
@@ -18425,7 +18443,7 @@
       "type": "single",
       "stem": "A 30.5 gram sample of glucose (C6H12O6) contains ________ mol of glucose.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "30.5 g 葡萄糖（C6H12O6）样品含 ________ mol 葡萄糖。",
       "options": [
         {
           "key": "A",
@@ -18476,7 +18494,7 @@
       "type": "single",
       "stem": "A sample of CH4O with a mass of 32.0 g contains ________ molecules of CH4O.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "32.0 g CH4O 样品含 ________ 个 CH4O 分子。",
       "options": [
         {
           "key": "A",
@@ -18527,7 +18545,7 @@
       "type": "single",
       "stem": "Gaseous argon has a density of 1.40 g/L at standard conditions. How many argon atoms are in 1.00 L of argon gas at standard conditions?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "标准状况下氩气密度为 1.40 g/L。1.00 L 氩气含 ________ 个氩原子。",
       "options": [
         {
           "key": "A",
@@ -18578,7 +18596,7 @@
       "type": "single",
       "stem": "How many sulfur dioxide molecules are there in 1.80 mol of sulfur dioxide?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "1.80 mol 二氧化硫含 ________ 个二氧化硫分子。",
       "options": [
         {
           "key": "A",
@@ -18629,7 +18647,7 @@
       "type": "single",
       "stem": "How many carbon atoms are there in 52.06 g of carbon dioxide?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "52.06 g 二氧化碳含 ________ 个碳原子。",
       "options": [
         {
           "key": "A",
@@ -18680,7 +18698,7 @@
       "type": "single",
       "stem": "A nitrogen oxide is 63.65% by mass nitrogen. The molecular formula could be ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某氮氧化物含氮 63.65%（质量），其分子式可能是 ________。",
       "options": [
         {
           "key": "A",
@@ -18731,7 +18749,7 @@
       "type": "single",
       "stem": "A sulfur oxide is 50.0% by mass sulfur. This molecular formula could be ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某硫氧化物含硫 50.0%（质量），其分子式可能是 ________。",
       "options": [
         {
           "key": "A",
@@ -18782,7 +18800,7 @@
       "type": "single",
       "stem": "Propane (C3H8) reacts with oxygen in the air to produce carbon dioxide and water. In a particular experiment, 38.0 grams of carbon dioxide are produced from the reaction of 22.05 grams of propane with excess oxygen. What is the % yield in this reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "丙烷（C3H8）与氧气反应生成 CO2 和水。某实验用 22.05 g 丙烷与过量氧气反应得 38.0 g CO2，该反应产率是 ________。",
       "options": [
         {
           "key": "A",
@@ -18833,7 +18851,7 @@
       "type": "single",
       "stem": "When the following equation is balanced, the coefficients are ________. Al(NO3)3 + Na2S → Al2S3 + NaNO3",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平 Al(NO3)3 + Na2S → Al2S3 + NaNO3 时，系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -18884,7 +18902,7 @@
       "type": "single",
       "stem": "When the following equation is balanced, the coefficient of H2 is ________. K (s) + H2O (l) → KOH (aq) + H2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平 K (s) + H2O (l) → KOH (aq) + H2 (g) 时，H2 的系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -18935,7 +18953,7 @@
       "type": "single",
       "stem": "When the following equation is balanced, the coefficient of H2O is ________. Ca (s) + H2O (l) → Ca(OH)2 (aq) + H2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平 Ca (s) + H2O (l) → Ca(OH)2 (aq) + H2 (g) 时，H2O 的系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -18986,7 +19004,7 @@
       "type": "single",
       "stem": "Write the balanced equation for the reaction that occurs when methanol, CH3OH (l), is burned in air. What is the coefficient of methanol in the balanced equation?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "写出甲醇 CH3OH 在空气中燃烧的配平方程式，甲醇的系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -19037,7 +19055,7 @@
       "type": "single",
       "stem": "What is the empirical formula of a compound that contains 27.0% S, 13.4% O, and 59.6% Cl by mass?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某化合物含 27.0% S、13.4% O、59.6% Cl（质量），其经验式是 ________。",
       "options": [
         {
           "key": "A",
@@ -19088,7 +19106,7 @@
       "type": "single",
       "stem": "A compound contains 38.7% K, 13.9% N, and 47.4% O by mass. What is the empirical formula of the compound?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某化合物含 38.7% K、13.9% N、47.4% O（质量），其经验式是 ________。",
       "options": [
         {
           "key": "A",
@@ -19139,7 +19157,7 @@
       "type": "single",
       "stem": "Combustion of a 0.9827-g sample of a compound containing only carbon, hydrogen, and oxygen produced 1.900 g of CO2 and 1.070 g of H2O. What is the empirical formula of the compound?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "燃烧 0.9827 g 只含 C、H、O 的化合物，生成 1.900 g CO2 和 1.070 g H2O，其经验式是 ________。",
       "options": [
         {
           "key": "A",
@@ -19190,7 +19208,7 @@
       "type": "single",
       "stem": "The combustion of propane (C3H8) in the presence of excess oxygen yields CO2 and H2O: C3H8 (g) + 5O2 (g) → 3CO2 (g) + 4H2O (g) When 2.5 mol of O2 are consumed in their reaction, ________ mol of CO2 are produced.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "丙烷在过量氧气中燃烧：C3H8 + 5O2 → 3CO2 + 4H2O。消耗 2.5 mol O2 时，生成 ________ mol CO2。",
       "options": [
         {
           "key": "A",
@@ -19241,7 +19259,7 @@
       "type": "single",
       "stem": "Under appropriate conditions, nitrogen and hydrogen undergo a combination reaction to yield ammonia: N2 (g) + 3H2 (g) → 2NH3 (g) A ________ g sample of N2 requires 3.0 g of H2 for complete reaction.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "适当条件下 N2 和 H2 化合生成氨：N2 + 3H2 → 2NH3。完全反应 3.0 g H2 需要 ________ g N2。",
       "options": [
         {
           "key": "A",
@@ -19292,7 +19310,7 @@
       "type": "single",
       "stem": "If the reaction yield is 94.4%, what mass in grams of hydrogen is produced by the reaction of 4.73 g of magnesium with 1.83 g of water? Mg (s) + 2H2O (l) → Mg(OH)2 (s) + H2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "若产率为 94.4%，4.73 g 镁与 1.83 g 水反应（Mg + 2H2O → Mg(OH)2 + H2）生成的氢气质量是 ________ g。",
       "options": [
         {
           "key": "A",
@@ -19343,7 +19361,7 @@
       "type": "single",
       "stem": "The dissolution of water in octane (C8H18) is prevented by ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "水在辛烷（C8H18）中的溶解受到 ________ 的阻碍。",
       "options": [
         {
           "key": "A",
@@ -19366,7 +19384,13 @@
           "text": "repulsion between like-charged water and octane molecules"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "辛烷分子间的伦敦色散力",
+        "B": "水分子间的氢键",
+        "C": "辛烷分子间的偶极-偶极作用",
+        "D": "水与辛烷分子间的离子-偶极作用",
+        "E": "同类电荷水与辛烷分子间的排斥"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -19394,7 +19418,7 @@
       "type": "single",
       "stem": "When argon is placed in a container of neon, the argon spontaneously disperses throughout the neon because ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氩放入装有氖的容器后会自发扩散到整个容器，因为 ________。",
       "options": [
         {
           "key": "A",
@@ -19417,7 +19441,13 @@
           "text": "of solvent-solute interactions"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氩与氖原子间存在强吸引力",
+        "B": "氢键",
+        "C": "混合时能量降低",
+        "D": "氩原子扩散使无序度增大",
+        "E": "溶剂-溶质相互作用"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -19445,7 +19475,7 @@
       "type": "single",
       "stem": "Hydration is a specific example of the phenomenon known generally as ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "水合作用是通常称为 ________ 的现象的具体例子。",
       "options": [
         {
           "key": "A",
@@ -19468,7 +19498,13 @@
           "text": "dilution"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "溶解现象",
+        "B": "无序化",
+        "C": "溶剂化",
+        "D": "冷凝",
+        "E": "稀释"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -19496,7 +19532,7 @@
       "type": "single",
       "stem": "When solutions of strong electrolytes in water are formed, the ions are surrounded by water molecules. These interactions are described as a case of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "强电解质溶于水时，离子被水分子包围，这些相互作用属于 ________。",
       "options": [
         {
           "key": "A",
@@ -19519,7 +19555,13 @@
           "text": "saturation"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "水合作用",
+        "B": "过饱和",
+        "C": "结晶",
+        "D": "脱水",
+        "E": "饱和"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -19547,7 +19589,7 @@
       "type": "single",
       "stem": "In a saturated solution of a salt in water, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在盐的饱和水溶液中，________。",
       "options": [
         {
           "key": "A",
@@ -19570,7 +19612,13 @@
           "text": "addition of more water causes massive crystallization"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "结晶速率 > 溶解速率",
+        "B": "溶解速率 > 结晶速率",
+        "C": "加晶种会引起大量结晶",
+        "D": "结晶速率 = 溶解速率",
+        "E": "加更多水引起大量结晶"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -19598,7 +19646,7 @@
       "type": "single",
       "stem": "An unsaturated solution is one that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "不饱和溶液是 ________。",
       "options": [
         {
           "key": "A",
@@ -19621,7 +19669,13 @@
           "text": "contains no solute"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "没有双键",
+        "B": "含最大浓度溶质并与未溶溶质平衡",
+        "C": "浓度低于溶解度",
+        "D": "溶解的溶质超过溶解度",
+        "E": "不含溶质"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -19649,7 +19703,7 @@
       "type": "single",
       "stem": "A solution with a concentration higher than the solubility is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "浓度高于溶解度的溶液是 ________。",
       "options": [
         {
           "key": "A",
@@ -19672,7 +19726,13 @@
           "text": "supersaturated"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "不可能",
+        "B": "不饱和",
+        "C": "超临界",
+        "D": "饱和",
+        "E": "过饱和"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -19700,7 +19760,7 @@
       "type": "single",
       "stem": "The principal reason for the extremely low solubility of NaCl in benzene (C6H6) is the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "NaCl 在苯（C6H6）中溶解度极低的主要原因是 ________。",
       "options": [
         {
           "key": "A",
@@ -19723,7 +19783,13 @@
           "text": "increased disorder due to mixing of solute and solvent"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "强溶剂-溶剂作用",
+        "B": "C6H6 中的氢键",
+        "C": "NaCl 共价键强度",
+        "D": "C6H6 对 Na+、Cl- 溶剂化作用弱",
+        "E": "混合使无序度增大"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -19751,7 +19817,7 @@
       "type": "single",
       "stem": "Which one of the following is least soluble in water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种物质在水中的溶解度最小？",
       "options": [
         {
           "key": "A",
@@ -19774,7 +19840,13 @@
           "text": "CH3CH2CH2CH2CH2OH"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "CH3OH",
+        "B": "CH3CH2CH2OH",
+        "C": "CH3CH2OH",
+        "D": "CH3CH2CH2CH2OH",
+        "E": "CH3CH2CH2CH2CH2OH"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -19802,7 +19874,7 @@
       "type": "single",
       "stem": "Which one of the following is most soluble in water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种物质在水中的溶解度最大？",
       "options": [
         {
           "key": "A",
@@ -19825,7 +19897,13 @@
           "text": "CH3CH2CH2CH2CH2OH"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "CH3OH",
+        "B": "CH3CH2CH2OH",
+        "C": "CH3CH2OH",
+        "D": "CH3CH2CH2CH2OH",
+        "E": "CH3CH2CH2CH2CH2OH"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -19853,7 +19931,7 @@
       "type": "single",
       "stem": "The solubility of nitrogen gas at 25 °C and 1 atm is 6.8 × 10-4 mol/L. If the partial pressure of nitrogen gas in air is 0.76 atm, what is the concentration (molarity) of dissolved nitrogen?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25 °C、1 atm 下氮气溶解度为 6.8×10^-4 mol/L。若空气中氮气分压为 0.76 atm，溶解氮的浓度（mol/L）是 ________。",
       "options": [
         {
           "key": "A",
@@ -19904,7 +19982,7 @@
       "type": "single",
       "stem": "The concentration of CO2 in a soft drink bottled with a partial pressure of CO2 of 6.5 atm over the liquid at 29 °C is 2.2 × 10-1 M. The Henry's law constant for CO2 at this temperature is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "29 °C 下 CO2 分压 6.5 atm 的汽水中 CO2 浓度为 2.2×10^-1 M，该温度下 CO2 的亨利常数为 ________。",
       "options": [
         {
           "key": "A",
@@ -19955,7 +20033,7 @@
       "type": "single",
       "stem": "Pressure has an appreciable effect on the solubility of ________ in liquids.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "压强对 ________ 在液体中的溶解度有显著影响。",
       "options": [
         {
           "key": "A",
@@ -19978,7 +20056,13 @@
           "text": "solids and liquids"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "气体",
+        "B": "固体",
+        "C": "液体",
+        "D": "盐",
+        "E": "固体和液体"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -20006,7 +20090,7 @@
       "type": "single",
       "stem": "Which of the following statements is false?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪句话是错误的？",
       "options": [
         {
           "key": "A",
@@ -20029,7 +20113,13 @@
           "text": "The solubility of gases in water decreases with increasing temperature."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "非极性液体往往不溶于极性液体",
+        "B": "溶质溶剂间吸引力越弱溶解度越大",
+        "C": "分子间作用力相似的物质彼此易溶",
+        "D": "气体溶解度与其分压成正比",
+        "E": "气体在水中溶解度随温度升高而降低"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -20057,7 +20147,7 @@
       "type": "single",
       "stem": "A solution is prepared by dissolving calcium chloride in water and diluting to 500.0 mL. If this solution contains 44 ppm chloride ions, the concentration of calcium ions is ________ ppm.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氯化钙溶于水配成 500.0 mL 溶液，若溶液含 44 ppm 氯离子，则钙离子浓度为 ________ ppm。",
       "options": [
         {
           "key": "A",
@@ -20108,7 +20198,7 @@
       "type": "single",
       "stem": "Molality is defined as the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "质量摩尔浓度的定义是 ________。",
       "options": [
         {
           "key": "A",
@@ -20131,7 +20221,13 @@
           "text": "none (dimensionless)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "mol 溶质/mol 溶剂",
+        "B": "mol 溶质/L 溶液",
+        "C": "mol 溶质/kg 溶液",
+        "D": "mol 溶质/kg 溶剂",
+        "E": "无（无量纲）"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20159,7 +20255,7 @@
       "type": "single",
       "stem": "Which one of the following concentration units varies with temperature?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种浓度单位随温度变化？",
       "options": [
         {
           "key": "A",
@@ -20182,7 +20278,13 @@
           "text": "all of the above"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "摩尔浓度",
+        "B": "质量百分数",
+        "C": "摩尔分数",
+        "D": "质量摩尔浓度",
+        "E": "以上全部"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -20210,7 +20312,7 @@
       "type": "single",
       "stem": "A solution contains 11% by mass of sodium chloride. This means that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某溶液含 11%（质量）氯化钠，这意味着 ________。",
       "options": [
         {
           "key": "A",
@@ -20233,7 +20335,13 @@
           "text": "the molality of the solution is 11"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "1.0 mL 溶液含 11 g 氯化钠",
+        "B": "100 g 溶液含 11 g 氯化钠",
+        "C": "100 mL 溶液含 11 g 氯化钠",
+        "D": "溶液密度为 11 g/mL",
+        "E": "溶液质量摩尔浓度为 11"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -20261,7 +20369,7 @@
       "type": "single",
       "stem": "A solution contains 15 ppm of benzene. The density of the solution is 1.00 g/mL. This means that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某溶液含 15 ppm 苯，密度 1.00 g/mL，这意味着 ________。",
       "options": [
         {
           "key": "A",
@@ -20284,7 +20392,13 @@
           "text": "the solution is 15% by mass of benzene"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "1.0 g 溶液含 15 mg 苯",
+        "B": "100 g 溶液含 15 g 苯",
+        "C": "1.0 g 溶液含 15×10^-6 g 苯",
+        "D": "1.0 L 溶液含 15 g 苯",
+        "E": "溶液含 15%（质量）苯"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -20312,7 +20426,7 @@
       "type": "single",
       "stem": "The magnitudes of Kf and of Kb depend on the identity of the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Kf 与 Kb 的大小取决于 ________。",
       "options": [
         {
           "key": "A",
@@ -20335,7 +20449,13 @@
           "text": "solute and solvent"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "溶质",
+        "B": "溶剂",
+        "C": "溶液",
+        "D": "溶剂及温度",
+        "E": "溶质和溶剂"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20363,7 +20483,7 @@
       "type": "single",
       "stem": "As the concentration of a solute in a solution increases, the freezing point of the solution ________ and the vapor pressure of the solution ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "随溶质浓度增大，溶液凝固点 ________、蒸气压 ________。",
       "options": [
         {
           "key": "A",
@@ -20386,7 +20506,13 @@
           "text": "decreases, is unaffected"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "升高、升高",
+        "B": "升高、降低",
+        "C": "降低、升高",
+        "D": "降低、降低",
+        "E": "降低、不变"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20414,7 +20540,7 @@
       "type": "single",
       "stem": "Which of the following liquids will have the highest freezing point?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种液体的凝固点最高？",
       "options": [
         {
           "key": "A",
@@ -20437,7 +20563,13 @@
           "text": "aqueous KF (0.50 m)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "纯 H2O",
+        "B": "葡萄糖水溶液（0.60 m）",
+        "C": "蔗糖水溶液（0.60 m）",
+        "D": "FeI3 水溶液（0.24 m）",
+        "E": "KF 水溶液（0.50 m）"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -20465,7 +20597,7 @@
       "type": "single",
       "stem": "A 1.35 m aqueous solution of compound X had a boiling point of 101.4 °C. Which one of the following could be compound X? The boiling point elevation constant for water is 0.52 °C/m.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "1.35 m 化合物 X 水溶液沸点为 101.4 °C，水的沸点升高常数为 0.52 °C/m，X 可能是 ________。",
       "options": [
         {
           "key": "A",
@@ -20488,7 +20620,13 @@
           "text": "CaCl2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "CH3CH2OH",
+        "B": "C6H12O6",
+        "C": "Na3PO4",
+        "D": "KCl",
+        "E": "CaCl2"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20516,7 +20654,7 @@
       "type": "single",
       "stem": "Of the following, a 0.1 M aqueous solution of ________ will have the lowest freezing point.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列 0.1 M 水溶液中，________ 的凝固点最低。",
       "options": [
         {
           "key": "A",
@@ -20539,7 +20677,13 @@
           "text": "sucrose"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NaCl",
+        "B": "Al(NO3)3",
+        "C": "K2CrO4",
+        "D": "Na2SO4",
+        "E": "蔗糖"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -20567,7 +20711,7 @@
       "type": "single",
       "stem": "Which one of the following solutes has a limiting van't Hoff factor (i) of 3 when dissolved in water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种溶质溶于水时的极限范特霍夫因子 i 为 3？",
       "options": [
         {
           "key": "A",
@@ -20590,7 +20734,13 @@
           "text": "sucrose"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "KNO3",
+        "B": "CH3OH",
+        "C": "CCl4",
+        "D": "Na2SO4",
+        "E": "蔗糖"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20618,7 +20768,7 @@
       "type": "single",
       "stem": "Calculate the vapor pressure of a solution made by dissolving 109 grams of glucose (molar mass = 180.2 g/mol) in 920.0 ml of water at 25 °C. The vapor pressure of pure water at 25 °C is 23.76 mm Hg. Assume the density of the solution is 1.00 g/ml.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 109 g 葡萄糖（摩尔质量 180.2 g/mol）溶于 920.0 mL 水，25 °C 下溶液的蒸气压为 ________。纯水 25 °C 蒸气压 23.76 mmHg，设密度 1.00 g/mL。",
       "options": [
         {
           "key": "A",
@@ -20669,7 +20819,7 @@
       "type": "single",
       "stem": "The process of a substance sticking to the surface of another is called",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "物质附着于另一种物质表面的过程叫 ________。",
       "options": [
         {
           "key": "A",
@@ -20692,7 +20842,13 @@
           "text": "coagulation"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "吸收",
+        "B": "扩散",
+        "C": "渗流",
+        "D": "吸附",
+        "E": "凝固"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20720,7 +20876,7 @@
       "type": "single",
       "stem": "The process of solute particles being surrounded by solvent particles is known as ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "溶质粒子被溶剂粒子包围的过程叫 ________。",
       "options": [
         {
           "key": "A",
@@ -20743,7 +20899,13 @@
           "text": "dehydration"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "溶解",
+        "B": "团聚",
+        "C": "溶剂化",
+        "D": "凝集",
+        "E": "脱水"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -20771,7 +20933,7 @@
       "type": "single",
       "stem": "A sample of potassium nitrate (49.0 g) is dissolved in 101 g of water at 100 °C, with precautions taken to avoid evaporation of any water. The solution is cooled to 30.0 °C and no precipitate is observed. This solution is ________. （KNO3 在 30 °C 溶解度约 45 g/100 g 水）",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（溶解度曲线）49.0 g 硝酸钾溶于 101 g 水（100 °C，避免蒸发），冷却到 30.0 °C 无沉淀，此溶液是 ________。",
       "options": [
         {
           "key": "A",
@@ -20794,7 +20956,13 @@
           "text": "supersaturated"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "水合",
+        "B": "饱和",
+        "C": "饱和",
+        "D": "不饱和",
+        "E": "过饱和"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -20822,7 +20990,7 @@
       "type": "single",
       "stem": "A sample of potassium chlorate (15.0 g) is dissolved in 201 g of water at 70 °C, with precautions taken to avoid evaporation of any water. The solution is cooled to 30.0 °C and no precipitate is observed. This solution is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "15.0 g 氯酸钾溶于 201 g 水（70 °C），冷却到 30.0 °C 无沉淀，此溶液是 ________。",
       "options": [
         {
           "key": "A",
@@ -20845,7 +21013,13 @@
           "text": "supersaturated"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "水合",
+        "B": "混溶",
+        "C": "饱和",
+        "D": "不饱和",
+        "E": "过饱和"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -20873,7 +21047,7 @@
       "type": "single",
       "stem": "A solution is prepared by dissolving 15.0 g of NH3 in 250.0 g of water. The density of the resulting solution is 0.974 g/mL. The molarity of NH3 in the solution is ________ M.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 15.0 g NH3 溶于 250.0 g 水，溶液密度 0.974 g/mL，NH3 的摩尔浓度是 ________ M。",
       "options": [
         {
           "key": "A",
@@ -20924,7 +21098,7 @@
       "type": "single",
       "stem": "The concentration (M) of HCl in a solution prepared by dissolving 5.5 g of HCl in 200 g of C2H6O is ________ M. The density of the solution is 0.79 g/mL.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 5.5 g HCl 溶于 200 g C2H6O，溶液密度 0.79 g/mL，HCl 的浓度是 ________ M。",
       "options": [
         {
           "key": "A",
@@ -20975,7 +21149,7 @@
       "type": "single",
       "stem": "What is the molarity of sodium chloride in solution that is 13.0% by mass sodium chloride and that has a density of 1.10 g/mL?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "13.0%（质量）NaCl 溶液密度 1.10 g/mL，其摩尔浓度是 ________。",
       "options": [
         {
           "key": "A",
@@ -21026,7 +21200,7 @@
       "type": "single",
       "stem": "A burning splint will burn more vigorously in pure oxygen than in air because ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "木条在纯氧中比在空气中燃烧更旺，因为 ________。",
       "options": [
         {
           "key": "A",
@@ -21049,7 +21223,13 @@
           "text": "nitrogen is a reactant in combustion and its low concentration in pure oxygen catalyzes the combustion"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氧气是燃烧反应物，纯氧中浓度更高",
+        "B": "氧气是燃烧催化剂",
+        "C": "氧气是燃烧产物",
+        "D": "氮气是燃烧产物",
+        "E": "氮气是燃烧反应物且低浓度催化燃烧"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -21077,7 +21257,7 @@
       "type": "single",
       "stem": "Of the following, all are valid units for a reaction rate except ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列都是反应速率的有效单位，除了 ________。",
       "options": [
         {
           "key": "A",
@@ -21100,7 +21280,13 @@
           "text": "mol/L-hr"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "mol/L",
+        "B": "M/s",
+        "C": "mol/hr",
+        "D": "g/s",
+        "E": "mol/L-hr"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -21128,7 +21314,7 @@
       "type": "single",
       "stem": "The rate law of a reaction is rate = k[D][X]. The units of the rate constant are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某反应速率定律为 rate = k[D][X]，其速率常数单位是 ________。",
       "options": [
         {
           "key": "A",
@@ -21151,7 +21337,13 @@
           "text": "L2 mol-2s-1"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "mol·L^-1·s^-1",
+        "B": "L·mol^-1·s^-1",
+        "C": "mol^2·L^-2·s^-1",
+        "D": "mol·L^-1·s^-2",
+        "E": "L^2·mol^-2·s^-1"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -21179,7 +21371,7 @@
       "type": "single",
       "stem": "The data in the table below were obtained for the reaction: 2 ClO2 (aq) + 2 OH- (aq) → ClO3- (aq) + ClO2- (aq) + H2O (l)（数据：[ClO2]=0.060、0.020、0.020 M；[OH-]=0.030、0.030、0.090 M；初速=0.0248、0.00276、0.00828 M/s）What is the order of the reaction with respect to ClO2?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（数据表）反应 2 ClO2 + 2 OH- → ClO3- + ClO2- + H2O 的数据如下，该反应对 ClO2 的级数是 ________。",
       "options": [
         {
           "key": "A",
@@ -21230,7 +21422,7 @@
       "type": "single",
       "stem": "（沿用第 72 题数据）What is the order of the reaction with respect to OH-?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）对 OH- 的级数是 ________。",
       "options": [
         {
           "key": "A",
@@ -21281,7 +21473,7 @@
       "type": "single",
       "stem": "（沿用第 72 题数据）What is the overall order of the reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）反应总级数是 ________。",
       "options": [
         {
           "key": "A",
@@ -21332,7 +21524,7 @@
       "type": "single",
       "stem": "（沿用第 72 题数据）What is the magnitude of the rate constant for the reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）该反应的速率常数大小是 ________。",
       "options": [
         {
           "key": "A",
@@ -21383,7 +21575,7 @@
       "type": "single",
       "stem": "Under constant conditions, the half-life of a first-order reaction ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "恒温条件下，一级反应的半衰期 ________。",
       "options": [
         {
           "key": "A",
@@ -21406,7 +21598,13 @@
           "text": "All of the above are correct."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "是反应物浓度降到一半所需时间",
+        "B": "是常数",
+        "C": "可由速率常数算出",
+        "D": "与初始浓度无关",
+        "E": "以上都正确"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -21434,7 +21632,7 @@
       "type": "single",
       "stem": "The reaction CH3-N≡C → CH3-C≡N is a first-order reaction. At 230.3 °C, k = 6.29 × 10-4 s-1. If [CH3-N≡C] = 1.00 × 10-3 M initially, [CH3-N≡C] is ________ after 1.000 × 10^3 s.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "CH3-N≡C → CH3-C≡N 为一级反应，230.3 °C 时 k = 6.29×10^-4 s^-1。若 [CH3-N≡C] 初始为 1.00×10^-3 M，1000 s 后为 ________。",
       "options": [
         {
           "key": "A",
@@ -21485,7 +21683,7 @@
       "type": "single",
       "stem": "The following reaction is second order in [A] and the rate constant is 0.025 M-1s-1: A → B The concentration of A was 0.65 M at 33 s. The initial concentration of A was ________ M.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应 A → B 对 [A] 为二级，速率常数 0.025 M^-1s^-1。33 s 时 [A] = 0.65 M，则 [A] 初始浓度为 ________ M。",
       "options": [
         {
           "key": "A",
@@ -21536,7 +21734,7 @@
       "type": "single",
       "stem": "The decomposition of N2O5 in solution in carbon tetrachloride proceeds via the reaction 2N2O5 (soln) → 4NO2 (soln) + O2 (soln) The reaction is first order and has a rate constant of 4.82 × 10-3 s-1 at 64 °C. The rate law for the reaction is rate = ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "N2O5 在四氯化碳中分解：2N2O5 → 4NO2 + O2，为一级反应，64 °C 速率常数 4.82×10^-3 s^-1，速率定律为 ________。",
       "options": [
         {
           "key": "A",
@@ -21587,7 +21785,7 @@
       "type": "single",
       "stem": "As the temperature of a reaction is increased, the rate of the reaction increases because the ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "温度升高反应速率增大，因为 ________。",
       "options": [
         {
           "key": "A",
@@ -21610,7 +21808,13 @@
           "text": "reactant molecules collide more frequently with less energy per collision"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "反应物分子碰撞频率降低",
+        "B": "反应物分子碰撞更频繁且每次能量更高",
+        "C": "活化能降低",
+        "D": "碰撞更少但能量更高",
+        "E": "碰撞更频繁但能量更低"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -21638,7 +21842,7 @@
       "type": "single",
       "stem": "The rate of a reaction depends on ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应速率取决于 ________。",
       "options": [
         {
           "key": "A",
@@ -21661,7 +21865,13 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "碰撞频率",
+        "B": "碰撞能量",
+        "C": "碰撞取向",
+        "D": "以上全部",
+        "E": "以上都不是"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -21689,7 +21899,7 @@
       "type": "single",
       "stem": "Which energy difference in the energy profile below corresponds to the activation energy for the forward reaction?（能量曲线图）",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（能量曲线图）下列哪个能量差对应正反应的活化能？",
       "options": [
         {
           "key": "A",
@@ -21712,7 +21922,13 @@
           "text": "y - x"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "x",
+        "B": "y",
+        "C": "x + y",
+        "D": "x - y",
+        "E": "y - x"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -21740,7 +21956,7 @@
       "type": "single",
       "stem": "In the Arrhenius equation, k = Ae-Ea/RT ________ is the frequency factor.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "阿伦尼乌斯方程 k = Ae^(-Ea/RT) 中，________ 是频率因子。",
       "options": [
         {
           "key": "A",
@@ -21763,7 +21979,13 @@
           "text": "R"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "k",
+        "B": "A",
+        "C": "e",
+        "D": "Ea",
+        "E": "R"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -21791,7 +22013,7 @@
       "type": "single",
       "stem": "In general, as activation energy increases, reaction rate ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "一般地，活化能增大，反应速率 ________。",
       "options": [
         {
           "key": "A",
@@ -21814,7 +22036,13 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "放热反应则降低",
+        "B": "吸热反应则降低",
+        "C": "无论放热吸热都不变",
+        "D": "无论放热吸热都降低",
+        "E": "以上都不是"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -21842,7 +22070,7 @@
       "type": "single",
       "stem": "Which of the following is true?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种说法正确？",
       "options": [
         {
           "key": "A",
@@ -21865,7 +22093,13 @@
           "text": "All of the above statements are true."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "已知是基元反应即可写出其速率定律",
+        "B": "决速步骤是机理中最快的基元步骤",
+        "C": "多步机理中各基元反应不必加和成总反应",
+        "D": "中间体等同于活化络合物",
+        "E": "以上都正确"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -21893,7 +22127,7 @@
       "type": "single",
       "stem": "Of the following, ________ will lower the activation energy for a reaction.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种措施能降低反应的活化能？",
       "options": [
         {
           "key": "A",
@@ -21916,7 +22150,13 @@
           "text": "increasing the pressure"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "增大反应物浓度",
+        "B": "升高温度",
+        "C": "加入催化剂",
+        "D": "随反应进行移除产物",
+        "E": "增大压强"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -21944,7 +22184,7 @@
       "type": "single",
       "stem": "The rate law of the overall reaction A + B → C is rate = k[A]2. Which of the following will not increase the rate of the reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "总反应 A + B → C 的速率定律为 rate = k[A]^2。下列哪种做法不会加快反应？",
       "options": [
         {
           "key": "A",
@@ -21967,7 +22207,13 @@
           "text": "All of these will increase the rate."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "增大 A 浓度",
+        "B": "增大 B 浓度",
+        "C": "升高温度",
+        "D": "加入催化剂",
+        "E": "以上都会加快"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -21995,7 +22241,7 @@
       "type": "single",
       "stem": "________ are used in automotive catalytic converters.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "汽车催化转化器中使用 ________。",
       "options": [
         {
           "key": "A",
@@ -22018,7 +22264,13 @@
           "text": "Nonmetal oxides"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "多相催化剂",
+        "B": "均相催化剂",
+        "C": "酶",
+        "D": "稀有气体",
+        "E": "非金属氧化物"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -22046,7 +22298,7 @@
       "type": "single",
       "stem": "Consider the following reaction: A → 2C The average rate of appearance of C is given by Δ[C]/Δt. Comparing the rate of appearance of C and the rate of disappearance of A, we get Δ[C]/Δt = ________ × (-Δ[A]/Δt).",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "考虑反应 A → 2C，C 的平均生成速率为 Δ[C]/Δt。Δ[C]/Δt = ________ × (-Δ[A]/Δt)。",
       "options": [
         {
           "key": "A",
@@ -22097,7 +22349,7 @@
       "type": "single",
       "stem": "A flask is charged with 0.124 mol of A and allowed to react to form B according to the reaction A(g) → B(g). The following data are obtained for [A] as the reaction proceeds:（数据：0 s=0.124、10 s=0.110、20 s=0.088、30 s=0.073、40 s=0.054 M）The average rate of disappearance of A between 10 s and 20 s is ________ mol/s.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（数据表）烧瓶装 0.124 mol A 生成 B：A(g) → B(g)，[A] 随时间变化如下。10 s 到 20 s 间 A 的平均消失速率是 ________ mol/s。",
       "options": [
         {
           "key": "A",
@@ -22148,7 +22400,7 @@
       "type": "single",
       "stem": "The average rate of disappearance of A between 20 s and 40 s is ________ mol/s.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）20 s 到 40 s 间 A 的平均消失速率是 ________ mol/s。",
       "options": [
         {
           "key": "A",
@@ -22199,7 +22451,7 @@
       "type": "single",
       "stem": "The average rate of appearance of B between 20 s and 30 s is ________ mol/s.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）20 s 到 30 s 间 B 的平均生成速率是 ________ mol/s。",
       "options": [
         {
           "key": "A",
@@ -22250,7 +22502,7 @@
       "type": "single",
       "stem": "The average rate disappearance of A between 20 s and 30 s is ________ mol/s.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）20 s 到 30 s 间 A 的平均消失速率是 ________ mol/s。",
       "options": [
         {
           "key": "A",
@@ -22301,7 +22553,7 @@
       "type": "single",
       "stem": "How many moles of B are present at 10 s?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）10 s 时 B 的物质的量是 ________ mol。",
       "options": [
         {
           "key": "A",
@@ -22352,7 +22604,7 @@
       "type": "single",
       "stem": "How many moles of B are present at 30 s?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（沿用上题数据）30 s 时 B 的物质的量是 ________ mol。",
       "options": [
         {
           "key": "A",
@@ -22403,7 +22655,7 @@
       "type": "single",
       "stem": "A reaction was found to be second order in carbon monoxide concentration. The rate of the reaction ________ if the [CO] is doubled, with everything else kept the same.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某反应对 CO 浓度为二级。若 [CO] 加倍（其余不变），反应速率 ________。",
       "options": [
         {
           "key": "A",
@@ -22426,7 +22678,13 @@
           "text": "is reduced by a factor of 2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "加倍",
+        "B": "不变",
+        "C": "增至 3 倍",
+        "D": "增至 4 倍",
+        "E": "减为 1/2"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -22454,7 +22712,7 @@
       "type": "single",
       "stem": "If the rate law for the reaction 2A + 3B → products is first order in A and second order in B, then the rate law is rate = ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "若反应 2A + 3B → 产物对 A 为一级、对 B 为二级，则速率定律为 ________。",
       "options": [
         {
           "key": "A",
@@ -22477,7 +22735,13 @@
           "text": "k[A]2[B]2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "k[A][B]",
+        "B": "k[A]^2[B]^3",
+        "C": "k[A][B]^2",
+        "D": "k[A]^2[B]",
+        "E": "k[A]^2[B]^2"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -22505,7 +22769,7 @@
       "type": "single",
       "stem": "The overall order of a reaction is 1. The units of the rate constant for the reaction are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某反应总级数为 1，其速率常数单位为 ________。",
       "options": [
         {
           "key": "A",
@@ -22528,7 +22792,13 @@
           "text": "s/M2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "M/s",
+        "B": "M^-1s^-1",
+        "C": "1/s",
+        "D": "1/M",
+        "E": "s/M^2"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -22556,7 +22826,7 @@
       "type": "single",
       "stem": "The kinetics of the reaction below were studied and it was determined that the reaction rate increased by a factor of 9 when the concentration of B was tripled. The reaction is ________ order in B. A + B → P",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "研究表明 B 浓度×3 时反应速率×9，则反应对 B 为 ________ 级。 A + B → P",
       "options": [
         {
           "key": "A",
@@ -22579,7 +22849,13 @@
           "text": "one-half"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "零级",
+        "B": "一级",
+        "C": "二级",
+        "D": "三级",
+        "E": "1/2 级"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -22607,7 +22883,7 @@
       "type": "single",
       "stem": "A reaction was found to be zero order in A. Increasing the concentration of A by a factor of 3 will cause the reaction rate to ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某反应对 A 为零级，把 [A] 增大 3 倍会使反应速率 ________。",
       "options": [
         {
           "key": "A",
@@ -22630,7 +22906,13 @@
           "text": "decrease by a factor of the cube root of 3"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "保持不变",
+        "B": "增至 27 倍",
+        "C": "增至 9 倍",
+        "D": "增至 3 倍",
+        "E": "减为 3 的立方根倍"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -22658,7 +22940,7 @@
       "type": "single",
       "stem": "At equilibrium, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在平衡时，________。",
       "options": [
         {
           "key": "A",
@@ -22681,7 +22963,13 @@
           "text": "the limiting reagent has been consumed"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "所有化学反应都已停止",
+        "B": "正逆反应速率相等",
+        "C": "正逆反应速率常数相等",
+        "D": "平衡常数等于 1",
+        "E": "限制试剂已耗尽"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -22709,7 +22997,7 @@
       "type": "single",
       "stem": "Which one of the following is true concerning the Haber process?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "关于哈伯法，下列哪项正确？",
       "options": [
         {
           "key": "A",
@@ -22732,7 +23020,13 @@
           "text": "It is a process for the synthesis of elemental chlorine."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "用于使平衡右移以实现多种物质更经济合成",
+        "B": "用于合成氨",
+        "C": "勒夏特列原理的另一种说法",
+        "D": "Karl Haber 发现的氯化钠工业合成法",
+        "E": "合成氯单质的过程"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -22760,7 +23054,7 @@
       "type": "single",
       "stem": "Which one of the following will change the value of an equilibrium constant?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪项会改变平衡常数的值？",
       "options": [
         {
           "key": "A",
@@ -22783,7 +23077,13 @@
           "text": "changing the volume of the reaction vessel"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "改变温度",
+        "B": "加入不与平衡各物种反应的其他物质",
+        "C": "改变反应物初始浓度",
+        "D": "改变产物初始浓度",
+        "E": "改变反应容器体积"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -22811,7 +23111,7 @@
       "type": "single",
       "stem": "Which of the following expressions is the correct equilibrium-constant expression for the equilibrium between dinitrogen tetroxide and nitrogen dioxide? N2O4 (g) ⇌ 2NO2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "N2O4 (g) ⇌ 2NO2 (g) 的正确平衡常数表达式是 ________。",
       "options": [
         {
           "key": "A",
@@ -22862,7 +23162,7 @@
       "type": "single",
       "stem": "The equilibrium-constant expression depends on the ________ of the reaction.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "平衡常数表达式取决于反应的 ________。",
       "options": [
         {
           "key": "A",
@@ -22885,7 +23185,13 @@
           "text": "temperature"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "化学计量数",
+        "B": "机理",
+        "C": "化学计量数和机理",
+        "D": "反应物产物初始量",
+        "E": "温度"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -22913,7 +23219,7 @@
       "type": "single",
       "stem": "The equilibrium expression for Kp for the reaction below is ________. 2O3 (g) ⇌ 3O2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应 2O3 (g) ⇌ 3O2 (g) 的 Kp 表达式是 ________。",
       "options": [
         {
           "key": "A",
@@ -22964,7 +23270,7 @@
       "type": "single",
       "stem": "The Keq for the equilibrium below is 7.52 × 10-2 at 480.0 °C. 2Cl2 (g) + 2H2O (g) ⇌ 4HCl (g) + O2 (g) What is the value of Keq at this temperature for the following reaction? 2HCl (g) + ½O2 (g) ⇌ Cl2 (g) + H2O (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "平衡 2Cl2 + 2H2O ⇌ 4HCl + O2 在 480.0 °C 时 Keq = 7.52×10^-2。同温度下反应 2HCl + ½O2 ⇌ Cl2 + H2O 的 Keq 是 ________。",
       "options": [
         {
           "key": "A",
@@ -23015,7 +23321,7 @@
       "type": "single",
       "stem": "Given the following reaction at equilibrium, if Kc = 1.90 × 1019 at 25.0 °C, Kp = ________. H2 (g) + Br2 (g) ⇌ 2 HBr (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应 H2 + Br2 ⇌ 2HBr 在 25.0 °C 时 Kc = 1.90×10^19，Kp = ________。",
       "options": [
         {
           "key": "A",
@@ -23066,7 +23372,7 @@
       "type": "single",
       "stem": "Which of the following expressions is the correct equilibrium-constant expression for the reaction below? HF (aq) + H2O (l) ⇌ H3O+ (aq) + F- (aq)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应 HF + H2O ⇌ H3O+ + F- 的正确平衡常数表达式是 ________。",
       "options": [
         {
           "key": "A",
@@ -23117,7 +23423,7 @@
       "type": "single",
       "stem": "The equilibrium constant for the gas phase reaction N2 (g) + 3H2 (g) ⇌ 2NH3 (g) is Keq = 4.34 × 10-3 at 300 °C. At equilibrium, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "气相反应 N2 + 3H2 ⇌ 2NH3 在 300 °C 时 Keq = 4.34×10^-3。平衡时 ________。",
       "options": [
         {
           "key": "A",
@@ -23140,7 +23446,13 @@
           "text": "only reactants are present"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "产物占优",
+        "B": "反应物占优",
+        "C": "产物和反应物大致相等",
+        "D": "只有产物",
+        "E": "只有反应物"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -23168,7 +23480,7 @@
       "type": "single",
       "stem": "Consider the following equilibrium. 2 SO2 (g) + O2 (g) ⇌ 2 SO3 (g) The equilibrium cannot be established when ________ is/are placed in a 1.0-L container.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "考虑平衡 2SO2 + O2 ⇌ 2SO3。在 1.0 L 容器中放入 ________ 时该平衡不能建立。",
       "options": [
         {
           "key": "A",
@@ -23219,7 +23531,7 @@
       "type": "single",
       "stem": "At 400 K, the equilibrium constant for the reaction Br2 (g) + Cl2 (g) ⇌ 2BrCl (g) is Kp = 7.0. A closed vessel at 400 K is charged with 1.00 atm of Br2 (g), 1.00 atm of Cl2 (g), and 2.00 atm of BrCl (g). Use Q to determine which of the statements below is true.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "400 K 时 Br2 + Cl2 ⇌ 2BrCl 的 Kp = 7.0。密闭容器装入 1.00 atm Br2、1.00 atm Cl2 和 2.00 atm BrCl。用 Q 判断下列哪项正确。",
       "options": [
         {
           "key": "A",
@@ -23270,7 +23582,7 @@
       "type": "single",
       "stem": "Which of the following statements is true?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种说法正确？",
       "options": [
         {
           "key": "A",
@@ -23293,7 +23605,13 @@
           "text": "Q is the same as Keq when a reaction is at equilibrium."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Q 不随温度变化",
+        "B": "Keq 不随温度变化而 Q 随温度变化",
+        "C": "K 不取决于各组分的浓度或分压",
+        "D": "Q 不取决于各组分的浓度或分压",
+        "E": "平衡时 Q 等于 Keq"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -23321,7 +23639,7 @@
       "type": "single",
       "stem": "How is the reaction quotient used to determine whether a system is at equilibrium?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "如何用反应商判断体系是否处于平衡？",
       "options": [
         {
           "key": "A",
@@ -23344,7 +23662,13 @@
           "text": "The reaction is at equilibrium when Q = Keq."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "必须满足反应商才能达平衡",
+        "B": "平衡时反应商未定义",
+        "C": "Q < Keq 时平衡",
+        "D": "Q > Keq 时平衡",
+        "E": "Q = Keq 时平衡"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -23372,7 +23696,7 @@
       "type": "single",
       "stem": "Of the following equilibria, only ________ will shift to the right in response to a decrease in volume.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列平衡中，只有 ________ 会在体积减小时向右移动。",
       "options": [
         {
           "key": "A",
@@ -23423,7 +23747,7 @@
       "type": "single",
       "stem": "Consider the following reaction at equilibrium: 2NH3 (g) ⇌ N2 (g) + 3H2 (g) Le Châtelier's principle predicts that the moles of H2 in the reaction container will increase with ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "考虑平衡 2NH3 ⇌ N2 + 3H2。勒夏特列原理预测容器中 H2 的物质的量会因 ________ 而增加。",
       "options": [
         {
           "key": "A",
@@ -23474,7 +23798,7 @@
       "type": "single",
       "stem": "The effect of a catalyst on an equilibrium is to ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "催化剂对平衡的作用是 ________。",
       "options": [
         {
           "key": "A",
@@ -23497,7 +23821,13 @@
           "text": "shift the equilibrium to the right"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "只加快正反应",
+        "B": "增大平衡常数使产物更有利",
+        "C": "只减慢逆反应",
+        "D": "加快达到平衡而不改变平衡组成",
+        "E": "使平衡右移"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -23525,7 +23855,7 @@
       "type": "single",
       "stem": "The value of Keq for the equilibrium H2 (g) + I2 (g) ⇌ 2HI (g) is 794 at 25 °C. What is the value of Keq for the equilibrium below? ½H2 (g) + ½I2 (g) ⇌ HI (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "平衡 H2 + I2 ⇌ 2HI 在 25 °C 时 Keq = 794。平衡 ½H2 + ½I2 ⇌ HI 的 Keq 是 ________。",
       "options": [
         {
           "key": "A",
@@ -23576,7 +23906,7 @@
       "type": "single",
       "stem": "The value of Keq for the equilibrium CO2 (g) + 2H2 (g) ⇌ CH3OH (g) is 14.5 at 483 °C. What is the value of Keq for the equilibrium below? ½CO2 (g) + H2 (g) ⇌ ½CH3OH (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "平衡 CO2 + 2H2 ⇌ CH3OH 在 483 °C 时 Keq = 14.5。平衡 ½CO2 + H2 ⇌ ½CH3OH 的 Keq 是 ________。",
       "options": [
         {
           "key": "A",
@@ -23627,7 +23957,7 @@
       "type": "single",
       "stem": "A reaction vessel is charged with hydrogen iodide, which partially decomposes to molecular hydrogen and iodine: 2HI (g) ⇌ H2(g) + I2(g) When the system comes to equilibrium at 425 °C, PHI = 0.708 atm, and PH2 = PI2 = 0.0960 atm. The value of Kp at this temperature is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应容器装入 HI 部分分解为 H2 和 I2：2HI ⇌ H2 + I2。425 °C 平衡时 PHI=0.708 atm、PH2=PI2=0.0960 atm，Kp = ________。",
       "options": [
         {
           "key": "A",
@@ -23678,7 +24008,7 @@
       "type": "single",
       "stem": "Given the following reaction: CO (g) + 2 H2(g) ⇌ CH3OH (g) In an experiment, 0.42 mol of CO and 0.42 mol of H2 were placed in a 1.00-L reaction vessel. At equilibrium, there were 0.29 mol of CO remaining. Keq at the temperature of the experiment is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "反应 CO + 2H2 ⇌ CH3OH。将 0.42 mol CO 和 0.42 mol H2 放入 1.00 L 容器，平衡时余 0.29 mol CO，Keq = ________。",
       "options": [
         {
           "key": "A",
@@ -23729,7 +24059,7 @@
       "type": "single",
       "stem": "A sealed 1.0 L flask is charged with 0.500 mol of I2 and 0.500 mol of Br2. An equilibrium reaction ensues: I2 (g) + Br2 (g) ⇌ 2IBr (g) When the container contents achieve equilibrium, the flask contains 0.84 mol of IBr. The value of Keq is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "密封 1.0 L 烧瓶装 0.500 mol I2 和 0.500 mol Br2，平衡 I2 + Br2 ⇌ 2IBr，平衡时含 0.84 mol IBr，Keq = ________。",
       "options": [
         {
           "key": "A",
@@ -23780,7 +24110,7 @@
       "type": "single",
       "stem": "At 200 °C, the equilibrium constant (Kp) for the reaction below is 2.40 × 103. 2NO (g) ⇌ N2 (g) + O2 (g) A closed vessel is charged with 36.1 atm of NO. At equilibrium, the partial pressure of O2 is ________ atm.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "200 °C 时 2NO ⇌ N2 + O2 的 Kp = 2.40×10^3。密闭容器装 36.1 atm NO，平衡时 O2 分压为 ________ atm。",
       "options": [
         {
           "key": "A",
@@ -23831,7 +24161,7 @@
       "type": "single",
       "stem": "According to the Arrhenius concept, an acid is a substance that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据阿伦尼乌斯概念，酸是 ________ 的物质。",
       "options": [
         {
           "key": "A",
@@ -23854,7 +24184,13 @@
           "text": "tastes bitter"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "能给出一个或多个 H+",
+        "B": "使水溶液中 H+ 浓度增大",
+        "C": "能接受电子对形成配位键",
+        "D": "与溶剂反应生成溶剂自电离的阳离子",
+        "E": "味道苦"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -23882,7 +24218,7 @@
       "type": "single",
       "stem": "A Br∅nsted-Lowry base is defined as a substance that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "布朗斯特-劳里碱定义为 ________ 的物质。",
       "options": [
         {
           "key": "A",
@@ -23905,7 +24241,13 @@
           "text": "acts as a proton donor"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "放入水中使 [H+] 增大",
+        "B": "放入水中使 [H+] 减小",
+        "C": "放入水中使 [OH-] 增大",
+        "D": "作质子接受体",
+        "E": "作质子给体"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -23933,7 +24275,7 @@
       "type": "single",
       "stem": "The molar concentration of hydronium ion in pure water at 25 °C is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25 °C 纯水中水合氢离子的摩尔浓度是 ________。",
       "options": [
         {
           "key": "A",
@@ -23984,7 +24326,7 @@
       "type": "single",
       "stem": "The hydride ion, H-, is a stronger base than the hydroxide ion, OH-. The product(s) of the reaction of hydride ion with water is/are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氢负离子 H- 是比 OH- 更强的碱。H- 与水反应的产物是 ________。",
       "options": [
         {
           "key": "A",
@@ -24035,7 +24377,7 @@
       "type": "single",
       "stem": "Of the following acids, ________ is a strong acid.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列酸中，________ 是强酸。",
       "options": [
         {
           "key": "A",
@@ -24086,7 +24428,7 @@
       "type": "single",
       "stem": "Of the following, ________ is a weak acid.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列中，________ 是弱酸。",
       "options": [
         {
           "key": "A",
@@ -24137,7 +24479,7 @@
       "type": "single",
       "stem": "Of the acids in the table below, ________ is the strongest acid. (Ka: HOAc 1.8 × 10-5; HCHO2 1.8 × 10-4; HClO 3.0 × 10-8; HF 6.8 × 10-4)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（Ka 表）下表的酸中，________ 最强。",
       "options": [
         {
           "key": "A",
@@ -24188,7 +24530,7 @@
       "type": "single",
       "stem": "The Ka of hypochlorous acid (HClO) is 3.0 × 10-8 at 25 °C. What is the percent ionization of hypochlorous acid in a 0.015 M aqueous solution of HClO at 25 °C?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "HClO 的 Ka = 3.0×10^-8（25 °C）。0.015 M HClO 水溶液的电离百分数是 ________。",
       "options": [
         {
           "key": "A",
@@ -24239,7 +24581,7 @@
       "type": "single",
       "stem": "Classify the following compounds as weak acids (W) or strong acids (S): benzoic acid nitric acid acetic acid",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将下列化合物分类为弱酸(W)或强酸(S)：苯甲酸、硝酸、乙酸。",
       "options": [
         {
           "key": "A",
@@ -24290,7 +24632,7 @@
       "type": "single",
       "stem": "Classify the following compounds as weak acids (W) or strong acids (S): hypochlorous acid perchloric acid chloric acid",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将下列化合物分类为弱酸(W)或强酸(S)：次氯酸、高氯酸、氯酸。",
       "options": [
         {
           "key": "A",
@@ -24341,7 +24683,7 @@
       "type": "single",
       "stem": "Ammonia is a ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氨是 ________。",
       "options": [
         {
           "key": "A",
@@ -24364,7 +24706,13 @@
           "text": "salt"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "弱酸",
+        "B": "强碱",
+        "C": "弱碱",
+        "D": "强酸",
+        "E": "盐"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -24392,7 +24740,7 @@
       "type": "single",
       "stem": "HA is a weak acid. Which equilibrium corresponds to the equilibrium constant Kb for A-?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "HA 是弱酸，下列哪个平衡对应 A- 的 Kb？",
       "options": [
         {
           "key": "A",
@@ -24443,7 +24791,7 @@
       "type": "single",
       "stem": "Classify the following compounds as weak bases (W) or strong bases (S): ammonia fluoride ion sodium hydroxide",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将下列分类为弱碱(W)或强碱(S)：氨、氟离子、氢氧化钠。",
       "options": [
         {
           "key": "A",
@@ -24494,7 +24842,7 @@
       "type": "single",
       "stem": "Using the data in the table, which of the conjugate bases below is the strongest base? (Ka: HOAc 1.8 × 10-5; HC7H5O2 6.3 × 10-5; HNO2 4.5 × 10-4; HF 6.8 × 10-4)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（Ka 表）下列共轭碱中，________ 最强。",
       "options": [
         {
           "key": "A",
@@ -24545,7 +24893,7 @@
       "type": "single",
       "stem": "Using the data in the table, which of the conjugate bases below is the strongest base? (Ka: HOAc 1.8 × 10-5; HCHO2 1.8 × 10-4; HClO 3.0 × 10-8; HF 6.8 × 10-4)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（Ka 表）下列共轭碱中，________ 最强。",
       "options": [
         {
           "key": "A",
@@ -24596,7 +24944,7 @@
       "type": "single",
       "stem": "Using the data in the table, which of the conjugate acids below is the strongest acid? (Kb: ClO- 3.3 × 10-7; CO3^2- 1.8 × 10-4; HS- 1.8 × 10-7; NH2CH3 4.4 × 10-4)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（Kb 表）下列共轭酸中，________ 最强。",
       "options": [
         {
           "key": "A",
@@ -24647,7 +24995,7 @@
       "type": "single",
       "stem": "Using the data in the table, which of the conjugate acids below is the weakest acid? (Kb: NH3 1.8 × 10-5; C5H5N 1.7 × 10-9; H2NOH 1.1 × 10-8; NH2CH3 4.4 × 10-4)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（Kb 表）下列共轭酸中，________ 最弱。",
       "options": [
         {
           "key": "A",
@@ -24698,7 +25046,7 @@
       "type": "single",
       "stem": "Which of the following ions will act as a weak base in water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种离子在水中作弱碱？",
       "options": [
         {
           "key": "A",
@@ -24749,7 +25097,7 @@
       "type": "single",
       "stem": "Which of the following aqueous solutions has the highest [OH-]?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种水溶液的 [OH-] 最高？",
       "options": [
         {
           "key": "A",
@@ -24772,7 +25120,13 @@
           "text": "a 1 × 10-3 M solution of NH4Cl"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "pH = 3.0 的溶液",
+        "B": "1×10^-4 M HNO3",
+        "C": "pOH = 12.0 的溶液",
+        "D": "纯水",
+        "E": "1×10^-3 M NH4Cl"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -24800,7 +25154,7 @@
       "type": "single",
       "stem": "Of the following substances, an aqueous solution of ________ will form basic solutions. NH4Cl Cu(NO3)2 K2CO3 NaF",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列物质中，________ 的水溶液呈碱性：NH4Cl、Cu(NO3)2、K2CO3、NaF。",
       "options": [
         {
           "key": "A",
@@ -24823,7 +25177,13 @@
           "text": "NH4Cl only"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NH4Cl、Cu(NO3)2",
+        "B": "K2CO3、NH4Cl",
+        "C": "仅 NaF",
+        "D": "NaF、K2CO3",
+        "E": "仅 NH4Cl"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -24851,7 +25211,7 @@
       "type": "single",
       "stem": "Of the compounds below, a 0.1 M aqueous solution of ________ will have the highest pH.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列 0.1 M 水溶液中，________ 的 pH 最高。",
       "options": [
         {
           "key": "A",
@@ -24874,7 +25234,13 @@
           "text": "NaHS, Kb of HS- = 1.8 × 10-7"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "KCN，HCN Ka=4.0×10^-10",
+        "B": "NH4NO3，NH3 Kb=1.8×10^-5",
+        "C": "NaOAc，HOAc Ka=1.8×10^-5",
+        "D": "NaClO，HClO Ka=3.2×10^-8",
+        "E": "NaHS，HS- Kb=1.8×10^-7"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -24902,7 +25268,7 @@
       "type": "single",
       "stem": "What is the pOH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydronium ion?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下含 3.98×10^-9 M 水合氢离子的溶液 pOH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -24953,7 +25319,7 @@
       "type": "single",
       "stem": "What is the pH of an aqueous solution at 25.0 °C that contains 3.98 × 10-9 M hydroxide ion?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下含 3.98×10^-9 M 氢氧根离子的溶液 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25004,7 +25370,7 @@
       "type": "single",
       "stem": "Calculate the concentration (in M) of hydronium ions in a solution at 25.0 °C with a pOH of 4.223.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下 pOH = 4.223 的溶液中水合氢离子浓度是 ________ M。",
       "options": [
         {
           "key": "A",
@@ -25055,7 +25421,7 @@
       "type": "single",
       "stem": "An aqueous solution contains 0.100 M NaOH at 25.0 °C. The pH of the solution is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下 0.100 M NaOH 溶液的 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25106,7 +25472,7 @@
       "type": "single",
       "stem": "HZ is a weak acid. An aqueous solution of HZ is prepared by dissolving 0.020 mol of HZ in sufficient water to yield 1.0 L of solution. The pH of the solution was 4.93 at 25.0 °C. The Ka of HZ is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "HZ 是弱酸，0.020 mol HZ 溶于水配成 1.0 L 溶液，pH = 4.93（25 °C），HZ 的 Ka 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25157,7 +25523,7 @@
       "type": "single",
       "stem": "The pH of a 0.25 M aqueous solution of hydrofluoric acid, HF, at 25.0 °C is 2.03. What is the value of Ka for HF?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下 0.25 M HF 溶液的 pH = 2.03，HF 的 Ka 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25208,7 +25574,7 @@
       "type": "single",
       "stem": "The Ka of hypochlorous acid (HClO) is 3.00 × 10-8. What is the pH at 25.0 °C of an aqueous solution that is 0.0200 M in HClO?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "HClO 的 Ka = 3.00×10^-8，25 °C 下 0.0200 M HClO 溶液的 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25259,7 +25625,7 @@
       "type": "single",
       "stem": "The acid-dissociation constants of sulfurous acid (H2SO3) are Ka1 = 1.7 × 10-2 and Ka2 = 6.4 × 10-8 at 25.0 °C. Calculate the pH of a 0.163 M aqueous solution of sulfurous acid.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "亚硫酸的 Ka1 = 1.7×10^-2、Ka2 = 6.4×10^-8。0.163 M 亚硫酸溶液的 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25310,7 +25676,7 @@
       "type": "single",
       "stem": "The pH of a 0.55 M aqueous solution ammonia, NH3, at 25.0 °C is 11.50. What is the value of Kb for NH3?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "25.0 °C 下 0.55 M 氨水 pH = 11.50，NH3 的 Kb 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25361,7 +25727,7 @@
       "type": "single",
       "stem": "The pH of a 0.10 M solution of a weak base is 9.82. What is the Kb for this base?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "0.10 M 弱碱溶液的 pH = 9.82，该碱的 Kb 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25412,7 +25778,7 @@
       "type": "single",
       "stem": "An aqueous solution contains 0.050 M of methylamine. The concentration of hydroxide ion in this solution is ________ M. Kb for methylamine is 4.4 × 10-4.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "含 0.050 M 甲胺的溶液中氢氧根离子浓度是 ________ M，甲胺 Kb = 4.4×10^-4。",
       "options": [
         {
           "key": "A",
@@ -25463,7 +25829,7 @@
       "type": "single",
       "stem": "Which one of the following pairs cannot be mixed together to form a buffer solution?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪组不能混合成缓冲溶液？",
       "options": [
         {
           "key": "A",
@@ -25486,7 +25852,13 @@
           "text": "H2SO3, KHSO3"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HONH2、HONH3Cl",
+        "B": "NaCl、HCl",
+        "C": "RbOH、HF",
+        "D": "KOH、HNO2",
+        "E": "H2SO3、KHSO3"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -25514,7 +25886,7 @@
       "type": "single",
       "stem": "A solution containing which one of the following pairs of substances will be a buffer solution?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "含下列哪组物质的溶液是缓冲溶液？",
       "options": [
         {
           "key": "A",
@@ -25537,7 +25909,13 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "KI、HI",
+        "B": "AgBr、HBr",
+        "C": "CuCl、HCl",
+        "D": "CsI、HI",
+        "E": "以上都不是"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -25565,7 +25943,7 @@
       "type": "single",
       "stem": "What change will be caused by addition of a small amount of HCl to a solution containing fluoride ions and hydrogen fluoride?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "向含氟离子和 HF 的溶液中加入少量 HCl 会引起什么变化？",
       "options": [
         {
           "key": "A",
@@ -25588,7 +25966,13 @@
           "text": "The fluoride ions will precipitate out of solution as its acid salt."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "水合氢离子浓度显著增大",
+        "B": "氟离子和水合氢离子浓度都增大",
+        "C": "HF 减少、F- 增加",
+        "D": "F- 减少、HF 增加",
+        "E": "F- 以其酸式盐沉淀"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -25616,7 +26000,7 @@
       "type": "single",
       "stem": "In a solution, when the concentrations of a weak acid and its conjugate base are equal, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "当弱酸与其共轭碱浓度相等时，________。",
       "options": [
         {
           "key": "A",
@@ -25635,7 +26019,12 @@
           "text": "All of the above are true."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "体系未达平衡",
+        "B": "缓冲能力显著下降",
+        "C": "-log[H+] 与 -logKa 相等",
+        "D": "以上都正确"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -25663,7 +26052,7 @@
       "type": "single",
       "stem": "The addition of hydrofluoric acid and ________ to water produces a buffer solution.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "向水中加入 HF 和 ________ 可形成缓冲溶液。",
       "options": [
         {
           "key": "A",
@@ -25686,7 +26075,13 @@
           "text": "NaBr"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HCl",
+        "B": "NaNO3",
+        "C": "NaCl",
+        "D": "NaOH",
+        "E": "NaBr"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -25714,7 +26109,7 @@
       "type": "single",
       "stem": "Which of the following could be added to a solution of potassium fluoride to prepare a buffer?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种物质可加到 KF 溶液中以配制缓冲液？",
       "options": [
         {
           "key": "A",
@@ -25737,7 +26132,13 @@
           "text": "ammonia"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氢氧化钠",
+        "B": "醋酸钾",
+        "C": "盐酸",
+        "D": "氟化钠",
+        "E": "氨"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -25765,7 +26166,7 @@
       "type": "single",
       "stem": "A result of the common-ion effect is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "同离子效应的结果是 ________。",
       "options": [
         {
           "key": "A",
@@ -25788,7 +26189,13 @@
           "text": "that common ions precipitate all counter-ions"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Na+ 等常见离子常出现但不参与溶解平衡",
+        "B": "常见离子不影响平衡常数",
+        "C": "加入适当反离子生成难溶化合物可促进金属离子选择性沉淀",
+        "D": "K+、Na+ 在平衡常数式中恒为 1.00",
+        "E": "常见离子使所有反离子沉淀"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -25816,7 +26223,7 @@
       "type": "single",
       "stem": "The Ka of benzoic acid is 6.30 × 10-5. The pH of a buffer prepared by combining 50.0 mL of 1.00 M potassium benzoate and 50.0 mL of 1.00 M benzoic acid is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "苯甲酸 Ka = 6.30×10^-5。混合 50.0 mL 1.00 M 苯甲酸钾和 50.0 mL 1.00 M 苯甲酸所得缓冲液 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25867,7 +26274,7 @@
       "type": "single",
       "stem": "Calculate the pH of a solution prepared by dissolving 0.150 mol of acetic acid and 0.300 mol of sodium acetate in water sufficient to yield 1.00 L of solution. The Ka of acetic acid is 1.76 × 10-5.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 0.150 mol 醋酸和 0.300 mol 醋酸钠溶于水配成 1.00 L 溶液，pH 是 ________，醋酸 Ka = 1.76×10^-5。",
       "options": [
         {
           "key": "A",
@@ -25918,7 +26325,7 @@
       "type": "single",
       "stem": "The pH of a solution prepared by mixing 50.0 mL of 0.125 M KOH and 50.0 mL of 0.125 M HCl is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "混合 50.0 mL 0.125 M KOH 和 50.0 mL 0.125 M HCl 所得溶液 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -25969,7 +26376,7 @@
       "type": "single",
       "stem": "The pH of a solution prepared by mixing 50.0 mL of 0.125 M NaOH and 40.0 mL of 0.125 M HNO3 is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "混合 50.0 mL 0.125 M NaOH 和 40.0 mL 0.125 M HNO3 所得溶液 pH 是 ________。",
       "options": [
         {
           "key": "A",
@@ -26020,7 +26427,7 @@
       "type": "single",
       "stem": "The concentration of fluoride ions in a saturated solution of barium fluoride is ________ M. The solubility product constant of BaF2 is 1.7 × 10-6.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "BaF2 饱和溶液中氟离子浓度是 ________ M，Ksp = 1.7×10^-6。",
       "options": [
         {
           "key": "A",
@@ -26071,7 +26478,7 @@
       "type": "single",
       "stem": "The solubility of lead (II) chloride (PbCl2) is 1.6 × 10-2 M. What is the Ksp of PbCl2?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "PbCl2 的溶解度为 1.6×10^-2 M，其 Ksp 是 ________。",
       "options": [
         {
           "key": "A",
@@ -26122,7 +26529,7 @@
       "type": "single",
       "stem": "Determine the Ksp for magnesium hydroxide (Mg(OH)2) where the solubility of Mg(OH)2 is 1.4 × 10-4 M.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Mg(OH)2 的溶解度为 1.4×10^-4 M，其 Ksp 是 ________。",
       "options": [
         {
           "key": "A",
@@ -26173,7 +26580,7 @@
       "type": "single",
       "stem": "Calculate the maximum concentration (in M) of silver ions (Ag+) in a solution that contains 0.025 M of CO32-. The Ksp of Ag2CO3 is 8.1 × 10-12.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "含 0.025 M CO3^2- 的溶液中银离子最大浓度是 ________ M，Ag2CO3 的 Ksp = 8.1×10^-12。",
       "options": [
         {
           "key": "A",
@@ -26224,7 +26631,7 @@
       "type": "single",
       "stem": "What is the solubility (in M) of PbCl2 in a 0.15 M solution of HCl? The Ksp of PbCl2 is 1.6 × 10-5.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "PbCl2 在 0.15 M HCl 中的溶解度是 ________ M，Ksp = 1.6×10^-5。",
       "options": [
         {
           "key": "A",
@@ -26275,7 +26682,7 @@
       "type": "single",
       "stem": "The Ksp for Zn(OH)2 is 5.0 × 10-17. Determine the molar solubility of Zn(OH)2 in a buffer solution with a pH of 11.5.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Zn(OH)2 的 Ksp = 5.0×10^-17。pH = 11.5 的缓冲液中 Zn(OH)2 的摩尔溶解度是 ________。",
       "options": [
         {
           "key": "A",
@@ -26326,7 +26733,7 @@
       "type": "single",
       "stem": "A mineral is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "矿物是 ________。",
       "options": [
         {
           "key": "A",
@@ -26349,7 +26756,13 @@
           "text": "a source of carbon"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "含一种或多种金属的固态无机化合物",
+        "B": "维生素",
+        "C": "元素形态的金属",
+        "D": "过渡金属离子",
+        "E": "碳源"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -26377,7 +26790,7 @@
       "type": "single",
       "stem": "The coordination number of platinum in complexes is always ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铂在配合物中的配位数总是 ________。",
       "options": [
         {
           "key": "A",
@@ -26428,7 +26841,7 @@
       "type": "single",
       "stem": "The coordination sphere of a complex consists of ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配合物的配位圈由 ________ 组成。",
       "options": [
         {
           "key": "A",
@@ -26451,7 +26864,13 @@
           "text": "coordination and steric numbers"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "仅中心金属离子",
+        "B": "配体",
+        "C": "中心金属离子及其键合的配体",
+        "D": "主价和副价",
+        "E": "配位数和空间数"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -26479,7 +26898,7 @@
       "type": "single",
       "stem": "How many d electrons are in the cobalt ion of K3[Co(CN)6]?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "K3[Co(CN)6] 中钴离子有多少个 d 电子？",
       "options": [
         {
           "key": "A",
@@ -26530,7 +26949,7 @@
       "type": "single",
       "stem": "What is the charge on the complex ion in Mg2[FeCl6]?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Mg2[FeCl6] 中配离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -26581,7 +27000,7 @@
       "type": "single",
       "stem": "What is the ligand in Ca3[Fe(CN)6]2?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Ca3[Fe(CN)6]2 中的配体是 ________。",
       "options": [
         {
           "key": "A",
@@ -26632,7 +27051,7 @@
       "type": "single",
       "stem": "What is the charge of the central metal ion in Ca3[Fe(CN)6]2?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Ca3[Fe(CN)6]2 中中心金属离子的电荷是 ________。",
       "options": [
         {
           "key": "A",
@@ -26683,7 +27102,7 @@
       "type": "single",
       "stem": "The coordination number for [Zn(H2O)3Cl]Cl is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "[Zn(H2O)3Cl]Cl 的配位数是 ________。",
       "options": [
         {
           "key": "A",
@@ -26734,7 +27153,7 @@
       "type": "single",
       "stem": "What is the oxidation state of cobalt in [Co(NH3)5Cl](NO3)2?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "[Co(NH3)5Cl](NO3)2 中钴的氧化态是 ________。",
       "options": [
         {
           "key": "A",
@@ -26785,7 +27204,7 @@
       "type": "single",
       "stem": "EDTA is ________-dantate ligand.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "EDTA 是 ________ 齿配体。",
       "options": [
         {
           "key": "A",
@@ -26808,7 +27227,13 @@
           "text": "hexa"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "单齿",
+        "B": "双齿",
+        "C": "三齿",
+        "D": "四齿",
+        "E": "六齿"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -26836,7 +27261,7 @@
       "type": "single",
       "stem": "Metals with ________ electron configurations characteristically form diamagnetic, square planar complexes.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "具有 ________ 电子构型的金属特征性地形成抗磁性平面四方配合物。",
       "options": [
         {
           "key": "A",
@@ -26887,7 +27312,7 @@
       "type": "single",
       "stem": "What two oxidation states are more frequently observed in the first transition series than in the third?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "第一过渡系比第三过渡系更常见的两个氧化态是 ________。",
       "options": [
         {
           "key": "A",
@@ -26938,7 +27363,7 @@
       "type": "single",
       "stem": "The lanthanide contraction is responsible for the fact that ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "镧系收缩导致 ________。",
       "options": [
         {
           "key": "A",
@@ -26961,7 +27386,13 @@
           "text": "Zr and Hf have the same oxidation states"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Zr 与 Y 半径相近",
+        "B": "Zr 与 Nb 氧化态相似",
+        "C": "Zr 与 Hf 半径相近",
+        "D": "Zr 与 Zn 氧化态相似",
+        "E": "Zr 与 Hf 氧化态相同"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -26989,7 +27420,7 @@
       "type": "single",
       "stem": "Which one of the following is not true about transition metals?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "关于过渡金属，下列哪项不正确？",
       "options": [
         {
           "key": "A",
@@ -27012,7 +27443,13 @@
           "text": "They typically have low melting points."
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "常有一种以上常见氧化态",
+        "B": "化合物常有色",
+        "C": "化合物常显磁性",
+        "D": "位于周期表 d 区",
+        "E": "通常熔点低"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -27040,7 +27477,7 @@
       "type": "single",
       "stem": "Diamagnetic solids ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "抗磁性固体 ________。",
       "options": [
         {
           "key": "A",
@@ -27063,7 +27500,13 @@
           "text": "both a and d"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "有未成对电子",
+        "B": "磁矩随机取向",
+        "C": "在磁场中显示极微弱磁性",
+        "D": "在磁场中电子强排列",
+        "E": "a 和 d"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27091,7 +27534,7 @@
       "type": "single",
       "stem": "What is the most common geometry found in four-coordinate complexes?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "四配位配合物最常见的几何构型是 ________。",
       "options": [
         {
           "key": "A",
@@ -27114,7 +27557,13 @@
           "text": "trigonal bipyramidal"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "平面四方",
+        "B": "八面体",
+        "C": "四面体",
+        "D": "二十面体",
+        "E": "三角双锥"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27142,7 +27591,7 @@
       "type": "single",
       "stem": "The minimum number of unshared valence electron pairs in the ligands of a coordination compound is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配位化合物配体中未共用价电子对的最少数目是 ________。",
       "options": [
         {
           "key": "A",
@@ -27193,7 +27642,7 @@
       "type": "single",
       "stem": "What is the oxidation number of Ni in [Ni(CN)5]3-?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "[Ni(CN)5]3- 中 Ni 的氧化数是 ________。",
       "options": [
         {
           "key": "A",
@@ -27244,7 +27693,7 @@
       "type": "single",
       "stem": "Which of the following is not a chelating agent?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种不是螯合剂？",
       "options": [
         {
           "key": "A",
@@ -27267,7 +27716,13 @@
           "text": "oxalate anion"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氯离子",
+        "B": "EDTA",
+        "C": "卟啉",
+        "D": "乙二胺",
+        "E": "草酸根"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -27295,7 +27750,7 @@
       "type": "single",
       "stem": "In humans, what percent of absorbed iron is found in blood?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "人体中吸收的铁有多少百分比存在于血液？",
       "options": [
         {
           "key": "A",
@@ -27346,7 +27801,7 @@
       "type": "single",
       "stem": "A complex of correctly written formula [Pt(NH3)3Br]Br ∙ H2O has which set of ligands in its inner coordination sphere?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "[Pt(NH3)3Br]Br·H2O 的内界含哪组配体？",
       "options": [
         {
           "key": "A",
@@ -27397,7 +27852,7 @@
       "type": "single",
       "stem": "Which one of the following complexes would most likely have tetrahedral geometry?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种配合物最可能为四面体构型？",
       "options": [
         {
           "key": "A",
@@ -27448,7 +27903,7 @@
       "type": "single",
       "stem": "Coordination sphere isomers ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配位圈异构体 ________。",
       "options": [
         {
           "key": "A",
@@ -27471,7 +27926,13 @@
           "text": "are the same as resonance structures"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "分子式与配位数都相同",
+        "B": "分子式相同但配位数不同",
+        "C": "分子式不同但配位数相同",
+        "D": "分子式与配位数都不同",
+        "E": "等同于共振结构"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -27499,7 +27960,7 @@
       "type": "single",
       "stem": "Based on electron configuration, which is most likely colorless?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "根据电子构型，哪种配合物最可能无色？",
       "options": [
         {
           "key": "A",
@@ -27550,7 +28011,7 @@
       "type": "single",
       "stem": "A metal complex absorbs light mainly at 420 nm. What is the color of the complex?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "某金属配合物主要在 420 nm 吸收光，其颜色是 ________。",
       "options": [
         {
           "key": "A",
@@ -27573,7 +28034,13 @@
           "text": "purple"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "绿色",
+        "B": "黄色",
+        "C": "红色",
+        "D": "橙色",
+        "E": "紫色"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -27601,7 +28068,7 @@
       "type": "single",
       "stem": "Which one of the following complex ions will be paramagnetic?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种配离子是顺磁性的？",
       "options": [
         {
           "key": "A",
@@ -27652,7 +28119,7 @@
       "type": "single",
       "stem": "Complexes containing metals with d10 electron configurations are typically colorless because ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "含 d10 构型金属的配合物通常无色，因为 ________。",
       "options": [
         {
           "key": "A",
@@ -27675,7 +28142,13 @@
           "text": "d electrons must be emitted by the complex in order for it to appear colored"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "无可被可见光激发的 d 电子",
+        "B": "空 d 轨道吸收所有可见光",
+        "C": "无 d 电子与配体成键",
+        "D": "配合物必须带电才有色",
+        "E": "必须发射 d 电子才显色"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -27703,7 +28176,7 @@
       "type": "single",
       "stem": "The attraction of a metal to a neutral ligand is due to ________ bonding.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "金属与中性配体之间的吸引属于 ________ 键。",
       "options": [
         {
           "key": "A",
@@ -27726,7 +28199,13 @@
           "text": "hydrophobic"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "离子",
+        "B": "共价",
+        "C": "离子-偶极",
+        "D": "偶极-偶极",
+        "E": "疏水"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27754,7 +28233,7 @@
       "type": "single",
       "stem": "Of the species below, only ________ is not an electrolyte.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列物质中，只有 ________ 不是电解质。",
       "options": [
         {
           "key": "A",
@@ -27777,7 +28256,13 @@
           "text": "NaCl"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HCl（盐酸）",
+        "B": "Rb2SO4（硫酸铷）",
+        "C": "Ar（氩）",
+        "D": "KOH（氢氧化钾）",
+        "E": "NaCl（氯化钠）"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27805,7 +28290,7 @@
       "type": "single",
       "stem": "The balanced molecular equation for complete neutralization of H2SO4 by KOH in aqueous solution is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "H2SO4 被 KOH 水溶液完全中和的配平分子方程式是 ________。",
       "options": [
         {
           "key": "A",
@@ -27828,7 +28313,13 @@
           "text": "H2SO4 (aq) + 2KOH (aq) → 2H2O (l) + K2SO4 (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "2H+ + 2OH- → 2H2O",
+        "B": "2H+ + 2KOH → 2H2O + 2K+",
+        "C": "H2SO4 + 2OH- → 2H2O + SO4^2-",
+        "D": "H2SO4 + 2KOH → 2H2O + K2SO4(s)",
+        "E": "H2SO4 + 2KOH → 2H2O + K2SO4(aq)"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -27856,7 +28347,7 @@
       "type": "single",
       "stem": "Aqueous potassium chloride will react with which one of the following in an exchange (metathesis) reaction?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氯化钾水溶液会与下列哪一种物质发生复分解（交换）反应？",
       "options": [
         {
           "key": "A",
@@ -27879,7 +28370,13 @@
           "text": "sodium chloride"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "硝酸钙",
+        "B": "溴化钠",
+        "C": "硝酸铅",
+        "D": "硝酸钡",
+        "E": "氯化钠"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27907,7 +28404,7 @@
       "type": "single",
       "stem": "The net ionic equation for formation of an aqueous solution of NiI2 accompanied by evolution of CO2 gas via mixing solid NiCO3 and aqueous hydriodic acid is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "固体 NiCO3 与氢碘酸水溶液混合生成 NiI2 水溶液并放出 CO2 气体的净离子方程式是 ________。",
       "options": [
         {
           "key": "A",
@@ -27930,7 +28427,13 @@
           "text": "NiCO3 (s) + 2HI (aq) → H2O (l) + CO2 (g) + Ni2+ (aq) + 2I- (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "2NiCO3 + HI → 2H2O + CO2 + 2Ni2+",
+        "B": "NiCO3 + I- → 2H2O + CO2 + Ni2+ + HI",
+        "C": "NiCO3 + 2H+ → H2O + CO2 + Ni2+",
+        "D": "NiCO3 + 2HI → 2H2O + CO2 + NiI2",
+        "E": "NiCO3 + 2HI → H2O + CO2 + Ni2+ + 2I-"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -27958,7 +28461,7 @@
       "type": "single",
       "stem": "The net ionic equation for formation of an aqueous solution of Al(NO3)3 via mixing solid Al(OH)3 and aqueous nitric acid is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "固体 Al(OH)3 与硝酸水溶液混合生成 Al(NO3)3 水溶液的净离子方程式是 ________。",
       "options": [
         {
           "key": "A",
@@ -27981,7 +28484,13 @@
           "text": "Al(OH)3 (s)  +  3HNO3 (aq)  →  3H2O (l)  +  Al3+ (aq)  +  NO3- (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Al(OH)3 + 3HNO3 → 3H2O + Al(NO3)3",
+        "B": "Al(OH)3 + 3NO3- → 3OH- + Al(NO3)3",
+        "C": "Al(OH)3 + 3NO3- → 3OH- + Al(NO3)3(s)",
+        "D": "Al(OH)3 + 3H+ → 3H2O + Al3+",
+        "E": "Al(OH)3 + 3HNO3 → 3H2O + Al3+ + NO3-"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28009,7 +28518,7 @@
       "type": "single",
       "stem": "Which of the following is insoluble in water at 25 °C?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪一种物质在 25 °C 时难溶于水？",
       "options": [
         {
           "key": "A",
@@ -28032,7 +28541,13 @@
           "text": "Ba(C2H3O2)2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Mg3(PO4)2（磷酸镁）",
+        "B": "Na2S（硫化钠）",
+        "C": "(NH4)2CO3（碳酸铵）",
+        "D": "Ca(OH)2（氢氧化钙）",
+        "E": "Ba(C2H3O2)2（醋酸钡）"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28060,7 +28575,7 @@
       "type": "single",
       "stem": "When aqueous solutions of ________ are mixed, a precipitate forms.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列两种水溶液混合时 ________ 会产生沉淀。",
       "options": [
         {
           "key": "A",
@@ -28083,7 +28598,13 @@
           "text": "Li2CO3 and CsI"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NiBr2 与 AgNO3",
+        "B": "NaI 与 KBr",
+        "C": "K2SO4 与 CrCl3",
+        "D": "KOH 与 Ba(NO3)2",
+        "E": "Li2CO3 与 CsI"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28111,7 +28632,7 @@
       "type": "single",
       "stem": "Which one of the following compounds is insoluble in water?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种化合物难溶于水？",
       "options": [
         {
           "key": "A",
@@ -28134,7 +28655,13 @@
           "text": "AgNO3"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Na2CO3",
+        "B": "K2SO4",
+        "C": "Fe(NO3)3",
+        "D": "ZnS",
+        "E": "AgNO3"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28162,7 +28689,7 @@
       "type": "single",
       "stem": "Which combination will produce a precipitate?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种组合会产生沉淀？",
       "options": [
         {
           "key": "A",
@@ -28185,7 +28712,13 @@
           "text": "NaF (aq) and HCl (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NaC2H3O2 与 HCl",
+        "B": "NaOH 与 HCl",
+        "C": "AgNO3 与 Ca(C2H3O2)2",
+        "D": "KOH 与 Mg(NO3)2",
+        "E": "NaF 与 HCl"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28213,7 +28746,7 @@
       "type": "single",
       "stem": "Which combination will produce a precipitate?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种组合会产生沉淀？",
       "options": [
         {
           "key": "A",
@@ -28236,7 +28769,13 @@
           "text": "NaOH (aq) and Sr(NO3)2 (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Pb(NO3)2 与 HCl",
+        "B": "Cu(NO3)2 与 KC2H3O2",
+        "C": "KOH 与 HNO3",
+        "D": "AgC2H3O2 与 HC2H3O2",
+        "E": "NaOH 与 Sr(NO3)2"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28264,7 +28803,7 @@
       "type": "single",
       "stem": "With which of the following will the ammonium ion form an insoluble salt?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铵根离子会与下列哪种离子形成难溶盐？",
       "options": [
         {
           "key": "A",
@@ -28287,7 +28826,13 @@
           "text": "none of the above"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "氯离子",
+        "B": "硫酸根",
+        "C": "碳酸根",
+        "D": "硫酸根和碳酸根",
+        "E": "以上都不是"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -28315,7 +28860,7 @@
       "type": "single",
       "stem": "The net ionic equation for the reaction between aqueous sulfuric acid and aqueous sodium hydroxide is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "硫酸水溶液与氢氧化钠水溶液反应的净离子方程式是 ________。",
       "options": [
         {
           "key": "A",
@@ -28338,7 +28883,13 @@
           "text": "2H+ (aq)  +  SO42- (aq)  +  2Na+ (aq)  +  2OH- (aq)  →  2H2O (l)  +  2Na+ (aq)  +  SO42- (aq)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "H+ + HSO4- + 2OH- → 2H2O + SO4^2-",
+        "B": "H+ + HSO4- + 2Na+ + 2OH- → 2H2O + 2Na+ + SO4^2-",
+        "C": "SO4^2- + 2Na+ → 2Na+ + SO4^2-",
+        "D": "H+ + OH- → H2O",
+        "E": "2H+ + SO4^2- + 2Na+ + 2OH- → 2H2O + 2Na+ + SO4^2-"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28366,7 +28917,7 @@
       "type": "single",
       "stem": "The reaction between strontium hydroxide and chloric acid produces ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氢氧化锶与氯酸反应生成 ________。",
       "options": [
         {
           "key": "A",
@@ -28389,7 +28940,13 @@
           "text": "two molecular compounds"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "一种分子化合物和一种弱电解质",
+        "B": "两种弱电解质",
+        "C": "两种强电解质",
+        "D": "一种分子化合物和一种强电解质",
+        "E": "两种分子化合物"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28417,7 +28974,7 @@
       "type": "single",
       "stem": "Which one of the following is a weak acid?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种是弱酸？",
       "options": [
         {
           "key": "A",
@@ -28440,7 +28997,13 @@
           "text": "HClO4"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HNO3",
+        "B": "HCl",
+        "C": "HI",
+        "D": "HF",
+        "E": "HClO4"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28468,7 +29031,7 @@
       "type": "single",
       "stem": "The balanced reaction between aqueous potassium hydroxide and aqueous acetic acid is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氢氧化钾水溶液与醋酸水溶液反应的正确配平方程式是 ________。",
       "options": [
         {
           "key": "A",
@@ -28491,7 +29054,13 @@
           "text": "KOH (aq)  +  HC2H3O2 (aq)  →  H2KC2H3O (aq)  +  O2 (g)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "KOH + HC2H3O2 → OH- + HC2H3O2+ + K",
+        "B": "KOH + HC2H3O2 → H2O + KC2H3O2",
+        "C": "KOH + HC2H3O2 → H2C2H3O3 + K",
+        "D": "KOH + HC2H3O2 → KC2H3O3 + H2",
+        "E": "KOH + HC2H3O2 → H2KC2H3O + O2"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -28519,7 +29088,7 @@
       "type": "single",
       "stem": "In which reaction does the oxidation number of oxygen increase?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在哪个反应中氧的氧化数升高？",
       "options": [
         {
           "key": "A",
@@ -28542,7 +29111,13 @@
           "text": "2H2O (l)  →  2H2 (g)  +  O2 (g)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Ba(NO3)2 + K2SO4 → BaSO4 + 2KNO3",
+        "B": "HCl + NaOH → NaCl + H2O",
+        "C": "MgO + H2O → Mg(OH)2",
+        "D": "2SO2 + O2 → 2SO3",
+        "E": "2H2O → 2H2 + O2"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -28570,7 +29145,7 @@
       "type": "single",
       "stem": "Which compound has the atom with the highest oxidation number?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种化合物含有氧化数最高的原子？",
       "options": [
         {
           "key": "A",
@@ -28593,7 +29168,13 @@
           "text": "NH4Cl"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "CaS",
+        "B": "Na3N",
+        "C": "MgSO3",
+        "D": "Al(NO2)3",
+        "E": "NH4Cl"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -28621,7 +29202,7 @@
       "type": "single",
       "stem": "Of the choices below, which would be the best for the lining of a tank intended for use in storage of hydrochloric acid?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列材料中，哪种最适合做储存盐酸的储罐内衬？",
       "options": [
         {
           "key": "A",
@@ -28644,7 +29225,13 @@
           "text": "tin"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "铜",
+        "B": "锌",
+        "C": "镍",
+        "D": "铁",
+        "E": "锡"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28672,7 +29259,7 @@
       "type": "single",
       "stem": "Which of these metals will be oxidized by the ions of aluminum?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列金属中，哪种会被铝离子氧化？",
       "options": [
         {
           "key": "A",
@@ -28695,7 +29282,13 @@
           "text": "nickel"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "镁",
+        "B": "锌",
+        "C": "铬",
+        "D": "铁",
+        "E": "镍"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28723,7 +29316,7 @@
       "type": "single",
       "stem": "Of the reactions below, only ________ is not spontaneous.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列反应中，只有 ________ 是非自发的。",
       "options": [
         {
           "key": "A",
@@ -28746,7 +29339,13 @@
           "text": "Zn (s)  +  2HI (aq)  →  ZnI2(aq)  +  H2 (g)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Mg + 2HCl → MgCl2 + H2",
+        "B": "2Ag + 2HNO3 → 2AgNO3 + H2",
+        "C": "2Ni + H2SO4 → Ni2SO4 + H2",
+        "D": "2Al + 6HBr → 2AlBr3 + 3H2",
+        "E": "Zn + 2HI → ZnI2 + H2"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -28774,7 +29373,7 @@
       "type": "single",
       "stem": "Which of the following are strong acids? HI HNO3 HF HBr",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪些是强酸？ HI HNO3 HF HBr",
       "options": [
         {
           "key": "A",
@@ -28797,7 +29396,13 @@
           "text": "HI, HNO3, HBr"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HF、HBr",
+        "B": "HI、HNO3、HF、HBr",
+        "C": "HI、HF、HBr",
+        "D": "HNO3、HF、HBr",
+        "E": "HI、HNO3、HBr"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -28825,7 +29430,7 @@
       "type": "single",
       "stem": "What is the concentration (M) of a NaCl solution prepared by dissolving 9.3 g of NaCl in sufficient water to give 350 mL of solution?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "把 9.3 g NaCl 溶于水配成 350 mL 溶液，NaCl 的浓度（M）是 ________。",
       "options": [
         {
           "key": "A",
@@ -28848,7 +29453,13 @@
           "text": "2.7 × 10-2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "18",
+        "B": "0.16",
+        "C": "0.45",
+        "D": "27",
+        "E": "2.7 × 10^-2"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -28876,7 +29487,7 @@
       "type": "single",
       "stem": "Calculate the concentration (M) of sodium ions in a solution made by diluting 50.0 mL of a 0.874 M solution of sodium sulfide to a total volume of 250.0 mL.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 50.0 mL 0.874 M 硫化钠溶液稀释至 250.0 mL，钠离子的浓度（M）是 ________。",
       "options": [
         {
           "key": "A",
@@ -28899,7 +29510,13 @@
           "text": "0.874"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "0.175",
+        "B": "4.37",
+        "C": "0.525",
+        "D": "0.350",
+        "E": "0.874"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -28927,7 +29544,7 @@
       "type": "single",
       "stem": "The molarity of a solution prepared by diluting 43.72 mL of 1.005 M aqueous K2Cr2O7 to 500. mL is ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "将 43.72 mL 1.005 M K2Cr2O7 稀释至 500 mL，其摩尔浓度是 ________。",
       "options": [
         {
           "key": "A",
@@ -28950,7 +29567,13 @@
           "text": "0.870"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "0.0879",
+        "B": "87.9",
+        "C": "0.0218",
+        "D": "0.0115",
+        "E": "0.870"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -28978,7 +29601,7 @@
       "type": "single",
       "stem": "The concentration of species in 500 mL of a 2.104 M solution of sodium sulfate is ________ M sodium ion and ________ M sulfate ion.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "500 mL 2.104 M 硫酸钠溶液中，钠离子为 ________ M，硫酸根离子为 ________ M。",
       "options": [
         {
           "key": "A",
@@ -29001,7 +29624,13 @@
           "text": "4.208, 2.104"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "2.104, 1.052",
+        "B": "2.104, 2.104",
+        "C": "2.104, 4.208",
+        "D": "1.052, 1.052",
+        "E": "4.208, 2.104"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -29029,7 +29658,7 @@
       "type": "single",
       "stem": "The gain of electrons by an element is called ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "元素得到电子称为 ________。",
       "options": [
         {
           "key": "A",
@@ -29052,7 +29681,13 @@
           "text": "sublimation"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "还原",
+        "B": "氧化",
+        "C": "歧化",
+        "D": "分馏",
+        "E": "升华"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29080,7 +29715,7 @@
       "type": "single",
       "stem": "________ is oxidized in the following reaction: Cr2O72- + 6S2O32- + 14H+ → 2Cr3+ + 3S4O62- + 7H2O",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在反应 Cr2O7^2- + 6S2O3^2- + 14H+ → 2Cr3+ + 3S4O6^2- + 7H2O 中，________ 被氧化。",
       "options": [
         {
           "key": "A",
@@ -29103,7 +29738,13 @@
           "text": "S4O62-"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Cr6+",
+        "B": "S2+",
+        "C": "H+",
+        "D": "O2-",
+        "E": "S4O6^2-"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -29131,7 +29772,7 @@
       "type": "single",
       "stem": "________ is the reducing agent in the reaction below. Cr2O72- + 6S2O32- + 14H+ → 2Cr3+ + 3S4O62- + 7H2O",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在下面的反应中 ________ 是还原剂。 Cr2O7^2- + 6S2O3^2- + 14H+ → 2Cr3+ + 3S4O6^2- + 7H2O",
       "options": [
         {
           "key": "A",
@@ -29154,7 +29795,13 @@
           "text": "S4O62-"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Cr2O7^2-",
+        "B": "S2O3^2-",
+        "C": "H+",
+        "D": "Cr3+",
+        "E": "S4O6^2-"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -29182,7 +29829,7 @@
       "type": "single",
       "stem": "What is the oxidation number of chromium in Cr2O72- ion?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "Cr2O7^2- 离子中铬的氧化数是 ________。",
       "options": [
         {
           "key": "A",
@@ -29205,7 +29852,13 @@
           "text": "+14"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "+3",
+        "B": "+12",
+        "C": "+7",
+        "D": "+6",
+        "E": "+14"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -29233,7 +29886,7 @@
       "type": "single",
       "stem": "________ electrons appear in the following half-reaction when it is balanced. S4O62- → 2S2O32-",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平半反应 S4O6^2- → 2S2O3^2- 时，有 ________ 个电子出现。",
       "options": [
         {
           "key": "A",
@@ -29256,7 +29909,13 @@
           "text": "3"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "6",
+        "B": "2",
+        "C": "4",
+        "D": "1",
+        "E": "3"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -29284,7 +29943,7 @@
       "type": "single",
       "stem": "The half-reaction occurring at the anode in the balanced reaction shown below is ________. 3MnO4- (aq) + 24H+ (aq) + 5Fe (s) → 3Mn2+ (aq) + 5Fe3+ (aq) + 12H2O (l)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在配平的反应 3MnO4- + 24H+ + 5Fe → 3Mn2+ + 5Fe3+ + 12H2O 中，阳极发生的半反应是 ________。",
       "options": [
         {
           "key": "A",
@@ -29307,7 +29966,13 @@
           "text": "Fe2+ (aq)  →  Fe3+ (aq)  +  e-"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "MnO4- + 8H+ + 5e- → Mn2+ + 4H2O",
+        "B": "2MnO4- + 12H+ + 6e- → 2Mn2+ + 3H2O",
+        "C": "Fe → Fe3+ + 3e-",
+        "D": "Fe → Fe2+ + 2e-",
+        "E": "Fe2+ → Fe3+ + e-"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -29335,7 +30000,7 @@
       "type": "single",
       "stem": "The more ________ the value of E°red, the greater the driving force for reduction.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "E°red 的值越 ________，还原的驱动力越大。",
       "options": [
         {
           "key": "A",
@@ -29358,7 +30023,13 @@
           "text": "extensive"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "正",
+        "B": "负",
+        "C": "放热",
+        "D": "吸热",
+        "E": "广泛"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29386,7 +30057,7 @@
       "type": "single",
       "stem": "Standard reduction potentials (V): Cr3+ + 3e- → Cr, -0.74; Fe2+ + 2e- → Fe, -0.440; Fe3+ + e- → Fe2+, +0.771; Sn4+ + 2e- → Sn2+, +0.154. The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V. Sn2+ (aq) + 2Fe3+ (aq) → 2Fe2+ (aq) + Sn4+ (aq)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（标准电极电势表）基于下列反应的伏打电池标准电动势 E°cell 是 ________ V。 Sn2+ + 2Fe3+ → 2Fe2+ + Sn4+",
       "options": [
         {
           "key": "A",
@@ -29409,7 +30080,13 @@
           "text": "+1.21"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "+0.46",
+        "B": "+0.617",
+        "C": "+1.39",
+        "D": "-0.46",
+        "E": "+1.21"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -29437,7 +30114,7 @@
       "type": "single",
       "stem": "Standard reduction potentials (V): Cr3+ + 3e- → Cr, -0.74; Fe2+ + 2e- → Fe, -0.440; Fe3+ + e- → Fe2+, +0.771; Sn4+ + 2e- → Sn2+, +0.154. The standard cell potential (E°cell) for the voltaic cell based on the reaction below is ________ V. Cr (s) + 3Fe3+ (aq) → 3Fe2+ (aq) + Cr3+ (aq)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "（标准电极电势表）基于下列反应的伏打电池标准电动势 E°cell 是 ________ V。 Cr + 3Fe3+ → 3Fe2+ + Cr3+",
       "options": [
         {
           "key": "A",
@@ -29460,7 +30137,13 @@
           "text": "+1.57"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "-1.45",
+        "B": "+2.99",
+        "C": "+1.51",
+        "D": "+3.05",
+        "E": "+1.57"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -29488,7 +30171,7 @@
       "type": "single",
       "stem": "The relationship between the change in Gibbs free energy and the emf of an electrochemical cell is given by ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "吉布斯自由能变化与电化学电池电动势的关系是 ________。",
       "options": [
         {
           "key": "A",
@@ -29511,7 +30194,13 @@
           "text": "ΔG = -nF/(ERT)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "ΔG = -nF/E",
+        "B": "ΔG = -E/(nF)",
+        "C": "ΔG = -nFE",
+        "D": "ΔG = -nRTF",
+        "E": "ΔG = -nF/(ERT)"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -29539,7 +30228,7 @@
       "type": "single",
       "stem": "The standard cell potential (E°cell) of the reaction below is +0.126 V. The value of ΔG° for the reaction is ________ kJ/mol. Pb (s) + 2H+(aq) → Pb2+ (aq) + H2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列反应的标准电动势 E°cell 为 +0.126 V，该反应的 ΔG° 是 ________ kJ/mol。 Pb + 2H+ → Pb2+ + H2",
       "options": [
         {
           "key": "A",
@@ -29562,7 +30251,13 @@
           "text": "-50.8"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "-24.3",
+        "B": "+24.3",
+        "C": "-12.6",
+        "D": "+12.6",
+        "E": "-50.8"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29590,7 +30285,7 @@
       "type": "single",
       "stem": "The standard cell potential (E°cell) of the reaction below is +1.34 V. The value of ΔG° for the reaction is ________ kJ/mol. 3 Cu (s) + 2 MnO4- (aq) + 8H+ (aq) → 3 Cu2+ (aq) + 2 MnO2 (s) + 4 H2O (l)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列反应的标准电动势 E°cell 为 +1.34 V，该反应的 ΔG° 是 ________ kJ/mol。 3Cu + 2MnO4- + 8H+ → 3Cu2+ + 2MnO2 + 4H2O",
       "options": [
         {
           "key": "A",
@@ -29613,7 +30308,13 @@
           "text": "–776"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "-24.3",
+        "B": "+259",
+        "C": "-259",
+        "D": "+776",
+        "E": "-776"
+      },
       "glossary": [],
       "answer": [
         "E"
@@ -29641,7 +30342,7 @@
       "type": "single",
       "stem": "The lead-containing reactant(s) consumed during recharging of a lead-acid battery is/are ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铅酸电池充电时消耗的含铅反应物是 ________。",
       "options": [
         {
           "key": "A",
@@ -29664,7 +30365,13 @@
           "text": "both Pb (s) and PbO2 (s)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "仅 Pb(s)",
+        "B": "仅 PbO2(s)",
+        "C": "仅 PbSO4(s)",
+        "D": "PbO2(s) 和 PbSO4(s)",
+        "E": "Pb(s) 和 PbO2(s)"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -29692,7 +30399,7 @@
       "type": "single",
       "stem": "Corrosion of iron is retarded by ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "铁的腐蚀可通过 ________ 减缓。",
       "options": [
         {
           "key": "A",
@@ -29715,7 +30422,13 @@
           "text": "both the presence of salts and low pH conditions"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "盐的存在",
+        "B": "高 pH 条件",
+        "C": "低 pH 条件",
+        "D": "盐的存在和高 pH 条件",
+        "E": "盐的存在和低 pH 条件"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -29743,7 +30456,7 @@
       "type": "single",
       "stem": "The purpose of the salt bridge in an electrochemical cell is to ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "电化学电池中盐桥的作用是 ________。",
       "options": [
         {
           "key": "A",
@@ -29766,7 +30479,13 @@
           "text": "provide a means for electrons to travel from the cathode to the anode"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "通过离子迁移维持半电池电中性",
+        "B": "提供在阴阳极反应的离子来源",
+        "C": "提供氧气以促进阳极氧化",
+        "D": "提供电子从阳极流向阴极的通路",
+        "E": "提供电子从阴极流向阳极的通路"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29794,7 +30513,7 @@
       "type": "single",
       "stem": "Which transformation could take place at the anode of an electrochemical cell?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪种转化可发生在电化学电池的阳极？",
       "options": [
         {
           "key": "A",
@@ -29817,7 +30536,13 @@
           "text": "O2  →  H2O2"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "NO → NO3-",
+        "B": "CO2 → C2O4^2-",
+        "C": "VO2+ → VO2+",
+        "D": "H2AsO4 → H3AsO3",
+        "E": "O2 → H2O2"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29845,7 +30570,7 @@
       "type": "single",
       "stem": "What is the cathode in the hydrogen fuel cell?",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "氢燃料电池中的阴极是 ________。",
       "options": [
         {
           "key": "A",
@@ -29868,7 +30593,13 @@
           "text": "Pt"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "O2",
+        "B": "KOH",
+        "C": "Li",
+        "D": "H2",
+        "E": "Pt"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29896,7 +30627,7 @@
       "type": "single",
       "stem": "In a lead-acid battery, the electrodes are consumed. In this battery, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在铅酸电池中电极会被消耗，该电池中 ________。",
       "options": [
         {
           "key": "A",
@@ -29919,7 +30650,13 @@
           "text": "the cathode is Pb"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "阳极是 Pb",
+        "B": "阳极是 PbSO4",
+        "C": "阳极是 PbO2",
+        "D": "阴极是 PbSO4",
+        "E": "阴极是 Pb"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -29947,7 +30684,7 @@
       "type": "single",
       "stem": "Cathodic protection of a metal pipe against corrosion usually entails ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "金属管道的阴极保护通常需要 ________。",
       "options": [
         {
           "key": "A",
@@ -29970,7 +30707,13 @@
           "text": "coating the pipe with a fluoropolymer to act as a source of fluoride ion (since the latter is so hard to oxidize)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "连接活泼金属使管道成为电池的阳极",
+        "B": "用标准还原电位比管道更正的金属镀覆管道",
+        "C": "连接活泼金属使管道成为阴极",
+        "D": "连接干电池还原可能生成的金属离子",
+        "E": "用含氟聚合物镀覆管道以提供氟离子源"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -29998,7 +30741,7 @@
       "type": "single",
       "stem": "One of the differences between a voltaic cell and an electrolytic cell is that in an electrolytic cell, ________.",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "伏打电池与电解池的区别之一是：在电解池中 ________。",
       "options": [
         {
           "key": "A",
@@ -30021,7 +30764,13 @@
           "text": "oxidation occurs at the cathode"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "由化学反应产生电流",
+        "B": "电子流向阳极",
+        "C": "非自发反应被强制进行",
+        "D": "阴极生成 O2 气体",
+        "E": "阴极发生氧化"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -30049,7 +30798,7 @@
       "type": "single",
       "stem": "Which element is reduced in the reaction below? Fe(CO)5 (l) + 2HI (g) → Fe(CO)4I2 (s) + CO (g) + H2 (g)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在反应 Fe(CO)5 + 2HI → Fe(CO)4I2 + CO + H2 中，哪种元素被还原？",
       "options": [
         {
           "key": "A",
@@ -30072,7 +30821,13 @@
           "text": "I"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "Fe",
+        "B": "C",
+        "C": "O",
+        "D": "H",
+        "E": "I"
+      },
       "glossary": [],
       "answer": [
         "D"
@@ -30100,7 +30855,7 @@
       "type": "single",
       "stem": "Which of the following reactions is a redox reaction? (a) K2CrO4 + BaCl2 → BaCrO4 + 2KCl (b) Pb22+ + 2Br- → PbBr (c) Cu + S → CuS",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "下列哪个反应是氧化还原反应？",
       "options": [
         {
           "key": "A",
@@ -30123,7 +30878,13 @@
           "text": "(b) and (c)"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "仅 (a)",
+        "B": "仅 (b)",
+        "C": "仅 (c)",
+        "D": "(a) 和 (c)",
+        "E": "(b) 和 (c)"
+      },
       "glossary": [],
       "answer": [
         "C"
@@ -30151,7 +30912,7 @@
       "type": "single",
       "stem": "Which substance is the oxidizing agent in the following reaction? Fe2S3 + 12HNO3 → 2Fe(NO3)3 + 3S + 6NO2 + 6H2O",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "在反应 Fe2S3 + 12HNO3 → 2Fe(NO3)3 + 3S + 6NO2 + 6H2O 中，哪种物质是氧化剂？",
       "options": [
         {
           "key": "A",
@@ -30174,7 +30935,13 @@
           "text": "H2O"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "HNO3",
+        "B": "S",
+        "C": "NO2",
+        "D": "Fe2S3",
+        "E": "H2O"
+      },
       "glossary": [],
       "answer": [
         "A"
@@ -30202,7 +30969,7 @@
       "type": "single",
       "stem": "What is the coefficient of the permanganate ion when the following equation is balanced? MnO4- + Br- → Mn2+ + Br2 (acidic solution)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平 MnO4- + Br- → Mn2+ + Br2（酸性溶液）时，高锰酸根离子的系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -30225,7 +30992,13 @@
           "text": "4"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "4"
+      },
       "glossary": [],
       "answer": [
         "B"
@@ -30253,7 +31026,7 @@
       "type": "single",
       "stem": "What is the coefficient of Fe3+ when the following equation is balanced? CN- + Fe3+ → CNO- + Fe2+ (basic solution)",
       "stemImages": [],
-      "stemZh": "",
+      "stemZh": "配平 CN- + Fe3+ → CNO- + Fe2+（碱性溶液）时，Fe3+ 的系数是 ________。",
       "options": [
         {
           "key": "A",
@@ -30276,7 +31049,13 @@
           "text": "5"
         }
       ],
-      "optionsZh": {},
+      "optionsZh": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
       "glossary": [],
       "answer": [
         "B"

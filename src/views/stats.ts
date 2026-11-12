@@ -28,21 +28,42 @@ export function renderStats({ app }: RouteCtx): void {
   const best = scores.length ? Math.max(...scores) : 0;
   const avg = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
 
-  const rows = exams.map((e, i) => {
-    const prev = i > 0 ? exams[i - 1].correctCount ?? 0 : null;
-    const delta = prev === null ? null : (e.correctCount ?? 0) - prev;
-    return el("a", { class: "score-row", href: `#/exam/result/${e.id}` }, [
-      el("span", { class: "score-seq" }, [`第 ${i + 1} 次`]),
-      el("span", { class: "score-date muted small" }, [fmtDateTime(e.submittedAt)]),
-      el("span", { class: "score-score" }, [`${e.correctCount ?? 0} / ${e.total}`]),
-      el("span", { class: "score-time muted small" }, [fmtDuration(e.elapsedMs)]),
-      delta === null
-        ? el("span", { class: "score-delta" }, ["—"])
-        : el("span", { class: `score-delta ${delta >= 0 ? "ok" : "bad"}` }, [
-            `${delta >= 0 ? "▲" : "▼"}${Math.abs(delta)}`,
+  const currentExams = exams.filter((e) => (e.mode ?? "legacy") === "current");
+  const legacyExams = exams.filter((e) => (e.mode ?? "legacy") === "legacy");
+
+  const rowsOf = (list: typeof exams) =>
+    list.map((e, i) => {
+      const prev = i > 0 ? list[i - 1].correctCount ?? 0 : null;
+      const delta = prev === null ? null : (e.correctCount ?? 0) - prev;
+      return el("a", { class: "score-row", href: `#/exam/result/${e.id}` }, [
+        el("span", { class: "score-seq" }, [`第 ${i + 1} 次`]),
+        el("span", { class: "score-date muted small" }, [fmtDateTime(e.submittedAt)]),
+        el("span", { class: "score-score" }, [`${e.correctCount ?? 0} / ${e.total}`]),
+        el("span", { class: "score-time muted small" }, [fmtDuration(e.elapsedMs)]),
+        delta === null
+          ? el("span", { class: "score-delta" }, ["—"])
+          : el("span", { class: `score-delta ${delta >= 0 ? "ok" : "bad"}` }, [
+              `${delta >= 0 ? "▲" : "▼"}${Math.abs(delta)}`,
+            ]),
+      ]);
+    });
+
+  const scoreTable = (title: string, list: typeof exams): HTMLElement[] =>
+    list.length === 0
+      ? []
+      : [
+          el("h2", {}, [title]),
+          el("div", { class: "score-table" }, [
+            el("div", { class: "score-row score-head" }, [
+              el("span", { class: "score-seq" }, ["次序"]),
+              el("span", { class: "score-date" }, ["日期"]),
+              el("span", { class: "score-score" }, ["得分"]),
+              el("span", { class: "score-time" }, ["用时"]),
+              el("span", { class: "score-delta" }, ["较上次"]),
+            ]),
+            ...rowsOf(list),
           ]),
-    ]);
-  });
+        ];
 
   app.replaceChildren(
     header("成绩与用时"),
@@ -70,15 +91,9 @@ export function renderStats({ app }: RouteCtx): void {
       el("h2", {}, ["模拟成绩单"]),
       exams.length === 0
         ? el("div", { class: "empty" }, ["尚无已交卷的模拟记录。"])
-        : el("div", { class: "score-table" }, [
-            el("div", { class: "score-row score-head" }, [
-              el("span", { class: "score-seq" }, ["次序"]),
-              el("span", { class: "score-date" }, ["日期"]),
-              el("span", { class: "score-score" }, ["得分"]),
-              el("span", { class: "score-time" }, ["用时"]),
-              el("span", { class: "score-delta" }, ["较上次"]),
-            ]),
-            ...rows,
+        : el("div", {}, [
+            ...scoreTable("仿真模拟（已核 300 题）", currentExams),
+            ...scoreTable("老题重刷（原 250 题）", legacyExams),
           ]),
       el("div", { class: "muted small" }, [
         "点任意一行 → 查看那一次的成绩、逐题解析，并可“开始练习本次错题”。",

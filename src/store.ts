@@ -33,6 +33,7 @@ export interface ExamRecord {
   seed: number;
   bankVersion: number;
   bankId: string;
+  mode?: "legacy" | "current";
   questionIds: string[];
   startedAt: number;
   submittedAt: number | null;

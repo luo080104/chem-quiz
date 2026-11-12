@@ -45,6 +45,7 @@ const routes: Array<[RegExp, View]> = [
   [/^drill\/new\/\d+$/, (c) => renderDrillNew(c)],
   [/^cram$/, (c) => renderCram(c)],
   [/^exam$/, (c) => renderExam(c)],
+  [/^exam\/legacy$/, (c) => renderExam(c)],
   [/^exam\/result\/(.+)$/, (c) => renderExamResult(c)],
   [/^wrongbook$/, (c) => renderWrongbook(c)],
   [/^stats$/, (c) => renderStats(c)],

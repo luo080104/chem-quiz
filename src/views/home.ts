@@ -15,7 +15,8 @@ export function renderHome({ app }: RouteCtx): void {
   const exams = state()
     .exams.filter((e) => e.submittedAt)
     .sort((a, b) => (b.submittedAt || 0) - (a.submittedAt || 0));
-  const lastExam = exams[0];
+  const lastExam = exams.find((e) => (e.mode ?? "legacy") === "current") || exams[0];
+  const lastLegacy = exams.find((e) => (e.mode ?? "legacy") === "legacy");
 
   const demoPieces: (Node | string)[] = [];
   if (total < 250) {
@@ -95,6 +96,14 @@ export function renderHome({ app }: RouteCtx): void {
           `用时 ${fmtDuration(lastExam.elapsedMs)} · ${fmtDateTime(lastExam.submittedAt)}`
         )
       : statCard("最近模拟", "尚无记录", "完成一次模拟后显示"),
+    lastLegacy
+      ? statCardLink(
+          `#/exam/result/${lastLegacy.id}`,
+          "老题重刷（点击查看）",
+          `${lastLegacy.correctCount ?? 0} / ${lastLegacy.total}`,
+          `用时 ${fmtDuration(lastLegacy.elapsedMs)} · ${fmtDateTime(lastLegacy.submittedAt)}`
+        )
+      : null,
   ]);
 
   app.replaceChildren(
@@ -132,6 +141,12 @@ export function renderHome({ app }: RouteCtx): void {
           `随机无放回抽题 · 正计时（本次抽 ${sampleSize} 题）`,
           "exam",
           () => go("#/exam")
+        ),
+        bigButton(
+          "老题重刷",
+          "只从原 250 题（1a/1b/2）抽 100 题 · 正计时",
+          "legacy",
+          () => go("#/exam/legacy")
         ),
         newCount > 0
           ? bigButton(
@@ -185,6 +200,7 @@ const ICONS: Record<string, string> = {
   search: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="2" y="2" width="8" height="1"/><rect x="2" y="9" width="8" height="1"/><rect x="2" y="2" width="1" height="8"/><rect x="9" y="2" width="1" height="8"/><rect x="10" y="10" width="2" height="2"/><rect x="12" y="12" width="2" height="2"/></svg>',
   bolt: '<svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" shape-rendering="crispEdges"><rect x="8" y="1" width="3" height="6"/><rect x="6" y="6" width="4" height="3"/><rect x="5" y="8" width="3" height="7"/></svg>',
   new: '<svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges"><rect x="7" y="1" width="2" height="4"/><rect x="7" y="11" width="2" height="4"/><rect x="1" y="7" width="4" height="2"/><rect x="11" y="7" width="4" height="2"/><rect x="5" y="5" width="2" height="2"/><rect x="9" y="5" width="2" height="2"/><rect x="5" y="9" width="2" height="2"/><rect x="9" y="9" width="2" height="2"/></svg>',
+  legacy: '<svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges"><rect x="1" y="7" width="3" height="2"/><rect x="3" y="7" width="1" height="2"/><rect x="1" y="4" width="2" height="2"/><rect x="1" y="10" width="2" height="2"/><rect x="4" y="4" width="6" height="1"/><rect x="4" y="7" width="8" height="2"/><rect x="4" y="11" width="6" height="1"/></svg>',
 };
 
 function iconSpan(name: string, cls: string): HTMLSpanElement {

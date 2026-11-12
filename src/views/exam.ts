@@ -17,31 +17,46 @@ function activeExam() {
   return s.exams.find((e) => e.id === s.activeExamId && !e.submittedAt) || null;
 }
 
-export function renderExam({ app }: RouteCtx): void {
+export function renderExam({ app, parts }: RouteCtx): void {
+  const mode: "legacy" | "current" = parts[1] === "legacy" ? "legacy" : "current";
   const exam = activeExam();
   if (!exam) {
-    renderExamStart(app);
+    renderExamStart(app, mode);
     return;
   }
   renderExamRunning(app, exam.id);
 }
 
-function renderExamStart(app: HTMLElement): void {
+function examPool(mode: "legacy" | "current"): Question[] {
+  if (mode === "legacy") {
+    return getBank().questions.filter((q) =>
+      ["chapter1a", "chapter1b", "chapter1c"].includes(q.label)
+    );
+  }
+  return scorableQuestions().filter((q) => q.reviewStatus === "approved");
+}
+
+const MODE_TITLE: Record<"legacy" | "current", string> = {
+  legacy: "老题重刷",
+  current: "仿真模拟",
+};
+
+function renderExamStart(app: HTMLElement, mode: "legacy" | "current"): void {
   const bank = getBank();
-  const pool = scorableQuestions().filter((q) => q.reviewStatus === "approved");
+  const pool = examPool(mode);
   const size = Math.min(100, pool.length);
   const isReal = bank.questions.length >= 250 && pool.length >= 100;
+  const title = MODE_TITLE[mode];
+  const sub = mode === "legacy"
+    ? `只从原 250 题（1a/1b/2）中随机无放回抽取 ${size} 题。`
+    : `从 ${pool.length} 道已核题中随机无放回抽取 ${size} 题。`;
 
   app.replaceChildren(
-    header("仿真模拟"),
+    header(title),
     el("div", { class: "page" }, [
       el("div", { class: isReal ? "banner ok" : "banner warn" }, [
-        el("strong", {}, [isReal ? `仿真模拟：${pool.length} 抽 ${size}` : "样机演示："]),
-        el("div", {}, [
-          isReal
-            ? `从 ${pool.length} 道已核题中随机无放回抽取 ${size} 题。`
-            : `当前题库 ${bank.questions.length} 题（已核 ${pool.length} 题），本次仅演示模拟流程。`,
-        ]),
+        el("strong", {}, [isReal ? `${title}：${pool.length} 抽 ${size}` : "样机演示："]),
+        el("div", {}, [sub]),
       ]),
       el("ul", { class: "rules-list" }, [
         el("li", {}, [`本次抽题：${size} 题`]),
@@ -55,25 +70,26 @@ function renderExamStart(app: HTMLElement): void {
         {
           class: "primary-btn",
           disabled: size === 0,
-          onClick: () => startExam(),
+          onClick: () => startExam(mode),
         },
-        [size === 0 ? "没有可判分的题目" : `开始模拟（${size} 题）`]
+        [size === 0 ? "没有可判分的题目" : `开始${title}（${size} 题）`]
       ),
     ])
   );
 }
 
-function startExam(): void {
+function startExam(mode: "legacy" | "current"): void {
   const s = state();
-  const pool = scorableQuestions().filter((q) => q.reviewStatus === "approved").map((q) => q.id);
+  const pool = examPool(mode).map((q) => q.id);
   const seed = (Math.random() * 2 ** 31) >>> 0;
   const ids = sampleIds(pool, 100, seed);
   const bank = getBank();
-  const rec = {
+  const rec: NonNullable<ReturnType<typeof activeExam>> = {
     id: uid("exam"),
     seed,
     bankVersion: bank.meta.version,
     bankId: bank.meta.bankId,
+    mode,
     questionIds: ids,
     startedAt: nowMs(),
     submittedAt: null,
@@ -87,18 +103,19 @@ function startExam(): void {
   s.exams.push(rec);
   s.activeExamId = rec.id;
   persist();
-  // Force a re-render even if the hash is already "#/exam".
-  if (location.hash === "#/exam") {
+  // Force a re-render even if the hash is already on an exam route.
+  const target = mode === "legacy" ? "#/exam/legacy" : "#/exam";
+  if (location.hash === target) {
     window.dispatchEvent(new HashChangeEvent("hashchange"));
   } else {
-    go("#/exam");
+    go(target);
   }
 }
 
 function renderExamRunning(app: HTMLElement, examId: string): void {
   const exam = state().exams.find((e) => e.id === examId);
   if (!exam) {
-    renderExamStart(app);
+    renderExamStart(app, "current");
     return;
   }
   const qs = exam.questionIds.map((id) => byId(id)).filter((q): q is Question => !!q);
@@ -224,7 +241,7 @@ function renderExamRunning(app: HTMLElement, examId: string): void {
   );
 
   app.replaceChildren(
-    header("仿真模拟"),
+    header(MODE_TITLE[exam.mode ?? "legacy"]),
     el("div", { class: "page" }, [
       el("div", { class: "exam-top" }, [
         el("span", { class: "exam-label" }, [`用时（正计时）`]),
